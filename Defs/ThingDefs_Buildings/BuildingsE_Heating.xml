@@ -1,0 +1,746 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!--LEGACY-->
+
+  <ThingDef ParentName="BasedHygieneMom">
+    <defName>ImmersionHeater</defName>
+    <label>Boiler(Legacy item)</label>
+    <description>replace this with an electric boiler and a hot water tank!</description>
+    <graphicData>
+      <texPath>DBH/Things/Building/Heating/Boiler</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1,2)</drawSize>
+      <damageData>
+        <rect>(0.05,0.05,0.95,0.95)</rect>
+      </damageData>
+    </graphicData>
+    <minifiedDef>MinifiedFurniture</minifiedDef>
+    <blockWind>false</blockWind>
+    <castEdgeShadows>true</castEdgeShadows>
+    <selectable>true</selectable>
+    <pathCost>8</pathCost>
+    <size>(1,1)</size>
+    <costList>
+      <Steel>90</Steel>
+      <Component>3</Component>
+    </costList>
+    <soundImpactDefault>BulletImpactMetal</soundImpactDefault>
+    <rotatable>false</rotatable>
+    <statBases>
+      <MaxHitPoints>125</MaxHitPoints>
+      <WorkToBuild>1600</WorkToBuild>
+    </statBases>
+    <comps>
+      <li Class="DubsBadHygiene.CompProperties_Pipe">
+        <mode>Sewage</mode>
+      </li>
+      <li Class="DubsBadHygiene.CompProperties_CompBoiler">
+        <BaseCapacity>250</BaseCapacity>
+        <LowPowerMode>-20</LowPowerMode>
+        <ThermostatControl>true</ThermostatControl>
+      </li>
+      <li Class="DubsBadHygiene.CompProperties_HeatStore">
+        <StoreCapacity>100</StoreCapacity>
+        <RiseRate>0.04</RiseRate>
+        <FallRate>0.001</FallRate>
+        <ForRunningWater>true</ForRunningWater>
+      </li>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>250</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_Breakdownable"/>
+    </comps>
+    <menuHidden>true</menuHidden>
+    <designationCategory></designationCategory>
+  </ThingDef>
+
+
+  <ThingDef ParentName="BasedHygieneMom">
+    <defName>FueledBoiler</defName>
+    <label>Multi-fuel stove(Legacy item)</label>
+    <description>Replace this with a wood stove or gas boiler!</description>
+    <graphicData>
+      <texPath>DBH/Things/Building/Heating/Stove</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(2,2)</drawSize>
+      <damageData>
+        <rect>(0.05,0.05,0.95,0.95)</rect>
+      </damageData>
+    </graphicData>
+    <minifiedDef>MinifiedFurniture</minifiedDef>
+    <blockWind>true</blockWind>
+    <castEdgeShadows>true</castEdgeShadows>
+    <selectable>true</selectable>
+    <pathCost>8</pathCost>
+    <size>(1,1)</size>
+    <costList>
+      <Steel>200</Steel>
+      <Component>1</Component>
+    </costList>
+    <soundImpactDefault>BulletImpactMetal</soundImpactDefault>
+    <rotatable>true</rotatable>
+    <statBases>
+      <MaxHitPoints>350</MaxHitPoints>
+      <WorkToBuild>1200</WorkToBuild>
+    </statBases>
+    <comps>
+      <li Class="DubsBadHygiene.CompProperties_Pipe">
+        <mode>Sewage</mode>
+      </li>
+      <li Class="DubsBadHygiene.CompProperties_CompBoiler">
+        <BaseCapacity>2000</BaseCapacity>
+        <ThermostatControl>false</ThermostatControl>
+        <effects>
+          <texPath>DBH/Things/Building/Heating/LogBoilerEffects</texPath>
+          <graphicClass>Graphic_Flicker</graphicClass>
+          <shaderType>MoteGlow</shaderType>
+          <drawSize>(2,2)</drawSize>
+        </effects>
+      </li>
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_Refuelable">
+        <fuelConsumptionRate>12.0</fuelConsumptionRate>
+        <consumeFuelOnlyWhenUsed>false</consumeFuelOnlyWhenUsed>
+        <fuelCapacity>30.0</fuelCapacity>
+        <fuelFilter>
+          <thingDefs>
+            <li>WoodLog</li>
+            <li>Chemfuel</li>
+          </thingDefs>
+        </fuelFilter>
+      </li>
+      <li Class="CompProperties_Glower">
+        <glowRadius>6</glowRadius>
+        <glowColor>(217,112,33,0)</glowColor>
+      </li>
+      <li Class="CompProperties_HeatPusher">
+        <compClass>CompHeatPusherPowered</compClass>
+        <heatPerSecond>4</heatPerSecond>
+      </li>
+    </comps>
+    <researchPrerequisites>
+      <li>Plumbing</li>
+    </researchPrerequisites>
+    <menuHidden>true</menuHidden>
+    <designationCategory></designationCategory>
+  </ThingDef>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!--               Heating              -->
+
+  <ThingDef ParentName="BasedHygieneMom">
+    <defName>Thermostat</defName>
+    <label>Thermostat</label>
+    <description>Used to control electric and gas boilers, more than 1 can be placed, connects via standard plumbing.</description>
+    <graphicData>
+      <texPath>DBH/Things/Building/Heating/thermostat</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(2,2)</drawSize>
+      <damageData>
+        <rect>(0.05,0.05,0.95,0.95)</rect>
+      </damageData>
+    </graphicData>
+    <uiIconPath>DBH/UI/Thermostat</uiIconPath>
+    <minifiedDef>MinifiedFurniture</minifiedDef>
+    <blockWind>false</blockWind>
+    <castEdgeShadows>false</castEdgeShadows>
+    <selectable>true</selectable>
+    <pathCost>0</pathCost>
+    <costList>
+      <Steel>10</Steel>
+      <Component>1</Component>
+    </costList>
+    <soundImpactDefault>BulletImpactMetal</soundImpactDefault>
+    <rotatable>true</rotatable>
+    <statBases>
+      <MaxHitPoints>20</MaxHitPoints>
+      <WorkToBuild>200</WorkToBuild>
+    </statBases>
+    <comps>
+      <li Class="DubsBadHygiene.CompProperties_Pipe">
+        <mode>Sewage</mode>
+      </li>
+      <li Class="DubsBadHygiene.CompProperties_Thermostat">
+        <maxTargetTemperature>35</maxTargetTemperature>
+        <minTargetTemperature>5</minTargetTemperature>
+      </li>
+    </comps>
+    <researchPrerequisites>
+      <li>PoweredHeating</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="BasedHygieneMom">
+    <defName>LogBoiler</defName>
+    <label>Log boiler</label>
+    <description>Produces 2000 heating units for radiators and hot water tanks. Requires wood logs for fuel.</description>
+    <graphicData>
+      <texPath>DBH/Things/Building/Heating/Stove</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(2,2)</drawSize>
+      <damageData>
+        <rect>(0.05,0.05,0.95,0.95)</rect>
+      </damageData>
+    </graphicData>
+    <minifiedDef>MinifiedFurniture</minifiedDef>
+    <blockWind>true</blockWind>
+    <castEdgeShadows>false</castEdgeShadows>
+    <selectable>true</selectable>
+    <pathCost>150</pathCost>
+    <size>(1,1)</size>
+    <costList>
+      <Steel>200</Steel>
+    </costList>
+    <soundImpactDefault>BulletImpactMetal</soundImpactDefault>
+    <rotatable>true</rotatable>
+    <statBases>
+      <MaxHitPoints>250</MaxHitPoints>
+      <WorkToBuild>1000</WorkToBuild>
+    </statBases>
+    <comps>
+      <li Class="DubsBadHygiene.CompProperties_Pipe">
+        <mode>Sewage</mode>
+      </li>
+      <li Class="DubsBadHygiene.CompProperties_CompBoiler">
+        <BaseCapacity>2000</BaseCapacity>
+        <ThermostatControl>false</ThermostatControl>
+        <effects>
+          <texPath>DBH/Things/Building/Heating/LogBoilerEffects</texPath>
+          <graphicClass>DubsBadHygiene.Graphic_FX</graphicClass>
+          <shaderType>MoteGlow</shaderType>
+          <drawSize>(2,2)</drawSize>
+        </effects>
+      </li>
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_Refuelable">
+        <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+        <fuelConsumptionRate>22.0</fuelConsumptionRate>
+        <fuelCapacity>75.0</fuelCapacity>
+        <fuelFilter>
+          <thingDefs>
+            <li>WoodLog</li>
+          </thingDefs>
+        </fuelFilter>
+      </li>
+      <li Class="CompProperties_Glower">
+        <glowRadius>6</glowRadius>
+        <glowColor>(217,112,33,0)</glowColor>
+      </li>
+      <li Class="CompProperties_HeatPusher">
+        <compClass>CompHeatPusherPowered</compClass>
+        <heatPerSecond>4</heatPerSecond>
+      </li>
+    </comps>
+    <researchPrerequisites>
+      <li>CentralHeating</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="BasedHygieneMom">
+    <defName>GasBoiler</defName>
+    <label>Gas boiler</label>
+    <description>Produces 2000 heating units for radiators and hot water tanks. Requires chemfuel for fuel, Can be controlled by thermostats</description>
+    <graphicData>
+      <texPath>DBH/Things/Building/Heating/GasBoiler</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(2,2)</drawSize>
+      <damageData>
+        <rect>(0.05,0.05,0.95,0.95)</rect>
+      </damageData>
+    </graphicData>
+    <minifiedDef>MinifiedFurniture</minifiedDef>
+    <blockWind>true</blockWind>
+    <castEdgeShadows>false</castEdgeShadows>
+    <selectable>true</selectable>
+    <pathCost>150</pathCost>
+    <size>(1,1)</size>
+    <costList>
+      <Steel>80</Steel>
+      <Component>3</Component>
+    </costList>
+    <soundImpactDefault>BulletImpactMetal</soundImpactDefault>
+    <rotatable>true</rotatable>
+    <statBases>
+      <MaxHitPoints>150</MaxHitPoints>
+      <WorkToBuild>1500</WorkToBuild>
+    </statBases>
+    <comps>
+      <li Class="DubsBadHygiene.CompProperties_Pipe">
+        <mode>Sewage</mode>
+      </li>
+      <li Class="DubsBadHygiene.CompProperties_CompBoiler">
+        <BaseCapacity>2000</BaseCapacity>
+        <ThermostatControl>true</ThermostatControl>
+        <effects>
+          <texPath>DBH/Things/Building/Heating/GasBoilerEffects</texPath>
+          <graphicClass>DubsBadHygiene.Graphic_FX</graphicClass>
+          <shaderType>MoteGlow</shaderType>
+          <drawSize>(2,2)</drawSize>
+        </effects>
+      </li>
+      <li Class="CompProperties_Breakdownable"/>
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_Refuelable">
+        <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+        <fuelConsumptionRate>4.0</fuelConsumptionRate>
+        <fuelCapacity>25.0</fuelCapacity>
+        <fuelFilter>
+          <thingDefs>
+            <li>Chemfuel</li>
+          </thingDefs>
+        </fuelFilter>
+      </li>
+    </comps>
+    <researchPrerequisites>
+      <li>CentralHeating</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+
+  <ThingDef ParentName="BasedHygieneMom">
+    <defName>ElectricBoiler</defName>
+    <label>Electric Boiler</label>
+    <description>Produces a variable amount of heating units for radiators and hot water tanks. Manually controlled power setting. Can be controlled by thermostats</description>
+    <graphicData>
+      <texPath>DBH/Things/Building/Heating/ElectricBoiler</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(2,2)</drawSize>
+      <damageData>
+        <rect>(0.05,0.05,0.95,0.95)</rect>
+      </damageData>
+    </graphicData>
+    <minifiedDef>MinifiedFurniture</minifiedDef>
+    <blockWind>false</blockWind>
+    <castEdgeShadows>false</castEdgeShadows>
+    <selectable>true</selectable>
+    <pathCost>150</pathCost>
+    <size>(1,1)</size>
+    <costList>
+      <Steel>80</Steel>
+      <Component>3</Component>
+    </costList>
+    <soundImpactDefault>BulletImpactMetal</soundImpactDefault>
+    <rotatable>true</rotatable>
+    <statBases>
+      <MaxHitPoints>125</MaxHitPoints>
+      <WorkToBuild>2000</WorkToBuild>
+    </statBases>
+    <comps>
+      <li Class="DubsBadHygiene.CompProperties_Pipe">
+        <mode>Sewage</mode>
+      </li>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>250</basePowerConsumption>
+      </li>
+      <li Class="DubsBadHygiene.CompProperties_CompBoiler">
+        <BaseCapacity>250</BaseCapacity>
+        <LowPowerMode>-20</LowPowerMode>
+        <ThermostatControl>true</ThermostatControl>
+        <effects>
+          <texPath>DBH/Things/Building/Heating/ElectricBoilerEffects</texPath>
+          <graphicClass>DubsBadHygiene.Graphic_FX</graphicClass>
+          <shaderType>MoteGlow</shaderType>
+          <drawSize>(2,2)</drawSize>
+        </effects>
+      </li>
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_Breakdownable"/>
+    </comps>
+    <researchPrerequisites>
+      <li>PoweredHeating</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+ 
+
+  <ThingDef ParentName="BasedHygieneMom">
+    <defName>SolarHeater</defName>
+    <label>Solar Heater</label>
+    <description>Uses sunlight to heat hot water tanks and radiators, 0-2000 units of heating power depending on light level and ambient temperature.</description>
+    <graphicData>
+      <texPath>DBH/Things/Building/Heating/solarHeater</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(3,3)</drawSize>
+      <damageData>
+        <rect>(0.05,0.05,0.95,0.95)</rect>
+      </damageData>
+    </graphicData>
+    <blockWind>false</blockWind>
+    <castEdgeShadows>true</castEdgeShadows>
+    <selectable>true</selectable>
+    <pathCost>150</pathCost>
+    <size>(3,3)</size>
+    <costList>
+      <Steel>75</Steel>
+    </costList>
+    <soundImpactDefault>BulletImpactMetal</soundImpactDefault>
+    <rotatable>false</rotatable>
+    <statBases>
+      <MaxHitPoints>250</MaxHitPoints>
+      <WorkToBuild>1000</WorkToBuild>
+    </statBases>
+    <comps>
+      <li Class="DubsBadHygiene.CompProperties_Pipe">
+        <mode>Sewage</mode>
+      </li>
+      <li Class="DubsBadHygiene.CompProperties_CompBoiler">
+        <compClass>DubsBadHygiene.CompBoilerSolar</compClass>
+        <BaseCapacity>2000</BaseCapacity>
+        <ThermostatControl>false</ThermostatControl>
+      </li>
+    </comps>
+    <researchPrerequisites>
+      <li>CentralHeating</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="BasedHygieneMom">
+    <defName>HotWaterTank</defName>
+    <label>Hot Water Tank</label>
+    <description>Stores hot running water for showers and baths, connect to any boiler to heat.</description>
+    <graphicData>
+      <texPath>DBH/Things/Building/Heating/Boiler</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1,2)</drawSize>
+      <damageData>
+        <rect>(0.05,0.05,0.95,0.95)</rect>
+      </damageData>
+    </graphicData>
+    <minifiedDef>MinifiedFurniture</minifiedDef>
+    <blockWind>true</blockWind>
+    <castEdgeShadows>true</castEdgeShadows>
+    <selectable>true</selectable>
+    <pathCost>150</pathCost>
+    <size>(1,1)</size>
+    <costList>
+      <Steel>75</Steel>
+    </costList>
+    <soundImpactDefault>BulletImpactMetal</soundImpactDefault>
+    <rotatable>false</rotatable>
+    <statBases>
+      <MaxHitPoints>350</MaxHitPoints>
+      <WorkToBuild>1200</WorkToBuild>
+      <Beauty>-10</Beauty>
+    </statBases>
+    <comps>
+      <li Class="DubsBadHygiene.CompProperties_Pipe">
+        <mode>Sewage</mode>
+      </li>
+      <li Class="CompProperties_Flickable">
+        <commandTexture>DBH/Things/Building/Valve</commandTexture>
+        <commandLabelKey>CommandDesignateOpenCloseValveLabel</commandLabelKey>
+        <commandDescKey>CommandDesignateOpenCloseValveDesc</commandDescKey>
+      </li>
+      <li Class="DubsBadHygiene.CompProperties_HeatStore">
+        <StoreCapacity>100</StoreCapacity>
+        <RiseRate>0.04</RiseRate>
+        <FallRate>0.001</FallRate>
+        <ForRunningWater>true</ForRunningWater>
+      </li>
+    </comps>
+    <researchPrerequisites>
+      <li>CentralHeating</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef Name="BaseRadiator" ParentName="BasedHygieneMom" Abstract="True">
+    <thingClass>DubsBadHygiene.Building_Radiator</thingClass>
+    <graphicData>
+      <texPath>DBH/Things/Building/Heating/radiator</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(2,2)</drawSize>
+      <damageData>
+        <rect>(0.05,0.05,0.95,0.95)</rect>
+      </damageData>
+    </graphicData>
+    <description>Heats rooms using hot water, requires 100 heating units.</description>
+    <minifiedDef>MinifiedFurniture</minifiedDef>
+    <passability>Standable</passability>
+    <blockWind>false</blockWind>
+    <castEdgeShadows>false</castEdgeShadows>
+    <selectable>true</selectable>
+    <soundImpactDefault>BulletImpactMetal</soundImpactDefault>
+    <rotatable>true</rotatable>
+    <statBases>
+      <MaxHitPoints>150</MaxHitPoints>
+      <WorkToBuild>700</WorkToBuild>
+    </statBases>
+    <comps>
+      <li Class="DubsBadHygiene.CompProperties_Pipe">
+        <mode>Sewage</mode>
+      </li>
+      <li Class="CompProperties_Flickable">
+        <commandTexture>DBH/Things/Building/Valve</commandTexture>
+        <commandLabelKey>CommandDesignateOpenCloseValveLabel</commandLabelKey>
+        <commandDescKey>CommandDesignateOpenCloseValveDesc</commandDescKey>
+      </li>
+    </comps>
+    <researchPrerequisites>
+      <li>CentralHeating</li>
+    </researchPrerequisites>
+    <placeWorkers>
+      <li>PlaceWorker_Heater</li>
+    </placeWorkers>
+    <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseRadiator">
+    <defName>Radiator</defName>
+    <label>Radiator</label>
+    <uiIconPath>DBH/UI/radiator</uiIconPath>
+    <costList>
+      <Steel>25</Steel>
+    </costList>
+    <comps>
+      <li Class="DubsBadHygiene.CompProperties_Radiator">
+        <StoreCapacity>100</StoreCapacity>
+        <Energy>21</Energy>
+        <HeatingRate>250</HeatingRate>
+      </li>
+    </comps>
+    <menuHidden>true</menuHidden>
+    <designationCategory></designationCategory>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseRadiator">
+    <defName>RadiatorStuffed</defName>
+    <label>Radiator</label>
+    <uiIconPath>DBH/UI/radiator</uiIconPath>
+    <costList>
+      <Steel>15</Steel>
+    </costList>
+    <costStuffCount>10</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Stony</li>
+    </stuffCategories>
+    <comps>
+      <li Class="DubsBadHygiene.CompProperties_Radiator">
+        <StoreCapacity>100</StoreCapacity>
+        <Energy>21</Energy>
+        <HeatingRate>250</HeatingRate>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseRadiator">
+    <defName>RadiatorLarge</defName>
+    <label>Large Radiator</label>
+    <uiIconPath>DBH/UI/radiator</uiIconPath>
+    <graphicData>
+      <texPath>DBH/Things/Building/Heating/radiatorLarge</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(3,2)</drawSize>
+      <damageData>
+        <rect>(0.05,0.05,0.95,0.95)</rect>
+      </damageData>
+    </graphicData>
+    <description>3 times the output of a standard radiator, useful for larger rooms, requires 300 heating units.</description>
+    <size>(2,1)</size>
+    <costList>
+      <Steel>15</Steel>
+    </costList>
+    <costStuffCount>60</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Stony</li>
+    </stuffCategories>
+    <comps>
+      <li Class="DubsBadHygiene.CompProperties_Radiator">
+        <StoreCapacity>300</StoreCapacity>
+        <Energy>60</Energy>
+        <HeatingRate>250</HeatingRate>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <!--COOLING-->
+
+  <ThingDef ParentName="BasedHygieneMom">
+    <defName>AirConOutdoorUnit</defName>
+    <label>Air-Con Outdoor Unit</label>
+    <description>Multi-split Air Conditioner unit, place outdoors and pipe to indoor units or freezer units, power mode select with 100-1000 cooling units capacity</description>
+    <graphicData>
+      <texPath>DBH/Things/Building/Heating/Aircon</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <minifiedDef>MinifiedFurniture</minifiedDef>
+    <blockWind>false</blockWind>
+    <castEdgeShadows>true</castEdgeShadows>
+    <selectable>true</selectable>
+    <pathCost>8</pathCost>
+    <size>(1,1)</size>
+    <costList>
+      <Steel>90</Steel>
+      <Component>3</Component>
+    </costList>
+    <soundImpactDefault>BulletImpactMetal</soundImpactDefault>
+    <rotatable>false</rotatable>
+    <statBases>
+      <MaxHitPoints>125</MaxHitPoints>
+      <WorkToBuild>1600</WorkToBuild>
+    </statBases>
+    <comps>
+      <li Class="DubsBadHygiene.CompProperties_Pipe">
+        <mode>Air</mode>
+      </li>
+      <li Class="DubsBadHygiene.CompProperties_AirconBaseUnit">
+        <BaseCapacity>100</BaseCapacity>
+        <PowerModes>10</PowerModes>
+      </li>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>200</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_Breakdownable"/>
+    </comps>
+    <researchPrerequisites>
+      <li>MultiSplitAirCon</li>
+    </researchPrerequisites>
+    <designationCategory>HygieneMisc</designationCategory>
+  </ThingDef>
+
+  <ThingDef Name="BaseAircon" ParentName="BasedHygieneMom" Abstract="True">
+    <minifiedDef>MinifiedFurniture</minifiedDef>
+    <passability>Standable</passability>
+    <blockWind>false</blockWind>
+    <pathCost>0</pathCost>
+    <castEdgeShadows>false</castEdgeShadows>
+    <clearBuildingArea>false</clearBuildingArea>
+    <building>
+      <isInert>true</isInert>
+      <isEdifice>false</isEdifice>
+    </building>
+    <selectable>true</selectable>
+    <soundImpactDefault>BulletImpactMetal</soundImpactDefault>
+    <rotatable>true</rotatable>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToBuild>400</WorkToBuild>
+    </statBases>
+    <comps>
+      <li Class="DubsBadHygiene.CompProperties_Pipe">
+        <mode>Air</mode>
+      </li>
+      <li Class="CompProperties_Flickable"/>
+    </comps>
+    <researchPrerequisites>
+      <li>MultiSplitAirCon</li>
+    </researchPrerequisites>
+    <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+    <designationCategory>HygieneMisc</designationCategory>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseAircon">
+    <defName>AirconIndoorUnit</defName>
+    <label>Air-Con Indoor Unit</label>
+    <description>Indoor Air-con unit for rooms, connect to outdoor air-con units, requires 100 cooling units.</description>
+    <costList>
+      <Steel>25</Steel>
+    </costList>
+    <graphicData>
+      <texPath>DBH/Things/Building/Heating/centralAirVent</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(2,2)</drawSize>
+      <damageData>
+        <rect>(0.05,0.05,0.95,0.95)</rect>
+      </damageData>
+    </graphicData>
+    <statBases>
+      <WorkToBuild>400</WorkToBuild>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>25</basePowerConsumption>
+      </li>
+      <li Class="DubsBadHygiene.CompProperties_CompAirconUnit">
+        <compClass>DubsBadHygiene.CompRoomUnit</compClass>
+        <energyPerSecond>-21</energyPerSecond>
+        <CoolingRate>250</CoolingRate>
+        <Capacity>100</Capacity>
+      </li>
+      <li Class="DubsBadHygiene.CompProperties_Thermostat">
+        <maxTargetTemperature>35</maxTargetTemperature>
+        <minTargetTemperature>5</minTargetTemperature>
+        <defaultTargetTemperature>21</defaultTargetTemperature>
+      </li>
+    </comps>
+    <placeWorkers>
+      <li>DubsBadHygiene.PlaceWorker_Aircon</li>
+    </placeWorkers>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseAircon">
+    <defName>FreezerUnit</defName>
+    <label>Walk-in freezer unit</label>
+    <description>Freezer unit for creating a walk in freezer, connect to outdoor air-con units, requires 300 cooling units.</description>
+    <costList>
+      <Steel>30</Steel>
+      <Component>1</Component>
+    </costList>
+    <graphicData>
+      <texPath>DBH/Things/Building/Heating/freezerUnit</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(2,1)</drawSize>
+      <damageData>
+        <rect>(0.05,0.05,0.95,0.95)</rect>
+      </damageData>
+    </graphicData>
+    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+    <size>(2,1)</size>
+    <statBases>
+      <WorkToBuild>800</WorkToBuild>
+    </statBases>
+    <building>
+      <isEdifice>true</isEdifice>
+      <canPlaceOverWall>true</canPlaceOverWall>
+    </building>
+    <passability>Impassable</passability>
+    <blockWind>true</blockWind>
+    <fillPercent>1</fillPercent>
+    <coversFloor>true</coversFloor>
+    <blockLight>true</blockLight>
+    <canOverlapZones>false</canOverlapZones>
+    <castEdgeShadows>true</castEdgeShadows>
+    <staticSunShadowHeight>1.0</staticSunShadowHeight>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>25</basePowerConsumption>
+      </li>
+      <li Class="DubsBadHygiene.CompProperties_CompAirconUnit">
+        <compClass>DubsBadHygiene.CompFreezerUnit</compClass>
+        <energyPerSecond>-60</energyPerSecond>
+        <CoolingRate>250</CoolingRate>
+        <Capacity>300</Capacity>
+      </li>
+      <li Class="DubsBadHygiene.CompProperties_Thermostat">
+        <maxTargetTemperature>2</maxTargetTemperature>
+        <minTargetTemperature>-22</minTargetTemperature>
+        <defaultTargetTemperature>-4</defaultTargetTemperature>
+      </li>
+    </comps>
+    <placeWorkers>
+      <li>DubsBadHygiene.PlaceWorker_Freezer</li>
+    </placeWorkers>   
+  </ThingDef>
+
+</Defs>

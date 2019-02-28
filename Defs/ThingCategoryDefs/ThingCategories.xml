@@ -1,10 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ThingCategoryDefs>
+<Defs>
 
   <ThingCategoryDef>
     <defName>Waste</defName>
     <label>waste</label>
     <parent>Root</parent>
+    <iconPath>DBH/Things/Resource/BurnBarrel</iconPath>
   </ThingCategoryDef>
 
-</ThingCategoryDefs>
+</Defs>
