@@ -26,7 +26,7 @@
         <label>moderate</label>
         <statOffsets>
           <FoodPoisonChance>0.05</FoodPoisonChance>
-          <RecruitPrisonerChance>-0.05</RecruitPrisonerChance>
+          <!--<RecruitPrisonerChance>-0.05</RecruitPrisonerChance>-->
           <SocialImpact>-0.05</SocialImpact>
         </statOffsets>
       </li>
@@ -35,7 +35,7 @@
         <minSeverity>0.5</minSeverity>
         <statOffsets>
           <FoodPoisonChance>0.1</FoodPoisonChance>
-          <RecruitPrisonerChance>-0.1</RecruitPrisonerChance>
+          <!--<RecruitPrisonerChance>-0.1</RecruitPrisonerChance>-->
           <SocialImpact>-0.1</SocialImpact>
         </statOffsets>
       </li>
@@ -44,7 +44,7 @@
         <minSeverity>0.75</minSeverity>
         <statOffsets>
           <FoodPoisonChance>0.15</FoodPoisonChance>
-          <RecruitPrisonerChance>-0.15</RecruitPrisonerChance>
+          <!--<RecruitPrisonerChance>-0.15</RecruitPrisonerChance>-->
           <SocialImpact>-0.15</SocialImpact>
         </statOffsets>
       </li>
@@ -55,19 +55,44 @@
     <defName>Diarrhea</defName>
     <label>Diarrhea</label>
     <scenarioCanAdd>true</scenarioCanAdd>
+    <initialSeverity>1</initialSeverity>
     <comps>
-      <li Class="HediffCompProperties_Disappears">
-        <disappearsAfterTicks>
-          <min>90000</min>
-          <max>120000</max>
-        </disappearsAfterTicks>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-1</severityPerDay>
       </li>
     </comps>
     <stages>
       <li>
-        <hungerRateFactorOffset>0.5</hungerRateFactorOffset>
-        <painOffset>0.2</painOffset>
-        <vomitMtbDays>0.5</vomitMtbDays>
+        <label>recovering</label>
+        <vomitMtbDays>1</vomitMtbDays>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <postFactor>0.75</postFactor>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <label>major</label>
+        <minSeverity>0.2</minSeverity>
+        <vomitMtbDays>0.75</vomitMtbDays>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <postFactor>0.5</postFactor>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <label>initial</label>
+        <minSeverity>0.8</minSeverity>
+        <vomitMtbDays>0.75</vomitMtbDays>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <postFactor>0.75</postFactor>
+          </li>
+        </capMods>
       </li>
     </stages>
   </HediffDef>
@@ -88,7 +113,7 @@
     </stages>
     <comps>
       <li Class="HediffCompProperties_TendDuration">
-        <tendDuration>60000</tendDuration>
+        <baseTendDurationHours>12</baseTendDurationHours>
         <severityPerDayTended>-0.13</severityPerDayTended>
       </li>
       <li Class="HediffCompProperties_Immunizable">
@@ -116,7 +141,7 @@
     </stages>
     <comps>
       <li Class="HediffCompProperties_TendDuration">
-        <tendDuration>60000</tendDuration>
+        <baseTendDurationHours>12</baseTendDurationHours>
         <severityPerDayTended>-0.12</severityPerDayTended>
       </li>
       <li Class="HediffCompProperties_Immunizable">

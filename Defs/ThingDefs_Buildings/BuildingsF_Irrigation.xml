@@ -18,19 +18,21 @@
         <rect>(0.2,0.2,0.6,0.6)</rect>
       </damageData>
     </graphicData>
-    <minifiedDef>MinifiedFurniture</minifiedDef>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories>
+      <li>BuildingsHygiene</li>
+    </thingCategories>
     <tickerType>Normal</tickerType>
     <blockWind>false</blockWind>
-    <selectable>true</selectable>
     <pathCost>8</pathCost>
     <size>(1,1)</size>
     <costList>
       <Steel>15</Steel>
-      <Component>1</Component>
+      <ComponentIndustrial>1</ComponentIndustrial>
     </costList>
-    <soundImpactDefault>BulletImpactMetal</soundImpactDefault>
     <rotatable>false</rotatable>
     <statBases>
+      <Mass>2</Mass>
       <MaxHitPoints>100</MaxHitPoints>
       <WorkToBuild>250</WorkToBuild>
     </statBases>
@@ -56,7 +58,7 @@
   <ThingDef ParentName="BasedHygieneMom">
     <defName>FireSprinkler</defName>
     <label>Fire Sprinkler</label>
-    <description>Triggered by fires or by hand, douses flames with a spray of water</description>
+    <description>Triggered by fire or high temperature, douses flames with a spray of water</description>
     <graphicData>
       <texPath>DBH/Things/Building/firesprinkler</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -68,19 +70,21 @@
         <rect>(0.2,0.2,0.6,0.6)</rect>
       </damageData>
     </graphicData>
-    <minifiedDef>MinifiedFurniture</minifiedDef>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories>
+      <li>BuildingsHygiene</li>
+    </thingCategories>
     <tickerType>Normal</tickerType>
     <blockWind>false</blockWind>
-    <selectable>true</selectable>
     <pathCost>8</pathCost>
     <size>(1,1)</size>
     <costList>
       <Steel>15</Steel>
-      <Component>1</Component>
+      <ComponentIndustrial>1</ComponentIndustrial>
     </costList>
-    <soundImpactDefault>BulletImpactMetal</soundImpactDefault>
     <rotatable>false</rotatable>
     <statBases>
+      <Mass>2</Mass>
       <MaxHitPoints>100</MaxHitPoints>
       <WorkToBuild>500</WorkToBuild>
       <Flammability>1</Flammability>
@@ -92,7 +96,10 @@
       <li Class="DubsBadHygiene.CompProperties_Sprinkler">
         <compClass>DubsBadHygiene.CompFireSprinkler</compClass>
         <usagePerCell>0.16</usagePerCell>
-        <startWickOnDamageTaken>Flame</startWickOnDamageTaken>
+      </li>
+      <li Class="CompProperties_Usable">
+        <useJob>TriggerFireSprinkler</useJob>
+        <useLabel>Trigger fire sprinkler</useLabel>
       </li>
     </comps>
     <researchPrerequisites>
@@ -110,6 +117,10 @@
     <altitudeLayer>Building</altitudeLayer>
     <passability>Standable</passability>
     <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories>
+      <li>BuildingsHygiene</li>
+    </thingCategories>
     <building>
       <ai_chillDestination>false</ai_chillDestination>
       <isInert>true</isInert>
@@ -120,6 +131,7 @@
       <WorkToBuild>350</WorkToBuild>
       <Flammability>1.0</Flammability>
       <Beauty>-2</Beauty>
+      <Mass>2</Mass>
     </statBases>
     <costList>
       <Steel>15</Steel>
@@ -164,7 +176,10 @@
         <rect>(0.05,0.1,0.9,0.9)</rect>
       </damageData>
     </graphicData>
-    <minifiedDef>MinifiedFurniture</minifiedDef>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories>
+      <li>BuildingsHygiene</li>
+    </thingCategories>
     <altitudeLayer>Building</altitudeLayer>
     <passability>PassThroughOnly</passability>
     <fillPercent>0.45</fillPercent>
@@ -194,14 +209,14 @@
     <rotatable>false</rotatable>
     <constructEffect>ConstructWood</constructEffect>
     <designationCategory>HygieneMisc</designationCategory>
+    <researchPrerequisites>
+      <li>SewageSludgeComposting</li>
+    </researchPrerequisites>
   </ThingDef>
 
   <ThingDef ParentName="BasedHygieneMom">
     <defName>BiosolidFertilizer</defName>
     <label>Biosolid Fertilizer</label>
-    <blueprintGraphicData>
-      <texPath>DBH/UI/fertilizeBlueprint</texPath>
-    </blueprintGraphicData>
     <description>Biosolid fertilizer used for increasing the fertility of diggable terrain, lasts just under 1 year.</description>
     <selectable>false</selectable>
     <uiIconPath>DBH/UI/fertilizer</uiIconPath>
@@ -221,10 +236,14 @@
     </costList>
     <terrainAffordanceNeeded>Diggable</terrainAffordanceNeeded>
     <altitudeLayer>FloorEmplacement</altitudeLayer>
+    <passability>Standable</passability>
     <placingDraggableDimensions>2</placingDraggableDimensions>
     <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
     <clearBuildingArea>false</clearBuildingArea>
     <building>
+      <blueprintGraphicData>
+        <texPath>DBH/UI/fertilizeBlueprint</texPath>
+      </blueprintGraphicData>
       <isEdifice>false</isEdifice>
       <deconstructible>true</deconstructible>
     </building>
@@ -238,5 +257,8 @@
       </li>
     </comps>
     <designationCategory>HygieneMisc</designationCategory>
+    <researchPrerequisites>
+      <li>SewageSludgeComposting</li>
+    </researchPrerequisites>
   </ThingDef>
 </Defs>

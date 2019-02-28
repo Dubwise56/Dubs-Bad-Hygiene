@@ -11,16 +11,16 @@
     </TerrainTypes>
     <ThingTypes>
       <li>
+        <defName>Filth_OilSlick</defName>
+        <toxicity>30</toxicity>
+      </li>
+      <li>
         <defName>FilthAsh</defName>
         <toxicity>2</toxicity>
       </li>
       <li>
         <defName>FilthCorpseBile</defName>
         <toxicity>3</toxicity>
-      </li>
-      <li>
-        <defName>FilthFuel</defName>
-        <toxicity>5</toxicity>
       </li>
       <li>
         <defName>BurnPit</defName>

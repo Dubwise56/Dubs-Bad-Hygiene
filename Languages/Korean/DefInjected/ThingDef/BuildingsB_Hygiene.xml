@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ToiletStallDoor.label>욕실 문</ToiletStallDoor.label>
+  <ToiletStallDoor.description>욕실 비품을 사용하는 사람들에게 시선을 차단하는 얇은 문으로 새로운 방을 만들거나 열 손실을 방지하지 않습니다.</ToiletStallDoor.description>
+  <ToiletStallDoor_Blueprint.label>욕실 문 (청사진)</ToiletStallDoor_Blueprint.label>
+  <ToiletStallDoor_Frame.label>욕실 문 (건설중)</ToiletStallDoor_Frame.label>
+  <ToiletStallDoor_Frame.description>욕실 비품을 사용하는 사람들에게 시선을 차단하는 얇은 문으로 새로운 방을 만들거나 열 손실을 방지하지 않습니다.</ToiletStallDoor_Frame.description>
+
+
+  <!-- Low Tech Stuff -->
+
+  <PitLatrine.label>변소</PitLatrine.label>
+  <PitLatrine.description>지상의 구멍에서 배설물을 모으는 구덩이 위도. 수동으로 비워야하며 배관 될 수 있습니다.</PitLatrine.description>
+  <PitLatrine_Blueprint.label>변소 (청사진)</PitLatrine_Blueprint.label>
+  <PitLatrine_Blueprint_Install.label>변소 (청사진)</PitLatrine_Blueprint_Install.label>
+  <PitLatrine_Frame.label>변소 (건설중)</PitLatrine_Frame.label>
+  <PitLatrine_Frame.description>지상의 구멍에서 배설물을 모으는 구덩이 위도. 수동으로 비워야하며 배관 될 수 있습니다.</PitLatrine_Frame.description>
+
+  <WashBucket.label>목욕통</WashBucket.label>
+  <WashBucket.description>목욕통입니다.</WashBucket.description>
+  <WashBucket_Blueprint.label>목욕통 (청사진)</WashBucket_Blueprint.label>
+  <WashBucket_Blueprint_Install.label>목욕통 (청사진)</WashBucket_Blueprint_Install.label>
+  <WashBucket_Frame.label>목욕통 (건설중)</WashBucket_Frame.label>
+  <WashBucket_Frame.description>목욕통입니다.</WashBucket_Frame.description>
+
+  <LitterBox.label>동물 변소</LitterBox.label>
+  <LitterBox.description>작은 동물을위한 실내 대변 및 소변 수집 상자.</LitterBox.description>
+  <LitterBox_Blueprint.label>동물 변소 (청사진)</LitterBox_Blueprint.label>
+  <LitterBox_Blueprint_Install.label>동물 변소 (청사진)</LitterBox_Blueprint_Install.label>
+  <LitterBox_Frame.label>동물 변소 (건설중)</LitterBox_Frame.label>
+  <LitterBox_Frame.description>작은 동물을위한 실내 대변 및 소변 수집 상자.</LitterBox_Frame.description>
+
+  <BurnPit.label>불 구덩이</BurnPit.label>
+  <BurnPit.description>인간의 쓰레기, 시체 또는 다른 쓰레기를 태우는 데 사용되는 구덩이. 건강에 해로운 영향을 줄 수 있음</BurnPit.description>
+  <BurnPit_Blueprint.label>불 구덩이 (청사진)</BurnPit_Blueprint.label>
+  <BurnPit_Frame.label>불 구덩이 (건설중)</BurnPit_Frame.label>
+  <BurnPit_Frame.description>인간의 쓰레기, 시체 또는 다른 쓰레기를 태우는 데 사용되는 구덩이. 건강에 해로운 영향을 줄 수 있음</BurnPit_Frame.description>
+
+
+  <!-- Basins -->
+
+  <Basin.label>세면대 (유물)</Basin.label>
+  <Basin.description>깨끗하고 단순한 세면기</Basin.description>
+  <Basin_Blueprint_Install.label>세면대 (유물) (청사진)</Basin_Blueprint_Install.label>
+
+  <BasinStuff.label>세면대</BasinStuff.label>
+  <BasinStuff.description>깨끗하고 단순한 세면기</BasinStuff.description>
+  <BasinStuff_Blueprint.label>세면대 (청사진)</BasinStuff_Blueprint.label>
+  <BasinStuff_Blueprint_Install.label>세면대 (청사진)</BasinStuff_Blueprint_Install.label>
+  <BasinStuff_Frame.label>세면대 (건설중)</BasinStuff_Frame.label>
+  <BasinStuff_Frame.description>깨끗하고 단순한 세면기</BasinStuff_Frame.description>
+
+  <KitchenSink.label>부엌싱크대</KitchenSink.label>
+  <KitchenSink.description>부엌의 전부는 아니지만 방 청결도를 높여줍니다.</KitchenSink.description>
+  <KitchenSink_Blueprint.label>부엌싱크대 (청사진)</KitchenSink_Blueprint.label>
+  <KitchenSink_Blueprint_Install.label>부엌싱크대 (청사진)</KitchenSink_Blueprint_Install.label>
+  <KitchenSink_Frame.label>부엌싱크대 (건설중)</KitchenSink_Frame.label>
+  <KitchenSink_Frame.description>부엌의 전부는 아니지만 방 청결도를 높여줍니다.</KitchenSink_Frame.description>
+
+
+  <!-- Toilets -->
+
+  <Toilet.label>변기 (유물)</Toilet.label>
+  <Toilet.description>인간의 소변과 대변 처리 용 위생 설비.</Toilet.description>
+  <Toilet_Blueprint_Install.label>변기 (유물) (청사진)</Toilet_Blueprint_Install.label>
+
+  <ToiletStuff.label>변기</ToiletStuff.label>
+  <ToiletStuff.description>인간의 소변과 대변 처리 용 위생 설비.</ToiletStuff.description>
+  <ToiletStuff_Blueprint.label>변기 (청사진)</ToiletStuff_Blueprint.label>
+  <ToiletStuff_Blueprint_Install.label>변기 (청사진)</ToiletStuff_Blueprint_Install.label>
+  <ToiletStuff_Frame.label>변기 (건설중)</ToiletStuff_Frame.label>
+  <ToiletStuff_Frame.description>인간의 소변과 대변 처리 용 위생 설비.</ToiletStuff_Frame.description>
+
+  <!--[Duplicated] <ToiletAdv.description>표준 화장실보다 물 효율이 2배 높으며 자동 세척 및 탈취의 최적의 다기능 환경을 제공합니다.</ToiletAdv.description>-->
+  <ToiletAdv_Blueprint.label>개선된변기 (청사진)</ToiletAdv_Blueprint.label>
+  <!--[Duplicated] <ToiletAdv_Blueprint_Install.label>개선된변기 (청사진)</ToiletAdv_Blueprint_Install.label>-->
+  <ToiletAdv_Frame.label>개선된변기 (건설중)</ToiletAdv_Frame.label>
+  <ToiletAdv_Frame.description>표준 화장실보다 물 효율이 2배 높으며 자동 세척 및 탈취의 최적의 다기능 환경을 제공합니다.</ToiletAdv_Frame.description>
+
+  <ToiletAdv.label>파워변기 (유물)</ToiletAdv.label>
+  <ToiletAdv.description>표준 화장실보다 물 효율이 2배 높으며 자동 세척 및 탈취의 최적의 다기능 환경을 제공합니다.</ToiletAdv.description>
+  <ToiletAdv_Blueprint_Install.label>파워변기 (유물) (청사진)</ToiletAdv_Blueprint_Install.label>
+
+  <ToiletAdvStuff.label>스마트 변기</ToiletAdvStuff.label>
+  <ToiletAdvStuff.description>표준 화장실보다 물 효율이 2배 높으며 자동 세척 및 탈취의 최적의 다기능 환경을 제공합니다.</ToiletAdvStuff.description>
+  <ToiletAdvStuff_Blueprint.label>스마트 변기 (청사진)</ToiletAdvStuff_Blueprint.label>
+  <ToiletAdvStuff_Blueprint_Install.label>스마트 변기 (청사진)</ToiletAdvStuff_Blueprint_Install.label>
+  <ToiletAdvStuff_Frame.label>스마트 변기 (건설중)</ToiletAdvStuff_Frame.label>
+  <ToiletAdvStuff_Frame.description>표준 화장실보다 물 효율이 2배 높으며 자동 세척 및 탈취의 최적의 다기능 환경을 제공합니다.</ToiletAdvStuff_Frame.description>
+
+
+  <!-- Baths -->
+
+  <Bathtub.label>욕조 (유물)</Bathtub.label>
+  <Bathtub.description>사용이 느리고, 많은 양의 물이 필요하지만, 매우 편안하다. 인접한 욕실난방장치를 설치하거나 바닥을 친 온수 탱크를 사용하여 가열할 수 있으며 하수 배출구가 필요하지 않습니다.</Bathtub.description>
+  <Bathtub_Blueprint_Install.label>욕조 (유물) (청사진)</Bathtub_Blueprint_Install.label>
+
+  <BathtubStuff.label>욕조</BathtubStuff.label>
+  <BathtubStuff.description>사용이 느리고, 많은 양의 물이 필요하지만, 매우 편안하다. 인접한 욕실난방장치를 설치하거나 바닥을 친 온수 탱크를 사용하여 가열할 수 있으며 하수 배출구가 필요하지 않습니다.</BathtubStuff.description>
+  <BathtubStuff_Blueprint.label>욕조 (청사진)</BathtubStuff_Blueprint.label>
+  <BathtubStuff_Blueprint_Install.label>욕조 (청사진)</BathtubStuff_Blueprint_Install.label>
+  <BathtubStuff_Frame.label>욕조 (건설중)</BathtubStuff_Frame.label>
+  <BathtubStuff_Frame.description>사용이 느리고, 많은 양의 물이 필요하지만, 매우 편안하다. 인접한 욕실난방장치를 설치하거나 바닥을 친 온수 탱크를 사용하여 가열할 수 있으며 하수 배출구가 필요하지 않습니다.</BathtubStuff_Frame.description>
+
+
+  <!-- Showers -->
+
+  <Shower.label>샤워기 (유물)</Shower.label>
+  <Shower.description>간단한 샤워, 물 타워에서 물이 필요, 배관 온수 탱크를 통해 가열 수 있습니다, 하수구 콘센트가 필요하지 않습니다.</Shower.description>
+  <Shower_Blueprint_Install.label>샤워기 (유물) (청사진)</Shower_Blueprint_Install.label>
+
+  <ShowerStuff.label>샤워기</ShowerStuff.label>
+  <ShowerStuff.description>간단한 샤워, 물 타워에서 물이 필요, 배관 온수 탱크를 통해 가열 수 있습니다, 하수구 콘센트가 필요하지 않습니다.</ShowerStuff.description>
+  <ShowerStuff_Blueprint.label>샤워기 (청사진)</ShowerStuff_Blueprint.label>
+  <ShowerStuff_Blueprint_Install.label>샤워기 (청사진)</ShowerStuff_Blueprint_Install.label>
+  <ShowerStuff_Frame.label>샤워기 (건설중)</ShowerStuff_Frame.label>
+  <ShowerStuff_Frame.description>간단한 샤워, 물 타워에서 물이 필요, 배관 온수 탱크를 통해 가열 수 있습니다, 하수구 콘센트가 필요하지 않습니다.</ShowerStuff_Frame.description>
+
+  <ShowerAdv.label>파워 샤워기 (유물)</ShowerAdv.label>
+  <ShowerAdv.description>그 아프고 근육을 긴장시키는 대형 110mm 4 스프레이 식 샤워기가 있으며, 필요에 따라 물을 가열하고 샤워 속도를 두 배로 높입니다.</ShowerAdv.description>
+  <ShowerAdv_Blueprint_Install.label>파워 샤워기 (유물) (청사진)</ShowerAdv_Blueprint_Install.label>
+
+  <ShowerAdvStuff.label>파워 샤워기</ShowerAdvStuff.label>
+  <ShowerAdvStuff.description>그 아프고 근육을 긴장시키는 대형 110mm 4 스프레이 식 샤워기가 있으며, 필요에 따라 물을 가열하고 샤워 속도를 두 배로 높입니다.</ShowerAdvStuff.description>
+  <ShowerAdvStuff_Blueprint.label>파워 샤워기 (청사진)</ShowerAdvStuff_Blueprint.label>
+  <ShowerAdvStuff_Blueprint_Install.label>파워 샤워기 (청사진)</ShowerAdvStuff_Blueprint_Install.label>
+  <ShowerAdvStuff_Frame.label>파워 샤워기 (건설중)</ShowerAdvStuff_Frame.label>
+  <ShowerAdvStuff_Frame.description>그 아프고 근육을 긴장시키는 대형 110mm 4 스프레이 식 샤워기가 있으며, 필요에 따라 물을 가열하고 샤워 속도를 두 배로 높입니다.</ShowerAdvStuff_Frame.description>
+
+
+</LanguageData>

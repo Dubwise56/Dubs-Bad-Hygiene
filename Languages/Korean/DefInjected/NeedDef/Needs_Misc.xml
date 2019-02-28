@@ -1,11 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <Bladder.label>용변</Bladder.label>
-  <Bladder.description>배설은 소화의 최종 행위이며, 이로써 유기체는 항문을 통해 소화관에서 고체, 반고체 또는 액체 폐기물을 제거합니다.</Bladder.description>
+  <Bladder.label>블레더</Bladder.label>
+  <Bladder.description>질병의 위험을 예방하려면 쓰레기를 제거 또는 처리하고 하수가 물 공급을 오염시키는 것을 방지함으로써 위생 수준을 유지하는 것이 중요합니다.</Bladder.description>
 
   <Hygiene.label>위생</Hygiene.label>
-  <Hygiene.description>좋은 개인 위생은 위장염과 같은 많은 질병으로부터 자신과 다른 사람들을 보호하는 가장 효과적인 방법 중 하나입니다. 특히 음식을 준비하거나 먹기 전과 화장실에 가기 전에 정기적으로 손을 씻으십시오.</Hygiene.description>
+  <Hygiene.description>좋은 개인 위생은 질병의 위험을 줄이고 식민지를 행복하고 건강하게 유지하는 데 중요합니다.</Hygiene.description>
+
+  <DBHThirst.label>목마름</DBHThirst.label>
+  <DBHThirst.description>생수의 생리적 과정에서 물이 필요합니다. 이것이 0에 도달하면 생물은 천천히 탈수로 죽습니다</DBHThirst.description>
 
 
 </LanguageData>

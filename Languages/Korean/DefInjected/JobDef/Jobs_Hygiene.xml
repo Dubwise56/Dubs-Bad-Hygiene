@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <emptySeptictank.reportString>비우기 TargetA.</emptySeptictank.reportString>
+  <emptyLatrine.reportString>비우기 TargetA.</emptyLatrine.reportString>
+  <LoadComposter.reportString>채우기 TargetA.</LoadComposter.reportString>
+  <UnloadComposter.reportString>퇴비 제거 TargetA.</UnloadComposter.reportString>
+  <RemoveSewage.reportString>배관 제거.</RemoveSewage.reportString>
+  <WatchWashingMachine.reportString>스핀 사이클을 지켜 보았습니다.</WatchWashingMachine.reportString>
+  <UseHotTub.reportString>휴식</UseHotTub.reportString>
+  <DBHDrinkFromGround.reportString>마시는 물.</DBHDrinkFromGround.reportString>
+  <DBHDrinkFromBasin.reportString>마시는중 TargetA.</DBHDrinkFromBasin.reportString>
+  <UseToilet.reportString>사용중 TargetA.</UseToilet.reportString>
+  <haveWildPoo.reportString>배설중</haveWildPoo.reportString>
+  <useWashBucket.reportString>씼는중 TargetA.</useWashBucket.reportString>
+  <takeShower.reportString>샤워중 TargetA.</takeShower.reportString>
+  <takeBath.reportString>목욕중</takeBath.reportString>
+  <washHands.reportString>손씻는중</washHands.reportString>
+  <washPatient.reportString>씻는중 TargetA.</washPatient.reportString>
+  <DBHAdministerFluids.reportString>유체관리 TargetA.</DBHAdministerFluids.reportString>
+  <CleanBucket.reportString>세면대 청소.</CleanBucket.reportString>
+  <cleanBedpan.reportString>침대정리.</cleanBedpan.reportString>
+  <clearBlockage.reportString>막힘 뜷는중 TargetA.</clearBlockage.reportString>
+
+
+</LanguageData>

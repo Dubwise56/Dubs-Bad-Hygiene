@@ -1,8 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <BedPan.label>휴대 용변장치</BedPan.label>
+  <BedPan.label>휴대 화장실</BedPan.label>
   <BedPan.description>병이 든 환자가 소변과 대변을 위해 사용하는 콘센트.</BedPan.description>
+
+  <Biosolids.label>생물 고형물</Biosolids.label>
+  <Biosolids.description>배설물 슬러지의 비료.</Biosolids.description>
+
+  <FecalSludge.label>배설물 슬러지</FecalSludge.label>
+  <FecalSludge.description>배설물 슬러지로 가득 찬 배럴은 버려지거나, 태우거나, 바이오 솔리드로 퇴비를 만들 수 있습니다.</FecalSludge.description>
 
 
 </LanguageData>

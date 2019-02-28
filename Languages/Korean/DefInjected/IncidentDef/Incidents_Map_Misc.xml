@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <TowerContamination.label>타워 오염</TowerContamination.label>
+  <TowerContamination.letterText>급수탑이 오염되어 식민지 주민의 건강에 심각한 위험을 초래합니다! 오염을 제거하기 위해 타워를 배수 시키거나 수처리 시스템을 구축하십시오.</TowerContamination.letterText>
+  <TowerContamination.letterLabel>Contaminated Water Tower</TowerContamination.letterLabel>
+
+  <SewageSpill.label>Sewage spill</SewageSpill.label>
+  <SewageSpill.letterText>배관 공사가 중단되어 하수도가 흘러 나오고, 하수도가 배럴에 쌓여 움직일 수 있습니다.</SewageSpill.letterText>
+  <SewageSpill.letterLabel>Sewage Spill</SewageSpill.letterLabel>
+
+
+</LanguageData>

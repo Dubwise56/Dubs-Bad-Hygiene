@@ -43,7 +43,7 @@
 		</thingCategories>
 		<randomizeRotationOnSpawn>true</randomizeRotationOnSpawn>
 		<stackLimit>1</stackLimit>
-		<tradeability>Never</tradeability>
+		<tradeability>None</tradeability>
 		<statBases>
 		<MaxHitPoints>100</MaxHitPoints>
 			<Beauty>-40</Beauty>
@@ -100,7 +100,7 @@
     <stackLimit>250</stackLimit>
     <tradeNeverStack>false</tradeNeverStack>
     <drawGUIOverlay>true</drawGUIOverlay>
-    <tradeability>Never</tradeability>
+    <tradeability>None</tradeability>
   </ThingDef>
 
 </Defs>

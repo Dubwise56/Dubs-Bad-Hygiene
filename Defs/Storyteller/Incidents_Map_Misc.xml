@@ -5,9 +5,9 @@
     <defName>TowerContamination</defName>
     <label>Tower Contamination</label>
     <category>Misc</category>
-    <targetTypes>
-      <li>MapPlayerHome</li>
-    </targetTypes>
+    <targetTags>
+      <li>Map_PlayerHome</li>
+    </targetTags>
     <workerClass>DubsBadHygiene.IncidentWorker_TowerContamination</workerClass>
     <letterLabel>Contaminated Water Tower</letterLabel>
     <letterText>A water tower has become polluted, this poses a serious risk to the health of your colonists! Drain the tower to clear the contamination, or build a water treatment system.</letterText>
@@ -21,9 +21,9 @@
     <defName>SewageSpill</defName>
     <label>Sewage spill</label>
     <category>Misc</category>
-    <targetTypes>
-      <li>MapPlayerHome</li>
-    </targetTypes>
+    <targetTags>
+      <li>Map_PlayerHome</li>
+    </targetTags>
     <workerClass>DubsBadHygiene.IncidentWorker_SewageSpill</workerClass>
     <letterLabel>Sewage Spill</letterLabel>
     <letterText>A section of plumbing has broken and sewage has spilled out, sewage can be scooped up into barrels and moved.</letterText>

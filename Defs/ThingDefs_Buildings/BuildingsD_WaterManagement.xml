@@ -1,115 +1,45 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-  
-  
-  <!--LEGACY WATER MANAGEMENT-->
-  <ThingDef Name="BasedWaterTowerLEGACY" ParentName="BasedHygieneMom" Abstract="True">
-    <description>Legacy item, replace with the new water pumps and water inlet</description>
+ 
+  <!--WATER PUMPING-->
+
+  <ThingDef ParentName="BasedHygieneMom">
+    <defName>PrimitiveWell</defName>
+    <label>Primitive Well</label>
+    <description>Accesses ground water for basic washing (Can also be used for drinking if thirst is enabled).</description>
+    <graphicData>
+      <texPath>DBH/Things/Building/Water/PrimitiveWell</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(2,2)</drawSize>
+      <drawRotated>false</drawRotated>
+    </graphicData>
+    <category>Building</category>
     <tickerType>Normal</tickerType>
-    <blockWind>true</blockWind>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <blockWind>false</blockWind>
     <castEdgeShadows>false</castEdgeShadows>
-    <canOverlapZones>false</canOverlapZones>
     <pathCost>60</pathCost>
-    <building>
-      <ai_chillDestination>false</ai_chillDestination>
-    </building>
-    <soundImpactDefault>BulletImpactMetal</soundImpactDefault>
-    <rotatable>false</rotatable>
-    <statBases>
-      <Beauty>-15</Beauty>
-    </statBases>
-    <comps>
-      <li Class="DubsBadHygiene.CompProperties_Pipe">
-        <mode>Sewage</mode>
-      </li>
-    </comps>
+    <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+      <li>Stony</li>
+    </stuffCategories>
+    <costStuffCount>25</costStuffCount>
     <placeWorkers>
       <li>DubsBadHygiene.PlaceWorker_WaterGrid</li>
       <li>DubsBadHygiene.PlaceWorker_SewageGrid</li>
     </placeWorkers>
-    <menuHidden>true</menuHidden>
-    <designationCategory></designationCategory>
-  </ThingDef>
-  
-  <ThingDef ParentName="BasedWaterTowerLEGACY">
-    <defName>WaterTowerSmall</defName>
-    <label>Small Water Tower(Legacy)</label>
-    <graphicData>
-      <texPath>DBH/Things/Building/Water/WaterTowerSmall</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>(2,3)</drawSize>
-      <damageData>
-        <rect>(0.05,0.05,0.95,0.95)</rect>
-      </damageData>
-    </graphicData>
-    <size>(3,3)</size>
-    <costList>
-      <WoodLog>50</WoodLog>
-      <Steel>20</Steel>
-    </costList>
-    <comps>
-      <li Class="DubsBadHygiene.CompProperties_WaterStorage">
-        <WaterStorageCap>8000</WaterStorageCap>
-      </li>   
-      <li Class="DubsBadHygiene.CompProperties_WaterInlet"/>
-      <li Class="DubsBadHygiene.CompProperties_WaterPumpingStation"/>
-    </comps>
+    <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+    <rotatable>false</rotatable>
     <statBases>
-      <MaxHitPoints>75</MaxHitPoints>
-      <WorkToBuild>2000</WorkToBuild>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToBuild>9000</WorkToBuild>
       <Flammability>1.0</Flammability>
     </statBases>
-    <specialDisplayRadius>6.7</specialDisplayRadius>
   </ThingDef>
-
-  <ThingDef ParentName="BasedWaterTowerLEGACY">
-    <defName>WaterTower</defName>
-    <label>Large Water Tower(Legacy)</label>
-    <graphicData>
-      <texPath>DBH/Things/Building/Water/WaterTower</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>(3,4)</drawSize>
-      <damageData>
-        <rect>(0.05,0.05,0.95,0.95)</rect>
-      </damageData>
-    </graphicData>
-    <size>(3,3)</size>
-    <comps>
-      <li Class="DubsBadHygiene.CompProperties_WaterStorage">
-        <WaterStorageCap>50000</WaterStorageCap>
-      </li>
-      <li Class="DubsBadHygiene.CompProperties_WaterPumpingStation"/>
-      <li Class="DubsBadHygiene.CompProperties_WaterInlet"/>
-    </comps>
-    <costList>
-      <Steel>200</Steel>
-      <Component>1</Component>
-    </costList>
-    <statBases>
-      <MaxHitPoints>150</MaxHitPoints>
-      <WorkToBuild>5000</WorkToBuild>
-      <Flammability>0.0</Flammability>
-    </statBases>
-    <specialDisplayRadius>9.7</specialDisplayRadius>
-  </ThingDef>
-
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-
-  <!--WATER PUMPING-->
-
-
   <ThingDef Name="BasedWell" ParentName="BasedHygieneMom"  Abstract="True">
     <graphicData>
       <texPath>DBH/Things/Building/Water/WaterWell</texPath>
@@ -117,39 +47,26 @@
       <drawSize>(1,1)</drawSize>
       <drawRotated>false</drawRotated>
     </graphicData>
-    <size>(1,1)</size>
     <category>Building</category>
     <tickerType>Normal</tickerType>
-    <drawerType>RealtimeOnly</drawerType>
     <altitudeLayer>Building</altitudeLayer>
     <passability>PassThroughOnly</passability>
     <blockWind>false</blockWind>
     <castEdgeShadows>false</castEdgeShadows>
-    <selectable>true</selectable>
     <pathCost>60</pathCost>
     <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
     <costList>
       <Steel>50</Steel>
     </costList>
     <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
-    <soundImpactDefault>BulletImpactMetal</soundImpactDefault>
     <rotatable>true</rotatable>
     <statBases>
       <MaxHitPoints>100</MaxHitPoints>
-      <WorkToBuild>2000</WorkToBuild>
+      <WorkToBuild>15000</WorkToBuild>
       <Flammability>1.0</Flammability>
     </statBases>
-    <comps>
-      <li Class="DubsBadHygiene.CompProperties_Pipe">
-        <mode>Sewage</mode>
-      </li>
-      <li Class="DubsBadHygiene.CompProperties_WaterInlet"/>
-    </comps>
-    <placeWorkers>
-      <li>DubsBadHygiene.PlaceWorker_WaterGrid</li>
-      <li>DubsBadHygiene.PlaceWorker_SewageGrid</li>
-    </placeWorkers>
   </ThingDef>
+
 
   <ThingDef ParentName="BasedWell">
     <defName>WaterWellInlet</defName>
@@ -159,12 +76,22 @@
     <researchPrerequisites>
       <li>Plumbing</li>
     </researchPrerequisites>
+    <comps>
+      <li Class="DubsBadHygiene.CompProperties_Pipe">
+        <mode>Sewage</mode>
+      </li>
+      <li Class="DubsBadHygiene.CompProperties_WaterInlet"/>
+    </comps>
+    <placeWorkers>
+      <li>DubsBadHygiene.PlaceWorker_WaterGrid</li>
+      <li>DubsBadHygiene.PlaceWorker_SewageGrid</li>
+    </placeWorkers>
   </ThingDef>
 
   <ThingDef ParentName="BasedWell">
     <defName>DeepWaterWellInlet</defName>
     <label>Deep Water Well</label>
-    <description>Accesses a large area of ground water which can be pumped by water pumps. The presence of sewage or other pollution will reduce water quality and can cause contamination.</description>
+    <description>Accesses a large area of ground water which can be pumped by water pumps. Deep wells are unaffected by pollution.</description>
     <graphicData>
       <texPath>DBH/Things/Building/Water/DeepWaterWell</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -173,11 +100,23 @@
     </graphicData>
     <specialDisplayRadius>13.7</specialDisplayRadius>
     <statBases>
-      <WorkToBuild>9000</WorkToBuild>
+      <WorkToBuild>29000</WorkToBuild>
     </statBases>
     <researchPrerequisites>
       <li>DeepWells</li>
     </researchPrerequisites>
+    <comps>
+      <li Class="DubsBadHygiene.CompProperties_Pipe">
+        <mode>Sewage</mode>
+      </li>
+      <li Class="DubsBadHygiene.CompProperties_WaterInlet">
+        <Deep>true</Deep>
+      </li>
+    </comps>
+    <placeWorkers>
+      <li>DubsBadHygiene.PlaceWorker_DeepWaterGrid</li>
+      <li>DubsBadHygiene.PlaceWorker_SewageGrid</li>
+    </placeWorkers>
   </ThingDef>
 
   <ThingDef Name="BasedWaterTower" ParentName="BasedHygieneMom" Abstract="True">
@@ -190,7 +129,6 @@
     <building>
       <ai_chillDestination>false</ai_chillDestination>
     </building>
-    <soundImpactDefault>BulletImpactMetal</soundImpactDefault>
     <rotatable>false</rotatable>
     <statBases>
       <Beauty>-15</Beauty>
@@ -256,7 +194,7 @@
     </comps>
     <costList>
       <Steel>200</Steel>
-      <Component>1</Component>
+      <ComponentIndustrial>1</ComponentIndustrial>
     </costList>
     <statBases>
       <MaxHitPoints>150</MaxHitPoints>
@@ -279,10 +217,8 @@
     <passability>PassThroughOnly</passability>
     <blockWind>false</blockWind>
     <castEdgeShadows>true</castEdgeShadows>
-    <selectable>true</selectable>
     <pathCost>60</pathCost>
     <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
-    <soundImpactDefault>BulletImpactMetal</soundImpactDefault>
     <rotatable>true</rotatable>
     <comps>
       <li Class="DubsBadHygiene.CompProperties_Pipe">
@@ -303,12 +239,17 @@
       <texPath>DBH/Things/Building/Water/WindPump</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(2,2)</drawSize>
+      <shadowData>
+        <volume>(0.6, 1.0, 1.6)</volume>
+        <offset>(-0.1,0,-0.08)</offset>
+      </shadowData>
     </graphicData>
+    <castEdgeShadows>false</castEdgeShadows>
     <size>(3,2)</size>
     <rotatable>true</rotatable>
     <costList>
       <Steel>80</Steel>
-      <Component>1</Component>
+      <ComponentIndustrial>1</ComponentIndustrial>
     </costList>
     <statBases>
       <MaxHitPoints>100</MaxHitPoints>
@@ -348,14 +289,19 @@
       <drawSize>(1,1)</drawSize>
     </graphicData>
     <size>(1,1)</size>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories>
+      <li>BuildingsHygiene</li>
+    </thingCategories>
     <costList>
       <Steel>80</Steel>
-      <Component>1</Component>
+      <ComponentIndustrial>1</ComponentIndustrial>
     </costList>
     <statBases>
       <MaxHitPoints>100</MaxHitPoints>
       <WorkToBuild>1500</WorkToBuild>
       <Flammability>1.0</Flammability>
+      <Mass>25</Mass>
     </statBases>
     <comps>
       <li Class="CompProperties_Power">
@@ -386,7 +332,7 @@
     <size>(2,2)</size>
     <costList>
       <Steel>120</Steel>
-      <Component>3</Component>
+      <ComponentIndustrial>3</ComponentIndustrial>
     </costList>
     <statBases>
       <MaxHitPoints>150</MaxHitPoints>
@@ -435,7 +381,6 @@
     <passability>PassThroughOnly</passability>
     <blockWind>false</blockWind>
     <castEdgeShadows>false</castEdgeShadows>
-    <selectable>true</selectable>
     <pathCost>60</pathCost>
     <uiIconPath>DBH/UI/outlet</uiIconPath>
     <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
@@ -451,7 +396,6 @@
         <ai_chillDestination>false</ai_chillDestination>
       </building>
     <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
-    <soundImpactDefault>BulletImpactMetal</soundImpactDefault>
     <rotatable>true</rotatable>
     <statBases>
       <MaxHitPoints>150</MaxHitPoints>
@@ -496,7 +440,6 @@
     <passability>Standable</passability>
     <blockWind>false</blockWind>
     <castEdgeShadows>false</castEdgeShadows>
-    <selectable>true</selectable>
     <pathCost>0</pathCost>
     <size>(2,2)</size>
     <stuffCategories>
@@ -509,7 +452,6 @@
     </costList>
     <costStuffCount>100</costStuffCount>
     <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
-    <soundImpactDefault>BulletImpactMetal</soundImpactDefault>
     <rotatable>false</rotatable>
     <statBases>
       <MaxHitPoints>200</MaxHitPoints>
@@ -553,15 +495,13 @@
     <passability>PassThroughOnly</passability>
     <blockWind>false</blockWind>
     <castEdgeShadows>false</castEdgeShadows>
-    <selectable>true</selectable>
     <pathCost>60</pathCost>
     <size>(5,5)</size>
     <costList>
       <Steel>400</Steel>
-      <Component>8</Component>
+      <ComponentIndustrial>8</ComponentIndustrial>
     </costList>
     <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
-    <soundImpactDefault>BulletImpactMetal</soundImpactDefault>
     <rotatable>false</rotatable>
     <statBases>
       <MaxHitPoints>350</MaxHitPoints>
@@ -612,15 +552,13 @@
     <passability>PassThroughOnly</passability>
     <blockWind>false</blockWind>
     <castEdgeShadows>false</castEdgeShadows>
-    <selectable>true</selectable>
     <pathCost>60</pathCost>
     <size>(2,2)</size>
     <costList>
       <Steel>250</Steel>
-      <Component>5</Component>
+      <ComponentIndustrial>5</ComponentIndustrial>
     </costList>
     <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
-    <soundImpactDefault>BulletImpactMetal</soundImpactDefault>
     <rotatable>false</rotatable>
     <statBases>
       <MaxHitPoints>120</MaxHitPoints>

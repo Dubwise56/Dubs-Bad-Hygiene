@@ -5,17 +5,20 @@
   <ThingDef Name="BasedHygieneMom" Abstract="True">
     <category>Building</category>
     <thingClass>Building</thingClass>
-    <soundImpactDefault>BulletImpactMetal</soundImpactDefault>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
     <selectable>true</selectable>
     <drawerType>MapMeshAndRealTime</drawerType>
     <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
     <repairEffect>Repair</repairEffect>
     <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
-    <filthLeaving>BuildingRubble</filthLeaving>
+    <filthLeaving>Filth_RubbleBuilding</filthLeaving>
     <designationCategory>Hygiene</designationCategory>
     <passability>PassThroughOnly</passability>
     <altitudeLayer>Building</altitudeLayer>
     <tickerType>Normal</tickerType>
+    <statBases>
+      <SellPriceFactor>0.70</SellPriceFactor>
+    </statBases>
   </ThingDef>
 
 
@@ -30,6 +33,10 @@
       <ai_chillDestination>false</ai_chillDestination>
     </building>
     <socialPropernessMatters>true</socialPropernessMatters>
+    <thingCategories>
+      <li>BuildingsHygiene</li>
+    </thingCategories>
+    <minifiedDef>MinifiedThing</minifiedDef>
   </ThingDef>
 
 
@@ -52,11 +59,8 @@
     <uiIconPath>DBH/Things/Building/StallDoorSimple_UI</uiIconPath>
     <costStuffCount>5</costStuffCount>
     <designationHotKey>Misc1</designationHotKey>
-    <blueprintClass>Blueprint_Door</blueprintClass>
+    
     <category>Building</category>
-    <blueprintGraphicData>
-      <texPath>DBH/Things/Building/Door_Blueprint</texPath>
-    </blueprintGraphicData>
     <altitudeLayer>DoorMoveable</altitudeLayer>
     <useHitPoints>true</useHitPoints>
     <stuffCategories>
@@ -70,22 +74,19 @@
       <Flammability>1.0</Flammability>
     </statBases>
     <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
-    <selectable>true</selectable>
     <tickerType>Normal</tickerType>
     <rotatable>false</rotatable>
-    <soundImpactDefault>BulletImpactMetal</soundImpactDefault>
-    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
     <staticSunShadowHeight>1.0</staticSunShadowHeight>
     <blockLight>true</blockLight>
     <drawerType>RealtimeOnly</drawerType>
     <building>
+      <blueprintGraphicData>
+        <texPath>DBH/Things/Building/Door_Blueprint</texPath>
+      </blueprintGraphicData>
+      <blueprintClass>Blueprint_Door</blueprintClass>
       <isEdifice>true</isEdifice>
       <isInert>true</isInert>
       <canPlaceOverWall>true</canPlaceOverWall>
-      <soundDoorOpenPowered>DoorOpenPowered</soundDoorOpenPowered>
-      <soundDoorClosePowered>DoorClosePowered</soundDoorClosePowered>
-      <soundDoorOpenManual>DoorOpenManual</soundDoorOpenManual>
-      <soundDoorCloseManual>DoorCloseManual</soundDoorCloseManual>
     </building>
     <comps>
       <li Class="CompProperties_Forbiddable"/>
@@ -109,7 +110,6 @@
         <rect>(0.2,0.2,0.6,0.6)</rect>
       </damageData>
     </graphicData>
-    <minifiedDef>MinifiedFurniture</minifiedDef>
     <altitudeLayer>Building</altitudeLayer>
     <passability>PassThroughOnly</passability>
     <statBases>
@@ -118,6 +118,7 @@
       <Flammability>2.0</Flammability>
       <Beauty>-5</Beauty>
       <Cleanliness>-5</Cleanliness>
+      <Mass>5</Mass>
     </statBases>
     <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
     <fillPercent>0.15</fillPercent>
@@ -149,7 +150,10 @@
         <rect>(0.2,0.2,0.6,0.6)</rect>
       </damageData>
     </graphicData>
-    <minifiedDef>MinifiedFurniture</minifiedDef>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories>
+      <li>BuildingsHygiene</li>
+    </thingCategories>
     <altitudeLayer>Building</altitudeLayer>
     <statBases>
       <MaxHitPoints>75</MaxHitPoints>
@@ -157,6 +161,7 @@
       <Flammability>1.0</Flammability>
       <Beauty>-5</Beauty>
       <Cleanliness>-5</Cleanliness>
+      <Mass>5</Mass>
     </statBases>
     <fillPercent>0.15</fillPercent>
     <stuffCategories>
@@ -185,7 +190,10 @@
         <rect>(0.2,0.2,0.6,0.6)</rect>
       </damageData>
     </graphicData>
-    <minifiedDef>MinifiedFurniture</minifiedDef>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories>
+      <li>BuildingsHygiene</li>
+    </thingCategories>
     <altitudeLayer>Building</altitudeLayer>
     <statBases>
       <MaxHitPoints>75</MaxHitPoints>
@@ -193,6 +201,7 @@
       <Flammability>1.0</Flammability>
       <Beauty>-5</Beauty>
       <Cleanliness>-5</Cleanliness>
+      <Mass>5</Mass>
     </statBases>
     <fillPercent>0.15</fillPercent>
     <stuffCategories>
@@ -212,7 +221,7 @@
   <ThingDef ParentName="BasedHygieneMom">
     <defName>BurnPit</defName>
     <label>Burn Pit</label>
-    <description>Pit used for burning human waste, corpses, or other detritus. May have adverse health effects</description>
+    <description>Eliminates fecal sludge by burning it as fuel, can be used for disposing of corpses, or other detritus. Colonist may become sick if they spend too long near burning waste</description>
     <thingClass>DubsBadHygiene.Building_BurnPit</thingClass>
     <category>Building</category>
     <graphicData>
@@ -240,7 +249,7 @@
     <costList>
       <Steel>20</Steel>
     </costList>
-    <soundImpactDefault>BulletImpactGround</soundImpactDefault>
+    <soundImpactDefault>BulletImpact_Ground</soundImpactDefault>
     <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
     <resourcesFractionWhenDeconstructed>0</resourcesFractionWhenDeconstructed>
     <placeWorkers>
@@ -268,7 +277,7 @@
     <interactionCellOffset>(0,0,-1)</interactionCellOffset>
     <recipes>
       <li>CremateCorpse</li>
-      <li>BurnApparelCampfire</li>
+      <li>BurnApparel</li>
       <li>BurnDrugs</li>
     </recipes>
     <inspectorTabs>
@@ -287,7 +296,7 @@
   <!--                Basins                      -->
 
   <ThingDef ParentName="BasedFixture" Name="DubsDirtyBasinBase" Abstract="True">
-    <description>Clean and simple bathroom basin. Instructions sold separately.</description>
+    <description>Clean and simple bathroom basin for keeping your hands clean after using the toilet. Can't be used for washing</description>
     <thingClass>DubsBadHygiene.Building_basin</thingClass>
     <graphicData>
       <drawSize>(2,2)</drawSize>
@@ -305,9 +314,9 @@
       <Flammability>1.0</Flammability>
       <Cleanliness>1</Cleanliness>
       <Beauty>10</Beauty>
+      <Mass>5</Mass>
     </statBases>
-    <minifiedDef>MinifiedFurniture</minifiedDef>
-    <interactionCellOffset>(0,0,1)</interactionCellOffset>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
     <hasInteractionCell>true</hasInteractionCell>
     <fillPercent>0.15</fillPercent>
     <passability>PassThroughOnly</passability>
@@ -398,8 +407,8 @@
       <Flammability>1.0</Flammability>
       <Beauty>1</Beauty>
       <Comfort>0.1</Comfort>
+      <Mass>18</Mass>
     </statBases>
-    <minifiedDef>MinifiedFurniture</minifiedDef>
     <fillPercent>0.15</fillPercent>
     <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
     <pathCost>8</pathCost>
@@ -467,7 +476,7 @@
     <designationCategory></designationCategory>
     <label>Power Toilet (Legacy)</label>
     <costList>
-      <Component>1</Component>
+      <ComponentIndustrial>1</ComponentIndustrial>
       <Steel>35</Steel>
     </costList>
   </ThingDef>
@@ -476,7 +485,7 @@
     <defName>ToiletAdvStuff</defName>
     <label>Smart Toilet</label>
     <costList>
-      <Component>1</Component>
+      <ComponentIndustrial>1</ComponentIndustrial>
     </costList>
     <stuffCategories>
       <li>Metallic</li>
@@ -504,9 +513,10 @@
       <Flammability>1.0</Flammability>
       <Beauty>10</Beauty>
       <Comfort>0.9</Comfort>
-      <EntertainmentStrengthFactor>0.7</EntertainmentStrengthFactor>
-    </statBases>
-    <minifiedDef>MinifiedFurniture</minifiedDef>
+      <JoyGainFactor>0.7</JoyGainFactor>
+      <Mass>50</Mass>
+    
+  </statBases>
     <fillPercent>0.15</fillPercent>
     <size>(1, 2)</size>
     <passability>PassThroughOnly</passability>
@@ -560,8 +570,9 @@
       <Flammability>1.0</Flammability>
       <Beauty>3</Beauty>
       <Comfort>0.5</Comfort>
+      <Mass>20</Mass>
     </statBases>
-    <minifiedDef>MinifiedFurniture</minifiedDef>
+    
     <fillPercent>0.15</fillPercent>
     <passability>PassThroughOnly</passability>
     <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
@@ -628,7 +639,7 @@
       <li Class="CompProperties_Flickable"/>
     </comps>
     <costList>
-      <Component>1</Component>
+      <ComponentIndustrial>1</ComponentIndustrial>
       <Steel>40</Steel>
     </costList>
     <researchPrerequisites>
@@ -660,7 +671,7 @@
       <li Class="CompProperties_Flickable"/>
     </comps>
     <costList>
-      <Component>1</Component>
+      <ComponentIndustrial>1</ComponentIndustrial>
       <Steel>10</Steel>
     </costList>
     <stuffCategories>

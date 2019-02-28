@@ -1,26 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <ThirtsLevel.stages.0.label>목마름</ThirtsLevel.stages.0.label>
-  <ThirtsLevel.stages.0.description>뭔가 마시고 싶은걸</ThirtsLevel.stages.0.description>
-  <ThirtsLevel.stages.1.label>심각하게 목마름</ThirtsLevel.stages.1.label>
-  <ThirtsLevel.stages.1.description>물... 무우우울!</ThirtsLevel.stages.1.description>
-  <ThirtsLevel.stages.2.label>죽을정도로 목마름</ThirtsLevel.stages.2.label>
-  <ThirtsLevel.stages.2.description>죽을것같아...</ThirtsLevel.stages.2.description>
+  <HygieneLevel.stages.0.label>불결한</HygieneLevel.stages.0.label>
+  <HygieneLevel.stages.0.description>내게서 하수구냄새가 나는것 같아</HygieneLevel.stages.0.description>
+  <HygieneLevel.stages.1.label>더럽혀진</HygieneLevel.stages.1.label>
+  <HygieneLevel.stages.1.description>빨리 더럽혀진걸 씻고싶어</HygieneLevel.stages.1.description>
+  <HygieneLevel.stages.2.label>깨끗함</HygieneLevel.stages.2.label>
+  <HygieneLevel.stages.2.description>나는 충분히 깨끗해.</HygieneLevel.stages.2.description>
+  <HygieneLevel.stages.3.label>적당히 깨끗함</HygieneLevel.stages.3.label>
+  <HygieneLevel.stages.3.description>저는 깨끗하게 잘 지내요!</HygieneLevel.stages.3.description>
 
-  <HygieneLevel.stages.0.label>냄새남</HygieneLevel.stages.0.label>
-  <HygieneLevel.stages.0.description>몸에서 냄새가 나는것 같은데</HygieneLevel.stages.0.description>
-  <HygieneLevel.stages.1.label>더러움</HygieneLevel.stages.1.label>
-  <HygieneLevel.stages.1.description>씻고싶어 미치겠다</HygieneLevel.stages.1.description>
-  <HygieneLevel.stages.2.label>청결함</HygieneLevel.stages.2.label>
-  <HygieneLevel.stages.2.description>지금은 깨끗해.</HygieneLevel.stages.2.description>
-  <HygieneLevel.stages.3.label>아마도 청결함</HygieneLevel.stages.3.label>
-  <HygieneLevel.stages.3.description>아직은 안씻어도 괜찮아.</HygieneLevel.stages.3.description>
-
-  <BowelLevel.stages.0.label>멘붕</BowelLevel.stages.0.label>
-  <BowelLevel.stages.0.description>상태가 안좋은걸. 미쳐버릴정도로!</BowelLevel.stages.0.description>
-  <BowelLevel.stages.1.label>화장실이 필요합니다</BowelLevel.stages.1.label>
-  <BowelLevel.stages.1.description>화장실이 필요해.</BowelLevel.stages.1.description>
+  <BowelLevel.stages.0.label>터질거같음</BowelLevel.stages.0.label>
+  <BowelLevel.stages.0.description>급해!</BowelLevel.stages.0.description>
+  <BowelLevel.stages.1.label>화장실 필요</BowelLevel.stages.1.label>
+  <BowelLevel.stages.1.description>화장실 가고싶어</BowelLevel.stages.1.description>
 
 
 </LanguageData>

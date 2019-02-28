@@ -8,7 +8,7 @@
     <label>Hot Tub</label>
     <costList>
       <Steel>20</Steel>
-      <Component>4</Component>
+      <ComponentIndustrial>4</ComponentIndustrial>
     </costList>
     <stuffCategories>
       <li>Metallic</li>
@@ -29,12 +29,13 @@
       <Flammability>0.3</Flammability>
       <Beauty>25</Beauty>
       <Comfort>2</Comfort>
-      <EntertainmentStrengthFactor>0.9</EntertainmentStrengthFactor>
+      <JoyGainFactor>0.9</JoyGainFactor>
+     <Mass>100</Mass>
     </statBases>
     <building>
       <bed_healPerDay>9</bed_healPerDay>
         <ai_chillDestination>true</ai_chillDestination>
-      <isJoySource>true</isJoySource>
+      <joyKind>Social</joyKind>
     </building>
     <comps>
       <li Class="CompProperties_Power">
@@ -65,6 +66,10 @@
       <graphicClass>Graphic_Multi</graphicClass>
       <drawSize>(2,2)</drawSize>
     </graphicData>
+        <minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories>
+      <li>BuildingsHygiene</li>
+    </thingCategories>
     <category>Building</category>
     <tickerType>Normal</tickerType>
     <canOverlapZones>false</canOverlapZones>
@@ -72,19 +77,18 @@
     <passability>PassThroughOnly</passability>
     <blockWind>false</blockWind>
     <castEdgeShadows>false</castEdgeShadows>
-    <selectable>true</selectable>
     <pathCost>60</pathCost>
     <size>(1,1)</size>
     <costList>
       <Steel>100</Steel>
-      <Component>2</Component>
+      <ComponentIndustrial>2</ComponentIndustrial>
     </costList>
     <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
-    <soundImpactDefault>BulletImpactMetal</soundImpactDefault>
     <rotatable>true</rotatable>
     <statBases>
       <MaxHitPoints>100</MaxHitPoints>
       <WorkToBuild>1200</WorkToBuild>
+     <Mass>25</Mass>
     </statBases>
     <comps>
       <li Class="DubsBadHygiene.CompProperties_Pipe">
@@ -98,7 +102,7 @@
       <li Class="CompProperties_Breakdownable"/>
     </comps>
     <building>
-      <isJoySource>true</isJoySource>
+      <joyKind>Meditative</joyKind>
       <watchBuildingStandDistanceRange>
         <min>1</min>
         <max>3</max>

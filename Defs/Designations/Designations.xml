@@ -2,7 +2,7 @@
 <Defs>
 
   <DesignationDef>
-    <defName>RemoveSewage</defName>
+    <defName>RemoveSewageDes</defName>
     <texturePath>Designations/Haul</texturePath>
     <targetType>Cell</targetType>
   </DesignationDef>

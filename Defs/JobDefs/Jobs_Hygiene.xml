@@ -2,6 +2,12 @@
 <Defs>
   
   <JobDef>
+    <defName>TriggerFireSprinkler</defName>
+    <driverClass>DubsBadHygiene.JobDriver_TriggerSprinkler</driverClass>
+    <reportString>Activating TargetA.</reportString>
+  </JobDef>
+  
+  <JobDef>
     <defName>emptySeptictank</defName>
     <driverClass>DubsBadHygiene.JobDriver_emptySepticTank</driverClass>
     <reportString>emptying TargetA.</reportString>
@@ -37,7 +43,6 @@
     <driverClass>DubsBadHygiene.JobDriver_WatchWashingMachine</driverClass>
     <reportString>watching the spin cycle.</reportString>
     <joyDuration>4000</joyDuration>
-    <joyGainRate>1</joyGainRate>
     <joyKind>Meditative</joyKind>
   </JobDef>
 
@@ -46,7 +51,6 @@
     <driverClass>DubsBadHygiene.JobDriver_UseHotTub</driverClass>
     <reportString>relaxing.</reportString>
     <joyDuration>4000</joyDuration>
-    <joyGainRate>1</joyGainRate>
     <joyMaxParticipants>2</joyMaxParticipants>
     <joyKind>Social</joyKind>
   </JobDef>
@@ -54,7 +58,7 @@
   <JobDef>
     <defName>DBHDrinkFromGround</defName>
     <driverClass>DubsBadHygiene.JobDriver_DrinkFromGround</driverClass>
-    <reportString>Drinking surface water.</reportString>
+    <reportString>Drinking water.</reportString>
   </JobDef>
 
   <JobDef>
@@ -82,6 +86,12 @@
   </JobDef>
 
   <JobDef>
+    <defName>washAtCell</defName>
+    <driverClass>DubsBadHygiene.JobDriver_washAtCell</driverClass>
+    <reportString>washing.</reportString>
+  </JobDef>
+
+  <JobDef>
     <defName>takeShower</defName>
     <driverClass>DubsBadHygiene.JobDriver_takeShower</driverClass>
     <reportString>showering with TargetA.</reportString>
@@ -91,7 +101,7 @@
     <defName>takeBath</defName>
     <driverClass>DubsBadHygiene.JobDriver_takeBath</driverClass>
     <reportString>Having a bath.</reportString>
-    <joyKind>Passive</joyKind>
+    <joyKind>Meditative</joyKind>
   </JobDef>
   
   <JobDef>

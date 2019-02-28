@@ -21,7 +21,8 @@
   <BlockedSewageDesc>Sewage has built up around the drain hole and is blocking the outlet.\n\nBuild more outlets or add a septic tank to create a buffer and reduce pressure on the outlets.</BlockedSewageDesc>
   <LowWaterTemp>Low Water Temp</LowWaterTemp>
   <LowWaterTempDesc>The water temperature in this tank is too low, colonists expecting to use hot water may get annoyed.\n\nTurn on boilers, increase the heating capacity or add another hot water tank.</LowWaterTempDesc>
-
+  <WellNeedsWater>Must be placed over a cell with ground water.</WellNeedsWater>
+  
   <AssigningRequiresBladderNeed>Assigning requires bladder need, {0} doesn't have it</AssigningRequiresBladderNeed>
 
   <NoCompostingMaterial>No composting material</NoCompostingMaterial>
@@ -42,7 +43,7 @@
   <LetterBlockedDrain>A drain has become blocked, a cleaner must clean the blockage.</LetterBlockedDrain>
 
   <ContaminationAlert>Contaminated Water</ContaminationAlert>
-  <ContaminationAlertDesc>A water source is so polluted that there is a risk it will contaminate your water storage towers</ContaminationAlertDesc>
+  <ContaminationAlertDesc>A water source is so polluted that there is a risk it will contaminate your water storage towers\n\nSources of contamination:\n{0} \n\nEither remove the sources of contamination, or add a water treatment system which will also clean contaminated water towers.</ContaminationAlertDesc>
   <ContaminatiedTowerAlert>Contaminated Water Tower</ContaminatiedTowerAlert>
   <ContaminatiedTowerAlertDesc>A water tower has become polluted, this poses a serious risk to the health of your colonists! Move your water towers, drain them, or build a water treatment system</ContaminatiedTowerAlertDesc>
 
@@ -56,6 +57,10 @@
   <PatientsOnly>Patients only</PatientsOnly>
   <AttackHelicopter>Attack Helicopter</AttackHelicopter>
   <Unisex>Unisex</Unisex>
+  <ConnectFixturesToBed>Link Bed</ConnectFixturesToBed>
+  <ConnectFixturesToBedDesc>Connect the fixtures to a nearby bed so they inherit the ownership</ConnectFixturesToBedDesc>
+  <CancelConnectFixturesToBed>Clear Bed Link</CancelConnectFixturesToBed>
+  <CancelConnectFixturesToBedDesc>Clear the link to beds</CancelConnectFixturesToBedDesc>
 
 
   <!--Heating-->
@@ -153,7 +158,9 @@
   <HospitalityGuestsGetNeeds>Hospitality Guests</HospitalityGuestsGetNeeds>
   <HospitalityGuestsGetNeedsTip>If guests from the mod "Hospitality" get the needs</HospitalityGuestsGetNeedsTip>
 
-
+  <DisableNeeds>Disable needs</DisableNeeds>
+  <DisableNeedsTip>Disable the needs entirely, overrides all other settings</DisableNeedsTip>
+  
   <Experimentalfeatures>Experimental features</Experimentalfeatures>
   <OutsidersGetNeeds>Outsiders</OutsidersGetNeeds>
   <OutsidersGetNeedsTip>If outsiders including traders and raiders will get the needs</OutsidersGetNeedsTip>
@@ -165,4 +172,6 @@
   <ThirstNeedTip>Enable a basic thirst need on all colonists with the bladder need</ThirstNeedTip>
   <FertilizerVisible>Fertilizer Visible</FertilizerVisible>
   <FertilizerVisibleTip>If the fertilizer grid should be visible</FertilizerVisibleTip>
+  <AllowNonHuman>Non Human Colonists</AllowNonHuman>
+  <AllowNonHumanTip>Allow the needs to run on non human colonists, probably wont work!, overridden by need settings</AllowNonHumanTip>
 </LanguageData>

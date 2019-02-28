@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Irrigation -->
+
+  <IrrigationSprinkler.label>관개 스프링클러</IrrigationSprinkler.label>
+  <IrrigationSprinkler.description>하루를 통해 토양의 비옥도를 향상시키기 위해 주변 지역에 매일 한 번 물을줍니다. 스프레이하는 동안 물 타워에서 다량의 물이 필요합니다.</IrrigationSprinkler.description>
+  <IrrigationSprinkler_Blueprint.label>관개 스프링클러 (청사진)</IrrigationSprinkler_Blueprint.label>
+  <IrrigationSprinkler_Blueprint_Install.label>관개 스프링클러 (청사진)</IrrigationSprinkler_Blueprint_Install.label>
+  <IrrigationSprinkler_Frame.label>관개 스프링클러 (건설중)</IrrigationSprinkler_Frame.label>
+  <IrrigationSprinkler_Frame.description>하루를 통해 토양의 비옥도를 향상시키기 위해 주변 지역에 매일 한 번 물을줍니다. 스프레이하는 동안 물 타워에서 다량의 물이 필요합니다.</IrrigationSprinkler_Frame.description>
+
+  <FireSprinkler.label>화재 스프링클러</FireSprinkler.label>
+  <FireSprinkler.description>화재가 발생하거나 손으로 화재버튼을 누른 경우 물방울로 물을 뿌린다.</FireSprinkler.description>
+  <FireSprinkler_Blueprint.label>화재 스프링클러 (청사진)</FireSprinkler_Blueprint.label>
+  <FireSprinkler_Blueprint_Install.label>화재 스프링클러 (청사진)</FireSprinkler_Blueprint_Install.label>
+  <FireSprinkler_Frame.label>화재 스프링클러 (건설중)</FireSprinkler_Frame.label>
+  <FireSprinkler_Frame.description>화재가 발생하거나 손으로 화재버튼을 누른 경우 물방울로 물을 뿌린다.</FireSprinkler_Frame.description>
+
+  <plumbingValve.label>위생 밸브</plumbingValve.label>
+  <plumbingValve.description>파이프 간의 연결을 열거 나 닫습니다.</plumbingValve.description>
+  <plumbingValve_Blueprint.label>위생 밸브 (청사진)</plumbingValve_Blueprint.label>
+  <plumbingValve_Blueprint_Install.label>위생 밸브 (청사진)</plumbingValve_Blueprint_Install.label>
+  <plumbingValve_Frame.label>위생 밸브 (건설중)</plumbingValve_Frame.label>
+  <plumbingValve_Frame.description>파이프 간의 연결을 열거 나 닫습니다.</plumbingValve_Frame.description>
+
+  <BiosolidsComposter.label>바이오솔리드 퇴비</BiosolidsComposter.label>
+  <BiosolidsComposter.description>농사 가능한 지형의 비옥도를 높이기 위해 하수를 비료로 전환시키는 퇴비.</BiosolidsComposter.description>
+  <BiosolidsComposter_Blueprint.label>바이오솔리드 퇴비 (청사진)</BiosolidsComposter_Blueprint.label>
+  <BiosolidsComposter_Blueprint_Install.label>바이오솔리드 퇴비 (청사진)</BiosolidsComposter_Blueprint_Install.label>
+  <BiosolidsComposter_Frame.label>바이오솔리드 퇴비 (건설중)</BiosolidsComposter_Frame.label>
+  <BiosolidsComposter_Frame.description>농사 가능한 지형의 비옥도를 높이기 위해 하수를 비료로 전환시키는 퇴비.</BiosolidsComposter_Frame.description>
+
+  <BiosolidFertilizer.label>바이오 솔리드 비료</BiosolidFertilizer.label>
+  <BiosolidFertilizer.description>파종 가능한 지형의 비옥도를 높이기 위해 사용되는 바이오 솔리드 비료는 1 년 미만으로 지속됩니다.</BiosolidFertilizer.description>
+  <BiosolidFertilizer_Blueprint.label>바이오 솔리드 비 (청사진)</BiosolidFertilizer_Blueprint.label>
+  <BiosolidFertilizer_Frame.label>바이오 솔리드 비 (건설중)</BiosolidFertilizer_Frame.label>
+  <BiosolidFertilizer_Frame.description>파종 가능한 지형의 비옥도를 높이기 위해 사용되는 바이오 솔리드 비료는 1 년 미만으로 지속됩니다.</BiosolidFertilizer_Frame.description>
+
+
+</LanguageData>

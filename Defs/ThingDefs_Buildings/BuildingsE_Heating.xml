@@ -3,7 +3,15 @@
 
   <!--LEGACY-->
 
-  <ThingDef ParentName="BasedHygieneMom">
+  <ThingDef Name="BasedHeating" ParentName="BasedHygieneMom" Abstract="True">
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories>
+      <li>BuildingsHygiene</li>
+    </thingCategories>
+  </ThingDef>
+
+
+  <ThingDef ParentName="BasedHeating">
     <defName>ImmersionHeater</defName>
     <label>Boiler(Legacy item)</label>
     <description>replace this with an electric boiler and a hot water tank!</description>
@@ -15,21 +23,19 @@
         <rect>(0.05,0.05,0.95,0.95)</rect>
       </damageData>
     </graphicData>
-    <minifiedDef>MinifiedFurniture</minifiedDef>
     <blockWind>false</blockWind>
     <castEdgeShadows>true</castEdgeShadows>
-    <selectable>true</selectable>
     <pathCost>8</pathCost>
     <size>(1,1)</size>
     <costList>
       <Steel>90</Steel>
-      <Component>3</Component>
+      <ComponentIndustrial>3</ComponentIndustrial>
     </costList>
-    <soundImpactDefault>BulletImpactMetal</soundImpactDefault>
     <rotatable>false</rotatable>
     <statBases>
       <MaxHitPoints>125</MaxHitPoints>
       <WorkToBuild>1600</WorkToBuild>
+      <Mass>50</Mass>
     </statBases>
     <comps>
       <li Class="DubsBadHygiene.CompProperties_Pipe">
@@ -58,7 +64,7 @@
   </ThingDef>
 
 
-  <ThingDef ParentName="BasedHygieneMom">
+  <ThingDef ParentName="BasedHeating">
     <defName>FueledBoiler</defName>
     <label>Multi-fuel stove(Legacy item)</label>
     <description>Replace this with a wood stove or gas boiler!</description>
@@ -70,21 +76,19 @@
         <rect>(0.05,0.05,0.95,0.95)</rect>
       </damageData>
     </graphicData>
-    <minifiedDef>MinifiedFurniture</minifiedDef>
     <blockWind>true</blockWind>
     <castEdgeShadows>true</castEdgeShadows>
-    <selectable>true</selectable>
     <pathCost>8</pathCost>
     <size>(1,1)</size>
     <costList>
       <Steel>200</Steel>
-      <Component>1</Component>
+      <ComponentIndustrial>1</ComponentIndustrial>
     </costList>
-    <soundImpactDefault>BulletImpactMetal</soundImpactDefault>
     <rotatable>true</rotatable>
     <statBases>
       <MaxHitPoints>350</MaxHitPoints>
       <WorkToBuild>1200</WorkToBuild>
+      <Mass>50</Mass>
     </statBases>
     <comps>
       <li Class="DubsBadHygiene.CompProperties_Pipe">
@@ -142,7 +146,7 @@
 
   <!--               Heating              -->
 
-  <ThingDef ParentName="BasedHygieneMom">
+  <ThingDef ParentName="BasedHeating">
     <defName>Thermostat</defName>
     <label>Thermostat</label>
     <description>Used to control electric and gas boilers, more than 1 can be placed, connects via standard plumbing.</description>
@@ -155,20 +159,18 @@
       </damageData>
     </graphicData>
     <uiIconPath>DBH/UI/Thermostat</uiIconPath>
-    <minifiedDef>MinifiedFurniture</minifiedDef>
     <blockWind>false</blockWind>
     <castEdgeShadows>false</castEdgeShadows>
-    <selectable>true</selectable>
     <pathCost>0</pathCost>
     <costList>
       <Steel>10</Steel>
-      <Component>1</Component>
+      <ComponentIndustrial>1</ComponentIndustrial>
     </costList>
-    <soundImpactDefault>BulletImpactMetal</soundImpactDefault>
     <rotatable>true</rotatable>
     <statBases>
       <MaxHitPoints>20</MaxHitPoints>
       <WorkToBuild>200</WorkToBuild>
+      <Mass>1</Mass>
     </statBases>
     <comps>
       <li Class="DubsBadHygiene.CompProperties_Pipe">
@@ -184,7 +186,7 @@
     </researchPrerequisites>
   </ThingDef>
 
-  <ThingDef ParentName="BasedHygieneMom">
+  <ThingDef ParentName="BasedHeating">
     <defName>LogBoiler</defName>
     <label>Log boiler</label>
     <description>Produces 2000 heating units for radiators and hot water tanks. Requires wood logs for fuel.</description>
@@ -196,20 +198,18 @@
         <rect>(0.05,0.05,0.95,0.95)</rect>
       </damageData>
     </graphicData>
-    <minifiedDef>MinifiedFurniture</minifiedDef>
     <blockWind>true</blockWind>
     <castEdgeShadows>false</castEdgeShadows>
-    <selectable>true</selectable>
     <pathCost>150</pathCost>
     <size>(1,1)</size>
     <costList>
       <Steel>200</Steel>
     </costList>
-    <soundImpactDefault>BulletImpactMetal</soundImpactDefault>
     <rotatable>true</rotatable>
     <statBases>
       <MaxHitPoints>250</MaxHitPoints>
       <WorkToBuild>1000</WorkToBuild>
+      <Mass>50</Mass>
     </statBases>
     <comps>
       <li Class="DubsBadHygiene.CompProperties_Pipe">
@@ -250,7 +250,7 @@
     </researchPrerequisites>
   </ThingDef>
 
-  <ThingDef ParentName="BasedHygieneMom">
+  <ThingDef ParentName="BasedHeating">
     <defName>GasBoiler</defName>
     <label>Gas boiler</label>
     <description>Produces 2000 heating units for radiators and hot water tanks. Requires chemfuel for fuel, Can be controlled by thermostats</description>
@@ -262,21 +262,19 @@
         <rect>(0.05,0.05,0.95,0.95)</rect>
       </damageData>
     </graphicData>
-    <minifiedDef>MinifiedFurniture</minifiedDef>
     <blockWind>true</blockWind>
     <castEdgeShadows>false</castEdgeShadows>
-    <selectable>true</selectable>
     <pathCost>150</pathCost>
     <size>(1,1)</size>
     <costList>
       <Steel>80</Steel>
-      <Component>3</Component>
+      <ComponentIndustrial>3</ComponentIndustrial>
     </costList>
-    <soundImpactDefault>BulletImpactMetal</soundImpactDefault>
     <rotatable>true</rotatable>
     <statBases>
       <MaxHitPoints>150</MaxHitPoints>
       <WorkToBuild>1500</WorkToBuild>
+      <Mass>50</Mass>
     </statBases>
     <comps>
       <li Class="DubsBadHygiene.CompProperties_Pipe">
@@ -311,7 +309,7 @@
   </ThingDef>
 
 
-  <ThingDef ParentName="BasedHygieneMom">
+  <ThingDef ParentName="BasedHeating">
     <defName>ElectricBoiler</defName>
     <label>Electric Boiler</label>
     <description>Produces a variable amount of heating units for radiators and hot water tanks. Manually controlled power setting. Can be controlled by thermostats</description>
@@ -323,21 +321,19 @@
         <rect>(0.05,0.05,0.95,0.95)</rect>
       </damageData>
     </graphicData>
-    <minifiedDef>MinifiedFurniture</minifiedDef>
     <blockWind>false</blockWind>
     <castEdgeShadows>false</castEdgeShadows>
-    <selectable>true</selectable>
     <pathCost>150</pathCost>
     <size>(1,1)</size>
     <costList>
       <Steel>80</Steel>
-      <Component>3</Component>
+      <ComponentIndustrial>3</ComponentIndustrial>
     </costList>
-    <soundImpactDefault>BulletImpactMetal</soundImpactDefault>
     <rotatable>true</rotatable>
     <statBases>
       <MaxHitPoints>125</MaxHitPoints>
       <WorkToBuild>2000</WorkToBuild>
+      <Mass>50</Mass>
     </statBases>
     <comps>
       <li Class="DubsBadHygiene.CompProperties_Pipe">
@@ -382,13 +378,11 @@
     </graphicData>
     <blockWind>false</blockWind>
     <castEdgeShadows>true</castEdgeShadows>
-    <selectable>true</selectable>
     <pathCost>150</pathCost>
     <size>(3,3)</size>
     <costList>
       <Steel>75</Steel>
     </costList>
-    <soundImpactDefault>BulletImpactMetal</soundImpactDefault>
     <rotatable>false</rotatable>
     <statBases>
       <MaxHitPoints>250</MaxHitPoints>
@@ -409,7 +403,7 @@
     </researchPrerequisites>
   </ThingDef>
 
-  <ThingDef ParentName="BasedHygieneMom">
+  <ThingDef ParentName="BasedHeating">
     <defName>HotWaterTank</defName>
     <label>Hot Water Tank</label>
     <description>Stores hot running water for showers and baths, connect to any boiler to heat.</description>
@@ -421,20 +415,18 @@
         <rect>(0.05,0.05,0.95,0.95)</rect>
       </damageData>
     </graphicData>
-    <minifiedDef>MinifiedFurniture</minifiedDef>
     <blockWind>true</blockWind>
     <castEdgeShadows>true</castEdgeShadows>
-    <selectable>true</selectable>
     <pathCost>150</pathCost>
     <size>(1,1)</size>
     <costList>
       <Steel>75</Steel>
     </costList>
-    <soundImpactDefault>BulletImpactMetal</soundImpactDefault>
     <rotatable>false</rotatable>
     <statBases>
       <MaxHitPoints>350</MaxHitPoints>
       <WorkToBuild>1200</WorkToBuild>
+      <Mass>50</Mass>
       <Beauty>-10</Beauty>
     </statBases>
     <comps>
@@ -458,7 +450,7 @@
     </researchPrerequisites>
   </ThingDef>
 
-  <ThingDef Name="BaseRadiator" ParentName="BasedHygieneMom" Abstract="True">
+  <ThingDef Name="BaseRadiator" ParentName="BasedHeating" Abstract="True">
     <thingClass>DubsBadHygiene.Building_Radiator</thingClass>
     <graphicData>
       <texPath>DBH/Things/Building/Heating/radiator</texPath>
@@ -469,16 +461,14 @@
       </damageData>
     </graphicData>
     <description>Heats rooms using hot water, requires 100 heating units.</description>
-    <minifiedDef>MinifiedFurniture</minifiedDef>
     <passability>Standable</passability>
     <blockWind>false</blockWind>
     <castEdgeShadows>false</castEdgeShadows>
-    <selectable>true</selectable>
-    <soundImpactDefault>BulletImpactMetal</soundImpactDefault>
     <rotatable>true</rotatable>
     <statBases>
       <MaxHitPoints>150</MaxHitPoints>
       <WorkToBuild>700</WorkToBuild>
+      <Mass>50</Mass>
     </statBases>
     <comps>
       <li Class="DubsBadHygiene.CompProperties_Pipe">
@@ -571,7 +561,7 @@
 
   <!--COOLING-->
 
-  <ThingDef ParentName="BasedHygieneMom">
+  <ThingDef ParentName="BasedHeating">
     <defName>AirConOutdoorUnit</defName>
     <label>Air-Con Outdoor Unit</label>
     <description>Multi-split Air Conditioner unit, place outdoors and pipe to indoor units or freezer units, power mode select with 100-1000 cooling units capacity</description>
@@ -580,21 +570,19 @@
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1,1)</drawSize>
     </graphicData>
-    <minifiedDef>MinifiedFurniture</minifiedDef>
     <blockWind>false</blockWind>
     <castEdgeShadows>true</castEdgeShadows>
-    <selectable>true</selectable>
     <pathCost>8</pathCost>
     <size>(1,1)</size>
     <costList>
       <Steel>90</Steel>
-      <Component>3</Component>
+      <ComponentIndustrial>3</ComponentIndustrial>
     </costList>
-    <soundImpactDefault>BulletImpactMetal</soundImpactDefault>
     <rotatable>false</rotatable>
     <statBases>
       <MaxHitPoints>125</MaxHitPoints>
       <WorkToBuild>1600</WorkToBuild>
+      <Mass>50</Mass>
     </statBases>
     <comps>
       <li Class="DubsBadHygiene.CompProperties_Pipe">
@@ -617,8 +605,7 @@
     <designationCategory>HygieneMisc</designationCategory>
   </ThingDef>
 
-  <ThingDef Name="BaseAircon" ParentName="BasedHygieneMom" Abstract="True">
-    <minifiedDef>MinifiedFurniture</minifiedDef>
+  <ThingDef Name="BaseAircon" ParentName="BasedHeating" Abstract="True">
     <passability>Standable</passability>
     <blockWind>false</blockWind>
     <pathCost>0</pathCost>
@@ -628,12 +615,11 @@
       <isInert>true</isInert>
       <isEdifice>false</isEdifice>
     </building>
-    <selectable>true</selectable>
-    <soundImpactDefault>BulletImpactMetal</soundImpactDefault>
     <rotatable>true</rotatable>
     <statBases>
       <MaxHitPoints>100</MaxHitPoints>
       <WorkToBuild>400</WorkToBuild>
+      <Mass>50</Mass>
     </statBases>
     <comps>
       <li Class="DubsBadHygiene.CompProperties_Pipe">
@@ -665,6 +651,7 @@
     </graphicData>
     <statBases>
       <WorkToBuild>400</WorkToBuild>
+      <Mass>50</Mass>
     </statBases>
     <comps>
       <li Class="CompProperties_Power">
@@ -694,7 +681,7 @@
     <description>Freezer unit for creating a walk in freezer, connect to outdoor air-con units, requires 300 cooling units.</description>
     <costList>
       <Steel>30</Steel>
-      <Component>1</Component>
+      <ComponentIndustrial>1</ComponentIndustrial>
     </costList>
     <graphicData>
       <texPath>DBH/Things/Building/Heating/freezerUnit</texPath>
@@ -708,6 +695,7 @@
     <size>(2,1)</size>
     <statBases>
       <WorkToBuild>800</WorkToBuild>
+      <Mass>50</Mass>
     </statBases>
     <building>
       <isEdifice>true</isEdifice>

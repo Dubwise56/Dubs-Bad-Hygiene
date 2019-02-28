@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- WATER PUMPING -->
+
+  <WaterWellInlet.label>물펌프</WaterWellInlet.label>
+  <WaterWellInlet.description>수도 펌프로 펌핑 할 수있는 지하수에 접근합니다. 하수 또는 다른 오염의 존재는 수질을 저하시키고 오염을 일으킬 수 있습니다.</WaterWellInlet.description>
+  <WaterWellInlet_Blueprint.label>우물 (청사진)</WaterWellInlet_Blueprint.label>
+  <WaterWellInlet_Frame.label>우물 (청사진)</WaterWellInlet_Frame.label>
+  <WaterWellInlet_Frame.description>수도 펌프로 펌핑 할 수있는 지하수에 접근합니다. 하수 또는 다른 오염의 존재는 수질을 저하시키고 오염을 일으킬 수 있습니다.</WaterWellInlet_Frame.description>
+
+  <DeepWaterWellInlet.label>심층 물펌프</DeepWaterWellInlet.label>
+  <DeepWaterWellInlet.description>수도 펌프로 펌핑 할 수있는 넓은 범위의 지하수에 접근합니다. 하수 또는 다른 오염의 존재는 수질을 저하시키고 오염을 일으킬 수 있습니다.</DeepWaterWellInlet.description>
+  <DeepWaterWellInlet_Blueprint.label>깊은 우물 (청사진)</DeepWaterWellInlet_Blueprint.label>
+  <DeepWaterWellInlet_Frame.label>깊은 우물 (건설중)</DeepWaterWellInlet_Frame.label>
+  <DeepWaterWellInlet_Frame.description>수도 펌프로 펌핑 할 수있는 넓은 범위의 지하수에 접근합니다. 하수 또는 다른 오염의 존재는 수질을 저하시키고 오염을 일으킬 수 있습니다.</DeepWaterWellInlet_Frame.description>
+
+  <WaterTowerS.label>급수탑</WaterTowerS.label>
+  <WaterTowerS.description>배관 설비에 사용하기 위해 물을 저장한다. 만약 물이 오염되면 탱크를 배수해야합니다.</WaterTowerS.description>
+  <WaterTowerS_Blueprint.label>급수탑 (청사진)</WaterTowerS_Blueprint.label>
+  <WaterTowerS_Frame.label>급수탑 (건설중)</WaterTowerS_Frame.label>
+  <WaterTowerS_Frame.description>배관 설비에 사용하기 위해 물을 저장한다. 만약 물이 오염되면 탱크를 배수해야합니다.</WaterTowerS_Frame.description>
+
+  <WaterTowerL.label>거대한 급수탑</WaterTowerL.label>
+  <WaterTowerL.description>배관 설비에 사용하기 위해 물을 저장합니다. 물이 오염되면 탱크를 배수해야합니다.</WaterTowerL.description>
+  <WaterTowerL_Blueprint.label>거대한 급수탑 (청사진)</WaterTowerL_Blueprint.label>
+  <WaterTowerL_Frame.label>거대한 급수탑 (건설중)</WaterTowerL_Frame.label>
+  <WaterTowerL_Frame.description>배관 설비에 사용하기 위해 물을 저장합니다. 물이 오염되면 탱크를 배수해야합니다.</WaterTowerL_Frame.description>
+
+  <WindPump.label>풍력 펌프</WindPump.label>
+  <WindPump.description>우물이나 급수탑의 물을 퍼오릅니다. 펌핑 용량 : 3000 L/day</WindPump.description>
+  <WindPump_Blueprint.label>윈드 펌프 (청사진)</WindPump_Blueprint.label>
+  <WindPump_Frame.label>윈드 펌프 (건설중)</WindPump_Frame.label>
+  <WindPump_Frame.description>우물이나 급수탑의 물을 퍼오릅니다. 펌핑 용량: 3000 L/day</WindPump_Frame.description>
+
+  <ElectricPump.label>전기 펌프</ElectricPump.label>
+  <ElectricPump.description>우물이나 급수탑의 물을 퍼오릅니다. 펌핑 용량: 1500 L/day</ElectricPump.description>
+  <ElectricPump_Blueprint.label>Electric Pump (청사진)</ElectricPump_Blueprint.label>
+  <ElectricPump_Blueprint_Install.label>Electric Pump (청사진)</ElectricPump_Blueprint_Install.label>
+  <ElectricPump_Frame.label>Electric Pump (건설중)</ElectricPump_Frame.label>
+  <ElectricPump_Frame.description>우물이나 급수탑의 물을 퍼오릅니다. 펌핑 용량: 1500 L/day</ElectricPump_Frame.description>
+
+  <PumpingStation.label>펌핑 스테이션</PumpingStation.label>
+  <PumpingStation.description>우물이나 급수탑의 물을 퍼오릅니다. 펌핑 용량: 10000 L/day</PumpingStation.description>
+  <PumpingStation_Blueprint.label>펌핑 스테이션 (청사진)</PumpingStation_Blueprint.label>
+  <PumpingStation_Frame.label>펌핑 스테이션 (건설중)</PumpingStation_Frame.label>
+  <PumpingStation_Frame.description>우물이나 급수탑의 물을 퍼오릅니다. 펌핑 용량: 10000 L/day</PumpingStation_Frame.description>
+
+  <SewageOutlet.label>하수 배출구</SewageOutlet.label>
+  <SewageOutlet.description>어느 장소 에나 놓을 수 있으며, 하수도는 땅에 흘러 퍼지거나 물에 분산됩니다. 하수도는 시간이 지남에 따라 청소되며, 나무, 물 또는 비의 존재는 그 속도를 높입니다.</SewageOutlet.description>
+  <SewageOutlet_Blueprint.label>하수 배출구 (청사진)</SewageOutlet_Blueprint.label>
+  <SewageOutlet_Frame.label>하수 배출구 (건설중)</SewageOutlet_Frame.label>
+  <SewageOutlet_Frame.description>어느 장소 에나 놓을 수 있으며, 하수도는 땅에 흘러 퍼지거나 물에 분산됩니다. 하수도는 시간이 지남에 따라 청소되며, 나무, 물 또는 비의 존재는 그 속도를 높입니다.</SewageOutlet_Frame.description>
+
+  <SewageSepticTank.label>정화조</SewageSepticTank.label>
+  <SewageSepticTank.description>천천히 시간이 지남에 따라 오수를 청소합니다. 하수는 먼저 정화조로 보내지고, 용량이 최대가되면 과량의 하수가 하수구로 보내집니다.</SewageSepticTank.description>
+  <SewageSepticTank_Blueprint.label>정화조 (청사진)</SewageSepticTank_Blueprint.label>
+  <SewageSepticTank_Frame.label>정화조 (건설중)</SewageSepticTank_Frame.label>
+  <SewageSepticTank_Frame.description>천천히 시간이 지남에 따라 오수를 청소합니다. 하수는 먼저 정화조로 보내지고, 용량이 최대가되면 과량의 하수가 하수구로 보내집니다.</SewageSepticTank_Frame.description>
+
+  <SewageTreatment.label>하수 처리장</SewageTreatment.label>
+  <SewageTreatment.description>천천히 시간이 지남에 따라 오수를 청소합니다. 하수는 90 %가 제거되고 나머지 10 %는 하수구로 보내지는 처리 공장으로 향하게되며, 전체 용량에 도달하면 과다한 하수는 처리없이 하수구로 직접 보내진다.</SewageTreatment.description>
+  <SewageTreatment_Blueprint.label>하수 처리장 (청사진)</SewageTreatment_Blueprint.label>
+  <SewageTreatment_Frame.label>하수 처리장 (건설중)</SewageTreatment_Frame.label>
+  <SewageTreatment_Frame.description>천천히 시간이 지남에 따라 오수를 청소합니다. 하수는 90 %가 제거되고 나머지 10 %는 하수구로 보내지는 처리 공장으로 향하게되며, 전체 용량에 도달하면 과다한 하수는 처리없이 하수구로 직접 보내진다.</SewageTreatment_Frame.description>
+
+  <WaterTreatment.label>고급 하수 정화장</WaterTreatment.label>
+  <WaterTreatment.description>99.99 %의 세균을 세척합니다! 저장고에있는 기존의 물을 여과하고 설비에 사용되는 물로 질병의 위험을 제거합니다.</WaterTreatment.description>
+  <WaterTreatment_Blueprint.label>고급 하수 정화장 (청사진)</WaterTreatment_Blueprint.label>
+  <WaterTreatment_Frame.label>고급 하수 정화장 (건설중)</WaterTreatment_Frame.label>
+  <WaterTreatment_Frame.description>99.99 %의 세균을 세척합니다! 저장고에있는 기존의 물을 여과하고 설비에 사용되는 물로 질병의 위험을 제거합니다.</WaterTreatment_Frame.description>
+
+
+</LanguageData>

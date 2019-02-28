@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- LEGACY -->
+
+  <ImmersionHeater.label>보일러(유물)</ImmersionHeater.label>
+  <ImmersionHeater.description>전기 보일러와 온수 탱크로 교체하십시오!</ImmersionHeater.description>
+  <ImmersionHeater_Blueprint_Install.label>보일러(유물) (청사진)</ImmersionHeater_Blueprint_Install.label>
+
+  <FueledBoiler.label>멀티 연료 스토브(유물)</FueledBoiler.label>
+  <FueledBoiler.description>이것을 나무 난로 또는 가스 보일러로 교체하십시오!</FueledBoiler.description>
+  <FueledBoiler_Blueprint_Install.label>멀티 연료 스토브(유물) (청사진)</FueledBoiler_Blueprint_Install.label>
+
+
+  <!-- Heating -->
+
+  <Thermostat.label>온도 조절기</Thermostat.label>
+  <Thermostat.description>전기 및 가스 보일러 제어에 사용되며 1 개를 배치 할 수 있으며 표준 배관을 통해 연결합니다.</Thermostat.description>
+  <Thermostat_Blueprint.label>온도 조절기 (청사진)</Thermostat_Blueprint.label>
+  <Thermostat_Blueprint_Install.label>온도 조절기 (청사진)</Thermostat_Blueprint_Install.label>
+  <Thermostat_Frame.label>온도 조절기 (건설중)</Thermostat_Frame.label>
+  <Thermostat_Frame.description>전기 및 가스 보일러 제어에 사용되며 1 개를 배치 할 수 있으며 표준 배관을 통해 연결합니다.</Thermostat_Frame.description>
+
+  <LogBoiler.label>장작 보일러</LogBoiler.label>
+  <LogBoiler.description>라디에이터 및 온수 탱크 용 난방열을 2000 생산합니다. 연료로 목재 통나무가 필요합니다.</LogBoiler.description>
+  <LogBoiler_Blueprint.label>장작 보일러 (청사진)</LogBoiler_Blueprint.label>
+  <LogBoiler_Blueprint_Install.label>장작 보일러 (청사진)</LogBoiler_Blueprint_Install.label>
+  <LogBoiler_Frame.label>Log boiler (건설중)</LogBoiler_Frame.label>
+  <LogBoiler_Frame.description>라디에이터 및 온수 탱크 용 난방열을 2000 생산합니다. 연료로 목재 통나무가 필요합니다.</LogBoiler_Frame.description>
+
+  <GasBoiler.label>가스 보일러</GasBoiler.label>
+  <GasBoiler.description>라디에이터 및 온수 탱크 용 난방열을 2000 생산합니다. 연료 용 화학 연료 필요, 온도 조절기로 제어 가능</GasBoiler.description>
+  <GasBoiler_Blueprint.label>가스 보일러 (청사진)</GasBoiler_Blueprint.label>
+  <GasBoiler_Blueprint_Install.label>가스 보일러 (청사진)</GasBoiler_Blueprint_Install.label>
+  <GasBoiler_Frame.label>가스 보일러 (건설중)</GasBoiler_Frame.label>
+  <GasBoiler_Frame.description>라디에이터 및 온수 탱크 용 난방열을 2000 생산합니다. 연료 용 화학 연료 필요, 온도 조절기로 제어 가능</GasBoiler_Frame.description>
+
+  <ElectricBoiler.label>전기 보일러</ElectricBoiler.label>
+  <ElectricBoiler.description>라디에이터 및 온수 탱크에 다양한 양의 난방 장치를 생산합니다. 수동으로 제어되는 전원 설정. 온도 조절기로 제어 가능</ElectricBoiler.description>
+  <ElectricBoiler_Blueprint.label>Electric Boiler (청사진)</ElectricBoiler_Blueprint.label>
+  <ElectricBoiler_Blueprint_Install.label>Electric Boiler (청사진)</ElectricBoiler_Blueprint_Install.label>
+  <ElectricBoiler_Frame.label>Electric Boiler (건설중)</ElectricBoiler_Frame.label>
+  <ElectricBoiler_Frame.description>라디에이터 및 온수 탱크에 다양한 양의 난방 장치를 생산합니다. 수동으로 제어되는 전원 설정. 온도 조절기로 제어 가능</ElectricBoiler_Frame.description>
+
+  <SolarHeater.label>태양열히터</SolarHeater.label>
+  <SolarHeater.description>온수 탱크 및 라디에이터를 가열하기 위해 햇빛을 사용하며, 조명 수준 및 주변 온도에 따라 0-2000 단위의 가열 력을 발휘합니다.</SolarHeater.description>
+  <SolarHeater_Blueprint.label>태양열히터 (청사진)</SolarHeater_Blueprint.label>
+  <SolarHeater_Frame.label>태양열히터 (건설중)</SolarHeater_Frame.label>
+  <SolarHeater_Frame.description>온수 탱크 및 라디에이터를 가열하기 위해 햇빛을 사용하며, 조명 수준 및 주변 온도에 따라 0-2000 단위의 가열 력을 발휘합니다.</SolarHeater_Frame.description>
+
+  <HotWaterTank.label>온수 탱크</HotWaterTank.label>
+  <HotWaterTank.description>샤워 및 욕조 용 온수를 저장하고 보일러에 연결하여 가열합니다.</HotWaterTank.description>
+  <HotWaterTank_Blueprint.label>온수 탱크 (청사진)</HotWaterTank_Blueprint.label>
+  <HotWaterTank_Blueprint_Install.label>온수 탱크 (청사진)</HotWaterTank_Blueprint_Install.label>
+  <HotWaterTank_Frame.label>온수 탱크 (건설중)</HotWaterTank_Frame.label>
+  <HotWaterTank_Frame.description>샤워 및 욕조 용 온수를 저장하고 보일러에 연결하여 가열합니다.</HotWaterTank_Frame.description>
+
+  <Radiator.label>라디에이터</Radiator.label>
+  <Radiator.description>뜨거운 물을 사용하는 객실 난방에는 100의 온수가 필요합니다.</Radiator.description>
+  <Radiator_Blueprint_Install.label>라디에이터 (청사진)</Radiator_Blueprint_Install.label>
+
+  <RadiatorStuffed.label>라디에이터</RadiatorStuffed.label>
+  <RadiatorStuffed.description>뜨거운 물을 사용하는 객실 난방에는 100의 온수가 필요합니다.</RadiatorStuffed.description>
+  <RadiatorStuffed_Blueprint.label>라디에이터 (청사진)</RadiatorStuffed_Blueprint.label>
+  <RadiatorStuffed_Blueprint_Install.label>라디에이터 (청사진)</RadiatorStuffed_Blueprint_Install.label>
+  <RadiatorStuffed_Frame.label>라디에이터 (건설중)</RadiatorStuffed_Frame.label>
+  <RadiatorStuffed_Frame.description>뜨거운 물을 사용하는 객실 난방에는 100의 온수가 필요합니다.</RadiatorStuffed_Frame.description>
+
+  <RadiatorLarge.label>큰 라디에이터</RadiatorLarge.label>
+  <RadiatorLarge.description>라디에이터의 출력량의 3 배로 큰 룸에 유용하며 300의 온수가 필요합니다.</RadiatorLarge.description>
+  <RadiatorLarge_Blueprint.label>큰 라디에이터 (청사진)</RadiatorLarge_Blueprint.label>
+  <RadiatorLarge_Blueprint_Install.label>큰 라디에이터 (청사진)</RadiatorLarge_Blueprint_Install.label>
+  <RadiatorLarge_Frame.label>큰 라디에이터 (건설중)</RadiatorLarge_Frame.label>
+  <RadiatorLarge_Frame.description>라디에이터의 출력량의 3 배로 큰 룸에 유용하며 300의 온수가 필요합니다.</RadiatorLarge_Frame.description>
+
+
+  <!-- COOLING -->
+
+  <AirConOutdoorUnit.label>에이컨실외기</AirConOutdoorUnit.label>
+  <AirConOutdoorUnit.description>멀티 분할 에어컨 유닛, 실외 또는 옥내 또는 냉동 장치에 파이프 연결, 100-1000 냉각 장치 용량으로 전원 모드 선택</AirConOutdoorUnit.description>
+  <AirConOutdoorUnit_Blueprint.label>에이컨실외기 (청사진)</AirConOutdoorUnit_Blueprint.label>
+  <AirConOutdoorUnit_Blueprint_Install.label>에이컨실외기 (청사진)</AirConOutdoorUnit_Blueprint_Install.label>
+  <AirConOutdoorUnit_Frame.label>에이컨실외기 (건설중)</AirConOutdoorUnit_Frame.label>
+  <AirConOutdoorUnit_Frame.description>멀티 분할 에어컨 유닛, 실외 또는 옥내 또는 냉동 장치에 파이프 연결, 100-1000 냉각 장치 용량으로 전원 모드 선택</AirConOutdoorUnit_Frame.description>
+
+  <AirconIndoorUnit.label>에어콘 실내기</AirconIndoorUnit.label>
+  <AirconIndoorUnit.description>실외용 에어컨 유닛에 연결되는 실내 용 실내기는 100의 냉방이 필요합니다.</AirconIndoorUnit.description>
+  <AirconIndoorUnit_Blueprint.label>에어콘 실내기 (청사진)</AirconIndoorUnit_Blueprint.label>
+  <AirconIndoorUnit_Blueprint_Install.label>에어콘 실내기 (청사진t)</AirconIndoorUnit_Blueprint_Install.label>
+  <AirconIndoorUnit_Frame.label>에어콘 실내기 (건설중)</AirconIndoorUnit_Frame.label>
+  <AirconIndoorUnit_Frame.description>실외용 에어컨 유닛에 연결되는 실내 용 실내기는 100의 냉방이 필요합니다.</AirconIndoorUnit_Frame.description>
+
+  <FreezerUnit.label>워크 인 냉동 장치</FreezerUnit.label>
+  <FreezerUnit.description>냉동실에서 도보를 만들기위한 냉동 장치, 실외 공기 콘 장치에 연결하려면 300의 냉방이 필요합니다.</FreezerUnit.description>
+  <FreezerUnit_Blueprint.label>워크 인 냉동 장치 (청사진)</FreezerUnit_Blueprint.label>
+  <FreezerUnit_Blueprint_Install.label>워크 인 냉동 장치 (청사진)</FreezerUnit_Blueprint_Install.label>
+  <FreezerUnit_Frame.label>워크 인 냉동 장치 (건설중)</FreezerUnit_Frame.label>
+  <FreezerUnit_Frame.description>냉동실에서 도보를 만들기위한 냉동 장치, 실외 공기 콘 장치에 연결하려면 300의 냉방이 필요합니다.</FreezerUnit_Frame.description>
+
+
+</LanguageData>

@@ -185,19 +185,19 @@
       </li>
       <li>
         <label>Easy</label>
-        <value>100</value>
-      </li>
-      <li>
-        <label>Normal</label>
         <value>50</value>
       </li>
       <li>
-        <label>Challange</label>
+        <label>Normal</label>
         <value>25</value>
       </li>
       <li>
+        <label>Challenge</label>
+        <value>15</value>
+      </li>
+      <li>
         <label>Extreme</label>
-        <value>10</value>
+        <value>5</value>
       </li>
     </options>
   </DubsBadHygiene.DubsModOptions>
@@ -220,7 +220,7 @@
         <value>2</value>
       </li>
       <li>
-        <label>Challange</label>
+        <label>Challenge</label>
         <value>1</value>
       </li>
       <li>

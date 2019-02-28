@@ -6,6 +6,7 @@
     <needClass>DubsBadHygiene.Need_Bladder</needClass>
     <label>bladder</label>
     <description>To prevent the risk of disease it is important to maintain a good level of sanitation by removing or treating waste, and preventing sewage from contaminating you water supply.</description>
+    <onlyIfCausedByHediff>true</onlyIfCausedByHediff>
     <baseLevel>0.8</baseLevel>
     <listPriority>401</listPriority>
     <Exemptions>
@@ -26,6 +27,7 @@
     <needClass>DubsBadHygiene.Need_Hygiene</needClass>
     <label>hygiene</label>
     <description>Good personal hygiene is important for reducing the risk of disease and keeping colonists happy and healthy.</description>
+    <onlyIfCausedByHediff>true</onlyIfCausedByHediff>
     <minIntelligence>Humanlike</minIntelligence>
     <baseLevel>0.8</baseLevel>
     <listPriority>321</listPriority>
@@ -47,6 +49,7 @@
     <needClass>DubsBadHygiene.Need_Thirst</needClass>
     <label>thirst</label>
     <description>Water is required for many of life’s physiological processes. If this reaches zero then the creature will slowly die of dehydration</description>
+    <onlyIfCausedByHediff>true</onlyIfCausedByHediff>
     <minIntelligence>Humanlike</minIntelligence>
     <baseLevel>0.8</baseLevel>
     <listPriority>402</listPriority>
