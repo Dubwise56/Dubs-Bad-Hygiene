@@ -74,6 +74,30 @@
 		<pathCost>5</pathCost>
 	</ThingDef>
 
+  <ThingDef ParentName="ResourceBasedMom">
+    <defName>fecalsludge</defName>
+    <label>fecal sludge</label>
+    <description>Used as a primitive fertilizer to create soil, the use of unprocessed human feces as fertilizer is a risky practice as it may contain disease-causing pathogens.</description>
+    <graphicData>
+      <texPath>Things/Resource/bagSoil</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <MarketValue>0.1</MarketValue>
+      <Flammability>5.0</Flammability>
+      <Mass>5</Mass>
+      <Cleanliness>-100</Cleanliness>
+    </statBases>
+    <thingCategories>
+      <li>Waste</li>
+    </thingCategories>
+    <stackLimit>75</stackLimit>
+    <tradeNeverStack>true</tradeNeverStack>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <tradeability>Never</tradeability>
+  </ThingDef>
+
 	<ThingDef ParentName="ResourceBasedMom">
 		<defName>BurnBarrel</defName>
 		<label>Burn barrel</label>

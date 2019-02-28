@@ -23,5 +23,32 @@
     <defName>Mote_FecalBit</defName>
   </ThingDef>
 
+  <ThingDef Name="BasedMote" Abstract="True">
+    <thingClass>MoteThrown</thingClass>
+    <label>Mote</label>
+    <category>Mote</category>
+    <graphicData>
+      <graphicClass>Graphic_Mote</graphicClass>
+      <shaderType>Mote</shaderType>
+    </graphicData>
+    <altitudeLayer>MoteLow</altitudeLayer>
+    <tickerType>Normal</tickerType>
+    <useHitPoints>false</useHitPoints>
+    <isSaveable>false</isSaveable>
+    <rotatable>false</rotatable>
+  </ThingDef>
+
+  <ThingDef ParentName="BasedMote">
+    <defName>Mote_Sewage</defName>
+    <graphicData>
+      <texPath>Things/Mote/sewage2</texPath>
+    </graphicData>
+    <altitudeLayer>MoteLow</altitudeLayer>
+    <mote>
+      <fadeInTime>0.40</fadeInTime>
+      <solidTime>2</solidTime>
+      <fadeOutTime>2</fadeOutTime>
+    </mote>
+  </ThingDef>
 
 </Defs>

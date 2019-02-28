@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <lightBurnBarrel.reportString>点燃TargetA。</lightBurnBarrel.reportString>
+  <emptyLatrine.reportString>搬运TargetA。</emptyLatrine.reportString>
+  <UseToilet.reportString>在TargetA如厕</UseToilet.reportString>
+  <haveWildPoo.reportString>在外如厕。</haveWildPoo.reportString>
+  <useWetWipe.reportString>用TargetA清洁。</useWetWipe.reportString>
+  <takeShower.reportString>用TargetA沐浴。</takeShower.reportString>
+  <takeBath.reportString>用Target洗澡。</takeBath.reportString>
+  <washHands.reportString>在TargetA洗手。</washHands.reportString>
+  <washPatient.reportString>清洗TargetA。</washPatient.reportString>
+  <provideBedpan.reportString>清洗便盆。</provideBedpan.reportString>
+
+
+</LanguageData>

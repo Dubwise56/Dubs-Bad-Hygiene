@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <WetWipe.label>湿巾</WetWipe.label>
+  <WetWipe.description>一个小的湿润的布，方便折叠和单独包裹。</WetWipe.description>
+
+  <BedPan.label>便盆</BedPan.label>
+  <BedPan.description>装卧床患者的尿液和粪便的容器。</BedPan.description>
+
+  <BurnBarrel.label>排泄物桶</BurnBarrel.label>
+  <BurnBarrel.description>充满人类排泄物的桶，需要烧掉。确保它放在一个明确的区域。</BurnBarrel.description>
+
+  <BurningBarrel.label>排泄物桶</BurningBarrel.label>
+  <BurningBarrel.description>充满人类排泄物的桶，需要烧掉。确保它放在一个明确的区域。</BurningBarrel.description>
+
+
+</LanguageData>

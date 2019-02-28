@@ -14,11 +14,4 @@
     </relatedStats>
   </RoomRoleDef>
   
-  
-  <RoomRoleDef>
-    <defName>Barn</defName>
-    <label>barn</label>
-    <workerClass>DubsBadHygiene.RoomRoleWorker_Barn</workerClass>
-  </RoomRoleDef>
-  
 </RoomRoleDefs>

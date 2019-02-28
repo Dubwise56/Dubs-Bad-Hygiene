@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <SoiledSelf.stages.0.label>脏脏的</SoiledSelf.stages.0.label>
+  <SoiledSelf.stages.0.description>我不能再忍受了，只好弄脏了我自己。</SoiledSelf.stages.0.description>
+
+  <HotShower.stages.0.label>冲了个热水澡</HotShower.stages.0.label>
+  <HotShower.stages.0.description>我冲了个热水澡。</HotShower.stages.0.description>
+
+  <HotBath.stages.0.label>泡了个热水澡</HotBath.stages.0.label>
+  <HotBath.stages.0.description>我泡了个热水澡。</HotBath.stages.0.description>
+
+  <ColdBath.stages.0.label>泡了个冷水澡</ColdBath.stages.0.label>
+  <ColdBath.stages.0.description>我泡了个清爽的冷水澡。</ColdBath.stages.0.description>
+
+  <ColdShower.stages.0.label>冲了个冷水澡</ColdShower.stages.0.label>
+  <ColdShower.stages.0.description>我冲了个清爽的冷水澡。</ColdShower.stages.0.description>
+
+  <tookDump.stages.0.label>释放了真我</tookDump.stages.0.label>
+  <tookDump.stages.0.description>妈的真爽。</tookDump.stages.0.description>
+
+  <openDefecation.stages.0.label>粪发涂墙</openDefecation.stages.0.label>
+  <openDefecation.stages.0.description>只能拉在外面了。。。</openDefecation.stages.0.description>
+
+
+</LanguageData>

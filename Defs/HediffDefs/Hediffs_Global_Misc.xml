@@ -2,12 +2,13 @@
 <Defs>
 
   <HediffDef>
+    <defName>DiarrheaVomiting</defName>
+    <label>diarrhea and vomiting</label>
     <hediffClass>HediffWithComps</hediffClass>
     <defaultLabelColor>(0.8, 0.8, 0.35)</defaultLabelColor>
     <initialSeverity>0.001</initialSeverity>
-
-		<defName>DiarrheaVomiting</defName>
-		<label>diarrhea and vomiting</label>
+    <makesSickThought>true</makesSickThought>
+    <tendable>false</tendable>
 		<comps>
 			<li Class="HediffCompProperties_Disappears">
 				<disappearsAfterTicks>

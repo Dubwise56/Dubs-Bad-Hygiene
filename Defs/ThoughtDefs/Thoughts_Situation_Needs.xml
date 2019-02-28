@@ -34,7 +34,7 @@
     <workerClass>DubsBadHygiene.ThoughtWorker_Bowel</workerClass>
     <stages>
       <li>
-        <label>Busting</label>
+        <label>Bursting</label>
         <description>I need to go so bad I'm about to burst!</description>
         <baseMoodEffect>-3</baseMoodEffect>
       </li>

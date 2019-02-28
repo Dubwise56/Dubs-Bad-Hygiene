@@ -2,20 +2,8 @@
 <ThinkTrees>
   
     <!--============= Hygiene behavior core ============-->
-  
-  <!-- <ThinkTreeDef> -->
-    <!-- <defName>ColonistHygiene</defName> -->
-	<!-- <insertTag>Humanlike_PreMain</insertTag> -->
-	<!-- <insertPriority>100</insertPriority> -->
-    <!-- <thinkRoot Class="DubsBadHygiene.ThinkNode_HygienePrioritySorter"> -->
-      <!-- <subNodes> -->
-        <!-- <li Class="DubsBadHygiene.JobGiver_colonistHavePoo"/> -->
-        <!-- <li Class="DubsBadHygiene.JobGiver_colonistsTakeShower"/> -->
-      <!-- </subNodes> -->
-    <!-- </thinkRoot> -->
-  <!-- </ThinkTreeDef> -->
-  
-  <ThinkTreeDef>
+
+ <ThinkTreeDef>
     <defName>havePoo</defName>
     <insertTag>Humanlike_PreMain</insertTag>
     <insertPriority>100</insertPriority>

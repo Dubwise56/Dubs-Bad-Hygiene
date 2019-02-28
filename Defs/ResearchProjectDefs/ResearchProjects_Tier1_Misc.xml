@@ -6,17 +6,17 @@
   <ResearchProjectDef>
     <defName>Plumbing</defName>
     <label>plumbing</label>
-    <description>Create networks of pipes for sewage management.</description>
-    <baseCost>1200</baseCost>
-    <techLevel>Industrial</techLevel>
+    <description>Use pipes, plumbing fixtures, tanks, and other apparatuses to provide heating, waste removal, and potable water.</description>
+    <baseCost>700</baseCost>
+    <techLevel>Medieval</techLevel>
     <researchViewX>2</researchViewX>
     <researchViewY>4</researchViewY>
   </ResearchProjectDef>
 
   <ResearchProjectDef>
-    <defName>CentralHeating</defName>
-    <label>Central Heating</label>
-    <description>Central heating provides warmth to the whole interior of a building from one point to multiple rooms.</description>
+    <defName>PoweredPlumbing</defName>
+    <label>Powered Plumbing</label>
+    <description>Build powered sewage treatment, immersion and solar heaters.</description>
     <baseCost>1200</baseCost>
     <techLevel>Industrial</techLevel>
     <prerequisites>
