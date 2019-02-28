@@ -28,7 +28,7 @@
     <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
     <statBases>
       <MaxHitPoints>80</MaxHitPoints>
-      <WorkToBuild>35</WorkToBuild>
+      <WorkToBuild>250</WorkToBuild>
       <Flammability>1.0</Flammability>
     </statBases>
     <placingDraggableDimensions>1</placingDraggableDimensions>

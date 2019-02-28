@@ -56,6 +56,7 @@
     <label>Diarrhea</label>
     <scenarioCanAdd>true</scenarioCanAdd>
     <initialSeverity>1</initialSeverity>
+    <makesSickThought>true</makesSickThought>
     <comps>
       <li Class="HediffCompProperties_SeverityPerDay">
         <severityPerDay>-1</severityPerDay>
@@ -187,7 +188,7 @@
         <minSeverity>0.4</minSeverity>
         <label>moderate</label>
         <socialFightChanceFactor>2.5</socialFightChanceFactor>
-        <hungerRateFactorOffset>0.2</hungerRateFactorOffset>
+        <hungerRateFactorOffset>0.4</hungerRateFactorOffset>
         <capMods>
           <li>
             <capacity>Consciousness</capacity>
@@ -199,7 +200,7 @@
         <minSeverity>0.6</minSeverity>
         <label>severe</label>
         <socialFightChanceFactor>3</socialFightChanceFactor>
-        <hungerRateFactorOffset>0.2</hungerRateFactorOffset>
+        <hungerRateFactorOffset>0.8</hungerRateFactorOffset>
         <capMods>
           <li>
             <capacity>Consciousness</capacity>
@@ -211,11 +212,11 @@
         <minSeverity>0.8</minSeverity>
         <label>extreme</label>
         <lifeThreatening>true</lifeThreatening>
-        <hungerRateFactorOffset>0.2</hungerRateFactorOffset>
+        <hungerRateFactorOffset>1</hungerRateFactorOffset>
         <capMods>
           <li>
             <capacity>Consciousness</capacity>
-            <setMax>0.1</setMax>
+            <offset>-0.40</offset>
           </li>
         </capMods>
       </li>

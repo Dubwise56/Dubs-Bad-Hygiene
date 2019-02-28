@@ -9,10 +9,12 @@
   <RemovePlumbing>Remove Plumbing</RemovePlumbing>
   <RemoveAirCon>Remove Air-Con</RemoveAirCon>
   <DesignatorPaintFixtures>Paint Fixtures</DesignatorPaintFixtures>
-  <DesignatorPaintFixturesDesc>Paint bathroom fixtures and radiators, or strip paint off</DesignatorPaintFixturesDesc>
+  <DesignatorPaintFixturesDesc>Paint bathroom fixtures and radiators</DesignatorPaintFixturesDesc>
   <PaintFixtures>Paint</PaintFixtures>
   <StripPaint>Strip</StripPaint>
 
+  
+  
   <!--Warnings-->
   <NotOwned>Access Restricted</NotOwned>
   <GenderRestricted>{0} Only</GenderRestricted>
@@ -22,6 +24,7 @@
   <LowWaterTemp>Low Water Temp</LowWaterTemp>
   <LowWaterTempDesc>The water temperature in this tank is too low, colonists expecting to use hot water may get annoyed.\n\nTurn on boilers, increase the heating capacity or add another hot water tank.</LowWaterTempDesc>
   <WellNeedsWater>Must be placed over a cell with ground water.</WellNeedsWater>
+  <AssigningRequiresRoom>The fixture must be inside a room to restrict it</AssigningRequiresRoom>
   
   <AssigningRequiresBladderNeed>Assigning requires bladder need, {0} doesn't have it</AssigningRequiresBladderNeed>
 
@@ -97,10 +100,14 @@
   <MustBePlumbing>Must be plumbing</MustBePlumbing>
   <BlockedDrain>Blocked Drain</BlockedDrain>
   <PlumbOrEmpty>Plumb Or Empty the Latrine</PlumbOrEmpty>
-
-
+  <WashingMachineSpinning>Running...</WashingMachineSpinning>
+  <WashingMachineUnload>Unload now</WashingMachineUnload>
+  <WashingMachineLoad>Load: {0}/{1}</WashingMachineLoad>
+  <NoDirtyClothes>No dirty clothes</NoDirtyClothes>
+  <WashingNoSpace>No space</WashingNoSpace>
 
   <!--Water-->
+  <dbhDrink>Drink</dbhDrink>
   <CommandDesignateOpenCloseValveLabel>Toggle Valve</CommandDesignateOpenCloseValveLabel>
   <CommandDesignateOpenCloseValveDesc>Toggle the valve open or closed</CommandDesignateOpenCloseValveDesc>
   <ValveClosed>Valve Closed</ValveClosed>
@@ -123,6 +130,8 @@
   <DrainTank>Drain Tank</DrainTank>
   <DrainTankDesc>Drain the tank and remove contamination</DrainTankDesc>
 
+  <WaterValueOffset>Water value: {0} for {1}L</WaterValueOffset>
+  <HyWater>Water</HyWater>
   <!--Sewage-->
 
   <DrainSepticTank>Drain</DrainSepticTank>
@@ -147,23 +156,30 @@
 
   <!--Mod Options-->
 
-  <OverrideNeedSettingsTip>Override the need settings and mod patches to manually disable needs for specific pawn types, or when a hediff is active.\nIf you disable by hediff then the hediff must call "AddOrRemoveNeedsAsAppropriate" when applied</OverrideNeedSettingsTip>
-  <OverrideNeedsSettings>Override Need Settings</OverrideNeedsSettings>
+  <QuitToMenuToChange>Quit to main menu to change</QuitToMenuToChange>
+  <RimefellerLink>Rimefeller Link</RimefellerLink>
+  <RimefellerLinkTip>Enable water usage on crackers and refiners in Rimefeller</RimefellerLinkTip>
+  <RimatomicsLink>Rimatomics Link</RimatomicsLink>
+  <RimatomicsLinkTip>Enable water usage on cooling towers in Rimatomics</RimatomicsLinkTip>
+  <OverrideNeedSettingsTip>Manually disable needs by body type, race, or active hediff</OverrideNeedSettingsTip>
+  <OverrideNeedsSettings>Needs filter</OverrideNeedsSettings>
   <Disablebladderneed>Disable bladder need</Disablebladderneed>
   <Disablehygieneneed>Disable hygiene need</Disablehygieneneed>
-  <DisableNeedsLabel>Active Needs</DisableNeedsLabel>
+  <DisableNeedsLabel>Needs</DisableNeedsLabel>
   <NeedCheckboxTip>Tick to enable</NeedCheckboxTip>
   <PrisonersGetNeeds>Prisoners</PrisonersGetNeeds>
   <PrisonersGetNeedsTip>If prisoners will get the needs</PrisonersGetNeedsTip>
-  <HospitalityGuestsGetNeeds>Hospitality Guests</HospitalityGuestsGetNeeds>
-  <HospitalityGuestsGetNeedsTip>If guests from the mod "Hospitality" get the needs</HospitalityGuestsGetNeedsTip>
+  <HospitalityGuestsGetNeeds>Guests</HospitalityGuestsGetNeeds>
+  <HospitalityGuestsGetNeedsTip>If guests should get the needs</HospitalityGuestsGetNeedsTip>
+  <PrivacyChecks>Privacy</PrivacyChecks>
+  <PrivacyChecksTip>Colonists care about privacy when bathing or using toilets</PrivacyChecksTip>
+  <CoolingEfficiency>Cooling Efficiency</CoolingEfficiency>
+  <CoolingEfficiencyTip>Should high temperature affect cooling efficiency like standard AC</CoolingEfficiencyTip>
 
-  <DisableNeeds>Disable needs</DisableNeeds>
+  <DisableNeeds>Toggle needs</DisableNeeds>
   <DisableNeedsTip>Disable the needs entirely, overrides all other settings</DisableNeedsTip>
   
   <Experimentalfeatures>Experimental features</Experimentalfeatures>
-  <OutsidersGetNeeds>Outsiders</OutsidersGetNeeds>
-  <OutsidersGetNeedsTip>If outsiders including traders and raiders will get the needs</OutsidersGetNeedsTip>
   <PetsGetBladder>Pet bladders</PetsGetBladder>
   <PetsGetBladderTip>If pets will get the bladder need</PetsGetBladderTip>
   <WildAnimalsGetBladder>Wild Animal bladders</WildAnimalsGetBladder>
@@ -173,5 +189,9 @@
   <FertilizerVisible>Fertilizer Visible</FertilizerVisible>
   <FertilizerVisibleTip>If the fertilizer grid should be visible</FertilizerVisibleTip>
   <AllowNonHuman>Non Human Colonists</AllowNonHuman>
-  <AllowNonHumanTip>Allow the needs to run on non human colonists, probably wont work!, overridden by need settings</AllowNonHumanTip>
+  <AllowNonHumanTip>Allow the needs on non human colonists, you can disable specific beings with the override settings</AllowNonHumanTip>
+
+  <GetPaintShop>Get Dub's Paint Shop</GetPaintShop>
+  
+
 </LanguageData>

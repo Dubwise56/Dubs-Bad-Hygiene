@@ -18,6 +18,7 @@
       <RaceDefs>
       </RaceDefs>
       <Hediffs>
+        <li>ROMV_Fangs</li>
       </Hediffs>
     </Exemptions>
 </NeedDef>
@@ -47,12 +48,13 @@
   <NeedDef Class="DubsBadHygiene.NeedyBitch">
     <defName>DBHThirst</defName>
     <needClass>DubsBadHygiene.Need_Thirst</needClass>
-    <label>thirst</label>
+    <label>Thirst</label>
     <description>Water is required for many of life’s physiological processes. If this reaches zero then the creature will slowly die of dehydration</description>
     <onlyIfCausedByHediff>true</onlyIfCausedByHediff>
     <minIntelligence>Humanlike</minIntelligence>
     <baseLevel>0.8</baseLevel>
     <listPriority>402</listPriority>
+    <showForCaravanMembers>true</showForCaravanMembers>
     <Exemptions>
       <BodyDefs>
         <li>HumanoidTerminator</li>
@@ -62,6 +64,7 @@
       <RaceDefs>
       </RaceDefs>
       <Hediffs>
+        <li>ROMV_Fangs</li>
       </Hediffs>
     </Exemptions>
   </NeedDef>

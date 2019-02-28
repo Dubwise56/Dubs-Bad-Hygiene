@@ -3,44 +3,8 @@
  
   <!--WATER PUMPING-->
 
-  <ThingDef ParentName="BasedHygieneMom">
-    <defName>PrimitiveWell</defName>
-    <label>Primitive Well</label>
-    <description>Accesses ground water for basic washing (Can also be used for drinking if thirst is enabled).</description>
-    <graphicData>
-      <texPath>DBH/Things/Building/Water/PrimitiveWell</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>(2,2)</drawSize>
-      <drawRotated>false</drawRotated>
-    </graphicData>
-    <category>Building</category>
-    <tickerType>Normal</tickerType>
-    <altitudeLayer>Building</altitudeLayer>
-    <passability>PassThroughOnly</passability>
-    <blockWind>false</blockWind>
-    <castEdgeShadows>false</castEdgeShadows>
-    <pathCost>60</pathCost>
-    <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
-    <stuffCategories>
-      <li>Metallic</li>
-      <li>Woody</li>
-      <li>Stony</li>
-    </stuffCategories>
-    <costStuffCount>25</costStuffCount>
-    <placeWorkers>
-      <li>DubsBadHygiene.PlaceWorker_WaterGrid</li>
-      <li>DubsBadHygiene.PlaceWorker_SewageGrid</li>
-    </placeWorkers>
-    <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
-    <rotatable>false</rotatable>
-    <statBases>
-      <MaxHitPoints>100</MaxHitPoints>
-      <WorkToBuild>9000</WorkToBuild>
-      <Flammability>1.0</Flammability>
-    </statBases>
-  </ThingDef>
   
-  <ThingDef Name="BasedWell" ParentName="BasedHygieneMom"  Abstract="True">
+  <ThingDef Name="BasedWaterWell" ParentName="BasedHygieneMom"  Abstract="True">
     <graphicData>
       <texPath>DBH/Things/Building/Water/WaterWell</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -68,7 +32,7 @@
   </ThingDef>
 
 
-  <ThingDef ParentName="BasedWell">
+  <ThingDef ParentName="BasedWaterWell">
     <defName>WaterWellInlet</defName>
     <label>Water Well</label>
     <description>Accesses ground water which can be pumped by water pumps. The presence of sewage or other pollution will reduce water quality and can cause contamination.</description>
@@ -88,7 +52,7 @@
     </placeWorkers>
   </ThingDef>
 
-  <ThingDef ParentName="BasedWell">
+  <ThingDef ParentName="BasedWaterWell">
     <defName>DeepWaterWellInlet</defName>
     <label>Deep Water Well</label>
     <description>Accesses a large area of ground water which can be pumped by water pumps. Deep wells are unaffected by pollution.</description>
@@ -141,6 +105,52 @@
   </ThingDef>
 
   <ThingDef ParentName="BasedWaterTower">
+    <defName>WaterButt</defName>
+    <label>Water Butt</label>
+    <thingClass>DubsBadHygiene.Building_Butt</thingClass>
+    <graphicData>
+      <texPath>DBH/Things/Building/Water/WaterButt</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(2,2)</drawSize>
+      <damageData>
+        <rect>(0.05,0.05,0.95,0.95)</rect>
+      </damageData>
+    </graphicData>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <size>(1,1)</size>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <tradeNeverStack>true</tradeNeverStack>
+    <thingCategories>
+      <li>BuildingsFurniture</li>
+    </thingCategories>
+    <stuffCategories>
+      <li>Woody</li>
+      <li>Stony</li>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costStuffCount>25</costStuffCount>
+    <comps>
+      <li>
+        <compClass>CompColorable</compClass>
+      </li>
+      <li Class="DubsBadHygiene.CompProperties_WaterStorage">
+        <WaterStorageCap>100</WaterStorageCap>
+      </li>
+    </comps>
+    <blockWind>false</blockWind>
+    <canOverlapZones>true</canOverlapZones>
+    <tradeability>Sellable</tradeability>
+    <statBases>
+      <Mass>2</Mass>
+      <MaxHitPoints>75</MaxHitPoints>
+      <WorkToBuild>1000</WorkToBuild>
+    </statBases>
+    <researchPrerequisites>
+      <li>Plumbing</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="BasedWaterTower">
     <defName>WaterTowerS</defName>
     <label>Water Tower</label>
     <graphicData>
@@ -155,9 +165,11 @@
     <size>(2,2)</size>  
     <stuffCategories>
       <li>Woody</li>
+      <li>Stony</li>
+      <li>Metallic</li>
     </stuffCategories>
     <costList>
-      <Steel>20</Steel>
+      <Steel>25</Steel>
     </costList>
     <costStuffCount>50</costStuffCount>
     <comps>
@@ -481,7 +493,7 @@
   <ThingDef ParentName="BasedHygieneMom">
     <defName>SewageTreatment</defName>
     <label>Sewage Treatment</label>
-    <description>Slowly cleans sewage over time. Sewage is directed to treatment plants first where 90% is removed, the remaining 10% is sent to sewage outlets, if it reaches full capacity then excess sewage is sent directly to sewage outlets without treatment.</description>
+    <description>Slowly cleans sewage over time. If it reaches full capacity then excess sewage is sent directly to sewage outlets without treatment.</description>
     <graphicData>
       <texPath>DBH/Things/Building/Sewage/SewageTreatment</texPath>
       <graphicClass>Graphic_Single</graphicClass>

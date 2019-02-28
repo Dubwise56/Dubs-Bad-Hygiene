@@ -38,6 +38,9 @@
       <joyKind>Social</joyKind>
     </building>
     <comps>
+      <li>
+        <compClass>CompColorable</compClass>
+      </li>
       <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
         <basePowerConsumption>500</basePowerConsumption>
@@ -60,7 +63,8 @@
   <ThingDef ParentName="BasedHygieneMom">
     <defName>WashingMachine</defName>
     <label>Washing Machine</label>
-    <description>Spin cycle washing machine, it spins, and cycles, colonists can watch it and meditate, that is all!.</description>
+    <description>Washes clothes so well that you couldn't even tell someone died wearing it!</description>
+    <thingClass>DubsBadHygiene.Building_WashingMachine</thingClass>
     <graphicData>
       <texPath>DBH/Things/Building/washingMachine</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
@@ -96,7 +100,7 @@
       </li>
       <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
-        <basePowerConsumption>120</basePowerConsumption>
+        <basePowerConsumption>420</basePowerConsumption>
       </li>
       <li Class="CompProperties_Flickable"/>
       <li Class="CompProperties_Breakdownable"/>
@@ -108,9 +112,33 @@
         <max>3</max>
       </watchBuildingStandDistanceRange>
       <watchBuildingStandRectWidth>3</watchBuildingStandRectWidth>
+      <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
+      <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
+      <defaultStorageSettings>
+        <priority>Important</priority>
+        <filter>
+          <categories>
+            <li>Apparel</li>
+          </categories>
+          <disallowedThingDefs>
+            <li>Apparel_ShieldBelt</li>
+            <li>Apparel_SmokepopBelt</li>
+          </disallowedThingDefs>
+        </filter>
+      </defaultStorageSettings>
+      <fixedStorageSettings>
+        <filter>
+          <categories>
+            <li>Apparel</li>
+          </categories>
+        </filter>
+      </fixedStorageSettings>
     </building>
+    <inspectorTabs>
+      <li>ITab_Storage</li>
+    </inspectorTabs>
     <researchPrerequisites>
-      <li>WaterFiltration</li>
+      <li>WashingMachines</li>
     </researchPrerequisites>
     <designationCategory>HygieneMisc</designationCategory>
   </ThingDef>

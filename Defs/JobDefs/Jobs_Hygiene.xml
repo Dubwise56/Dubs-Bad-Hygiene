@@ -18,6 +18,19 @@
     <driverClass>DubsBadHygiene.JobDriver_emptyLatrine</driverClass>
     <reportString>emptying TargetA.</reportString>
   </JobDef>
+
+  <JobDef>
+    <defName>LoadWashing</defName>
+    <driverClass>DubsBadHygiene.JobDriver_WashingMachineLoad</driverClass>
+    <reportString>loading TargetA.</reportString>
+    <suspendable>false</suspendable>
+  </JobDef>
+
+  <JobDef>
+    <defName>UnloadWashing</defName>
+    <driverClass>DubsBadHygiene.JobDriver_WashingMachineUnload</driverClass>
+    <reportString>unloading TargetA.</reportString>
+  </JobDef>
   
   <JobDef>
     <defName>LoadComposter</defName>
@@ -123,9 +136,9 @@
   </JobDef>
 
   <JobDef>
-    <defName>CleanBucket</defName>
-    <driverClass>DubsBadHygiene.JobDriver_CleanBucket</driverClass>
-    <reportString>cleaning wash bucket.</reportString>
+    <defName>RefillTub</defName>
+    <driverClass>DubsBadHygiene.JobDriver_RefillTub</driverClass>
+    <reportString>Refilling wash tub.</reportString>
   </JobDef>
 
   <JobDef>
@@ -138,6 +151,12 @@
     <defName>clearBlockage</defName>
     <driverClass>DubsBadHygiene.JobDriver_FixBlockage</driverClass>
     <reportString>unclogging the blocked TargetA.</reportString>
+  </JobDef>
+
+  <JobDef>
+    <defName>TipOverSewage</defName>
+    <driverClass>DubsBadHygiene.JobDriver_TipOverSewage</driverClass>
+    <reportString>tipping TargetA.</reportString>
   </JobDef>
 
 </Defs>

@@ -24,6 +24,9 @@
 
   <ThingDef Name="BasedFixture" Abstract="True" ParentName="BasedHygieneMom">
     <comps>
+      <li>
+        <compClass>CompColorable</compClass>
+      </li>
       <li Class="DubsBadHygiene.CompProperties_Pipe">
         <mode>Sewage</mode>
       </li>
@@ -43,6 +46,7 @@
   <ThingDef ParentName="BasedHygieneMom">
     <defName>ToiletStallDoor</defName>
     <label>Stall Door</label>
+
     <holdsRoof>false</holdsRoof>
     <fillPercent>0.15</fillPercent>
     <description>Thin door which only blocks line of sight to people using bathroom fixtures, does not create new rooms or prevent heat loss.</description>
@@ -59,7 +63,7 @@
     <uiIconPath>DBH/Things/Building/StallDoorSimple_UI</uiIconPath>
     <costStuffCount>5</costStuffCount>
     <designationHotKey>Misc1</designationHotKey>
-    
+
     <category>Building</category>
     <altitudeLayer>DoorMoveable</altitudeLayer>
     <useHitPoints>true</useHitPoints>
@@ -77,9 +81,10 @@
     <tickerType>Normal</tickerType>
     <rotatable>false</rotatable>
     <staticSunShadowHeight>1.0</staticSunShadowHeight>
-    <blockLight>true</blockLight>
+    <blockLight>false</blockLight>
     <drawerType>RealtimeOnly</drawerType>
     <building>
+      <soundDoorOpenManual>StallDoor</soundDoorOpenManual>
       <blueprintGraphicData>
         <texPath>DBH/Things/Building/Door_Blueprint</texPath>
       </blueprintGraphicData>
@@ -136,11 +141,48 @@
     </placeWorkers>
   </ThingDef>
 
+  <ThingDef ParentName="BasedHygieneMom">
+    <defName>PrimitiveWell</defName>
+    <label>Primitive Well</label>
+    <description>Accesses ground water to fill water tubs.</description>
+    <graphicData>
+      <texPath>DBH/Things/Building/Water/PrimitiveWell</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(2,2)</drawSize>
+      <drawRotated>false</drawRotated>
+    </graphicData>
+    <category>Building</category>
+    <tickerType>Normal</tickerType>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <blockWind>false</blockWind>
+    <castEdgeShadows>false</castEdgeShadows>
+    <pathCost>60</pathCost>
+    <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+      <li>Stony</li>
+    </stuffCategories>
+    <costStuffCount>25</costStuffCount>
+    <placeWorkers>
+      <li>DubsBadHygiene.PlaceWorker_WaterGrid</li>
+      <li>DubsBadHygiene.PlaceWorker_SewageGrid</li>
+    </placeWorkers>
+    <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+    <rotatable>false</rotatable>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToBuild>9000</WorkToBuild>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <socialPropernessMatters>true</socialPropernessMatters>
+  </ThingDef>
 
   <ThingDef ParentName="BasedHygieneMom">
     <defName>WashBucket</defName>
-    <label>wash bucket</label>
-    <description>Bucket of filthy water used for washing.</description>
+    <label>water tub</label>
+    <description>Tub of water used for personal hygiene, must be regularly refilled with fresh water. (Can also be used for drinking if thirst is enabled)</description>
     <thingClass>DubsBadHygiene.Building_washbucket</thingClass>
     <graphicData>
       <texPath>DBH/Things/Building/filthyBucket</texPath>
@@ -175,6 +217,11 @@
     <pathCost>8</pathCost>
     <rotatable>false</rotatable>
     <socialPropernessMatters>true</socialPropernessMatters>
+    <comps>
+      <li>
+        <compClass>CompColorable</compClass>
+      </li>
+    </comps>
   </ThingDef>
 
   <ThingDef ParentName="BasedHygieneMom">
@@ -216,6 +263,11 @@
     <rotatable>false</rotatable>
     <socialPropernessMatters>true</socialPropernessMatters>
     <designationCategory>HygieneMisc</designationCategory>
+    <comps>
+      <li>
+        <compClass>CompColorable</compClass>
+      </li>
+    </comps>
   </ThingDef>
 
   <ThingDef ParentName="BasedHygieneMom">
@@ -296,7 +348,7 @@
   <!--                Basins                      -->
 
   <ThingDef ParentName="BasedFixture" Name="DubsDirtyBasinBase" Abstract="True">
-    <description>Clean and simple bathroom basin for keeping your hands clean after using the toilet. Can't be used for washing</description>
+    <description>Clean and simple bathroom basin for keeping your hands clean after using the toilet.</description>
     <thingClass>DubsBadHygiene.Building_basin</thingClass>
     <graphicData>
       <drawSize>(2,2)</drawSize>
@@ -329,13 +381,25 @@
   </ThingDef>
 
   <ThingDef ParentName="DubsDirtyBasinBase">
-    <defName>Basin</defName>
-    <menuHidden>true</menuHidden>
-    <designationCategory></designationCategory>
-    <label>Basin (Legacy)</label>
+    <defName>Fountain</defName>
+    <label>Fountain</label>
+    <description>Water fountain, used for drinking and washing</description>
+    <graphicData>
+      <drawSize>(2,2)</drawSize>
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>DBH/Things/Building/fountain</texPath>
+    </graphicData>
+    <hasInteractionCell>false</hasInteractionCell>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+      <li>Stony</li>
+    </stuffCategories>
+    <rotatable>false</rotatable>
     <costList>
-      <Steel>15</Steel>
+      <Steel>5</Steel>
     </costList>
+    <costStuffCount>10</costStuffCount>
   </ThingDef>
 
   <ThingDef ParentName="DubsDirtyBasinBase">
@@ -422,16 +486,6 @@
   </ThingDef>
 
   <ThingDef ParentName="DubsDirtyTerletBase">
-    <defName>Toilet</defName>
-    <menuHidden>true</menuHidden>
-    <designationCategory></designationCategory>
-    <label>Toilet (Legacy)</label>
-    <costList>
-      <Steel>15</Steel>
-    </costList>
-  </ThingDef>
-
-  <ThingDef ParentName="DubsDirtyTerletBase">
     <defName>ToiletStuff</defName>
     <label>Toilet</label>
     <stuffCategories>
@@ -470,16 +524,6 @@
     </researchPrerequisites>
   </ThingDef>
 
-  <ThingDef ParentName="AdvTerletBase">
-    <defName>ToiletAdv</defName>
-    <menuHidden>true</menuHidden>
-    <designationCategory></designationCategory>
-    <label>Power Toilet (Legacy)</label>
-    <costList>
-      <ComponentIndustrial>1</ComponentIndustrial>
-      <Steel>35</Steel>
-    </costList>
-  </ThingDef>
 
   <ThingDef ParentName="AdvTerletBase">
     <defName>ToiletAdvStuff</defName>
@@ -515,8 +559,8 @@
       <Comfort>0.9</Comfort>
       <JoyGainFactor>0.7</JoyGainFactor>
       <Mass>50</Mass>
-    
-  </statBases>
+
+    </statBases>
     <fillPercent>0.15</fillPercent>
     <size>(1, 2)</size>
     <passability>PassThroughOnly</passability>
@@ -528,15 +572,6 @@
     </researchPrerequisites>
   </ThingDef>
 
-  <ThingDef ParentName="DubsDirtyBathtubBase">
-    <defName>Bathtub</defName>
-    <menuHidden>true</menuHidden>
-    <designationCategory></designationCategory>
-    <label>Bathtub (Legacy)</label>
-    <costList>
-      <Steel>35</Steel>
-    </costList>
-  </ThingDef>
 
   <ThingDef ParentName="DubsDirtyBathtubBase">
     <defName>BathtubStuff</defName>
@@ -572,7 +607,7 @@
       <Comfort>0.5</Comfort>
       <Mass>20</Mass>
     </statBases>
-    
+
     <fillPercent>0.15</fillPercent>
     <passability>PassThroughOnly</passability>
     <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
@@ -583,18 +618,6 @@
     </researchPrerequisites>
   </ThingDef>
 
-  <ThingDef ParentName="DubsDirtyShowerBase">
-    <defName>Shower</defName>
-    <menuHidden>true</menuHidden>
-    <designationCategory></designationCategory>
-    <label>Shower (Legacy)</label>
-    <statBases>
-      <WorkToBuild>1300</WorkToBuild>
-    </statBases>
-    <costList>
-      <Steel>25</Steel>
-    </costList>
-  </ThingDef>
 
   <ThingDef ParentName="DubsDirtyShowerBase">
     <defName>ShowerStuff</defName>
@@ -614,38 +637,22 @@
   </ThingDef>
 
   <ThingDef ParentName="DubsDirtyShowerBase">
-    <defName>ShowerAdv</defName>
-    <menuHidden>true</menuHidden>
-    <designationCategory></designationCategory>
-    <label>Power Shower (Legacy)</label>
-    <description>Features a large 110mm 4 spray powered showerhead to relax those aching muscles, heats water on demand and doubles washing speed!</description>
-    <thingClass>DubsBadHygiene.Building_PowerShower</thingClass>
+    <defName>ShowerSimple</defName>
+    <label>Simple Shower</label>
     <graphicData>
       <drawSize>(2,2)</drawSize>
-      <texPath>DBH/Things/Building/Showers/showerAdv</texPath>
+      <texPath>DBH/Things/Building/Showers/showerSimple</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
       <shaderType>CutoutComplex</shaderType>
     </graphicData>
     <statBases>
-      <Beauty>8</Beauty>
-      <Comfort>0.8</Comfort>
-      <WorkToBuild>3000</WorkToBuild>
+      <WorkToBuild>800</WorkToBuild>
     </statBases>
-    <comps>
-      <li Class="CompProperties_Power">
-        <compClass>CompPowerTrader</compClass>
-        <basePowerConsumption>75</basePowerConsumption>
-      </li>
-      <li Class="CompProperties_Flickable"/>
-    </comps>
     <costList>
-      <ComponentIndustrial>1</ComponentIndustrial>
-      <Steel>40</Steel>
+      <Steel>15</Steel>
     </costList>
-    <researchPrerequisites>
-      <li>AdvancedShowers</li>
-    </researchPrerequisites>
   </ThingDef>
+
 
   <ThingDef ParentName="DubsDirtyShowerBase">
     <defName>ShowerAdvStuff</defName>

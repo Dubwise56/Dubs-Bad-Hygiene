@@ -1,10 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
+  
+    <DubsBadHygiene.DefExtensions>
+    <defName>DubsBadHygieneExtensions</defName>
+  </DubsBadHygiene.DefExtensions>
+  
   <DubsBadHygiene.DubsModOptions>
     <defName>PipeVisibility</defName>
     <label>Pipe Visibility</label>
-    <tip></tip>
+    <AutoList>false</AutoList>
+    <defaultSetting>1</defaultSetting>
+    <tip>How should pipes be rendered</tip>
     <options>
       <li>
         <label>Hidden</label>
@@ -19,13 +25,18 @@
   </DubsBadHygiene.DubsModOptions>
 
   <DubsBadHygiene.DubsModOptions>
-    <defName>HygieneRate</defName>
-    <label>Hygiene need rate</label>
-    <tip></tip>
+    <defName>FlushSize</defName>
+    <label>Flush size</label>
+    <defaultSetting>3</defaultSetting>
+    <tip>How much sewage is produced from each flush</tip>
     <options>
       <li>
         <label>Cheat</label>
         <value>0</value>
+      </li>
+      <li>
+        <label>25%</label>
+        <value>0.25</value>
       </li>
       <li>
         <label>50%</label>
@@ -43,13 +54,55 @@
         <label>200%</label>
         <value>2</value>
       </li>
+      <li>
+        <label>250%</label>
+        <value>2.5</value>
+      </li>
+    </options>
+  </DubsBadHygiene.DubsModOptions>
+  
+  <DubsBadHygiene.DubsModOptions>
+    <defName>HygieneRate</defName>
+    <label>Hygiene need rate</label>
+    <defaultSetting>3</defaultSetting>
+    <tip>How fast the hygiene need falls</tip>
+    <options>
+      <li>
+        <label>Cheat</label>
+        <value>0</value>
+      </li>
+      <li>
+        <label>25%</label>
+        <value>0.25</value>
+      </li>
+      <li>
+        <label>50%</label>
+        <value>0.5</value>
+      </li>
+      <li>
+        <label>100%</label>
+        <value>1</value>
+      </li>
+      <li>
+        <label>125%</label>
+        <value>1.25</value>
+      </li>
+      <li>
+        <label>150%</label>
+        <value>1.5</value>
+      </li>
+      <li>
+        <label>200%</label>
+        <value>2</value>
+      </li>
     </options>
   </DubsBadHygiene.DubsModOptions>
 
   <DubsBadHygiene.DubsModOptions>
     <defName>BladderRate</defName>
     <label>Bladder need rate</label>
-    <tip></tip>
+    <defaultSetting>2</defaultSetting>
+    <tip>How fast the bladder need falls</tip>
     <options>
       <li>
         <label>Cheat</label>
@@ -77,7 +130,8 @@
   <DubsBadHygiene.DubsModOptions>
     <defName>ContaminationChance</defName>
     <label>Contamination chance</label>
-    <tip></tip>
+    <defaultSetting>4</defaultSetting>
+    <tip>Multiply the chance for a colonist getting contaminated from untreated water</tip>
     <options>
       <li>
         <label>Cheat</label>
@@ -120,8 +174,9 @@
 
   <DubsBadHygiene.DubsModOptions>
     <defName>WaterPumpCapacity</defName>
-    <label>Water pumping capacity</label>
-    <tip></tip>
+    <label>Water pump capacity</label>
+    <defaultSetting>3</defaultSetting>
+    <tip>Multiply the capacity of water pumps</tip>
     <options>
       <li>
         <label>Cheat</label>
@@ -132,8 +187,16 @@
         <value>0.4</value>
       </li>
       <li>
+        <label>150%</label>
+        <value>0.3</value>
+      </li>
+      <li>
         <label>100%</label>
         <value>0.2</value>
+      </li>
+      <li>
+        <label>75%</label>
+        <value>0.15</value>
       </li>
       <li>
         <label>50%</label>
@@ -149,7 +212,8 @@
   <DubsBadHygiene.DubsModOptions>
     <defName>WaterHeatingRate</defName>
     <label>Hot Water Usage</label>
-    <tip></tip>
+    <defaultSetting>3</defaultSetting>
+    <tip>Multiply how much hot water is used while washing</tip>
     <options>
       <li>
         <label>Cheat</label>
@@ -157,11 +221,19 @@
       </li>
       <li>
         <label>50%</label>
-        <value>0.5</value>
+        <value>1.5</value>
+      </li>
+      <li>
+        <label>75%</label>
+        <value>0.75</value>
       </li>
       <li>
         <label>100%</label>
         <value>1</value>
+      </li>
+      <li>
+        <label>125%</label>
+        <value>1.25</value>
       </li>
       <li>
         <label>150%</label>
@@ -177,71 +249,65 @@
   <DubsBadHygiene.DubsModOptions>
     <defName>SewageGridCapacity</defName>
     <label>Sewage limit per cell</label>
-    <tip></tip>
+    <defaultSetting>3</defaultSetting>
+    <tip>Set the limit for how much sewage can fit into a cell on the surface</tip>
     <options>
       <li>
         <label>Cheat</label>
         <value>1000</value>
       </li>
       <li>
-        <label>Easy</label>
+        <label>400%</label>
+        <value>100</value>
+      </li>
+      <li>
+        <label>200%</label>
         <value>50</value>
       </li>
       <li>
-        <label>Normal</label>
+        <label>100%</label>
         <value>25</value>
       </li>
       <li>
-        <label>Challenge</label>
+        <label>80%</label>
+        <value>20</value>
+      </li>
+      <li>
+        <label>60%</label>
         <value>15</value>
       </li>
       <li>
-        <label>Extreme</label>
+        <label>20%</label>
         <value>5</value>
       </li>
     </options>
   </DubsBadHygiene.DubsModOptions>
 
   <DubsBadHygiene.DubsModOptions>
-    <defName>SewageCleanupRate</defName>
-    <label>Sewage cleanup rate boost</label>
-    <tip></tip>
+    <defName>SewageCleanupRateB</defName>
+    <label>Sewage cleanup rate</label>
+    <defaultSetting>5</defaultSetting>
+    <tip>How fast sewage on the surface cleans up over time</tip>
     <options>
       <li>
         <label>Cheat</label>
         <value>10</value>
       </li>
       <li>
-        <label>Easy</label>
-        <value>5</value>
-      </li>
-      <li>
-        <label>Normal</label>
-        <value>2</value>
-      </li>
-      <li>
-        <label>Challenge</label>
-        <value>1</value>
-      </li>
-      <li>
-        <label>None</label>
-        <value>0</value>
-      </li>
-    </options>
-  </DubsBadHygiene.DubsModOptions>
-
-  <DubsBadHygiene.DubsModOptions>
-    <defName>SewageProcRate</defName>
-    <label>Sewage treatment rate</label>
-    <tip></tip>
-    <options>
-      <li>
-        <label>Cheat</label>
-        <value>100</value>
+        <label>300%</label>
+        <value>3</value>
       </li>
       <li>
         <label>200%</label>
         <value>2</value>
+      </li>
+      <li>
+        <label>150%</label>
+        <value>1.5</value>
+      </li>
+      <li>
+        <label>125%</label>
+        <value>1.25</value>
       </li>
       <li>
         <label>100%</label>
@@ -252,17 +318,74 @@
         <value>0.75</value>
       </li>
       <li>
+        <label>50%</label>
+        <value>0.5</value>
+      </li>
+      <li>
         <label>25%</label>
         <value>0.25</value>
+      </li>
+      <li>
+        <label>10%</label>
+        <value>0.1</value>
+      </li>
+      <li>
+        <label>0%</label>
+        <value>0</value>
       </li>
     </options>
   </DubsBadHygiene.DubsModOptions>
 
+  <DubsBadHygiene.DubsModOptions>
+    <defName>SewageProcRate</defName>
+    <label>Sewage treatment rate</label>
+    <defaultSetting>4</defaultSetting>
+    <tip>Multiply how fast sewage is treated in septic tanks and sewage treatment</tip>
+    <options>
+      <li>
+        <label>Cheat</label>
+        <value>100</value>
+      </li>
+      <li>
+        <label>200%</label>
+        <value>2</value>
+      </li>
+      <li>
+        <label>150%</label>
+        <value>1.5</value>
+      </li>
+      <li>
+        <label>125%</label>
+        <value>1.25</value>
+      </li>
+      <li>
+        <label>100%</label>
+        <value>1</value>
+      </li>
+      <li>
+        <label>75%</label>
+        <value>0.75</value>
+      </li>
+      <li>
+        <label>50%</label>
+        <value>0.5</value>
+      </li>
+      <li>
+        <label>25%</label>
+        <value>0.25</value>
+      </li>
+      <li>
+        <label>10%</label>
+        <value>0.1</value>
+      </li>
+    </options>
+  </DubsBadHygiene.DubsModOptions>
 
   <DubsBadHygiene.DubsModOptions>
     <defName>IrrigationGridStrength</defName>
     <label>Irrigation strength</label>
-    <tip></tip>
+    <defaultSetting>4</defaultSetting>
+    <tip>Multiply the effect of irrigation on fertility</tip>
     <options>
       <li>
         <label>Cheat</label>
@@ -306,7 +429,8 @@
   <DubsBadHygiene.DubsModOptions>
     <defName>FertilizerGridStrength</defName>
     <label>Fertilizer strength</label>
-    <tip></tip>
+    <defaultSetting>4</defaultSetting>
+    <tip>Multiply the effect of fertilizer on fertility</tip>
     <options>
       <li>
         <label>Cheat</label>
@@ -350,7 +474,8 @@
   <DubsBadHygiene.DubsModOptions>
     <defName>TerrainFertilityFactor</defName>
     <label>Base Terrain Fertility</label>
-    <tip></tip>
+    <defaultSetting>5</defaultSetting>
+    <tip>Set the base value of terrain fertility</tip>
     <options>
       <li>
         <label>Cheat</label>
@@ -398,4 +523,5 @@
       </li>
     </options>
   </DubsBadHygiene.DubsModOptions>
+
 </Defs>

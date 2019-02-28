@@ -34,6 +34,32 @@
   </WorkGiverDef>
   
   <WorkGiverDef>
+    <defName>UnloadWashing</defName>
+    <label>unload washing</label>
+    <giverClass>DubsBadHygiene.WorkGiver_WashingUnload</giverClass>
+    <workType>Hauling</workType>
+    <verb>unload washing</verb>
+    <gerund>unloading washing</gerund>
+    <priorityInType>23</priorityInType>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+  </WorkGiverDef>
+
+  <WorkGiverDef>
+    <defName>LoadWashing</defName>
+    <label>load washing</label>
+    <giverClass>DubsBadHygiene.WorkGiver_WashingLoad</giverClass>
+    <workType>Hauling</workType>
+    <verb>load washing</verb>
+    <gerund>loading washing</gerund>
+    <priorityInType>22</priorityInType>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+  </WorkGiverDef>
+  
+  <WorkGiverDef>
     <defName>UnloadComposter</defName>
     <label>take compost out of the composter</label>
     <giverClass>DubsBadHygiene.WorkGiver_UnloadComposter</giverClass>
@@ -105,7 +131,8 @@
     <workType>Doctor</workType>
     <verb>administer fluids</verb>
     <gerund>administering fluids</gerund>
-    <priorityInType>51</priorityInType>
+    <priorityInType>79</priorityInType>
+    <prioritizeSustains>true</prioritizeSustains>
     <requiredCapacities>
       <li>Manipulation</li>
     </requiredCapacities>
@@ -118,7 +145,7 @@
 		<workType>Doctor</workType>
 		<verb>wash</verb>
 		<gerund>washing</gerund>
-		<priorityInType>50</priorityInType>
+		<priorityInType>52</priorityInType>
 		<requiredCapacities>
 			<li>Manipulation</li>
 		</requiredCapacities>
@@ -131,7 +158,7 @@
     <workType>Doctor</workType>
     <verb>clean</verb>
     <gerund>cleaning</gerund>
-    <priorityInType>20</priorityInType>
+    <priorityInType>51</priorityInType>
     <requiredCapacities>
       <li>Manipulation</li>
     </requiredCapacities>
@@ -151,16 +178,26 @@
 	</WorkGiverDef>
   
   <WorkGiverDef>
-    <defName>CleanBucket</defName>
-    <label>Clean Bucket</label>
-    <giverClass>DubsBadHygiene.WorkGiver_CleanBucket</giverClass>
-    <workType>Cleaning</workType>
-    <verb>clean</verb>
-    <gerund>cleaning</gerund>
+    <defName>RefillTub</defName>
+    <label>Refill Tub</label>
+    <giverClass>DubsBadHygiene.WorkGiver_RefillTub</giverClass>
+    <workType>Hauling</workType>
+    <verb>refill</verb>
+    <gerund>refilling</gerund>
     <priorityInType>50</priorityInType>
     <requiredCapacities>
       <li>Manipulation</li>
     </requiredCapacities>
   </WorkGiverDef>
-  
+
+  <WorkGiverDef>
+    <defName>TipSewage</defName>
+    <label>Tip Sewage</label>
+    <giverClass>DubsBadHygiene.WorkGiver_TipSewage</giverClass>
+    <workType>BasicWorker</workType>
+    <verb>Tip Sewage</verb>
+    <gerund>tipping over</gerund>
+    <canBeDoneWhileDrafted>true</canBeDoneWhileDrafted>
+    <priorityInType>500</priorityInType>
+  </WorkGiverDef>
 </Defs>

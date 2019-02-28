@@ -11,137 +11,6 @@
   </ThingDef>
 
 
-  <ThingDef ParentName="BasedHeating">
-    <defName>ImmersionHeater</defName>
-    <label>Boiler(Legacy item)</label>
-    <description>replace this with an electric boiler and a hot water tank!</description>
-    <graphicData>
-      <texPath>DBH/Things/Building/Heating/Boiler</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>(1,2)</drawSize>
-      <damageData>
-        <rect>(0.05,0.05,0.95,0.95)</rect>
-      </damageData>
-    </graphicData>
-    <blockWind>false</blockWind>
-    <castEdgeShadows>true</castEdgeShadows>
-    <pathCost>8</pathCost>
-    <size>(1,1)</size>
-    <costList>
-      <Steel>90</Steel>
-      <ComponentIndustrial>3</ComponentIndustrial>
-    </costList>
-    <rotatable>false</rotatable>
-    <statBases>
-      <MaxHitPoints>125</MaxHitPoints>
-      <WorkToBuild>1600</WorkToBuild>
-      <Mass>50</Mass>
-    </statBases>
-    <comps>
-      <li Class="DubsBadHygiene.CompProperties_Pipe">
-        <mode>Sewage</mode>
-      </li>
-      <li Class="DubsBadHygiene.CompProperties_CompBoiler">
-        <BaseCapacity>250</BaseCapacity>
-        <LowPowerMode>-20</LowPowerMode>
-        <ThermostatControl>true</ThermostatControl>
-      </li>
-      <li Class="DubsBadHygiene.CompProperties_HeatStore">
-        <StoreCapacity>100</StoreCapacity>
-        <RiseRate>0.04</RiseRate>
-        <FallRate>0.001</FallRate>
-        <ForRunningWater>true</ForRunningWater>
-      </li>
-      <li Class="CompProperties_Power">
-        <compClass>CompPowerTrader</compClass>
-        <basePowerConsumption>250</basePowerConsumption>
-      </li>
-      <li Class="CompProperties_Flickable"/>
-      <li Class="CompProperties_Breakdownable"/>
-    </comps>
-    <menuHidden>true</menuHidden>
-    <designationCategory></designationCategory>
-  </ThingDef>
-
-
-  <ThingDef ParentName="BasedHeating">
-    <defName>FueledBoiler</defName>
-    <label>Multi-fuel stove(Legacy item)</label>
-    <description>Replace this with a wood stove or gas boiler!</description>
-    <graphicData>
-      <texPath>DBH/Things/Building/Heating/Stove</texPath>
-      <graphicClass>Graphic_Multi</graphicClass>
-      <drawSize>(2,2)</drawSize>
-      <damageData>
-        <rect>(0.05,0.05,0.95,0.95)</rect>
-      </damageData>
-    </graphicData>
-    <blockWind>true</blockWind>
-    <castEdgeShadows>true</castEdgeShadows>
-    <pathCost>8</pathCost>
-    <size>(1,1)</size>
-    <costList>
-      <Steel>200</Steel>
-      <ComponentIndustrial>1</ComponentIndustrial>
-    </costList>
-    <rotatable>true</rotatable>
-    <statBases>
-      <MaxHitPoints>350</MaxHitPoints>
-      <WorkToBuild>1200</WorkToBuild>
-      <Mass>50</Mass>
-    </statBases>
-    <comps>
-      <li Class="DubsBadHygiene.CompProperties_Pipe">
-        <mode>Sewage</mode>
-      </li>
-      <li Class="DubsBadHygiene.CompProperties_CompBoiler">
-        <BaseCapacity>2000</BaseCapacity>
-        <ThermostatControl>false</ThermostatControl>
-        <effects>
-          <texPath>DBH/Things/Building/Heating/LogBoilerEffects</texPath>
-          <graphicClass>Graphic_Flicker</graphicClass>
-          <shaderType>MoteGlow</shaderType>
-          <drawSize>(2,2)</drawSize>
-        </effects>
-      </li>
-      <li Class="CompProperties_Flickable"/>
-      <li Class="CompProperties_Refuelable">
-        <fuelConsumptionRate>12.0</fuelConsumptionRate>
-        <consumeFuelOnlyWhenUsed>false</consumeFuelOnlyWhenUsed>
-        <fuelCapacity>30.0</fuelCapacity>
-        <fuelFilter>
-          <thingDefs>
-            <li>WoodLog</li>
-            <li>Chemfuel</li>
-          </thingDefs>
-        </fuelFilter>
-      </li>
-      <li Class="CompProperties_Glower">
-        <glowRadius>6</glowRadius>
-        <glowColor>(217,112,33,0)</glowColor>
-      </li>
-      <li Class="CompProperties_HeatPusher">
-        <compClass>CompHeatPusherPowered</compClass>
-        <heatPerSecond>4</heatPerSecond>
-      </li>
-    </comps>
-    <researchPrerequisites>
-      <li>Plumbing</li>
-    </researchPrerequisites>
-    <menuHidden>true</menuHidden>
-    <designationCategory></designationCategory>
-  </ThingDef>
-
-
-
-
-
-
-
-
-
-
-
 
 
   <!--               Heating              -->
@@ -277,6 +146,9 @@
       <Mass>50</Mass>
     </statBases>
     <comps>
+      <li>
+        <compClass>CompColorable</compClass>
+      </li>
       <li Class="DubsBadHygiene.CompProperties_Pipe">
         <mode>Sewage</mode>
       </li>
@@ -336,6 +208,9 @@
       <Mass>50</Mass>
     </statBases>
     <comps>
+      <li>
+        <compClass>CompColorable</compClass>
+      </li>
       <li Class="DubsBadHygiene.CompProperties_Pipe">
         <mode>Sewage</mode>
       </li>
@@ -440,8 +315,8 @@
       </li>
       <li Class="DubsBadHygiene.CompProperties_HeatStore">
         <StoreCapacity>100</StoreCapacity>
-        <RiseRate>0.04</RiseRate>
-        <FallRate>0.001</FallRate>
+        <RiseRate>0.0024</RiseRate>
+        <FallRate>0.00001</FallRate>
         <ForRunningWater>true</ForRunningWater>
       </li>
     </comps>
@@ -471,6 +346,9 @@
       <Mass>50</Mass>
     </statBases>
     <comps>
+      <li>
+        <compClass>CompColorable</compClass>
+      </li>
       <li Class="DubsBadHygiene.CompProperties_Pipe">
         <mode>Sewage</mode>
       </li>
@@ -561,6 +439,132 @@
 
   <!--COOLING-->
 
+
+  <ThingDef ParentName="BasedHeating">
+    <defName>CeilingFan</defName>
+    <label>Ceiling Fan 2x2</label>
+    <thingClass>DubsBadHygiene.Building_CeilingFan</thingClass>
+    <graphicData>
+      <texPath>DBH/Things/Building/Heating/CeilingFanBlades</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(2,2)</drawSize>
+    </graphicData>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <altitudeLayer>Weather</altitudeLayer>
+    <clearBuildingArea>false</clearBuildingArea>
+    <description>Cools a room by circulating air, includes a built in lamp</description>
+    <passability>Standable</passability>
+    <drawerType>RealtimeOnly</drawerType>
+    <blockWind>false</blockWind>
+    <blockLight>false</blockLight>
+    <holdsRoof>false</holdsRoof>
+    <castEdgeShadows>false</castEdgeShadows>
+    <rotatable>false</rotatable>
+    <building>
+      <isInert>true</isInert>
+      <isEdifice>false</isEdifice>
+      <canBuildNonEdificesUnder>true</canBuildNonEdificesUnder>
+      <blueprintGraphicData>
+        <texPath>DBH/Things/Building/Heating/CeilingFanBlades</texPath>
+      </blueprintGraphicData>
+    </building>
+    <costList>
+      <Steel>40</Steel>
+      <ComponentIndustrial>1</ComponentIndustrial>
+    </costList>
+    <size>(2,2)</size>
+    <statBases>
+      <MaxHitPoints>75</MaxHitPoints>
+      <WorkToBuild>700</WorkToBuild>
+      <Mass>15</Mass>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>50</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Glower">
+        <glowRadius>9</glowRadius>
+        <glowColor>(217,217,208,0)</glowColor>
+      </li>
+      <li Class="CompProperties_Flickable"/>
+    </comps>
+    <researchPrerequisites>
+      <li>CentralHeating</li>
+    </researchPrerequisites>
+    <placeWorkers>
+      <li>PlaceWorker_CoolerSimple</li>
+      <li>DubsBadHygiene.PlaceWorker_NotUnderEdiface</li>
+    </placeWorkers>
+    <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+    <designationCategory>HygieneMisc</designationCategory>
+  </ThingDef>
+
+  <ThingDef ParentName="BasedHeating">
+    <defName>CeilingFanS</defName>
+    <label>Ceiling Fan 1x1</label>
+    <thingClass>DubsBadHygiene.Building_CeilingFan</thingClass>
+    <graphicData>
+      <texPath>DBH/Things/Building/Heating/CeilingFanBlades</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(2,2)</drawSize>
+    </graphicData>
+    <uiIconScale>0.5</uiIconScale>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <altitudeLayer>Weather</altitudeLayer>
+    <clearBuildingArea>false</clearBuildingArea>
+    <description>Cools a room by circulating air, includes a built in lamp</description>
+    <passability>Standable</passability>
+    <drawerType>RealtimeOnly</drawerType>
+    <blockWind>false</blockWind>
+    <blockLight>false</blockLight>
+    <holdsRoof>false</holdsRoof>
+    <castEdgeShadows>false</castEdgeShadows>
+    <rotatable>false</rotatable>
+    <building>
+      <isInert>true</isInert>
+      <isEdifice>false</isEdifice>
+      <canBuildNonEdificesUnder>true</canBuildNonEdificesUnder>
+      <blueprintGraphicData>
+        <texPath>DBH/Things/Building/Heating/CeilingFanBlades</texPath>
+      </blueprintGraphicData>
+    </building>
+    <costList>
+      <Steel>40</Steel>
+      <ComponentIndustrial>1</ComponentIndustrial>
+    </costList>
+    <size>(1,1)</size>
+    <statBases>
+      <MaxHitPoints>75</MaxHitPoints>
+      <WorkToBuild>700</WorkToBuild>
+      <Mass>15</Mass>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>50</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Glower">
+        <glowRadius>9</glowRadius>
+        <glowColor>(217,217,208,0)</glowColor>
+      </li>
+      <li Class="CompProperties_Flickable"/>
+    </comps>
+    <researchPrerequisites>
+      <li>CentralHeating</li>
+    </researchPrerequisites>
+    <placeWorkers>
+      <li>PlaceWorker_CoolerSimple</li>
+      <li>DubsBadHygiene.PlaceWorker_NotUnderEdiface</li>
+    </placeWorkers>
+    <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+    <designationCategory>HygieneMisc</designationCategory>
+  </ThingDef>
+  
+  
+  
+  
+  
   <ThingDef ParentName="BasedHeating">
     <defName>AirConOutdoorUnit</defName>
     <label>Air-Con Outdoor Unit</label>
@@ -649,11 +653,15 @@
         <rect>(0.05,0.05,0.95,0.95)</rect>
       </damageData>
     </graphicData>
+    <uiIconPath>DBH/UI/centralAirVent</uiIconPath>
     <statBases>
       <WorkToBuild>400</WorkToBuild>
       <Mass>50</Mass>
     </statBases>
     <comps>
+      <li>
+        <compClass>CompColorable</compClass>
+      </li>
       <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
         <basePowerConsumption>25</basePowerConsumption>
@@ -691,7 +699,7 @@
         <rect>(0.05,0.05,0.95,0.95)</rect>
       </damageData>
     </graphicData>
-    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
     <size>(2,1)</size>
     <statBases>
       <WorkToBuild>800</WorkToBuild>
@@ -710,6 +718,9 @@
     <castEdgeShadows>true</castEdgeShadows>
     <staticSunShadowHeight>1.0</staticSunShadowHeight>
     <comps>
+      <li>
+        <compClass>CompColorable</compClass>
+      </li>
       <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
         <basePowerConsumption>25</basePowerConsumption>
