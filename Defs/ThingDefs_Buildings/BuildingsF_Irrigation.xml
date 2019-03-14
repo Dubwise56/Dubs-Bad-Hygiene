@@ -201,6 +201,7 @@
         <maxSafeTemperature>60</maxSafeTemperature>
         <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
       </li>
+      <li Class="CompProperties_Forbiddable"/>
     </comps>
     <tickerType>Rare</tickerType>
     <rotatable>false</rotatable>
