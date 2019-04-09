@@ -190,7 +190,9 @@
   <FertilizerVisibleTip>If the fertilizer grid should be visible</FertilizerVisibleTip>
   <AllowNonHuman>Non Human Colonists</AllowNonHuman>
   <AllowNonHumanTip>Allow the needs on non human colonists, you can disable specific beings with the override settings</AllowNonHumanTip>
-
+  <StripWhileWashing>Strip While Washing</StripWhileWashing>
+  <StripWhileWashingTip>Strip clothes while washing, disable if needed to fix mod conflicts</StripWhileWashingTip>
+  
   <GetPaintShop>Get Dub's Paint Shop</GetPaintShop>
   
 
