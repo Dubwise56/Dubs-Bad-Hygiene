@@ -273,7 +273,7 @@
   <ThingDef ParentName="BasedHygieneMom">
     <defName>BurnPit</defName>
     <label>Burn Pit</label>
-    <description>Eliminates fecal sludge by burning it as fuel. Can also be used for disposing of corpses or other detritus. Colonists may become sick if they spend too long near burning waste</description>
+    <description>Eliminates fecal sludge by burning it as fuel. Can also be used for disposing of corpses or other detritus. Colonists may become sick if they spend too long near burning waste.</description>
     <thingClass>DubsBadHygiene.Building_BurnPit</thingClass>
     <category>Building</category>
     <graphicData>
