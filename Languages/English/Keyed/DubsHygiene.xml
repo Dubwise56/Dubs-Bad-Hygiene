@@ -22,7 +22,7 @@
   <BlockedSewage>Blocked Sewage Outlet</BlockedSewage>
   <BlockedSewageDesc>Sewage has built up around the drain hole and is blocking the outlet.\n\nBuild more outlets or add a septic tank to create a buffer and reduce pressure on the outlets.</BlockedSewageDesc>
   <LowWaterTemp>Low Water Temp</LowWaterTemp>
-  <LowWaterTempDesc>The water temperature in this tank is too low, colonists expecting to use hot water may get annoyed.\n\nTurn on boilers, increase the heating capacity or add another hot water tank.</LowWaterTempDesc>
+  <LowWaterTempDesc>The water temperature in this tank is too low; colonists expecting to use hot water may get annoyed.\n\nTurn on boilers, increase the heating capacity, or add another hot water tank.</LowWaterTempDesc>
   <WellNeedsWater>Must be placed over a cell with ground water.</WellNeedsWater>
   <AssigningRequiresRoom>The fixture must be inside a room to restrict it</AssigningRequiresRoom>
   
@@ -43,12 +43,12 @@
   <Contaminated>Contaminated - Disease risk</Contaminated>
 
   <LetterLabelBlockedDrain>Blocked Drain</LetterLabelBlockedDrain>
-  <LetterBlockedDrain>A drain has become blocked, a cleaner must clean the blockage.</LetterBlockedDrain>
+  <LetterBlockedDrain>A drain has become blocked. A cleaner must clean the blockage.</LetterBlockedDrain>
 
   <ContaminationAlert>Contaminated Water</ContaminationAlert>
   <ContaminationAlertDesc>A water source is so polluted that there is a risk it will contaminate your water storage towers\n\nSources of contamination:\n{0} \n\nEither remove the sources of contamination, or add a water treatment system which will also clean contaminated water towers.</ContaminationAlertDesc>
   <ContaminatiedTowerAlert>Contaminated Water Tower</ContaminatiedTowerAlert>
-  <ContaminatiedTowerAlertDesc>A water tower has become polluted, this poses a serious risk to the health of your colonists! Move your water towers, drain them, or build a water treatment system</ContaminatiedTowerAlertDesc>
+  <ContaminatiedTowerAlertDesc>A water tower has become polluted, posing a serious health risk to your colonists! Move your water towers, drain them, or build a water treatment system.</ContaminatiedTowerAlertDesc>
 
   <MessageHygieneDisease>{0} has contracted {1} from dirty water and bad hygiene</MessageHygieneDisease>
   <MessageWaterDisease>{0} has contracted {1} from dirty water or not washing their hands</MessageWaterDisease>
@@ -123,9 +123,9 @@
 
   <CommandSprinkleDown>Decrease radius</CommandSprinkleDown>
   <CommandSprinkleUp>Increase radius</CommandSprinkleUp>
-  <UntreatedWater>Quality: Untreated - Small disease risk</UntreatedWater>
-  <ContaminatedWater>Quality: Contaminated! - High disease risk!</ContaminatedWater>
-  <TreatedWater>Quality: Treated - Safe</TreatedWater>
+  <UntreatedWater>Quality: Untreated - small disease risk</UntreatedWater>
+  <ContaminatedWater>Quality: Contaminated - high disease risk!</ContaminatedWater>
+  <TreatedWater>Quality: Treated - safe</TreatedWater>
 
   <DrainTank>Drain Tank</DrainTank>
   <DrainTankDesc>Drain the tank and remove contamination</DrainTankDesc>
@@ -143,7 +143,7 @@
   <PitCapacity>Pit: {0}</PitCapacity>
   <PitFull>Pit is full, empty now!</PitFull>
   <KickOver>Kick Over</KickOver>
-  <KickOverDesc>Spill this barrel of sewage onto the ground</KickOverDesc>
+  <KickOverDesc>Spill this barrel of sewage on the ground</KickOverDesc>
 
   <!--Composting-->
   <ContainsCompost>Contains Compost {0}/{1}</ContainsCompost>
