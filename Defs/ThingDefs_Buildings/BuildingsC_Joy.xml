@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
 
@@ -73,7 +73,7 @@
   
   
   <ThingDef ParentName="BasedFixture" Name="DubsHotTubBase">
-    <description>Hot tub used for hydrotherapy, relaxation or pleasure. Filled with water from water towers on first use, self heated and does not require a sewage outlet.</description>
+    <description>Hot tub used for hydrotherapy, relaxation or pleasure. Filled with water from water towers on first use. Self heated and does not require a sewage outlet.</description>
     <thingClass>DubsBadHygiene.Building_HotTub</thingClass>
     <defName>HotTub</defName>
     <label>Hot Tub</label>
@@ -134,7 +134,7 @@
   <ThingDef ParentName="BasedHygieneMom">
     <defName>WashingMachine</defName>
     <label>Washing Machine</label>
-    <description>Washes clothes so well that you couldn't even tell someone died wearing it!</description>
+    <description>Washes clothes so well that you can't even tell someone died wearing it!</description>
     <thingClass>DubsBadHygiene.Building_WashingMachine</thingClass>
     <graphicData>
       <texPath>DBH/Things/Building/washingMachine</texPath>
