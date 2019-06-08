@@ -288,8 +288,62 @@
     <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
     <passability>Impassable</passability>
     <blockWind>true</blockWind>
+    <designationCategory></designationCategory>
   </ThingDef>
-  
+
+  <ThingDef ParentName="BasedWaterPump">
+    <defName>WindPumpStuffed</defName>
+    <label>Wind Pump</label>
+    <description>Pumps water from wells to water towers. Pumping capacity: 3000 L/day</description>
+    <graphicData>
+      <texPath>DBH/Things/Building/Water/WindPump</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>(2,2)</drawSize>
+      <shadowData>
+        <volume>(0.6, 1.0, 1.6)</volume>
+        <offset>(-0.1,0,-0.08)</offset>
+      </shadowData>
+    </graphicData>
+    <castEdgeShadows>false</castEdgeShadows>
+    <size>(3,2)</size>
+    <rotatable>true</rotatable>
+    <stuffCategories>
+      <li>Woody</li>
+      <li>Stony</li>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costList>
+      <Steel>25</Steel>
+    </costList>
+    <costStuffCount>80</costStuffCount>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToBuild>2500</WorkToBuild>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Breakdownable"/>
+      <li Class="DubsBadHygiene.CompProperties_WaterPumpingStation">
+        <compClass>DubsBadHygiene.CompWindPump</compClass>
+        <Capacity>2000</Capacity>
+      </li>
+    </comps>
+    <researchPrerequisites>
+      <li>Plumbing</li>
+    </researchPrerequisites>
+    <placeWorkers>
+      <li>DubsBadHygiene.PlaceWorker_WindPump</li>
+    </placeWorkers>
+    <building>
+      <ai_chillDestination>false</ai_chillDestination>
+      <allowAutoroof>false</allowAutoroof>
+    </building>
+    <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+    <passability>Impassable</passability>
+    <blockWind>true</blockWind>
+  </ThingDef>
+
   <ThingDef ParentName="BasedWaterPump">
     <defName>ElectricPump</defName>
     <label>Electric Pump</label>
