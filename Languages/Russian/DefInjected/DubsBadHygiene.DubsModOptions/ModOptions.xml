@@ -19,7 +19,7 @@
   
   <FlushSize.label>Смыв</FlushSize.label>
   <FlushSize.options.0.label>Чит</FlushSize.options.0.label>
-  <FlushSize.tip>Сколько нечистот образуется при каждом смыве</FlushSize.tip>
+  <FlushSize.tip>Количество нечистот, образующихся при каждом смыве</FlushSize.tip>
   
   <ThirstRate.label>Жажда</ThirstRate.label>
   <ThirstRate.options.0.label>Чит</ThirstRate.options.0.label>
@@ -49,12 +49,12 @@
   <SewageCleanupRateB.label>Исчезновение нечистот</SewageCleanupRateB.label>
   <SewageCleanupRateB.options.0.label>Чит</SewageCleanupRateB.options.0.label>
   <SewageCleanupRateB.tip>Скорость исчезновения нечистот с поверхности со временем</SewageCleanupRateB.tip>
-  
 
 
   <SewageProcRate.label>Очистка нечистот</SewageProcRate.label>
   <SewageProcRate.options.0.label>Чит</SewageProcRate.options.0.label>
   <SewageProcRate.tip>Скорость очистки нечистот в септиках и водоочистных установках</SewageProcRate.tip>
+
 
   <IrrigationGridStrength.label>Орошение</IrrigationGridStrength.label>
   <IrrigationGridStrength.options.0.label>Чит</IrrigationGridStrength.options.0.label>

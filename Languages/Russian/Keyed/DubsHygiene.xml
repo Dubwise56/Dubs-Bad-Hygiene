@@ -32,7 +32,7 @@
   <Nowater>Нет воды</Nowater>
   <Nosewage>Нет отвода нечистот</Nosewage>
   <RequiresPlumbing>Требуется водопровод</RequiresPlumbing>
-  <AccessRestricted>Доступ ограниичен</AccessRestricted>
+  <AccessRestricted>Доступ ограничен</AccessRestricted>
 
   <TooHot>Слишком горячо: x{0}</TooHot>
   <InRain>Под дождем: x{0}</InRain>
@@ -174,10 +174,10 @@
   <PrivacyChecks>Приватность</PrivacyChecks>
   <PrivacyChecksTip>Колонисты беспокоятся о приватности во время водных процедур и использования туалетов</PrivacyChecksTip>
   <CoolingEfficiency>Эффективность охлаждения</CoolingEfficiency>
-  <CoolingEfficiencyTip>Должны ли высокие температуры влиять на эффективность охлаждения как в случае со стандарными кондиционерами</CoolingEfficiencyTip>
+  <CoolingEfficiencyTip>Должны ли высокие температуры влиять на эффективность охлаждения, как в случае со стандартными кондиционерами</CoolingEfficiencyTip>
 
   <DisableNeeds>Переключить нужды</DisableNeeds>
-  <DisableNeedsTip>Полностью отключить нужды, перезаписывает все остальные настройки</DisableNeedsTip>
+  <DisableNeedsTip>Полностью отключить нужды. Перезаписывает все остальные настройки</DisableNeedsTip>
   
   <Experimentalfeatures>Экспериментальные функции</Experimentalfeatures>
   <PetsGetBladder>Малая нужда питомцев</PetsGetBladder>
@@ -189,9 +189,9 @@
   <FertilizerVisible>Удобрения видимы</FertilizerVisible>
   <FertilizerVisibleTip>Должна ли клетка удобрения быть видимой</FertilizerVisibleTip>
   <AllowNonHuman>Нечеловеские колонисты</AllowNonHuman>
-  <AllowNonHumanTip>Включить нужды нечеловеческие колонистов, вы можете отключить отдельных существ с помощью перезаписи настроек</AllowNonHumanTip>
+  <AllowNonHumanTip>Включить нужды нечеловеческих колонистов. Вы можете отключить отдельных существ во вкладке "Фильтры нужд"</AllowNonHumanTip>
   <StripWhileWashing>Обнажаться во время мытья</StripWhileWashing>
-  <StripWhileWashingTip>Снятие одежды во время мытья, отключите для исправления конфликтов модов</StripWhileWashingTip>
+  <StripWhileWashingTip>Снятие одежды во время мытья. Отключите для исправления конфликтов модов</StripWhileWashingTip>
   
   <GetPaintShop>Добавить Dub's Paint Shop</GetPaintShop>
   

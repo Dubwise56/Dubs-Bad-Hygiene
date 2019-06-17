@@ -52,11 +52,19 @@
   <ElectricPump_Frame.label>Электронасос (в процессе сборки)</ElectricPump_Frame.label>
   <ElectricPump_Frame.description>Перекачивает воду из скважин и колодцев в водохранилища.\nПодача насоса:\n1500 Л/день</ElectricPump_Frame.description>
 
+<!-- WindPump translation for compatibility with older versions of that mod. Actual version uses WindPumpStuffed instead.  -->
+
   <WindPump.label>Ветронасос</WindPump.label>
   <WindPump.description>Перекачивает воду из скважин и колодцев в водохранилища.\nПодача насоса:\n3000 Л/день</WindPump.description>
   <WindPump_Blueprint.label>Ветронасос (проект)</WindPump_Blueprint.label>
   <WindPump_Frame.label>Ветронасос (в процессе сборки)</WindPump_Frame.label>
   <WindPump_Frame.description>Перекачивает воду из скважин и колодцев в водохранилища.\nПодача насоса:\n3000 Л/день</WindPump_Frame.description>
+  
+  <WindPumpStuffed.label>Ветронасос</WindPumpStuffed.label>
+  <WindPumpStuffed.description>Перекачивает воду из скважин и колодцев в водохранилища.\nПодача насоса:\n3000 Л/день</WindPumpStuffed.description>
+  <WindPumpStuffed_Blueprint.label>Ветронасос (проект)</WindPumpStuffed_Blueprint.label>
+  <WindPumpStuffed_Frame.label>Ветронасос (в процессе сборки)</WindPumpStuffed_Frame.label>
+  <WindPumpStuffed_Frame.description>Перекачивает воду из скважин и колодцев в водохранилища.\nПодача насоса:\n3000 Л/день</WindPumpStuffed_Frame.description>
 
   <PumpingStation.label>Насосная станция</PumpingStation.label>
   <PumpingStation.description>Перекачивает воду из скважин и колодцев в водохранилища.\nПодача насоса:\n10000 Л/день</PumpingStation.description>
