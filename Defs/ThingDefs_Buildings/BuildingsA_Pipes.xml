@@ -18,7 +18,7 @@
     </graphicData>
     <building>
       <blueprintGraphicData>
-        <texPath>DBH/Things/Building/SewagePipe_Atlas</texPath>
+        <texPath>DBH/Things/Building/SewagePipe_Blueprint_Atlas</texPath>
       </blueprintGraphicData>
       <isInert>true</isInert>
       <isEdifice>false</isEdifice>
