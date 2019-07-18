@@ -18,7 +18,7 @@
     </graphicData>
     <building>
       <blueprintGraphicData>
-        <texPath>DBH/Things/Building/SewagePipe_Atlas</texPath>
+        <texPath>DBH/Things/Building/SewagePipe_Atlas_Blueprint</texPath>
       </blueprintGraphicData>
       <isInert>true</isInert>
       <isEdifice>false</isEdifice>
@@ -79,7 +79,7 @@
     </graphicData>
     <building>
       <blueprintGraphicData>
-        <texPath>DBH/Things/Building/ducting_atlas</texPath>
+        <texPath>DBH/Things/Building/ducting_atlas_Blueprint</texPath>
       </blueprintGraphicData>
       </building>
     <uiIconPath>DBH/UI/coolingPipe</uiIconPath>
