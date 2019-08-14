@@ -84,7 +84,7 @@
   </ThingDef>
 
   <ThingDef Name="BasedWaterTower" ParentName="BasedHygieneMom" Abstract="True">
-    <description>Stores water for use by plumbed fixtures, if the contained water becomes contaminated the tank must be drained.</description>
+    <description>Stores water for use by plumbed fixtures. If the contained water becomes contaminated, the tank must be drained.</description>
     <tickerType>Normal</tickerType>
     <blockWind>true</blockWind>
     <castEdgeShadows>false</castEdgeShadows>
@@ -428,7 +428,7 @@
   <ThingDef ParentName="BasedHygieneMom">
     <defName>SewageOutlet</defName>
     <label>Sewage outlet</label>
-    <description>Can be placed anywhere, sewage will pool and spread on land or disperse in water. Sewage cleans up over time, the presence of trees, water or rain will speed it up.</description>
+    <description>Can be placed anywhere. Sewage will pool and spread on land or disperse in water. Sewage cleans up over time; the presence of trees, water or rain will speed this up.</description>
     <graphicData>
       <texPath>DBH/Things/Building/Sewage/sewagePipe</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
@@ -491,7 +491,7 @@
   <ThingDef ParentName="BasedHygieneMom">
     <defName>SewageSepticTank</defName>
     <label>Septic Tank</label>
-    <description>Slowly cleans sewage over time. Sewage is directed to septic tanks first, if it reaches full capacity then excess sewage is sent to sewage outlets.</description>
+    <description>Slowly cleans sewage over time. Sewage is directed to septic tanks first. If it reaches full capacity then excess sewage is sent to sewage outlets.</description>
     <graphicData>
       <texPath>DBH/Things/Building/Sewage/SepticTank</texPath>
       <graphicClass>Graphic_Single</graphicClass>

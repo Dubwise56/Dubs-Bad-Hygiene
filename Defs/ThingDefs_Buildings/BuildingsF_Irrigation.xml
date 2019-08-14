@@ -58,7 +58,7 @@
   <ThingDef ParentName="BasedHygieneMom">
     <defName>FireSprinkler</defName>
     <label>Fire Sprinkler</label>
-    <description>Triggered by fire or high temperature, douses flames with a spray of water</description>
+    <description>Triggered by fire or high temperature. Douses flames with a spray of water</description>
     <graphicData>
       <texPath>DBH/Things/Building/firesprinkler</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -215,7 +215,7 @@
   <ThingDef ParentName="BasedHygieneMom">
     <defName>BiosolidFertilizer</defName>
     <label>Biosolid Fertilizer</label>
-    <description>Biosolid fertilizer used for increasing the fertility of diggable terrain, lasts just under 1 year.</description>
+    <description>Biosolid fertilizer used for increasing the fertility of diggable terrain. Lasts just under 1 year.</description>
     <selectable>false</selectable>
     <uiIconPath>DBH/UI/fertilizer</uiIconPath>
     <statBases>
