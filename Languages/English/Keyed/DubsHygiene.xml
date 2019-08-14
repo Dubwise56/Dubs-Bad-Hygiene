@@ -25,7 +25,7 @@
   <LowWaterTempDesc>The water temperature in this tank is too low, colonists expecting to use hot water may get annoyed.\n\nTurn on boilers, increase the heating capacity or add another hot water tank.</LowWaterTempDesc>
   <WellNeedsWater>Must be placed over a cell with ground water.</WellNeedsWater>
   <AssigningRequiresRoom>The fixture must be inside a room to restrict it</AssigningRequiresRoom>
-  
+  <NoWaterTowers>Requires Water Storage Tower</NoWaterTowers>
   <AssigningRequiresBladderNeed>Assigning requires bladder need, {0} doesn't have it</AssigningRequiresBladderNeed>
 
   <NoCompostingMaterial>No composting material</NoCompostingMaterial>

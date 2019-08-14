@@ -269,7 +269,6 @@
       <Flammability>1.0</Flammability>
     </statBases>
     <comps>
-      <li Class="CompProperties_Breakdownable"/>
       <li Class="DubsBadHygiene.CompProperties_WaterPumpingStation">
         <compClass>DubsBadHygiene.CompWindPump</compClass>
         <Capacity>2000</Capacity>
@@ -323,7 +322,6 @@
       <Flammability>1.0</Flammability>
     </statBases>
     <comps>
-      <li Class="CompProperties_Breakdownable"/>
       <li Class="DubsBadHygiene.CompProperties_WaterPumpingStation">
         <compClass>DubsBadHygiene.CompWindPump</compClass>
         <Capacity>2000</Capacity>
