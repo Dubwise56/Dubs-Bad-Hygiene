@@ -1,52 +1,55 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <Plumbing.label>sanitaire</Plumbing.label>
-  <Plumbing.description>Utilisez des tuyaux, des accessoires sanitaires, des réservoirs d'eau, des moulins à vent et d'autres équipements pour pomper et stocker l'eau.</Plumbing.description>
-
+  <Plumbing.label>Plomberie</Plumbing.label>
+  <Plumbing.description>Utilisez des tuyaux et autres accessoires de plomberie ainsi que des réservoirs de stockage pour fournir et évacuer l'eau.</Plumbing.description>
+  
   <ElectricPumps.label>Pompes électriques</ElectricPumps.label>
-  <ElectricPumps.description>Les pompes à eau électriques sont des pompes à eau continues à vide.</ElectricPumps.description>
-
-  <Irrigation.label>irrigation</Irrigation.label>
-  <Irrigation.description>Construisez des gicleurs qui peuvent arroser le sol pour améliorer la fertilité.</Irrigation.description>
-
-  <PoweredHeating.label>Chauffage électronique</PoweredHeating.label>
-  <PoweredHeating.description>Construisez des chaudières et des thermostats électriques qui permettent de mieux contrôler le chauffe-eau.</PoweredHeating.description>
-
-  <SewageTreatment.label>traitement des eaux usées</SewageTreatment.label>
-  <SewageTreatment.description>Construire de grandes stations d'épuration des eaux usées qui collectent de grandes quantités d'eaux usées et permettent un traitement rapide des eaux usées.</SewageTreatment.description>
-
-  <WaterFiltration.label>filtration de l'eau</WaterFiltration.label>
-  <WaterFiltration.description>Construire des systèmes de filtration d'eau qui traitent l'approvisionnement en eau et éliminent le risque de maladie.</WaterFiltration.description>
-
+  <ElectricPumps.description>Pompes à eau motorisées pour le pompage continu d'eau sous pression.</ElectricPumps.description>
+  
+  <DeepWells.label>Puit profond</DeepWells.label>
+  <DeepWells.description>Forer des puits plus profonds pour accéder à une plus grande étendue d'eau souterraine.</DeepWells.description>
+  
+  <LargeWaterPumps.label>Pompage à grande échelle</LargeWaterPumps.label>
+  <LargeWaterPumps.description>Construire des pompes à eau et des réservoirs de stockage à  une échelle industrielle !</LargeWaterPumps.description>
+  
+  <AdvancedShowers.label>Douches modernes</AdvancedShowers.label>
+  <AdvancedShowers.description>Construisez des douches électriques qui réduisent de moitié le temps passé à la douche et améliorent le confort.</AdvancedShowers.description>
+  
   <AdvancedToilets.label>Toilettes intelligentes</AdvancedToilets.label>
-  <AdvancedToilets.description>Construisez des toilettes intelligentes qui économisent deux fois plus d'eau que les toilettes normales et procurent plus de confort.</AdvancedToilets.description>
-
-  <AdvancedShowers.label>Douches électriques</AdvancedShowers.label>
-  <AdvancedShowers.description>Construisez de meilleures douches qui réduisent de moitié le temps que vos colons passent sous la douche et améliore leur confort.</AdvancedShowers.description>
+  <AdvancedToilets.description>Construisez des toilettes intelligentes qui consomment deux fois moins d'eau que les toilettes standard et offrent plus de confort.</AdvancedToilets.description>
+  
+  <HotTubs.label>Bains Bouillonants</HotTubs.label>
+  <HotTubs.description>Construire des spas pouvant être utilisés pour l'hydrothérapie, la détente et le plaisir.</HotTubs.description>
+  
+  <SepticTanks.label>Fosses Septique</SepticTanks.label>
+  <SepticTanks.description>Construire des fosses septiques qui accumulent les eaux usées et en assurent un traitement modéré.</SepticTanks.description>
 
   <SewageSludgeComposting.label>Compostage des boues d'épuration</SewageSludgeComposting.label>
-  <SewageSludgeComposting.description>Lorsqu'elles sont correctement traitées, les boues d'épuration deviennent un compost riche en nutriments et utile en tant qu'engrais.</SewageSludgeComposting.description>
-
-  <DeepWells.label>Puits profonds</DeepWells.label>
-  <DeepWells.description>Percer des puits profonds pour atteindre une zone d'eau souterraine beaucoup plus grande.</DeepWells.description>
-
-  <LargeWaterPumps.label>Grande pompes à eau</LargeWaterPumps.label>
-  <LargeWaterPumps.description>Construction de pompes à eau et de réservoirs de stockage à l'échelle industrielle.</LargeWaterPumps.description>
-
-  <HotTubs.label>bains à remous</HotTubs.label>
-  <HotTubs.description>Construire des spas pouvant être utilisés pour l'hydrothérapie, la relaxation et le plaisir.</HotTubs.description>
-
-  <SepticTanks.label>fosses septiques</SepticTanks.label>
-  <SepticTanks.description>Construire des fosses septiques qui collectent les eaux usées et permettent un traitement modéré des eaux usées.</SepticTanks.description>
+  <SewageSludgeComposting.description>Lorsqu'elles sont correctement traitées et traitées, les boues d'épuration deviennent des biosolides riches en nutriments et utiles en tant qu'engrais.</SewageSludgeComposting.description>
   
-  <CentralHeating.label>Chauffage central</CentralHeating.label>
-  <CentralHeating.description>Construire des chaudières à bois et à mazout, des réservoirs d'eau chaude et des radiateurs.</CentralHeating.description>
+  <WaterFiltration.label>Filtration de l'eau</WaterFiltration.label>
+  <WaterFiltration.description>Construire des systèmes de filtration de l'eau qui traitent l'approvisionnement en eau en éliminant le risque de maladie.</WaterFiltration.description>
+    
+  <CentralHeating.label>Système de chauffage</CentralHeating.label>
+  <CentralHeating.description>Construire des chaudières à bois et à gaz, des réservoirs d'eau chaude et des radiateurs</CentralHeating.description>
   
-  <MultiSplitAirCon.label>Climatiseurs multi-split</MultiSplitAirCon.label>
-  <MultiSplitAirCon.description>Construire des climatiseurs multi-split avec des unités extérieures connectées aux unités intérieures et aux congélateurs.</MultiSplitAirCon.description>
+  <PoweredHeating.label>Chauffage Electrique</PoweredHeating.label>
+  <PoweredHeating.description>Construire des chaudières électriques et des thermostats permettant de mieux contrôler le chauffage</PoweredHeating.description>
   
-  <FireSuppression.label>lutte contre les incendies</FireSuppression.label>
-  <FireSuppression.description>Construisez des gicleurs capables de supprimer les incendies lorsqu'ils sont activés.</FireSuppression.description>
-
+  <MultiSplitAirCon.label>Système de climatisation</MultiSplitAirCon.label>
+  <MultiSplitAirCon.description>Construisez des systèmes de climatisation multi-split avec des unités extérieures raccordées aux unités intérieures et aux congélateurs.</MultiSplitAirCon.description>
+  
+  <Irrigation.label>Système d'irrigation</Irrigation.label>
+  <Irrigation.description>Construire des arroseurs pouvant irriguer le sol pour améliorer la fertilité</Irrigation.description>
+  
+  <FireSuppression.label>Système anti-incendie</FireSuppression.label>
+  <FireSuppression.description>Construisez des arroseurs qui étteignent les incendies.</FireSuppression.description>
+  
+  <SewageTreatment.label>Traitement des eaux usées</SewageTreatment.label>
+  <SewageTreatment.description>Construire de grands systèmes de traitement des eaux usées qui accumulent de grandes quantités d'eaux usées et permettent de les traiter vite.</SewageTreatment.description>
+  
+  <WashingMachines.label>Machine à Laver</WashingMachines.label>
+  <WashingMachines.description>Construisez des machines à laver les vêtements. Après lavage vous ne pourriez même pas dire si quelqu'un est mort en les portant!</WashingMachines.description>
+  
 </LanguageData>

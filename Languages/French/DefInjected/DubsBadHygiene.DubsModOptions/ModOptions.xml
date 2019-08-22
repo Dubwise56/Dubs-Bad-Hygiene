@@ -20,13 +20,6 @@
   <HygieneRate.options.3.label>150%</HygieneRate.options.3.label>
   <HygieneRate.options.4.label>200%</HygieneRate.options.4.label>
 
-  <BladderRate.label>Digestion</BladderRate.label>
-  <BladderRate.options.0.label>Cheat</BladderRate.options.0.label>
-  <BladderRate.options.1.label>50%</BladderRate.options.1.label>
-  <BladderRate.options.2.label>100%</BladderRate.options.2.label>
-  <BladderRate.options.3.label>150%</BladderRate.options.3.label>
-  <BladderRate.options.4.label>200%</BladderRate.options.4.label>
-
   <ContaminationChance.label>contamination</ContaminationChance.label>
   <ContaminationChance.options.0.label>Cheat</ContaminationChance.options.0.label>
   <ContaminationChance.options.1.label>10%</ContaminationChance.options.1.label>
@@ -51,13 +44,6 @@
   <SewageGridCapacity.options.2.label>normal</SewageGridCapacity.options.2.label>
   <SewageGridCapacity.options.3.label>stimulant</SewageGridCapacity.options.3.label>
   <SewageGridCapacity.options.4.label>extrême</SewageGridCapacity.options.4.label>
-
-  <SewageCleanupRate.label>taux d'eaux usées</SewageCleanupRate.label>
-  <SewageCleanupRate.options.0.label>Cheat</SewageCleanupRate.options.0.label>
-  <SewageCleanupRate.options.1.label>juste</SewageCleanupRate.options.1.label>
-  <SewageCleanupRate.options.2.label>Normal</SewageCleanupRate.options.2.label>
-  <SewageCleanupRate.options.3.label>stimulant</SewageCleanupRate.options.3.label>
-  <SewageCleanupRate.options.4.label>extrême</SewageCleanupRate.options.4.label>
 
   <SewageProcRate.label>Taux de traitement des eaux usées</SewageProcRate.label>
   <SewageProcRate.options.0.label>Cheat</SewageProcRate.options.0.label>
@@ -100,5 +86,30 @@
   <TerrainFertilityFactor.options.8.label>60%</TerrainFertilityFactor.options.8.label>
   <TerrainFertilityFactor.options.9.label>40%</TerrainFertilityFactor.options.9.label>
   <TerrainFertilityFactor.options.10.label>20%</TerrainFertilityFactor.options.10.label>
-
+  
+  <FlushSize.label>Taille de la chasse d'eau</FlushSize.label>
+  <FlushSize.tip>Quelle quantité d'eaux usées est produite à chaque chasse d'eau ?</FlushSize.tip>
+  
+  <BladderRateB.label>Vitesse de remplissage de la vessie</BladderRateB.label>
+  <BladderRateB.tip>À quelle vitesse la vessie a-t-elle besoin d'être vidée ?</BladderRateB.tip>
+  
+  <ThirstRate.label>Taux d'assoiffement</ThirstRate.label>
+  <ThirstRate.tip>A quelle vitesse le colon à t'il soif ?</ThirstRate.tip>
+  
+  <PipeVisibility.tip>Comment les tuyaux devraient-ils être rendus ?</PipeVisibility.tip>
+  <ContaminationChance.tip>Multipliez les chances qu'un colon soit contaminé par de l'eau non traitée</ContaminationChance.tip>
+  <HygieneRate.tip>A quelle vitesse l'hygiène d'un colon se dégrade-t-elle ?</HygieneRate.tip>
+  <IrrigationGridStrength.tip>Multiplier l'effet de l'irrigation sur la fertilité</IrrigationGridStrength.tip>
+  <FertilizerGridStrength.tip>Multiplier l'effet de l'engrais sur la fertilité</FertilizerGridStrength.tip>
+  <TerrainFertilityFactor.tip>Définir la valeur de base de la fertilité du terrain</TerrainFertilityFactor.tip>
+  
+  <WaterPumpCapacity.tip>Multipliez la capacité des pompes à eau</WaterPumpCapacity.tip>
+  <WaterHeatingRate.tip>Multipliez la quantité d'eau chaude utilisée pendant le lavage</WaterHeatingRate.tip>
+  
+  <SewageGridCapacity.tip>Définir la limite de quantité d'eaux usées pouvant être insérées dans une cellule à la surface</SewageGridCapacity.tip>
+  <SewageCleanupRateB.label>Taux de nettoyage des eaux usées</SewageCleanupRateB.label>
+  <SewageCleanupRateB.tip>À quelle vitesse les eaux usées à la surface se nettoient-elles au fil du temps</SewageCleanupRateB.tip>
+  <SewageProcRate.tip>Multipliez la rapidité avec laquelle les eaux usées sont traitées dans les fosses septiques et le traitement des eaux usées</SewageProcRate.tip>
+  
+  
 </LanguageData>

@@ -9,17 +9,17 @@
   <RemoveSewage.verb>Enlevez les boues d'épuration</RemoveSewage.verb>
   <RemoveSewage.gerund>enlever les boues d'épuration</RemoveSewage.gerund>
 
-  <UnloadComposter.label>Sortir le compost du composteur</UnloadComposter.label>
-  <UnloadComposter.verb>Prendre du compost</UnloadComposter.verb>
-  <UnloadComposter.gerund>Sortir le compost</UnloadComposter.gerund>
+  <UnloadComposter.label>Vider le compost du composteur</UnloadComposter.label>
+  <UnloadComposter.verb>Vide du compost</UnloadComposter.verb>
+  <UnloadComposter.gerund>Vidage le compost</UnloadComposter.gerund>
 
   <FillComposter.label>Remplir les composteurs</FillComposter.label>
-  <FillComposter.verb>remplissage</FillComposter.verb>
-  <FillComposter.gerund>remplir</FillComposter.gerund>
+  <FillComposter.verb>remplit</FillComposter.verb>
+  <FillComposter.gerund>remplissage</FillComposter.gerund>
 
   <emptyLatrine.label>Videz les latrines</emptyLatrine.label>
   <emptyLatrine.verb>vide</emptyLatrine.verb>
-  <emptyLatrine.gerund>déféquer</emptyLatrine.gerund>
+  <emptyLatrine.gerund>vidage</emptyLatrine.gerund>
 
   <ClearBlockage.label>Supprimer la constipation</ClearBlockage.label>
   <ClearBlockage.verb>supprimer</ClearBlockage.verb>
@@ -37,6 +37,28 @@
   <DocCleanBedpan.verb>propre</DocCleanBedpan.verb>
   <DocCleanBedpan.gerund>nettoyé</DocCleanBedpan.gerund>
 
-
-
+  <UnloadWashing.label>Vider la machine</UnloadWashing.label>
+  <UnloadWashing.gerund>Vidage de la machine</UnloadWashing.gerund>
+  <UnloadWashing.verb>Vide la machine</UnloadWashing.verb>
+  
+  <LoadWashing.label>Remplir la machine</LoadWashing.label>
+  <LoadWashing.gerund>Remplissage de la machine</LoadWashing.gerund>
+  <LoadWashing.verb>Remplit la machine</LoadWashing.verb>
+  
+  <emptySepticTank.label>vider la fosse septique</emptySepticTank.label>
+  <emptySepticTank.gerund>Vidage</emptySepticTank.gerund>
+  <emptySepticTank.verb>Vide</emptySepticTank.verb>
+  
+  <DBHAdministerFluids.label>Administrer des fluides</DBHAdministerFluids.label>
+  <DBHAdministerFluids.gerund>Administration des fluides</DBHAdministerFluids.gerund>
+  <DBHAdministerFluids.verb>Administre des fluides</DBHAdministerFluids.verb>
+  
+  <RefillTub.label>Remplir le bain</RefillTub.label>
+  <RefillTub.gerund>Remplissage du bain</RefillTub.gerund>
+  <RefillTub.verb>Remplit le bain</RefillTub.verb>
+  
+  <TipSewage.label>Bsculer</TipSewage.label>
+  <TipSewage.gerund>Basculement</TipSewage.gerund>
+  <TipSewage.verb>Bascule</TipSewage.verb>
+  
 </LanguageData>

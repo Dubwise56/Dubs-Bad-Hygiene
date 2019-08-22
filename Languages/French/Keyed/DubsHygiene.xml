@@ -22,10 +22,11 @@
   <LowWaterTemp>Température de l'eau basse</LowWaterTemp>
   <LowWaterTempDesc>La température de l'eau dans ce réservoir est trop basse, les colons qui s'attendent à utiliser de l'eau chaude peuvent être agacés.\n\nAllumez les chaudières, augmentez la capacité de chauffage ou ajoutez un autre réservoir d'eau chaude.</LowWaterTempDesc>
   <WellNeedsWater>Doit être placé sur une cellule avec de l'eau souterraine.</WellNeedsWater>
+  <AssigningRequiresRoom>Le luminaire doit être à l'intérieur d'une pièce pour le restreindre</AssigningRequiresRoom>
   <AssigningRequiresBladderNeed>L'attribution nécessite un besoin de vessie, {0} n'en a pas</AssigningRequiresBladderNeed>
 
   <NoCompostingMaterial>Pas de matériel de compostage</NoCompostingMaterial>
-   <Nowater>Pas de capacité d'eau</Nowater>
+  <Nowater>Pas de capacité d'eau</Nowater>
   <Nosewage>Pas de capacité d'égout</Nosewage>
   <RequiresPlumbing>Nécessite la plomberie</RequiresPlumbing>
   <AccessRestricted>Accès restreint</AccessRestricted>
@@ -96,11 +97,17 @@
   <MustBePlumbing>Doit être de la plomberie</MustBePlumbing>
   <BlockedDrain>Drain bloqué</BlockedDrain>
   <PlumbOrEmpty>Plombez ou videz les latrines</PlumbOrEmpty>
+  <WashingMachineSpinning>Fonctionnement...</WashingMachineSpinning>
+  <WashingMachineUnload>Décharger maintenant</WashingMachineUnload>
+  <WashingMachineLoad>Charge: {0}/{1}</WashingMachineLoad>
+  <NoDirtyClothes>Pas de linge sale</NoDirtyClothes>
+  <WashingNoSpace>Pas d'espace</WashingNoSpace>
 
 
 
   <!--Water-->
-  <CommandDesignateOpenCloseValveLabel>Vanne à bascule</CommandDesignateOpenCloseValveLabel>
+  <dbhDrink>Boire</dbhDrink>  
+  <CommandDesignateOpenCloseValveLabel>Basculer la vanne</CommandDesignateOpenCloseValveLabel>
   <CommandDesignateOpenCloseValveDesc>Activer ou désactiver la vanne</CommandDesignateOpenCloseValveDesc>
   <ValveClosed>Vanne fermée</ValveClosed>
 
@@ -121,7 +128,9 @@
 
   <DrainTank>Réservoir de vidange</DrainTank>
   <DrainTankDesc>Drainer le réservoir et éliminer la contamination</DrainTankDesc>
-
+  
+  <WaterValueOffset>Valeur de l'eau : {0} pour {1}L</WaterValueOffset>
+  <HyWater>Eau</HyWater>
   <!--Sewage-->
 
   <DrainSepticTank>Drain</DrainSepticTank>
@@ -146,6 +155,11 @@
 
   <!--Mod Options-->
 
+  <QuitToMenuToChange>Quitter vers le menu principal pour changer</QuitToMenuToChange>
+  <RimefellerLink>Liens avec Rimefeller</RimefellerLink>
+  <RimefellerLinkTip>Permettre l'utilisation d'eau sur les craquelins et les raffineurs de Rimefeller</RimefellerLinkTip>
+  <RimatomicsLink>Liens avec Rimatomics</RimatomicsLink>
+  <RimatomicsLinkTip>Activer l'utilisation de l'eau sur les tours de refroidissement dans Rimatomics</RimatomicsLinkTip>
   <OverrideNeedSettingsTip>Override the need settings and mod patches to manually disable needs for specific pawn types, or when a hediff is active.\nIf you disable by hediff then the hediff must call "AddOrRemoveNeedsAsAppropriate" when applied</OverrideNeedSettingsTip>
   <OverrideNeedsSettings>Remplacer les paramètres de besoin</OverrideNeedsSettings>
   <Disablebladderneed>Désactiver les besoins en vessie</Disablebladderneed>
@@ -156,11 +170,15 @@
   <PrisonersGetNeedsTip>Si les prisonniers auront les besoins</PrisonersGetNeedsTip>
   <HospitalityGuestsGetNeeds>Invités d'hospitalité</HospitalityGuestsGetNeeds>
   <HospitalityGuestsGetNeedsTip>Si les invités du mod "Hospitality" ont les besoins</HospitalityGuestsGetNeedsTip>
+  <PrivacyChecks>Intimité</PrivacyChecks>
+  <PrivacyChecksTip>Les colons se soucient de la vie privée lors qu'ils vont aux toilettex ou à la douche</PrivacyChecksTip>
+  <CoolingEfficiency>Efficacité de refroidissement</CoolingEfficiency>
+  <CoolingEfficiencyTip>Si il y a une température élevée, cela affecte l'efficacité du refroidissement comme le courant alternatif standard</CoolingEfficiencyTip>
 
+  <DisableNeeds>Désactiver les besoins</DisableNeeds>
+  <DisableNeedsTip>Désactiver complètement les besoins, remplace tous les autres paramètres</DisableNeedsTip>
 
   <Experimentalfeatures>Caractéristiques expérimentales</Experimentalfeatures>
-  <OutsidersGetNeeds>Outsiders</OutsidersGetNeeds>
-  <OutsidersGetNeedsTip>Si les étrangers, y compris les commerçants et les raiders, auront les besoins</OutsidersGetNeedsTip>
   <PetsGetBladder>Vessies pour animaux de compagnie</PetsGetBladder>
   <PetsGetBladderTip>Si les animaux ont besoin de la vessie</PetsGetBladderTip>
   <WildAnimalsGetBladder>Vessies d'animaux sauvages</WildAnimalsGetBladder>
@@ -171,4 +189,10 @@
   <FertilizerVisibleTip>Si la grille d'engrais doit être visible</FertilizerVisibleTip>
   <AllowNonHuman>Colons Non Humains</AllowNonHuman>
   <AllowNonHumanTip>Permettre aux besoins d'exécuter des colons non humains, (probablement ne fonctionnera pas), Remplacé par les paramètres de besoin</AllowNonHumanTip>
+  <StripWhileWashing>Nue pendant la douche</StripWhileWashing>
+  <StripWhileWashingTip>Enlevez les vêtements pendant le lavage (à désactiver si nécessaire pour résoudre les conflits de mod)</StripWhileWashingTip>
+  
+  <GetPaintShop>Obtenez le magasin de peinture de Dub</GetPaintShop>
+
+
 </LanguageData>

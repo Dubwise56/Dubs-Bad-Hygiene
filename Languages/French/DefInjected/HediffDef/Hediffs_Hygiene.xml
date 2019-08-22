@@ -5,21 +5,27 @@
   <Washing.labelNoun>laver</Washing.labelNoun>
 
   <BadHygiene.label>Mauvaise hygiène</BadHygiene.label>
-  <BadHygiene.stages.0.label>modérément (caché)</BadHygiene.stages.0.label>
-  <BadHygiene.stages.1.label>sérieusement</BadHygiene.stages.1.label>
-  <BadHygiene.stages.2.label>dégoûtant</BadHygiene.stages.2.label>
+  <BadHygiene.stages.moderate.label>modérément</BadHygiene.stages.moderate.label>
+  <BadHygiene.stages.severe.label>sérieusement</BadHygiene.stages.severe.label>
+  <BadHygiene.stages.extreme.label>dégoûtant</BadHygiene.stages.extreme.label>
+
+  <Diarrhea.label>Diarrhée</Diarrhea.label>
+  <Diarrhea.stages.recovering.label>se remet</Diarrhea.stages.recovering.label>
 
   <Dysentery.label>dysenterie</Dysentery.label>
   <Dysentery.stages.0.label>modérément (caché)</Dysentery.stages.0.label>
-
+  <Diarrhea.stages.1.label>sérieusement</Diarrhea.stages.1.label>
+  <Diarrhea.stages.2.label>dégoûtant</Diarrhea.stages.2.label>
+  
   <Cholera.label>choléra</Cholera.label>
   <Cholera.stages.0.label>modérément (caché)</Cholera.stages.0.label>
 
   <DBHDehydration.label>déshydration</DBHDehydration.label>
-  <DBHDehydration.stages.0.label>peu profond</DBHDehydration.stages.0.label>
-  <DBHDehydration.stages.1.label>faible</DBHDehydration.stages.1.label>
-  <DBHDehydration.stages.2.label>modérément</DBHDehydration.stages.2.label>
-  <DBHDehydration.stages.3.label>sérieusement</DBHDehydration.stages.3.label>
-  <DBHDehydration.stages.4.label>sérieux</DBHDehydration.stages.4.label>
+  <DBHDehydration.stages.trivial.label>débutante</DBHDehydration.stages.trivial.label>
+  <DBHDehydration.stages.minor.label>faible</DBHDehydration.stages.minor.label>
+  <DBHDehydration.stages.moderate.label>modérément</DBHDehydration.stages.moderate.label>
+  <DBHDehydration.stages.severe.label>sérieusement</DBHDehydration.stages.severe.label>
+  <DBHDehydration.stages.extreme.label>Critique</DBHDehydration.stages.extreme.label>
+
 
 </LanguageData>

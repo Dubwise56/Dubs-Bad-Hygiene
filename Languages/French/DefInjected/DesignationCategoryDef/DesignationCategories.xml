@@ -2,9 +2,9 @@
 <LanguageData>
 
   <Hygiene.label>Hygiene</Hygiene.label>
-  <Hygiene.description>Choisir pour l'hygiène du colon.</Hygiene.description>
+  <Hygiene.description>Chose pour l'hygiène du colon.</Hygiene.description>
   
-    <HygieneMisc.label>Hygiene/etc.</HygieneMisc.label>
+  <HygieneMisc.label>Hygiene/etc.</HygieneMisc.label>
   <HygieneMisc.description>Autres choses pour l'hygiène des colons.</HygieneMisc.description>
 
 
