@@ -245,6 +245,7 @@
       <isEdifice>false</isEdifice>
       <deconstructible>true</deconstructible>
       <canPlaceOverWall>false</canPlaceOverWall>
+      <isInert>true</isInert>
     </building>
     <resourcesFractionWhenDeconstructed>0</resourcesFractionWhenDeconstructed>
     <constructEffect>ConstructDirt</constructEffect>
