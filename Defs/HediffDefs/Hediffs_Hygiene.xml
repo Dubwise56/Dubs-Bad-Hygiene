@@ -5,6 +5,8 @@
     <defName>Washing</defName>
     <label>washing</label>
     <labelNoun>washing</labelNoun>
+    <tendable>false</tendable>
+    <everCurableByItem>false</everCurableByItem>
     <stages>
       <li>
         <becomeVisible>false</becomeVisible>
@@ -19,6 +21,7 @@
   <HediffDef>
     <defName>BadHygiene</defName>
     <label>Bad Hygiene</label>
+    <everCurableByItem>false</everCurableByItem>
     <defaultLabelColor>(0.8, 0.8, 0.35)</defaultLabelColor>
     <tendable>false</tendable>
     <stages>
@@ -160,6 +163,8 @@
     <label>dehydration</label>
     <lethalSeverity>1</lethalSeverity>
     <scenarioCanAdd>true</scenarioCanAdd>
+    <everCurableByItem>false</everCurableByItem>
+    <tendable>false</tendable>
     <stages>
       <li>
         <label>trivial</label>
