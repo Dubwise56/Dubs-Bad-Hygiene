@@ -103,4 +103,51 @@
     <tradeability>None</tradeability>
   </ThingDef>
 
+
+  <!--Example of a drink for the thirst need, modExtension makes anything ingestible work as a drink-->
+  <!--<ThingDef ParentName="ResourceBasedMom">
+    <defName>ADrink</defName>
+    <label>Drink</label>
+    <description>A clean drink.</description>
+    <modExtensions>
+      <li Class="DubsBadHygiene.WaterExt">
+        <dirty>false</dirty>
+        <water>1</water>
+      </li>
+    </modExtensions>
+
+    <graphicData>
+      <texPath>DBH/Things/Resource/WaterBot</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.75</drawSize>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <Mass>0.5</Mass>
+    </statBases>
+    <thingCategories>
+      <li>Foods</li>
+    </thingCategories>
+    <stackLimit>10</stackLimit>
+    <tradeNeverStack>false</tradeNeverStack>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <tradeability>None</tradeability>
+    <ingestible>
+      <baseIngestTicks>120</baseIngestTicks>
+      <preferability>NeverForNutrition</preferability>
+      <foodType>Fluid</foodType>
+      <nurseable>false</nurseable>
+      <ingestSound>Ingest_Beer</ingestSound>
+      <ingestHoldOffsetStanding>
+        <northDefault>
+          <offset>(0.18,0,0)</offset>
+        </northDefault>
+      </ingestHoldOffsetStanding>
+      <ingestCommandString>Drink {0}</ingestCommandString>
+      <ingestReportString>Drinking {0}.</ingestReportString>
+      <chairSearchRadius>5</chairSearchRadius>
+    </ingestible>
+</ThingDef>-->
+
 </Defs>

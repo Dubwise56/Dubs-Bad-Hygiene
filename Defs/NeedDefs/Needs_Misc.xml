@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <NeedDef Class="DubsBadHygiene.NeedyBitch">
+  <NeedDef Class="DubsBadHygiene.Needy">
     <defName>Bladder</defName>
     <needClass>DubsBadHygiene.Need_Bladder</needClass>
     <label>bladder</label>
@@ -23,7 +23,7 @@
     </Exemptions>
 </NeedDef>
   
-  <NeedDef Class="DubsBadHygiene.NeedyBitch">
+  <NeedDef Class="DubsBadHygiene.Needy">
     <defName>Hygiene</defName>
     <needClass>DubsBadHygiene.Need_Hygiene</needClass>
     <label>hygiene</label>
@@ -45,7 +45,7 @@
     </Exemptions>
   </NeedDef>
 
-  <NeedDef Class="DubsBadHygiene.NeedyBitch">
+  <NeedDef Class="DubsBadHygiene.Needy">
     <defName>DBHThirst</defName>
     <needClass>DubsBadHygiene.Need_Thirst</needClass>
     <label>Thirst</label>

@@ -11,14 +11,31 @@
     <defName>Plumbing</defName>
     <label>plumbing</label>
     <tab>DubsBadHygiene</tab>
-    <description>Use pipes, plumbing fixtures, storage tanks, windwells and other apparatuses to deliver and drain water.</description>
-    <baseCost>700</baseCost>
+    <description>Use pipes, plumbing fixtures, storage tanks, windwells and other apparatuses to deliver and drain water and sewage.</description>
+    <baseCost>400</baseCost>
     <techLevel>Medieval</techLevel>
     <tags>
       <li>ClassicStart</li>
     </tags>
     <researchViewX>0</researchViewX>
     <researchViewY>2</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>ModernFixtures</defName>
+    <label>Modern Bathroom Fixtures</label>
+    <tab>DubsBadHygiene</tab>
+    <description>Build modern style bathroom fixtures like toilets and showers.</description>
+    <baseCost>700</baseCost>
+    <techLevel>Industrial</techLevel>
+    <tags>
+      <li>ClassicStart</li>
+    </tags>
+    <prerequisites>
+      <li>Plumbing</li>
+    </prerequisites>
+    <researchViewX>2</researchViewX>
+    <researchViewY>1</researchViewY>
   </ResearchProjectDef>
 
   <ResearchProjectDef>
@@ -36,7 +53,7 @@
       <li>Electricity</li>
     </prerequisites>
     <researchViewX>2</researchViewX>
-    <researchViewY>0.5</researchViewY>
+    <researchViewY>0</researchViewY>
   </ResearchProjectDef>
 
   <ResearchProjectDef>
@@ -49,13 +66,13 @@
     <prerequisites>
       <li>ElectricPumps</li>
     </prerequisites>
-    <researchViewX>3</researchViewX>
+    <researchViewX>5</researchViewX>
     <researchViewY>0</researchViewY>
   </ResearchProjectDef>
 
   <ResearchProjectDef>
     <defName>LargeWaterPumps</defName>
-    <label>Industrial Scale</label>
+    <label>Industrial Scale Pumps</label>
     <tab>DubsBadHygiene</tab>
     <description>Build industrial scale water pumps and storage tanks.</description>
     <baseCost>3000</baseCost>
@@ -63,7 +80,7 @@
     <prerequisites>
       <li>DeepWells</li>
     </prerequisites>
-    <researchViewX>5</researchViewX>
+    <researchViewX>6</researchViewX>
     <researchViewY>0</researchViewY>
   </ResearchProjectDef>
 
@@ -78,6 +95,7 @@
     <baseCost>800</baseCost>
     <techLevel>Industrial</techLevel>
     <prerequisites>
+      <li>ModernFixtures</li>
       <li>ElectricPumps</li>
     </prerequisites>
     <researchViewX>3</researchViewX>
@@ -122,7 +140,7 @@
     <tab>DubsBadHygiene</tab>
     <description>Build septic tanks which accumulate sewage and provide moderate treatment of sewage.</description>
     <baseCost>500</baseCost>
-    <techLevel>Industrial</techLevel>
+    <techLevel>Medieval</techLevel>
     <prerequisites>
       <li>Plumbing</li>
     </prerequisites>
@@ -135,8 +153,8 @@
     <label>Sewage Sludge Composting</label>
     <tab>DubsBadHygiene</tab>
     <description>When properly treated and processed, sewage sludge becomes biosolids which are nutrient-rich and useful as fertilizer.</description>
-    <baseCost>1000</baseCost>
-    <techLevel>Industrial</techLevel>
+    <baseCost>800</baseCost>
+    <techLevel>Medieval</techLevel>
     <prerequisites>
       <li>SepticTanks</li>
     </prerequisites>
@@ -149,7 +167,7 @@
     <label>Water Filtration</label>
     <tab>DubsBadHygiene</tab>
     <description>Build water filtration systems which treats the water supply eliminating the risk of disease.</description>
-    <baseCost>2000</baseCost>
+    <baseCost>1500</baseCost>
     <techLevel>Industrial</techLevel>
     <prerequisites>
       <li>SewageSludgeComposting</li>
@@ -163,7 +181,7 @@
     <label>Sewage Treatment</label>
     <tab>DubsBadHygiene</tab>
     <description>Build large sewage treatment systems which accumulate large amounts of sewage and provides fast treatment of sewage.</description>
-    <baseCost>3000</baseCost>
+    <baseCost>2000</baseCost>
     <techLevel>Industrial</techLevel>
     <prerequisites>
       <li>WaterFiltration</li>
@@ -177,7 +195,7 @@
     <label>Washing machines</label>
     <tab>DubsBadHygiene</tab>
     <description>Build washing machines that can wash clothes so well that you couldn't even tell someone died wearing it!.</description>
-    <baseCost>3300</baseCost>
+    <baseCost>1200</baseCost>
     <techLevel>Industrial</techLevel>
     <prerequisites>
       <li>SewageTreatment</li>
@@ -192,9 +210,9 @@
     <defName>CentralHeating</defName>
     <label>Central Heating</label>
     <tab>DubsBadHygiene</tab>
-    <description>Build log and gas boilers, hot water tanks and radiators.</description>
+    <description>Build log boilers, hot water tanks and radiators.</description>
     <baseCost>400</baseCost>
-    <techLevel>Industrial</techLevel>
+    <techLevel>Medieval</techLevel>
     <prerequisites>
       <li>Plumbing</li>
     </prerequisites>
@@ -206,20 +224,37 @@
   </ResearchProjectDef>
 
   <ResearchProjectDef>
-    <defName>PoweredHeating</defName>
-    <label>Powered Heating</label>
+    <defName>GasBoilers</defName>
+    <label>Gas/Solar Boilers</label>
     <tab>DubsBadHygiene</tab>
-    <description>Build electric boilers and thermostats allowing more control over heating.</description>
-    <baseCost>500</baseCost>
+    <description>Build gas boilers, solar water heaters and thermostats.</description>
+    <baseCost>400</baseCost>
     <techLevel>Industrial</techLevel>
     <prerequisites>
       <li>CentralHeating</li>
-      <li>Electricity</li>
     </prerequisites>
     <tags>
       <li>ClassicStart</li>
     </tags>
     <researchViewX>3</researchViewX>
+    <researchViewY>3</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>PoweredHeating</defName>
+    <label>Powered Heating</label>
+    <tab>DubsBadHygiene</tab>
+    <description>Build electric boilers with power controls.</description>
+    <baseCost>500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>GasBoilers</li>
+      <li>Electricity</li>
+    </prerequisites>
+    <tags>
+      <li>ClassicStart</li>
+    </tags>
+    <researchViewX>4</researchViewX>
     <researchViewY>3</researchViewY>
   </ResearchProjectDef>
 
@@ -233,7 +268,7 @@
     <prerequisites>
       <li>PoweredHeating</li>
     </prerequisites>
-    <researchViewX>4</researchViewX>
+    <researchViewX>5</researchViewX>
     <researchViewY>3</researchViewY>
   </ResearchProjectDef>
 

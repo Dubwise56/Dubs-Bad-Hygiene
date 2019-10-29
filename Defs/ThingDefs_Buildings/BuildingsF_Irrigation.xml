@@ -22,8 +22,17 @@
     <thingCategories>
       <li>BuildingsHygiene</li>
     </thingCategories>
+    <clearBuildingArea>false</clearBuildingArea>
+    <passability>Standable</passability>
+    <blockLight>false</blockLight>
+    <holdsRoof>false</holdsRoof>
     <tickerType>Normal</tickerType>
     <blockWind>false</blockWind>
+    <building>
+      <isInert>true</isInert>
+      <isEdifice>false</isEdifice>
+      <canBuildNonEdificesUnder>true</canBuildNonEdificesUnder>
+    </building>
     <pathCost>8</pathCost>
     <size>(1,1)</size>
     <costList>
@@ -52,7 +61,7 @@
     <placeWorkers>
       <li>DubsBadHygiene.PlaceWorker_Sprinkler</li>
     </placeWorkers>
-    <designationCategory>HygieneMisc</designationCategory>
+    <designationCategory>Hygiene</designationCategory>
   </ThingDef>
 
   <ThingDef ParentName="BasedHygieneMom">
@@ -75,7 +84,16 @@
       <li>BuildingsHygiene</li>
     </thingCategories>
     <tickerType>Normal</tickerType>
+    <clearBuildingArea>false</clearBuildingArea>
+    <passability>Standable</passability>
+    <blockLight>false</blockLight>
+    <holdsRoof>false</holdsRoof>
     <blockWind>false</blockWind>
+    <building>
+      <isInert>true</isInert>
+      <isEdifice>false</isEdifice>
+      <canBuildNonEdificesUnder>true</canBuildNonEdificesUnder>
+    </building>
     <pathCost>8</pathCost>
     <size>(1,1)</size>
     <costList>
@@ -109,57 +127,10 @@
     <placeWorkers>
       <li>DubsBadHygiene.PlaceWorker_Sprinkler</li>
     </placeWorkers>
-    <designationCategory>HygieneMisc</designationCategory>
+    <designationCategory>Hygiene</designationCategory>
   </ThingDef>
 
-  <ThingDef ParentName="BasedHygieneMom">
-    <thingClass>DubsBadHygiene.Building_Valve</thingClass>
-    <altitudeLayer>Building</altitudeLayer>
-    <passability>Standable</passability>
-    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
-    <minifiedDef>MinifiedThing</minifiedDef>
-    <thingCategories>
-      <li>BuildingsHygiene</li>
-    </thingCategories>
-    <building>
-      <ai_chillDestination>false</ai_chillDestination>
-      <isInert>true</isInert>
-      <isEdifice>false</isEdifice>
-    </building>
-    <statBases>
-      <MaxHitPoints>80</MaxHitPoints>
-      <WorkToBuild>350</WorkToBuild>
-      <Flammability>1.0</Flammability>
-      <Beauty>-2</Beauty>
-      <Mass>2</Mass>
-    </statBases>
-    <costList>
-      <Steel>15</Steel>
-    </costList>
-    <rotatable>false</rotatable>
-    <selectable>true</selectable>
-    <constructEffect>ConstructMetal</constructEffect>
-    <defName>plumbingValve</defName>
-    <label>plumbing valve</label>
-    <pathCost>75</pathCost>
-    <description>Opens or closes connections between pipes.</description>
-    <graphicData>
-      <texPath>DBH/Things/Building/Valve</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>(1,1)</drawSize>
-    </graphicData>
-    <comps>
-      <li Class="DubsBadHygiene.CompProperties_Pipe">
-        <mode>Sewage</mode>
-      </li>
-      <li Class="CompProperties_Flickable">
-        <commandTexture>DBH/Things/Building/Valve</commandTexture>
-        <commandLabelKey>CommandDesignateOpenCloseValveLabel</commandLabelKey>
-        <commandDescKey>CommandDesignateOpenCloseValveDesc</commandDescKey>
-      </li>
-    </comps>
-    <designationCategory>HygieneMisc</designationCategory>
-  </ThingDef>
+
 
   <ThingDef ParentName="BasedHygieneMom">
     <defName>BiosolidsComposter</defName>
@@ -206,7 +177,7 @@
     <tickerType>Rare</tickerType>
     <rotatable>false</rotatable>
     <constructEffect>ConstructWood</constructEffect>
-    <designationCategory>HygieneMisc</designationCategory>
+    <designationCategory>Hygiene</designationCategory>
     <researchPrerequisites>
       <li>SewageSludgeComposting</li>
     </researchPrerequisites>
@@ -259,7 +230,7 @@
     <placeWorkers>
       <li>DubsBadHygiene.PlaceWorker_NotUnderEdiface</li>
     </placeWorkers>
-    <designationCategory>HygieneMisc</designationCategory>
+    <designationCategory>Hygiene</designationCategory>
     <researchPrerequisites>
       <li>SewageSludgeComposting</li>
     </researchPrerequisites>

@@ -68,7 +68,7 @@
     <inspectorTabs>
       <li>ITab_Storage</li>
     </inspectorTabs>
-    <designationCategory>HygieneMisc</designationCategory>
+    <designationCategory>Hygiene</designationCategory>
   </ThingDef>-->
   
   
@@ -212,7 +212,7 @@
     <researchPrerequisites>
       <li>WashingMachines</li>
     </researchPrerequisites>
-    <designationCategory>HygieneMisc</designationCategory>
+    <designationCategory>Hygiene</designationCategory>
   </ThingDef>
 
 </Defs>

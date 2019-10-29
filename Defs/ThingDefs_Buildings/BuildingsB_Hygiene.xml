@@ -262,7 +262,7 @@
     <pathCost>8</pathCost>
     <rotatable>false</rotatable>
     <socialPropernessMatters>true</socialPropernessMatters>
-    <designationCategory>HygieneMisc</designationCategory>
+    <designationCategory>Hygiene</designationCategory>
     <comps>
       <li>
         <compClass>CompColorable</compClass>
@@ -400,8 +400,11 @@
       <Steel>5</Steel>
     </costList>
     <costStuffCount>10</costStuffCount>
+    <researchPrerequisites>
+      <li>ModernFixtures</li>
+    </researchPrerequisites>
   </ThingDef>
-
+  
   <ThingDef ParentName="DubsDirtyBasinBase">
     <defName>BasinStuff</defName>
     <label>Basin</label>
@@ -414,6 +417,9 @@
       <Steel>5</Steel>
     </costList>
     <costStuffCount>10</costStuffCount>
+    <researchPrerequisites>
+      <li>Plumbing</li>
+    </researchPrerequisites>
   </ThingDef>
 
   <ThingDef ParentName="DubsDirtyBasinBase">
@@ -446,7 +452,10 @@
       <li>Stony</li>
     </stuffCategories>
     <costStuffCount>35</costStuffCount>
-    <designationCategory>HygieneMisc</designationCategory>
+    <designationCategory>Hygiene</designationCategory>
+    <researchPrerequisites>
+      <li>ModernFixtures</li>
+    </researchPrerequisites>
   </ThingDef>
 
 
@@ -481,7 +490,7 @@
       <isSittable>true</isSittable>
     </building>
     <researchPrerequisites>
-      <li>Plumbing</li>
+      <li>ModernFixtures</li>
     </researchPrerequisites>
   </ThingDef>
 
@@ -614,7 +623,7 @@
     <pathCost>8</pathCost>
     <rotatable>true</rotatable>
     <researchPrerequisites>
-      <li>Plumbing</li>
+      <li>ModernFixtures</li>
     </researchPrerequisites>
   </ThingDef>
 

@@ -88,6 +88,12 @@
   </JobDef>
 
   <JobDef>
+    <defName>DBHPackWaterBottle</defName>
+    <driverClass>DubsBadHygiene.JobDriver_PackWaterBottle</driverClass>
+    <reportString>Packing water bottle from TargetA.</reportString>
+  </JobDef>
+
+  <JobDef>
     <defName>UseToilet</defName>
     <driverClass>DubsBadHygiene.JobDriver_UseToilet</driverClass>
     <reportString>using the TargetA.</reportString>

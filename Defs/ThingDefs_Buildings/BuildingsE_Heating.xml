@@ -51,7 +51,7 @@
       </li>
     </comps>
     <researchPrerequisites>
-      <li>PoweredHeating</li>
+      <li>GasBoilers</li>
     </researchPrerequisites>
   </ThingDef>
 
@@ -111,7 +111,8 @@
       </li>
       <li Class="CompProperties_HeatPusher">
         <compClass>CompHeatPusherPowered</compClass>
-        <heatPerSecond>4</heatPerSecond>
+        <heatPerSecond>21</heatPerSecond>
+        <heatPushMaxTemperature>28</heatPushMaxTemperature>
       </li>
     </comps>
     <researchPrerequisites>
@@ -176,7 +177,7 @@
       </li>
     </comps>
     <researchPrerequisites>
-      <li>CentralHeating</li>
+      <li>GasBoilers</li>
     </researchPrerequisites>
   </ThingDef>
 
@@ -274,7 +275,7 @@
       </li>
     </comps>
     <researchPrerequisites>
-      <li>CentralHeating</li>
+      <li>GasBoilers</li>
     </researchPrerequisites>
   </ThingDef>
 
@@ -324,6 +325,7 @@
       <li>CentralHeating</li>
     </researchPrerequisites>
   </ThingDef>
+
 
   <ThingDef Name="BaseRadiator" ParentName="BasedHeating" Abstract="True">
     <thingClass>DubsBadHygiene.Building_Radiator</thingClass>
@@ -439,6 +441,9 @@
 
   <!--COOLING-->
 
+  <DesignatorDropdownGroupDef>
+    <defName>CeilingFans</defName>
+  </DesignatorDropdownGroupDef>
 
   <ThingDef ParentName="BasedHeating">
     <defName>CeilingFan</defName>
@@ -490,14 +495,15 @@
       <li Class="CompProperties_Flickable"/>
     </comps>
     <researchPrerequisites>
-      <li>CentralHeating</li>
+      <li>Electricity</li>
     </researchPrerequisites>
     <placeWorkers>
       <li>PlaceWorker_CoolerSimple</li>
       <li>DubsBadHygiene.PlaceWorker_NotUnderEdiface</li>
     </placeWorkers>
     <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
-    <designationCategory>HygieneMisc</designationCategory>
+    <designationCategory>Hygiene</designationCategory>
+    <designatorDropdown>CeilingFans</designatorDropdown>
   </ThingDef>
 
   <ThingDef ParentName="BasedHeating">
@@ -551,14 +557,15 @@
       <li Class="CompProperties_Flickable"/>
     </comps>
     <researchPrerequisites>
-      <li>CentralHeating</li>
+      <li>Electricity</li>
     </researchPrerequisites>
     <placeWorkers>
       <li>PlaceWorker_CoolerSimple</li>
       <li>DubsBadHygiene.PlaceWorker_NotUnderEdiface</li>
     </placeWorkers>
     <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
-    <designationCategory>HygieneMisc</designationCategory>
+    <designationCategory>Hygiene</designationCategory>
+    <designatorDropdown>CeilingFans</designatorDropdown>
   </ThingDef>
   
   
@@ -606,7 +613,7 @@
     <researchPrerequisites>
       <li>MultiSplitAirCon</li>
     </researchPrerequisites>
-    <designationCategory>HygieneMisc</designationCategory>
+    <designationCategory>Hygiene</designationCategory>
   </ThingDef>
 
   <ThingDef Name="BaseAircon" ParentName="BasedHeating" Abstract="True">
@@ -635,7 +642,7 @@
       <li>MultiSplitAirCon</li>
     </researchPrerequisites>
     <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
-    <designationCategory>HygieneMisc</designationCategory>
+    <designationCategory>Hygiene</designationCategory>
   </ThingDef>
 
   <ThingDef ParentName="BaseAircon">

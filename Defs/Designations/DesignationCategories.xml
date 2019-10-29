@@ -11,11 +11,15 @@
       <li>Designator_Deconstruct</li>
       <li>DubsBadHygiene.Designator_RemoveSewage</li>
       <li>DubsBadHygiene.Designator_RemovePlumbing</li>
-      <li>DubsBadHygiene.Designator_PaintFixtures</li>
+      <!--<li>DubsBadHygiene.Designator_PaintFixtures</li>-->
     </specialDesignatorClasses>
   </DesignationCategoryDef>
+
+
+
+
   
-  <DesignationCategoryDef>
+  <!--<DesignationCategoryDef>
     <defName>HygieneMisc</defName>
     <label>Hygiene/Misc</label>
     <description>Things for colonists hygiene.</description>
@@ -27,5 +31,5 @@
       <li>DubsBadHygiene.Designator_RemovePlumbing</li>
       <li>DubsBadHygiene.Designator_PaintFixtures</li>
     </specialDesignatorClasses>
-  </DesignationCategoryDef>
+  </DesignationCategoryDef>-->
 </Defs>

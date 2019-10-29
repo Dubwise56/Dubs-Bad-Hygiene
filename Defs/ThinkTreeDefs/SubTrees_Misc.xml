@@ -37,4 +37,17 @@
       </subNodes>
     </thinkRoot>
   </ThinkTreeDef>
+
+  <ThinkTreeDef>
+    <defName>PackDrinks</defName>
+    <insertTag>Humanlike_PostMain</insertTag>
+    <insertPriority>100</insertPriority>
+    <thinkRoot Class="ThinkNode_ConditionalColonist">
+      <subNodes>
+        <li Class="DubsBadHygiene.JobGiver_PackDrink">
+          <leaveJoinableLordIfIssuesJob>true</leaveJoinableLordIfIssuesJob>
+        </li>
+      </subNodes>
+    </thinkRoot>
+  </ThinkTreeDef>
 </Defs>
