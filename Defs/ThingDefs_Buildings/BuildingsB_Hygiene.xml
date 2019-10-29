@@ -551,7 +551,7 @@
 
   <!-- Baths -->
   <ThingDef ParentName="BasedFixture" Name="DubsDirtyBathtubBase" Abstract="True">
-    <description>Slow to use and requires large amounts of water, but very comfortable. Can be heated by placing an adjacent campfire, or via plumbed hot water tanks. Does not require a sewage outlet.</description>
+    <description>Slow to use and requires large amounts of water, but very comfortable. Can be heated by placing an adjacent campfire or log boiler, or via plumbed hot water tanks. Does not require a sewage outlet.</description>
     <thingClass>DubsBadHygiene.Building_bath</thingClass>
     <graphicData>
       <drawSize>(2,3)</drawSize>
@@ -568,7 +568,6 @@
       <Comfort>0.9</Comfort>
       <JoyGainFactor>0.7</JoyGainFactor>
       <Mass>50</Mass>
-
     </statBases>
     <fillPercent>0.15</fillPercent>
     <size>(1, 2)</size>
@@ -579,6 +578,15 @@
     <researchPrerequisites>
       <li>Plumbing</li>
     </researchPrerequisites>
+
+    <modExtensions>
+      <li Class="DubsBadHygiene.BathHeaterExt">
+        <HeatSources>
+          <li>Campfire</li>
+          <li>LogBoiler</li>
+        </HeatSources>
+      </li>
+    </modExtensions>
   </ThingDef>
 
 
