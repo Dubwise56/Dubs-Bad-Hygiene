@@ -1,6 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-  
+
+  <WorkGiverDef>
+    <defName>PlaceFertilizer</defName>
+    <label>Fertilize</label>
+    <giverClass>DubsBadHygiene.WorkGiver_PlaceFertilizer</giverClass>
+    <workType>Growing</workType>
+    <priorityInType>45</priorityInType>
+    <verb>fertilize</verb>
+    <gerund>fertilizing</gerund>
+    <scanThings>false</scanThings>
+    <scanCells>true</scanCells>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+  </WorkGiverDef>
+
   <WorkGiverDef>
     <defName>DoBillsBurnPit</defName>
     <label>do Burn Pit bills</label>

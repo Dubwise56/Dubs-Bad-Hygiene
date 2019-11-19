@@ -1,11 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
+  <!--New-->
+  <AllowAltDes>Allow modded categories</AllowAltDes>
+  <AllowAltDesTip>Allow other mods to change the buildings architect menu designation categories</AllowAltDesTip>
+  <RainIrrigation>Rain Irrigation</RainIrrigation>
+  <RainIrrigationTip>Rain will give the same boost as sprinklers, might reduce performance</RainIrrigationTip>
+  <GrowingZoneNotAllowed>Growing zone sowing disabled</GrowingZoneNotAllowed>
+  <NoFertilizerFound>No Fertilizer Found</NoFertilizerFound>
+  <AreaPlaceFertilizer>Fertilizer Area</AreaPlaceFertilizer>
+  <AreaPlaceFertilizerDesc>Designate areas to fertilize with biosolids</AreaPlaceFertilizerDesc>
+  <AddFertilizerArea>Add area</AddFertilizerArea>
+  <RemoveFertilizerArea>Remove area</RemoveFertilizerArea>
+  <StockpileWater>Stockpile Water x{0}</StockpileWater>
   <HygieneWiki>Bad Hygiene Wiki</HygieneWiki>
   <HygieneWikiDesc>Go to the bad hygiene wiki</HygieneWikiDesc>
   <SurvivalMode>Survival Mode</SurvivalMode>
   <SurvivalModeTip>Limits the default shallow water grid generation to very small patches, terrain features no longer generate water, and the radius around surface water is reduced\n\nA new game is not required, works with saves</SurvivalModeTip>
-
+  <HydroponicsLink>Hydroponics</HydroponicsLink>
+  <HydroponicsLinkTip>Powered growing buildings like hydroponics have water tanks that require filling from pipes, plants die from lack of water instead of power, water tanks only fill when the building is powered</HydroponicsLinkTip>
   <ThirstRequiresRestart>A restart is required to add and remove thirst related items\n\n restart now?</ThirstRequiresRestart>
 
   <!--Construction-->
@@ -194,21 +207,15 @@
   <DisableNeeds>Toggle needs</DisableNeeds>
   <DisableNeedsTip>Disable the needs entirely, overrides all other settings</DisableNeedsTip>
   
-  <Experimentalfeatures>Experimental features</Experimentalfeatures>
   <PetsGetBladder>Pet bladders</PetsGetBladder>
-  <PetsGetBladderTip>If pets will get the bladder need</PetsGetBladderTip>
+  <PetsGetBladderTip>Enable bladder need on pets, also adds litter boxes for pets</PetsGetBladderTip>
   <WildAnimalsGetBladder>Wild Animal bladders</WildAnimalsGetBladder>
-  <WildAnimalsGetBladderTip>If all wild animals will get the bladder need</WildAnimalsGetBladderTip>
+  <WildAnimalsGetBladderTip>Enable bladder need on all wild animals, this could get messy</WildAnimalsGetBladderTip>
   <ThirstNeed>Thirst Need</ThirstNeed>
-  <ThirstNeedTip>Enable a basic thirst need on all colonists with the bladder need, requires a restart</ThirstNeedTip>
+  <ThirstNeedTip>Enable a thirst need on all colonists with the bladder need, adds drinking fountains and water bottles, requires a restart</ThirstNeedTip>
   <FertilizerVisible>Fertilizer Visible</FertilizerVisible>
-  <FertilizerVisibleTip>If the fertilizer grid should be visible</FertilizerVisibleTip>
+  <FertilizerVisibleTip>Should the fertilizer grid be visible</FertilizerVisibleTip>
   <AllowNonHuman>Non Human Colonists</AllowNonHuman>
   <AllowNonHumanTip>Allow the needs on non human colonists, you can disable specific beings with the override settings</AllowNonHumanTip>
-  <StripWhileWashing>Strip While Washing</StripWhileWashing>
-  <StripWhileWashingTip>Strip clothes while washing, disable if needed to fix mod conflicts</StripWhileWashingTip>
-  
-  <GetPaintShop>Get Dub's Paint Shop</GetPaintShop>
-  
 
 </LanguageData>
