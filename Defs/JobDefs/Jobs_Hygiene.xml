@@ -170,8 +170,14 @@
     <defName>TipOverSewage</defName>
     <driverClass>DubsBadHygiene.JobDriver_TipOverSewage</driverClass>
     <reportString>tipping TargetA.</reportString>
-  </JobDef> 
-  
+  </JobDef>
+
+  <JobDef>
+    <defName>DrainWaterTankJob</defName>
+    <driverClass>DubsBadHygiene.JobDriver_DrainWater</driverClass>
+    <reportString>draining TargetA.</reportString>
+  </JobDef>
+
   <JobDef>
     <defName>PlaceFertilizer</defName>
     <driverClass>DubsBadHygiene.JobDriver_PlaceFertilizer</driverClass>
