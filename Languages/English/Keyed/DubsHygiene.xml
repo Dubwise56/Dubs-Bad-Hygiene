@@ -76,10 +76,10 @@
   <ContaminationAlert>Contaminated Water</ContaminationAlert>
   <ContaminationAlertDesc>A water source is so polluted that there is a risk it will contaminate your water storage towers\n\nSources of contamination:\n{0} \n\nEither remove the sources of contamination, or add a water treatment system which will also clean contaminated water towers.</ContaminationAlertDesc>
   <ContaminatiedTowerAlert>Contaminated Water Tower</ContaminatiedTowerAlert>
-  <ContaminatiedTowerAlertDesc>A water tower has become polluted, posing a serious health risk to your colonists! Move your water towers, drain them, or build a water treatment system.</ContaminatiedTowerAlertDesc>
+  <ContaminatiedTowerAlertDesc>A water tower has become polluted, posing a serious health risk to your colonists! You must solve the cause of the pollution, then drain the tank or build a water treatment system.</ContaminatiedTowerAlertDesc>
 
-  <MessageHygieneDisease>{0} has contracted {1} from dirty water and bad hygiene</MessageHygieneDisease>
-  <MessageWaterDisease>{0} has contracted {1} from dirty water or not washing their hands</MessageWaterDisease>
+  <MessageHygieneDisease>{0} has contracted {1} from bad hygiene</MessageHygieneDisease>
+  <MessageWaterDisease>{0} has contracted {1} from dirty water</MessageWaterDisease>
   
   <!--Restrictions-->
   <ChangeGenderRestriction>Change Gender Restriction</ChangeGenderRestriction>

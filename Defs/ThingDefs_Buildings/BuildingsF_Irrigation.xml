@@ -60,6 +60,7 @@
     <drawPlaceWorkersWhileSelected>false</drawPlaceWorkersWhileSelected>
     <placeWorkers>
       <li>DubsBadHygiene.PlaceWorker_Sprinkler</li>
+      <li>DubsBadHygiene.PlaceWorker_NotUnderEdiface</li>
     </placeWorkers>
     <designationCategory>Hygiene</designationCategory>
   </ThingDef>
@@ -126,6 +127,7 @@
     <drawPlaceWorkersWhileSelected>false</drawPlaceWorkersWhileSelected>
     <placeWorkers>
       <li>DubsBadHygiene.PlaceWorker_Sprinkler</li>
+      <li>DubsBadHygiene.PlaceWorker_NotUnderEdiface</li>
     </placeWorkers>
     <designationCategory>Hygiene</designationCategory>
   </ThingDef>
