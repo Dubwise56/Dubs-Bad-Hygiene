@@ -66,6 +66,9 @@
     <statBases>
       <WorkToBuild>29000</WorkToBuild>
     </statBases>
+    <costList>
+      <Steel>100</Steel>
+    </costList>
     <researchPrerequisites>
       <li>DeepWells</li>
     </researchPrerequisites>
