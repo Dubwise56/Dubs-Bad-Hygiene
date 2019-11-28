@@ -119,6 +119,9 @@
       <joyKind>Hydrotherapy</joyKind>
     </building>
     <comps>
+      <li Class="DubsBadHygiene.CompProperties_Pipe">
+        <mode>Sewage</mode>
+      </li>
       <li>
         <compClass>CompColorable</compClass>
       </li>
@@ -133,7 +136,7 @@
       <li>SwimmingPools</li>
     </researchPrerequisites>
     <tickerType>Normal</tickerType>
-    <constructionSkillPrerequisite>10</constructionSkillPrerequisite>
+    <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
   </ThingDef>
   
   <ThingDef ParentName="BasedFixture" Name="DubsHotTubBase">
