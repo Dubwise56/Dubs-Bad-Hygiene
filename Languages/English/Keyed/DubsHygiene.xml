@@ -2,6 +2,8 @@
 <LanguageData>
 
   <!--New-->
+  <DBHFalloutWarning>Fallout Water Contamination</DBHFalloutWarning>
+  <DBHFalloutWarningEx>After 2 days of toxic fallout the buildup will contaminate any water storage tanks connected to water wells.\n\nPrepare by creating a reserve of water and then using a valve to disconnect the wells to protect the water from contamination before it is too late.\n\nYou can also use a deep well to access uncontaminated water, or install a water treatment system which will eliminate all contamination from water reserves.</DBHFalloutWarningEx>
   <AllowAltDes>Allow modded categories</AllowAltDes>
   <AllowAltDesTip>Allow other mods to change the buildings architect menu designation categories</AllowAltDesTip>
   <RainIrrigation>Rain Irrigation</RainIrrigation>
