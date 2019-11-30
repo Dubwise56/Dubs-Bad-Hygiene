@@ -12,7 +12,7 @@
     <defName>SewageSludgeComposting</defName>
     <label>Sewage Sludge Composting</label>
     <tab>DubsBadHygiene</tab>
-    <description>When properly treated and processed, sewage sludge becomes biosolids which are nutrient-rich and useful as fertilizer.</description>
+    <description>When properly treated and processed, sewage sludge becomes biosolids that offer a small boost to terrain fertility, useful for harsh environments with limited space to grow. Biosolids also produce a large boost to the fertility of sand which can make it fertile when combined with irrigation.</description>
     <baseCost>800</baseCost>
     <techLevel>Medieval</techLevel>
     <researchViewX>0</researchViewX>

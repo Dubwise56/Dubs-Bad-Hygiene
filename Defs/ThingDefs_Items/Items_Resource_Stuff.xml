@@ -58,7 +58,7 @@
   <ThingDef ParentName="ResourceBasedMom">
     <defName>Biosolids</defName>
     <label>biosolids</label>
-    <description>fertilizer from fecal sludge.</description>
+    <description>When properly treated and processed, sewage sludge becomes biosolids that offer a small boost to terrain fertility, useful for harsh environments with limited space to grow. Biosolids also produce a large boost to the fertility of sand which can make it fertile when combined with irrigation.</description>
     <graphicData>
       <texPath>DBH/Things/Resource/bagSoil</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -102,7 +102,7 @@
     <drawGUIOverlay>true</drawGUIOverlay>
     <tradeability>None</tradeability>
   </ThingDef>
-
+  
 
   <!--Example of a drink for the thirst need, modExtension makes anything ingestible work as a drink-->
   <!--<ThingDef ParentName="ResourceBasedMom">
@@ -111,8 +111,8 @@
     <description>A clean drink.</description>
     <modExtensions>
       <li Class="DubsBadHygiene.WaterExt">
-        <dirty>false</dirty>
         <water>1</water>
+        <UseForWashing>false</UseForWashing>
       </li>
     </modExtensions>
 
