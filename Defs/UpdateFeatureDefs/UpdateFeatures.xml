@@ -8,7 +8,7 @@
 
   <HugsLib.UpdateFeatureDef ParentName="UpdateFeatureBase">
 		<defName>DubsBadHygiene_2_7_1055</defName>
-		<assemblyVersion>2.7.9055</assemblyVersion>
+		<assemblyVersion>2.7.1055</assemblyVersion>
 		<content>
 New stuff:
 |img:DBH/UI/swimmingpool|caption:Added a swimming pool.

@@ -23,43 +23,6 @@
       </li>
     </options> 
   </DubsBadHygiene.DubsModOptions>
-
-  <DubsBadHygiene.DubsModOptions>
-    <defName>FlushSize</defName>
-    <label>Flush size</label>
-    <defaultSetting>3</defaultSetting>
-    <tip>How much sewage is produced from each flush</tip>
-    <options>
-      <li>
-        <label>Cheat</label>
-        <value>0</value>
-      </li>
-      <li>
-        <label>25%</label>
-        <value>0.25</value>
-      </li>
-      <li>
-        <label>50%</label>
-        <value>0.5</value>
-      </li>
-      <li>
-        <label>100%</label>
-        <value>1</value>
-      </li>
-      <li>
-        <label>150%</label>
-        <value>1.5</value>
-      </li>
-      <li>
-        <label>200%</label>
-        <value>2</value>
-      </li>
-      <li>
-        <label>250%</label>
-        <value>2.5</value>
-      </li>
-    </options>
-  </DubsBadHygiene.DubsModOptions>
   
   <DubsBadHygiene.DubsModOptions>
     <defName>HygieneRateD</defName>
@@ -240,8 +203,46 @@
   </DubsBadHygiene.DubsModOptions>
 
   <DubsBadHygiene.DubsModOptions>
+    <defName>FlushSize</defName>
+    <label>Flush size</label>
+    <defaultSetting>3</defaultSetting>
+    <tip>How much sewage is produced from each flush</tip>
+    <options>
+      <li>
+        <label>Cheat</label>
+        <value>0</value>
+      </li>
+      <li>
+        <label>25%</label>
+        <value>0.25</value>
+      </li>
+      <li>
+        <label>50%</label>
+        <value>0.5</value>
+      </li>
+      <li>
+        <label>100%</label>
+        <value>1</value>
+      </li>
+      <li>
+        <label>150%</label>
+        <value>1.5</value>
+      </li>
+      <li>
+        <label>200%</label>
+        <value>2</value>
+      </li>
+      <li>
+        <label>250%</label>
+        <value>2.5</value>
+      </li>
+    </options>
+  </DubsBadHygiene.DubsModOptions>
+
+  <DubsBadHygiene.DubsModOptions>
     <defName>ThirstRateD</defName>
     <label>Thirst need rate</label>
+    <Exper>true</Exper>
     <defaultSetting>10</defaultSetting>
     <tip>How fast the thirst need falls</tip>
     <options>
