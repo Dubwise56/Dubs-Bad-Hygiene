@@ -40,6 +40,7 @@
       <li>BuildingsHygiene</li>
     </thingCategories>
     <minifiedDef>MinifiedThing</minifiedDef>
+    <tickerType>Rare</tickerType>
   </ThingDef>
 
 
@@ -152,7 +153,7 @@
       <drawRotated>false</drawRotated>
     </graphicData>
     <category>Building</category>
-    <tickerType>Normal</tickerType>
+    <tickerType>Never</tickerType>
     <altitudeLayer>Building</altitudeLayer>
     <passability>PassThroughOnly</passability>
     <blockWind>false</blockWind>
@@ -205,6 +206,7 @@
       <Cleanliness>-5</Cleanliness>
       <Mass>5</Mass>
     </statBases>
+    <tickerType>Rare</tickerType>
     <fillPercent>0.15</fillPercent>
     <stuffCategories>
       <li>Metallic</li>
@@ -256,6 +258,7 @@
       <li>Woody</li>
       <li>Stony</li>
     </stuffCategories>
+    <tickerType>Never</tickerType>
     <costStuffCount>15</costStuffCount>
     <passability>PassThroughOnly</passability>
     <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
@@ -318,6 +321,11 @@
             <li>FecalSludge</li>
           </thingDefs>
         </fuelFilter>
+      </li>
+      <li Class="CompProperties_HeatPusher">
+        <compClass>CompHeatPusherPowered</compClass>
+        <heatPerSecond>21</heatPerSecond>
+        <heatPushMaxTemperature>28</heatPushMaxTemperature>
       </li>
       <li Class="CompProperties_Glower">
         <glowRadius>10</glowRadius>
@@ -578,7 +586,7 @@
     <researchPrerequisites>
       <li>Plumbing</li>
     </researchPrerequisites>
-
+    <tickerType>Normal</tickerType>
     <modExtensions>
       <li Class="DubsBadHygiene.BathHeaterExt">
         <HeatSources>

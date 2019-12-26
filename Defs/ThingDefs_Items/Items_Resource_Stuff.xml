@@ -1,59 +1,59 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<ThingDef Name="ResourceBasedMom" Abstract="True">
-		<thingClass>ThingWithComps</thingClass>
-		<category>Item</category>
-		<resourceReadoutPriority>Middle</resourceReadoutPriority>
-		<useHitPoints>true</useHitPoints>
-		<selectable>true</selectable>
-		<altitudeLayer>Item</altitudeLayer>
-		<stackLimit>75</stackLimit>
-		<statBases>
-			<Beauty>-7</Beauty>
-		</statBases>
-		<comps>
-			<li Class="CompProperties_Forbiddable"/>
-		</comps>
-		<alwaysHaulable>true</alwaysHaulable>
-		<drawGUIOverlay>true</drawGUIOverlay>
-		<rotatable>false</rotatable>
-		<pathCost>15</pathCost>
-	</ThingDef>
+  <ThingDef Name="ResourceBasedMom" Abstract="True">
+    <thingClass>ThingWithComps</thingClass>
+    <category>Item</category>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <useHitPoints>true</useHitPoints>
+    <selectable>true</selectable>
+    <altitudeLayer>Item</altitudeLayer>
+    <stackLimit>75</stackLimit>
+    <statBases>
+      <Beauty>-7</Beauty>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Forbiddable"/>
+    </comps>
+    <alwaysHaulable>true</alwaysHaulable>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <rotatable>false</rotatable>
+    <pathCost>15</pathCost>
+  </ThingDef>
 
-	<ThingDef>
-		<defName>BedPan</defName>
-		<label>Bed Pan</label>
-		<description>A receptacle used by a bedridden patient for urine and faeces.</description>
-		<graphicData>
-			<graphicClass>Graphic_Single</graphicClass>
-			<texPath>DBH/Things/Resource/bedPan</texPath>
-			<onGroundRandomRotateAngle>65</onGroundRandomRotateAngle>
-		</graphicData>
-		<selectable>True</selectable>
-		<useHitPoints>True</useHitPoints>
-		<drawGUIOverlay>true</drawGUIOverlay>
-		<altitudeLayer>Item</altitudeLayer>
-		<alwaysHaulable>True</alwaysHaulable>
-		<tickerType>Never</tickerType>
-		<thingClass>Thing</thingClass>
-		<category>Item</category>
-		<thingCategories>
-			<li>Waste</li>
-		</thingCategories>
-		<randomizeRotationOnSpawn>true</randomizeRotationOnSpawn>
-		<stackLimit>1</stackLimit>
-		<tradeability>None</tradeability>
-		<statBases>
-		<MaxHitPoints>100</MaxHitPoints>
-			<Beauty>-40</Beauty>
-			<Cleanliness>-25</Cleanliness>
-			<Mass>0.2</Mass>
+  <ThingDef>
+    <defName>BedPan</defName>
+    <label>Bed Pan</label>
+    <description>A receptacle used by a bedridden patient for urine and faeces.</description>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>DBH/Things/Resource/bedPan</texPath>
+      <onGroundRandomRotateAngle>65</onGroundRandomRotateAngle>
+    </graphicData>
+    <selectable>True</selectable>
+    <useHitPoints>True</useHitPoints>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <altitudeLayer>Item</altitudeLayer>
+    <alwaysHaulable>True</alwaysHaulable>
+    <tickerType>Never</tickerType>
+    <thingClass>Thing</thingClass>
+    <category>Item</category>
+    <thingCategories>
+      <li>Waste</li>
+    </thingCategories>
+    <randomizeRotationOnSpawn>true</randomizeRotationOnSpawn>
+    <stackLimit>1</stackLimit>
+    <tradeability>None</tradeability>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Beauty>-40</Beauty>
+      <Cleanliness>-25</Cleanliness>
+      <Mass>0.2</Mass>
       <Flammability>1.0</Flammability>
-			<DeteriorationRate>2</DeteriorationRate>
-		</statBases>
-		<pathCost>5</pathCost>
-	</ThingDef>
+      <DeteriorationRate>2</DeteriorationRate>
+    </statBases>
+    <pathCost>5</pathCost>
+  </ThingDef>
 
   <ThingDef ParentName="ResourceBasedMom">
     <defName>Biosolids</defName>
@@ -102,39 +102,52 @@
     <drawGUIOverlay>true</drawGUIOverlay>
     <tradeability>None</tradeability>
   </ThingDef>
-  
 
-  <!--Example of a drink for the thirst need, modExtension makes anything ingestible work as a drink-->
-  <!--<ThingDef ParentName="ResourceBasedMom">
-    <defName>ADrink</defName>
-    <label>Drink</label>
-    <description>A clean drink.</description>
+  
+  <!--Example of a drink for the thirst need, modExtension makes anything ingestible work as a drink, this is patched out when thirst is disabled-->
+  <ThingDef ParentName="ResourceBasedMom">
+    <defName>DBH_WaterBottle</defName>
+    <label>Water</label>
+    <description>A bottle of water.</description>
     <modExtensions>
       <li Class="DubsBadHygiene.WaterExt">
         <water>1</water>
-        <UseForWashing>false</UseForWashing>
+        <UseForWashing>true</UseForWashing>
       </li>
     </modExtensions>
+
+
 
     <graphicData>
       <texPath>DBH/Things/Resource/WaterBot</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>0.75</drawSize>
     </graphicData>
+    <comps>
+      <li Class="CompProperties">
+        <compClass>DubsBadHygiene.CompContamination</compClass>
+      </li>
+    </comps>
+    <category>Item</category>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
     <statBases>
-      <MaxHitPoints>100</MaxHitPoints>
-      <Flammability>1.0</Flammability>
+      <MaxHitPoints>60</MaxHitPoints>
+      <Flammability>0.2</Flammability>
       <Mass>0.5</Mass>
     </statBases>
     <thingCategories>
       <li>Foods</li>
     </thingCategories>
+    <rotatable>false</rotatable>
+    <pathCost>15</pathCost>
+    <generateAllowChance>0</generateAllowChance>
+    <generateCommonality>0</generateCommonality>
     <stackLimit>10</stackLimit>
     <tradeNeverStack>false</tradeNeverStack>
     <drawGUIOverlay>true</drawGUIOverlay>
     <tradeability>None</tradeability>
     <ingestible>
-      <baseIngestTicks>120</baseIngestTicks>
+      <baseIngestTicks>240</baseIngestTicks>
       <preferability>NeverForNutrition</preferability>
       <foodType>Fluid</foodType>
       <nurseable>false</nurseable>
@@ -148,6 +161,6 @@
       <ingestReportString>Drinking {0}.</ingestReportString>
       <chairSearchRadius>5</chairSearchRadius>
     </ingestible>
-</ThingDef>-->
+  </ThingDef>
 
 </Defs>

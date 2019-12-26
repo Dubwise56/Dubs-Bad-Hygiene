@@ -312,6 +312,7 @@
     <thingCategories>
       <li>BuildingsHygiene</li>
     </thingCategories>
+    <tickerType>Never</tickerType>
     <costList>
       <Steel>80</Steel>
       <ComponentIndustrial>1</ComponentIndustrial>
@@ -348,6 +349,7 @@
       <drawRotated>false</drawRotated>
       <drawSize>(2,2)</drawSize>
     </graphicData>
+    <tickerType>Never</tickerType>
     <size>(2,2)</size>
     <costList>
       <Steel>120</Steel>

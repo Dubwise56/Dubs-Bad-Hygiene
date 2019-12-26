@@ -38,6 +38,7 @@
     <placeWorkers>
       <li>DubsBadHygiene.PlaceWorker_Pipe</li>
     </placeWorkers>
+    <tickerType>Never</tickerType>
   </ThingDef>
 
   <ThingDef ParentName="DubsDirtyPipeBase">

@@ -27,6 +27,7 @@
         <rect>(0.05,0.05,0.95,0.95)</rect>
       </damageData>
     </graphicData>
+    <tickerType>Rare</tickerType>
     <uiIconPath>DBH/UI/Thermostat</uiIconPath>
     <blockWind>false</blockWind>
     <castEdgeShadows>false</castEdgeShadows>
@@ -367,24 +368,6 @@
       <li>PlaceWorker_Heater</li>
     </placeWorkers>
     <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
-  </ThingDef>
-
-  <ThingDef ParentName="BaseRadiator">
-    <defName>Radiator</defName>
-    <label>Radiator</label>
-    <uiIconPath>DBH/UI/radiator</uiIconPath>
-    <costList>
-      <Steel>25</Steel>
-    </costList>
-    <comps>
-      <li Class="DubsBadHygiene.CompProperties_Radiator">
-        <StoreCapacity>100</StoreCapacity>
-        <Energy>21</Energy>
-        <HeatingRate>250</HeatingRate>
-      </li>
-    </comps>
-    <menuHidden>true</menuHidden>
-    <designationCategory></designationCategory>
   </ThingDef>
 
   <ThingDef ParentName="BaseRadiator">
