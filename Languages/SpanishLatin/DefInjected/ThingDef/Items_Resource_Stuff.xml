@@ -4,11 +4,22 @@
   <BedPan.label>Bandeja de cama</BedPan.label>
   <BedPan.description>Un receptáculo utilizado por un paciente encamado para la orina y las heces.</BedPan.description>
 
-  <FecalFertilizer.label>Fertilizante</FecalFertilizer.label>
-  <FecalFertilizer.description>Fertilizante para crear el suelo.</FecalFertilizer.description>
+  <Biosolids.label>biosolids</Biosolids.label>
+  <Biosolids.description>When properly treated and processed, sewage sludge becomes biosolids that offer a small boost to terrain fertility, useful for harsh environments with limited space to grow. Biosolids also produce a large boost to the fertility of sand which can make it fertile when combined with irrigation.</Biosolids.description>
 
   <FecalSludge.label>Lodos fecales</FecalSludge.label>
   <FecalSludge.description>Un barril lleno de desechos humanos, puede ser vertido, quemado o usado como fertilizante.</FecalSludge.description>
 
+
+  <!-- Example of a drink for the thirst need, modExtension makes anything ingestible work as a drink, this is patched out when thirst is disabled -->
+
+  <DBH_WaterBottle.label>Water</DBH_WaterBottle.label>
+  <DBH_WaterBottle.description>A bottle of water.</DBH_WaterBottle.description>
+  <DBH_WaterBottle.ingestible.ingestCommandString>Drink {0}</DBH_WaterBottle.ingestible.ingestCommandString>
+  <DBH_WaterBottle.ingestible.ingestReportString>Drinking {0}.</DBH_WaterBottle.ingestible.ingestReportString>
+
+
+  <!--<FecalFertilizer.label>Fertilizante</FecalFertilizer.label>-->
+  <!--<FecalFertilizer.description>Fertilizante para crear el suelo.</FecalFertilizer.description>-->
 
 </LanguageData>

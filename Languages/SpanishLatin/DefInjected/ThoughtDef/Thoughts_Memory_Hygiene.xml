@@ -1,6 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
+  <DrankCleanWater.stages.0.label>Refreshed</DrankCleanWater.stages.0.label>
+  <DrankCleanWater.stages.0.description>Drank refreshing clean water</DrankCleanWater.stages.0.description>
+
+  <DrankDirtyWater.stages.0.label>Drank filthy water</DrankDirtyWater.stages.0.label>
+  <DrankDirtyWater.stages.0.description>Drank a bottle of contaminated water</DrankDirtyWater.stages.0.description>
+
   <DrankUrine.stages.0.label>Bebió orina</DrankUrine.stages.0.label>
   <DrankUrine.stages.0.description>Bebí mi propia orina.</DrankUrine.stages.0.description>
 
@@ -36,6 +42,8 @@
 
   <UsedPrivateBathroom.stages.0.label>Baño horrible</UsedPrivateBathroom.stages.0.label>
   <UsedPrivateBathroom.stages.0.description>Mi baño es un lugar horrible.</UsedPrivateBathroom.stages.0.description>
+  <UsedPrivateBathroom.stages.2.label>decent bathroom</UsedPrivateBathroom.stages.2.label>
+  <UsedPrivateBathroom.stages.2.description>My bathroom is very interesting. I like it.</UsedPrivateBathroom.stages.2.description>
   <UsedPrivateBathroom.stages.3.label>Baño decente</UsedPrivateBathroom.stages.3.label>
   <UsedPrivateBathroom.stages.3.description>Mi baño es muy interesante. Me gusta.</UsedPrivateBathroom.stages.3.description>
   <UsedPrivateBathroom.stages.4.label>Baño ligeramente impresionante</UsedPrivateBathroom.stages.4.label>
@@ -48,8 +56,9 @@
   <UsedPrivateBathroom.stages.7.description>Mi baño es extremadamente impresionante. ¡Este es el mejor lugar del mundo!</UsedPrivateBathroom.stages.7.description>
   <UsedPrivateBathroom.stages.8.label>Un baño increíblemente impresionante</UsedPrivateBathroom.stages.8.label>
   <UsedPrivateBathroom.stages.8.description>Mi baño es increíblemente impresionante. ¡Este es el mejor lugar del mundo!</UsedPrivateBathroom.stages.8.description>
-  <UsedPrivateBathroom.stages.9.label>Un baño maravillosamente impresionante</UsedPrivateBathroom.stages.9.label>
-  <UsedPrivateBathroom.stages.9.description>Mi baño es el mejor lugar que uno pueda imaginar. Es maravilloso.</UsedPrivateBathroom.stages.9.description>
 
-  
+
+  <!--<UsedPrivateBathroom.stages.9.label>Un baño maravillosamente impresionante</UsedPrivateBathroom.stages.9.label>-->
+  <!--<UsedPrivateBathroom.stages.9.description>Mi baño es el mejor lugar que uno pueda imaginar. Es maravilloso.</UsedPrivateBathroom.stages.9.description>-->
+
 </LanguageData>

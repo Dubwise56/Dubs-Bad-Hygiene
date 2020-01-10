@@ -10,18 +10,38 @@
   <IrrigationSprinkler_Frame.label>Aspersor de Riego (construcción)</IrrigationSprinkler_Frame.label>
   <IrrigationSprinkler_Frame.description>Riega el área circundante una vez por la mañana para mejorar la fertilidad del suelo a lo largo del día. Requiere grandes cantidades de agua de las torres de agua durante la pulverización.</IrrigationSprinkler_Frame.description>
 
-  <plumbingValve.label>Válvula de plomería</plumbingValve.label>
-  <plumbingValve.description>Abre o cierra conexiones entre tuberías.</plumbingValve.description>
-  <plumbingValve_Blueprint.label>Válvula de plomería (plano)</plumbingValve_Blueprint.label>
-  <plumbingValve_Frame.label>Válvula de plomería (construcción)</plumbingValve_Frame.label>
-  <plumbingValve_Frame.description>Abre o cierra conexiones entre tuberías.</plumbingValve_Frame.description>
+  <FireSprinkler.label>Fire Sprinkler</FireSprinkler.label>
+  <FireSprinkler.description>Triggered by fire or high temperature. Douses flames with a spray of water</FireSprinkler.description>
+  <FireSprinkler.comps.2.useLabel>Trigger fire sprinkler</FireSprinkler.comps.2.useLabel>
+  <FireSprinkler_Blueprint.label>Fire Sprinkler (blueprint)</FireSprinkler_Blueprint.label>
+  <FireSprinkler_Blueprint_Install.label>Fire Sprinkler (blueprint)</FireSprinkler_Blueprint_Install.label>
+  <FireSprinkler_Frame.label>Fire Sprinkler (building)</FireSprinkler_Frame.label>
+  <FireSprinkler_Frame.description>Triggered by fire or high temperature. Douses flames with a spray of water</FireSprinkler_Frame.description>
 
-  <Composter.label>Compostador</Composter.label>
-  <Composter.description>Un compostador para convertir las aguas residuales en fertilizantes para hacer tierra en biomas duros.</Composter.description>
-  <Composter_Blueprint.label>Compostador (plano)</Composter_Blueprint.label>
-  <Composter_Blueprint_Install.label>Compostador (plano)</Composter_Blueprint_Install.label>
-  <Composter_Frame.label>Compostador (construcción)</Composter_Frame.label>
-  <Composter_Frame.description>Un compostador para convertir las aguas residuales en fertilizantes para hacer tierra en biomas duros.</Composter_Frame.description>
+  <BiosolidsComposter.label>Biosolids Composter</BiosolidsComposter.label>
+  <BiosolidsComposter.description>A composter for turning sewage into fertilizer for increasing the fertility of diggable terrain.</BiosolidsComposter.description>
+  <BiosolidsComposter_Blueprint.label>Biosolids Composter (blueprint)</BiosolidsComposter_Blueprint.label>
+  <BiosolidsComposter_Blueprint_Install.label>Biosolids Composter (blueprint)</BiosolidsComposter_Blueprint_Install.label>
+  <BiosolidsComposter_Frame.label>Biosolids Composter (building)</BiosolidsComposter_Frame.label>
+  <BiosolidsComposter_Frame.description>A composter for turning sewage into fertilizer for increasing the fertility of diggable terrain.</BiosolidsComposter_Frame.description>
 
+  <BiosolidFertilizer.label>Biosolid Fertilizer</BiosolidFertilizer.label>
+  <BiosolidFertilizer.description>Biosolid fertilizer used for increasing the fertility of diggable terrain. Lasts just under 1 year.</BiosolidFertilizer.description>
+  <BiosolidFertilizer_Blueprint.label>Biosolid Fertilizer (blueprint)</BiosolidFertilizer_Blueprint.label>
+  <BiosolidFertilizer_Frame.label>Biosolid Fertilizer (building)</BiosolidFertilizer_Frame.label>
+  <BiosolidFertilizer_Frame.description>Biosolid fertilizer used for increasing the fertility of diggable terrain. Lasts just under 1 year.</BiosolidFertilizer_Frame.description>
+
+
+  <!--<plumbingValve.label>Válvula de plomería</plumbingValve.label>-->
+  <!--<plumbingValve.description>Abre o cierra conexiones entre tuberías.</plumbingValve.description>-->
+  <!--<plumbingValve_Blueprint.label>Válvula de plomería (plano)</plumbingValve_Blueprint.label>-->
+  <!--<plumbingValve_Frame.label>Válvula de plomería (construcción)</plumbingValve_Frame.label>-->
+  <!--<plumbingValve_Frame.description>Abre o cierra conexiones entre tuberías.</plumbingValve_Frame.description>-->
+  <!--<Composter.label>Compostador</Composter.label>-->
+  <!--<Composter.description>Un compostador para convertir las aguas residuales en fertilizantes para hacer tierra en biomas duros.</Composter.description>-->
+  <!--<Composter_Blueprint.label>Compostador (plano)</Composter_Blueprint.label>-->
+  <!--<Composter_Blueprint_Install.label>Compostador (plano)</Composter_Blueprint_Install.label>-->
+  <!--<Composter_Frame.label>Compostador (construcción)</Composter_Frame.label>-->
+  <!--<Composter_Frame.description>Un compostador para convertir las aguas residuales en fertilizantes para hacer tierra en biomas duros.</Composter_Frame.description>-->
 
 </LanguageData>

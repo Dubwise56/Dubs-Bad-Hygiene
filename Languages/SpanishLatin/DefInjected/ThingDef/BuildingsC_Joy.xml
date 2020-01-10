@@ -1,17 +1,100 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
+  <!-- <ThingDef ParentName="BasedHygieneMom">
+    <defName>HygieneRefrigerator</defName>
+    <label>Refrigerator</label>
+    <description>Keeps food at a low temperatures and provides easy access</description>
+    <thingClass>DubsBadHygiene.Building_Fridge</thingClass>
+    <graphicData>
+      <texPath>DBH/Things/Building/fridge</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(1.5,1.5)</drawSize>
+    </graphicData>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories>
+      <li>BuildingsHygiene</li>
+    </thingCategories>
+    <category>Building</category>
+    <tickerType>Normal</tickerType>
+    <canOverlapZones>false</canOverlapZones>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <blockWind>true</blockWind>
+    <castEdgeShadows>true</castEdgeShadows>
+    <pathCost>60</pathCost>
+    <size>(1,1)</size>
+    <hasInteractionCell>True</hasInteractionCell>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+    <costList>
+      <Steel>80</Steel>
+      <ComponentIndustrial>2</ComponentIndustrial>
+    </costList>
+    <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+    <rotatable>true</rotatable>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToBuild>1200</WorkToBuild>
+      <Mass>25</Mass>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>20</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_Breakdownable"/>
+    </comps>
+    <building>
+      <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
+      <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
+      <defaultStorageSettings>
+        <priority>Important</priority>
+        <filter>
+          <categories>
+            <li>Foods</li>
+          </categories>
+        </filter>
+      </defaultStorageSettings>
+      <fixedStorageSettings>
+        <filter>
+          <categories>
+            <li>Foods</li>
+          </categories>
+        </filter>
+      </fixedStorageSettings>
+    </building>
+    <inspectorTabs>
+      <li>ITab_Storage</li>
+    </inspectorTabs>
+    <designationCategory>Hygiene</designationCategory>
+  </ThingDef> -->
+
+  <DBHSwimmingPool.label>Swimming Pool</DBHSwimmingPool.label>
+  <DBHSwimmingPool.description>Swimming pool used for hydrotherapy, relaxation or pleasure. Must be filled with water from water towers first.</DBHSwimmingPool.description>
+  <DBHSwimmingPool_Blueprint.label>Swimming Pool (blueprint)</DBHSwimmingPool_Blueprint.label>
+  <DBHSwimmingPool_Frame.label>Swimming Pool (building)</DBHSwimmingPool_Frame.label>
+  <DBHSwimmingPool_Frame.description>Swimming pool used for hydrotherapy, relaxation or pleasure. Must be filled with water from water towers first.</DBHSwimmingPool_Frame.description>
+
   <HotTub.label>Jacuzzi (Blanco)</HotTub.label>
   <HotTub.description>Jacuzzi utilizado para hidroterapia, relajación o placer. Lleno de agua de las torres de agua en su primer uso, autocalentado y sin necesidad de una salida de aguas residuales.</HotTub.description>
   <HotTub_Blueprint.label>Jacuzzi (Blanco) (plano)</HotTub_Blueprint.label>
+  <HotTub_Blueprint_Install.label>Hot Tub (blueprint)</HotTub_Blueprint_Install.label>
   <HotTub_Frame.label>Jacuzzi (Blanco) (construcción)</HotTub_Frame.label>
   <HotTub_Frame.description>Jacuzzi utilizado para hidroterapia, relajación o placer. Lleno de agua de las torres de agua en su primer uso, autocalentado y sin necesidad de una salida de aguas residuales.</HotTub_Frame.description>
 
-  <HotTubStuff.label>Jacuzzi</HotTubStuff.label>
-  <HotTubStuff.description>Jacuzzi utilizado para hidroterapia, relajación o placer. Lleno de agua de las torres de agua en su primer uso, autocalentado y sin necesidad de una salida de aguas residuales.</HotTubStuff.description>
-  <HotTubStuff_Blueprint.label>Jacuzzi (plano)</HotTubStuff_Blueprint.label>
-  <HotTubStuff_Frame.label>Jacuzzi (construcción)</HotTubStuff_Frame.label>
-  <HotTubStuff_Frame.description>Jacuzzi utilizado para hidroterapia, relajación o placer. Lleno de agua de las torres de agua en su primer uso, autocalentado y sin necesidad de una salida de aguas residuales.</HotTubStuff_Frame.description>
+  <WashingMachine.label>Washing Machine</WashingMachine.label>
+  <WashingMachine.description>Washes clothes so well that you can't even tell someone died wearing it!</WashingMachine.description>
+  <WashingMachine_Blueprint.label>Washing Machine (blueprint)</WashingMachine_Blueprint.label>
+  <WashingMachine_Blueprint_Install.label>Washing Machine (blueprint)</WashingMachine_Blueprint_Install.label>
+  <WashingMachine_Frame.label>Washing Machine (building)</WashingMachine_Frame.label>
+  <WashingMachine_Frame.description>Washes clothes so well that you can't even tell someone died wearing it!</WashingMachine_Frame.description>
 
+
+  <!--<HotTubStuff.label>Jacuzzi</HotTubStuff.label>-->
+  <!--<HotTubStuff.description>Jacuzzi utilizado para hidroterapia, relajación o placer. Lleno de agua de las torres de agua en su primer uso, autocalentado y sin necesidad de una salida de aguas residuales.</HotTubStuff.description>-->
+  <!--<HotTubStuff_Blueprint.label>Jacuzzi (plano)</HotTubStuff_Blueprint.label>-->
+  <!--<HotTubStuff_Frame.label>Jacuzzi (construcción)</HotTubStuff_Frame.label>-->
+  <!--<HotTubStuff_Frame.description>Jacuzzi utilizado para hidroterapia, relajación o placer. Lleno de agua de las torres de agua en su primer uso, autocalentado y sin necesidad de una salida de aguas residuales.</HotTubStuff_Frame.description>-->
 
 </LanguageData>

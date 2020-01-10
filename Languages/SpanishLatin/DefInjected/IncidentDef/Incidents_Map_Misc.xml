@@ -1,8 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <Dysentery.label>Disentería</Dysentery.label>
-  <Cholera.label>Cólera</Cholera.label>
+  <TowerContamination.label>Tower Contamination</TowerContamination.label>
+  <TowerContamination.letterText>A water tower has become polluted, this poses a serious risk to the health of your colonists! Drain the tower to clear the contamination, or build a water treatment system.</TowerContamination.letterText>
+  <TowerContamination.letterLabel>Contaminated Water Tower</TowerContamination.letterLabel>
 
+
+  <!--<Dysentery.label>Disentería</Dysentery.label>-->
+  <!--<Cholera.label>Cólera</Cholera.label>-->
 
 </LanguageData>
