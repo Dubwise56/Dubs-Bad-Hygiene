@@ -1,17 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <PlaceFertilizer.label>Fertilize</PlaceFertilizer.label>
-  <PlaceFertilizer.verb>fertilize</PlaceFertilizer.verb>
-  <PlaceFertilizer.gerund>fertilizing</PlaceFertilizer.gerund>
+  <PlaceFertilizer.label>Fertilizar</PlaceFertilizer.label>
+  <PlaceFertilizer.verb>fertilizar</PlaceFertilizer.verb>
+  <PlaceFertilizer.gerund>Fertilizando</PlaceFertilizer.gerund>
 
   <ClearBlockage.label>Obstrucción clara</ClearBlockage.label>
   <ClearBlockage.verb>obstrucción clara</ClearBlockage.verb>
   <ClearBlockage.gerund>eliminando el bloqueo</ClearBlockage.gerund>
 
-  <DBHAdministerFluids.label>Administer Fluids</DBHAdministerFluids.label>
-  <DBHAdministerFluids.verb>administer fluids</DBHAdministerFluids.verb>
-  <DBHAdministerFluids.gerund>administering fluids</DBHAdministerFluids.gerund>
+  <DBHAdministerFluids.label>Administrar los fluidos</DBHAdministerFluids.label>
+  <DBHAdministerFluids.verb>administrar los fluidos</DBHAdministerFluids.verb>
+  <DBHAdministerFluids.gerund>Administrando los fluidos</DBHAdministerFluids.gerund>
 
   <washPatient.label>Lavar al paciente</washPatient.label>
   <washPatient.verb>lavar</washPatient.verb>
@@ -25,29 +25,12 @@
   <cleanBedpan.verb>limpiar</cleanBedpan.verb>
   <cleanBedpan.gerund>limpiando</cleanBedpan.gerund>
 
-  <TipSewage.label>Tip Sewage</TipSewage.label>
-  <TipSewage.verb>Tip Sewage</TipSewage.verb>
-  <TipSewage.gerund>tipping over</TipSewage.gerund>
+  <TipSewage.label>Volcar</TipSewage.label>
+  <TipSewage.verb>Volcar agua residuales</TipSewage.verb>
+  <TipSewage.gerund>volcando</TipSewage.gerund>
 
-  <DrainWaterTank.label>Drain Water</DrainWaterTank.label>
-  <DrainWaterTank.verb>Drain</DrainWaterTank.verb>
-  <DrainWaterTank.gerund>Draining</DrainWaterTank.gerund>
-
-
-  <!--<DoBillsBurnPit.label>Quemar los desechos del pozo</DoBillsBurnPit.label>-->
-  <!--<DoBillsBurnPit.verb>quemar</DoBillsBurnPit.verb>-->
-  <!--<DoBillsBurnPit.gerund>quemando</DoBillsBurnPit.gerund>-->
-  <!--<RemoveSewage.label>Eliminar las aguas residuales en los barriles</RemoveSewage.label>-->
-  <!--<RemoveSewage.verb>eliminar las aguas residuales</RemoveSewage.verb>-->
-  <!--<RemoveSewage.gerund>eliminación de aguas residuales</RemoveSewage.gerund>-->
-  <!--<UnloadComposter.label>sacar el abono del compostador</UnloadComposter.label>-->
-  <!--<UnloadComposter.verb>llevar abono</UnloadComposter.verb>-->
-  <!--<UnloadComposter.gerund>llevando abono</UnloadComposter.gerund>-->
-  <!--<FillComposter.label>Rellenar de abono</FillComposter.label>-->
-  <!--<FillComposter.verb>rellenar</FillComposter.verb>-->
-  <!--<FillComposter.gerund>rellenando</FillComposter.gerund>-->
-  <!--<emptyLatrine.label>Vaciar letrina</emptyLatrine.label>-->
-  <!--<emptyLatrine.verb>vaciar</emptyLatrine.verb>-->
-  <!--<emptyLatrine.gerund>vaciando</emptyLatrine.gerund>-->
+  <DrainWaterTank.label>Drenar el agua</DrainWaterTank.label>
+  <DrainWaterTank.verb>Drenar</DrainWaterTank.verb>
+  <DrainWaterTank.gerund>Drenando</DrainWaterTank.gerund>
 
 </LanguageData>

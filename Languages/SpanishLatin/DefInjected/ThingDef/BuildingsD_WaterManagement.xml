@@ -3,101 +3,78 @@
 
   <!-- WATER PUMPING -->
 
-  <WaterWellInlet.label>Water Well</WaterWellInlet.label>
-  <WaterWellInlet.description>Accesses ground water which can be pumped by water pumps. The presence of sewage or other pollution will reduce water quality and can cause contamination.</WaterWellInlet.description>
-  <WaterWellInlet_Blueprint.label>Water Well (blueprint)</WaterWellInlet_Blueprint.label>
-  <WaterWellInlet_Frame.label>Water Well (building)</WaterWellInlet_Frame.label>
-  <WaterWellInlet_Frame.description>Accesses ground water which can be pumped by water pumps. The presence of sewage or other pollution will reduce water quality and can cause contamination.</WaterWellInlet_Frame.description>
+  <WaterWellInlet.label>Pozo de agua</WaterWellInlet.label>
+  <WaterWellInlet.description>Accede a las aguas subterráneas que pueden ser bombeadas por bombas de agua. La presencia de aguas residuales u otro tipo de contaminación reducirá la calidad del agua y puede causar contaminación.</WaterWellInlet.description>
+  <WaterWellInlet_blueprint.label>Pozo de agua (plano)</WaterWellInlet_blueprint.label>
+  <WaterWellInlet_Frame.label>Pozo de agua(construcción)</WaterWellInlet_Frame.label>
+  <WaterWellInlet_Frame.description>Accede a las aguas subterráneas que pueden ser bombeadas por bombas de agua. La presencia de aguas residuales u otro tipo de contaminación reducirá la calidad del agua y puede causar contaminación.</WaterWellInlet_Frame.description>
 
-  <DeepWaterWellInlet.label>Deep Water Well</DeepWaterWellInlet.label>
-  <DeepWaterWellInlet.description>Accesses a large area of ground water which can be pumped by water pumps. Deep wells are unaffected by pollution.</DeepWaterWellInlet.description>
-  <DeepWaterWellInlet_Blueprint.label>Deep Water Well (blueprint)</DeepWaterWellInlet_Blueprint.label>
-  <DeepWaterWellInlet_Frame.label>Deep Water Well (building)</DeepWaterWellInlet_Frame.label>
-  <DeepWaterWellInlet_Frame.description>Accesses a large area of ground water which can be pumped by water pumps. Deep wells are unaffected by pollution.</DeepWaterWellInlet_Frame.description>
+  <DeepWaterWellInlet.label>Pozo de agua profundo</DeepWaterWellInlet.label>
+  <DeepWaterWellInlet.description>Accede a una gran área de agua subterránea que puede ser bombeada por bombas de agua. Los pozos profundos no se ven afectados por la contaminación.</DeepWaterWellInlet.description>
+  <DeepWaterWellInlet_blueprint.label>Pozo de agua profundo(plano)</DeepWaterWellInlet_blueprint.label>
+  <DeepWaterWellInlet_Frame.label>Pozo de agua profundo(construcción)</DeepWaterWellInlet_Frame.label>
+  <DeepWaterWellInlet_Frame.description>Accede a una gran área de agua subterránea que puede ser bombeada por bombas de agua. Los pozos profundos no se ven afectados por la contaminación.</DeepWaterWellInlet_Frame.description>
 
-  <WaterButt.label>Water Butt</WaterButt.label>
-  <WaterButt.description>Stores water for use by plumbed fixtures. If the contained water becomes contaminated, the tank must be drained.</WaterButt.description>
-  <WaterButt_Blueprint.label>Water Butt (blueprint)</WaterButt_Blueprint.label>
-  <WaterButt_Blueprint_Install.label>Water Butt (blueprint)</WaterButt_Blueprint_Install.label>
-  <WaterButt_Frame.label>Water Butt (building)</WaterButt_Frame.label>
-  <WaterButt_Frame.description>Stores water for use by plumbed fixtures. If the contained water becomes contaminated, the tank must be drained.</WaterButt_Frame.description>
+  <WaterButt.label>Tanque de agua</WaterButt.label>
+  <WaterButt.description>Almacena el agua para el uso de las instalaciones de fontanería. Si el agua contenida se contamina, el tanque debe ser drenado.</WaterButt.description>
+  <WaterButt_blueprint.label>Tanque de agua(plano)</WaterButt_blueprint.label>
+  <WaterButt_blueprint_Install.label>Water Butt(plano)</WaterButt_blueprint_Install.label>
+  <WaterButt_Frame.label>Tanque de agua (construcción)</WaterButt_Frame.label>
+  <WaterButt_Frame.description>Almacena el agua para el uso de las instalaciones de fontanería. Si el agua contenida se contamina, el tanque debe ser drenado.</WaterButt_Frame.description>
 
-  <WaterTowerS.label>Water Tower</WaterTowerS.label>
-  <WaterTowerS.description>Stores water for use by plumbed fixtures. If the contained water becomes contaminated, the tank must be drained.</WaterTowerS.description>
-  <WaterTowerS_Blueprint.label>Water Tower (blueprint)</WaterTowerS_Blueprint.label>
-  <WaterTowerS_Frame.label>Water Tower (building)</WaterTowerS_Frame.label>
-  <WaterTowerS_Frame.description>Stores water for use by plumbed fixtures. If the contained water becomes contaminated, the tank must be drained.</WaterTowerS_Frame.description>
+  <WaterTowerS.label>Torre de agua</WaterTowerS.label>
+  <WaterTowerS.description>Almacena el agua para el uso de las instalaciones de fontanería. Si el agua contenida se contamina, el tanque debe ser drenado.</WaterTowerS.description>
+  <WaterTowerS_blueprint.label>Torre de agua plano)</WaterTowerS_blueprint.label>
+  <WaterTowerS_Frame.label>Torre de agua(construcción)</WaterTowerS_Frame.label>
+  <WaterTowerS_Frame.description>Almacena el agua para el uso de las instalaciones de fontanería. Si el agua contenida se contamina, el tanque debe ser drenado.</WaterTowerS_Frame.description>
 
-  <WaterTowerL.label>Huge Water Tower</WaterTowerL.label>
-  <WaterTowerL.description>Stores water for use by plumbed fixtures. If the contained water becomes contaminated, the tank must be drained.</WaterTowerL.description>
-  <WaterTowerL_Blueprint.label>Huge Water Tower (blueprint)</WaterTowerL_Blueprint.label>
-  <WaterTowerL_Frame.label>Huge Water Tower (building)</WaterTowerL_Frame.label>
-  <WaterTowerL_Frame.description>Stores water for use by plumbed fixtures. If the contained water becomes contaminated, the tank must be drained.</WaterTowerL_Frame.description>
+  <WaterTowerL.label>Gran torre de agua</WaterTowerL.label>
+  <WaterTowerL.description>Almacena el agua para el uso de las instalaciones de fontanería. Si el agua contenida se contamina, el tanque debe ser drenado.</WaterTowerL.description>
+  <WaterTowerL_blueprint.label>Gran torre de agua(plano)</WaterTowerL_blueprint.label>
+  <WaterTowerL_Frame.label>Gran torre de agua (construcción)</WaterTowerL_Frame.label>
+  <WaterTowerL_Frame.description>Almacena el agua para el uso de las instalaciones de fontanería. Si el agua contenida se contamina, el tanque debe ser drenado.</WaterTowerL_Frame.description>
 
-  <WindPump.label>Wind Pump</WindPump.label>
-  <WindPump.description>Pumps water from wells to water towers. Pumping capacity: 3000 L/day</WindPump.description>
-  <WindPump_Blueprint.label>Wind Pump (blueprint)</WindPump_Blueprint.label>
-  <WindPump_Frame.label>Wind Pump (building)</WindPump_Frame.label>
-  <WindPump_Frame.description>Pumps water from wells to water towers. Pumping capacity: 3000 L/day</WindPump_Frame.description>
+  <WindPump.label>Bomba de Eólica</WindPump.label>
+  <WindPump.description>Bombea el agua de los pozos a las torres de agua. Capacidad de bombeo: 3000 L/dia</WindPump.description>
+  <WindPump_blueprint.label>Bomba de Eólica(plano)</WindPump_blueprint.label>
+  <WindPump_Frame.label>Bomba de Eólica(construcción)</WindPump_Frame.label>
+  <WindPump_Frame.description>Bombea el agua de los pozos a las torres de agua. Capacidad de bombeo: 3000 L/dia</WindPump_Frame.description>
 
-  <ElectricPump.label>Electric Pump</ElectricPump.label>
-  <ElectricPump.description>Pumps water from wells to water towers. Pumping capacity: 1500 L/day</ElectricPump.description>
-  <ElectricPump_Blueprint.label>Electric Pump (blueprint)</ElectricPump_Blueprint.label>
-  <ElectricPump_Blueprint_Install.label>Electric Pump (blueprint)</ElectricPump_Blueprint_Install.label>
-  <ElectricPump_Frame.label>Electric Pump (building)</ElectricPump_Frame.label>
-  <ElectricPump_Frame.description>Pumps water from wells to water towers. Pumping capacity: 1500 L/day</ElectricPump_Frame.description>
+  <ElectricPump.label>Bomba eléctrica</ElectricPump.label>
+  <ElectricPump.description>Bombea el agua de los pozos a las torres de agua. Capacidad de bombeo: 1500 L/dia</ElectricPump.description>
+  <ElectricPump_blueprint.label>Bomba eléctrica (plano)</ElectricPump_blueprint.label>
+  <ElectricPump_blueprint_Install.label>Electric Pump (plano)</ElectricPump_blueprint_Install.label>
+  <ElectricPump_Frame.label>Bomba eléctrica(construcción)</ElectricPump_Frame.label>
+  <ElectricPump_Frame.description>Bombea el agua de los pozos a las torres de agua. Capacidad de bombeo: 1500 L/dia</ElectricPump_Frame.description>
 
-  <PumpingStation.label>Pumping Station</PumpingStation.label>
-  <PumpingStation.description>Pumps water from wells to water towers. Pumping capacity: 10000 L/day</PumpingStation.description>
-  <PumpingStation_Blueprint.label>Pumping Station (blueprint)</PumpingStation_Blueprint.label>
-  <PumpingStation_Frame.label>Pumping Station (building)</PumpingStation_Frame.label>
-  <PumpingStation_Frame.description>Pumps water from wells to water towers. Pumping capacity: 10000 L/day</PumpingStation_Frame.description>
+  <PumpingStation.label>Estación de bombeo</PumpingStation.label>
+  <PumpingStation.description>Bombea el agua de los pozos a las torres de agua. Capacidad de bombeo: 10000 L/dia</PumpingStation.description>
+  <PumpingStation_blueprint.label>Estación de bombeo(plano)</PumpingStation_blueprint.label>
+  <PumpingStation_Frame.label>Estación de bombeo(construcción)</PumpingStation_Frame.label>
+  <PumpingStation_Frame.description>Bombea el agua de los pozos a las torres de agua. Capacidad de bombeo: 10000 L/dia</PumpingStation_Frame.description>
 
   <SewageOutlet.label>Desagüe de aguas residuales</SewageOutlet.label>
   <SewageOutlet.description>Desagüe de aguas residuales que puede construirse a lo largo de un río y conectarse a los accesorios del baño.</SewageOutlet.description>
-  <SewageOutlet_Blueprint.label>Desagüe de aguas residuales (plano)</SewageOutlet_Blueprint.label>
+  <SewageOutlet_blueprint.label>Desagüe de aguas residuales (plano)</SewageOutlet_blueprint.label>
   <SewageOutlet_Frame.label>Desagüe de aguas residuales (construcción)</SewageOutlet_Frame.label>
   <SewageOutlet_Frame.description>Desagüe de aguas residuales que puede construirse a lo largo de un río y conectarse a los accesorios del baño.</SewageOutlet_Frame.description>
 
-  <SewageSepticTank.label>Septic Tank</SewageSepticTank.label>
-  <SewageSepticTank.description>Slowly cleans sewage over time. Sewage is directed to septic tanks first. If it reaches full capacity then excess sewage is sent to sewage outlets.</SewageSepticTank.description>
-  <SewageSepticTank_Blueprint.label>Septic Tank (blueprint)</SewageSepticTank_Blueprint.label>
-  <SewageSepticTank_Frame.label>Septic Tank (building)</SewageSepticTank_Frame.label>
-  <SewageSepticTank_Frame.description>Slowly cleans sewage over time. Sewage is directed to septic tanks first. If it reaches full capacity then excess sewage is sent to sewage outlets.</SewageSepticTank_Frame.description>
+  <SewageSepticTank.label>Tanque Séptico</SewageSepticTank.label>
+  <SewageSepticTank.description>Limpia lentamente las aguas residuales con el tiempo. Las aguas residuales se dirigen primero a las fosas sépticas. Si alcanza su máxima capacidad, el exceso de aguas residuales se envía a las salidas de aguas residuales.</SewageSepticTank.description>
+  <SewageSepticTank_blueprint.label>Tanque Séptico(plano)</SewageSepticTank_blueprint.label>
+  <SewageSepticTank_Frame.label>Tanque Séptico(construcción)</SewageSepticTank_Frame.label>
+  <SewageSepticTank_Frame.description>Limpia lentamente las aguas residuales con el tiempo. Las aguas residuales se dirigen primero a las fosas sépticas. Si alcanza su máxima capacidad, el exceso de aguas residuales se envía a las salidas de aguas residuales.</SewageSepticTank_Frame.description>
 
   <SewageTreatment.label>Tratamiento de aguas residuales</SewageTreatment.label>
   <SewageTreatment.description>Limpia lentamente las aguas residuales con el tiempo. Las aguas residuales se dirigen primero a las plantas de tratamiento, donde se elimina el 90%, y el 10% restante se envía a los puntos de desagüe; si alcanzan su plena capacidad, el exceso de aguas residuales se envía directamente a los puntos de desagüe sin tratamiento.</SewageTreatment.description>
-  <SewageTreatment_Blueprint.label>Tratamiento de aguas residuales (plano)</SewageTreatment_Blueprint.label>
+  <SewageTreatment_blueprint.label>Tratamiento de aguas residuales (plano)</SewageTreatment_blueprint.label>
   <SewageTreatment_Frame.label>Tratamiento de aguas residuales (construcción)</SewageTreatment_Frame.label>
   <SewageTreatment_Frame.description>Limpia lentamente las aguas residuales con el tiempo. Las aguas residuales se dirigen primero a las plantas de tratamiento, donde se elimina el 90%, y el 10% restante se envía a los puntos de desagüe; si alcanzan su plena capacidad, el exceso de aguas residuales se envía directamente a los puntos de desagüe sin tratamiento.</SewageTreatment_Frame.description>
 
-  <WaterTreatment.label>Water Treatment</WaterTreatment.label>
-  <WaterTreatment.description>Cleans 99.99% of germs! Filters existing water in storage towers, and any water used by fixtures, eliminating the risk of disease</WaterTreatment.description>
-  <WaterTreatment_Blueprint.label>Water Treatment (blueprint)</WaterTreatment_Blueprint.label>
-  <WaterTreatment_Frame.label>Water Treatment (building)</WaterTreatment_Frame.label>
-  <WaterTreatment_Frame.description>Cleans 99.99% of germs! Filters existing water in storage towers, and any water used by fixtures, eliminating the risk of disease</WaterTreatment_Frame.description>
-
-
-  <!-- Sewage Systems -->
-  <!--<WaterTowerSmall.label>Pequeña torre de agua</WaterTowerSmall.label>-->
-  <!--<WaterTowerSmall.description>Las torres de agua bombean y almacenan el agua subterránea o los ríos para su uso en instalaciones de plomería. Colocado sobre áreas que contienen agua subterránea o junto a ríos, la capacidad se basa en la cantidad de agua en el radio.</WaterTowerSmall.description>-->
-  <!--<WaterTowerSmall_Blueprint.label>Pequeña torre de agua (plano)</WaterTowerSmall_Blueprint.label>-->
-  <!--<WaterTowerSmall_Frame.label>Pequeña torre de agua (construcción)</WaterTowerSmall_Frame.label>-->
-  <!--<WaterTowerSmall_Frame.description>Las torres de agua bombean y almacenan el agua subterránea o los ríos para su uso en instalaciones de plomería. Colocado sobre áreas que contienen agua subterránea o junto a ríos, la capacidad se basa en la cantidad de agua en el radio.</WaterTowerSmall_Frame.description>-->
-  <!--<WaterTower.label>Gran torre de agua</WaterTower.label>-->
-  <!--<WaterTower.description>Las torres de agua bombean y almacenan el agua subterránea o los ríos para su uso en instalaciones de plomería. Colocado sobre áreas que contienen agua subterránea o junto a ríos, la capacidad se basa en la cantidad de agua en el radio.</WaterTower.description>-->
-  <!--<WaterTower_Blueprint.label>Gran torre de agua (plano)</WaterTower_Blueprint.label>-->
-  <!--<WaterTower_Frame.label>Gran torre de agua (construcción)</WaterTower_Frame.label>-->
-  <!--<WaterTower_Frame.description>Las torres de agua bombean y almacenan el agua subterránea o los ríos para su uso en instalaciones de plomería. Colocado sobre áreas que contienen agua subterránea o junto a ríos, la capacidad se basa en la cantidad de agua en el radio.</WaterTower_Frame.description>-->
-  <!--<WaterPumpingStation.label>Estación de bombeo de agua</WaterPumpingStation.label>-->
-  <!--<WaterPumpingStation.description>Bombea agua subterránea o agua de río a torres de almacenamiento para su uso en instalaciones de plomería. Colocado sobre áreas que contienen agua subterránea o junto a ríos, la capacidad se basa en la cantidad de agua en el radio.</WaterPumpingStation.description>-->
-  <!--<WaterPumpingStation_Blueprint.label>Estación de bombeo de agua (plano)</WaterPumpingStation_Blueprint.label>-->
-  <!--<WaterPumpingStation_Frame.label>Estación de bombeo de agua (construcción)</WaterPumpingStation_Frame.label>-->
-  <!--<WaterPumpingStation_Frame.description>Bombea agua subterránea o agua de río a torres de almacenamiento para su uso en instalaciones de plomería. Colocado sobre áreas que contienen agua subterránea o junto a ríos, la capacidad se basa en la cantidad de agua en el radio.</WaterPumpingStation_Frame.description>-->
-  <!--<WaterFiltration.label>Filtración de agua</WaterFiltration.label>-->
-  <!--<WaterFiltration.description></WaterFiltration.description>-->
-  <!--<WaterFiltration_Blueprint.label>Filtración de agua (plano)</WaterFiltration_Blueprint.label>-->
-  <!--<WaterFiltration_Frame.label>Filtración de agua (construcción)</WaterFiltration_Frame.label>-->
-  <!--<WaterFiltration_Frame.description></WaterFiltration_Frame.description>-->
+  <WaterTreatment.label>Tratamiento del agua</WaterTreatment.label>
+  <WaterTreatment.description>Limpia el 99.99% de los gérmenes! Filtra el agua existente en las torres de almacenamiento, y cualquier agua utilizada por las instalaciones, eliminando el riesgo de enfermedades</WaterTreatment.description>
+  <WaterTreatment_blueprint.label>Tratamiento del agua(plano)</WaterTreatment_blueprint.label>
+  <WaterTreatment_Frame.label>Tratamiento del agua(construcción)</WaterTreatment_Frame.label>
+  <WaterTreatment_Frame.description>Limpia el 99.99% de los gérmenes! Filtra el agua existente en las torres de almacenamiento, y cualquier agua utilizada por las instalaciones, eliminando el riesgo de enfermedades</WaterTreatment_Frame.description>
 
 </LanguageData>

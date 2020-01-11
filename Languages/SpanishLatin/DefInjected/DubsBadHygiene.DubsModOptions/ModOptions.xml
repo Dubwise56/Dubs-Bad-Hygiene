@@ -6,8 +6,8 @@
   <PipeVisibility.options.1.label>Escondido bajo el suelo</PipeVisibility.options.1.label>
   <PipeVisibility.options.2.label>Siempre visible</PipeVisibility.options.2.label>
 
-  <HygieneRateD.label>Hygiene need rate</HygieneRateD.label>
-  <HygieneRateD.options.0.label>Cheat</HygieneRateD.options.0.label>
+  <HygieneRateD.label>Necesidad de higiene</HygieneRateD.label>
+  <HygieneRateD.options.0.label>Truco</HygieneRateD.options.0.label>
   <HygieneRateD.options.1.label>10%</HygieneRateD.options.1.label>
   <HygieneRateD.options.2.label>20%</HygieneRateD.options.2.label>
   <HygieneRateD.options.3.label>30%</HygieneRateD.options.3.label>
@@ -28,8 +28,8 @@
   <HygieneRateD.options.18.label>500%</HygieneRateD.options.18.label>
   <HygieneRateD.options.19.label>1000%</HygieneRateD.options.19.label>
 
-  <BladderRateD.label>Bladder need rate</BladderRateD.label>
-  <BladderRateD.options.0.label>Cheat</BladderRateD.options.0.label>
+  <BladderRateD.label>Tasa de necesidad de vejiga</BladderRateD.label>
+  <BladderRateD.options.0.label>Truco</BladderRateD.options.0.label>
   <BladderRateD.options.1.label>10%</BladderRateD.options.1.label>
   <BladderRateD.options.2.label>20%</BladderRateD.options.2.label>
   <BladderRateD.options.3.label>30%</BladderRateD.options.3.label>
@@ -50,8 +50,8 @@
   <BladderRateD.options.18.label>500%</BladderRateD.options.18.label>
   <BladderRateD.options.19.label>1000%</BladderRateD.options.19.label>
 
-  <FlushSize.label>Flush size</FlushSize.label>
-  <FlushSize.options.0.label>Cheat</FlushSize.options.0.label>
+  <FlushSize.label>Tamaño del sistema de descarga</FlushSize.label>
+  <FlushSize.options.0.label>Truco</FlushSize.options.0.label>
   <FlushSize.options.1.label>25%</FlushSize.options.1.label>
   <FlushSize.options.2.label>50%</FlushSize.options.2.label>
   <FlushSize.options.3.label>100%</FlushSize.options.3.label>
@@ -59,8 +59,8 @@
   <FlushSize.options.5.label>200%</FlushSize.options.5.label>
   <FlushSize.options.6.label>250%</FlushSize.options.6.label>
 
-  <ThirstRateD.label>Thirst need rate</ThirstRateD.label>
-  <ThirstRateD.options.0.label>Cheat</ThirstRateD.options.0.label>
+  <ThirstRateD.label>Tasa de necesidad de sed</ThirstRateD.label>
+  <ThirstRateD.options.0.label>Truco</ThirstRateD.options.0.label>
   <ThirstRateD.options.1.label>10%</ThirstRateD.options.1.label>
   <ThirstRateD.options.2.label>20%</ThirstRateD.options.2.label>
   <ThirstRateD.options.3.label>30%</ThirstRateD.options.3.label>
@@ -81,8 +81,8 @@
   <ThirstRateD.options.18.label>500%</ThirstRateD.options.18.label>
   <ThirstRateD.options.19.label>1000%</ThirstRateD.options.19.label>
 
-  <ContaminationChance.label>Contamination chance</ContaminationChance.label>
-  <ContaminationChance.options.0.label>Cheat</ContaminationChance.options.0.label>
+  <ContaminationChance.label>Posibilidad de contaminación</ContaminationChance.label>
+  <ContaminationChance.options.0.label>Truco</ContaminationChance.options.0.label>
   <ContaminationChance.options.1.label>10%</ContaminationChance.options.1.label>
   <ContaminationChance.options.2.label>25%</ContaminationChance.options.2.label>
   <ContaminationChance.options.3.label>50%</ContaminationChance.options.3.label>
@@ -93,7 +93,7 @@
   <ContaminationChance.options.8.label>200%</ContaminationChance.options.8.label>
 
   <WaterPumpCapacity.label>Capacidad de bombeo de agua</WaterPumpCapacity.label>
-  <WaterPumpCapacity.options.0.label>Cheat</WaterPumpCapacity.options.0.label>
+  <WaterPumpCapacity.options.0.label>Truco</WaterPumpCapacity.options.0.label>
   <WaterPumpCapacity.options.1.label>200%</WaterPumpCapacity.options.1.label>
   <WaterPumpCapacity.options.2.label>100%</WaterPumpCapacity.options.2.label>
   <WaterPumpCapacity.options.3.label>50%</WaterPumpCapacity.options.3.label>
@@ -102,7 +102,7 @@
   <WaterPumpCapacity.options.6.label>25%</WaterPumpCapacity.options.6.label>
 
   <WaterHeatingRate.label>Uso de agua caliente</WaterHeatingRate.label>
-  <WaterHeatingRate.options.0.label>Cheat</WaterHeatingRate.options.0.label>
+  <WaterHeatingRate.options.0.label>Truco</WaterHeatingRate.options.0.label>
   <WaterHeatingRate.options.1.label>50%</WaterHeatingRate.options.1.label>
   <WaterHeatingRate.options.2.label>100%</WaterHeatingRate.options.2.label>
   <WaterHeatingRate.options.3.label>150%</WaterHeatingRate.options.3.label>
@@ -111,7 +111,7 @@
   <WaterHeatingRate.options.6.label>200%</WaterHeatingRate.options.6.label>
 
   <SewageGridCapacity.label>Límite de aguas residuales por celda</SewageGridCapacity.label>
-  <SewageGridCapacity.options.0.label>Cheat</SewageGridCapacity.options.0.label>
+  <SewageGridCapacity.options.0.label>Truco</SewageGridCapacity.options.0.label>
   <SewageGridCapacity.options.1.label>Facil</SewageGridCapacity.options.1.label>
   <SewageGridCapacity.options.2.label>Normal</SewageGridCapacity.options.2.label>
   <SewageGridCapacity.options.3.label>Dificil</SewageGridCapacity.options.3.label>
@@ -119,8 +119,8 @@
   <SewageGridCapacity.options.5.label>60%</SewageGridCapacity.options.5.label>
   <SewageGridCapacity.options.6.label>20%</SewageGridCapacity.options.6.label>
 
-  <SewageCleanupRateB.label>Sewage cleanup rate</SewageCleanupRateB.label>
-  <SewageCleanupRateB.options.0.label>Cheat</SewageCleanupRateB.options.0.label>
+  <SewageCleanupRateB.label>Tasa de limpieza de aguas residuales</SewageCleanupRateB.label>
+  <SewageCleanupRateB.options.0.label>Truco</SewageCleanupRateB.options.0.label>
   <SewageCleanupRateB.options.1.label>300%</SewageCleanupRateB.options.1.label>
   <SewageCleanupRateB.options.2.label>200%</SewageCleanupRateB.options.2.label>
   <SewageCleanupRateB.options.3.label>150%</SewageCleanupRateB.options.3.label>
@@ -133,7 +133,7 @@
   <SewageCleanupRateB.options.10.label>0%</SewageCleanupRateB.options.10.label>
 
   <SewageProcRate.label>Tasa de tratamiento de aguas residuales</SewageProcRate.label>
-  <SewageProcRate.options.0.label>Cheat</SewageProcRate.options.0.label>
+  <SewageProcRate.options.0.label>Truco</SewageProcRate.options.0.label>
   <SewageProcRate.options.1.label>200%</SewageProcRate.options.1.label>
   <SewageProcRate.options.2.label>100%</SewageProcRate.options.2.label>
   <SewageProcRate.options.3.label>75%</SewageProcRate.options.3.label>
@@ -143,8 +143,8 @@
   <SewageProcRate.options.7.label>25%</SewageProcRate.options.7.label>
   <SewageProcRate.options.8.label>10%</SewageProcRate.options.8.label>
 
-  <IrrigationGridStrength.label>Irrigation strength</IrrigationGridStrength.label>
-  <IrrigationGridStrength.options.0.label>Cheat</IrrigationGridStrength.options.0.label>
+  <IrrigationGridStrength.label>Fuerza de irrigación</IrrigationGridStrength.label>
+  <IrrigationGridStrength.options.0.label>Truco</IrrigationGridStrength.options.0.label>
   <IrrigationGridStrength.options.1.label>240%</IrrigationGridStrength.options.1.label>
   <IrrigationGridStrength.options.2.label>220%</IrrigationGridStrength.options.2.label>
   <IrrigationGridStrength.options.3.label>200%</IrrigationGridStrength.options.3.label>
@@ -154,8 +154,8 @@
   <IrrigationGridStrength.options.7.label>120%</IrrigationGridStrength.options.7.label>
   <IrrigationGridStrength.options.8.label>110%</IrrigationGridStrength.options.8.label>
 
-  <FertilizerGridStrength.label>Fertilizer strength</FertilizerGridStrength.label>
-  <FertilizerGridStrength.options.0.label>Cheat</FertilizerGridStrength.options.0.label>
+  <FertilizerGridStrength.label>Fuerza del fertilizante</FertilizerGridStrength.label>
+  <FertilizerGridStrength.options.0.label>Truco</FertilizerGridStrength.options.0.label>
   <FertilizerGridStrength.options.1.label>160%</FertilizerGridStrength.options.1.label>
   <FertilizerGridStrength.options.2.label>140%</FertilizerGridStrength.options.2.label>
   <FertilizerGridStrength.options.3.label>120%</FertilizerGridStrength.options.3.label>
@@ -165,8 +165,8 @@
   <FertilizerGridStrength.options.7.label>104%</FertilizerGridStrength.options.7.label>
   <FertilizerGridStrength.options.8.label>102%</FertilizerGridStrength.options.8.label>
 
-  <TerrainFertilityFactor.label>Base Terrain Fertility</TerrainFertilityFactor.label>
-  <TerrainFertilityFactor.options.0.label>Cheat</TerrainFertilityFactor.options.0.label>
+  <TerrainFertilityFactor.label>Fertilidad del terreno base</TerrainFertilityFactor.label>
+  <TerrainFertilityFactor.options.0.label>Truco</TerrainFertilityFactor.options.0.label>
   <TerrainFertilityFactor.options.1.label>180%</TerrainFertilityFactor.options.1.label>
   <TerrainFertilityFactor.options.2.label>140%</TerrainFertilityFactor.options.2.label>
   <TerrainFertilityFactor.options.3.label>120%</TerrainFertilityFactor.options.3.label>
@@ -178,24 +178,5 @@
   <TerrainFertilityFactor.options.9.label>40%</TerrainFertilityFactor.options.9.label>
   <TerrainFertilityFactor.options.10.label>20%</TerrainFertilityFactor.options.10.label>
 
-
-  <!--<HygieneRate.label>Tasa de necesidad de higiene</HygieneRate.label>-->
-  <!--<HygieneRate.options.0.label>Cheat</HygieneRate.options.0.label>-->
-  <!--<HygieneRate.options.1.label>50%</HygieneRate.options.1.label>-->
-  <!--<HygieneRate.options.2.label>100%</HygieneRate.options.2.label>-->
-  <!--<HygieneRate.options.3.label>150%</HygieneRate.options.3.label>-->
-  <!--<HygieneRate.options.4.label>200%</HygieneRate.options.4.label>-->
-  <!--<BladderRate.label>Tasa de necesidad de la vejiga</BladderRate.label>-->
-  <!--<BladderRate.options.0.label>Cheat</BladderRate.options.0.label>-->
-  <!--<BladderRate.options.1.label>50%</BladderRate.options.1.label>-->
-  <!--<BladderRate.options.2.label>100%</BladderRate.options.2.label>-->
-  <!--<BladderRate.options.3.label>150%</BladderRate.options.3.label>-->
-  <!--<BladderRate.options.4.label>200%</BladderRate.options.4.label>-->
-  <!--<SewageCleanupRate.label>Tasa de limpieza de alcantarillado</SewageCleanupRate.label>-->
-  <!--<SewageCleanupRate.options.0.label>Cheat</SewageCleanupRate.options.0.label>-->
-  <!--<SewageCleanupRate.options.1.label>Facil</SewageCleanupRate.options.1.label>-->
-  <!--<SewageCleanupRate.options.2.label>Normal</SewageCleanupRate.options.2.label>-->
-  <!--<SewageCleanupRate.options.3.label>Dificil</SewageCleanupRate.options.3.label>-->
-  <!--<SewageCleanupRate.options.4.label>Extremo</SewageCleanupRate.options.4.label>-->
 
 </LanguageData>

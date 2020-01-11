@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <DrankCleanWater.stages.0.label>Refreshed</DrankCleanWater.stages.0.label>
-  <DrankCleanWater.stages.0.description>Drank refreshing clean water</DrankCleanWater.stages.0.description>
+  <DrankCleanWater.stages.0.label>Refrescado</DrankCleanWater.stages.0.label>
+  <DrankCleanWater.stages.0.description>Bebió agua limpia y refrescante</DrankCleanWater.stages.0.description>
 
-  <DrankDirtyWater.stages.0.label>Drank filthy water</DrankDirtyWater.stages.0.label>
-  <DrankDirtyWater.stages.0.description>Drank a bottle of contaminated water</DrankDirtyWater.stages.0.description>
+  <DrankDirtyWater.stages.0.label>Bebió agua sucia</DrankDirtyWater.stages.0.label>
+  <DrankDirtyWater.stages.0.description>Bebió una botella de agua contaminada</DrankDirtyWater.stages.0.description>
 
   <DrankUrine.stages.0.label>Bebió orina</DrankUrine.stages.0.label>
   <DrankUrine.stages.0.description>Bebí mi propia orina.</DrankUrine.stages.0.description>
@@ -56,9 +56,5 @@
   <UsedPrivateBathroom.stages.7.description>Mi baño es extremadamente impresionante. ¡Este es el mejor lugar del mundo!</UsedPrivateBathroom.stages.7.description>
   <UsedPrivateBathroom.stages.8.label>Un baño increíblemente impresionante</UsedPrivateBathroom.stages.8.label>
   <UsedPrivateBathroom.stages.8.description>Mi baño es increíblemente impresionante. ¡Este es el mejor lugar del mundo!</UsedPrivateBathroom.stages.8.description>
-
-
-  <!--<UsedPrivateBathroom.stages.9.label>Un baño maravillosamente impresionante</UsedPrivateBathroom.stages.9.label>-->
-  <!--<UsedPrivateBathroom.stages.9.description>Mi baño es el mejor lugar que uno pueda imaginar. Es maravilloso.</UsedPrivateBathroom.stages.9.description>-->
 
 </LanguageData>

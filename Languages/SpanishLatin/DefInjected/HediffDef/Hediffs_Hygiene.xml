@@ -9,10 +9,10 @@
   <BadHygiene.stages.1.label>Sucio</BadHygiene.stages.1.label>
   <BadHygiene.stages.2.label>Asqueroso</BadHygiene.stages.2.label>
 
-  <Diarrhea.label>Diarrhea</Diarrhea.label>
-  <Diarrhea.stages.0.label>recovering</Diarrhea.stages.0.label>
-  <Diarrhea.stages.1.label>major</Diarrhea.stages.1.label>
-  <Diarrhea.stages.2.label>initial</Diarrhea.stages.2.label>
+  <Diarrhea.label>Diarrea</Diarrhea.label>
+  <Diarrhea.stages.0.label>Recuperando</Diarrhea.stages.0.label>
+  <Diarrhea.stages.1.label>Mayor</Diarrhea.stages.1.label>
+  <Diarrhea.stages.2.label>Inicial</Diarrhea.stages.2.label>
 
   <Dysentery.label>Disentería</Dysentery.label>
   <Dysentery.stages.0.label>Menor (oculto)</Dysentery.stages.0.label>
@@ -25,16 +25,11 @@
   <Cholera.stages.2.label>Mayor</Cholera.stages.2.label>
   <Cholera.stages.3.label>Extremo</Cholera.stages.3.label>
 
-  <DBHDehydration.label>dehydration</DBHDehydration.label>
-  <DBHDehydration.stages.0.label>trivial</DBHDehydration.stages.0.label>
-  <DBHDehydration.stages.1.label>minor</DBHDehydration.stages.1.label>
-  <DBHDehydration.stages.2.label>moderate</DBHDehydration.stages.2.label>
-  <DBHDehydration.stages.3.label>severe</DBHDehydration.stages.3.label>
-  <DBHDehydration.stages.4.label>extreme</DBHDehydration.stages.4.label>
-
-
-  <!--<IBS.label>Intestinos irritables</IBS.label>-->
-  <!--<IBS.labelNoun>IBS</IBS.labelNoun>-->
-  <!--<Dysentery.stages.3.label>Extremo</Dysentery.stages.3.label>-->
+  <DBHDehydration.label>Deshidratación</DBHDehydration.label>
+  <DBHDehydration.stages.0.label>Trivial</DBHDehydration.stages.0.label>
+  <DBHDehydration.stages.1.label>Menor</DBHDehydration.stages.1.label>
+  <DBHDehydration.stages.2.label>Moderado</DBHDehydration.stages.2.label>
+  <DBHDehydration.stages.3.label>Severo</DBHDehydration.stages.3.label>
+  <DBHDehydration.stages.4.label>Extremo</DBHDehydration.stages.4.label>
 
 </LanguageData>

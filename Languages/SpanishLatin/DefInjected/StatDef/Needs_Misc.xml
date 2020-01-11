@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <ThirstRateMultiplier.label>Thirst rate multiplier</ThirstRateMultiplier.label>
-  <ThirstRateMultiplier.description>A multiplier on how quickly a creature becomes thirsty.</ThirstRateMultiplier.description>
+  <ThirstRateMultiplier.label>Multiplicador de la tasa de sed</ThirstRateMultiplier.label>
+  <ThirstRateMultiplier.description>Un multiplicador de la rapidez con la que una criatura se vuelve sedienta.</ThirstRateMultiplier.description>
 
 
 </LanguageData>

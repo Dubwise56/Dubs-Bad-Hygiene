@@ -1,19 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <!-- <WorkGiverDef>
-    <defName>LoadFridge</defName>
-    <label>load fridge</label>
-    <giverClass>DubsBadHygiene.WorkGiver_FridgeLoad</giverClass>
-    <workType>Hauling</workType>
-    <verb>load fridge</verb>
-    <gerund>loading fridge</gerund>
-    <priorityInType>22</priorityInType>
-    <requiredCapacities>
-      <li>Manipulation</li>
-    </requiredCapacities>
-  </WorkGiverDef> -->
-
   <DoBillsBurnPit.label>Quemar los desechos del pozo</DoBillsBurnPit.label>
   <DoBillsBurnPit.verb>quemar</DoBillsBurnPit.verb>
   <DoBillsBurnPit.gerund>quemando</DoBillsBurnPit.gerund>
@@ -22,13 +9,13 @@
   <RemoveSewage.verb>eliminar las aguas residuales</RemoveSewage.verb>
   <RemoveSewage.gerund>eliminación de aguas residuales</RemoveSewage.gerund>
 
-  <UnloadWashing.label>unload washing</UnloadWashing.label>
-  <UnloadWashing.verb>unload washing</UnloadWashing.verb>
-  <UnloadWashing.gerund>unloading washing</UnloadWashing.gerund>
+  <UnloadWashing.label>Descarga de lavado</UnloadWashing.label>
+  <UnloadWashing.verb>Descarga de lavado</UnloadWashing.verb>
+  <UnloadWashing.gerund>descargando el lavado</UnloadWashing.gerund>
 
-  <LoadWashing.label>load washing</LoadWashing.label>
-  <LoadWashing.verb>load washing</LoadWashing.verb>
-  <LoadWashing.gerund>loading washing</LoadWashing.gerund>
+  <LoadWashing.label>Carga de lavado</LoadWashing.label>
+  <LoadWashing.verb>Carga de lavado</LoadWashing.verb>
+  <LoadWashing.gerund>cargando lavado</LoadWashing.gerund>
 
   <UnloadComposter.label>sacar el abono del compostador</UnloadComposter.label>
   <UnloadComposter.verb>llevar abono</UnloadComposter.verb>
@@ -38,17 +25,17 @@
   <FillComposter.verb>rellenar</FillComposter.verb>
   <FillComposter.gerund>rellenando</FillComposter.gerund>
 
-  <emptySepticTank.label>Empty Septic Tank</emptySepticTank.label>
-  <emptySepticTank.verb>empty</emptySepticTank.verb>
-  <emptySepticTank.gerund>emptying</emptySepticTank.gerund>
+  <emptySepticTank.label>Vaciar tanque séptico</emptySepticTank.label>
+  <emptySepticTank.verb>vaciar</emptySepticTank.verb>
+  <emptySepticTank.gerund>vaciando</emptySepticTank.gerund>
 
   <emptyLatrine.label>Vaciar letrina</emptyLatrine.label>
   <emptyLatrine.verb>vaciar</emptyLatrine.verb>
   <emptyLatrine.gerund>vaciando</emptyLatrine.gerund>
 
-  <RefillTub.label>Refill Tub</RefillTub.label>
-  <RefillTub.verb>refill</RefillTub.verb>
-  <RefillTub.gerund>refilling</RefillTub.gerund>
+  <RefillTub.label>Rellenar la bañera</RefillTub.label>
+  <RefillTub.verb>rellenar</RefillTub.verb>
+  <RefillTub.gerund>rellenando</RefillTub.gerund>
 
 
 </LanguageData>
