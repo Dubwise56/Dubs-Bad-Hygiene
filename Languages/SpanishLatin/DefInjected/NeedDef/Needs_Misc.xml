@@ -7,5 +7,8 @@
   <Hygiene.label>Higiene</Hygiene.label>
   <Hygiene.description>Una buena higiene personal es importante para reducir el riesgo de enfermedades y mantener contentos a los colonos.\n\nMod Setting: </Hygiene.description>
 
+  <DBHThirst.label>Sed</DBHThirst.label>
+  <DBHThirst.description>El agua es necesaria para muchos de los procesos fisiológicos de la vida. Si esto llega a cero, entonces la criatura morirá lentamente de deshidratación</DBHThirst.description>
+
 
 </LanguageData>
