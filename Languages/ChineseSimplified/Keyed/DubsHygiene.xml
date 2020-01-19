@@ -1,175 +1,230 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
+  <!--New-->
+  <AllowModdedDrinks>允许mod饮料</AllowModdedDrinks>
+  <AllowModdedDrinksTip>允许目标饮用和携带mod饮料来满足饮水需求\n默认情况下已支持联动菜园子（VGP）和边缘美食（RimCuisine），其他mod需要对def进行扩展</AllowModdedDrinksTip>
+  <AllowDrinkPacking>携带水壶</AllowDrinkPacking>
+  <AllowDrinkPackingTip>允许目标在远行时将水壶自动带在身上\n\n可能不适用于某些mod，对于战斗扩展（CombatExtended），你需要手动管理目标身上的物品以使其携带水壶，否则水壶会被不断丢弃</AllowDrinkPackingTip>
+  <NeedsFilter>需求过滤器</NeedsFilter>
+  <MainFeatures>主要功能</MainFeatures>
+  <ExperimentalFeatures>实验性功能</ExperimentalFeatures>
+  <DBHFalloutWarning>辐射水污染</DBHFalloutWarning>
+  <DBHFalloutWarningEx>有毒尘埃持续2天后，有毒沉积物会污染与水井相连的所有蓄水设备。\n\n为了避免上述情况，你需要提前用阀门断开水井的连接，用储存的水渡过难关。\n\n你也可以使用深水井获取未受污染的水，或安装水处理设施来过滤污染物。</DBHFalloutWarningEx>
+  <AllowAltDes>允许修改类别</AllowAltDes>
+  <AllowAltDesTip>允许其他mod更改建筑规划菜单里的指定类别</AllowAltDesTip>
+  <RainIrrigation>雨水灌溉</RainIrrigation>
+  <RainIrrigationTip>雨水会有与喷淋头相同的灌溉效果，但会降低游戏性能</RainIrrigationTip>
+  <GrowingZoneNotAllowed>种植区域播种已禁用</GrowingZoneNotAllowed>
+  <NoFertilizerFound>未找到肥料</NoFertilizerFound>
+  <AreaPlaceFertilizer>肥料区域</AreaPlaceFertilizer>
+  <AreaPlaceFertilizerDesc>划定施用肥料的区域</AreaPlaceFertilizerDesc>
+  <AddFertilizerArea>添加区域</AddFertilizerArea>
+  <RemoveFertilizerArea>删除区域</RemoveFertilizerArea>
+  <StockpileWater>库存水x{0}</StockpileWater>
+  <HygieneWiki>卫生与温控 Wiki</HygieneWiki>
+  <HygieneWikiDesc>打开卫生与温控的维基页面</HygieneWikiDesc>
+  <SurvivalMode>生存模式</SurvivalMode>
+  <SurvivalModeTip>大幅缩小浅层地下水和围绕地表水的地下水面积\n\n不需要重新开始新游戏。</SurvivalModeTip>
+  <HydroponicsLink>水栽培联动</HydroponicsLink>
+  <HydroponicsLinkTip>水栽培植物盆需要管道连接水箱以获得水，水箱只有在通电状态下才能供水，水栽培的植物只会因缺水而不会因为断电而死亡。</HydroponicsLinkTip>
+  <ThirstRequiresRestart>只有重启游戏才能添加或删除与饮水相关的内容\n\n立即重启？</ThirstRequiresRestart>
+
   <!--Construction-->
   <DesignatorRemovePlumbing>拆除管道</DesignatorRemovePlumbing>
-  <DesignatorRemovePlumbingDesc>指定一种管道类型来拆除</DesignatorRemovePlumbingDesc>
-  <RemoveSewage>清理污水</RemoveSewage>
-  <RemoveSewageDesc>把地上的污水舀起来放到桶里</RemoveSewageDesc>
-  <RemovePlumbing>移除管道</RemovePlumbing>
-  <RemoveAirCon>拆除空调机组</RemoveAirCon>
-  <DesignatorPaintFixtures>上色</DesignatorPaintFixtures>
-  <DesignatorPaintFixturesDesc>给浴室设备或者供暖设备上色, 或者去掉颜色</DesignatorPaintFixturesDesc>
-  <PaintFixtures>上漆</PaintFixtures>
-  <StripPaint>除去颜色</StripPaint>
+  <DesignatorRemovePlumbingDesc>拆解指定的管道</DesignatorRemovePlumbingDesc>
+  <RemoveSewage>清除污水</RemoveSewage>
+  <RemoveSewageDesc>清除地面的污水并将其放入桶中</RemoveSewageDesc>
+  <RemovePlumbing>拆除管道</RemovePlumbing>
+  <RemoveAirCon>拆除通风管道</RemoveAirCon>
+  <DesignatorPaintFixtures>油漆装置</DesignatorPaintFixtures>
+  <DesignatorPaintFixturesDesc>为浴室装置和散热器上色或去色</DesignatorPaintFixturesDesc>
+  <PaintFixtures>油漆上色</PaintFixtures>
+  <StripPaint>油漆去色</StripPaint>
 
+  
+  
   <!--Warnings-->
-  <NotOwned>使用限制</NotOwned>
-  <GenderRestricted>仅限 {0}</GenderRestricted>
+  <Alert_MissingTower>缺少水塔</Alert_MissingTower>
+  <Alert_MissingTowerDesc>需要一座水塔或一个集水桶来储存抽出的水</Alert_MissingTowerDesc>
+  <Alert_MissingWell>缺少水井</Alert_MissingWell>
+  <Alert_MissingWellDesc>需要水井才能抽水</Alert_MissingWellDesc>
+  <Alert_MissingPump>缺少水泵</Alert_MissingPump>
+  <Alert_MissingPumpDesc>需要水泵才能抽水</Alert_MissingPumpDesc>
+
+  <LowCoolingCap>制冷量低，请提高室外机的功率</LowCoolingCap>
+  <NotOwned>访问受限</NotOwned>
+  <GenderRestricted>仅限{0}</GenderRestricted>
   <PrisonersOnly>仅限囚犯</PrisonersOnly>
   <BlockedSewage>排污口堵塞</BlockedSewage>
-  <BlockedSewageDesc>污水在排污口周围聚集，堵住了出口。.\n\n建造更多的排污口或者更多的肥料组成机以缓解排污口的压力.</BlockedSewageDesc>
+  <BlockedSewageDesc>排污口被垃圾堵塞，污水在周围蔓延。\n\n建造更多出水口或用化粪池提供缓冲区，降低排污压力。</BlockedSewageDesc>
   <LowWaterTemp>水温低</LowWaterTemp>
-  <LowWaterTempDesc>水箱里的水温太低了, 你的小人如果用了这些水会变得不开心.\n\n把锅炉打开，提高加热的能力或者再造一个热水箱.</LowWaterTempDesc>
+  <LowWaterTempDesc>水箱的水温太低，这会让希望使用热水的殖民者感到恼火。n\n开启锅炉提高供暖效力或增加更多的水箱，确保热水消耗。</LowWaterTempDesc>
+  <WellNeedsWater>必须放在有地下水的区域上</WellNeedsWater>
+  <AssigningRequiresRoom>装置必须放在室内</AssigningRequiresRoom>
+  <NoWaterTowers>需要水塔</NoWaterTowers>
+  <AssigningRequiresBladderNeed>指定任务需要膀胱需求，{0}没有相关需求</AssigningRequiresBladderNeed>
 
-  <AssigningRequiresBladderNeed>指派的行为需要“膀胱需求”, {0} 还没有这个需求</AssigningRequiresBladderNeed>
+  <NoCompostingMaterial>缺少堆肥材料</NoCompostingMaterial>
+  <Nowater>缺少蓄水设备</Nowater>
+  <Nosewage>缺少排污设备</Nosewage>
+  <RequiresPlumbing>需要管道</RequiresPlumbing>
+  <AccessRestricted>无法到达</AccessRestricted>
 
-  <NoCompostingMaterial>没有堆肥材料</NoCompostingMaterial>
-  <Nowater>水箱没有蓄水</Nowater>
-  <Nosewage>没有污水</Nosewage>
-  <RequiresPlumbing>需要管道连接</RequiresPlumbing>
-  <AccessRestricted>使用限制</AccessRestricted>
-
-  <TooHot>太热了: x{0}</TooHot>
-  <InRain>在淋雨: x{0}</InRain>
-  <PhysicalActivity>Exertion: x{0}</PhysicalActivity>
+  <TooHot>太热: x{0}</TooHot>
+  <InRain>淋雨: x{0}</InRain>
+  <PhysicalActivity>效能: x{0}</PhysicalActivity>
   <FilthyRoom>房间: x{0}</FilthyRoom>
-  <TotalHygieneStat>总共: x{0}</TotalHygieneStat>
-  <DirtyHands>脏手 - 疾病风险</DirtyHands>
-  <Contaminated>肮脏的 - 疾病风险</Contaminated>
+  <TotalHygieneStat>总和: x{0}</TotalHygieneStat>
+  <DirtyHands>肮脏的手 - 疾病风险</DirtyHands>
+  <Contaminated>污染 - 疾病风险</Contaminated>
 
-  <LetterLabelBlockedDrain>排水受阻</LetterLabelBlockedDrain>
-  <LetterBlockedDrain>一段排水受阻了, 必须有人处理阻塞.</LetterBlockedDrain>
+  <LetterLabelBlockedDrain>下水道堵塞</LetterLabelBlockedDrain>
+  <LetterBlockedDrain>排水管堵塞，需要清洁工疏通清理。</LetterBlockedDrain>
 
-  <ContaminationAlert>受污染的水</ContaminationAlert>
-  <ContaminationAlertDesc>一个水源被污染了，这将会污染到你的水塔以及蓄水</ContaminationAlertDesc>
-  <ContaminatiedTowerAlert>受污染的水塔</ContaminatiedTowerAlert>
-  <ContaminatiedTowerAlertDesc>一个水塔被污染了,这对你的小人健康造成了很高的风险!移动你的水塔,排干他们的蓄水,或者建造一个水处理设备</ContaminatiedTowerAlertDesc>
+  <ContaminationAlert>水污染</ContaminationAlert>
+  <ContaminationAlertDesc>水源被污染，蓄水设备储存的水可能会受影响。</ContaminationAlertDesc>
+  <ContaminatiedTowerAlert>蓄水设备受污染</ContaminatiedTowerAlert>
+  <ContaminatiedTowerAlertDesc>一个蓄水设备受到污染，这将对殖民者健康构成严重威胁！请移动水塔、排污口或建立水处理系统。</ContaminatiedTowerAlertDesc>
 
-  <MessageHygieneDisease>{0} 患上了 {1} 因为脏水和糟糕的卫生</MessageHygieneDisease>
-  <MessageWaterDisease>{0}患上了 {1} 因为脏水和未清洗的手</MessageWaterDisease>
-
+  <MessageHygieneDisease>由于接触脏水和处于糟糕的卫生环境，{0}染上了{1}</MessageHygieneDisease>
+  <MessageWaterDisease>由于接触脏水或不洗手，{0}染上了{1}</MessageWaterDisease>
+  
   <!--Restrictions-->
-  <ChangeGenderRestriction>改变性别的限制</ChangeGenderRestriction>
-  <CommandFixtureSetAsMedicalLabel>医疗专用</CommandFixtureSetAsMedicalLabel>
-  <CommandFixtureSetAsMedicalDesc>这个设备仅限病人使用</CommandFixtureSetAsMedicalDesc>
+  <ChangeGenderRestriction>改变性别限制</ChangeGenderRestriction>
+  <CommandFixtureSetAsMedicalLabel>医用</CommandFixtureSetAsMedicalLabel>
+  <CommandFixtureSetAsMedicalDesc>仅限病人使用</CommandFixtureSetAsMedicalDesc>
   <PatientsOnly>仅限病人</PatientsOnly>
-  <AttackHelicopter>武装直升机</AttackHelicopter>
-  <Unisex>男女皆宜</Unisex>
-  <ConnectFixturesToBed>与床连接</ConnectFixturesToBed>
-  <ConnectFixturesToBedDesc>把这个设备与床相连以保存其所有权</ConnectFixturesToBedDesc>
-  <CancelConnectFixturesToBed>清除连接</CancelConnectFixturesToBed>
-  <CancelConnectFixturesToBedDesc>清除与床的连接</CancelConnectFixturesToBedDesc>
+  <AttackHelicopter>攻击直升机</AttackHelicopter>
+  <Unisex>不分性别</Unisex>
+  <ConnectFixturesToBed>连接床</ConnectFixturesToBed>
+  <ConnectFixturesToBedDesc>连接到附近的床上以确定所有权</ConnectFixturesToBedDesc>
+  <CancelConnectFixturesToBed>取消连接</CancelConnectFixturesToBed>
+  <CancelConnectFixturesToBedDesc>取消与床的连接</CancelConnectFixturesToBedDesc>
 
 
   <!--Heating-->
   <WaterTemp>水温: {0}</WaterTemp>
-  <ConnectedHeatingCapacity>已连接的加热单元: {0} U ({1})</ConnectedHeatingCapacity>
-  <ConnectedCoolingCapacity>已连接的冷却单元: {0} U ({1})</ConnectedCoolingCapacity>
-  <HeatingUnits>加热消耗: {0} U</HeatingUnits>
-  <CoolingUnits>冷却消耗: {0} U</CoolingUnits>
-  <HeatingMode>加热单元/电力: {0} U / {1} W</HeatingMode>
-  <CoolingMode>冷却单元/电力: {0} U / {1} W</CoolingMode>
-  <CoolingEfficiencyGood>效率: {0}</CoolingEfficiencyGood>
-  <CoolingEfficiencyBad>效率: {0} 过热</CoolingEfficiencyBad>
-  <TargetTemp>最小温度: {0}</TargetTemp>
+  <ConnectedHeatingCapacity>已连接加热: {0} U ({1})</ConnectedHeatingCapacity>
+  <ConnectedCoolingCapacity>已连接制冷: {0} U ({1})</ConnectedCoolingCapacity>
+  <HeatingUnits>加热量: {0} U</HeatingUnits>
+  <CoolingUnits>制冷量: {0} U</CoolingUnits>
+  <HeatingMode>加热单位/功率: {0} U / {1} W</HeatingMode>
+  <CoolingMode>制冷单位/功率: {0} U / {1} W</CoolingMode>
+  <CoolingEfficiencyGood>效能: {0}</CoolingEfficiencyGood>
+  <CoolingEfficiencyBad>效能: {0} 过热</CoolingEfficiencyBad>
+  <TargetTemp>最低温度: {0}</TargetTemp>
   <LowerPower>降低功率</LowerPower>
   <LowerPowerDesc>降低加热能力</LowerPowerDesc>
   <RaisePower>提高功率</RaisePower>
   <RaisePowerDesc>提高加热能力</RaisePowerDesc>
-  <HotwaterCapacity>热水: {0}</HotwaterCapacity>
-  <OverrideThermostat>覆盖恒温器</OverrideThermostat>
-  <OverrideThermostatDesc>让锅炉一直运行</OverrideThermostatDesc>
-  <MustPlaceFreezerWithFreeSpaces>排气孔必须保持清洁!</MustPlaceFreezerWithFreeSpaces>
-  <SolarEfficiencyBad>效率: {0} 太冷了</SolarEfficiencyBad>
-  <SolarEfficiencyGood>效率: {0}</SolarEfficiencyGood>
+  <HotwaterCapacity>热水容量: {0}</HotwaterCapacity>
+  <OverrideThermostat>温控器过载</OverrideThermostat>
+  <OverrideThermostatDesc>强制锅炉连续运行</OverrideThermostatDesc>
+  <MustPlaceFreezerWithFreeSpaces>排气口必须保持畅通</MustPlaceFreezerWithFreeSpaces>
+  <SolarEfficiencyBad>效能: {0} 过冷</SolarEfficiencyBad>
+  <SolarEfficiencyGood>效能: {0}</SolarEfficiencyGood>
   <RadCurrentCap>散热器温度: {0}</RadCurrentCap>
-
-  <HotWaterTankUseThermostat>恒温器 控制</HotWaterTankUseThermostat>
-  <HotWaterTankUseThermostatDesc>允许这个热水箱 控制已连接的锅炉</HotWaterTankUseThermostatDesc>
+  <ThermostatSetupWarning>温控器失去控制...\n将所有连接的热水箱设置为恒温模式</ThermostatSetupWarning>
+  <HotWaterTankUseThermostat>恒温控制</HotWaterTankUseThermostat>
+  <HotWaterTankUseThermostatDesc>水箱温度较低时开启锅炉1小时，如果禁用此功能，锅炉将忽略恒温控制，连续运行。</HotWaterTankUseThermostatDesc>
 
   <!--Hygiene-->
   <WashHands>洗手</WashHands>
   <Wash>洗澡</Wash>
-  <UseToilet>上厕所</UseToilet>
-  <SewageUsage>产生污水 = {0}</SewageUsage>
-  <MustBePlumbing>必须有管道相连</MustBePlumbing>
-  <BlockedDrain>排水受阻</BlockedDrain>
-  <PlumbOrEmpty>用管道连接或者清空旱厕</PlumbOrEmpty>
-
-
+  <UseToilet>使用</UseToilet>
+  <SewageUsage>利用率 = {0}</SewageUsage>
+  <MustBePlumbing>需要管道</MustBePlumbing>
+  <BlockedDrain>下水道堵塞</BlockedDrain>
+  <PlumbOrEmpty>疏通便池</PlumbOrEmpty>
+  <WashingMachineSpinning>运行中...</WashingMachineSpinning>
+  <WashingMachineUnload>立即取出</WashingMachineUnload>
+  <WashingMachineLoad>取出: {0}/{1}</WashingMachineLoad>
+  <NoDirtyClothes>没有脏衣服</NoDirtyClothes>
+  <WashingNoSpace>没有空间</WashingNoSpace>
 
   <!--Water-->
-  <CommandDesignateOpenCloseValveLabel>管道阀门</CommandDesignateOpenCloseValveLabel>
-  <CommandDesignateOpenCloseValveDesc>控制阀门打开或者关闭</CommandDesignateOpenCloseValveDesc>
+  <dbhDrink>喝</dbhDrink>
+  <CommandDesignateOpenCloseValveLabel>切换阀门</CommandDesignateOpenCloseValveLabel>
+  <CommandDesignateOpenCloseValveDesc>打开或关闭阀门</CommandDesignateOpenCloseValveDesc>
   <ValveClosed>阀门关闭</ValveClosed>
 
-  <PumpCapacity>泵流量: {0} L/天</PumpCapacity>
-  <GroundCapacity>地面蓄水能力: {0} L/day</GroundCapacity>
-  <PipedPumpCapacity>管道流量/地面蓄水能力: {0}/{1} L/天 ({2})</PipedPumpCapacity>
+  <PumpCapacity>抽水量: {0} L/天</PumpCapacity>
+  <GroundCapacity>水容量: {0} L/天</GroundCapacity>
+  <PipedPumpCapacity>总抽水量/总水容量: {0}/{1} L/天 ({2})</PipedPumpCapacity>
 
-  <WaterStorage>已存储水: {0} L</WaterStorage>
-  <TotalWaterStorage>管道系统中存水: {0} L</TotalWaterStorage>
+  <WaterStorage>储水: {0} L</WaterStorage>
+  <TotalWaterStorage>总储水: {0} L</TotalWaterStorage>
 
-  <PollutionLevel>污染级别: {0}</PollutionLevel>
+  <PollutionLevel>污染等级: {0}</PollutionLevel>
 
-  <CommandSprinkleDown>减少半径</CommandSprinkleDown>
-  <CommandSprinkleUp>增加半径</CommandSprinkleUp>
-  <UntreatedWater>质量: 未经处理 -低疾病风险</UntreatedWater>
-  <ContaminatedWater>质量:受污染的! -高疾病风险!</ContaminatedWater>
-  <TreatedWater>质量:经过处理 -安全</TreatedWater>
+  <CommandSprinkleDown>缩小半径</CommandSprinkleDown>
+  <CommandSprinkleUp>增大半径</CommandSprinkleUp>
+  <UntreatedWater>质量: 未处理 - 低疾病风险</UntreatedWater>
+  <ContaminatedWater>质量: 受污染! - 高疾病风险!</ContaminatedWater>
+  <TreatedWater>质量: 已处理 - 安全</TreatedWater>
 
-  <DrainTank>排干水箱</DrainTank>
-  <DrainTankDesc>排干水箱以消除污染</DrainTankDesc>
+  <DrainTank>放空水箱</DrainTank>
+  <DrainTankDesc>排空水箱并清除污染</DrainTankDesc>
 
+  <WaterValueOffset>水值：{0} for {1}L</WaterValueOffset>
+  <HyWater>水</HyWater>
   <!--Sewage-->
 
-  <DrainSepticTank>排出</DrainSepticTank>
-  <DrainSepticTankDesc>设置排出多少污水,这些污水可以放在桶里可以踢翻，拿去烧或者堆肥</DrainSepticTankDesc>
-  <SewageProcessing>处理污水: {0} L/天  未处理污水: {1} L ({2})</SewageProcessing>
-  <DoNotDrainTank>不排水</DoNotDrainTank>
-  <DrainSepticTankAt>排放 {0}</DrainSepticTankAt>
+  <DrainSepticTank>排水</DrainSepticTank>
+  <DrainSepticTankDesc>设置粪便污泥排入桶中的水平。粪桶可以移动，翻倒，燃烧或变成生物固体</DrainSepticTankDesc>
+  <SewageProcessing>处理能力: {0} L/天 未处理: {1} L ({2})</SewageProcessing>
+  <DoNotDrainTank>不要排空</DoNotDrainTank>
+  <DrainSepticTankAt>排水池在{0}</DrainSepticTankAt>
 
-  <PitCapacity>粪坑: {0}</PitCapacity>
-  <PitFull>粪坑满了，赶紧清空它！！（震声）!</PitFull>
-  <KickOver>踢翻</KickOver>
-  <KickOverDesc>把这桶污泥踢翻在地</KickOverDesc>
+  <PitCapacity>粪池容量: {0}</PitCapacity>
+  <PitFull>粪池已满, 需要马上清空!</PitFull>
+  <KickOver>踢倒</KickOver>
+  <KickOverDesc>将污水洒到地上</KickOverDesc>
 
   <!--Composting-->
-  <ContainsCompost>堆肥 {0}/{1}</ContainsCompost>
-  <ContainsFecalSludge>包含粪便和污泥： {0}/{1}</ContainsFecalSludge>
+  <ContainsCompost>包含堆肥{0}/{1}</ContainsCompost>
+  <ContainsFecalSludge>包含粪便污泥{0}/{1}</ContainsFecalSludge>
   <Composted>堆肥</Composted>
-  <CompostingProgress>堆肥进程 {0} ({1})</CompostingProgress>
-  <ComposterOutOfIdealTemperature>理想温度下的组合</ComposterOutOfIdealTemperature>
+  <CompostingProgress>堆肥进度{0} ({1})</CompostingProgress>
+  <ComposterOutOfIdealTemperature>堆肥超出理想温度</ComposterOutOfIdealTemperature>
   <IdealCompostingTemperature>理想的堆肥温度</IdealCompostingTemperature>
 
 
   <!--Mod Options-->
 
-  <OverrideNeedSettingsTip>Override the need settings and mod patches to manually disable needs for specific pawn types, or when a hediff is active.\nIf you disable by hediff then the hediff must call "AddOrRemoveNeedsAsAppropriate" when applied</OverrideNeedSettingsTip>
-  <OverrideNeedsSettings>覆盖需求设置</OverrideNeedsSettings>
-  <Disablebladderneed>取消膀胱需求</Disablebladderneed>
-  <Disablehygieneneed>取消卫生需求</Disablehygieneneed>
+  <QuitToMenuToChange>退到主菜单更改</QuitToMenuToChange>
+  <RimefellerLink>边缘石油（Rimefeller）联动</RimefellerLink>
+  <RimefellerLinkTip>启用将为边缘石油mod中的炼油厂和加工厂增加水需求</RimefellerLinkTip>
+  <RimatomicsLink>边缘核能（Rimatomics）联动</RimatomicsLink>
+  <RimatomicsLinkTip>启用将为边缘核能mod中的冷却塔增加水需求</RimatomicsLinkTip>
+  <OverrideNeedSettingsTip>禁用特定体型、种族或特定hediff处于活跃状态的相关需求</OverrideNeedSettingsTip>
+  <OverrideNeedsSettings>需求过滤器</OverrideNeedsSettings>
+  <Disablebladderneed>禁用膀胱需求</Disablebladderneed>
+  <Disablehygieneneed>禁用卫生需求</Disablehygieneneed>
   <DisableNeedsLabel>激活需求</DisableNeedsLabel>
-  <NeedCheckboxTip>单击以应用</NeedCheckboxTip>
+  <NeedCheckboxTip>勾选启用</NeedCheckboxTip>
   <PrisonersGetNeeds>囚犯</PrisonersGetNeeds>
-  <PrisonersGetNeedsTip>囚犯是否有这些需求</PrisonersGetNeedsTip>
-  <HospitalityGuestsGetNeeds>接待客人</HospitalityGuestsGetNeeds>
-  <HospitalityGuestsGetNeedsTip>来自 "Hospitality" MOD的客人是否有这些需求</HospitalityGuestsGetNeedsTip>
+  <PrisonersGetNeedsTip>相关需求是否适用于囚犯</PrisonersGetNeedsTip>
+  <HospitalityGuestsGetNeeds>访客招募（Hospitality）的访客</HospitalityGuestsGetNeeds>
+  <HospitalityGuestsGetNeedsTip>相关需求是否适用于访客招募mod的访客</HospitalityGuestsGetNeedsTip>
+  <PrivacyChecks>隐私</PrivacyChecks>
+  <PrivacyChecksTip>殖民者在洗澡或如厕时会关心隐私</PrivacyChecksTip>
+  <CoolingEfficiency>冷却效率</CoolingEfficiency>
+  <CoolingEfficiencyTip>高温是否像标准情况一样影响冷却效率</CoolingEfficiencyTip>
 
-
-  <Experimentalfeatures>实验特性</Experimentalfeatures>
-  <OutsidersGetNeeds>外来者</OutsidersGetNeeds>
-  <OutsidersGetNeedsTip>如果包括贸易商和掠夺者在内的外来者将有这些需求</OutsidersGetNeedsTip>
-  <PetsGetBladder>宠物膀胱</PetsGetBladder>
-  <PetsGetBladderTip>宠物是否有膀胱需求</PetsGetBladderTip>
+  <DisableNeeds>禁用需求</DisableNeeds>
+  <DisableNeedsTip>完全禁用所有需求，覆盖所有设置</DisableNeedsTip>
+  
+  <PetsGetBladder>宠物的膀胱</PetsGetBladder>
+  <PetsGetBladderTip>启用宠物的膀胱需求，并为宠物添加相关的排泄用品</PetsGetBladderTip>
   <WildAnimalsGetBladder>野生动物膀胱</WildAnimalsGetBladder>
-  <WildAnimalsGetBladderTip>是否全部的野生动物会有膀胱需求</WildAnimalsGetBladderTip>
-  <ThirstNeed>喝水</ThirstNeed>
-  <ThirstNeedTip>所有有“膀胱需求”的小人都有基本的喝水的需求</ThirstNeedTip>
+  <WildAnimalsGetBladderTip>启用所有野生动物的膀胱需求，这可能会变得混乱</WildAnimalsGetBladderTip>
+  <ThirstNeed>饮水需求</ThirstNeed>
+  <ThirstNeedTip>对拥有膀胱需求的所有殖民者启用饮水需求，增加饮水设备和水壶，需要重新启动游戏</ThirstNeedTip>
   <FertilizerVisible>肥料可见</FertilizerVisible>
-  <FertilizerVisibleTip>肥料是否可见</FertilizerVisibleTip>
-  <AllowNonHuman>无人类殖民者模式</AllowNonHuman>
-  <AllowNonHumanTip>Allow the needs to run on non human colonists, probably wont work!, overridden by need settings</AllowNonHumanTip>
+  <FertilizerVisibleTip>使肥料坐标方格可见</FertilizerVisibleTip>
+  <AllowNonHuman>非人类殖民者</AllowNonHuman>
+  <AllowNonHumanTip>允许非人类的殖民者拥有相关需求，你可以通过设置令特定的生物禁用相关需求</AllowNonHumanTip>
 
 </LanguageData>

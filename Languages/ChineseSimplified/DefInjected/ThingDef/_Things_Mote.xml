@@ -3,11 +3,13 @@
 
   <!-- These are Mote ThingDefs. Remain the same, DO NOT translate them. -->
 
-  <Mote_Plunger.label>Mote</Mote_Plunger.label>
-  <Mote_FecalBit.label>Mote</Mote_FecalBit.label>
-  <Mote_Sewage.label>Mote</Mote_Sewage.label>
-  <Mote_Irrigation.label>Mote</Mote_Irrigation.label>
-  <Mote_WashSteam.label>Mote</Mote_WashSteam.label>
+  <Mote_Bucket.label>尘埃</Mote_Bucket.label>
+  <Mote_Plunger.label>尘埃</Mote_Plunger.label>
+  <Mote_WaterSplashes.label>尘埃</Mote_WaterSplashes.label>
+  <Mote_FecalBit.label>尘埃</Mote_FecalBit.label>
+  <Mote_Sewage.label>尘埃</Mote_Sewage.label>
+  <Mote_Irrigation.label>尘埃</Mote_Irrigation.label>
+  <Mote_WashSteam.label>尘埃</Mote_WashSteam.label>
 
 
 </LanguageData>

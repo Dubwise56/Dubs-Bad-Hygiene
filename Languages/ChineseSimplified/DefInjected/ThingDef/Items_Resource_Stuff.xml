@@ -2,12 +2,13 @@
 <LanguageData>
 
   <BedPan.label>便盆</BedPan.label>
-  <BedPan.description>一个卧床不起的病人的尿液和粪便的容器.</BedPan.description>
+  <BedPan.description>盛放卧床患者尿液和粪便的容器。</BedPan.description>
 
-  <Biosolids.label>肥料</Biosolids.label>
-  <Biosolids.description>从粪便和污泥转化的肥料.</Biosolids.description>
+  <Biosolids.label>生物有机肥料</Biosolids.label>
+  <Biosolids.description>用粪便污泥发酵制成的肥料。</Biosolids.description>
 
-  <FecalSludge.label>污泥</FecalSludge.label>
-  <FecalSludge.description>一个装满粪便污泥的桶，可以被倾倒，燃烧，或者堆肥成肥料</FecalSludge.description>
+  <FecalSludge.label>粪便污泥</FecalSludge.label>
+  <FecalSludge.description>一个装满粪便污泥的桶，可以倾倒，焚烧，或者通过堆肥制作成生物有机肥料。</FecalSludge.description>
+
 
 </LanguageData>
