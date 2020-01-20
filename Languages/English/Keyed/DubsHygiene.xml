@@ -2,6 +2,7 @@
 <LanguageData>
 
   <!--New-->
+  <NoUnreservedSource>No unreserved water sources of the highest available quality</NoUnreservedSource>
   <AllowModdedDrinks>Allow modded drinks</AllowModdedDrinks>
   <AllowModdedDrinksTip>Pawns will also be allowed to drink and pack any modded drinks, VGP and RimCuisine drinks can be used default, others will require modding an extension to the def</AllowModdedDrinksTip>
   <AllowDrinkPacking>Pack Water Bottles</AllowDrinkPacking>

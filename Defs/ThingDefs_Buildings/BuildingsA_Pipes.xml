@@ -39,6 +39,7 @@
       <li>DubsBadHygiene.PlaceWorker_Pipe</li>
     </placeWorkers>
     <tickerType>Never</tickerType>
+    <drawerType>MapMeshOnly</drawerType>
   </ThingDef>
 
   <ThingDef ParentName="DubsDirtyPipeBase">

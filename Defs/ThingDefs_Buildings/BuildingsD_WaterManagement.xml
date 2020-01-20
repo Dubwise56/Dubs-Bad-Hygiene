@@ -226,7 +226,7 @@
   <ThingDef Name="BasedWaterPump" ParentName="BasedHygieneMom" Abstract="True">
     <category>Building</category>
     <tickerType>Normal</tickerType>
-    <drawerType>RealtimeOnly</drawerType>
+    <!--<drawerType>RealtimeOnly</drawerType>-->
     <canOverlapZones>false</canOverlapZones>
     <altitudeLayer>Building</altitudeLayer>
     <passability>PassThroughOnly</passability>

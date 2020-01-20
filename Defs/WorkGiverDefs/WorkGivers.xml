@@ -34,13 +34,14 @@
     <label>Administer Fluids</label>
     <giverClass>DubsBadHygiene.WorkGiver_AdministerFluids</giverClass>
     <workType>Doctor</workType>
-    <verb>administer fluids</verb>
-    <gerund>administering fluids</gerund>
+    <verb>give drink</verb>
+    <gerund>giving drink</gerund>
     <priorityInType>79</priorityInType>
     <prioritizeSustains>true</prioritizeSustains>
     <requiredCapacities>
       <li>Manipulation</li>
     </requiredCapacities>
+    <feedHumanlikesOnly>true</feedHumanlikesOnly>
   </WorkGiverDef>
 
   <WorkGiverDef>
