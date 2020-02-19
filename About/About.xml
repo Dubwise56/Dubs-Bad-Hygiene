@@ -6,6 +6,8 @@
 	<url>https://ludeon.com/forums/index.php?topic=29043.0</url>
 	  <supportedVersions>
     <li>1.0</li>
+      <li>1.1</li>
   </supportedVersions>
-	<description>Adds a sewage system, toilets, bathing, hygiene related needs and mood effects, central heating, water, irrigation, fertilizer, air conditioning, hot tubs, kitchen sinks, you name it!. v2.7.1130\n\nMultiplayer ready</description>
+  <packageId>Dubwise.DubsBadHygiene</packageId>
+	<description>Adds a sewage system, toilets, bathing, hygiene related needs and mood effects, central heating, water, irrigation, fertilizer, air conditioning, hot tubs, kitchen sinks, you name it!.\n\nMultiplayer ready</description>
 </ModMetaData>
