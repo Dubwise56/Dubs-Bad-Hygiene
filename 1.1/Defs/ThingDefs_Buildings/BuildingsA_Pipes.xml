@@ -23,7 +23,7 @@
       <isInert>true</isInert>
       <isEdifice>false</isEdifice>
     </building>
-    <altitudeLayer>FloorEmplacement</altitudeLayer>
+    <altitudeLayer>Conduits</altitudeLayer>
     <passability>Standable</passability>
     <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
     <statBases>

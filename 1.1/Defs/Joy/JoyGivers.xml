@@ -30,7 +30,7 @@
   <JoyGiverDef>
     <defName>UseDBHSwimmingPool</defName>
     <giverClass>DubsBadHygiene.JoyGiver_GoSwimming</giverClass>
-    <baseChance>2</baseChance>
+    <baseChance>4</baseChance>
     <thingDefs>
       <li>DBHSwimmingPool</li>
     </thingDefs>
@@ -44,7 +44,7 @@
   <JoyGiverDef>
     <defName>UseHotTub</defName>
     <giverClass>DubsBadHygiene.JoyGiver_UseHotTub</giverClass>
-    <baseChance>2</baseChance>
+    <baseChance>4</baseChance>
     <thingDefs>
       <li>HotTub</li>
     </thingDefs>
