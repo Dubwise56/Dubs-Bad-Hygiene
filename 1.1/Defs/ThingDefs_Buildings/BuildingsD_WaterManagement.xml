@@ -240,9 +240,6 @@
         <mode>Sewage</mode>
       </li>
     </comps>
-    <building>
-      <soundAmbient>sewage_Ambience</soundAmbient>
-    </building>
   </ThingDef>
 
   <ThingDef ParentName="BasedWaterPump">
@@ -601,9 +598,6 @@
       <li Class="DubsBadHygiene.CompProperties_WaterFiltration">
       </li>
     </comps>
-    <building>
-      <soundAmbient>sewage_Ambience</soundAmbient>
-    </building>
     <researchPrerequisites>
       <li>WaterFiltration</li>
     </researchPrerequisites>
