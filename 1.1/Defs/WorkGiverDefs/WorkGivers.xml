@@ -6,7 +6,7 @@
     <label>Fertilize</label>
     <giverClass>DubsBadHygiene.WorkGiver_PlaceFertilizer</giverClass>
     <workType>Growing</workType>
-    <priorityInType>45</priorityInType>
+    <priorityInType>20</priorityInType>
     <verb>fertilize</verb>
     <gerund>fertilizing</gerund>
     <scanThings>false</scanThings>

@@ -12,8 +12,8 @@
 					</li>
 				</grains>
 				<volumeRange>
-					<min>8</min>
-					<max>8</max>
+					<min>7</min>
+					<max>7</max>
 				</volumeRange>
 				<distRange>
 					<min>0</min>        
@@ -36,8 +36,8 @@
           </li>
         </grains>
         <volumeRange>
-          <min>40</min>
-          <max>40</max>
+          <min>30</min>
+          <max>30</max>
         </volumeRange>
         <distRange>
           <min>0</min>
@@ -191,8 +191,8 @@
           </li>
         </grains>
         <volumeRange>
-          <min>85</min>
-          <max>85</max>
+          <min>80</min>
+          <max>80</max>
         </volumeRange>
         <distRange>
           <min>0</min>
@@ -202,7 +202,7 @@
     </subSounds>
   </SoundDef>
 
-  <SoundDef>
+  <!--<SoundDef>
     <defName>dripping_Ambience</defName>
     <sustain>True</sustain>
     <context>MapOnly</context>
@@ -226,9 +226,9 @@
         </distRange>
       </li>
     </subSounds>
-  </SoundDef>
+  </SoundDef>-->
 
-	<SoundDef>
+	<!--<SoundDef>
 		<defName>sewage_Ambience</defName>  
 		<sustain>True</sustain>  
 		<context>MapOnly</context>
@@ -254,7 +254,7 @@
 				</distRange>
 			</li>
 		</subSounds>
-	</SoundDef>
+	</SoundDef>-->
 
   <SoundDef>
     <defName>hottub_Ambience</defName>
@@ -297,8 +297,8 @@
 					</li>
 				</grains>      
 				<volumeRange>
-					<min>20</min>        
-					<max>20</max>
+					<min>5</min>        
+					<max>5</max>
 				</volumeRange>     
 				<distRange>
 					<min>0</min>
