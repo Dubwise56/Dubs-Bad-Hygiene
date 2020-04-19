@@ -237,4 +237,12 @@
       <li>SewageSludgeComposting</li>
     </researchPrerequisites>
   </ThingDef>
+
+  <!--<ThingDef ParentName="EtherealThingBase">
+    <defName>FertilizerBlueprint</defName>
+    <label>FertilizerBlueprint</label>
+    <thingClass>DubsBadHygiene.FertilizerBlueprint</thingClass>
+    <tickerType>Never</tickerType>
+  </ThingDef>-->
+
 </Defs>
