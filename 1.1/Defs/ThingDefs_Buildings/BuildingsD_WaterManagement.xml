@@ -29,6 +29,9 @@
       <WorkToBuild>15000</WorkToBuild>
       <Flammability>1.0</Flammability>
     </statBases>
+    <modExtensions>
+      <li Class="DubsBadHygiene.BuildWaterExt" />
+    </modExtensions>
   </ThingDef>
 
 
@@ -292,6 +295,9 @@
     <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
     <passability>Impassable</passability>
     <blockWind>true</blockWind>
+    <modExtensions>
+      <li Class="DubsBadHygiene.BuildWaterExt" />
+    </modExtensions>
   </ThingDef>
 
   <ThingDef ParentName="BasedWaterPump">
@@ -443,6 +449,9 @@
       <li>DubsBadHygiene.PlaceWorker_SewageArea</li>
       <li>DubsBadHygiene.PlaceWorker_SewageGrid</li>
     </placeWorkers>
+    <modExtensions>
+      <li Class="DubsBadHygiene.BuildWaterExt" />
+    </modExtensions>
   </ThingDef>
 
   <ThingDef ParentName="BasedHygieneMom">

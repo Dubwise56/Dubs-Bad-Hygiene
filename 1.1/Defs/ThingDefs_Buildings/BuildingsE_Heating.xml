@@ -59,7 +59,7 @@
   <ThingDef ParentName="BasedHeating">
     <defName>LogBoiler</defName>
     <label>Log boiler</label>
-    <description>Produces 2000 heating units for radiators and hot water tanks. Requires wood logs for fuel.</description>
+    <description>Produces 2000 heating units for piped radiators and hot water tanks. Heats the room and adjacent baths. Requires wood logs for fuel.</description>
     <graphicData>
       <texPath>DBH/Things/Building/Heating/Stove</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
@@ -323,7 +323,8 @@
       </li>
     </comps>
     <researchPrerequisites>
-      <li>CentralHeating</li>
+      <li>LogBoilers</li>
+      <li>Plumbing</li>
     </researchPrerequisites>
   </ThingDef>
 

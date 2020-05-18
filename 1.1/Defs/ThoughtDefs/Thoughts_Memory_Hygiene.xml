@@ -35,7 +35,7 @@
     <stackLimit>3</stackLimit>
     <stages>
       <li>
-        <label>Drank Urine</label>
+        <label>Drank urine</label>
         <description>Drank my own urine.</description>
         <baseMoodEffect>-10</baseMoodEffect>
       </li>
@@ -91,7 +91,7 @@
 		<stackLimit>1</stackLimit>
 		<stages>
 			<li>
-				<label>Hot Shower</label>
+				<label>Hot shower</label>
 				<description>I had a nice hot shower.</description>
 				<baseMoodEffect>3</baseMoodEffect>
 			</li>
@@ -105,7 +105,7 @@
 		<stackLimit>1</stackLimit>
 		<stages>
 			<li>
-				<label>Hot Bath</label>
+				<label>Hot bath</label>
 				<description>I had a nice hot bath.</description>
 				<baseMoodEffect>3</baseMoodEffect>
 			</li>
@@ -119,7 +119,7 @@
 		<stackLimit>1</stackLimit>
 		<stages>
 			<li>
-				<label>Cold Bath</label>
+				<label>Cold bath</label>
 				<description>I had a nice refreshing cold bath.</description>
 				<baseMoodEffect>3</baseMoodEffect>
 			</li>
@@ -133,7 +133,7 @@
 		<stackLimit>1</stackLimit>
 		<stages>
 			<li>
-				<label>Cold Shower</label>
+				<label>Cold shower</label>
 				<description>I had a nice refreshing cold shower.</description>
 				<baseMoodEffect>3</baseMoodEffect>
 			</li>
@@ -147,7 +147,7 @@
     <stackLimit>1</stackLimit>
     <stages>
       <li>
-        <label>Cold Water</label>
+        <label>Cold water</label>
         <description>There was no hot water!</description>
         <baseMoodEffect>-3</baseMoodEffect>
       </li>
