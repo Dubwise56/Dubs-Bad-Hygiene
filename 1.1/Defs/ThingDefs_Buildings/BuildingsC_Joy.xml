@@ -83,6 +83,7 @@
     <extraNonDraftedPerceivedPathCost>0</extraNonDraftedPerceivedPathCost>
     <extraDraftedPerceivedPathCost>18</extraDraftedPerceivedPathCost>
     <pathCost>0</pathCost>
+    <layerable>true</layerable>
   </TerrainDef>
 
   <ThingDef ParentName="BasedHygieneMom" Name="DubsSwimmingPoolBase">

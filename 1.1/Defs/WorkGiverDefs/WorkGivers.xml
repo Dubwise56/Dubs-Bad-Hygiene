@@ -11,7 +11,7 @@
     <gerund>fertilizing</gerund>
     <scanThings>false</scanThings>
     <scanCells>true</scanCells>
-    <requiredCapacities>
+     <requiredCapacities>
       <li>Manipulation</li>
     </requiredCapacities>
   </WorkGiverDef>
