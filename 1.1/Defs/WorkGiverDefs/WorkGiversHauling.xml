@@ -138,4 +138,17 @@
     </requiredCapacities>
   </WorkGiverDef>
 
+  <WorkGiverDef>
+    <defName>RefillWater</defName>
+    <label>Refill Water</label>
+    <giverClass>DubsBadHygiene.WorkGiver_RefillWater</giverClass>
+    <workType>Hauling</workType>
+    <verb>refill</verb>
+    <gerund>refilling</gerund>
+    <priorityInType>50</priorityInType>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+  </WorkGiverDef>
+
 </Defs>

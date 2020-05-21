@@ -154,6 +154,13 @@
     <reportString>Refilling wash tub.</reportString>
   </JobDef>
 
+
+  <JobDef>
+    <defName>RefillWater</defName>
+    <driverClass>DubsBadHygiene.JobDriver_RefillWater</driverClass>
+    <reportString>Refilling water.</reportString>
+  </JobDef>
+
   <JobDef>
     <defName>cleanBedpan</defName>
     <driverClass>DubsBadHygiene.JobDriver_cleanBedpan</driverClass>
