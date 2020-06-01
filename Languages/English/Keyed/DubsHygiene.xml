@@ -2,8 +2,10 @@
 <LanguageData>
 
   <!--New-->
+  <PassiveWaterCoolersLink>Passive coolers use water</PassiveWaterCoolersLink>
+  <PassiveWaterCoolersLinkTip>Passive coolers have their wood fueling removed and are instead filled with water, similar to water tubs</PassiveWaterCoolersLinkTip>
   <sos2int>SoS2 integration</sos2int>
-  <sos2intTip>Adds water and sewage processing to life support, and pipes to ship structures (Requires restart)</sos2intTip>
+  <sos2intTip>Adds water and sewage processing to life support, and pipes to ship structures</sos2intTip>
   <NoUnreservedSource>No unreserved water sources of the highest available quality</NoUnreservedSource>
   <AllowModdedDrinks>Allow modded drinks</AllowModdedDrinks>
   <AllowModdedDrinksTip>Pawns will also be allowed to drink and pack any modded drinks, VGP and RimCuisine drinks can be used default, others will require modding an extension to the def</AllowModdedDrinksTip>
