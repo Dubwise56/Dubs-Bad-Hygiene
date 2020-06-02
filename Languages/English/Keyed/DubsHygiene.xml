@@ -110,8 +110,8 @@
 
   <!--Heating-->
   <WaterTemp>Water Temp: {0}</WaterTemp>
-  <ConnectedHeatingCapacity>Connected Heating: {0} U ({1})</ConnectedHeatingCapacity>
-  <ConnectedCoolingCapacity>Connected Cooling: {0} U ({1})</ConnectedCoolingCapacity>
+  <ConnectedHeatingCapacity>Connected Demand/Capacity: {0}/{1} U ({2})</ConnectedHeatingCapacity>
+  <ConnectedCoolingCapacity>Connected Demand/Capacity: {0}/{1} U ({2})</ConnectedCoolingCapacity>
   <HeatingUnits>Heating Usage: {0} U</HeatingUnits>
   <CoolingUnits>Cooling Usage: {0} U</CoolingUnits>
   <HeatingMode>Heating Units/Power: {0} U / {1} W</HeatingMode>
@@ -127,8 +127,9 @@
   <OverrideThermostat>Override Thermostat</OverrideThermostat>
   <OverrideThermostatDesc>Force the boiler to run continuously</OverrideThermostatDesc>
   <MustPlaceFreezerWithFreeSpaces>Exhaust vents must be kept clear!</MustPlaceFreezerWithFreeSpaces>
-  <SolarEfficiencyBad>Efficiency: {0} Too cold</SolarEfficiencyBad>
-  <SolarEfficiencyGood>Efficiency: {0}</SolarEfficiencyGood>
+  <SolarEfficiencyCold>Too cold</SolarEfficiencyCold>
+  <SolarEfficiencyRoof>Roofed</SolarEfficiencyRoof>
+  <SolarEfficiencyGood>Heating Units/Efficiency: {0}/{1}</SolarEfficiencyGood>
   <RadCurrentCap>Radiator Temp: {0}</RadCurrentCap>
   <ThermostatSetupWarning>Thermostat overridden by hot water tanks...\nset all connected hot water tanks to thermostat mode!</ThermostatSetupWarning>
   <HotWaterTankUseThermostat>Thermostat Control</HotWaterTankUseThermostat>
