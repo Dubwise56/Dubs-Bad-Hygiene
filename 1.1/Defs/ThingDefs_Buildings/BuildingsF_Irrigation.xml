@@ -185,7 +185,7 @@
     </researchPrerequisites>
   </ThingDef>
 
-  <ThingDef ParentName="BasedHygieneMom">
+  <!--<ThingDef ParentName="BasedHygieneMom">
     <defName>BiosolidFertilizer</defName>
     <label>Biosolid Fertilizer</label>
     <description>Biosolid fertilizer used for increasing the fertility of diggable terrain. Lasts just under 1 year.</description>
@@ -229,6 +229,6 @@
     <researchPrerequisites>
       <li>SewageSludgeComposting</li>
     </researchPrerequisites>
-  </ThingDef>
+  </ThingDef>-->
 
 </Defs>
