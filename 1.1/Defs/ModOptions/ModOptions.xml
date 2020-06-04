@@ -726,4 +726,57 @@
     </options>
   </DubsBadHygiene.DubsModOptions>
 
+  <DubsBadHygiene.DubsModOptions>
+    <defName>FertilizerLifespan</defName>
+    <label>Fertilizer Lifespan</label>
+    <defaultSetting>5</defaultSetting>
+    <tip>How long until fertilized terrain expires</tip>
+    <options>
+      <li>
+        <label>cheat</label>
+        <value>9999</value>
+      </li>
+      <li>
+        <label>240 days (3 years)</label>
+        <value>240</value>
+      </li>
+      <li>
+        <label>180 days</label>
+        <value>180</value>
+      </li>
+      <li>
+        <label>120 days (2 years)</label>
+        <value>120</value>
+      </li>
+      <li>
+        <label>80 days</label>
+        <value>80</value>
+      </li>
+      <li>
+        <label>60 days (1 year)</label>
+        <value>60</value>
+      </li>
+      <li>
+        <label>40 days</label>
+        <value>40</value>
+      </li>
+      <li>
+        <label>30 days</label>
+        <value>30</value>
+      </li>
+      <li>
+        <label>20 days</label>
+        <value>20</value>
+      </li>
+      <li>
+        <label>10 days</label>
+        <value>10</value>
+      </li>
+      <li>
+        <label>1 day</label>
+        <value>1</value>
+      </li>
+    </options>
+  </DubsBadHygiene.DubsModOptions>
+
 </Defs>

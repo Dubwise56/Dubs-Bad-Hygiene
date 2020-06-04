@@ -40,7 +40,7 @@
       <li>DubsBadHygiene.PlaceWorker_Pipe</li>
     </placeWorkers>
     <tickerType>Never</tickerType>
-    <drawerType>MapMeshOnly</drawerType>
+    <drawerType>None</drawerType>
     <modExtensions>
       <li Class="DubsBadHygiene.BuildWaterExt" />
     </modExtensions>

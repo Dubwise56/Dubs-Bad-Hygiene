@@ -88,7 +88,7 @@
   <LetterBlockedDrain>A drain has become blocked. A cleaner must clean the blockage.</LetterBlockedDrain>
 
   <ContaminationAlert>Contaminated Water</ContaminationAlert>
-  <ContaminationAlertDesc>A water source is so polluted that there is a risk it will contaminate your water storage towers\n\nSources of contamination:\n{0} \n\nEither remove the sources of contamination, or add a water treatment system which will also clean contaminated water towers.</ContaminationAlertDesc>
+  <ContaminationAlertDesc>A well has become polluted. \n\nSources of contamination:\n{0} \n\nEither move the well, remove the sources of contamination, or if you are using piped wells add a water treatment system, which will also clean contaminated water towers over time.</ContaminationAlertDesc>
   <ContaminatiedTowerAlert>Contaminated Water Tower</ContaminatiedTowerAlert>
   <ContaminatiedTowerAlertDesc>A water tower has become polluted, posing a serious health risk to your colonists! You must solve the cause of the pollution, then drain the tank or build a water treatment system.</ContaminatiedTowerAlertDesc>
 

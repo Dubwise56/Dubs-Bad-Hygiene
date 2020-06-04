@@ -222,13 +222,6 @@
     </building>
     <resourcesFractionWhenDeconstructed>0</resourcesFractionWhenDeconstructed>
     <constructEffect>ConstructDirt</constructEffect>
-    <comps>
-      <li Class="CompProperties_Lifespan">
-        <lifespanTicks>3000000</lifespanTicks>
-      </li>
-      <li Class="DubsBadHygiene.CompProperties_Fertilizer">        
-      </li>
-    </comps>
     <placeWorkers>
       <li>DubsBadHygiene.PlaceWorker_NotUnderEdiface</li>
     </placeWorkers>
@@ -237,12 +230,5 @@
       <li>SewageSludgeComposting</li>
     </researchPrerequisites>
   </ThingDef>
-
-  <!--<ThingDef ParentName="EtherealThingBase">
-    <defName>FertilizerBlueprint</defName>
-    <label>FertilizerBlueprint</label>
-    <thingClass>DubsBadHygiene.FertilizerBlueprint</thingClass>
-    <tickerType>Never</tickerType>
-  </ThingDef>-->
 
 </Defs>

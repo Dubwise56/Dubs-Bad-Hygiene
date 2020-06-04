@@ -153,8 +153,8 @@
       <drawSize>(2,2)</drawSize>
       <drawRotated>false</drawRotated>
     </graphicData>
+    <tickerType>Normal</tickerType>
     <category>Building</category>
-    <tickerType>Never</tickerType>
     <altitudeLayer>Building</altitudeLayer>
     <passability>PassThroughOnly</passability>
     <blockWind>false</blockWind>
@@ -167,10 +167,16 @@
       <li>Stony</li>
     </stuffCategories>
     <costStuffCount>25</costStuffCount>
+    <specialDisplayRadius>7.9</specialDisplayRadius>
     <placeWorkers>
       <li>DubsBadHygiene.PlaceWorker_WaterGrid</li>
       <li>DubsBadHygiene.PlaceWorker_SewageGrid</li>
     </placeWorkers>
+    <comps>
+      <li Class="DubsBadHygiene.CompProperties_WaterInlet">
+        <compClass>DubsBadHygiene.CompBaseWell</compClass>
+      </li>
+    </comps>
     <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
     <rotatable>false</rotatable>
     <statBases>
