@@ -8,6 +8,7 @@
     <tendable>false</tendable>
     <description>washing</description>
     <everCurableByItem>false</everCurableByItem>
+     <isBad>false</isBad>
     <stages>
       <li>
         <becomeVisible>false</becomeVisible>
