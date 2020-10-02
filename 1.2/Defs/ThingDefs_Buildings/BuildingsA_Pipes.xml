@@ -48,7 +48,7 @@
 
   <ThingDef ParentName="DubsDirtyPipeBase">
     <defName>sewagePipeStuff</defName>
-    <label>Plumbing</label>
+    <label>plumbing</label>
     <description>Plumbing for connecting plumbed things.</description>
     <uiIconPath>DBH/UI/Plumbing</uiIconPath>
     <stuffCategories>
@@ -122,8 +122,8 @@
 
   <ThingDef ParentName="DubsDirtyPipeBase">
     <defName>airPipe</defName>
-    <label>Air-Con Pipe</label>
-    <description>Pipes for connecting air conditioning units.</description>
+    <label>air-con pipe</label>
+    <description>Pipe for connecting air-conditioning units.</description>
     <graphicData>
       <texPath>DBH/Things/Building/ducting_atlas</texPath>
       <graphicClass>Graphic_Single</graphicClass>

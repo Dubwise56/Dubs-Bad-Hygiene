@@ -5,8 +5,8 @@
 
   <ThingDef ParentName="BasedHygieneMom">
     <defName>IrrigationSprinkler</defName>
-    <label>Irrigation Sprinkler</label>
-    <description>Waters the surrounding area once every morning to improve the fertility of the soil through the day. Requires large amounts of water from water towers while spraying</description>
+    <label>irrigation sprinkler</label>
+    <description>Waters the surrounding area once every morning to improve the fertility of the soil through the day. Requires large amounts of water from water towers while spraying.</description>
     <graphicData>
       <texPath>DBH/Things/Building/sprinkler</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -67,8 +67,8 @@
 
   <ThingDef ParentName="BasedHygieneMom">
     <defName>FireSprinkler</defName>
-    <label>Fire Sprinkler</label>
-    <description>Triggered by fire or high temperature. Douses flames with a spray of water</description>
+    <label>fire sprinkler</label>
+    <description>Triggered by fire or high temperature. Douses flames with a spray of water.</description>
     <graphicData>
       <texPath>DBH/Things/Building/firesprinkler</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -136,7 +136,7 @@
 
   <ThingDef ParentName="BasedHygieneMom">
     <defName>BiosolidsComposter</defName>
-    <label>Biosolids Composter</label>
+    <label>biosolids composter</label>
     <thingClass>DubsBadHygiene.Building_Composter</thingClass>
     <graphicData>
       <texPath>DBH/Things/Building/Sewage/Composter</texPath>
@@ -187,7 +187,7 @@
 
   <!--<ThingDef ParentName="BasedHygieneMom">
     <defName>BiosolidFertilizer</defName>
-    <label>Biosolid Fertilizer</label>
+    <label>biosolid fertilizer</label>
     <description>Biosolid fertilizer used for increasing the fertility of diggable terrain. Lasts just under 1 year.</description>
     <selectable>false</selectable>
     <uiIconPath>DBH/UI/fertilizer</uiIconPath>

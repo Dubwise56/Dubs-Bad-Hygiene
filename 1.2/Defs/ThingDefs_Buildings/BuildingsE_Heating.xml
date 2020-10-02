@@ -17,8 +17,8 @@
 
   <ThingDef ParentName="BasedHeating">
     <defName>Thermostat</defName>
-    <label>Thermostat</label>
-    <description>Used to control electric and gas boilers. More than 1 can be placed. Connects via standard plumbing.</description>
+    <label>thermostat</label>
+    <description>Used to control electric and gas boilers. More than one can be placed. Connects via standard plumbing.</description>
     <graphicData>
       <texPath>DBH/Things/Building/Heating/thermostat</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
@@ -58,7 +58,7 @@
 
   <ThingDef ParentName="BasedHeating">
     <defName>LogBoiler</defName>
-    <label>Log boiler</label>
+    <label>log boiler</label>
     <description>Produces 2000 heating units for piped radiators and hot water tanks. Heats the room and adjacent baths. Requires wood logs for fuel.</description>
     <graphicData>
       <texPath>DBH/Things/Building/Heating/Stove</texPath>
@@ -123,7 +123,7 @@
 
   <ThingDef ParentName="BasedHeating">
     <defName>GasBoiler</defName>
-    <label>Gas boiler</label>
+    <label>gas boiler</label>
     <description>Produces 2000 heating units for radiators and hot water tanks. Requires chemfuel for fuel. Can be controlled by thermostats.</description>
     <graphicData>
       <texPath>DBH/Things/Building/Heating/GasBoiler</texPath>
@@ -185,7 +185,7 @@
 
   <ThingDef ParentName="BasedHeating">
     <defName>ElectricBoiler</defName>
-    <label>Electric Boiler</label>
+    <label>electric boiler</label>
     <description>Produces a variable amount of heating units for radiators and hot water tanks. Manually controlled power setting. Can be controlled by thermostats.</description>
     <graphicData>
       <texPath>DBH/Things/Building/Heating/ElectricBoiler</texPath>
@@ -243,7 +243,7 @@
 
   <ThingDef ParentName="BasedHygieneMom">
     <defName>SolarHeater</defName>
-    <label>Solar Heater</label>
+    <label>solar heater</label>
     <description>Uses sunlight to heat hot water tanks and radiators. 0-2000 units of heating power depending on light level and ambient temperature.</description>
     <graphicData>
       <texPath>DBH/Things/Building/Heating/solarHeater</texPath>
@@ -282,7 +282,7 @@
 
   <ThingDef ParentName="BasedHeating">
     <defName>HotWaterTank</defName>
-    <label>Hot Water Tank</label>
+    <label>hot water tank</label>
     <description>Stores hot running water for showers and baths. Connect to any boiler to heat.</description>
     <graphicData>
       <texPath>DBH/Things/Building/Heating/Boiler</texPath>
@@ -373,7 +373,7 @@
 
   <ThingDef ParentName="BaseRadiator">
     <defName>RadiatorStuffed</defName>
-    <label>Radiator</label>
+    <label>radiator</label>
     <uiIconPath>DBH/UI/radiator</uiIconPath>
     <costList>
       <Steel>15</Steel>
@@ -394,7 +394,7 @@
 
   <ThingDef ParentName="BaseRadiator">
     <defName>RadiatorLarge</defName>
-    <label>Large Radiator</label>
+    <label>large radiator</label>
     <uiIconPath>DBH/UI/radiator</uiIconPath>
     <graphicData>
       <texPath>DBH/Things/Building/Heating/radiatorLarge</texPath>
@@ -404,7 +404,7 @@
         <rect>(0.05,0.05,0.95,0.95)</rect>
       </damageData>
     </graphicData>
-    <description>3 times the output of a standard radiator, useful for larger rooms. Requires 300 heating units.</description>
+    <description>Three times the output of a standard radiator. Useful for larger rooms. Requires 300 heating units.</description>
     <size>(2,1)</size>
     <costList>
       <Steel>15</Steel>
@@ -431,7 +431,7 @@
 
   <ThingDef ParentName="BasedHeating">
     <defName>CeilingFan</defName>
-    <label>Ceiling Fan 2x2</label>
+    <label>ceiling fan 2x2</label>
     <thingClass>DubsBadHygiene.Building_CeilingFan</thingClass>
     <graphicData>
       <texPath>DBH/Things/Building/Heating/CeilingFanBlades</texPath>
@@ -441,7 +441,7 @@
     <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
     <altitudeLayer>Weather</altitudeLayer>
     <clearBuildingArea>false</clearBuildingArea>
-    <description>Cools a room by circulating air. Includes a built in lamp.</description>
+    <description>Cools a room by circulating air. Includes a built-in lamp.</description>
     <passability>Standable</passability>
     <drawerType>RealtimeOnly</drawerType>
     <blockWind>false</blockWind>
@@ -492,7 +492,7 @@
 
   <ThingDef ParentName="BasedHeating">
     <defName>CeilingFanS</defName>
-    <label>Ceiling Fan 1x1</label>
+    <label>ceiling fan 1x1</label>
     <thingClass>DubsBadHygiene.Building_CeilingFan</thingClass>
     <graphicData>
       <texPath>DBH/Things/Building/Heating/CeilingFanBlades</texPath>
@@ -503,7 +503,7 @@
     <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
     <altitudeLayer>Weather</altitudeLayer>
     <clearBuildingArea>false</clearBuildingArea>
-    <description>Cools a room by circulating air. Includes a built in lamp.</description>
+    <description>Cools a room by circulating air. Includes a built-in lamp.</description>
     <passability>Standable</passability>
     <drawerType>RealtimeOnly</drawerType>
     <blockWind>false</blockWind>
@@ -558,8 +558,8 @@
   
   <ThingDef ParentName="BasedHeating">
     <defName>AirConOutdoorUnit</defName>
-    <label>Air-Con Outdoor Unit</label>
-    <description>Multi-split Air Conditioner unit. Place outdoors and pipe to indoor units or freezer units. Power mode selection with 100-1000 cooling units capacity</description>
+    <label>air-con outdoor unit</label>
+    <description>Multi-split air conditioner unit. Place outdoors and pipe to indoor units or freezer units. Power mode selection with 100-1000 cooling units capacity.</description>
     <graphicData>
       <texPath>DBH/Things/Building/Heating/Aircon</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -631,8 +631,8 @@
 
   <ThingDef ParentName="BaseAircon">
     <defName>AirconIndoorUnit</defName>
-    <label>Air-Con Indoor Unit</label>
-    <description>Indoor Air-con unit for rooms. Connect to outdoor air-con units. Requires 100 cooling units.</description>
+    <label>air-con indoor unit</label>
+    <description>Indoor air-con unit for rooms. Connect to outdoor air-con units. Requires 100 cooling units.</description>
     <costList>
       <Steel>25</Steel>
     </costList>
@@ -676,8 +676,8 @@
 
   <ThingDef ParentName="BaseAircon">
     <defName>FreezerUnit</defName>
-    <label>Walk-in freezer unit</label>
-    <description>Freezer unit for creating a walk in freezer. Connect to outdoor air-con units. Requires 300 cooling units.</description>
+    <label>walk-in freezer unit</label>
+    <description>Freezer unit for creating a walk-in freezer. Connect to outdoor air-con units. Requires 300 cooling units.</description>
     <costList>
       <Steel>30</Steel>
       <ComponentIndustrial>1</ComponentIndustrial>
