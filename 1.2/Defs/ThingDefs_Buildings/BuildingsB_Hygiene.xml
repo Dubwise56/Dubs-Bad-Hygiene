@@ -27,6 +27,7 @@
       <li>
         <compClass>CompColorable</compClass>
       </li>
+      <li Class="CompProperties_Forbiddable"/>
       <li Class="DubsBadHygiene.CompProperties_Pipe">
         <mode>Sewage</mode>
       </li>
@@ -47,7 +48,6 @@
   <ThingDef ParentName="BasedHygieneMom">
     <defName>ToiletStallDoor</defName>
     <label>stall door</label>
-
     <holdsRoof>false</holdsRoof>
     <fillPercent>0.15</fillPercent>
     <description>Thin door which only blocks line of sight to people using bathroom fixtures. Does not create new rooms or prevent heat loss.</description>
@@ -176,6 +176,7 @@
       <li Class="DubsBadHygiene.CompProperties_WaterInlet">
         <compClass>DubsBadHygiene.CompBaseWell</compClass>
       </li>
+      <li Class="CompProperties_Forbiddable"/>
     </comps>
     <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
     <rotatable>false</rotatable>
@@ -230,6 +231,7 @@
       <li>
         <compClass>CompColorable</compClass>
       </li>
+      <li Class="CompProperties_Forbiddable"/>
     </comps>
   </ThingDef>
 
@@ -277,6 +279,7 @@
       <li>
         <compClass>CompColorable</compClass>
       </li>
+      <li Class="CompProperties_Forbiddable"/>
     </comps>
   </ThingDef>
 
@@ -419,7 +422,7 @@
       <li>ModernFixtures</li>
     </researchPrerequisites>
   </ThingDef>
-  
+
   <ThingDef ParentName="DubsDirtyBasinBase">
     <defName>BasinStuff</defName>
     <label>Basin</label>
