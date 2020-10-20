@@ -425,7 +425,7 @@
 
   <ThingDef ParentName="DubsDirtyBasinBase">
     <defName>BasinStuff</defName>
-    <label>Basin</label>
+    <label>basin</label>
     <stuffCategories>
       <li>Metallic</li>
       <li>Woody</li>

@@ -61,7 +61,7 @@
   <NotOwned>Access restricted</NotOwned>
   <GenderRestricted>{0} only</GenderRestricted>
   <PrisonersOnly>Prisoners only</PrisonersOnly>
-  <BlockedSewage>Blocked sewage outlet</BlockedSewage>
+  <BlockedSewage>A sewage outlet has become blocked.</BlockedSewage>
   <BlockedSewageDesc>Sewage has built up around the drain hole and is blocking the outlet.\n\nBuild more outlets or add a septic tank to create a buffer and reduce pressure on the outlets.</BlockedSewageDesc>
   <LowWaterTemp>Low water temp</LowWaterTemp>
   <LowWaterTempDesc>The water temperature in this tank is too low; colonists expecting to use hot water may get annoyed.\n\nTurn on boilers, increase the heating capacity, or add another hot water tank.</LowWaterTempDesc>
@@ -84,7 +84,7 @@
   <DirtyHands>Dirty hands - Disease risk</DirtyHands>
   <Contaminated>Contaminated - Disease risk</Contaminated>
 
-  <LetterLabelBlockedDrain>Blocked drain</LetterLabelBlockedDrain>
+  <LetterLabelBlockedDrain>A drain has become blocked.</LetterLabelBlockedDrain>
   <LetterBlockedDrain>A drain has become blocked. A cleaner must clean the blockage.</LetterBlockedDrain>
 
   <ContaminationAlert>Contaminated water</ContaminationAlert>
