@@ -73,7 +73,33 @@
 
 
 
-  <TerrainDef ParentName="WaterChestDeepBase">
+  <TerrainDef>
+    <fertility>0</fertility>
+    <avoidWander>true</avoidWander>
+    <holdSnow>false</holdSnow>
+    <takeSplashes>true</takeSplashes>
+    <extinguishesFire>true</extinguishesFire>
+    <filthAcceptanceMask>
+      <li>None</li>
+    </filthAcceptanceMask>
+    <tags>
+      <li>Water</li>
+    </tags>
+    <tools>
+      <li>
+        <label>water</label>
+        <capacities>
+          <li>KickMaterialInEyes</li>
+        </capacities>
+        <hediff>WaterInEyes</hediff>
+        <cooldownTime>1.5</cooldownTime>
+      </li>
+    </tools>
+    <texturePath>Terrain/Surfaces/WaterChestDeepRamp</texturePath>
+    <waterDepthShader>Map/WaterDepth</waterDepthShader>
+    <affordances>
+      <li>Bridgeable</li>
+    </affordances>
     <defName>PoolWater</defName>
     <label>pool water</label>
     <renderPrecedence>395</renderPrecedence>
