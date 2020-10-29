@@ -103,7 +103,7 @@
   <AttackHelicopter>Attack helicopter</AttackHelicopter>
   <Unisex>Unisex</Unisex>
   <ConnectFixturesToBed>Link bed</ConnectFixturesToBed>
-  <ConnectFixturesToBedDesc>Connect the fixtures to a nearby bed so they inherit the ownership.</ConnectFixturesToBedDesc>
+  <ConnectFixturesToBedDesc>Connect the fixtures to a nearby bed so they inherit the ownership. Hold shift to assign multiple beds</ConnectFixturesToBedDesc>
   <CancelConnectFixturesToBed>Clear bed link</CancelConnectFixturesToBed>
   <CancelConnectFixturesToBedDesc>Clear the link to beds</CancelConnectFixturesToBedDesc>
 
@@ -198,7 +198,9 @@
 
 
   <!--Mod Options-->
-
+  <fixtureQualityRequiresRestart>A restart is required to add quality and art comps back in.\n\n restart now?</fixtureQualityRequiresRestart>
+  <fixtureQuality>Fixture quality and art</fixtureQuality>
+  <fixtureQualityTip>Enable quality and art comps for fixtures like toilets</fixtureQualityTip>
   <QuitToMenuToChange>Quit to main menu to change.</QuitToMenuToChange>
   <RimefellerLink>Rimefeller link</RimefellerLink>
   <RimefellerLinkTip>Enable water usage on crackers and refiners in Rimefeller.</RimefellerLinkTip>
@@ -211,13 +213,13 @@
   <DisableNeedsLabel>Needs</DisableNeedsLabel>
   <NeedCheckboxTip>Tick to enable</NeedCheckboxTip>
   <PrisonersGetNeeds>Prisoners</PrisonersGetNeeds>
-  <PrisonersGetNeedsTip>Should prisoners have needs?</PrisonersGetNeedsTip>
+  <PrisonersGetNeedsTip>Set if prisoners should have needs</PrisonersGetNeedsTip>
   <HospitalityGuestsGetNeeds>Guests</HospitalityGuestsGetNeeds>
-  <HospitalityGuestsGetNeedsTip>Should guests have needs?</HospitalityGuestsGetNeedsTip>
+  <HospitalityGuestsGetNeedsTip>Set if guests have needs</HospitalityGuestsGetNeedsTip>
   <PrivacyChecks>Privacy</PrivacyChecks>
   <PrivacyChecksTip>Colonists care about privacy when bathing or using toilets.</PrivacyChecksTip>
   <CoolingEfficiency>Cooling efficiency</CoolingEfficiency>
-  <CoolingEfficiencyTip>Should high temperature affect cooling efficiency like standard AC?</CoolingEfficiencyTip>
+  <CoolingEfficiencyTip>Set if high temperature should affect cooling efficiency like standard AC</CoolingEfficiencyTip>
 
   <DisableNeeds>Toggle needs</DisableNeeds>
   <DisableNeedsTip>Disable needs entirely. Overrides all other settings.</DisableNeedsTip>
@@ -229,7 +231,7 @@
   <ThirstNeed>Thirst need</ThirstNeed>
   <ThirstNeedTip>Enable thirst need on all colonists with bladder need. Adds drinking fountains and water bottles. Requires a restart.</ThirstNeedTip>
   <FertilizerVisible>Fertilizer visible</FertilizerVisible>
-  <FertilizerVisibleTip>Should the fertilizer grid be visible?</FertilizerVisibleTip>
+  <FertilizerVisibleTip>Set if the fertilizer grid should be visible</FertilizerVisibleTip>
   <AllowNonHuman>Non-human colonists</AllowNonHuman>
   <AllowNonHumanTip>Enables needs on non-human colonists. You can disable specific beings with the needs filter.</AllowNonHumanTip>
 

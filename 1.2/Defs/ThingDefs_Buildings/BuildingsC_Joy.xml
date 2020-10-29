@@ -204,6 +204,14 @@
     </building>
     <comps>
       <li>
+        <compClass>CompQuality</compClass>
+      </li>
+      <li Class="CompProperties_Art">
+        <nameMaker>NamerArtFurniture</nameMaker>
+        <descriptionMaker>ArtDescription_Furniture</descriptionMaker>
+        <minQualityForArtistic>Excellent</minQualityForArtistic>
+      </li>
+      <li>
         <compClass>CompColorable</compClass>
       </li>
       <li Class="CompProperties_Power">
