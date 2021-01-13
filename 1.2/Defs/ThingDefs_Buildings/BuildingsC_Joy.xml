@@ -233,7 +233,7 @@
     <constructionSkillPrerequisite>10</constructionSkillPrerequisite>
   </ThingDef>
 
-  <ThingDef ParentName="BasedHygieneMom">
+  <ThingDef ParentName="BasedHygieneMom" DBHLite="true">
     <defName>WashingMachine</defName>
     <label>washing machine</label>
     <description>Washes clothes so well that you can't even tell someone died wearing it!</description>

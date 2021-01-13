@@ -35,7 +35,7 @@
   </ThingDef>
 
 
-  <ThingDef ParentName="BasedWaterWell">
+  <ThingDef ParentName="BasedWaterWell" DBHLite="true">
     <defName>WaterWellInlet</defName>
     <label>water well</label>
     <description>Accesses ground water which can be pumped by water pumps. The presence of sewage or other pollution will reduce water quality and can cause contamination.</description>
@@ -55,7 +55,7 @@
     </placeWorkers>
   </ThingDef>
 
-  <ThingDef ParentName="BasedWaterWell">
+  <ThingDef ParentName="BasedWaterWell" DBHLite="true">
     <defName>DeepWaterWellInlet</defName>
     <label>deep water well</label>
     <description>Accesses a large area of ground water which can be pumped by water pumps. Deep wells are unaffected by pollution.</description>
@@ -110,7 +110,7 @@
     </comps>
   </ThingDef>
 
-  <ThingDef ParentName="BasedWaterTower">
+  <ThingDef ParentName="BasedWaterTower" DBHLite="true">
     <defName>WaterButt</defName>
     <label>water butt</label>
     <thingClass>DubsBadHygiene.Building_Butt</thingClass>
@@ -156,7 +156,7 @@
     </researchPrerequisites>
   </ThingDef>
 
-  <ThingDef ParentName="BasedWaterTower">
+  <ThingDef ParentName="BasedWaterTower" DBHLite="true">
     <defName>WaterTowerS</defName>
     <label>water tower</label>
     <graphicData>
@@ -193,7 +193,7 @@
     </researchPrerequisites>
   </ThingDef>
 
-  <ThingDef ParentName="BasedWaterTower">
+  <ThingDef ParentName="BasedWaterTower" DBHLite="true">
     <defName>WaterTowerL</defName>
     <label>huge water tower</label>
     <graphicData>
@@ -245,7 +245,7 @@
     </comps>
   </ThingDef>
 
-  <ThingDef ParentName="BasedWaterPump">
+  <ThingDef ParentName="BasedWaterPump" DBHLite="true">
     <defName>WindPump</defName>
     <label>wind pump</label>
     <description>Pumps water from wells to water towers. Pumping capacity: 3000 L/day.</description>
@@ -300,7 +300,7 @@
     </modExtensions>
   </ThingDef>
 
-  <ThingDef ParentName="BasedWaterPump">
+  <ThingDef ParentName="BasedWaterPump" DBHLite="true">
     <defName>ElectricPump</defName>
     <label>electric pump</label>
     <description>Pumps water from wells to water towers. Pumping capacity: 1500 L/day.</description>
@@ -342,7 +342,7 @@
     </researchPrerequisites>
   </ThingDef>
   
-  <ThingDef ParentName="BasedWaterPump">
+  <ThingDef ParentName="BasedWaterPump" DBHLite="true">
     <defName>PumpingStation</defName>
     <label>pumping station</label>
     <description>Pumps water from wells to water towers. Pumping capacity: 10000 L/day.</description>
@@ -385,7 +385,7 @@
   
   
 
-  <ThingDef ParentName="BasedHygieneMom">
+  <ThingDef ParentName="BasedHygieneMom" DBHLite="true">
     <defName>SewageOutlet</defName>
     <label>sewage outlet</label>
     <description>Can be placed anywhere. Sewage will pool and spread on land or disperse in water. Sewage cleans up over time; the presence of trees, water, or rain will speed this up.</description>
@@ -454,7 +454,7 @@
     </modExtensions>
   </ThingDef>
 
-  <ThingDef ParentName="BasedHygieneMom">
+  <ThingDef ParentName="BasedHygieneMom" DBHLite="true">
     <defName>SewageSepticTank</defName>
     <label>septic tank</label>
     <description>Slowly cleans sewage over time. Sewage is directed to septic tanks first. If it reaches full capacity, excess sewage is sent to sewage outlets.</description>
@@ -508,7 +508,7 @@
     </researchPrerequisites>
   </ThingDef>
   
-  <ThingDef ParentName="BasedHygieneMom">
+  <ThingDef ParentName="BasedHygieneMom" DBHLite="true">
     <defName>SewageTreatment</defName>
     <label>sewage treatment</label>
     <description>Slowly cleans sewage over time. If it reaches full capacity then excess sewage is sent directly to sewage outlets without treatment.</description>
@@ -566,7 +566,7 @@
     </researchPrerequisites>
   </ThingDef>
 
-  <ThingDef ParentName="BasedHygieneMom">
+  <ThingDef ParentName="BasedHygieneMom" DBHLite="true">
     <defName>WaterTreatment</defName>
     <label>water treatment</label>
     <description>Cleans 99.99% of germs! Filters existing water in storage towers, and any water used by fixtures, eliminating the risk of disease.</description>

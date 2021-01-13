@@ -3,7 +3,7 @@
 
   <!--               Irrigation              -->
 
-  <ThingDef ParentName="BasedHygieneMom">
+  <ThingDef ParentName="BasedHygieneMom" DBHLite="true">
     <defName>IrrigationSprinkler</defName>
     <label>irrigation sprinkler</label>
     <description>Waters the surrounding area once every morning to improve the fertility of the soil through the day. Requires large amounts of water from water towers while spraying.</description>
@@ -65,7 +65,7 @@
     <designationCategory>Hygiene</designationCategory>
   </ThingDef>
 
-  <ThingDef ParentName="BasedHygieneMom">
+  <ThingDef ParentName="BasedHygieneMom" DBHLite="true">
     <defName>FireSprinkler</defName>
     <label>fire sprinkler</label>
     <description>Triggered by fire or high temperature. Douses flames with a spray of water.</description>
@@ -134,7 +134,7 @@
 
 
 
-  <ThingDef ParentName="BasedHygieneMom">
+  <ThingDef ParentName="BasedHygieneMom" DBHLite="true">
     <defName>BiosolidsComposter</defName>
     <label>biosolids composter</label>
     <thingClass>DubsBadHygiene.Building_Composter</thingClass>

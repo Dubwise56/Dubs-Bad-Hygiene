@@ -13,7 +13,7 @@
     </requiredCapacities>
   </WorkGiverDef>-->
 
-  <WorkGiverDef>
+  <WorkGiverDef DBHLite="true">
     <defName>DoBillsBurnPit</defName>
     <label>do burn pit bills</label>
     <giverClass>WorkGiver_DoBill</giverClass>
@@ -30,7 +30,7 @@
     <prioritizeSustains>true</prioritizeSustains>
   </WorkGiverDef>
 
-  <WorkGiverDef>
+  <WorkGiverDef DBHLite="true">
     <defName>RemoveSewage</defName>
     <label>shovel sewage into barrels</label>
     <giverClass>DubsBadHygiene.WorkGiver_RemoveSewage</giverClass>
@@ -45,7 +45,7 @@
     </requiredCapacities>
   </WorkGiverDef>
 
-  <WorkGiverDef>
+  <WorkGiverDef DBHLite="true">
     <defName>UnloadWashing</defName>
     <label>unload washing</label>
     <giverClass>DubsBadHygiene.WorkGiver_WashingUnload</giverClass>
@@ -60,7 +60,7 @@
 
 
 
-  <WorkGiverDef>
+  <WorkGiverDef DBHLite="true">
     <defName>LoadWashing</defName>
     <label>load washing</label>
     <giverClass>DubsBadHygiene.WorkGiver_WashingLoad</giverClass>
@@ -73,7 +73,7 @@
     </requiredCapacities>
   </WorkGiverDef>
   
-  <WorkGiverDef>
+  <WorkGiverDef DBHLite="true">
     <defName>UnloadComposter</defName>
     <label>take compost out of composter</label>
     <giverClass>DubsBadHygiene.WorkGiver_UnloadComposter</giverClass>
@@ -86,7 +86,7 @@
     </requiredCapacities>
   </WorkGiverDef>
 
-  <WorkGiverDef>
+  <WorkGiverDef DBHLite="true">
     <defName>FillComposter</defName>
     <label>fill composter</label>
     <giverClass>DubsBadHygiene.WorkGiver_FillComposter</giverClass>
@@ -99,7 +99,7 @@
     </requiredCapacities>
   </WorkGiverDef>
   
-  <WorkGiverDef>
+  <WorkGiverDef DBHLite="true">
     <defName>emptySepticTank</defName>
     <label>empty septic tank</label>
     <giverClass>DubsBadHygiene.WorkGiver_emptySepticTank</giverClass>
@@ -112,7 +112,7 @@
     </requiredCapacities>
   </WorkGiverDef>
   
-  <WorkGiverDef>
+  <WorkGiverDef DBHLite="true">
     <defName>emptyLatrine</defName>
     <label>empty latrine</label>
     <giverClass>DubsBadHygiene.WorkGiver_emptyLatrine</giverClass>

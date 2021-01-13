@@ -47,7 +47,7 @@
   </ThingDef>
 
 
-  <ThingDef ParentName="DubsDirtyPipeBase">
+  <ThingDef ParentName="DubsDirtyPipeBase" DBHLite="true">
     <defName>sewagePipeStuff</defName>
     <label>plumbing</label>
     <description>Plumbing for connecting plumbed things.</description>
@@ -69,7 +69,7 @@
     </researchPrerequisites>
   </ThingDef>
 
-  <ThingDef ParentName="BasedHygieneMom">
+  <ThingDef ParentName="BasedHygieneMom" DBHLite="true">
     <thingClass>DubsBadHygiene.Building_Valve</thingClass>
     <altitudeLayer>Building</altitudeLayer>
     <passability>Standable</passability>
@@ -121,7 +121,7 @@
     </researchPrerequisites>
   </ThingDef>
 
-  <ThingDef ParentName="DubsDirtyPipeBase">
+  <ThingDef ParentName="DubsDirtyPipeBase" DBHLite="true">
     <defName>airPipe</defName>
     <label>air-con pipe</label>
     <description>Pipe for connecting air-conditioning units.</description>

@@ -15,7 +15,7 @@
 
   <!--               Heating              -->
 
-  <ThingDef ParentName="BasedHeating">
+  <ThingDef ParentName="BasedHeating" DBHLite="true">
     <defName>Thermostat</defName>
     <label>thermostat</label>
     <description>Used to control electric and gas boilers. More than one can be placed. Connects via standard plumbing.</description>
@@ -56,7 +56,7 @@
     </researchPrerequisites>
   </ThingDef>
 
-  <ThingDef ParentName="BasedHeating">
+  <ThingDef ParentName="BasedHeating" DBHLite="true">
     <defName>LogBoiler</defName>
     <label>log boiler</label>
     <description>Produces 2000 heating units for piped radiators and hot water tanks. Heats the room and adjacent baths. Requires wood logs for fuel.</description>
@@ -121,7 +121,7 @@
     </researchPrerequisites>
   </ThingDef>
 
-  <ThingDef ParentName="BasedHeating">
+  <ThingDef ParentName="BasedHeating" DBHLite="true">
     <defName>GasBoiler</defName>
     <label>gas boiler</label>
     <description>Produces 2000 heating units for radiators and hot water tanks. Requires chemfuel for fuel. Can be controlled by thermostats.</description>
@@ -183,7 +183,7 @@
   </ThingDef>
 
 
-  <ThingDef ParentName="BasedHeating">
+  <ThingDef ParentName="BasedHeating" DBHLite="true">
     <defName>ElectricBoiler</defName>
     <label>electric boiler</label>
     <description>Produces a variable amount of heating units for radiators and hot water tanks. Manually controlled power setting. Can be controlled by thermostats.</description>
@@ -241,7 +241,7 @@
 
  
 
-  <ThingDef ParentName="BasedHygieneMom">
+  <ThingDef ParentName="BasedHygieneMom" DBHLite="true">
     <defName>SolarHeater</defName>
     <label>solar heater</label>
     <description>Uses sunlight to heat hot water tanks and radiators. 0-2000 units of heating power depending on light level and ambient temperature.</description>
@@ -280,7 +280,7 @@
     </researchPrerequisites>
   </ThingDef>
 
-  <ThingDef ParentName="BasedHeating">
+  <ThingDef ParentName="BasedHeating" DBHLite="true">
     <defName>HotWaterTank</defName>
     <label>hot water tank</label>
     <description>Stores hot running water for showers and baths. Connect to any boiler to heat.</description>
@@ -371,7 +371,7 @@
     <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
   </ThingDef>
 
-  <ThingDef ParentName="BaseRadiator">
+  <ThingDef ParentName="BaseRadiator" DBHLite="true">
     <defName>RadiatorStuffed</defName>
     <label>radiator</label>
     <uiIconPath>DBH/UI/radiator</uiIconPath>
@@ -392,7 +392,7 @@
     </comps>
   </ThingDef>
 
-  <ThingDef ParentName="BaseRadiator">
+  <ThingDef ParentName="BaseRadiator" DBHLite="true">
     <defName>RadiatorLarge</defName>
     <label>large radiator</label>
     <uiIconPath>DBH/UI/radiator</uiIconPath>
@@ -425,11 +425,11 @@
 
   <!--COOLING-->
 
-  <DesignatorDropdownGroupDef>
+  <DesignatorDropdownGroupDef DBHLite="true">
     <defName>CeilingFans</defName>
   </DesignatorDropdownGroupDef>
 
-  <ThingDef ParentName="BasedHeating">
+  <ThingDef ParentName="BasedHeating" DBHLite="true">
     <defName>CeilingFan</defName>
     <label>ceiling fan 2x2</label>
     <thingClass>DubsBadHygiene.Building_CeilingFan</thingClass>
@@ -490,7 +490,7 @@
     <designatorDropdown>CeilingFans</designatorDropdown>
   </ThingDef>
 
-  <ThingDef ParentName="BasedHeating">
+  <ThingDef ParentName="BasedHeating" DBHLite="true">
     <defName>CeilingFanS</defName>
     <label>ceiling fan 1x1</label>
     <thingClass>DubsBadHygiene.Building_CeilingFan</thingClass>
@@ -556,7 +556,7 @@
   
   
   
-  <ThingDef ParentName="BasedHeating">
+  <ThingDef ParentName="BasedHeating" DBHLite="true">
     <defName>AirConOutdoorUnit</defName>
     <label>air-con outdoor unit</label>
     <description>Multi-split air conditioner unit. Place outdoors and pipe to indoor units or freezer units. Power mode selection with 100-1000 cooling units capacity.</description>
@@ -629,7 +629,7 @@
     <designationCategory>Hygiene</designationCategory>
   </ThingDef>
 
-  <ThingDef ParentName="BaseAircon">
+  <ThingDef ParentName="BaseAircon" DBHLite="true">
     <defName>AirconIndoorUnit</defName>
     <label>air-con indoor unit</label>
     <description>Indoor air-con unit for rooms. Connect to outdoor air-con units. Requires 100 cooling units.</description>
@@ -674,7 +674,7 @@
     </placeWorkers>
   </ThingDef>
 
-  <ThingDef ParentName="BaseAircon">
+  <ThingDef ParentName="BaseAircon" DBHLite="true">
     <defName>FreezerUnit</defName>
     <label>walk-in freezer unit</label>
     <description>Freezer unit for creating a walk-in freezer. Connect to outdoor air-con units. Requires 300 cooling units.</description>
