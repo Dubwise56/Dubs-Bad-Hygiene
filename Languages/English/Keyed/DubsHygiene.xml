@@ -2,6 +2,7 @@
 <LanguageData>
 
   <!--New-->
+	<dbh.ExtraFeatures>Extra features</dbh.ExtraFeatures>
 	<DBHLiteMode>Lite Mode (Simplifies the mod)</DBHLiteMode>
 	<DBHLiteModeTip>Switch the mod into a simplified mode which removes pipes, water and sewage management, and any buildings and jobs not directly related to hygiene and thirst.\n\nThis will prevent many defs from loading and requires a restart.\n\nIf you are trying to load a save with existing hygiene buildings you may need to save and reload it after activating\n\nCan also be used to remove hygiene safely from saves by enabling it, loading and saving the map then disabling the mod</DBHLiteModeTip>
 	<LiteRequiresRestart>You must reload the game after changing the Lite mode setting\n\nIf you are trying to load a save with existing hygiene buildings you may need to save and reload it after activating to clear errors</LiteRequiresRestart>
