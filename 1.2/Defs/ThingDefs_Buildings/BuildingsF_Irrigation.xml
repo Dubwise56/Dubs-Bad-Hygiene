@@ -55,7 +55,7 @@
       </li>
     </comps>
     <researchPrerequisites>
-      <li>Irrigation</li>
+		<li MayRequire="dbhlitemode">Irrigation</li>
     </researchPrerequisites>
     <drawPlaceWorkersWhileSelected>false</drawPlaceWorkersWhileSelected>
     <placeWorkers>
@@ -122,7 +122,7 @@
       </li>
     </comps>
     <researchPrerequisites>
-      <li>FireSuppression</li>
+		<li MayRequire="dbhlitemode">FireSuppression</li>
     </researchPrerequisites>
     <drawPlaceWorkersWhileSelected>false</drawPlaceWorkersWhileSelected>
     <placeWorkers>
@@ -181,7 +181,7 @@
     <constructEffect>ConstructWood</constructEffect>
     <designationCategory>Hygiene</designationCategory>
     <researchPrerequisites>
-      <li>SewageSludgeComposting</li>
+		<li MayRequire="dbhlitemode">SewageSludgeComposting</li>
     </researchPrerequisites>
   </ThingDef>
 
@@ -227,7 +227,7 @@
     </placeWorkers>
     <designationCategory>Hygiene</designationCategory>
     <researchPrerequisites>
-      <li>SewageSludgeComposting</li>
+      <li MayRequire="dbhlitemode">SewageSludgeComposting</li>
     </researchPrerequisites>
   </ThingDef>-->
 

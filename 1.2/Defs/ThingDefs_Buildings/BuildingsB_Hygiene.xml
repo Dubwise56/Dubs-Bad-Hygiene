@@ -402,7 +402,7 @@
 		<pathCost>8</pathCost>
 		<rotatable>true</rotatable>
 		<researchPrerequisites>
-			<li>Plumbing</li>
+			<li MayRequire="dbhlitemode">Plumbing</li>
 		</researchPrerequisites>
 	</ThingDef>
 
@@ -427,7 +427,7 @@
 		</costList>
 		<costStuffCount>10</costStuffCount>
 		<researchPrerequisites>
-			<li>ModernFixtures</li>
+			<li MayRequire="dbhlitemode">ModernFixtures</li>
 		</researchPrerequisites>
 	</ThingDef>
 
@@ -444,7 +444,7 @@
 		</costList>
 		<costStuffCount>10</costStuffCount>
 		<researchPrerequisites>
-			<li>Plumbing</li>
+			<li MayRequire="dbhlitemode">Plumbing</li>
 		</researchPrerequisites>
 	</ThingDef>
 
@@ -480,7 +480,7 @@
 		<costStuffCount>35</costStuffCount>
 		<designationCategory>Hygiene</designationCategory>
 		<researchPrerequisites>
-			<li>ModernFixtures</li>
+			<li MayRequire="dbhlitemode">ModernFixtures</li>
 		</researchPrerequisites>
 	</ThingDef>
 
@@ -516,7 +516,7 @@
 			<isSittable>true</isSittable>
 		</building>
 		<researchPrerequisites>
-			<li>ModernFixtures</li>
+			<li MayRequire="dbhlitemode">ModernFixtures</li>
 		</researchPrerequisites>
 	</ThingDef>
 
@@ -555,7 +555,7 @@
 			<li Class="CompProperties_Flickable"/>
 		</comps>
 		<researchPrerequisites>
-			<li>AdvancedToilets</li>
+			<li MayRequire="dbhlitemode">AdvancedToilets</li>
 		</researchPrerequisites>
 	</ThingDef>
 
@@ -598,18 +598,18 @@
 		<fillPercent>0.15</fillPercent>
 		<size>(1, 2)</size>
 		<passability>PassThroughOnly</passability>
-		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled> 
 		<pathCost>8</pathCost>
 		<rotatable>true</rotatable>
 		<researchPrerequisites>
-			<li>Plumbing</li>
+			<li MayRequire="dbhlitemode">Plumbing</li>
 		</researchPrerequisites>
 		<tickerType>Normal</tickerType>
 		<modExtensions>
 			<li Class="DubsBadHygiene.BathHeaterExt">
 				<HeatSources>
 					<li>Campfire</li>
-					<!--<li>LogBoiler</li>-->
+					<li MayRequire="dbhlitemode">LogBoiler</li>
 				</HeatSources>
 			</li>
 		</modExtensions>
@@ -657,7 +657,7 @@
 		<pathCost>8</pathCost>
 		<rotatable>true</rotatable>
 		<researchPrerequisites>
-			<li>ModernFixtures</li>
+			<li MayRequire="dbhlitemode">ModernFixtures</li>
 		</researchPrerequisites>
 	</ThingDef>
 
@@ -731,7 +731,7 @@
 		</stuffCategories>
 		<costStuffCount>20</costStuffCount>
 		<researchPrerequisites>
-			<li>AdvancedShowers</li>
+			<li MayRequire="dbhlitemode">AdvancedShowers</li>
 		</researchPrerequisites>
 	</ThingDef>
 

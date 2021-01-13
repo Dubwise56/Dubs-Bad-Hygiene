@@ -52,7 +52,7 @@
       </li>
     </comps>
     <researchPrerequisites>
-      <li>CentralHeating</li>
+		<li MayRequire="dbhlitemode">CentralHeating</li>
     </researchPrerequisites>
   </ThingDef>
 
@@ -117,7 +117,7 @@
       </li>
     </comps>
     <researchPrerequisites>
-      <li>LogBoilers</li>
+		<li MayRequire="dbhlitemode">LogBoilers</li>
     </researchPrerequisites>
   </ThingDef>
 
@@ -178,7 +178,7 @@
       </li>
     </comps>
     <researchPrerequisites>
-      <li>CentralHeating</li>
+		<li MayRequire="dbhlitemode">CentralHeating</li>
     </researchPrerequisites>
   </ThingDef>
 
@@ -235,7 +235,7 @@
       <li Class="CompProperties_Breakdownable"/>
     </comps>
     <researchPrerequisites>
-      <li>CentralHeating</li>
+		<li MayRequire="dbhlitemode">CentralHeating</li>
     </researchPrerequisites>
   </ThingDef>
 
@@ -276,7 +276,7 @@
       </li>
     </comps>
     <researchPrerequisites>
-      <li>CentralHeating</li>
+		<li MayRequire="dbhlitemode">CentralHeating</li>
     </researchPrerequisites>
   </ThingDef>
 
@@ -323,8 +323,8 @@
       </li>
     </comps>
     <researchPrerequisites>
-      <li>LogBoilers</li>
-      <li>Plumbing</li>
+		<li MayRequire="dbhlitemode">LogBoilers</li>
+		<li MayRequire="dbhlitemode">Plumbing</li>
     </researchPrerequisites>
   </ThingDef>
 
@@ -363,7 +363,7 @@
       </li>
     </comps>
     <researchPrerequisites>
-      <li>CentralHeating</li>
+		<li MayRequire="dbhlitemode">CentralHeating</li>
     </researchPrerequisites>
     <placeWorkers>
       <li>PlaceWorker_Heater</li>
@@ -479,7 +479,7 @@
       <li Class="CompProperties_Flickable"/>
     </comps>
     <researchPrerequisites>
-      <li>Electricity</li>
+		<li MayRequire="dbhlitemode">Electricity</li>
     </researchPrerequisites>
     <placeWorkers>
       <li>PlaceWorker_CoolerSimple</li>
@@ -541,7 +541,7 @@
       <li Class="CompProperties_Flickable"/>
     </comps>
     <researchPrerequisites>
-      <li>Electricity</li>
+		<li MayRequire="dbhlitemode">Electricity</li>
     </researchPrerequisites>
     <placeWorkers>
       <li>PlaceWorker_CoolerSimple</li>
@@ -595,7 +595,7 @@
       <li Class="CompProperties_Breakdownable"/>
     </comps>
     <researchPrerequisites>
-      <li>MultiSplitAirCon</li>
+		<li MayRequire="dbhlitemode">MultiSplitAirCon</li>
     </researchPrerequisites>
     <designationCategory>Hygiene</designationCategory>
   </ThingDef>
@@ -623,7 +623,7 @@
       <li Class="CompProperties_Flickable"/>
     </comps>
     <researchPrerequisites>
-      <li>MultiSplitAirCon</li>
+		<li MayRequire="dbhlitemode">MultiSplitAirCon</li>
     </researchPrerequisites>
     <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
     <designationCategory>Hygiene</designationCategory>

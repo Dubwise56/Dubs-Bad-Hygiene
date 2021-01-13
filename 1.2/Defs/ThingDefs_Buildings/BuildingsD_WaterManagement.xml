@@ -41,7 +41,7 @@
     <description>Accesses ground water which can be pumped by water pumps. The presence of sewage or other pollution will reduce water quality and can cause contamination.</description>
     <specialDisplayRadius>7.9</specialDisplayRadius>
     <researchPrerequisites>
-      <li>Plumbing</li>
+		<li MayRequire="dbhlitemode">Plumbing</li>
     </researchPrerequisites>
     <comps>
       <li Class="DubsBadHygiene.CompProperties_Pipe">
@@ -73,7 +73,7 @@
       <Steel>100</Steel>
     </costList>
     <researchPrerequisites>
-      <li>DeepWells</li>
+		<li MayRequire="dbhlitemode">DeepWells</li>
     </researchPrerequisites>
     <comps>
       <li Class="DubsBadHygiene.CompProperties_Pipe">
@@ -152,7 +152,7 @@
       <WorkToBuild>1000</WorkToBuild>
     </statBases>
     <researchPrerequisites>
-      <li>Plumbing</li>
+		<li MayRequire="dbhlitemode">Plumbing</li>
     </researchPrerequisites>
   </ThingDef>
 
@@ -189,7 +189,7 @@
       <Flammability>1.0</Flammability>
     </statBases>
     <researchPrerequisites>
-      <li>Plumbing</li>
+		<li MayRequire="dbhlitemode">Plumbing</li>
     </researchPrerequisites>
   </ThingDef>
 
@@ -220,7 +220,7 @@
       <Flammability>0.0</Flammability>
     </statBases>
     <researchPrerequisites>
-      <li>LargeWaterPumps</li>
+		<li MayRequire="dbhlitemode">LargeWaterPumps</li>
     </researchPrerequisites>
   </ThingDef>
 
@@ -283,7 +283,7 @@
       </li>
     </comps>
     <researchPrerequisites>
-      <li>Plumbing</li>
+		<li MayRequire="dbhlitemode">Plumbing</li>
     </researchPrerequisites>
     <placeWorkers>
       <li>DubsBadHygiene.PlaceWorker_WindPump</li>
@@ -338,7 +338,7 @@
       </li>
     </comps>
     <researchPrerequisites>
-      <li>ElectricPumps</li>
+		<li MayRequire="dbhlitemode">ElectricPumps</li>
     </researchPrerequisites>
   </ThingDef>
   
@@ -375,7 +375,7 @@
       </li>
     </comps>
     <researchPrerequisites>
-      <li>LargeWaterPumps</li>
+		<li MayRequire="dbhlitemode">LargeWaterPumps</li>
     </researchPrerequisites>
   </ThingDef>
   
@@ -443,7 +443,7 @@
       <li Class="DubsBadHygiene.CompProperties_Blockage"/>
     </comps>
     <researchPrerequisites>
-      <li>Plumbing</li>
+		<li MayRequire="dbhlitemode">Plumbing</li>
     </researchPrerequisites>
     <placeWorkers>
       <li>DubsBadHygiene.PlaceWorker_SewageArea</li>
@@ -504,7 +504,7 @@
       <ai_chillDestination>false</ai_chillDestination>
     </building>
     <researchPrerequisites>
-      <li>SepticTanks</li>
+		<li MayRequire="dbhlitemode">SepticTanks</li>
     </researchPrerequisites>
   </ThingDef>
   
@@ -562,7 +562,7 @@
         <ai_chillDestination>false</ai_chillDestination>
       </building>
     <researchPrerequisites>
-      <li>SewageTreatment</li>
+		<li MayRequire="dbhlitemode">SewageTreatment</li>
     </researchPrerequisites>
   </ThingDef>
 
@@ -608,7 +608,7 @@
       </li>
     </comps>
     <researchPrerequisites>
-      <li>WaterFiltration</li>
+		<li MayRequire="dbhlitemode">WaterFiltration</li>
     </researchPrerequisites>
   </ThingDef>
 
