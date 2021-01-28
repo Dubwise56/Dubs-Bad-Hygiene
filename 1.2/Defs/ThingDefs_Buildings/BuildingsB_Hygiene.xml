@@ -175,7 +175,6 @@
 			<li>Stony</li>
 		</stuffCategories>
 		<costStuffCount>25</costStuffCount>
-		<specialDisplayRadius>7.9</specialDisplayRadius>
 		<placeWorkers>
 			<li>DubsBadHygiene.PlaceWorker_WaterGrid</li>
 			<li>DubsBadHygiene.PlaceWorker_SewageGrid</li>
@@ -183,6 +182,7 @@
 		<comps>
 			<li Class="DubsBadHygiene.CompProperties_WaterInlet">
 				<compClass>DubsBadHygiene.CompBaseWell</compClass>
+				<Radius>7.9</Radius>
 			</li>
 			<li Class="CompProperties_Forbiddable"/>
 		</comps>

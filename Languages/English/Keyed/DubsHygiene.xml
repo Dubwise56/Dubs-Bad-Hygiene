@@ -139,6 +139,7 @@
 	<WaterValueOffset>Water value: {0} for {1} L</WaterValueOffset>
 	<HyWater>Water</HyWater>
 
+	<OverlapsWells>Overlaps with {0} wells</OverlapsWells>
 
 	<!--Sewage-->
 	<dbh.SewageReadout>Sewage {0}</dbh.SewageReadout>
@@ -168,8 +169,8 @@
 	<RemoveFertilizerArea>Remove area</RemoveFertilizerArea>
 
 	<!--Mod Options-->
-	<ModRemoveSaveCleaner>Mod removal assist</ModRemoveSaveCleaner>
-	<ModRemoveSaveCleanerDesc>This will remove some hygiene related area classes from the current game</ModRemoveSaveCleanerDesc>
+	<dbh.ModRemove>Mod removal assist</dbh.ModRemove>
+	<dbh.ModRemoveDesc>Steps:\n\n1: Save your game immediately after pressing confirm\n2: Quit to the main menu and disable the mod and restart the game\n3: Load your save game, ignore any exceptions and save it again\nLoad the save game once more and there shouldn't be any exceptions related to missing bad hygiene defs or classes!</dbh.ModRemoveDesc>
 	<PetsGetThirst>Pet thirst</PetsGetThirst>
 	<PetsGetThirstTip>Pets get the thirst need</PetsGetThirstTip>
 	<fixtureQualityRequiresRestart>A restart is required to add quality and art comps back in.\n\n restart now?</fixtureQualityRequiresRestart>
