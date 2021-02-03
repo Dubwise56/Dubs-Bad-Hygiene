@@ -45,6 +45,8 @@
 	<TotalHygieneStat>Total: x{0}</TotalHygieneStat>
 	<DirtyHands>Dirty hands - Disease risk</DirtyHands>
 	<Contaminated>Contaminated - Disease risk</Contaminated>
+	<dbh.Veryclean>Very clean</dbh.Veryclean>
+	<dbh.Gettingdirty>Getting dirty</dbh.Gettingdirty>
 
 	<LetterLabelBlockedDrain>A drain has become blocked.</LetterLabelBlockedDrain>
 	<LetterBlockedDrain>A drain has become blocked. A cleaner must clean the blockage.</LetterBlockedDrain>

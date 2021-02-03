@@ -77,5 +77,19 @@
       <growthRate>0.1</growthRate>
     </mote>
   </ThingDef>
+
+	<ThingDef ParentName="BasedMote">
+		<defName>Mote_MyBubbles</defName>
+		<graphicData>
+			<texPath>DBH/Things/Building/HotTub/MyBubbles</texPath>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<mote>
+			<fadeInTime>1</fadeInTime>
+			<solidTime>0</solidTime>
+			<fadeOutTime>0.2</fadeOutTime>
+			<growthRate>0.1</growthRate>
+		</mote>
+	</ThingDef>
   
 </Defs>
