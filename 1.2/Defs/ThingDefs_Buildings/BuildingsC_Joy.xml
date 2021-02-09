@@ -112,6 +112,56 @@
     <layerable>true</layerable>
   </TerrainDef>
 
+  <!--<ThingDef ParentName="BasedHygieneMom">
+	  <description>Water fountain used for joy and beauty, must be filled with water.</description>
+	  <thingClass>DubsBadHygiene.Building_WaterFeature</thingClass>
+	  <defName>DBHWaterFeature</defName>
+	  <label>Water feature</label>
+	  <stuffCategories>
+		  <li>Stony</li>
+	  </stuffCategories>
+	  <costStuffCount>450</costStuffCount>
+	  <altitudeLayer>FloorEmplacement</altitudeLayer>
+	  <uiIconPath>DBH/UI/water_feature</uiIconPath>
+	  <graphicData>
+		  <drawSize>(5,5)</drawSize>
+		  <texPath>DBH/Things/Building/water_feature</texPath>
+		  <graphicClass>Graphic_Single</graphicClass>
+		  <shaderType>CutoutComplex</shaderType>
+	  </graphicData>
+	  <statBases>
+		  <MaxHitPoints>1500</MaxHitPoints>
+		  <WorkToBuild>10000</WorkToBuild>
+		  <Flammability>0</Flammability>
+		  <Beauty>200</Beauty>
+		  <Comfort>0.6</Comfort>
+		  <JoyGainFactor>1</JoyGainFactor>
+		  <Mass>100</Mass>
+	  </statBases>
+	  <building>
+		  <ai_chillDestination>true</ai_chillDestination>
+	  </building>
+	  <comps>
+		  <li Class="DubsBadHygiene.CompProperties_Pipe">
+			  <mode>Sewage</mode>
+		  </li>
+		  <li>
+			  <compClass>CompColorable</compClass>
+		  </li>
+	  </comps>
+	  <fillPercent>0.15</fillPercent>
+	  <size>(3, 3)</size>
+	  <passability>PassThroughOnly</passability>
+	  <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+	  <pathCost>0</pathCost>
+	  <rotatable>true</rotatable>
+	  <researchPrerequisites>
+		  <li MayRequire="dbhlitemode">SwimmingPools</li>
+	  </researchPrerequisites>
+	  <tickerType>Normal</tickerType>
+	  <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+  </ThingDef>-->
+
   <ThingDef ParentName="BasedHygieneMom" Name="DubsSwimmingPoolBase">
     <description>Swimming pool used for hydrotherapy, relaxation, or pleasure. Must be filled with water from water towers first.</description>
     <thingClass>DubsBadHygiene.Building_FillableThing</thingClass>

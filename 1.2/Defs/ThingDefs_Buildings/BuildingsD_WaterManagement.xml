@@ -88,7 +88,7 @@
 			</li>
 		</comps>
 		<placeWorkers>
-			<li>DubsBadHygiene.PlaceWorker_WaterGrid</li>
+			<li>DubsBadHygiene.PlaceWorker_DeepWaterGrid</li>
 			<li>DubsBadHygiene.PlaceWorker_SewageGrid</li>
 			<li>DubsBadHygiene.PlaceWorker_UserGrid</li>
 		</placeWorkers>
