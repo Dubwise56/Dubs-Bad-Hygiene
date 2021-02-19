@@ -331,7 +331,7 @@
 		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
 		<comps>
 			<li Class="CompProperties_Refuelable">
-				<fuelConsumptionRate>50.0</fuelConsumptionRate>
+				<fuelConsumptionRate>200.0</fuelConsumptionRate>
 				<fuelCapacity>250.0</fuelCapacity>
 				<fuelConsumptionPerTickInRain>0.0006</fuelConsumptionPerTickInRain>
 				<fuelFilter>
@@ -339,6 +339,7 @@
 						<li>FecalSludge</li>
 					</thingDefs>
 				</fuelFilter>
+				<showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
 			</li>
 			<li Class="CompProperties_HeatPusher">
 				<compClass>CompHeatPusherPowered</compClass>
@@ -364,6 +365,7 @@
 		<building>
 			<heatPerTickWhileWorking>0.40</heatPerTickWhileWorking>
 			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+			<isInert>true</isInert>
 		</building>
 		<specialDisplayRadius>13.9</specialDisplayRadius>
 		<constructionSkillPrerequisite>3</constructionSkillPrerequisite>

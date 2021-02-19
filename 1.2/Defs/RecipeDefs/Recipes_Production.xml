@@ -26,7 +26,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<Chemfuel>10</Chemfuel>
+			<Chemfuel>35</Chemfuel>
 		</products>
     <recipeUsers>
       <li>BiofuelRefinery</li>
