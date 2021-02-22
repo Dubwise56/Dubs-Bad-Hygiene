@@ -72,8 +72,8 @@
 
 	<!--Heating-->
 	<WaterTemp>Water temp: {0}</WaterTemp>
-	<ConnectedHeatingCapacity>Connected demand/capacity: {0}/{1} U ({2})</ConnectedHeatingCapacity>
-	<ConnectedCoolingCapacity>Connected demand/capacity: {0}/{1} U ({2})</ConnectedCoolingCapacity>
+	<ConnectedHeatingCapacity>Connected demand/capacity: {0} / {1} U ({2})</ConnectedHeatingCapacity>
+	<ConnectedCoolingCapacity>Connected demand/capacity: {0} / {1} U ({2})</ConnectedCoolingCapacity>
 	<HeatingUnits>Heating usage: {0} U</HeatingUnits>
 	<CoolingUnits>Cooling usage: {0} U</CoolingUnits>
 	<HeatingMode>Heating units/power: {0} U / {1} W</HeatingMode>
@@ -168,6 +168,8 @@
 	<RemoveFertilizerArea>Remove area</RemoveFertilizerArea>
 
 	<!--Mod Options-->
+	<dbh.PriorityIndoorCleaning>Prioritize indoor cleaning</dbh.PriorityIndoorCleaning>
+	<dbh.PriorityIndoorCleaningTip>Enables a higher priority cleaning job to clean indoors first</dbh.PriorityIndoorCleaningTip>
 	<dbh.ModRemove>Mod removal assist</dbh.ModRemove>
 	<dbh.ModRemoveDesc>Steps:\n\n1: Save your game immediately after pressing confirm\n2: Quit to the main menu and disable the mod and restart the game\n3: Load your save game, ignore any exceptions and save it again\nLoad the save game once more and there shouldn't be any exceptions related to missing bad hygiene defs or classes!</dbh.ModRemoveDesc>
 	<PetsGetThirst>Pet thirst</PetsGetThirst>
@@ -217,7 +219,7 @@
 	<AllowNonHumanTip>Enables needs on non-human colonists. You can disable specific beings with the needs filter.</AllowNonHumanTip>
 	<dbh.ExtraFeatures>Extra features</dbh.ExtraFeatures>
 	<DBHLiteMode>Lite Mode (Simplifies the mod)</DBHLiteMode>
-	<DBHLiteModeTip>Switch the mod into a simplified mode which removes pipes, water and sewage management, and any buildings and jobs not directly related to hygiene and thirst.\n\nThis will prevent many defs from loading and requires a restart.\n\nIf you are trying to load a save with existing hygiene buildings you may need to save and reload it after activating\n\nCan also be used to remove hygiene safely from saves by enabling it, loading and saving the map then disabling the mod</DBHLiteModeTip>
+	<DBHLiteModeTip>Switch the mod into a simplified mode which removes pipes, water and sewage management, and any buildings and jobs not directly related to hygiene and thirst.\n\nThis will prevent many defs from loading and requires a restart.\n\nIf you are trying to load a save with existing hygiene buildings you may need to save and reload it after activating</DBHLiteModeTip>
 	<LiteRequiresRestart>You must reload the game after changing the Lite mode setting\n\nIf you are trying to load a save with existing hygiene buildings you may need to save and reload it after activating to clear errors</LiteRequiresRestart>
 	<PassiveWaterCoolersLink>Passive coolers use water</PassiveWaterCoolersLink>
 	<PassiveWaterCoolersLinkTip>Passive coolers have their wood fueling removed and are instead filled with water, similar to water tubs.</PassiveWaterCoolersLinkTip>

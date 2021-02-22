@@ -6,7 +6,7 @@
   <ThingDef ParentName="BasedHygieneMom" DBHLite="true">
     <defName>IrrigationSprinkler</defName>
     <label>irrigation sprinkler</label>
-    <description>Waters the surrounding area once every morning to improve the fertility of the soil through the day. Requires large amounts of water from water towers while spraying.</description>
+    <description>Waters the surrounding area once every morning to improve the fertility of the soil through the day. Uses 1000L each morning at max radius.</description>
     <graphicData>
       <texPath>DBH/Things/Building/sprinkler</texPath>
       <graphicClass>Graphic_Single</graphicClass>

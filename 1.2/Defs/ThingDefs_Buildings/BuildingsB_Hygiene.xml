@@ -116,7 +116,7 @@
 	<ThingDef ParentName="BasedFixture">
 		<defName>PitLatrine</defName>
 		<label>latrine</label>
-		<description>A pit latrine that collects faeces in a hole in the ground. Must be emptied manually, or can be plumbed.</description>
+		<description>A pit latrine that collects faeces in a hole in the ground. Must be emptied manually, or can be plumbed.\n14L per use</description>
 		<thingClass>DubsBadHygiene.Building_Latrine</thingClass>
 		<graphicData>
 			<texPath>DBH/Things/Building/Latrine</texPath>
@@ -331,7 +331,7 @@
 		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
 		<comps>
 			<li Class="CompProperties_Refuelable">
-				<fuelConsumptionRate>200.0</fuelConsumptionRate>
+				<fuelConsumptionRate>100.0</fuelConsumptionRate>
 				<fuelCapacity>250.0</fuelCapacity>
 				<fuelConsumptionPerTickInRain>0.0006</fuelConsumptionPerTickInRain>
 				<fuelFilter>
@@ -489,7 +489,7 @@
 
 	<!-- Toilets -->
 	<ThingDef ParentName="BasedFixture" Name="DubsDirtyTerletBase" Abstract="True">
-		<description>Sanitation fixture used for the disposal of human urine and faeces.</description>
+		<description>Sanitation fixture used for the disposal of human urine and faeces.\n14L per use</description>
 		<thingClass>DubsBadHygiene.Building_toilet</thingClass>
 		<graphicData>
 			<texPath>DBH/Things/Building/Toilets/toilet</texPath>
@@ -539,7 +539,7 @@
 	<ThingDef ParentName="DubsDirtyTerletBase" Name="AdvTerletBase" Abstract="True">
 		<defName>ToiletAdv</defName>
 		<thingClass>DubsBadHygiene.Building_AdvToilet</thingClass>
-		<description>Twice as water efficient as a standard toilet. Provides the optimum multi-functional experience with automatic cleansing and deodorization.</description>
+		<description>Twice as water efficient as a standard toilet. Provides the optimum multi-functional experience with automatic cleansing and deodorization.\n7L per use</description>
 		<graphicData>
 			<texPath>DBH/Things/Building/Toilets/toilet</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
@@ -579,7 +579,7 @@
 
 	<!-- Baths -->
 	<ThingDef ParentName="BasedFixture" Name="DubsDirtyBathtubBase" Abstract="True">
-		<description>Slow to use and requires large amounts of water, but very comfortable. Can be heated by placing an adjacent campfire or log boiler, or via plumbed hot water tanks. Does not require a sewage outlet.</description>
+		<description>Slow to use, but very comfortable. Can be heated by placing an adjacent campfire or log boiler, or via plumbed hot water tanks. Does not require a sewage outlet.\n190L per wash</description>
 		<thingClass>DubsBadHygiene.Building_bath</thingClass>
 		<graphicData>
 			<drawSize>(2,3)</drawSize>
@@ -635,7 +635,7 @@
 
 	<!-- Showers -->
 	<ThingDef ParentName="BasedFixture" Name="DubsDirtyShowerBase" Abstract="True">
-		<description>Simple shower. Requires water from water towers. Can be heated via plumbed hot water tanks. Does not require a sewage outlet.</description>
+		<description>Simple shower. Requires water from water towers. Can be heated via plumbed hot water tanks. Does not require a sewage outlet.\n65L per wash</description>
 		<thingClass>DubsBadHygiene.Building_Shower</thingClass>
 		<graphicData>
 			<drawSize>(2,2)</drawSize>
@@ -649,7 +649,7 @@
 			<WorkToBuild>1300</WorkToBuild>
 			<Flammability>1.0</Flammability>
 			<Beauty>3</Beauty>
-			<Comfort>0.5</Comfort>
+			<Comfort>0.4</Comfort>
 			<Mass>20</Mass>
 		</statBases>
 
@@ -702,7 +702,7 @@
 	<ThingDef ParentName="DubsDirtyShowerBase">
 		<defName>ShowerAdvStuff</defName>
 		<label>power shower</label>
-		<description>Features a large 110mm 4-spray powered shower head to relax those aching muscles. Heats water on demand and doubles washing speed!</description>
+		<description>Heats water on demand and does not need a hot water tank, cleans twice as fast\n90L per wash</description>
 		<thingClass>DubsBadHygiene.Building_PowerShower</thingClass>
 		<graphicData>
 			<drawSize>(2,2)</drawSize>
@@ -712,7 +712,7 @@
 		</graphicData>
 		<statBases>
 			<Beauty>8</Beauty>
-			<Comfort>0.8</Comfort>
+			<Comfort>1.2</Comfort>
 			<WorkToBuild>3000</WorkToBuild>
 		</statBases>
 		<comps>
