@@ -143,7 +143,7 @@
 	<!--Sewage-->
 	<dbh.SewageReadout>Sewage {0}</dbh.SewageReadout>
 	<DrainSepticTank>Drain</DrainSepticTank>
-	<DrainSepticTankDesc>Set the level at which fecal sludge should be emptied into barrels. Fecal sludge can be moved and knocked over, burned, or turned into biosolids.</DrainSepticTankDesc>
+	<DrainSepticTankDesc>Set the level at which fecal sludge should be emptied into barrels. Fecal sludge can be moved and knocked over, burned, or turned into biosolids or fuel.</DrainSepticTankDesc>
 	<SewageProcessing>Treating: {0} L/d. Holding: {1} L ({2})</SewageProcessing>
 	<DoNotDrainTank>Do not drain</DoNotDrainTank>
 	<DrainSepticTankAt>Drain tank at {0}</DrainSepticTankAt>
