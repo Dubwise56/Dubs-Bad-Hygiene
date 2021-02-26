@@ -68,7 +68,7 @@
 	<ConnectFixturesToBedDesc>Connect the fixtures to a nearby bed so they inherit the ownership. Hold shift to assign multiple beds</ConnectFixturesToBedDesc>
 	<CancelConnectFixturesToBed>Clear bed link</CancelConnectFixturesToBed>
 	<CancelConnectFixturesToBedDesc>Clear the link to beds</CancelConnectFixturesToBedDesc>
-
+	<dbh.Animalsonly>Animals only</dbh.Animalsonly>
 
 	<!--Heating-->
 	<WaterTemp>Water temp: {0}</WaterTemp>
