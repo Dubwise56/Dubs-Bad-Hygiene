@@ -105,7 +105,7 @@
     <workType>Hauling</workType>
     <verb>refill</verb>
     <gerund>refilling</gerund>
-    <priorityInType>50</priorityInType>
+    <priorityInType>500</priorityInType>
     <requiredCapacities>
       <li>Manipulation</li>
     </requiredCapacities>
