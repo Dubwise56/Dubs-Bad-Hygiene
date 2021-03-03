@@ -61,7 +61,7 @@
 	<HediffDef ParentName="DiseaseBase">
 		<defName>Diarrhea</defName>
 		<label>diarrhea</label>
-		<description>Diarrhea is loose, watery stools. Also known as bowel movements. </description>
+		<description>Diarrhea is loose, watery stools. Also known as bowel movements.</description>
 		<scenarioCanAdd>true</scenarioCanAdd>
 		<initialSeverity>1</initialSeverity>
 		<makesSickThought>true</makesSickThought>
