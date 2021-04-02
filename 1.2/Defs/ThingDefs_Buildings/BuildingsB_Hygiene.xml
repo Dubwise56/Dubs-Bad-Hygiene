@@ -199,7 +199,7 @@
 	<ThingDef ParentName="BasedHygieneMom">
 		<defName>WashBucket</defName>
 		<label>water tub</label>
-		<description>Tub of water used for personal hygiene. Must be regularly refilled with fresh water. Can also be used for drinking if thirst is enabled.</description>
+		<description>Tub of water used for personal hygiene. Must be regularly refilled with fresh water, also fills with rain water. Can also be used for drinking if thirst is enabled.</description>
 		<thingClass>DubsBadHygiene.Building_washbucket</thingClass>
 		<graphicData>
 			<texPath>DBH/Things/Building/filthyBucket</texPath>
@@ -243,6 +243,48 @@
 		</comps>
 	</ThingDef>
 
+	<ThingDef ParentName="BasedHygieneMom" DBHThirst="true">
+		<defName>WaterTrough</defName>
+		<label>Water Trough</label>
+		<description>Trough of water used by animals, a service box with a ballcock valve automatically refills the water when the level is low, also refills in rain.</description>
+		<thingClass>DubsBadHygiene.Building_WaterTrough</thingClass>
+		<graphicData>
+			<texPath>DBH/Things/Building/animalTrough</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(2,1)</drawSize>
+		</graphicData>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<size>(2,1)</size>
+		<thingCategories>
+			<li>BuildingsHygiene</li>
+		</thingCategories>
+		<altitudeLayer>Building</altitudeLayer>
+		<costList>
+			<Steel>75</Steel>
+		</costList>
+		<statBases>
+			<MaxHitPoints>75</MaxHitPoints>
+			<WorkToBuild>250</WorkToBuild>
+			<Flammability>0</Flammability>
+			<Beauty>-5</Beauty>
+			<Cleanliness>-5</Cleanliness>
+			<Mass>5</Mass>
+		</statBases>
+		<tickerType>Rare</tickerType>
+		<fillPercent>0.15</fillPercent>
+		<passability>PassThroughOnly</passability>
+		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+		<pathCost>8</pathCost>
+		<rotatable>true</rotatable>
+		<comps>
+			<li Class="DubsBadHygiene.CompProperties_Pipe">
+				<mode>Sewage</mode>
+			</li>
+			<li Class="CompProperties_Forbiddable"/>
+		</comps>
+	</ThingDef>
+
 	<ThingDef ParentName="BasedHygieneMom" DBHPetBladder="true">
 		<defName>LitterBox</defName>
 		<label>litter box</label>
@@ -281,7 +323,6 @@
 		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
 		<pathCost>8</pathCost>
 		<rotatable>false</rotatable>
-		<socialPropernessMatters>true</socialPropernessMatters>
 		<designationCategory>Hygiene</designationCategory>
 		<comps>
 			<li>
