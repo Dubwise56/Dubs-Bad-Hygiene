@@ -114,6 +114,9 @@
 	<WashingNoSpace>No space</WashingNoSpace>
 	<NoUnreservedSource>No unreserved water sources of the highest available quality.</NoUnreservedSource>
 	<!--Water-->
+	<RaiseFillRate>Flow +50L</RaiseFillRate>
+	<LowerFillRate>Flow -50L</LowerFillRate>
+	<WaterFillRate>Fill Rate: {0}L/h</WaterFillRate>
 	<dbhDrink>Drink</dbhDrink>
 	<CommandDesignateOpenCloseValveLabel>Toggle valve</CommandDesignateOpenCloseValveLabel>
 	<CommandDesignateOpenCloseValveDesc>Toggle the valve between open and closed.</CommandDesignateOpenCloseValveDesc>

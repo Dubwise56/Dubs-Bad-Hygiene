@@ -35,7 +35,7 @@
 			<Mass>2</Mass>
 		</statBases>
 		<recipeMaker>
-			<researchPrerequisite>HygieneBionics</researchPrerequisite>
+			<researchPrerequisite MayRequire="dbhlitemode">HygieneBionics</researchPrerequisite>
 		</recipeMaker>
 	</ThingDef>
 
@@ -107,7 +107,7 @@
 			<Mass>2</Mass>
 		</statBases>
 		<recipeMaker>
-			<researchPrerequisite>HygieneBionics</researchPrerequisite>
+			<researchPrerequisite MayRequire="dbhlitemode">HygieneBionics</researchPrerequisite>
 		</recipeMaker>
 	</ThingDef>
 

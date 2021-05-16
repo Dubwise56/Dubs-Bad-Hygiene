@@ -33,7 +33,7 @@
       <isEdifice>false</isEdifice>
       <canBuildNonEdificesUnder>true</canBuildNonEdificesUnder>
     </building>
-    <pathCost>8</pathCost>
+    <pathCost>0</pathCost>
     <size>(1,1)</size>
     <costList>
       <Steel>15</Steel>
@@ -95,7 +95,7 @@
       <isEdifice>false</isEdifice>
       <canBuildNonEdificesUnder>true</canBuildNonEdificesUnder>
     </building>
-    <pathCost>8</pathCost>
+    <pathCost>0</pathCost>
     <size>(1,1)</size>
     <costList>
       <Steel>15</Steel>
