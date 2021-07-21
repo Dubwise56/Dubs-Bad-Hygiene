@@ -68,6 +68,12 @@
 					<li Class="DubsBadHygiene.JobGiver_DrinkWaterUrgent"/>
 				</value>
 			</li>
+			<li Class="PatchOperationInsert">
+				<xpath>*/ThinkTreeDef[defName = "SatisfyVeryUrgentNeeds"]/thinkRoot[@Class="ThinkNode_Tagger"]/subNodes/li[@Class="ThinkNode_PrioritySorter"]/subNodes//li[2]</xpath>
+				<value>
+					<li Class="DubsBadHygiene.JobGiver_UseToiletUrgent"/>
+				</value>
+			</li>
 		</operations>
 	</Operation>
 
@@ -82,19 +88,19 @@
 				<success>Always</success>
 			</li>
 			<li Class="PatchOperationInsert">
-				<xpath>*/DutyDef[defName = "Relax"]/thinkNode[@Class="ThinkNode_Priority"]/subNodes/li[@Class="Hospitality.ThinkNode_FilterGuestRooms"]/subNodes/li[@Class="ThinkNode_PrioritySorter"]/subNodes//li[1]</xpath>
+				<xpath>*/DutyDef[defName = "Relax"]/thinkNode[@Class="ThinkNode_Priority"]/subNodes/li[@Class="Hospitality.ThinkNode_FilterGuestRooms"]/subNodes/li[@Class="ThinkNode_Tagger"]/subNodes/li[@Class="ThinkNode_PrioritySorter"]/subNodes//li[1]</xpath>
 				<value>
 					<li Class="DubsBadHygiene.JobGiver_HaveWash"/>
 				</value>
 			</li>
 			<li Class="PatchOperationInsert">
-				<xpath>*/DutyDef[defName = "Relax"]/thinkNode[@Class="ThinkNode_Priority"]/subNodes/li[@Class="Hospitality.ThinkNode_FilterGuestRooms"]/subNodes/li[@Class="ThinkNode_PrioritySorter"]/subNodes//li[1]</xpath>
+				<xpath>*/DutyDef[defName = "Relax"]/thinkNode[@Class="ThinkNode_Priority"]/subNodes/li[@Class="Hospitality.ThinkNode_FilterGuestRooms"]/subNodes/li[@Class="ThinkNode_Tagger"]/subNodes/li[@Class="ThinkNode_PrioritySorter"]/subNodes//li[1]</xpath>
 				<value>
 					<li Class="DubsBadHygiene.JobGiver_UseToilet"/>
 				</value>
 			</li>
 			<li Class="PatchOperationInsert">
-				<xpath>*/DutyDef[defName = "Relax"]/thinkNode[@Class="ThinkNode_Priority"]/subNodes/li[@Class="Hospitality.ThinkNode_FilterGuestRooms"]/subNodes/li[@Class="ThinkNode_PrioritySorter"]/subNodes//li[1]</xpath>
+				<xpath>*/DutyDef[defName = "Relax"]/thinkNode[@Class="ThinkNode_Priority"]/subNodes/li[@Class="Hospitality.ThinkNode_FilterGuestRooms"]/subNodes/li[@Class="ThinkNode_Tagger"]/subNodes/li[@Class="ThinkNode_PrioritySorter"]/subNodes//li[1]</xpath>
 				<value>
 					<li Class="DubsBadHygiene.JobGiver_DrinkWater"/>
 				</value>
