@@ -71,6 +71,12 @@
 	<dbh.Animalsonly>Animals only</dbh.Animalsonly>
 	<ChangeOccupancyRestriction>Occupancy Check</ChangeOccupancyRestriction>
 	<ChangeOccupancyRestrictionDesc>Should pawns check if anything in the room is reserved before trying to use the fixture, prevents pawns from walking in on each other to use basins and toilets at the same time</ChangeOccupancyRestrictionDesc>
+	<dbh.AllowColonists>Colonists</dbh.AllowColonists>
+	<dbh.AllowSlaves>Slaves</dbh.AllowSlaves>
+	<dbh.AllowGuests>Guests</dbh.AllowGuests>
+	<dbh.NoColonists>Colonists restricted</dbh.NoColonists>
+	<dbh.NoSlaves>Slaves restricted</dbh.NoSlaves>
+	<dbh.NoGuests>Guests restricted</dbh.NoGuests>
 
 	<!--Heating-->
 	<WaterTemp>Water temp: {0}</WaterTemp>
