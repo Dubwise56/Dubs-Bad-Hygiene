@@ -524,7 +524,7 @@
 	</ThingDef>
 
 	
-	<ThingDef ParentName="DubsDirtyBasinBase" DBHThirst="true">
+	<ThingDef ParentName="DubsDirtyBasinBase">
 		<defName>Fountain</defName>
 		<label>fountain</label>
 		<description>A water fountain used for drinking and washing.</description>
@@ -550,7 +550,7 @@
 		<castEdgeShadows>True</castEdgeShadows>
 	</ThingDef>
 
-	<ThingDef ParentName="DubsDirtyBasinBase" DBHThirst="true">
+	<ThingDef ParentName="DubsDirtyBasinBase">
 		<defName>KitchenSink</defName>
 		<label>kitchen sink</label>
 		<description>Everything but a kitchen sink. Increases room cleanliness.</description>
