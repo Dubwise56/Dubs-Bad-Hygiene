@@ -120,7 +120,7 @@
 
 
 		<graphicData>
-			<texPath>DBH/Things/Resource/WaterBot</texPath>
+			<texPath>DBH/Things/Resource/WaterBottles</texPath>
 			<graphicClass>DubsBadHygiene.Graphic_StackCountTech</graphicClass>
 			<drawSize>0.8</drawSize>
 		</graphicData>
