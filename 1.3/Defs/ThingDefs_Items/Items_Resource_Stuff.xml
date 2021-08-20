@@ -121,8 +121,8 @@
 
 		<graphicData>
 			<texPath>DBH/Things/Resource/WaterBot</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>0.75</drawSize>
+			<graphicClass>DubsBadHygiene.Graphic_StackCountTech</graphicClass>
+			<drawSize>0.8</drawSize>
 		</graphicData>
 		<comps>
 			<li Class="CompProperties">

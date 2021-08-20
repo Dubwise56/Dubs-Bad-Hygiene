@@ -50,7 +50,7 @@
   <!--DONT CHANGE NAMES WILL BREAK RIMHUD-->
   <!--COMMON SENSE WILL FORCE THEM TO DRINK WHEN THIRST FALLS TO ONLY 80%-->
 
-  <NeedDef Class="DubsBadHygiene.Needy">
+  <NeedDef Class="DubsBadHygiene.Needy" DBHThirst="true">
     <defName>DBHThirst</defName>
     <needClass>DubsBadHygiene.Need_Thirst</needClass>
     <label>thirst</label>
