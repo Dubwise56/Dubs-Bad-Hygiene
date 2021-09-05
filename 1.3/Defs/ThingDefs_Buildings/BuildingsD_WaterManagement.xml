@@ -345,6 +345,7 @@
 		<researchPrerequisites>
 			<li MayRequire="dbhlitemode">ElectricPumps</li>
 		</researchPrerequisites>
+		<castEdgeShadows>True</castEdgeShadows>
 	</ThingDef>
 
 	<ThingDef ParentName="BasedWaterPump" DBHLite="true">
@@ -382,6 +383,7 @@
 		<researchPrerequisites>
 			<li MayRequire="dbhlitemode">LargeWaterPumps</li>
 		</researchPrerequisites>
+		<castEdgeShadows>True</castEdgeShadows>
 	</ThingDef>
 
 
@@ -586,7 +588,7 @@
 		<altitudeLayer>Building</altitudeLayer>
 		<passability>PassThroughOnly</passability>
 		<blockWind>false</blockWind>
-		<castEdgeShadows>false</castEdgeShadows>
+		<castEdgeShadows>true</castEdgeShadows>
 		<pathCost>60</pathCost>
 		<size>(2,2)</size>
 		<costList>

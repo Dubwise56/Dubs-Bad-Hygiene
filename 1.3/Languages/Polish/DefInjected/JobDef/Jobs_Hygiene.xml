@@ -1,32 +1,42 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <LoadComposter.reportString>wypełnia TargetA</LoadComposter.reportString>
-  <UnloadComposter.reportString>opróżnia TargetA</UnloadComposter.reportString>
-  <RemoveSewage.reportString>usuwa ścieki</RemoveSewage.reportString>
-  <UseHotTub.reportString>relaksuje</UseHotTub.reportString>
-  <UseToilet.reportString>używa TargetA</UseToilet.reportString>
-  <emptyLatrine.reportString>opróżnia TargetA</emptyLatrine.reportString>
-  <emptySeptictank.reportString>opróżnia TargetA</emptySeptictank.reportString>
-  <WatchWashingMachine.reportString>monitoruje cykl wirowania</WatchWashingMachine.reportString>
-  <DBHDrinkFromGround.reportString>picie wody deszczowej</DBHDrinkFromGround.reportString>
-  <DBHDrinkFromBasin.reportString>pije wodę z TargetA</DBHDrinkFromBasin.reportString>
-  <DBHAdministerFluids.reportString>podlewane TargetA</DBHAdministerFluids.reportString>
-  <haveWildPoo.reportString>łagodzi potrzebę na świeżym powietrzu</haveWildPoo.reportString>
-  <useWashBucket.reportString>myje przy użyciu TargetA</useWashBucket.reportString>
-  <takeShower.reportString>bierze prysznic używając TargetA</takeShower.reportString>
-  <takeBath.reportString>bierze kąpiel</takeBath.reportString>
-  <washHands.reportString>myje ręce</washHands.reportString>
-  <washPatient.reportString>myje TargetA</washPatient.reportString>
-  <cleanBedpan.reportString>wyjmuje kaczkę</cleanBedpan.reportString>
-  <clearBlockage.reportString>czyści TargetA</clearBlockage.reportString>
-  <TipOverSewage.reportString>przewraca się TargetA</TipOverSewage.reportString>
-  <RefillTub.reportString>wypełnia wiadro</RefillTub.reportString>
-  <LoadWashing.reportString>masa TargetA</LoadWashing.reportString>
-  <UnloadWashing.reportString>niszczy TargetA</UnloadWashing.reportString>
-  <washAtCell.reportString>моется</washAtCell.reportString>
-  <LoadFridge.reportString>masa TargetA</LoadFridge.reportString>
-  <TriggerFireSprinkler.reportString>aktywuje TargetA</TriggerFireSprinkler.reportString>
+  <TriggerFireSprinkler.reportString>aktywacja TargetA</TriggerFireSprinkler.reportString>
+  <emptySeptictank.reportString>opróżnianie TargetA</emptySeptictank.reportString>
+  <emptyLatrine.reportString>opróżnianie TargetA</emptyLatrine.reportString>
+
+
+  <!-- <JobDef>
+    <defName>LoadFridge</defName>
+    <driverClass>DubsBadHygiene.JobDriver_LoadFridge</driverClass>
+    <reportString>loading TargetA</reportString>
+    <suspendable>false</suspendable>
+  </JobDef> -->
+
+  <LoadWashing.reportString>ładowanie TargetA</LoadWashing.reportString>
+  <UnloadWashing.reportString>rozładowywanie TargetA</UnloadWashing.reportString>
+  <LoadComposter.reportString>napełnianie TargetA</LoadComposter.reportString>
+  <UnloadComposter.reportString>usuwanie kompostu z TargetA</UnloadComposter.reportString>
+  <RemoveSewage.reportString>odprowadzanie ścieków</RemoveSewage.reportString>
+  <WatchWashingMachine.reportString>oglądanie cyklu wirowania</WatchWashingMachine.reportString>
+  <DBHDrinkFromGround.reportString>picie wody</DBHDrinkFromGround.reportString>
+  <DBHDrinkFromBasin.reportString>picie wody z TargetA</DBHDrinkFromBasin.reportString>
+  <DBHPackWaterBottle.reportString>napełnianie butelki z wodą z TargetA</DBHPackWaterBottle.reportString>
+  <DBHStockpileWaterBottles.reportString>składowanie wody z TargetA</DBHStockpileWaterBottles.reportString>
+  <UseToilet.reportString>używanie TargetA</UseToilet.reportString>
+  <haveWildPoo.reportString>wypróżnianie się na otwartej przestrzeni</haveWildPoo.reportString>
+  <useWashBucket.reportString>mycie w TargetA</useWashBucket.reportString>
+  <washAtCell.reportString>mycie</washAtCell.reportString>
+  <washHands.reportString>mycie rąk</washHands.reportString>
+  <washPatient.reportString>mycie TargetA</washPatient.reportString>
+  <DBHAdministerFluids.reportString>doprowadzenie wody do TargetB</DBHAdministerFluids.reportString>
+  <RefillTub.reportString>napełnianie wanny do mycia</RefillTub.reportString>
+  <RefillWater.reportString>uzupełnianie wody</RefillWater.reportString>
+  <cleanBedpan.reportString>cleaning up bed pan</cleanBedpan.reportString>
+  <clearBlockage.reportString>odblokowanie zatkanego TargetA</clearBlockage.reportString>
+  <TipOverSewage.reportString>przechylanie TargetA</TipOverSewage.reportString>
+  <DrainWaterTankJob.reportString>opróżnianie TargetA</DrainWaterTankJob.reportString>
+  <PlaceFertilizer.reportString>nawożenie gleby</PlaceFertilizer.reportString>
 
 
 </LanguageData>

@@ -145,7 +145,7 @@
 		<defName>AdvancedToilets</defName>
 		<label>smart toilets</label>
 		<tab>DubsBadHygiene</tab>
-		<description>Build smart toilets which are twice as water efficient as a standard toilets and provide more comfort.</description>
+		<description>Build comfortable, self cleaning, super efficient smart toilets.</description>
 		<baseCost>1500</baseCost>
 		<techLevel>Industrial</techLevel>
 		<prerequisites>
