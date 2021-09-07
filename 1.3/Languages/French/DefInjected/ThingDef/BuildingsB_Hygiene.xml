@@ -44,8 +44,10 @@
   <!-- Baths -->
 
   <BathtubStuff.label>bain</BathtubStuff.label>
-  <BathtubStuff.description>Lent à utiliser, nécessite de grandes quantités d'eau, mais très confortable. Peut être chauffé en plaçant un feu de camp adjacent ou via des réservoirs d'eau chaude. N'a pas besoin d'un raccordement d'égoutgt.</BathtubStuff.description>
+  <BathtubStuff.description>Lent à utiliser, nécessite de grandes quantités d'eau, mais très confortable. Peut être chauffé en plaçant un feu de camp adjacent ou via des réservoirs d'eau chaude. N'a pas besoin d'un raccordement d'égout.</BathtubStuff.description>
 
+  <BathMat.label>tapis de bain</BathMat.label>
+  <BathMat.description>Un petit tapis utilisé à côté d'une baignoire pour absorber l'eau.</BathMat.description>
 
   <!-- Showers -->
 
