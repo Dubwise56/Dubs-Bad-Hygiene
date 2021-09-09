@@ -36,7 +36,7 @@
   <PumpingStation.label>station de pompage</PumpingStation.label>
   <PumpingStation.description>Pompe l'eau du puits dans les châteaux d'eau.\n\nCapacité de la pompe: 10000 L/Jour</PumpingStation.description>
  
-  <WaterWellInlet.label>fontaine</WaterWellInlet.label>
+  <WaterWellInlet.label>puits</WaterWellInlet.label>
   <WaterWellInlet.description>Un puits est une structure d'extraction d'eau d'une nape phréatique. La présence d'eaux usées ou d'autres contaminants réduit la qualité de l'eau et peut entraîner une contamination.</WaterWellInlet.description>
 
   <DeepWaterWellInlet.label>puits profond</DeepWaterWellInlet.label>
