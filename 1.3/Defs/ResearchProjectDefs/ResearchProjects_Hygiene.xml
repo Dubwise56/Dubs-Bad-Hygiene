@@ -84,6 +84,20 @@
 		<researchViewY>0</researchViewY>
 	</ResearchProjectDef>
 
+	<ResearchProjectDef>
+		<defName>Saunas</defName>
+		<label>saunas</label>
+		<tab>DubsBadHygiene</tab>
+		<description>Build a dedicated room with a sauna heater where colonists can relax and clean, frequent use can reduce the chance of heart attacks.</description>
+		<baseCost>300</baseCost>
+		<techLevel>Medieval</techLevel>
+		<prerequisites>
+			<li MayRequire="dbhlitemode">LogBoilers</li>
+		</prerequisites>
+		<researchViewX>1</researchViewX>
+		<researchViewY>0.5</researchViewY>
+	</ResearchProjectDef>
+
 
 
 

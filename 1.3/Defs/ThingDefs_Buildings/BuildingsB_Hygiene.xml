@@ -121,6 +121,7 @@
 		<graphicData>
 			<texPath>DBH/Things/Building/Latrine</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>Cutout</shaderType>
 			<damageData>
 				<rect>(0.2,0.2,0.6,0.6)</rect>
 			</damageData>
@@ -524,7 +525,7 @@
 	</ThingDef>
 
 	
-	<ThingDef ParentName="DubsDirtyBasinBase">
+	<ThingDef ParentName="DubsDirtyBasinBase" DBHThirstAddon="true">
 		<defName>Fountain</defName>
 		<label>fountain</label>
 		<description>A water fountain used for drinking and washing.</description>
@@ -550,7 +551,7 @@
 		<castEdgeShadows>True</castEdgeShadows>
 	</ThingDef>
 
-	<ThingDef ParentName="DubsDirtyBasinBase">
+	<ThingDef ParentName="DubsDirtyBasinBase" DBHThirstAddon="true">
 		<defName>KitchenSink</defName>
 		<label>kitchen sink</label>
 		<description>Everything but a kitchen sink. Increases room cleanliness.</description>

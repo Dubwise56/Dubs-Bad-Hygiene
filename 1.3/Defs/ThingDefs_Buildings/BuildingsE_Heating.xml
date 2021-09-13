@@ -310,6 +310,9 @@
 			<li Class="DubsBadHygiene.CompProperties_Pipe">
 				<mode>Sewage</mode>
 			</li>
+			<li MayRequire="Dubwise.DubsCentralHeating" Class="DubsCentralHeating.CompProperties_Pipe">
+				<mode>Heating</mode>
+			</li>
 			<li Class="CompProperties_Flickable">
 				<commandTexture>DBH/Things/Building/Valve</commandTexture>
 				<commandLabelKey>CommandDesignateOpenCloseValveLabel</commandLabelKey>

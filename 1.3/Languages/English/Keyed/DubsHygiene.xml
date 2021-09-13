@@ -181,6 +181,8 @@
 	<RemoveFertilizerArea>Remove area</RemoveFertilizerArea>
 
 	<!--Mod Options-->
+	<dbh.DrinkPackSearchRange>Drink packing search range: {0}</dbh.DrinkPackSearchRange>
+	<dbh.DrinksToPack>Drink packing: search at {0}, pack {1}</dbh.DrinksToPack>
 	<dbh.restartconfirm>Restart</dbh.restartconfirm>
 	<dbh.PriorityIndoorCleaning>Prioritize indoor cleaning</dbh.PriorityIndoorCleaning>
 	<dbh.PriorityIndoorCleaningTip>Enables a higher priority cleaning job to clean indoors first</dbh.PriorityIndoorCleaningTip>
