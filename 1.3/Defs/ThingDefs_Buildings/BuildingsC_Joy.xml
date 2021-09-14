@@ -436,7 +436,7 @@
 			</damageData>
 		</graphicData>
 		<comps>
-			<li Class="DubsBadHygiene.CompProperties_CompBoiler">
+			<li Class="DubsBadHygiene.CompProperties_SaunaHeater">
 				<compClass>DubsBadHygiene.Comp_SaunaHeater</compClass>
 				<effects>
 					<texPath>DBH/Things/Building/Heating/LogSaunaEffects</texPath>
@@ -475,7 +475,7 @@
 			</damageData>
 		</graphicData>
 		<comps>
-			<li Class="DubsBadHygiene.CompProperties_CompBoiler">
+			<li Class="DubsBadHygiene.CompProperties_SaunaHeater">
 				<compClass>DubsBadHygiene.Comp_SaunaHeater</compClass>
 				<effects>
 					<texPath>DBH/Things/Building/Heating/ElectricSaunaEffects</texPath>
