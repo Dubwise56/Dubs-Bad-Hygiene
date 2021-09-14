@@ -23,7 +23,7 @@
     <children>
       <li>
         <subEffecterClass>SubEffecter_SprayerContinuous</subEffecterClass>
-        <scale>0.3~1.0</scale>
+        <scale>0.2~0.7</scale>
         <ticksBetweenMotes>20</ticksBetweenMotes>
         <positionLerpFactor>0.6</positionLerpFactor>
         <positionRadius>0.6</positionRadius>
