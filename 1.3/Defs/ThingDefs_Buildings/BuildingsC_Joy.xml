@@ -410,8 +410,12 @@
 			<Mass>50</Mass>
 		</statBases>
 		<comps>
+			<li>
+				<compClass>DubsBadHygiene.CompGenderRestrict</compClass>
+			</li>
 			<li Class="CompProperties_Flickable"/>
 			<li Class="CompProperties_Glower">
+				<compClass>DubsBadHygiene.ProperGlowerComp</compClass>
 				<glowRadius>5</glowRadius>
 				<glowColor>(217,112,33,0)</glowColor>
 			</li>
