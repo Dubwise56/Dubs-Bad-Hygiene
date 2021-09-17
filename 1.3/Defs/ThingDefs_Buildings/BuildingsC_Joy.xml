@@ -165,7 +165,7 @@
 
 	<ThingDef ParentName="BasedHygieneMom" Name="DubsSwimmingPoolBase">
 		<description>Swimming pool used for hydrotherapy, relaxation, or pleasure. Must be filled with water from water towers first.</description>
-		<thingClass>DubsBadHygiene.Building_FillableThing</thingClass>
+		<thingClass>DubsBadHygiene.Building_Pool</thingClass>
 		<defName>DBHSwimmingPool</defName>
 		<label>swimming pool</label>
 		<stuffCategories>
@@ -390,19 +390,28 @@
 
 
 
-
-	<ThingDef Name="BaseSaunaHeater" ParentName="BasedHeating" Abstract="True">
-		<defName>DBHSaunaHeater</defName>
+	<ThingDef ParentName="BasedHeating">
+		<defName>DBHSaunaHeaterLog</defName>
+		<label>Fueled Sauna Heater</label>
 		<description>A heater designed specifically for creating a sauna room, using a sauna regularly reduces the risk of heart attacks, heats a room to 60c.</description>
+
+		<stuffCategories>
+			<li>Stony</li>
+		</stuffCategories>
+		<costStuffCount>200</costStuffCount>
+		<graphicData>
+			<texPath>DBH/Things/Building/Heating/SaunaHeaterLog</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2,2)</drawSize>
+			<shaderType>Cutout</shaderType>
+			<damageData>
+				<rect>(0.05,0.05,0.95,0.95)</rect>
+			</damageData>
+		</graphicData>
 		<blockWind>true</blockWind>
 		<castEdgeShadows>false</castEdgeShadows>
 		<pathCost>150</pathCost>
 		<size>(1,1)</size>
-		<stuffCategories>
-			<li>Metallic</li>
-			<li>Stony</li>
-		</stuffCategories>
-		<costStuffCount>200</costStuffCount>
 		<rotatable>true</rotatable>
 		<statBases>
 			<MaxHitPoints>250</MaxHitPoints>
@@ -419,27 +428,6 @@
 				<glowRadius>5</glowRadius>
 				<glowColor>(217,112,33,0)</glowColor>
 			</li>
-			<li Class="CompProperties_HeatPusher">
-				<compClass>CompHeatPusherPowered</compClass>
-				<heatPerSecond>21</heatPerSecond>
-				<heatPushMaxTemperature>62</heatPushMaxTemperature>
-			</li>
-		</comps>
-	</ThingDef>
-
-	<ThingDef ParentName="BaseSaunaHeater">
-		<defName>DBHSaunaHeaterLog</defName>
-		<label>Fueled Sauna Heater</label>
-		<graphicData>
-			<texPath>DBH/Things/Building/Heating/SaunaHeaterLog</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>(2,2)</drawSize>
-			<shaderType>Cutout</shaderType>
-			<damageData>
-				<rect>(0.05,0.05,0.95,0.95)</rect>
-			</damageData>
-		</graphicData>
-		<comps>
 			<li Class="DubsBadHygiene.CompProperties_SaunaHeater">
 				<compClass>DubsBadHygiene.Comp_SaunaHeater</compClass>
 				<effects>
@@ -466,9 +454,19 @@
 		</researchPrerequisites>
 	</ThingDef>
 
-	<ThingDef ParentName="BaseSaunaHeater">
+	<ThingDef ParentName="BasedHeating">
 		<defName>DBHSaunaHeaterElec</defName>
 		<label>Electric Sauna Heater</label>
+		<description>A heater designed specifically for creating a sauna room, using a sauna regularly reduces the risk of heart attacks, heats a room to 60c.</description>
+		<stuffCategories>
+			<li>Metallic</li>
+			<li>Stony</li>
+		</stuffCategories>
+		<costStuffCount>180</costStuffCount>
+		<costList>
+			<Steel>20</Steel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
 		<graphicData>
 			<texPath>DBH/Things/Building/Heating/SaunaHeaterElectric</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -478,7 +476,26 @@
 				<rect>(0.05,0.05,0.95,0.95)</rect>
 			</damageData>
 		</graphicData>
+		<blockWind>true</blockWind>
+		<castEdgeShadows>false</castEdgeShadows>
+		<pathCost>150</pathCost>
+		<size>(1,1)</size>
+		<rotatable>true</rotatable>
+		<statBases>
+			<MaxHitPoints>250</MaxHitPoints>
+			<WorkToBuild>1250</WorkToBuild>
+			<Mass>25</Mass>
+		</statBases>
 		<comps>
+			<li>
+				<compClass>DubsBadHygiene.CompGenderRestrict</compClass>
+			</li>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_Glower">
+				<compClass>DubsBadHygiene.ProperGlowerComp</compClass>
+				<glowRadius>5</glowRadius>
+				<glowColor>(217,112,33,0)</glowColor>
+			</li>
 			<li Class="DubsBadHygiene.CompProperties_SaunaHeater">
 				<compClass>DubsBadHygiene.Comp_SaunaHeater</compClass>
 				<effects>

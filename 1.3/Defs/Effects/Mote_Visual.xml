@@ -133,6 +133,7 @@
 			<texPath>DBH/Things/Building/HotTub/MyBubbles</texPath>
 		</graphicData>
 		<altitudeLayer>Building</altitudeLayer>
+		<altitudeLayerIncOffset>0.63</altitudeLayerIncOffset>
 		<fadeInTime>1</fadeInTime>
 		<solidTime>0</solidTime>
 		<fadeOutTime>0.2</fadeOutTime>

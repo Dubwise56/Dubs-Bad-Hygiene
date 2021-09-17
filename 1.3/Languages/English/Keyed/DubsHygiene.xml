@@ -10,6 +10,10 @@
 	<RemoveAirCon>Remove air-con</RemoveAirCon>
 
 	<!--Warnings-->
+	<DBH.HeatedPool>Pool is heated</DBH.HeatedPool>
+	<DBH.CantUsePool>Cannot use pool now:</DBH.CantUsePool>
+	<DBH.PoolRaining>Raining</DBH.PoolRaining>
+	<DBH.PoolTooCold>Too cold {0}</DBH.PoolTooCold>
 	<DBHPrisonWater>Prison needs water source</DBHPrisonWater>
 	<DBHPrisonWaterEx>A prison cell has no access to drinking water, build at least 1 drinking water source like a water tub or basin so that prisoners have free access to drinking water</DBHPrisonWaterEx>
 	<Alert_MissingTower>Missing water tower</Alert_MissingTower>

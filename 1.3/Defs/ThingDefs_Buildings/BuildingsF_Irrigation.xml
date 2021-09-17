@@ -57,6 +57,7 @@
       <li Class="DubsBadHygiene.CompProperties_Sprinkler">
         <compClass>DubsBadHygiene.CompIrrigationSprinkler</compClass>
         <usagePerCell>0.16</usagePerCell>
+		  <fireDamage>10</fireDamage>
       </li>
     </comps>
     <researchPrerequisites>
@@ -120,6 +121,7 @@
       <li Class="DubsBadHygiene.CompProperties_Sprinkler">
         <compClass>DubsBadHygiene.CompFireSprinkler</compClass>
         <usagePerCell>0.16</usagePerCell>
+		  <fireDamage>20</fireDamage>
       </li>
       <li Class="CompProperties_Usable">
         <useJob>TriggerFireSprinkler</useJob>
