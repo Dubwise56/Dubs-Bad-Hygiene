@@ -288,6 +288,7 @@
 				<compClass>CompPowerTrader</compClass>
 				<basePowerConsumption>500</basePowerConsumption>
 			</li>
+			<li Class="CompProperties_Forbiddable"/>
 			<li Class="CompProperties_Flickable"/>
 		</comps>
 		<fillPercent>0.15</fillPercent>
@@ -422,7 +423,7 @@
 			<li>
 				<compClass>DubsBadHygiene.CompGenderRestrict</compClass>
 			</li>
-			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_Forbiddable"/>
 			<li Class="CompProperties_Glower">
 				<compClass>DubsBadHygiene.ProperGlowerComp</compClass>
 				<glowRadius>5</glowRadius>
@@ -492,6 +493,7 @@
 			<li>
 				<compClass>DubsBadHygiene.CompGenderRestrict</compClass>
 			</li>
+			<li Class="CompProperties_Forbiddable"/>
 			<li Class="CompProperties_Flickable"/>
 			<li Class="CompProperties_Glower">
 				<compClass>DubsBadHygiene.ProperGlowerComp</compClass>
@@ -573,7 +575,6 @@
 		</stuffCategories>
 		<costStuffCount>2</costStuffCount>
 		<pathCost>30</pathCost>
-		<designationHotKey>Misc6</designationHotKey>
 		<fillPercent>0.20</fillPercent>
 		<building>
 			<ai_chillDestination>false</ai_chillDestination>
@@ -581,8 +582,6 @@
 				<texPath>DBH/Things/Building/SaunaSeating_Blueprint</texPath>
 			</blueprintGraphicData>
 			<isSittable>true</isSittable>
-			<isInert>true</isInert>
-			<isEdifice>false</isEdifice>
 		</building>
 		<researchPrerequisites>
 			<li MayRequire="dbhlitemode">Saunas</li>

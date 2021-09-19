@@ -30,7 +30,7 @@
 	<DubsBadHygiene.WashingJobDef>
 		<defName>DBHUseSauna</defName>
 		<driverClass>DubsBadHygiene.JobDriver_UseSauna</driverClass>
-		<reportString>sweating</reportString>
+		<reportString>using sauna</reportString>
 		<joyDuration>3000</joyDuration>
 		<joyMaxParticipants>20</joyMaxParticipants>
 		<joyKind>Hydrotherapy</joyKind>
