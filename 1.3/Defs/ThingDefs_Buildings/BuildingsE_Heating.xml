@@ -280,6 +280,50 @@
 		</researchPrerequisites>
 	</ThingDef>
 
+	<ThingDef ParentName="BasedHygieneMom" DBHLite="true">
+		<defName>GeothermHeater</defName>
+		<label>Geothermal heater</label>
+		<description>Uses geothermal heat to heat hot water tanks and radiators. 3700 units of heating.</description>
+		<graphicData>
+			<texPath>DBH/Things/Building/Heating/geoheater</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3,3)</drawSize>
+			<damageData>
+				<rect>(0.05,0.05,0.95,0.95)</rect>
+			</damageData>
+		</graphicData>
+		<blockWind>false</blockWind>
+		<castEdgeShadows>true</castEdgeShadows>
+		<pathCost>150</pathCost>
+		<size>(2,2)</size>
+		<costList>
+			<ComponentIndustrial>4</ComponentIndustrial>
+			<Steel>240</Steel>
+		</costList>
+		<rotatable>false</rotatable>
+		<statBases>
+			<MaxHitPoints>250</MaxHitPoints>
+			<WorkToBuild>4000</WorkToBuild>
+		</statBases>
+		<placeWorkers>
+			<li>PlaceWorker_OnSteamGeyser</li>
+		</placeWorkers>
+		<comps>
+			<li Class="DubsBadHygiene.CompProperties_Pipe">
+				<mode>Sewage</mode>
+			</li>
+			<li Class="DubsBadHygiene.CompProperties_CompBoiler">
+				<compClass>DubsBadHygiene.CompGeoBoiler</compClass>
+				<BaseCapacity>3700</BaseCapacity>
+				<ThermostatControl>false</ThermostatControl>
+			</li>
+			<li Class="CompProperties_Breakdownable"/>
+		</comps>
+		<researchPrerequisites>
+			<li MayRequire="dbhlitemode">GeothermalHeating</li>
+		</researchPrerequisites>
+	</ThingDef>
+
 	<ThingDef ParentName="BasedHeating" DBHLite="true">
 		<defName>HotWaterTank</defName>
 		<label>hot water tank</label>

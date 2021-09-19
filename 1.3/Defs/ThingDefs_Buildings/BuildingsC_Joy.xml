@@ -436,6 +436,8 @@
 					<shaderType>MoteGlow</shaderType>
 					<drawSize>(2,2)</drawSize>
 				</effects>
+				<heatPerSecond>34</heatPerSecond>
+				<heatPushMaxTemperature>70</heatPushMaxTemperature>
 			</li>
 			<li Class="CompProperties_Refuelable">
 				<consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
@@ -504,6 +506,8 @@
 					<shaderType>MoteGlow</shaderType>
 					<drawSize>(2,2)</drawSize>
 				</effects>
+				<heatPerSecond>34</heatPerSecond>
+				<heatPushMaxTemperature>70</heatPushMaxTemperature>
 			</li>
 			<li Class="CompProperties_Power">
 				<compClass>CompPowerTrader</compClass>

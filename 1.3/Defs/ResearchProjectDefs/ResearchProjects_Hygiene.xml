@@ -29,7 +29,7 @@
 		<prerequisites>
 			<li>AirConditioning</li>
 		</prerequisites>
-		<researchViewX>3</researchViewX>
+		<researchViewX>4</researchViewX>
 		<researchViewY>0</researchViewY>
 	</ResearchProjectDef>
 
@@ -81,6 +81,20 @@
 			<li>ClassicStart</li>
 		</tags>
 		<researchViewX>2</researchViewX>
+		<researchViewY>0</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef DBHLite="true">
+		<defName>GeothermalHeating</defName>
+		<label>Geothermal Heating</label>
+		<tab>DubsBadHygiene</tab>
+		<description>Build geothermal heaters which can be built over geysers to generate heat for central heating and hot water tanks.</description>
+		<baseCost>800</baseCost>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>CentralHeating</li>
+		</prerequisites>
+		<researchViewX>3</researchViewX>
 		<researchViewY>0</researchViewY>
 	</ResearchProjectDef>
 
