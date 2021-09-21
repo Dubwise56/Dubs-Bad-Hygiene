@@ -164,6 +164,7 @@
   </ThingDef>-->
 
 	<ThingDef ParentName="BasedHygieneMom" Name="DubsSwimmingPoolBase">
+		<designationCategory>Joy</designationCategory>
 		<description>Swimming pool used for hydrotherapy, relaxation, or pleasure. Must be filled with water from water towers first.</description>
 		<thingClass>DubsBadHygiene.Building_Pool</thingClass>
 		<defName>DBHSwimmingPool</defName>
@@ -244,6 +245,7 @@
 
 
 	<ThingDef ParentName="BasedFixture" Name="DubsHotTubBase">
+		<designationCategory>Joy</designationCategory>
 		<description>Hot tub used for hydrotherapy, relaxation, or pleasure. Filled with water from water towers on first use. Self-heated and does not require a sewage outlet.</description>
 		<thingClass>DubsBadHygiene.Building_HotTub</thingClass>
 		<castEdgeShadows>True</castEdgeShadows>
@@ -385,13 +387,14 @@
 		<researchPrerequisites>
 			<li MayRequire="dbhlitemode">WashingMachines</li>
 		</researchPrerequisites>
-		<designationCategory>Hygiene</designationCategory>
+		<designationCategory>Joy</designationCategory>
 	</ThingDef>
 
 
 
 
 	<ThingDef ParentName="BasedHeating">
+		<designationCategory>Joy</designationCategory>
 		<defName>DBHSaunaHeaterLog</defName>
 		<label>Fueled Sauna Heater</label>
 		<description>A heater designed specifically for creating a sauna room, using a sauna regularly reduces the risk of heart attacks, heats a room to 60c.</description>
@@ -458,6 +461,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="BasedHeating">
+		<designationCategory>Joy</designationCategory>
 		<defName>DBHSaunaHeaterElec</defName>
 		<label>Electric Sauna Heater</label>
 		<description>A heater designed specifically for creating a sauna room, using a sauna regularly reduces the risk of heart attacks, heats a room to 60c.</description>
@@ -529,7 +533,7 @@
 		<defName>DBHSaunaSeating</defName>
 		<label>Sauna seating</label>
 		<description>Slatted seating for sauna rooms</description>
-		<designationCategory>Hygiene</designationCategory>
+		<designationCategory>Joy</designationCategory>
 		<uiIconPath>DBH/UI/SaunaSeating</uiIconPath>
 		<graphicData>
 			<texPath>DBH/Things/Building/SaunaSeating</texPath>

@@ -8,6 +8,7 @@
 		<thingCategories>
 			<li>BuildingsHygiene</li>
 		</thingCategories>
+		<designationCategory>Temperature</designationCategory>
 	</ThingDef>
 
 
@@ -242,6 +243,7 @@
 
 
 	<ThingDef ParentName="BasedHygieneMom" DBHLite="true">
+		<designationCategory>Temperature</designationCategory>
 		<defName>SolarHeater</defName>
 		<label>solar heater</label>
 		<description>Uses sunlight to heat hot water tanks and radiators. 0-2000 units of heating power depending on light level and ambient temperature.</description>
@@ -281,6 +283,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="BasedHygieneMom" DBHLite="true">
+		<designationCategory>Temperature</designationCategory>
 		<defName>GeothermHeater</defName>
 		<label>Geothermal heater</label>
 		<description>Uses geothermal heat to heat hot water tanks and radiators. 3700 units of heating.</description>
@@ -325,6 +328,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="BasedHeating" DBHLite="true">
+		<designationCategory>Hygiene</designationCategory>
 		<defName>HotWaterTank</defName>
 		<label>hot water tank</label>
 		<description>Stores hot running water for showers and baths. Connect to any boiler to heat.</description>
@@ -375,7 +379,7 @@
 
 
 	<ThingDef Name="BaseRadiator" ParentName="BasedHeating" Abstract="True">
-		<thingClass>DubsBadHygiene.Building_Radiator</thingClass>
+		<!--<thingClass>DubsBadHygiene.Building_Radiator</thingClass>-->
 		<graphicData>
 			<texPath>DBH/Things/Building/Heating/radiator</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
@@ -405,6 +409,12 @@
 				<commandTexture>DBH/Things/Building/Valve</commandTexture>
 				<commandLabelKey>CommandDesignateOpenCloseValveLabel</commandLabelKey>
 				<commandDescKey>CommandDesignateOpenCloseValveDesc</commandDescKey>
+			</li>
+			<li Class="CompProperties_TempControl">
+				<compClass>DubsBadHygiene.DBHCompTempControl</compClass>
+				<maxTargetTemperature>30</maxTargetTemperature>
+				<minTargetTemperature>10</minTargetTemperature>
+				<defaultTargetTemperature>21</defaultTargetTemperature>
 			</li>
 		</comps>
 		<researchPrerequisites>
@@ -560,7 +570,7 @@
 			<li>DubsBadHygiene.PlaceWorker_NotUnderEdiface</li>
 		</placeWorkers>
 		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
-		<designationCategory>Hygiene</designationCategory>
+		<designationCategory>Temperature</designationCategory>
 		<designatorDropdown>CeilingFans</designatorDropdown>
 	</ThingDef>
 
@@ -661,7 +671,7 @@
 		<researchPrerequisites>
 			<li MayRequire="dbhlitemode">MultiSplitAirCon</li>
 		</researchPrerequisites>
-		<designationCategory>Hygiene</designationCategory>
+		<designationCategory>Temperature</designationCategory>
 	</ThingDef>
 
 	<ThingDef Name="BaseAircon" ParentName="BasedHeating" Abstract="True">
@@ -690,7 +700,7 @@
 			<li MayRequire="dbhlitemode">MultiSplitAirCon</li>
 		</researchPrerequisites>
 		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
-		<designationCategory>Hygiene</designationCategory>
+		<designationCategory>Temperature</designationCategory>
 	</ThingDef>
 
 	<ThingDef ParentName="BaseAircon" DBHLite="true">

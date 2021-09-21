@@ -10,6 +10,7 @@
 	<RemoveAirCon>Remove air-con</RemoveAirCon>
 
 	<!--Warnings-->
+	<DBH.requiresSaunaRoom>Room is too large to heat!\nMaximum of 50 cells per heater\nAdd more sauna heaters or shrink the room</DBH.requiresSaunaRoom>
 	<DBH.HeatedPool>Pool is heated</DBH.HeatedPool>
 	<DBH.CantUsePool>Cannot use pool now:</DBH.CantUsePool>
 	<DBH.PoolRaining>Raining</DBH.PoolRaining>
