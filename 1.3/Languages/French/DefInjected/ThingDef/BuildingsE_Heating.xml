@@ -30,6 +30,9 @@
   <RadiatorLarge.label>Grand radiateur</RadiatorLarge.label>
   <RadiatorLarge.description>3 fois la puissance d'un radiateur standard, utile dans les grandes pièces.\n\nNécessite 300 unités de chauffage.</RadiatorLarge.description>
 
+  <RadiatorTowelRail.label>Porte serviette</RadiatorTowelRail.label>
+  <RadiatorTowelRail.description>Porte-serviettes de salle de bain.</RadiatorTowelRail.description>
+
   <!-- COOLING -->
   
   <CeilingFan.label>Ventilateur de plafond 2x2</CeilingFan.label>
