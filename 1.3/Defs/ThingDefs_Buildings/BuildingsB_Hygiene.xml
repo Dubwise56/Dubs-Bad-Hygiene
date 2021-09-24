@@ -649,7 +649,7 @@
 		<statBases>
 			<WorkToBuild>1950</WorkToBuild>
 			<Beauty>6</Beauty>
-			<Comfort>1</Comfort>
+			<Comfort>0.78</Comfort>
 		</statBases>
 		<comps>
 			<li Class="CompProperties_Power">
