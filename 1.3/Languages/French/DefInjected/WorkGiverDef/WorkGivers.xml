@@ -57,8 +57,8 @@
   <RefillTub.gerund>Remplissage du bain</RefillTub.gerund>
   <RefillTub.verb>Remplit le bain</RefillTub.verb>
   
-  <TipSewage.label>Bsculer</TipSewage.label>
-  <TipSewage.gerund>Basculement</TipSewage.gerund>
-  <TipSewage.verb>Bascule</TipSewage.verb>
+  <TipSewage.label>Basculer</TipSewage.label>
+  <TipSewage.gerund>Bascule</TipSewage.gerund>
+  <TipSewage.verb>Basculer</TipSewage.verb>
   
 </LanguageData>
