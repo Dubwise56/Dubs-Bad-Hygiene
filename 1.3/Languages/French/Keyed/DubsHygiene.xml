@@ -14,6 +14,16 @@
   <StripPaint>Enlever</StripPaint>
 
   <!--Warnings-->
+	<Alert_MissingTower>Château d'eau manquant</Alert_MissingTower>
+	<Alert_MissingTowerDesc>Un château d'eau ou un réservoir d'eau est nécessaire pour stocker l'eau pompée des puits.</Alert_MissingTowerDesc>
+	<Alert_MissingWell>Puit manquant</Alert_MissingWell>
+	<Alert_MissingWellDesc>Les pompes nécessitent un puits pour accéder à l'eau souterraine.</Alert_MissingWellDesc>
+	<Alert_MissingPump>Pompe à eau manquante</Alert_MissingPump>
+	<Alert_MissingPumpDesc>Une pompe à eau est nécessaire pour pomper l'eau d'un puits vers un château d'eau.</Alert_MissingPumpDesc>
+	<DBHFalloutWarning>Contamination de l'eau</DBHFalloutWarning>
+	<DBHFalloutWarningEx>Après 2 jours de retombées toxiques, l'accumulation contaminera tous les réservoirs de stockage d'eau connectés aux puits d'eau.\n\nPréparez-vous en créant une réserve d'eau, puis en utilisant une vanne pour déconnecter les puits afin de protéger l'eau de la contamination avant qu'il ne soit trop tard.\n\nVous pouvez également utiliser un puits profond pour accéder à de l'eau non contaminée, ou installer un système de traitement de l'eau qui éliminera toute contamination des réserves d'eau.</DBHFalloutWarningEx>
+
+	<LowCoolingCap>Low cooling capacity. You can increase the power of outdoor units.</LowCoolingCap>
   <NotOwned>Accès restreint.</NotOwned>
   <GenderRestricted>Seulement {0}.</GenderRestricted>
   <PrisonersOnly>Prisoniers seulement</PrisonersOnly>
