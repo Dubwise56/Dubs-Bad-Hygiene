@@ -128,14 +128,6 @@
     <description>Pipe for connecting air-conditioning units.</description>
     <graphicData>
       <texPath>DBH/Things/Building/ducting_atlas</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <linkType>Basic</linkType>
-      <linkFlags>
-        <li>Custom6</li>
-      </linkFlags>
-      <damageData>
-        <rect>(0,0.35,1,0.3)</rect>
-      </damageData>
     </graphicData>
     <building>
       <blueprintGraphicData>

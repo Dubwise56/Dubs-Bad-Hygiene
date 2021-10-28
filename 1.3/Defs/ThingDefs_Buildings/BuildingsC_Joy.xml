@@ -532,7 +532,7 @@
 		<placingDraggableDimensions>1</placingDraggableDimensions>
 		<defName>DBHSaunaSeating</defName>
 		<label>Sauna seating</label>
-		<description>Slatted seating for sauna rooms</description>
+		<description>Slatted seating for sauna rooms</description> 
 		<designationCategory>Joy</designationCategory>
 		<uiIconPath>DBH/UI/SaunaSeating</uiIconPath>
 		<graphicData>
