@@ -17,6 +17,10 @@
   <DBHAdministerFluids.verb>dar água</DBHAdministerFluids.verb>
   <DBHAdministerFluids.gerund>dando água</DBHAdministerFluids.gerund>
 
+  <DBHAdministerFluidsWarden.label>administer fluids</DBHAdministerFluidsWarden.label>
+  <DBHAdministerFluidsWarden.verb>give drink</DBHAdministerFluidsWarden.verb>
+  <DBHAdministerFluidsWarden.gerund>serving drink</DBHAdministerFluidsWarden.gerund>
+
   <ClearBlockage.label>desentupir</ClearBlockage.label>
   <ClearBlockage.verb>desentupir</ClearBlockage.verb>
   <ClearBlockage.gerund>desentupindo</ClearBlockage.gerund>

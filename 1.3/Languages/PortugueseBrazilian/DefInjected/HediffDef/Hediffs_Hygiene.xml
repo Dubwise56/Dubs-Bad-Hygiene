@@ -6,7 +6,7 @@
   <Washing.labelNoun>Lavando</Washing.labelNoun>
 
   <BadHygiene.label>má higiene</BadHygiene.label>
-  <BadHygiene.description>>A má higiene aumentará o risco de doenças e afetará a interação social.</BadHygiene.description>
+  <BadHygiene.description>&gt;A má higiene aumentará o risco de doenças e afetará a interação social.</BadHygiene.description>
   <BadHygiene.stages.0.label>Estágio menor</BadHygiene.stages.0.label>
   <BadHygiene.stages.1.label>Estágio maior</BadHygiene.stages.1.label>
   <BadHygiene.stages.2.label>Estágio extremo</BadHygiene.stages.2.label>

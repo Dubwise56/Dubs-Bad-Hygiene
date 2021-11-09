@@ -29,9 +29,17 @@
   <emptySepticTank.verb>esvaziar</emptySepticTank.verb>
   <emptySepticTank.gerund>esvaziando</emptySepticTank.gerund>
 
+  <WardenEmptySepticTank.label>empty septic tank</WardenEmptySepticTank.label>
+  <WardenEmptySepticTank.verb>empty</WardenEmptySepticTank.verb>
+  <WardenEmptySepticTank.gerund>emptying</WardenEmptySepticTank.gerund>
+
   <RefillWater.label>encher água</RefillWater.label>
   <RefillWater.verb>encher</RefillWater.verb>
   <RefillWater.gerund>enchendo</RefillWater.gerund>
+
+  <WardenRefillWater.label>refill water</WardenRefillWater.label>
+  <WardenRefillWater.verb>refill</WardenRefillWater.verb>
+  <WardenRefillWater.gerund>refilling</WardenRefillWater.gerund>
 
   <CleanFilthIndoors.label>limpar sujeira dentro de casa</CleanFilthIndoors.label>
   <CleanFilthIndoors.verb>limpar</CleanFilthIndoors.verb>

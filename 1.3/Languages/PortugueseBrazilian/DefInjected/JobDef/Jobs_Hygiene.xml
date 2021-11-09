@@ -9,7 +9,7 @@
   <!-- <JobDef>
     <defName>LoadFridge</defName>
     <driverClass>DubsBadHygiene.JobDriver_LoadFridge</driverClass>
-    <reportString>Carregando TargetA</reportString>
+    <reportString>loading TargetA</reportString>
     <suspendable>false</suspendable>
   </JobDef> -->
 
@@ -38,5 +38,12 @@
   <cleanBedpan.reportString>Limpando penico.</cleanBedpan.reportString>
   <clearBlockage.reportString>Algo esta entupido.</clearBlockage.reportString>
 
+
+  <!-- <JobDef>
+    <defName>LoadFridge</defName>
+    <driverClass>DubsBadHygiene.JobDriver_LoadFridge</driverClass>
+    <reportString>Carregando TargetA</reportString>
+    <suspendable>false</suspendable>
+  </JobDef> -->
 
 </LanguageData>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
   <!--Construction-->
@@ -10,6 +10,13 @@
   <RemoveAirCon>Remover tubo de ar</RemoveAirCon>
 
   <!--Warnings-->
+  <DBH.requiresSaunaRoom>A sala é muito grande para aquecer!\nMáximo de 50 células por aquecedor\nAdicione mais aquecedores de sauna ou diminua a sala</DBH.requiresSaunaRoom>
+  <DBH.HeatedPool>Piscina é aquecida</DBH.HeatedPool>
+  <DBH.CantUsePool>Não é possível usar piscina agora:</DBH.CantUsePool>
+  <DBH.PoolRaining>Chovendo</DBH.PoolRaining>
+  <DBH.PoolTooCold>Muito frio {0}</DBH.PoolTooCold>
+  <DBHPrisonWater>A prisão precisa de fonte de água</DBHPrisonWater>
+  <DBHPrisonWaterEx>Uma cela de prisão não tem acesso a água potável, construa pelo menos uma fonte de água potável, como uma banheira ou bacia, para que os prisioneiros tenham livre acesso à água potável</DBHPrisonWaterEx>
   <Alert_MissingTower>Esta faltando torre de água</Alert_MissingTower>
   <Alert_MissingTowerDesc>Uma torre de água ou barril de água é necessário para armazenar a água bombeada do lençol freático.</Alert_MissingTowerDesc>
   <Alert_MissingWell>Esta faltando poço de água</Alert_MissingWell>
@@ -179,6 +186,9 @@
   <RemoveFertilizerArea>Remover área</RemoveFertilizerArea>
 
   <!--Mod Options-->
+  <dbh.DrinkPackSearchRange>Intervalo de pesquisa de embalagem de bebidas: {0}</dbh.DrinkPackSearchRange>
+  <dbh.DrinksToPack>Embalagem de bebidas: pesquise em {0}, embalagem {1}</dbh.DrinksToPack>
+  <dbh.restartconfirm>Reiniciar</dbh.restartconfirm>
   <dbh.PriorityIndoorCleaning>Limpeza interna</dbh.PriorityIndoorCleaning>
   <dbh.PriorityIndoorCleaningTip>Permite limpar o interior primeiro com prioridade</dbh.PriorityIndoorCleaningTip>
   <dbh.ModRemove>Suporte para remoção de mod</dbh.ModRemove>

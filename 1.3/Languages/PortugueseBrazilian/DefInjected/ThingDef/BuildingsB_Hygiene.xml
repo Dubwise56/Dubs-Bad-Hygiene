@@ -37,6 +37,13 @@
   <WaterTrough_Frame.label>Water Trough (building)</WaterTrough_Frame.label>
   <WaterTrough_Frame.description>Trough of water used by animals, a service box with a ballcock valve automatically refills the water when the level is low, also refills in rain.</WaterTrough_Frame.description>
 
+  <PetWaterBowl.label>Tigela de água</PetWaterBowl.label>
+  <PetWaterBowl.description>Tigela de água usada por animais.</PetWaterBowl.description>
+  <PetWaterBowl_Blueprint.label>Water Bowl (blueprint)</PetWaterBowl_Blueprint.label>
+  <PetWaterBowl_Blueprint_Install.label>Water Bowl (blueprint)</PetWaterBowl_Blueprint_Install.label>
+  <PetWaterBowl_Frame.label>Water Bowl (building)</PetWaterBowl_Frame.label>
+  <PetWaterBowl_Frame.description>Tigela de água usada por animais.</PetWaterBowl_Frame.description>
+
   <LitterBox.label>caixa de areia</LitterBox.label>
   <LitterBox.description>Uma caixa de areia para depositar cocô e urina de pequenos animais.</LitterBox.description>
   <LitterBox_Blueprint.label>litter box (blueprint)</LitterBox_Blueprint.label>
@@ -44,7 +51,7 @@
   <LitterBox_Frame.label>litter box (building)</LitterBox_Frame.label>
   <LitterBox_Frame.description>An indoor faeces and urine collection box for small animals.</LitterBox_Frame.description>
 
-  <BurnPit.label>queima de resíduo</BurnPit.label>
+  <BurnPit.label>buraco de resíduo</BurnPit.label>
   <BurnPit.description>Elimina o cocô, queimando-o como combustível. Também pode ser usado para descartar cadáveres e outros detritos. Os colonos podem ficar doentes se passarem muito tempo perto da queima de resíduos.</BurnPit.description>
   <BurnPit_Blueprint.label>burn pit (blueprint)</BurnPit_Blueprint.label>
   <BurnPit_Frame.label>burn pit (building)</BurnPit_Frame.label>

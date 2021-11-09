@@ -16,6 +16,12 @@
   <CentralHeating.label>água quente avançada</CentralHeating.label>
   <CentralHeating.description>Construa reservatórios, radiadores, aquecedores e termostatos.</CentralHeating.description>
 
+  <GeothermalHeating.label>Aquecimento geotérmico</GeothermalHeating.label>
+  <GeothermalHeating.description>Construa aquecedores geotérmicos que podem ser construídos sobre gêiseres para gerar calor para aquecimento central e tanques de água quente.</GeothermalHeating.description>
+
+  <Saunas.label>saunas</Saunas.label>
+  <Saunas.description>Construa uma sala dedicada com um aquecedor de sauna onde os colonos possam relaxar e limpar, o uso frequente pode reduzir a chance de ataques cardíacos.</Saunas.description>
+
   <ModernFixtures.label>sistema de água moderno</ModernFixtures.label>
   <ModernFixtures.description>Construa um banheiro moderno.</ModernFixtures.description>
 
