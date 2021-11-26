@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!--   <takeShower.reportString>showering with TargetA</takeShower.reportString>
+  <takeBath.reportString>having a bath</takeBath.reportString> -->
+
+  <takeShower.reportString>duchándose con TargetA</takeShower.reportString>
+  <takeBath.reportString>dándose un baño</takeBath.reportString>
+
+
+</LanguageData>

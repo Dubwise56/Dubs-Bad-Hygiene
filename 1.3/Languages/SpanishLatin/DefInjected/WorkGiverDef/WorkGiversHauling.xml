@@ -1,41 +1,93 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <DoBillsBurnPit.label>Quemar los desechos del pozo</DoBillsBurnPit.label>
+  <!--   <DoBillsBurnPit.label>do burn pit bills</DoBillsBurnPit.label>
+  <DoBillsBurnPit.verb>burn</DoBillsBurnPit.verb>
+  <DoBillsBurnPit.gerund>burning at</DoBillsBurnPit.gerund> -->
+
+  <DoBillsBurnPit.label>quemar desechos del foso</DoBillsBurnPit.label>
   <DoBillsBurnPit.verb>quemar</DoBillsBurnPit.verb>
   <DoBillsBurnPit.gerund>quemando</DoBillsBurnPit.gerund>
 
-  <RemoveSewage.label>Eliminar las aguas residuales en los barriles</RemoveSewage.label>
-  <RemoveSewage.verb>eliminar las aguas residuales</RemoveSewage.verb>
-  <RemoveSewage.gerund>eliminación de aguas residuales</RemoveSewage.gerund>
+  <!--   <RemoveSewage.label>shovel sewage into barrels</RemoveSewage.label>
+  <RemoveSewage.verb>remove sewage</RemoveSewage.verb>
+  <RemoveSewage.gerund>removing sewage</RemoveSewage.gerund> -->
 
-  <UnloadWashing.label>Descarga de lavado</UnloadWashing.label>
-  <UnloadWashing.verb>Descarga de lavado</UnloadWashing.verb>
-  <UnloadWashing.gerund>descargando el lavado</UnloadWashing.gerund>
+  <RemoveSewage.label>depositar residuos en barriles</RemoveSewage.label>
+  <RemoveSewage.verb>eliminar residuos</RemoveSewage.verb>
+  <RemoveSewage.gerund>eliminando residuos</RemoveSewage.gerund>
 
-  <LoadWashing.label>Carga de lavado</LoadWashing.label>
-  <LoadWashing.verb>Carga de lavado</LoadWashing.verb>
-  <LoadWashing.gerund>cargando lavado</LoadWashing.gerund>
+  <!--   <UnloadWashing.label>unload washing</UnloadWashing.label>
+  <UnloadWashing.verb>unload washing</UnloadWashing.verb>
+  <UnloadWashing.gerund>unloading washing</UnloadWashing.gerund> -->
 
-  <UnloadComposter.label>sacar el abono del compostador</UnloadComposter.label>
-  <UnloadComposter.verb>llevar abono</UnloadComposter.verb>
-  <UnloadComposter.gerund>llevando abono</UnloadComposter.gerund>
+  <UnloadWashing.label>sacar la colada</UnloadWashing.label>
+  <UnloadWashing.verb>sacar la colada</UnloadWashing.verb>
+  <UnloadWashing.gerund>sacando la colada</UnloadWashing.gerund>
 
-  <FillComposter.label>Rellenar de abono</FillComposter.label>
-  <FillComposter.verb>rellenar</FillComposter.verb>
-  <FillComposter.gerund>rellenando</FillComposter.gerund>
+  <!--   <LoadWashing.label>load washing</LoadWashing.label>
+  <LoadWashing.verb>load washing</LoadWashing.verb>
+  <LoadWashing.gerund>loading washing</LoadWashing.gerund> -->
 
-  <emptySepticTank.label>Vaciar tanque séptico</emptySepticTank.label>
+  <LoadWashing.label>cargar lavadora</LoadWashing.label>
+  <LoadWashing.verb>cargar lavadora</LoadWashing.verb>
+  <LoadWashing.gerund>cargando la lavadora</LoadWashing.gerund>
+
+  <!--   <UnloadComposter.label>take compost out of composter</UnloadComposter.label>
+  <UnloadComposter.verb>take compost</UnloadComposter.verb>
+  <UnloadComposter.gerund>taking compost from</UnloadComposter.gerund> -->
+
+  <UnloadComposter.label>sacar compostaje del compostador</UnloadComposter.label>
+  <UnloadComposter.verb>sacar compostaje</UnloadComposter.verb>
+  <UnloadComposter.gerund>sacando compostaje del compostador</UnloadComposter.gerund>
+
+  <!--   <FillComposter.label>fill composter</FillComposter.label>
+  <FillComposter.verb>fill</FillComposter.verb>
+  <FillComposter.gerund>filling</FillComposter.gerund> -->
+
+  <FillComposter.label>llenar el compostador</FillComposter.label>
+  <FillComposter.verb>llenar</FillComposter.verb>
+  <FillComposter.gerund>llenando el compostador</FillComposter.gerund>
+
+  <!--   <emptySepticTank.label>empty septic tank</emptySepticTank.label>
+  <emptySepticTank.verb>empty</emptySepticTank.verb>
+  <emptySepticTank.gerund>emptying</emptySepticTank.gerund> -->
+
+  <emptySepticTank.label>vaciar fosa séptica</emptySepticTank.label>
   <emptySepticTank.verb>vaciar</emptySepticTank.verb>
   <emptySepticTank.gerund>vaciando</emptySepticTank.gerund>
 
-  <emptyLatrine.label>Vaciar letrina</emptyLatrine.label>
-  <emptyLatrine.verb>vaciar</emptyLatrine.verb>
-  <emptyLatrine.gerund>vaciando</emptyLatrine.gerund>
+  <!--   <WardenEmptySepticTank.label>empty septic tank</WardenEmptySepticTank.label>
+  <WardenEmptySepticTank.verb>empty</WardenEmptySepticTank.verb>
+  <WardenEmptySepticTank.gerund>emptying</WardenEmptySepticTank.gerund> -->
 
-  <RefillTub.label>Rellenar la bañera</RefillTub.label>
-  <RefillTub.verb>rellenar</RefillTub.verb>
-  <RefillTub.gerund>rellenando</RefillTub.gerund>
+  <WardenEmptySepticTank.label>vaciar fosa séptica</WardenEmptySepticTank.label>
+  <WardenEmptySepticTank.verb>vaciar</WardenEmptySepticTank.verb>
+  <WardenEmptySepticTank.gerund>vaciando</WardenEmptySepticTank.gerund>
+
+  <!--   <RefillWater.label>refill water</RefillWater.label>
+  <RefillWater.verb>refill</RefillWater.verb>
+  <RefillWater.gerund>refilling</RefillWater.gerund> -->
+
+  <RefillWater.label>rellenar de agua</RefillWater.label>
+  <RefillWater.verb>rellenar</RefillWater.verb>
+  <RefillWater.gerund>rellenando</RefillWater.gerund>
+
+  <!--   <WardenRefillWater.label>refill water</WardenRefillWater.label>
+  <WardenRefillWater.verb>refill</WardenRefillWater.verb>
+  <WardenRefillWater.gerund>refilling</WardenRefillWater.gerund> -->
+
+  <WardenRefillWater.label>rellenar de agua</WardenRefillWater.label>
+  <WardenRefillWater.verb>rellenar</WardenRefillWater.verb>
+  <WardenRefillWater.gerund>rellenando</WardenRefillWater.gerund>
+
+  <!--   <CleanFilthIndoors.label>clean filth indoors</CleanFilthIndoors.label>
+  <CleanFilthIndoors.verb>clean</CleanFilthIndoors.verb>
+  <CleanFilthIndoors.gerund>cleaning</CleanFilthIndoors.gerund> -->
+
+  <CleanFilthIndoors.label>limpiar suciedad del interior</CleanFilthIndoors.label>
+  <CleanFilthIndoors.verb>limpiar</CleanFilthIndoors.verb>
+  <CleanFilthIndoors.gerund>limpiando</CleanFilthIndoors.gerund>
 
 
 </LanguageData>

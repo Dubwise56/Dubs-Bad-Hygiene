@@ -1,7 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <Waste.label>Desechos</Waste.label>
+  <!--   <Waste.label>waste</Waste.label>
+  <BuildingsHygiene.label>hygiene</BuildingsHygiene.label> -->
+
+  <Waste.label>Residuos</Waste.label>
   <BuildingsHygiene.label>Higiene</BuildingsHygiene.label>
 
 

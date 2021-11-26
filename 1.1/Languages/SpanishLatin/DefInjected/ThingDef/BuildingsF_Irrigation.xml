@@ -3,32 +3,27 @@
 
   <!-- Irrigation -->
 
-  <IrrigationSprinkler.label>Aspersor de Riego</IrrigationSprinkler.label>
-  <IrrigationSprinkler.description>Riega el área circundante una vez por la mañana para mejorar la fertilidad del suelo a lo largo del día. Requiere grandes cantidades de agua de las torres de agua durante la pulverización.</IrrigationSprinkler.description>
-  <IrrigationSprinkler_Blueprint.label>Aspersor de Riego (plano)</IrrigationSprinkler_Blueprint.label>
-  <IrrigationSprinkler_Blueprint_Install.label>Aspersor de Riego (plano)</IrrigationSprinkler_Blueprint_Install.label>
-  <IrrigationSprinkler_Frame.label>Aspersor de Riego (construcción)</IrrigationSprinkler_Frame.label>
-  <IrrigationSprinkler_Frame.description>Riega el área circundante una vez por la mañana para mejorar la fertilidad del suelo a lo largo del día. Requiere grandes cantidades de agua de las torres de agua durante la pulverización.</IrrigationSprinkler_Frame.description>
+  <IrrigationSprinkler.label>Aspersor de riego</IrrigationSprinkler.label>
+  <IrrigationSprinkler.description>Riega los alrededores una vez cada mañana para mejorar la fertilidad del terreno a lo largo del día. Utiliza 1000L cada mañana en el radio máximo.</IrrigationSprinkler.description>
+  <Blueprint_IrrigationSprinkler.label>Aspersor de riego (anteproyecto)</Blueprint_IrrigationSprinkler.label>
+  <Blueprint_Install_IrrigationSprinkler.label>Aspersor de riego (anteproyecto)</Blueprint_Install_IrrigationSprinkler.label>
+  <Frame_IrrigationSprinkler.label>Aspersor de riego (construcción)</Frame_IrrigationSprinkler.label>
+  <Frame_IrrigationSprinkler.description>Riega los alrededores una vez cada mañana para mejorar la fertilidad del terreno a lo largo del día. Utiliza 1000L cada mañana en el radio máximo.</Frame_IrrigationSprinkler.description>
 
-  <FireSprinkler.label>Rociadores contra incendios</FireSprinkler.label>
-  <FireSprinkler.description>Provocado por el fuego o la alta temperatura. Limpia las llamas con un chorro de agua.</FireSprinkler.description>
-  <FireSprinkler.comps.2.useLabel>Rociadores contra incendios</FireSprinkler.comps.2.useLabel>
-  <FireSprinkler_Blueprint.label>Rociadores contra incendios(plano)</FireSprinkler_Blueprint.label>
-  <FireSprinkler_Blueprint_Install.label>Rociadores contra incendios(plano)</FireSprinkler_Blueprint_Install.label>
-  <FireSprinkler_Frame.label>Rociadores contra incendios(construcción)</FireSprinkler_Frame.label>
-  <FireSprinkler_Frame.description>Provocado por el fuego o la alta temperatura. Limpia las llamas con un chorro de agua.</FireSprinkler_Frame.description>
+  <FireSprinkler.label>Rociador contra incendios</FireSprinkler.label>
+  <FireSprinkler.description>Se activa por la presencia de fuego o por altas temperaturas. Apaga las llamas con un chorro de agua.</FireSprinkler.description>
+  <FireSprinkler.comps.2.useLabel>Disparador del rociador</FireSprinkler.comps.2.useLabel>
+  <Blueprint_FireSprinkler.label>Rociador contra incendios (anteproyecto)</Blueprint_FireSprinkler.label>
+  <Blueprint_Install_FireSprinkler.label>Rociador contra incendios (anteproyecto)</Blueprint_Install_FireSprinkler.label>
+  <Frame_FireSprinkler.label>Rociador contra incendios (construcción)</Frame_FireSprinkler.label>
+  <Frame_FireSprinkler.description>Se activa por la presencia de fuego o por altas temperaturas. Apaga las llamas con un chorro de agua.</Frame_FireSprinkler.description>
 
-  <BiosolidsComposter.label>Compostaje de Biosólidos</BiosolidsComposter.label>
-  <BiosolidsComposter.description>Un compostador para convertir las aguas residuales en abono para aumentar la fertilidad de los terrenos excavables.</BiosolidsComposter.description>
-  <BiosolidsComposter_Blueprint.label>Compostaje de Biosólidos(plano)</BiosolidsComposter_Blueprint.label>
-  <BiosolidsComposter_Blueprint_Install.label>Compostaje de Biosólidos(plano)</BiosolidsComposter_Blueprint_Install.label>
-  <BiosolidsComposter_Frame.label>Compostaje de Biosólidos(construcción)</BiosolidsComposter_Frame.label>
-  <BiosolidsComposter_Frame.description>Un compostador para convertir las aguas residuales en abono para aumentar la fertilidad de los terrenos excavables.</BiosolidsComposter_Frame.description>
+  <BiosolidsComposter.label>Compostador de biosólidos</BiosolidsComposter.label>
+  <BiosolidsComposter.description>Un compostador para convertir las aguas residuales y los residuos fecales en fertilizante con el fin de mejorar la fertilidad del terreno.</BiosolidsComposter.description>
+  <Blueprint_BiosolidsComposter.label>Compostador de biosólidos (anteproyecto)</Blueprint_BiosolidsComposter.label>
+  <Blueprint_Install_BiosolidsComposter.label>Compostador de biosólidos (anteproyecto)</Blueprint_Install_BiosolidsComposter.label>
+  <Frame_BiosolidsComposter.label>Compostador de biosólidos (construcción)</Frame_BiosolidsComposter.label>
+  <Frame_BiosolidsComposter.description>Un compostador para convertir las aguas residuales y los residuos fecales en fertilizante con el fin de mejorar la fertilidad del terreno.</Frame_BiosolidsComposter.description>
 
-  <BiosolidFertilizer.label>Fertilizante Biosólido</BiosolidFertilizer.label>
-  <BiosolidFertilizer.description>Fertilizante biosólido utilizado para aumentar la fertilidad de los terrenos excavables. Dura poco menos de 1 año.</BiosolidFertilizer.description>
-  <BiosolidFertilizer_Blueprint.label>Fertilizante Biosólido(plano)</BiosolidFertilizer_Blueprint.label>
-  <BiosolidFertilizer_Frame.label>Fertilizante Biosólido(construcción)</BiosolidFertilizer_Frame.label>
-  <BiosolidFertilizer_Frame.description>Fertilizante biosólido utilizado para aumentar la fertilidad de los terrenos excavables. Dura poco menos de 1 año.</BiosolidFertilizer_Frame.description>
 
 </LanguageData>
