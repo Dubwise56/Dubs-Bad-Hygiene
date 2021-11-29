@@ -274,7 +274,7 @@
 			<Flammability>0.3</Flammability>
 			<Beauty>25</Beauty>
 			<Comfort>1.8</Comfort>
-			<JoyGainFactor>1.3</JoyGainFactor>
+			<JoyGainFactor>1.4</JoyGainFactor>
 			<Mass>100</Mass>
 		</statBases>
 		<building>
@@ -339,6 +339,7 @@
 			<MaxHitPoints>100</MaxHitPoints>
 			<WorkToBuild>1200</WorkToBuild>
 			<Mass>25</Mass>
+			<JoyGainFactor>1</JoyGainFactor>
 		</statBases>
 		<comps>
 			<li Class="DubsBadHygiene.CompProperties_Pipe">
@@ -421,6 +422,7 @@
 			<MaxHitPoints>250</MaxHitPoints>
 			<WorkToBuild>1000</WorkToBuild>
 			<Mass>50</Mass>
+			<JoyGainFactor>1.4</JoyGainFactor>
 		</statBases>
 		<comps>
 			<li>
@@ -492,6 +494,7 @@
 			<MaxHitPoints>250</MaxHitPoints>
 			<WorkToBuild>1250</WorkToBuild>
 			<Mass>25</Mass>
+			<JoyGainFactor>1.4</JoyGainFactor>
 		</statBases>
 		<comps>
 			<li>
