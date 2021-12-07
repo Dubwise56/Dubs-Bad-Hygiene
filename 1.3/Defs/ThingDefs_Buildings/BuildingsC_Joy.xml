@@ -516,7 +516,7 @@
 					<drawSize>(2,2)</drawSize>
 				</effects>
 				<heatPerSecond>34</heatPerSecond>
-				<heatPushMaxTemperature>70</heatPushMaxTemperature>
+				<heatPushMaxTemperature>65</heatPushMaxTemperature>
 			</li>
 			<li Class="CompProperties_Power">
 				<compClass>CompPowerTrader</compClass>

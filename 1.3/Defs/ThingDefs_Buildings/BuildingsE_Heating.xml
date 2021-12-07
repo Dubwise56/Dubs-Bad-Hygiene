@@ -47,9 +47,11 @@
 			<li Class="DubsBadHygiene.CompProperties_Pipe">
 				<mode>Sewage</mode>
 			</li>
-			<li Class="DubsBadHygiene.CompProperties_Thermostat">
+			<li Class="CompProperties_TempControl">
+				<compClass>DubsBadHygiene.CompThermostat</compClass>
 				<maxTargetTemperature>35</maxTargetTemperature>
 				<minTargetTemperature>5</minTargetTemperature>
+				<defaultTargetTemperature>21</defaultTargetTemperature>
 			</li>
 		</comps>
 		<researchPrerequisites>
@@ -412,8 +414,8 @@
 			</li>
 			<li Class="CompProperties_TempControl">
 				<compClass>DubsBadHygiene.DBHCompTempControl</compClass>
-				<maxTargetTemperature>30</maxTargetTemperature>
-				<minTargetTemperature>10</minTargetTemperature>
+				<maxTargetTemperature>35</maxTargetTemperature>
+				<minTargetTemperature>5</minTargetTemperature>
 				<defaultTargetTemperature>21</defaultTargetTemperature>
 			</li>
 		</comps>
@@ -737,7 +739,8 @@
 				<CoolingRate>250</CoolingRate>
 				<Capacity>100</Capacity>
 			</li>
-			<li Class="DubsBadHygiene.CompProperties_Thermostat">
+			<li Class="CompProperties_TempControl">
+				<compClass>DubsBadHygiene.CompThermostat</compClass>
 				<maxTargetTemperature>35</maxTargetTemperature>
 				<minTargetTemperature>5</minTargetTemperature>
 				<defaultTargetTemperature>21</defaultTargetTemperature>
@@ -783,7 +786,8 @@
 		<castEdgeShadows>true</castEdgeShadows>
 		<staticSunShadowHeight>1.0</staticSunShadowHeight>
 		<comps>
-			<li Class="DubsBadHygiene.CompProperties_Thermostat">
+			<li Class="CompProperties_TempControl">
+				<compClass>DubsBadHygiene.CompThermostat</compClass>
 				<maxTargetTemperature>2</maxTargetTemperature>
 				<minTargetTemperature>-22</minTargetTemperature>
 				<defaultTargetTemperature>-4</defaultTargetTemperature>
