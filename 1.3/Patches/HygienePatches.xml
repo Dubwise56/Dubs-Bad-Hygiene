@@ -23,7 +23,7 @@
 	</Operation>-->
 
 
-	<Operation Class="PatchOperationAdd">
+	<Operation Class="DubsBadHygiene.PatchOperationAddDesignator">
 		<xpath>*/DesignationCategoryDef[defName = "Temperature"]/specialDesignatorClasses</xpath>
 		<value>
 			<li>DubsBadHygiene.Designator_RemovePlumbing</li>
