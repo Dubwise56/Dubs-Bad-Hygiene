@@ -1,5 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-<PoolWater.label>Schwimmbeckenwasser</PoolWater.label>
-<PoolWater.tools.water.label>Schwimmbeckenwasser</PoolWater.tools.water.label>
+
+  <!-- EN: pool water -->
+  <PoolWater.label>Beckenwasser</PoolWater.label>
+  <!-- EN: water -->
+  <PoolWater.tools.0.label>Wasser</PoolWater.tools.0.label>
+
 </LanguageData>

@@ -1,44 +1,81 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-<DoBillsBurnPit.label>Arbeite an Verbrennungsgrube</DoBillsBurnPit.label>
-<DoBillsBurnPit.verb>verbrenne</DoBillsBurnPit.verb>
-<DoBillsBurnPit.gerund>Verbrennen von</DoBillsBurnPit.gerund>
+  <!-- EN: do burn pit bills -->
+  <DoBillsBurnPit.label>Verbrennungsgrube nutzen</DoBillsBurnPit.label>
+  <!-- EN: burn -->
+  <DoBillsBurnPit.verb>verbrennen</DoBillsBurnPit.verb>
+  <!-- EN: burning at -->
+  <DoBillsBurnPit.gerund>Verbrennen an</DoBillsBurnPit.gerund>
 
-<RemoveSewage.label>Fülle Abwasser ab</RemoveSewage.label>
-<RemoveSewage.verb>fülle Abwasser ab</RemoveSewage.verb>
-<RemoveSewage.gerund>Abfüllen von</RemoveSewage.gerund>
+  <!-- EN: shovel sewage into barrels -->
+  <RemoveSewage.label>Fässer mit Abwasser befüllen</RemoveSewage.label>
+  <!-- EN: remove sewage -->
+  <RemoveSewage.verb>abwasserfrei machen</RemoveSewage.verb>
+  <!-- EN: removing sewage -->
+  <RemoveSewage.gerund>Entfernen von Abwasser im</RemoveSewage.gerund>
 
-<UnloadWashing.label>Leere Waschmaschine</UnloadWashing.label>
-<UnloadWashing.verb>leere Waschmaschine</UnloadWashing.verb>
-<UnloadWashing.gerund>Leeren von</UnloadWashing.gerund>
+  <!-- EN: unload washing -->
+  <UnloadWashing.label>Waschmaschine entladen</UnloadWashing.label>
+  <!-- EN: unload washing -->
+  <UnloadWashing.verb>entladen</UnloadWashing.verb>
+  <!-- EN: unloading washing -->
+  <UnloadWashing.gerund>Entladen von</UnloadWashing.gerund>
 
-<LoadWashing.label>Fülle Waschmaschine</LoadWashing.label>
-<LoadWashing.verb>fülle Waschmaschine</LoadWashing.verb>
-<LoadWashing.gerund>Füllen von</LoadWashing.gerund>
+  <!-- EN: load washing -->
+  <LoadWashing.label>Waschmaschine beladen</LoadWashing.label>
+  <!-- EN: load washing -->
+  <LoadWashing.verb>beladen</LoadWashing.verb>
+  <!-- EN: loading washing -->
+  <LoadWashing.gerund>Beladen von</LoadWashing.gerund>
 
-<UnloadComposter.label>Entnehme Dünger aus Komposter</UnloadComposter.label>
-<UnloadComposter.verb>entnehme Dünger aus Komposter</UnloadComposter.verb>
-<UnloadComposter.gerund>Dünger entnehmen aus</UnloadComposter.gerund>
+  <!-- EN: take compost out of composter -->
+  <UnloadComposter.label>Komposter leeren</UnloadComposter.label>
+  <!-- EN: take compost -->
+  <UnloadComposter.verb>leeren</UnloadComposter.verb>
+  <!-- EN: taking compost from -->
+  <UnloadComposter.gerund>Leeren von</UnloadComposter.gerund>
 
-<FillComposter.label>Befülle Komposter</FillComposter.label>
-<FillComposter.verb>fülle</FillComposter.verb>
-<FillComposter.gerund>Füllen von</FillComposter.gerund>
+  <!-- EN: fill composter -->
+  <FillComposter.label>Komposter befüllen</FillComposter.label>
+  <!-- EN: fill -->
+  <FillComposter.verb>befüllen</FillComposter.verb>
+  <!-- EN: filling -->
+  <FillComposter.gerund>Befüllen von</FillComposter.gerund>
 
-<emptySepticTank.label>Leere Klärgrube</emptySepticTank.label>
-<emptySepticTank.verb>leere</emptySepticTank.verb>
-<emptySepticTank.gerund>Leeren von</emptySepticTank.gerund>
+  <!-- EN: empty septic tank -->
+  <emptySepticTank.label>Klärgrube leeren</emptySepticTank.label>
+  <!-- EN: empty -->
+  <emptySepticTank.verb>leeren</emptySepticTank.verb>
+  <!-- EN: emptying -->
+  <emptySepticTank.gerund>Leeren von</emptySepticTank.gerund>
 
-<emptyLatrine.label>Leere Plumpsklo</emptyLatrine.label>
-<emptyLatrine.verb>leere</emptyLatrine.verb>
-<emptyLatrine.gerund>Leeren von</emptyLatrine.gerund>
+  <!-- EN: empty septic tank -->
+  <WardenEmptySepticTank.label>Klärgrube leeren</WardenEmptySepticTank.label>
+  <!-- EN: empty -->
+  <WardenEmptySepticTank.verb>leeren</WardenEmptySepticTank.verb>
+  <!-- EN: emptying -->
+  <WardenEmptySepticTank.gerund>Leeren von</WardenEmptySepticTank.gerund>
 
-<RefillTub.label>Fülle Wanne</RefillTub.label>
-<RefillTub.verb>fülle</RefillTub.verb>
-<RefillTub.gerund>Füllen von</RefillTub.gerund>
+  <!-- EN: refill water -->
+  <RefillWater.label>Wasser nachfüllen</RefillWater.label>
+  <!-- EN: refill -->
+  <RefillWater.verb>befüllen</RefillWater.verb>
+  <!-- EN: refilling -->
+  <RefillWater.gerund>Befüllen von</RefillWater.gerund>
 
-<RefillWater.label>Wasser auffüllen</RefillWater.label>
-<RefillWater.verb>füllen</RefillWater.verb>
-<RefillWater.gerund>Füllen von</RefillWater.gerund>
+  <!-- EN: refill water -->
+  <WardenRefillWater.label>Wasser nachfüllen</WardenRefillWater.label>
+  <!-- EN: refill -->
+  <WardenRefillWater.verb>befüllen</WardenRefillWater.verb>
+  <!-- EN: refilling -->
+  <WardenRefillWater.gerund>Befüllen von</WardenRefillWater.gerund>
+
+  <!-- EN: clean filth indoors -->
+  <CleanFilthIndoors.label>Schmutz im Raum entfernen</CleanFilthIndoors.label>
+  <!-- EN: clean -->
+  <CleanFilthIndoors.verb>entfernen</CleanFilthIndoors.verb>
+  <!-- EN: cleaning -->
+  <CleanFilthIndoors.gerund>Entfernen von</CleanFilthIndoors.gerund>
 
 </LanguageData>
