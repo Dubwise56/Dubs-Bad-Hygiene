@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- EN: germaphobe -->
+  <Hygienic.degreeDatas.0.label>Mysophobie</Hygienic.degreeDatas.0.label>
+  <!-- EN: [PAWN_nameDef] is obsessed with germs and will wash much more frequently than normal. -->
+  <Hygienic.degreeDatas.0.description>[PAWN_nameDef] hat eine krankhafte Angst vor Keimen und und wäscht sich viel häufiger als andere.</Hygienic.degreeDatas.0.description>
+  <!-- EN: hygienic -->
+  <Hygienic.degreeDatas.1.label>hygienisch</Hygienic.degreeDatas.1.label>
+  <!-- EN: [PAWN_nameDef] is very hygienic and will wash more frequently. -->
+  <Hygienic.degreeDatas.1.description>[PAWN_nameDef] ist sehr hygienisch und wäscht sich öfters.</Hygienic.degreeDatas.1.description>
+  <!-- EN: unhygienic -->
+  <Hygienic.degreeDatas.2.label>unhygienisch</Hygienic.degreeDatas.2.label>
+  <!-- EN: [PAWN_nameDef] is very unhygienic and will wash less frequently. -->
+  <Hygienic.degreeDatas.2.description>[PAWN_nameDef] ist sehr unhygienisch und wird sich seltener waschen.</Hygienic.degreeDatas.2.description>
+  <!-- EN: slob -->
+  <Hygienic.degreeDatas.3.label>Schmutzfink</Hygienic.degreeDatas.3.label>
+  <!-- EN: [PAWN_nameDef] has very low standards of cleanliness and will only wash when they absolutely have to. -->
+  <Hygienic.degreeDatas.3.description>[PAWN_nameDef] hat ein sehr geringes Sauberkeitsbedürfnis und wäscht sich nur, wenn es unbedingt nötig ist.</Hygienic.degreeDatas.3.description>
+
+</LanguageData>

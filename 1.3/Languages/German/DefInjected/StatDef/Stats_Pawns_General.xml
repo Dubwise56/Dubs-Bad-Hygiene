@@ -1,9 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-<ThirstRateMultiplier.label>Durstzunahmerate</ThirstRateMultiplier.label>
-<ThirstRateMultiplier.description>Wie schnell steigt das Bedürfnis zu trinken.</ThirstRateMultiplier.description>
-<HygieneRateMultiplier.label>Hygienezunahmerate</HygieneRateMultiplier.label>
-<HygieneRateMultiplier.description>Wie schnell steigt das Bedürfnis nach Hygiene.</HygieneRateMultiplier.description>
-<BladderRateMultiplier.label>Austretenzunahmerate</BladderRateMultiplier.label>
-<BladderRateMultiplier.description>Wie schnell steigt das Bedürfnis auszutreten.</BladderRateMultiplier.description>
+
+  <!-- EN: thirst rate factor -->
+  <ThirstRateMultiplier.label>Durst-Rate-Faktor</ThirstRateMultiplier.label>
+  <!-- EN: A multiplier on how quickly a creature becomes thirsty. -->
+  <ThirstRateMultiplier.description>Ein Multiplikator darauf, wie schnell das Bedürfnis 'Durst' einer Kreatur sinkt.</ThirstRateMultiplier.description>
+
+  <!-- EN: hygiene rate factor -->
+  <HygieneRateMultiplier.label>Hygiene-Rate-Faktor</HygieneRateMultiplier.label>
+  <!-- EN: A multiplier on how quickly a creatures hygiene level falls. -->
+  <HygieneRateMultiplier.description>Ein Multiplikator darauf, wie schnell das Bedürfnis 'Hygiene' einer Kreatur sinkt.</HygieneRateMultiplier.description>
+
+  <!-- EN: bladder rate factor -->
+  <BladderRateMultiplier.label>Stuhl-/Harndrang-Rate-Faktor</BladderRateMultiplier.label>
+  <!-- EN: A multiplier on how quickly a creatures bladder level falls. -->
+  <BladderRateMultiplier.description>Ein Multiplikator darauf, wie schnell das Bedürfnis 'Stuhl-/Harndrang' einer Kreatur sinkt.</BladderRateMultiplier.description>
+
 </LanguageData>
