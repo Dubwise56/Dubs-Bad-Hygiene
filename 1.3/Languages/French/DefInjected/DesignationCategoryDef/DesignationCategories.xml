@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <Hygiene.label>Hygiene</Hygiene.label>
-  <Hygiene.description>Chose pour l'hygiène du colon.</Hygiene.description>
+  <Hygiene.label>Hygiène</Hygiene.label>
+  <Hygiene.description>Objets utiles pour l'hygiène des colons.</Hygiene.description>
   
-  <HygieneMisc.label>Hygiene/etc.</HygieneMisc.label>
-  <HygieneMisc.description>Autres choses pour l'hygiène des colons.</HygieneMisc.description>
+  <HygieneMisc.label>Hygiène/etc.</HygieneMisc.label>
+  <HygieneMisc.description>Autres objets pour l'hygiène des colons.</HygieneMisc.description>
 
 
 </LanguageData>
