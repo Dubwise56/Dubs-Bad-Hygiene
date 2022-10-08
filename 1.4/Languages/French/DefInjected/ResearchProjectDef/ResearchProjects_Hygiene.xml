@@ -37,6 +37,12 @@
   <PoweredHeating.label>Chauffage Electrique</PoweredHeating.label>
   <PoweredHeating.description>Construire des chaudières électriques et des thermostats permettant de mieux contrôler le chauffage</PoweredHeating.description>
   
+  <GeothermalHeating.label>Chauffage géothermique</GeothermalHeating.label>
+  <GeothermalHeating.description>Construisez des radiateurs géothermiques qui peuvent être construits sur des geysers pour générer de la chaleur pour le chauffage central et les réservoirs d'eau chaude.</GeothermalHeating.description>
+
+  <Saunas.label>Saunas</Saunas.label>
+  <Saunas.description>Construisez une pièce dédiée avec un sauna où les colons peuvent se détendre, une utilisation fréquente peut réduire le risque de crise cardiaque.</Saunas.description>
+
   <MultiSplitAirCon.label>Système de climatisation</MultiSplitAirCon.label>
   <MultiSplitAirCon.description>Construisez des systèmes de climatisation multi-split avec des unités extérieures raccordées aux unités intérieures et aux congélateurs.</MultiSplitAirCon.description>
   

@@ -1,6 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-<PublicBathroom.label>öffentliches Badezimmer</PublicBathroom.label>
-<PrivateBathroom.label>persönliches Badezimmer</PrivateBathroom.label>
-<PublicRestroom.label>öffentliche Toilette</PublicRestroom.label>
+
+  <!-- EN: public bathroom -->
+  <PublicBathroom.label>öffentlicher Baderaum</PublicBathroom.label>
+  <!-- EN: private bathroom -->
+  <PrivateBathroom.label>privater Baderaum</PrivateBathroom.label>
+  <!-- EN: Sauna room -->
+  <SaunaRoom.label>Saunaraum</SaunaRoom.label>
+
 </LanguageData>

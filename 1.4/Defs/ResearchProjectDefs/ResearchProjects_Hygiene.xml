@@ -260,7 +260,7 @@
 		<tab>DubsBadHygiene</tab>
 		<description>Craft bionics that help to process bodily waste and manage personal hygiene.</description>
 		<baseCost>2500</baseCost>
-		<techLevel>Industrial</techLevel>
+		<techLevel>Spacer</techLevel>
 		<prerequisites>
 			<li>WaterFiltration</li>
 			<li>Fabrication</li>

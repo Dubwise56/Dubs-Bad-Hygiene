@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- EN: Hygiene tab -->
+  <Architect_Hygiene.label>Hygiene-Tab</Architect_Hygiene.label>
+  <!-- EN: Key bindings for the "Hygiene" section of the Architect menu -->
+  <Architect_Hygiene.description>Tastenbelegungen für die Hygiene-Sektion im Architekt-Menü.</Architect_Hygiene.description>
+
+</LanguageData>

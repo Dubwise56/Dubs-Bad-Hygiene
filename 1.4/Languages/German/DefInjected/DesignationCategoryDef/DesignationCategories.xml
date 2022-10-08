@@ -1,5 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-<Hygiene.label>Hygiene</Hygiene.label>
-<Hygiene.description>Dinge für das Hygienebedürfnis der Kolonisten.</Hygiene.description>
+
+  <!-- EN: Hygiene -->
+  <Hygiene.label>Hygiene</Hygiene.label>
+  <!-- EN: Things for colonists' hygiene. -->
+  <Hygiene.description>Dinge für die Hygiene der Kolonisten.</Hygiene.description>
+
 </LanguageData>
