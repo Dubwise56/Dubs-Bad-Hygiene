@@ -1,6 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
+
+	<dbh.Things>Things:</dbh.Things>
+	<dbh.Terrain>Terrain:</dbh.Terrain>
+	<dbh.Environment>Environment:</dbh.Environment>
+	<dbh.Sewagecontamination>Sewage contamination</dbh.Sewagecontamination>
+
 	<!--Construction-->
 	<DesignatorRemovePlumbing>Remove pipes</DesignatorRemovePlumbing>
 	<DesignatorRemovePlumbingDesc>Designate sections of a pipe type for deconstruction.</DesignatorRemovePlumbingDesc>
