@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!--Construction-->
+  <DesignatorRemovePlumbing>Retirar tuberías</DesignatorRemovePlumbing>
+  <DesignatorRemovePlumbingDesc>Designar secciones de un tipo de tubería para su deconstrucción.</DesignatorRemovePlumbingDesc>
+  <RemoveSewage>Retirar las aguas residuales</RemoveSewage>
+  <RemoveSewageDesc>Retirar las aguas residuales del suelo y verterlas en barriles.</RemoveSewageDesc>
+  <RemovePlumbing>Retirar fontanería</RemovePlumbing>
+  <RemoveAirCon>Retirar aire acondicionado</RemoveAirCon>
+
+  <!--Warnings-->
+  <DBH.requiresSaunaRoom>¡La habitación es demasiado grande para calentar!\nUn máximo de 50 celdas por radiador.\nAñadir más radiadores para la sauna o reducir el tamaño de la sala.</DBH.requiresSaunaRoom>
+  <DBH.HeatedPool>La piscina está caliente</DBH.HeatedPool>
+  <DBH.CantUsePool>Ahora no se puede utilizar la piscina:</DBH.CantUsePool>
+  <DBH.PoolRaining>Lloviendo</DBH.PoolRaining>
+  <DBH.PoolTooCold>{0} demasiado fría</DBH.PoolTooCold>
+  <DBHPrisonWater>La prisión necesita un suministro de agua</DBHPrisonWater>
+  <DBHPrisonWaterEx>Una celda de la prisión no tiene acceso de agua potable, construya al menos una fuente de agua potable, como una bañera o lavabo para que los presos tengan libre acceso al agua potable.</DBHPrisonWaterEx>  
+  <Alert_MissingTower>No hay una torre de agua disponible</Alert_MissingTower>
+  <Alert_MissingTowerDesc>Se requiere una torre o depósito para almacenar el agua bombeada de los pozos</Alert_MissingTowerDesc>
+  <Alert_MissingWell>No hay un pozo disponible</Alert_MissingWell>
+  <Alert_MissingWellDesc>Las bombas de agua requieren de un pozo conectado a la red de tuberías para acceder a las aguas subterráneas.</Alert_MissingWellDesc>
+  <Alert_MissingPump>No hay una bomba de agua disponible</Alert_MissingPump>
+  <Alert_MissingPumpDesc>Se necesita una bomba de agua para bombear el agua de un pozo a una torre de agua</Alert_MissingPumpDesc>
+  <DBHFalloutWarning>Contaminación del agua por la lluvia radiactiva</DBHFalloutWarning>
+  <DBHFalloutWarningEx>Después de 2 días de lluvia tóxica, la acumulación contaminará cualquier tanque de almacenamiento de agua conectado a los pozos de agua.\n\nPrepárate creando una reserva de agua que te permita desconectar con una válvula los pozos para proteger el agua de la contaminación antes de que sea demasiado tarde.\n\nTambién puedes utilizar un pozo profundo para acceder al agua no contaminada, o instalar un sistema de tratamiento del agua que elimine toda la contaminación de las reservas de agua.</DBHFalloutWarningEx>  
+
+  <LowCoolingCap>Baja capacidad de refrigeración, puede aumentar la potencia de los módulos exteriores</LowCoolingCap>
+  <NotOwned>Acceso Restringido</NotOwned>
+  <GenderRestricted>Solo {0}</GenderRestricted>
+  <PrisonersOnly>Sólo prisioneros</PrisonersOnly>
+  <BlockedSewage>Salida de desagüe obstruida</BlockedSewage>
+  <BlockedSewageDesc>Las aguas residuales se han acumulado alrededor del orificio de drenaje y están bloqueando la salida.\n\nConstruye más salidas o añade una fosa séptica para compensar y reducir la presión sobre las salidas.</BlockedSewageDesc>
+  <LowWaterTemp>Baja temperatura del agua</LowWaterTemp>
+  <LowWaterTempDesc>La temperatura del agua en este depósito es demasiado baja, los colonos que esperan utilizar agua caliente pueden molestarse.\n\nEnciende las calderas, aumenta la capacidad de calentamiento o añade otro depósito de agua caliente.</LowWaterTempDesc>
+  <WellNeedsWater>Debe ser colocado sobre una celda con agua subterránea.</WellNeedsWater>
+  <AssigningRequiresRoom>El aparato debe estar dentro de una habitación que lo limite.</AssigningRequiresRoom>
+  <NoWaterTowers>Requiere una torre de almacenamiento de agua</NoWaterTowers>
+  <AssigningRequiresBladderNeed>La asignación requiere la necesidad de orinar, {0} no la tiene</AssigningRequiresBladderNeed>
+
+  <NoCompostingMaterial>No hay material de compostaje</NoCompostingMaterial>
+  <Nowater>Sin capacidad de agua</Nowater>
+  <Nosewage>Sin capacidad de desagüe</Nosewage>
+  <RequiresPlumbing>Requiere un sistema de saneamiento</RequiresPlumbing>
+  <AccessRestricted>Acceso Restringido</AccessRestricted>
+
+  <TooHot>Demasiado caliente: {0}%</TooHot>
+  <InRain>Con lluvia: {0}%</InRain>
+  <PhysicalActivity>Esfuerzos: x{0}</PhysicalActivity>
+  <FilthyRoom>Habitación: x{0}</FilthyRoom>
+  <TotalHygieneStat>Total: x{0}</TotalHygieneStat>
+  <DirtyHands>Manos sucias (Riesgo de enfermedad)</DirtyHands>
+
+  <LetterLabelBlockedDrain>Desagüe obstruido</LetterLabelBlockedDrain>
+  <LetterBlockedDrain>Un desagüe se ha obstruido, necesita limpieza.</LetterBlockedDrain>
+
+  <ContaminationAlert>Agua contaminada</ContaminationAlert>
+  <ContaminationAlertDesc>Se ha contaminado el agua de un pozo.\n\nSoluciones anti-contaminación:\n{0} \n\nDesplazar el pozo a una zona con aguas subterráneas limpias o añadir un sistema de tratamiento del agua (depuradora) para limpiar toda la red de saneamiento.</ContaminationAlertDesc>
+  <ContaminatiedTowerAlert>Torre de agua contaminada</ContaminatiedTowerAlert>
+  <ContaminatiedTowerAlertDesc>Una torre de agua se ha contaminado, lo que supone un grave riesgo para la salud de los colonos.\nPara tratar la contaminación necesitas drenar todo el agua almacenada en la torre o instalar un sistema de tratamiento del agua (depuradora).</ContaminatiedTowerAlertDesc>
+
+  <MessageHygieneDisease>{0} ha contraído {1} por falta de higiene</MessageHygieneDisease>
+  <MessageWaterDisease>{0} ha contraído {1} por ingerir agua no potable</MessageWaterDisease>
+  <MessageWaterDiseaseContaminated>{0} ha contraído {1} por beber agua contaminada</MessageWaterDiseaseContaminated>
+
+  <!--Restrictions-->
+  <ChangeGenderRestriction>Cambiar la restricción de género</ChangeGenderRestriction>
+  <CommandFixtureSetAsMedicalLabel>Médico</CommandFixtureSetAsMedicalLabel>
+  <CommandFixtureSetAsMedicalDesc>Utensilio exclusivo para pacientes.</CommandFixtureSetAsMedicalDesc>
+  <PatientsOnly>Sólo pacientes</PatientsOnly>
+  <AttackHelicopter>Helicóptero de ataque</AttackHelicopter>
+  <Unisex>Unisex</Unisex>
+  <ConnectFixturesToBed>Conectar cama</ConnectFixturesToBed>
+  <ConnectFixturesToBedDesc>Conecta los accesorios a una cama cercana para que hereden la propiedad. Mantener la tecla mayúscula para asignar varias camas.</ConnectFixturesToBedDesc>
+  <CancelConnectFixturesToBed>Eliminar conexiones con la cama</CancelConnectFixturesToBed>
+  <CancelConnectFixturesToBedDesc>Eliminar la conexión de los accesorios con las camas.</CancelConnectFixturesToBedDesc>
+  <dbh.Animalsonly>Sólo animales</dbh.Animalsonly>
+  <ChangeOccupancyRestriction>Verificar Ocupación</ChangeOccupancyRestriction>
+  <ChangeOccupancyRestrictionDesc>Los colonos deben comprobar si algo en la habitación está reservado antes de intentar utilizar el aparato, evita que los colonos se crucen para utilizar lavabos e inodoros al mismo tiempo.</ChangeOccupancyRestrictionDesc>
+  <dbh.AllowColonists>Colonistas</dbh.AllowColonists>
+  <dbh.AllowSlaves>Esclavos</dbh.AllowSlaves>
+  <dbh.AllowGuests>Invitados</dbh.AllowGuests>
+  <dbh.NoColonists>Prohibido Colonos</dbh.NoColonists>
+  <dbh.NoSlaves>Prohibido Esclavos</dbh.NoSlaves>
+  <dbh.NoGuests>Prohibido Invitados</dbh.NoGuests>
+
+
+  <!--Heating-->
+  <WaterTemp>Temperatura del agua: {0}</WaterTemp>
+  <ConnectedHeatingCapacity>Calefacción demanda/capacidad: {0} / {1} U ({2})</ConnectedHeatingCapacity>
+  <ConnectedCoolingCapacity>Refrigeración demanda/capacidad: {0} / {1} U ({2})</ConnectedCoolingCapacity>
+  <HeatingUnits>Consumo de calefacción: {0} U</HeatingUnits>
+  <CoolingUnits>Consumo de refrigeración: {0} U</CoolingUnits>
+  <HeatingMode>Calefacción unidades/potencia: {0} U / {1} W</HeatingMode>
+  <CoolingMode>Refrigeración unidades/potencia: {0} U / {1} W</CoolingMode>
+  <CoolingEfficiencyGood>Eficiencia: {0}</CoolingEfficiencyGood>
+  <CoolingEfficiencyBad>Eficiencia: {0} sobrecalentamiento</CoolingEfficiencyBad>
+  <TargetTemp>Temperatura mínima: {0}</TargetTemp>
+  <LowerPower>Bajar potencia</LowerPower>
+  <LowerPowerDesc>Reducir la capacidad térmica.</LowerPowerDesc>
+  <RaisePower>Aumentar potencia</RaisePower>
+  <RaisePowerDesc>Aumentar la capacidad térmica</RaisePowerDesc>
+  <HotwaterCapacity>Capacidad de agua caliente: {0}</HotwaterCapacity>
+  <OverrideThermostat>Desactivar termostato</OverrideThermostat>
+  <OverrideThermostatDesc>Forzar el funcionamiento continuo de la caldera</OverrideThermostatDesc>
+  <MustPlaceFreezerWithFreeSpaces>¡Las rejillas de ventilación deben mantenerse despejadas!</MustPlaceFreezerWithFreeSpaces>
+  <SolarEfficiencyCold>Demasiado frío</SolarEfficiencyCold>
+  <SolarEfficiencyRoof>Con tejado</SolarEfficiencyRoof>
+  <SolarEfficiencyGood>Eficiencia térmica: {0} U ({1})</SolarEfficiencyGood>
+  <RadCurrentCap>Temperatura del radiador: {0}</RadCurrentCap>
+  <ThermostatSetupWarning>Termostato desactivado por los depósitos de agua caliente.\nAjustar todos los depósitos de agua caliente conectados y activar el modo termostato.</ThermostatSetupWarning>
+  <HotWaterTankUseThermostat>Control del termostato</HotWaterTankUseThermostat>
+  <HotWaterTankUseThermostatDesc>Enciende las calderas durante 1 hora cuando la temperatura del depósito esté baja.\nSi se desactiva, las calderas funcionarán continuamente e ignorarán los termostatos de las habitaciones.</HotWaterTankUseThermostatDesc>
+
+  <!--Hygiene-->
+  <WashHands>Lavarse las manos</WashHands>
+  <Wash>Lavar</Wash>
+  <UseToilet>Usar</UseToilet>
+  <SewageUsage>Consumo = {0}</SewageUsage>
+  <MustBePlumbing>Será la fontanería</MustBePlumbing>
+  <BlockedDrain>Drenaje obstruido</BlockedDrain>
+  <PlumbOrEmpty>Vaciar letrina</PlumbOrEmpty>
+  <WashingMachineSpinning>Centrifugando...</WashingMachineSpinning>
+  <WashingMachineUnload>Descargar ahora</WashingMachineUnload>
+  <WashingMachineLoad>Cargar: {0}/{1}</WashingMachineLoad>
+  <NoDirtyClothes>No hay ropa sucia</NoDirtyClothes>
+  <WashingNoSpace>No hay espacio</WashingNoSpace>
+  <NoUnreservedSource>No hay fuentes de agua de máxima calidad disponibles.</NoUnreservedSource>
+
+  <!--Water-->
+  <RaiseFillRate>Flujo de agua +50L</RaiseFillRate>
+  <LowerFillRate>Flujo de agua -50L</LowerFillRate>
+  <WaterFillRate>Tasa de llenado: {0}L/h</WaterFillRate>  
+  <dbhDrink>Beber</dbhDrink>
+  <CommandDesignateOpenCloseValveLabel>Válvula</CommandDesignateOpenCloseValveLabel>
+  <CommandDesignateOpenCloseValveDesc>Alternar la válvula entre abierta/cerrada.</CommandDesignateOpenCloseValveDesc>
+  <ValveClosed>Válvula cerrada</ValveClosed>
+
+  <PumpCapacity>Capacidad de bombeo: {0} L/día</PumpCapacity>
+  <GroundCapacity>Capacidad subterránea: {0} L/día</GroundCapacity>
+  <PipedPumpCapacity>Capacidad de bombeo/subterránea: {0}/{1} L/día ({2})</PipedPumpCapacity>
+
+  <WaterStorage>Agua almacenada: {0}L</WaterStorage>
+  <TotalWaterStorage>Almacenaje de agua total: {0} L</TotalWaterStorage>
+
+  <PollutionLevel>Nivel de contaminación: {0}</PollutionLevel>
+
+  <CommandSprinkleDown>Disminuir el radio</CommandSprinkleDown>
+  <CommandSprinkleUp>Aumentar el radio</CommandSprinkleUp>
+  <UntreatedWater>Calidad del Agua: No potable (pequeño riesgo de enfermedad)</UntreatedWater>
+  <ContaminatedWater>Calidad del Agua: Contaminada (alto riesgo de enfermedad)</ContaminatedWater>
+  <TreatedWater>Calidad del Agua: Tratada (segura)</TreatedWater>
+
+  <DrainTank>Drenar el depósito</DrainTank>
+  <DrainTankDesc>Drenar el depósito y eliminar la contaminación.</DrainTankDesc>
+
+  <WaterValueOffset>Valor del agua: {0} por {1}L</WaterValueOffset>
+  <HyWater>Agua</HyWater>
+
+  <OverlapsWells>Se superpone con {0} pozos</OverlapsWells>
+
+  <!--Sewage-->
+  <dbh.SewageReadout>Aguas residuales {0}</dbh.SewageReadout>
+  <DrainSepticTank>Drenaje</DrainSepticTank>
+  <DrainSepticTankDesc>Establecer el nivel a partir del cual los residuos fecales deben vaciarse y depositarse en barriles.\nLos residuos fecales pueden ser trasladados, volcados, quemados o procesados como biosólidos o combustible.</DrainSepticTankDesc>
+  <SewageProcessing>Procesando: {0} L/d Almacenando: {1} L ({2})</SewageProcessing>
+  <DoNotDrainTank>No drenar</DoNotDrainTank>
+  <DrainSepticTankAt>Drenar depósito con {0}</DrainSepticTankAt>
+
+  <PitCapacity>Foso: {0}</PitCapacity>
+  <PitFull>¡El foso está lleno, vacíalo ahora!</PitFull>
+  <KickOver>Patear</KickOver>
+  <KickOverDesc>Derrama este barril de aguas residuales en el suelo.</KickOverDesc>
+
+  <!--Composting-->
+  <ContainsCompost>Contiene compostaje: {0}/{1} L</ContainsCompost>
+  <ContainsFecalSludge>Contiene residuos fecales: {0}/{1} L</ContainsFecalSludge>
+  <Composted>Compostado</Composted>
+  <CompostingProgress>Desarrollo del compostaje: {0} ({1})</CompostingProgress>
+  <ComposterOutOfIdealTemperature>El compostador no tiene la temperatura ideal</ComposterOutOfIdealTemperature>
+  <IdealCompostingTemperature>Temperatura ideal de compostaje</IdealCompostingTemperature>
+  <GrowingZoneNotAllowed>Sembrado en zona de cultivo deshabilitada</GrowingZoneNotAllowed>
+  <NoFertilizerFound>No se ha encontrado fertilizante</NoFertilizerFound>
+  <AreaPlaceFertilizer>Superficie de fertilización</AreaPlaceFertilizer>
+  <AreaPlaceFertilizerDesc>Designar áreas para fertilizar con biosólidos.</AreaPlaceFertilizerDesc>
+  <AddFertilizerArea>Añadir área</AddFertilizerArea>
+  <RemoveFertilizerArea>Eliminar área</RemoveFertilizerArea>
+
+  <!--Mod Options-->
+  <dbh.DrinkPackSearchRange>Rango búsqueda de agua para embotellar: {0}</dbh.DrinkPackSearchRange>
+  <dbh.DrinksToPack>Buscar agua para embotellar al tener {0} /uds. llevar hasta {1} /uds en el inventario</dbh.DrinksToPack>
+  <dbh.restartconfirm>Reiniciar</dbh.restartconfirm>
+  <dbh.PriorityIndoorCleaning>Priorizar limpieza de interiores</dbh.PriorityIndoorCleaning>
+  <dbh.PriorityIndoorCleaningTip>Proporciona mayor prioridad al trabajo de limpieza para limpiar primero los interiores.</dbh.PriorityIndoorCleaningTip>
+  <dbh.ModRemove>Asistencia para la eliminación del mod</dbh.ModRemove>
+  <dbh.ModRemoveDesc>Pasos:\n\n1: Guarda tu partida inmediatamente después de pulsar confirmar\n2: Sal al menú principal y desactiva el mod, reinicia el juego\n3: Carga tu partida guardada, ignora cualquier excepción y guárdala de nuevo\n¡Carga la partida guardada una vez más y no debería haber ninguna excepción relacionada con la falta de defs o clases de higiene!</dbh.ModRemoveDesc>
+  <PetsGetThirst>Sed en mascotas</PetsGetThirst>
+  <PetsGetThirstTip>Las mascotas tienen la necesidad de sed</PetsGetThirstTip>
+  <fixtureQualityRequiresRestart>Se requiere reiniciar para añadir la calidad y las complementos artísticos de nuevo.\n\n ¿Reiniciar ahora?</fixtureQualityRequiresRestart>
+  <fixtureQuality>Arte y calidad en accesorios</fixtureQuality>
+  <fixtureQualityTip>Habilitar la calidad y el arte en los accesorios como los inodoros</fixtureQualityTip>
+  <QuitToMenuToChange>Salir al menú principal para cambiar</QuitToMenuToChange>
+  <RimefellerLink>Soporte para Rimefeller</RimefellerLink>
+  <RimefellerLinkTip>Permitir el uso de agua en las refinerías en Rimefeller</RimefellerLinkTip>
+  <RimatomicsLink>Soporte para Rimatomics</RimatomicsLink>
+  <RimatomicsLinkTip>Permitir el uso de agua en las torres de refrigeración en Rimatomics</RimatomicsLinkTip>
+  <OverrideNeedSettingsTip>Desactivar manualmente las necesidades por tipo de cuerpo, raza o hediff (efectos, enfermedades, etc) activo.</OverrideNeedSettingsTip>
+  <OverrideNeedsSettings>Filtro de necesidades</OverrideNeedsSettings>
+  <Disablebladderneed>Desactivar la necesidades de la vejiga</Disablebladderneed>
+  <Disablehygieneneed>Desactivar la necesidad de higiene</Disablehygieneneed>
+  <DisableNeedsLabel>Necesidades</DisableNeedsLabel>
+  <NeedCheckboxTip>Marcar para activar</NeedCheckboxTip>
+  <PrisonersGetNeeds>Prisioneros</PrisonersGetNeeds>
+  <PrisonersGetNeedsTip>Establecer si los presos deben tener necesidades.</PrisonersGetNeedsTip>
+  <HospitalityGuestsGetNeeds>Invitados</HospitalityGuestsGetNeeds>
+  <HospitalityGuestsGetNeedsTip>Establecer si los invitados deben tener necesidades.</HospitalityGuestsGetNeedsTip>
+  <PrivacyChecks>Privacidad</PrivacyChecks>
+  <PrivacyChecksTip>Los colonos se preocupan por la intimidad cuando se bañan o utilizan los inodoros.</PrivacyChecksTip>
+  <CoolingEfficiency>Eficiencia de refrigeración</CoolingEfficiency>
+  <CoolingEfficiencyTip>Establece si la alta temperatura debe afectar a la eficiencia de la refrigeración como en el caso del aire acondicionado estándar.</CoolingEfficiencyTip>
+  <RainIrrigation>Riego por lluvia</RainIrrigation>
+  <RainIrrigationTip>La lluvia tendrá el mismo efecto que los aspersores. Podría reducir el rendimiento del juego.</RainIrrigationTip>
+  <DisableNeeds>Cambiar las necesidades</DisableNeeds>
+  <DisableNeedsTip>Desactiva las necesidades por completo. Anula todos los demás ajustes.</DisableNeedsTip>
+  <AllowModdedDrinks>Permitir bebidas modificadas</AllowModdedDrinks>
+  <AllowModdedDrinksTip>Los colonos también podrán beber y envasar cualquier bebida modificada. Las bebidas del mod VGP y RimCuisine se pueden utilizar por defecto, otras requerirán ser añadidas en los def del mod.</AllowModdedDrinksTip>
+  <AllowDrinkPacking>Equipar botellas de agua</AllowDrinkPacking>
+  <AllowDrinkPackingTip>Los colonos incluirán automáticamente botellas de agua en su inventario cuando puedan.\nPuede que no funcione con algunos mods, para CE tendrás que gestionar manualmente tu carga para incluir botellas de agua, de lo contrario las seguirán dejando caer.</AllowDrinkPackingTip>
+  <NeedsFilter>Filtro de Necesidades</NeedsFilter>
+  <MainFeatures>Características Principales</MainFeatures>
+  <ExperimentalFeatures>Características Experimentales</ExperimentalFeatures>
+  <PetsGetBladder>Vejigas de mascotas</PetsGetBladder>
+  <PetsGetBladderTip>Habilita las necesidades de la vejiga en las mascotas. También añade cajas de arena para las mascotas.</PetsGetBladderTip>
+  <WildAnimalsGetBladder>Vejigas de animales salvajes</WildAnimalsGetBladder>
+  <WildAnimalsGetBladderTip>Habilitar las necesidades de la vejiga en todos los animales salvajes. Esto podría ser un caos.</WildAnimalsGetBladderTip>
+  <ThirstNeed>Necesidad de sed</ThirstNeed>
+  <ThirstNeedTip>Habilita la necesidad de sed en todos los colonos con necesidades de vejiga. Añade fuentes para beber y botellas de agua. Requiere reiniciar.</ThirstNeedTip>
+  <FertilizerVisible>Fertilizante visible</FertilizerVisible>
+  <FertilizerVisibleTip>Establece si la cuadrícula del fertilizante debe ser visible.</FertilizerVisibleTip>
+  <AllowNonHuman>Colonos no humanos</AllowNonHuman>
+  <AllowNonHumanTip>Activa las necesidades de los colonos no humanos. Puedes desactivar seres específicos con el filtro de necesidades.</AllowNonHumanTip>
+  <dbh.ExtraFeatures>Características Extras</dbh.ExtraFeatures>
+  <DBHLiteMode>Lite Mode (versión simplificada)</DBHLiteMode>
+  <DBHLiteModeTip>Cambia el mod a un modo simplificado que elimina las tuberías, la gestión del agua y de las aguas residuales, cualquier edificio o trabajo que no esté directamente relacionado con la higiene o la sed.\n\nEsto impedirá que se carguen muchos defs y requiere reiniciar.\n\nSi estás intentando cargar una partida con edificios de higiene existentes puede que tengas que guardar y volver a cargarlo después de activar el nuevo modo.</DBHLiteModeTip>
+  <LiteRequiresRestart>Debe reiniciar el juego para habilitar el modo Lite. Si está intentando cargar un archivo guardado con edificios de higiene existentes, es posible que tenga que guardarlo y volver a cargarlo después de activarlo para eliminar los errores.</LiteRequiresRestart>
+  <PassiveWaterCoolersLink>Refrigeradores pasivos usan agua</PassiveWaterCoolersLink>
+  <PassiveWaterCoolersLinkTip>A los refrigeradores pasivos se les ha quitado la madera como combustible y en su lugar se rellenan con agua.</PassiveWaterCoolersLinkTip>
+  <sos2int>Integración con SoS2</sos2int>
+  <sos2intTip>Añade el procesamiento de agua y aguas residuales al soporte vital y añade tuberías a las estructuras de las naves.</sos2intTip>
+  <StockpileWater>Agua almacenada x{0}</StockpileWater>
+  <HygieneWiki>Bad Hygiene Wiki</HygieneWiki>
+  <HygieneWikiDesc>Ve a la bad hygiene wiki</HygieneWikiDesc>
+  <SurvivalMode>Modo Supervivencia</SurvivalMode>
+  <SurvivalModeTip>Limita la generación de la red de agua subterránea por defecto a parches muy pequeños. Las características del terreno ya no generan agua y el radio se reduce.\nNo es necesario crear una nueva partida, funciona con las partidas guardadas existentes.</SurvivalModeTip>
+  <HydroponicsLink>Hidroponía</HydroponicsLink>
+  <HydroponicsLinkTip>Los edificios de cultivo con energía, como los hidropónicos, tienen tanques de agua que requieren ser llenados por medio de tuberías. Las plantas mueren por falta de agua en lugar de energía, los tanques de agua sólo se llenan cuando el edificio recibe energía.</HydroponicsLinkTip>
+  <ThirstRequiresRestart>Es necesario reiniciar para añadir y eliminar elementos relacionados con la sed.\n\n¿Reiniciar ahora?</ThirstRequiresRestart>
+
+</LanguageData>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!--   <FilthUrine.label>urine</FilthUrine.label>
+  <FilthUrine.description>Urine on the ground.</FilthUrine.description>
+
+  <FilthFaeces.label>faeces</FilthFaeces.label>
+  <RawSewage.label>raw sewage</RawSewage.label> -->
+
+  <FilthUrine.label>orina</FilthUrine.label>
+  <FilthUrine.description>Orina en el suelo.</FilthUrine.description>
+
+  <FilthFaeces.label>heces</FilthFaeces.label>
+  <RawSewage.label>residuos sin tratar</RawSewage.label>
+
+
+</LanguageData>

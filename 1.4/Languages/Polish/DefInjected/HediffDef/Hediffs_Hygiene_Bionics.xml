@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <BionicBladder.label>bioniczny pęcherz moczowy</BionicBladder.label>
+  <BionicBladder.description>Zainstaluj bioniczny pęcherz moczowy.</BionicBladder.description>
+  <BionicBladder.labelNoun>bioniczny pęcherz moczowy</BionicBladder.labelNoun>
+
+  <HygieneEnhancer.label>wzmacniacz higieny</HygieneEnhancer.label>
+  <HygieneEnhancer.description>Zainstaluj element zwiększający higienę.</HygieneEnhancer.description>
+  <HygieneEnhancer.labelNoun>wzmacniacz higieny</HygieneEnhancer.labelNoun>
+
+
+</LanguageData>

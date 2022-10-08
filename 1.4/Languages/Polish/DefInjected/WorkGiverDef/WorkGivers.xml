@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <PlaceFertilizer.label>nawozić</PlaceFertilizer.label>
+  <PlaceFertilizer.verb>nawozić</PlaceFertilizer.verb>
+  <PlaceFertilizer.gerund>nawożenie</PlaceFertilizer.gerund>
+
+  <ClearBlockage.label>usuń blokadę</ClearBlockage.label>
+  <ClearBlockage.verb>usuń blokadę</ClearBlockage.verb>
+  <ClearBlockage.gerund>usunięcie blokady</ClearBlockage.gerund>
+
+  <DBHAdministerFluids.label>podawać płyny</DBHAdministerFluids.label>
+  <DBHAdministerFluids.verb>daj picie</DBHAdministerFluids.verb>
+  <DBHAdministerFluids.gerund>dawanie picia</DBHAdministerFluids.gerund>
+
+  <washPatient.label>umyć pacjenta</washPatient.label>
+  <washPatient.verb>myj</washPatient.verb>
+  <washPatient.gerund>mycie</washPatient.gerund>
+
+  <DocCleanBedpan.label>clean bed pan</DocCleanBedpan.label>
+  <DocCleanBedpan.verb>czyść</DocCleanBedpan.verb>
+  <DocCleanBedpan.gerund>czyszczenie</DocCleanBedpan.gerund>
+
+  <cleanBedpan.label>clean bed pan</cleanBedpan.label>
+  <cleanBedpan.verb>czyść</cleanBedpan.verb>
+  <cleanBedpan.gerund>czyszczenie</cleanBedpan.gerund>
+
+  <TipSewage.label>tip sewage</TipSewage.label>
+  <TipSewage.verb>tip Sewage</TipSewage.verb>
+  <TipSewage.gerund>tipping over</TipSewage.gerund>
+
+  <DrainWaterTank.label>spuścić wodę</DrainWaterTank.label>
+  <DrainWaterTank.verb>spuść</DrainWaterTank.verb>
+  <DrainWaterTank.gerund>spuszczanie wody</DrainWaterTank.gerund>
+
+
+</LanguageData>

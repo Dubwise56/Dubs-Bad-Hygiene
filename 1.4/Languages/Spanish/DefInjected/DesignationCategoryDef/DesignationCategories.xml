@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!--   <Hygiene.label>Hygiene</Hygiene.label>
+  <Hygiene.description>Things for colonists' hygiene.</Hygiene.description> -->
+
+  <Hygiene.label>Higiene</Hygiene.label>
+  <Hygiene.description>Objetos para la higiene de los colonos.</Hygiene.description>
+
+
+</LanguageData>

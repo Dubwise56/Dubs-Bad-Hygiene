@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!--   <Washing.label>washing</Washing.label>
+  <Washing.description>washing</Washing.description>
+  <Washing.labelNoun>washing</Washing.labelNoun> -->
+
+  <Washing.label>lavado</Washing.label>
+  <Washing.description>Estar limpio disminuye la probabilidad de contraer enfermedades.</Washing.description>  
+  <Washing.labelNoun>lavado</Washing.labelNoun>
+
+  <!--   <BadHygiene.label>bad hygiene</BadHygiene.label>
+  <BadHygiene.description>Bad hygiene will increase risk of disease and impact social interaction.</BadHygiene.description>
+  <BadHygiene.stages.0.label>moderate</BadHygiene.stages.0.label>
+  <BadHygiene.stages.1.label>severe</BadHygiene.stages.1.label>
+  <BadHygiene.stages.2.label>extreme</BadHygiene.stages.2.label> -->
+
+  <BadHygiene.label>mala higiene</BadHygiene.label>
+  <BadHygiene.description>Una mala higiene aumentará el riesgo de contraer enfermedades y afectará a la interacción social.</BadHygiene.description>  
+  <BadHygiene.stages.0.label>moderada</BadHygiene.stages.0.label>
+  <BadHygiene.stages.1.label>severa</BadHygiene.stages.1.label>
+  <BadHygiene.stages.2.label>extrema</BadHygiene.stages.2.label>
+
+  <!--   <Diarrhea.label>diarrhea</Diarrhea.label>
+  <Diarrhea.description>Diarrhea is loose, watery stools. Also known as bowel movements.</Diarrhea.description>
+  <Diarrhea.stages.0.label>recovering</Diarrhea.stages.0.label>
+  <Diarrhea.stages.1.label>major</Diarrhea.stages.1.label>
+  <Diarrhea.stages.2.label>initial</Diarrhea.stages.2.label> -->
+
+  <Diarrhea.label>diarrea</Diarrhea.label>
+  <Diarrhea.description>La diarrea se caracteriza por las heces sueltas, acuosas y frecuentes.</Diarrhea.description>
+  <Diarrhea.stages.0.label>recuperando</Diarrhea.stages.0.label>
+  <Diarrhea.stages.1.label>considerable</Diarrhea.stages.1.label>
+  <Diarrhea.stages.2.label>inicial</Diarrhea.stages.2.label>
+
+  <!--   <Dysentery.label>dysentery</Dysentery.label>
+  <Dysentery.description>Dysentery is a type of gastroenteritis that results in diarrhea with blood.</Dysentery.description>
+  <Dysentery.stages.0.label>minor</Dysentery.stages.0.label>
+  <Dysentery.stages.1.label>major</Dysentery.stages.1.label>
+  <Dysentery.stages.2.label>extreme</Dysentery.stages.2.label> -->
+
+  <Dysentery.label>disentería</Dysentery.label>
+  <Dysentery.description>La disentería es un tipo de gastroenteritis que produce diarrea con sangre.</Dysentery.description>
+  <Dysentery.stages.0.label>menor</Dysentery.stages.0.label>
+  <Dysentery.stages.1.label>severa</Dysentery.stages.1.label>
+  <Dysentery.stages.2.label>extrema</Dysentery.stages.2.label>
+
+  <!--   <Cholera.label>cholera</Cholera.label>
+  <Cholera.description>Cholera is an infectious disease that causes severe watery diarrhea, which can lead to dehydration and even death if untreated.</Cholera.description>
+  <Cholera.stages.0.label>minor</Cholera.stages.0.label>
+  <Cholera.stages.1.label>major</Cholera.stages.1.label>
+  <Cholera.stages.2.label>extreme</Cholera.stages.2.label>
+  <Cholera.stages.3.label>extreme</Cholera.stages.3.label> -->
+
+  <Cholera.label>cólera</Cholera.label>
+  <Cholera.description>El cólera es una enfermedad infecciosa que provoca una grave diarrea acuosa, que puede conducir a la deshidratación e incluso a la muerte si no se trata.</Cholera.description>
+  <Cholera.stages.0.label>menor</Cholera.stages.0.label>
+  <Cholera.stages.1.label>moderado</Cholera.stages.1.label>
+  <Cholera.stages.2.label>grave</Cholera.stages.2.label>
+  <Cholera.stages.3.label>extremo</Cholera.stages.3.label>
+
+  <!--   <DBHDehydration.label>dehydration</DBHDehydration.label>
+  <DBHDehydration.description>Dehydration is a condition that can occur when the loss of body fluids, mostly water, exceeds the amount that is taken in.</DBHDehydration.description>
+  <DBHDehydration.stages.0.label>trivial</DBHDehydration.stages.0.label>
+  <DBHDehydration.stages.1.label>minor</DBHDehydration.stages.1.label>
+  <DBHDehydration.stages.2.label>moderate</DBHDehydration.stages.2.label>
+  <DBHDehydration.stages.3.label>severe</DBHDehydration.stages.3.label>
+  <DBHDehydration.stages.4.label>extreme</DBHDehydration.stages.4.label> -->
+
+  <DBHDehydration.label>deshidratación</DBHDehydration.label>
+  <DBHDehydration.description>La deshidratación es un trastorno que puede producirse cuando la pérdida de líquidos corporales, principalmente agua, supera a la cantidad ingerida.</DBHDehydration.description>
+  <DBHDehydration.stages.0.label>trivial</DBHDehydration.stages.0.label>
+  <DBHDehydration.stages.1.label>menor</DBHDehydration.stages.1.label>
+  <DBHDehydration.stages.2.label>moderado</DBHDehydration.stages.2.label>
+  <DBHDehydration.stages.3.label>grave</DBHDehydration.stages.3.label>
+  <DBHDehydration.stages.4.label>extremo</DBHDehydration.stages.4.label>
+
+</LanguageData>

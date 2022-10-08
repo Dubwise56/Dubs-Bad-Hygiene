@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <DrankCleanWater.stages.0.label>Bebió agua refrescante</DrankCleanWater.stages.0.label>
+  <DrankCleanWater.stages.0.description>Bebió agua limpia y refrescante.</DrankCleanWater.stages.0.description>
+
+  <DrankDirtyWater.stages.0.label>Bebió agua sucia</DrankDirtyWater.stages.0.label>
+  <DrankDirtyWater.stages.0.description>Bebió de una botella con agua contaminada.</DrankDirtyWater.stages.0.description>
+
+  <DrankUrine.stages.0.label>Bebió orina</DrankUrine.stages.0.label>
+  <DrankUrine.stages.0.description>Bebí mi propia orina.</DrankUrine.stages.0.description>
+
+  <WashPrivacy.stages.0.label>Sintió vergüenza</WashPrivacy.stages.0.label>
+  <WashPrivacy.stages.0.description>Alguien me vio bañándome y me incomodó.</WashPrivacy.stages.0.description>
+
+  <ToiletPrivacy.stages.0.label>Sintió vergüenza</ToiletPrivacy.stages.0.label>
+  <ToiletPrivacy.stages.0.description>¡Alguien entró mientras estaba usando el inodoro!</ToiletPrivacy.stages.0.description>
+
+  <SoiledSelf.stages.0.label>Me cagué encima</SoiledSelf.stages.0.label>
+  <SoiledSelf.stages.0.description>No pude aguantar más y me cagué encima.</SoiledSelf.stages.0.description>
+
+  <HotShower.stages.0.label>Ducha caliente</HotShower.stages.0.label>
+  <HotShower.stages.0.description>Me he dado una buena ducha caliente.</HotShower.stages.0.description>
+
+  <HeatedPool.stages.0.label>Piscina climatizada</HeatedPool.stages.0.label>
+  <HeatedPool.stages.0.description>La piscina climatizada fue muy relajante.</HeatedPool.stages.0.description>
+
+  <HotBath.stages.0.label>Baño caliente</HotBath.stages.0.label>
+  <HotBath.stages.0.description>Me he dado un buen baño caliente.</HotBath.stages.0.description>
+
+  <ColdBath.stages.0.label>Baño frío</ColdBath.stages.0.label>
+  <ColdBath.stages.0.description>Me he dado un buen baño frío y refrescante.</ColdBath.stages.0.description>
+
+  <ColdShower.stages.0.label>Ducha fría</ColdShower.stages.0.label>
+  <ColdShower.stages.0.description>Tuve una agradable y refrescante ducha fría.</ColdShower.stages.0.description>
+
+  <ColdWater.stages.0.label>Agua fría</ColdWater.stages.0.label>
+  <ColdWater.stages.0.description>¡No había agua caliente!</ColdWater.stages.0.description>
+
+  <tookDump.stages.0.label>Me he aliviado</tookDump.stages.0.label>
+  <tookDump.stages.0.description>Mmmmm mucho mejor ahora.</tookDump.stages.0.description>
+
+  <openDefecation.stages.0.label>He cagado al aire libre</openDefecation.stages.0.label>
+  <openDefecation.stages.0.description>Tuve que hacer mis necesidades al aire libre.</openDefecation.stages.0.description>
+
+  <UsedPrivateBathroom.stages.0.label>Baño horrible</UsedPrivateBathroom.stages.0.label>
+  <UsedPrivateBathroom.stages.0.description>Mi baño es un lugar horrible.</UsedPrivateBathroom.stages.0.description>
+  <UsedPrivateBathroom.stages.2.label>Baño decente</UsedPrivateBathroom.stages.2.label>
+  <UsedPrivateBathroom.stages.2.description>Mi baño es interesante, no está nada mal.</UsedPrivateBathroom.stages.2.description>
+  <UsedPrivateBathroom.stages.3.label>Baño hermoso</UsedPrivateBathroom.stages.3.label>
+  <UsedPrivateBathroom.stages.3.description>Mi baño es hermoso, me gusta.</UsedPrivateBathroom.stages.3.description>
+  <UsedPrivateBathroom.stages.4.label>Baño precioso</UsedPrivateBathroom.stages.4.label>
+  <UsedPrivateBathroom.stages.4.description>Mi baño es precioso, me gusta mucho.</UsedPrivateBathroom.stages.4.description>
+  <UsedPrivateBathroom.stages.5.label>Baño impresionante</UsedPrivateBathroom.stages.5.label>
+  <UsedPrivateBathroom.stages.5.description>Mi baño es impresionante, ¡me encanta!</UsedPrivateBathroom.stages.5.description>
+  <UsedPrivateBathroom.stages.6.label>Baño muy impresionante</UsedPrivateBathroom.stages.6.label>
+  <UsedPrivateBathroom.stages.6.description>Mi baño es muy impresionante, ¡me encanta!</UsedPrivateBathroom.stages.6.description>
+  <UsedPrivateBathroom.stages.7.label>Baño de lujo</UsedPrivateBathroom.stages.7.label>
+  <UsedPrivateBathroom.stages.7.description>Mi baño es tan lujoso que parece el baño de un rey, ¡me encanta estar aquí!</UsedPrivateBathroom.stages.7.description>
+  <UsedPrivateBathroom.stages.8.label>Baño maravilloso</UsedPrivateBathroom.stages.8.label>
+  <UsedPrivateBathroom.stages.8.description>Mi baño es tan maravilloso que la gente pagaría por verlo. ¡Este es el mejor lugar del mundo!</UsedPrivateBathroom.stages.8.description>
+
+</LanguageData>
