@@ -1,6 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
+  <!-- EN: Things: -->
+  <dbh.Things>Dinge:</dbh.Things>
+  <!-- EN: Terrain: -->
+  <dbh.Terrain>Boden:</dbh.Terrain>
+  <!-- EN: Environment: -->
+  <dbh.Environment>Umfeld:</dbh.Environment>
+  <!-- EN: Sewage contamination -->
+  <dbh.Sewagecontamination>Abwasser-Kontamination</dbh.Sewagecontamination>
+
   <!-- EN: Remove pipes -->
   <DesignatorRemovePlumbing>Rohrleitung entfernen</DesignatorRemovePlumbing>
   <!-- EN: Designate sections of a pipe type for deconstruction. -->
