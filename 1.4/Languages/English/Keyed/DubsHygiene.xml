@@ -5,6 +5,7 @@
 	<dbh.Things>Things:</dbh.Things>
 	<dbh.Terrain>Terrain:</dbh.Terrain>
 	<dbh.Environment>Environment:</dbh.Environment>
+	<dbh.Pollution>Pollution</dbh.Pollution>
 	<dbh.Sewagecontamination>Sewage contamination</dbh.Sewagecontamination>
 
 	<!--Construction-->
