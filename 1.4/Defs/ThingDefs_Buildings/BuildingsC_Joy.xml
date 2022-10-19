@@ -417,7 +417,7 @@
 		<castEdgeShadows>false</castEdgeShadows>
 		<pathCost>150</pathCost>
 		<size>(1,1)</size>
-		<rotatable>true</rotatable>
+		<rotatable>false</rotatable>
 		<statBases>
 			<MaxHitPoints>250</MaxHitPoints>
 			<WorkToBuild>1000</WorkToBuild>
@@ -489,7 +489,7 @@
 		<castEdgeShadows>false</castEdgeShadows>
 		<pathCost>150</pathCost>
 		<size>(1,1)</size>
-		<rotatable>true</rotatable>
+		<rotatable>false</rotatable>
 		<statBases>
 			<MaxHitPoints>250</MaxHitPoints>
 			<WorkToBuild>1250</WorkToBuild>
