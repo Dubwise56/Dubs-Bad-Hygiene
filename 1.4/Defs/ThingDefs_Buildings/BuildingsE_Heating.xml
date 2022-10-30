@@ -561,6 +561,12 @@
 			<li Class="CompProperties_Power">
 				<compClass>CompPowerTrader</compClass>
 				<basePowerConsumption>50</basePowerConsumption>
+        <powerUpgrades>
+          <li>
+            <researchProject>ColoredLights</researchProject>
+            <factor>0.25</factor>
+          </li>
+        </powerUpgrades>
 			</li>
 			<li Class="CompProperties_Flickable"/>
 		</comps>
@@ -583,7 +589,9 @@
 		<comps>
 			<li Class="CompProperties_Glower">
 				<glowRadius>9</glowRadius>
-				<glowColor>(217,217,208,0)</glowColor>
+        <glowColor>(214,148,94,0)</glowColor>
+        <colorPickerEnabled>true</colorPickerEnabled>
+        <darklightToggle>true</darklightToggle>
 			</li>
 		</comps>
 	</ThingDef>
@@ -596,34 +604,9 @@
 		<comps>
 			<li Class="CompProperties_Glower">
 				<glowRadius>9</glowRadius>
-				<glowColor>(217,217,208,0)</glowColor>
-			</li>
-		</comps>
-	</ThingDef>
-
-	<ThingDef ParentName="BasedCeilingFan" DBHLite="true">
-		<defName>CeilingFanDarklight</defName>
-		<label>ceiling fan 2x2 (dark)</label>
-		<description>Cools a room by circulating air. Includes a built-in Darklight lamp.</description>
-		<size>(2,2)</size>
-		<comps>
-			<li Class="CompProperties_Glower">
-				<glowRadius>9</glowRadius>
-				<glowColor>(78, 226, 229, 0)</glowColor>
-			</li>
-		</comps>
-	</ThingDef>
-
-	<ThingDef ParentName="BasedCeilingFan" DBHLite="true">
-		<defName>CeilingFanSDarklight</defName>
-		<label>ceiling fan 1x1 (dark)</label>
-		<description>Cools a room by circulating air. Includes a built-in Darklight lamp.</description>
-		<uiIconScale>0.5</uiIconScale>
-		<size>(1,1)</size>
-		<comps>
-			<li Class="CompProperties_Glower">
-				<glowRadius>9</glowRadius>
-				<glowColor>(78, 226, 229, 0)</glowColor>
+        <glowColor>(214,148,94,0)</glowColor>
+        <colorPickerEnabled>true</colorPickerEnabled>
+        <darklightToggle>true</darklightToggle>
 			</li>
 		</comps>
 	</ThingDef>
