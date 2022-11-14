@@ -107,7 +107,7 @@
     </requiredCapacities>
   </WorkGiverDef>
 
-  <WorkGiverDef>
+  <WorkGiverDef MayRequire="Ludeon.RimWorld.Biotech">
     <defName>washChild</defName>
     <label>wash child</label>
     <giverClass>DubsBadHygiene.WorkGiver_washChild</giverClass>
