@@ -5,17 +5,21 @@
 
 	<AirconIndoorUnit.description>Vnitřní klimatizační jednotka pro regulaci teploty v místnostech. Připojuje se k vnějším jednotkám. Spotřebovává 100 jednotek chlazení.</AirconIndoorUnit.description>
 
-	<ElectricBoiler.label>Elektrický bojler</ElectricBoiler.label>
+	<RadiatorTowelRail.description>Hezký věšák na ručníky</RadiatorTowelRail.description>
 
-	<ElectricBoiler.description>Vytváří různý počet jednotek ohřevu pro radiátory a nádrže na teplou vodu. Nastavení je možné měnit manuálně nebo pomocí termostatů.</ElectricBoiler.description>
+	<RadiatorTowelRail.label>Věšák na ručníky</RadiatorTowelRail.label>
 
 	<RadiatorLarge.description>Trojnásobný výkon oproti standardnímu radiátoru. Užitečný pro velké místnosti. Vyžaduje 300 jednotek ohřevu.</RadiatorLarge.description>
 
 	<RadiatorLarge.label>Velký radiátor</RadiatorLarge.label>
 
-	<CeilingFan.label>Stropní ventilátor 2x2</CeilingFan.label>
+	<Thermostat.label>Termostat</Thermostat.label>
 
-	<CeilingFan.description>Pomocí cirkulace vzduchu ochlazuje místnost. Též má zabudovanou žárovku.</CeilingFan.description>
+	<Thermostat.description>Používá se pro regulaci elektrických a plynových bojlerů. Může jich být umístěno více. Připojuje se přes standardní potrubí.</Thermostat.description>
+
+	<ElectricBoiler.label>Elektrický bojler</ElectricBoiler.label>
+
+	<ElectricBoiler.description>Vytváří různý počet jednotek ohřevu pro radiátory a nádrže na teplou vodu. Nastavení je možné měnit manuálně nebo pomocí termostatů.</ElectricBoiler.description>
 
 	<AirConOutdoorUnit.label>Venkovní klimatizační jednotka</AirConOutdoorUnit.label>
 
@@ -25,7 +29,7 @@
 
 	<RadiatorStuffed.label>Radiátor</RadiatorStuffed.label>
 
-	<CeilingFanS.label>Stropní ventilátor 1x1</CeilingFanS.label>
+	<CeilingFanS.label>Stropní větrák 1x1</CeilingFanS.label>
 
 	<CeilingFanS.description>Pomocí cirkulace vzduchu ochlazuje místnost. Též má zabudovanou žárovku.</CeilingFanS.description>
 
@@ -36,10 +40,6 @@
 	<FreezerUnit.label>Vnitřní mrazící jednotka</FreezerUnit.label>
 
 	<FreezerUnit.description>Mrazící jednotka, pomocí které můžeš z celé místnosti udělat mrazák. Připojuje se k venkovním klimatizačním jednotkám. Vyžaduje 300 jednotek chlazení.</FreezerUnit.description>
-
-	<Thermostat.label>Termostat</Thermostat.label>
-
-	<Thermostat.description>Používá se pro regulaci elektrických a plynových bojlerů. Může jich být umístěno více. Připojuje se přes standardní potrubí.</Thermostat.description>
 
 	<LogBoiler.label>Bojler na dřevo</LogBoiler.label>
 
@@ -52,5 +52,13 @@
 	<SolarHeater.label>Solární ohřívač</SolarHeater.label>
 
 	<SolarHeater.description>Ohřívá vodu pro nádrže a radiátory pomocí slunečního světla. Produkuje 0-2000 jednotek ohřevu v závislosti na intenzitě světla a okolní teplotě.</SolarHeater.description>
+
+	<GeothermHeater.label>Geotermální ohřívač</GeothermHeater.label>
+
+	<GeothermHeater.description>Ohřívá vodu do nádrží a radiátorů pomocí geotermální energie z gejzírů. Výkon: 3700 jednotek ohřevu.</GeothermHeater.description>
+
+	<CeilingFan.description>Pomocí cirkulace vzduchu ochlazuje místnost. Též má zabudovanou žárovku.</CeilingFan.description>
+
+	<CeilingFan.label>Stropní větrák 2x2</CeilingFan.label>
 
 </LanguageData>

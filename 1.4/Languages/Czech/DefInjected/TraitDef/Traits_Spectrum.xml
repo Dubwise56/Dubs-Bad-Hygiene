@@ -5,8 +5,10 @@
 
 	<Hygienic.degreedatas.0.description>[PAWN_nameDef] je {PAWN_gender ? posedlý : posedlá} mikroby a myje se mnohem častěji, než je normální.</Hygienic.degreedatas.0.description>
 
-	<Hygienic.degreedatas.1.label>{PAWN_gender ? Čistotný : Čistotná}</Hygienic.degreedatas.1.label>
-
+	<Hygienic.degreedatas.1.label>Čistotný</Hygienic.degreedatas.1.label>
+    
+    <Hygienic.degreedatas.1.labelFemale>Čistotná</Hygienic.degreedatas.1.labelFemale>
+    
 	<Hygienic.degreedatas.1.description>[PAWN_nameDef] je velice {PAWN_gender ? čistotný : čistotná} a častěji se myje.</Hygienic.degreedatas.1.description>
 
 	<Hygienic.degreedatas.2.label>{PAWN_gender ? Nepříliš čistotný : Nepříliš čistotná}</Hygienic.degreedatas.2.label>

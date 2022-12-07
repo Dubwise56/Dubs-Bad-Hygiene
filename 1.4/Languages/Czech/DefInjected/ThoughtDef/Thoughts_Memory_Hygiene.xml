@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-	<DrankCleanWater.stages.0.label>{PAWN_gender ? Vypil : Vypila} vodu.</DrankCleanWater.stages.0.label>
+	<DrankCleanWater.stages.0.label>{PAWN_gender ? Osvěžený : Osvěžená}</DrankCleanWater.stages.0.label>
 
 	<DrankCleanWater.stages.0.description>{PAWN_gender ? Napil : Napila} jsem se vody. Osvěžující</DrankCleanWater.stages.0.description>
 

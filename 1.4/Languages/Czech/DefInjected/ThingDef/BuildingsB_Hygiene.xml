@@ -9,7 +9,7 @@
 
 	<BathtubStuff.label>Vana</BathtubStuff.label>
 
-	<BurnPit.label>Spalovací jáma</BurnPit.label>
+<BurnPit.label>Spalovací jáma</BurnPit.label>
 
 	<BurnPit.description>Ničí fekální kompost jeho spálením. Také ji lze využít pro likvidaci jiných odpadků či dokonce mrtvol. Pokud budou kolonisté trávit příliš mnoho času v blízkosti hořícího odpadu, mohou onemocnět.</BurnPit.description>
 
@@ -25,7 +25,7 @@
 
 	<WashBucket.description>Necky na vodu používané pro osobní hygienu. Musí být pravidelně doplňovány čerstvou vodou a též je doplňuje déšť. Kolonisté mohou vodu i pít, pokud je zapnuta žízeň.</WashBucket.description>
 
-	<BasinStuff.description>Prosté a čisté umyvadlo, ve kterém si můžeš po použití toalety umýt ruce, aby byly krásně čisté.</BasinStuff.description>
+    <BasinStuff.description>Prosté a čisté umyvadlo, ve kterém si můžeš po použití toalety umýt ruce, aby byly krásně čisté.</BasinStuff.description>
 
 	<BasinStuff.label>Umyvadlo</BasinStuff.label>
 
@@ -33,9 +33,17 @@
 
 	<LitterBox.description>Krabice na výkaly či moč menších zvířat používaná ve vnitřních prostorách.</LitterBox.description>
 
+	<BathMat.label>Koupelnová předložka</BathMat.label>
+
+	<BathMat.description>Malá předložka, která se dává vedle vany nebo sprchy, aby absorbovala vlhkost.</BathMat.description>
+
 	<ShowerStuff.description>Jednoduchá sprcha. K provozu potřebuje vodu z vodojemů nebo teplou vodu z nádrží na teplou vodu. Nevyžaduje odtok pro odpadní vodu.\n65L na jedno umytí</ShowerStuff.description>
 
 	<ShowerStuff.label>Sprcha</ShowerStuff.label>
+
+	<PetWaterBowl.label>Miska na vodu</PetWaterBowl.label>
+
+	<PetWaterBowl.description>Miska na vodu pro zvířata.</PetWaterBowl.description>
 
 	<KitchenSink.description>Prostě kuchyňský dřez. Zvyšuje čistotu místnosti.</KitchenSink.description>
 

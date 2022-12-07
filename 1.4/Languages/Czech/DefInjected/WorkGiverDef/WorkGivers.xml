@@ -7,11 +7,17 @@
 
 	<PlaceFertilizer.gerund>Hnojí</PlaceFertilizer.gerund>
 
-	<ClearBlockage.label>Uvolnit odtok</ClearBlockage.label>
+	<TipSewage.label>Převrhnout splašky</TipSewage.label>
 
-	<ClearBlockage.verb>Uvolňuje odtok</ClearBlockage.verb>
+	<TipSewage.verb>Převrhnout flašky</TipSewage.verb>
 
-	<ClearBlockage.gerund>Uvolňuje odtok</ClearBlockage.gerund>
+	<TipSewage.gerund>Převrhává</TipSewage.gerund>
+
+	<DrainWaterTank.label>Vypustit vodu</DrainWaterTank.label>
+
+	<DrainWaterTank.verb>Vypustit</DrainWaterTank.verb>
+
+	<DrainWaterTank.gerund>Vypouští</DrainWaterTank.gerund>
 
 	<DBHAdministerFluids.label>Dodat tekutiny</DBHAdministerFluids.label>
 
@@ -19,34 +25,40 @@
 
 	<DBHAdministerFluids.gerund>Dává napít</DBHAdministerFluids.gerund>
 
+	<DBHAdministerFluidsWarden.label>Dodat tekutiny</DBHAdministerFluidsWarden.label>
+
+	<DBHAdministerFluidsWarden.verb>Dát napít</DBHAdministerFluidsWarden.verb>
+
+	<DBHAdministerFluidsWarden.gerund>Dává napít</DBHAdministerFluidsWarden.gerund>
+
+	<ClearBlockage.label>Uvolnit odtok</ClearBlockage.label>
+
+	<ClearBlockage.verb>Uvolnit odtok</ClearBlockage.verb>
+
+	<ClearBlockage.gerund>Uvolňuje odtok</ClearBlockage.gerund>
+
 	<washPatient.label>Umýt pacienta</washPatient.label>
 
 	<washPatient.verb>Umýt</washPatient.verb>
 
 	<washPatient.gerund>Myje</washPatient.gerund>
 
-	<DocCleanBedpan.label>Vyčistit podložní mísu</DocCleanBedpan.label>
+	<washChild.label>Umýt dítě</washChild.label>
 
-	<DocCleanBedpan.verb>Vyčistit</DocCleanBedpan.verb>
+	<washChild.verb>Umýt</washChild.verb>
 
-	<DocCleanBedpan.gerund>čistí</DocCleanBedpan.gerund>
+	<washChild.gerund>Umývá</washChild.gerund>
 
-	<cleanBedpan.label>Vyčistit podložní mísu</cleanBedpan.label>
+	<DocCleanBedpan.label>Umýt podložní mísu</DocCleanBedpan.label>
 
-	<cleanBedpan.verb>vyčistit</cleanBedpan.verb>
+	<DocCleanBedpan.verb>Umýt</DocCleanBedpan.verb>
 
-	<cleanBedpan.gerund>čistí</cleanBedpan.gerund>
+	<DocCleanBedpan.gerund>Umývá</DocCleanBedpan.gerund>
 
-	<TipSewage.label>Vylít odpadní vodu</TipSewage.label>
+	<cleanBedpan.label>Umýt podložní mísu</cleanBedpan.label>
 
-	<TipSewage.verb>Vylít odpadní vodu</TipSewage.verb>
+	<cleanBedpan.verb>Umýt</cleanBedpan.verb>
 
-	<TipSewage.gerund>vylévá</TipSewage.gerund>
-
-	<DrainWaterTank.label>Vypustit vodu</DrainWaterTank.label>
-
-	<DrainWaterTank.verb>Vypustit</DrainWaterTank.verb>
-
-	<DrainWaterTank.gerund>Vypouští</DrainWaterTank.gerund>
+	<cleanBedpan.gerund>Umývá</cleanBedpan.gerund>
 
 </LanguageData>
