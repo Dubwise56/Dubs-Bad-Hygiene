@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+<ToiletStallDoor.label>Двері кабінки</ToiletStallDoor.label>
+  <ToiletStallDoor.description>Тонкі дверцята, що створюють відокремлений простір для користування сантехнікою. Не поділяє простір на кімнати та не перешкоджає передачі тепла.</ToiletStallDoor.description>
+  <ToiletStallDoor_Blueprint.label>двері кабінки (проект)</ToiletStallDoor_Blueprint.label>
+  <ToiletStallDoor_Frame.label>двері кабінки (у процесі збирання)</ToiletStallDoor_Frame.label>
+  <ToiletStallDoor_Frame.description>Тонкі дверцята, що створюють відокремлений простір для користування сантехнікою. Не поділяє простір на кімнати та не перешкоджає передачі тепла.</ToiletStallDoor_Frame.description>
+
+
+  <!-- Low Tech Stuff -->
+
+  <PitLatrine.label>Вигрібна яма</PitLatrine.label>
+  <PitLatrine.description>Вигрібна яма, що накопичує відходи життєдіяльності. Спустошується вручну. Може бути підключена до труб.</PitLatrine.description>
+  <PitLatrine_Blueprint.label>Вигрібна яма (проект)</PitLatrine_Blueprint.label>
+  <PitLatrine_Blueprint_Install.label>Вигрібна яма (проект)</PitLatrine_Blueprint_Install.label>
+  <PitLatrine_Frame.label>Вигрібна яма (у процесі збирання)</PitLatrine_Frame.label>
+  <PitLatrine_Frame.description>Вигрібна яма, що накопичує відходи життєдіяльності. Спустошується вручну. Може бути підключена до труб.</PitLatrine_Frame.description>
+  
+  <PrimitiveWell.label>Колодець</PrimitiveWell.label>
+  <PrimitiveWell.description>Надає доступ до ґрунтових вод для наповнення бадді.</PrimitiveWell.description>
+  <PrimitiveWell_Blueprint.label>криниця (проект)</PrimitiveWell_Blueprint.label>
+  <PrimitiveWell_Blueprint_Install.label>криниця (проект)</PrimitiveWell_Blueprint_Install.label>
+  <PrimitiveWell_Frame.label>Колодець (у процесі збирання)</PrimitiveWell_Frame.label>
+  <PrimitiveWell_Frame.description>Надає доступ до ґрунтових вод для наповнення бадді.</PrimitiveWell_Frame.description>
+
+  <WashBucket.label>Бадя</WashBucket.label>
+  <WashBucket.description>Бадя для водних процедур. Наповнюється вручну. Може бути використана для пиття.</WashBucket.description>
+  <WashBucket_Blueprint.label>бадья (проект)</WashBucket_Blueprint.label>
+  <WashBucket_Blueprint_Install.label>Бадя (проект)</WashBucket_Blueprint_Install.label>
+  <WashBucket_Frame.label>баддя (у процесі збирання)</WashBucket_Frame.label>
+  <WashBucket_Frame.description>Бадя для водних процедур. Наповнюється вручну. Може бути використана для пиття.</WashBucket_Frame.description>
+
+<LitterBox.label>Лоток</LitterBox.label>
+  <LitterBox.description>Кімнатний лоток для сечі та фекалій дрібних тварин.</LitterBox.description>
+  <LitterBox_Blueprint.label>лоток (проект)</LitterBox_Blueprint.label>
+  <LitterBox_Blueprint_Install.label>лоток (проект)</LitterBox_Blueprint_Install.label>
+  <LitterBox_Frame.label>лоток (у процесі збирання)</LitterBox_Frame.label>
+  <LitterBox_Frame.description>Кімнатний лоток для сечі та фекалій дрібних тварин.</LitterBox_Frame.description>
+
+  <BurnPit.label>Яма для спалювання</BurnPit.label>
+  <BurnPit.description>Знищує фекальні маси, спалюючи їх як паливо. Може бути використана для позбавлення від тіл та інших відходів. Колоністи можуть захворіти, якщо проведуть багато часу поблизу.</BurnPit.description>
+  <BurnPit_Blueprint.label>яма для спалювання (проект)</BurnPit_Blueprint.label>
+  <BurnPit_Frame.label>яма для спалювання (у процесі збирання)</BurnPit_Frame.label>
+  <BurnPit_Frame.description>Знищує фекальні маси, спалюючи їх як паливо. Може бути використана для позбавлення від тіл та інших відходів. Колоністи можуть занедужати, якщо проведуть багато часу поблизу.</BurnPit_Frame.description>
+
+
+  <!-- Basins -->
+
+<Fountain.label>Фонтанчик</Fountain.label>
+  <Fountain.description>Фонтанчик для пиття та миття рук.</Fountain.description>
+  <Fountain_Blueprint.label>фонтанчик (проект)</Fountain_Blueprint.label>
+  <Fountain_Blueprint_Install.label>фонтанчик (у процесі збирання)</Fountain_Blueprint_Install.label>
+  <Fountain_Frame.label>фонтанчик (проект)</Fountain_Frame.label>
+  <Fountain_Frame.description>Фонтанчик для пиття та миття рук.</Fountain_Frame.description>
+
+<BasinStuff.label>Мийка</BasinStuff.label>
+  <BasinStuff.description>Проста мийка для підтримання чистоти рук після користування туалетом.</BasinStuff.description>
+  <BasinStuff_Blueprint.label>мийка (проект)</BasinStuff_Blueprint.label>
+  <BasinStuff_Blueprint_Install.label>мийка (проект)</BasinStuff_Blueprint_Install.label>
+  <BasinStuff_Frame.label>мийка (у процесі збирання)</BasinStuff_Frame.label>
+  <BasinStuff_Frame.description>Проста мийка для підтримки чистоти рук після користування туалетом.</BasinStuff_Frame.description>
+
+  <KitchenSink.label>Кухонна мийка</KitchenSink.label>
+  <KitchenSink.description>Проста кухонна мийка. Допомагає зберігати чистоту в кімнаті.</KitchenSink.description>
+  <KitchenSink_Blueprint.label>кухонна мийка (проект)</KitchenSink_Blueprint.label>
+  <KitchenSink_Blueprint_Install.label>кухонна мийка (проект)</KitchenSink_Blueprint_Install.label>
+  <KitchenSink_Frame.label>кухонна мийка (у процесі збирання)</KitchenSink_Frame.label>
+  <KitchenSink_Frame.description>Проста кухонна мийка. Допомагає зберігати чистоту в кімнаті.</KitchenSink_Frame.description>
+
+
+  <!-- Toilets -->
+
+<ToiletStuff.label>Унітаз</ToiletStuff.label>
+  <ToiletStuff.description>Сантехніка призначена для позбавлення відходів життєдіяльності організму.</ToiletStuff.description>
+  <ToiletStuff_Blueprint.label>унітаз (проект)</ToiletStuff_Blueprint.label>
+  <ToiletStuff_Blueprint_Install.label>Унітаз (проект)</ToiletStuff_Blueprint_Install.label>
+  <ToiletStuff_Frame.label>унітаз (у процесі збирання)</ToiletStuff_Frame.label>
+  <ToiletStuff_Frame.description>Сантехніка призначена для позбавлення відходів життєдіяльності організму.</ToiletStuff_Frame.description>
+  
+<ToiletAdv_Blueprint.label>Розумний унітаз (проект)</ToiletAdv_Blueprint.label>
+  <ToiletAdv.description>Вдвічі більш водоефективний у порівнянні зі звичайним унітазом та забезпечує оптимальний досвід користування з автоматичним очищенням та освіженням повітря.</ToiletAdv.description>
+  <ToiletAdv_Blueprint_Install.label>розумний унітаз (проект)</ToiletAdv_Blueprint_Install.label>
+  <ToiletAdv_Frame.label>розумний унітаз (проект)</ToiletAdv_Frame.label>
+  <ToiletAdv_Frame.description>Вдвічі більш водоефективний у порівнянні зі звичайним унітазом та забезпечує оптимальний досвід користування з автоматичним очищенням та освіженням повітря.</ToiletAdv_Frame.description>
+
+<ToiletAdvStuff.label>Розумний унітаз</ToiletAdvStuff.label>
+  <ToiletAdvStuff.description>Вдвічі більш водоефективний у порівнянні зі звичайним унітазом та забезпечує оптимальний досвід користування з автоматичним очищенням та освіженням повітря.</ToiletAdvStuff.description>
+  <ToiletAdvStuff_Blueprint.label>розумний унітаз (проект)</ToiletAdvStuff_Blueprint.label>
+  <ToiletAdvStuff_Blueprint_Install.label>розумний унітаз (проект)</ToiletAdvStuff_Blueprint_Install.label>
+  <ToiletAdvStuff_Frame.label>розумний унітаз (у процесі збирання)</ToiletAdvStuff_Frame.label>
+  <ToiletAdvStuff_Frame.description>Вдвічі більш водоефективний у порівнянні зі звичайним унітазом та забезпечує оптимальний досвід користування з автоматичним очищенням та освіженням повітря.</ToiletAdvStuff_Frame.description>
+
+
+  <!-- Baths -->
+
+  <BathtubStuff.label>Ванна</BathtubStuff.label>
+  <BathtubStuff.description>Купання у ванні забирає багато часу і вимагає великої витрати води, зате приносить незрівнянне задоволення. Може бути підігріта за допомогою багаття або під'єднаних баків із гарячою водою і не вимагає відведення нечистот.</BathtubStuff.description>
+  <BathtubStuff_Blueprint.label>ванна (проект)</BathtubStuff_Blueprint.label>
+  <BathtubStuff_Blueprint_Install.label>ванна (проект)</BathtubStuff_Blueprint_Install.label>
+  <BathtubStuff_Frame.label>ванна (у процесі збирання)</BathtubStuff_Frame.label>
+  <BathtubStuff_Frame.description>Купання у ванні забирає багато часу і вимагає великої витрати води, зате приносить незрівнянне задоволення. Може бути підігріта за допомогою багаття або під'єднаних баків з гарячою водою і не вимагає відведення нечистот.</BathtubStuff_Frame.description>
+
+
+  <!-- Showers -->
+
+<ShowerStuff.label>Душ</ShowerStuff.label>
+  <ShowerStuff.description>Простий душ, що вимагає доступу до води з водонапірних веж для роботи. Може бути підігріти за допомогою під'єднаних баків із гарячою водою і не вимагає відведення нечистот.</ShowerStuff.description>
+  <ShowerStuff_Blueprint.label>душ (проект)</ShowerStuff_Blueprint.label>
+  <ShowerStuff_Blueprint_Install.label>душ (проект)</ShowerStuff_Blueprint_Install.label>
+  <ShowerStuff_Frame.label>душ (під час складання)</ShowerStuff_Frame.label>
+  <ShowerStuff_Frame.description>Простий душ, що вимагає доступу до води з водонапірних веж для роботи. Може бути підігріти за допомогою під'єднаних баків із гарячою водою і не вимагає відведення нечистот.</ShowerStuff_Frame.description>
+
+<ShowerSimple.label>Простий душ</ShowerSimple.label>
+  <ShowerSimple.description>Простий душ, що вимагає доступу до води з водонапірних веж для роботи. Може бути підігріти за допомогою під'єднаних баків із гарячою водою і не вимагає відведення нечистот.</ShowerSimple.description>
+  <ShowerSimple_Blueprint.label>простий душ (проект)</ShowerSimple_Blueprint.label>
+  <ShowerSimple_Blueprint_Install.label>простий душ (проект)</ShowerSimple_Blueprint_Install.label>
+  <ShowerSimple_Frame.label>простий душ (у процесі збирання)</ShowerSimple_Frame.label>
+  <ShowerSimple_Frame.description>Простий душ, що вимагає доступу до води з водонапірних веж для роботи. Може бути підігріти за допомогою приєднаних баків із гарячою водою і не вимагає відведення нечистот.</ShowerSimple_Frame.description>
+
+<ShowerAdvStuff.label>Розумний душ</ShowerAdvStuff.label>
+  <ShowerAdvStuff.description>Має велику душову насадку радіусом 110 мм з чотирма сильними струменями, що розслабляють миючі м'язи, підігріває воду і скорочує необхідний час водних процедур удвічі!</ShowerAdvStuff.description>
+  <ShowerAdvStuff_Blueprint.label>розумний душ (проект)</ShowerAdvStuff_Blueprint.label>
+  <ShowerAdvStuff_Blueprint_Install.label>розумний душ (проект)</ShowerAdvStuff_Blueprint_Install.label>
+  <ShowerAdvStuff_Frame.label>розумний душ (у процесі збирання)</ShowerAdvStuff_Frame.label>
+  <ShowerAdvStuff_Frame.description>Має велику душову насадку радіусом 110 мм з чотирма сильними струменями, що розслабляють миючі м'язи, підігріває воду і скорочує необхідний час водних процедур вдвічі!</ShowerAdvStuff_Framedescript>
+
+</LanguageData>

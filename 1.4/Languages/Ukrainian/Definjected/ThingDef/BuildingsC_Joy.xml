@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <HotTub.label>Джакузі</HotTub.label>
+  <HotTub.description>Гідромасажна ванна для гідротерапії, релаксації та задоволення. Наповнюється водою із водосховищ для першого використання. Має підігрів та не вимагає відведення нечистот.</HotTub.description>
+  <HotTub_Blueprint.label>джакузі (проект)</HotTub_Blueprint.label>
+  <HotTub_Frame.label>джакузі (у процесі збирання)</HotTub_Frame.label>
+  <HotTub_Frame.description>Гідромасажна ванна для гідротерапії, релаксації та задоволення. Наповнюється водою із водосховищ для першого використання. Має підігрів і не вимагає відведення нечистот.</HotTub_Frame.description>
+
+<WashingMachine.label>Пральна машина</WashingMachine.label>
+  <WashingMachine.description>Відмиває одяг так добре, що ніхто ніколи не здогадається, що в ньому хтось помер!</WashingMachine.description>
+  <WashingMachine_Blueprint.label>пральна машина (проект)</WashingMachine_Blueprint.label>
+  <WashingMachine_Frame.label>пральна машина (у процесі збирання)</WashingMachine_Frame.label>
+  <WashingMachine_Frame.description>Відмиває одяг так добре, що ніхто ніколи не здогадається, що в ньому хтось помер!</WashingMachine_Frame.description>
+
+</LanguageData>

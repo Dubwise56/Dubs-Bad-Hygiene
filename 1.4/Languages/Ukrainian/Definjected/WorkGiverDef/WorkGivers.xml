@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <DoBillsBurnPit.label>спалити в ямі</DoBillsBurnPit.label>
+  <DoBillsBurnPit.verb>спалити</DoBillsBurnPit.verb>
+  <DoBillsBurnPit.gerund>спалювати, використовуючи</DoBillsBurnPit.gerund>
+
+  <RemoveSewage.label>згрести нечистоти в бочки</RemoveSewage.label>
+  <RemoveSewage.verb>згрести нечистоти</RemoveSewage.verb>
+  <RemoveSewage.gerund>згрібати нечистоти</RemoveSewage.gerund>
+
+  <UnloadComposter.label>дістати компост із компостерів</UnloadComposter.label>
+  <UnloadComposter.verb>дістати компост</UnloadComposter.verb>
+  <UnloadComposter.gerund>діставати компост з</UnloadComposter.gerund>
+
+  <FillComposter.label>наповнити компостер</FillComposter.label>
+  <FillComposter.verb>наповнити</FillComposter.verb>
+  <FillComposter.gerund>наповнювати</FillComposter.gerund>
+
+  <emptyLatrine.label>спорожнити сортир</emptyLatrine.label>
+  <emptyLatrine.verb>спорожнити</emptyLatrine.verb>
+  <emptyLatrine.gerund>спорожняти</emptyLatrine.gerund>
+
+  <ClearBlockage.label>усунути засмічення</ClearBlockage.label>
+  <ClearBlockage.verb>усунути</ClearBlockage.verb>
+  <ClearBlockage.gerund>усувати</ClearBlockage.gerund>
+
+  <washPatient.label>мити пацієнта</washPatient.label>
+  <washPatient.verb>мити</washPatient.verb>
+  <washPatient.gerund>мити</washPatient.gerund>
+
+  <cleanBedpan.label>винести підкладне судно</cleanBedpan.label>
+  <cleanBedpan.verb>винести</cleanBedpan.verb>
+  <cleanBedpan.gerund>виносити</cleanBedpan.gerund>
+
+  <DocCleanBedpan.label>винести підкладне судно</DocCleanBedpan.label>
+  <DocCleanBedpan.verb>винести</DocCleanBedpan.verb>
+  <DocCleanBedpan.gerund>виности</DocCleanBedpan.gerund>
+  
+  <emptySepticTank.label>спорожнити септик</emptySepticTank.label>
+  <emptySepticTank.verb>спорожнити</emptySepticTank.verb>
+  <emptySepticTank.gerund>спорожняти</emptySepticTank.gerund>
+  
+  <DBHAdministerFluids.label>напувати пацієнта</DBHAdministerFluids.label>
+  <DBHAdministerFluids.verb>напувати</DBHAdministerFluids.verb>
+  <DBHAdministerFluids.gerund>напувати</DBHAdministerFluids.gerund>
+  
+  <LoadWashing.label>завантажити прання</LoadWashing.label>
+  <LoadWashing.verb>завантажити</LoadWashing.verb>
+  <LoadWashing.gerund>завантажувати</LoadWashing.gerund>
+  
+  <UnloadWashing.label>розвантажити прання</UnloadWashing.label>
+  <UnloadWashing.verb>розвантажити</UnloadWashing.verb>
+  <UnloadWashing.gerund>розвантажувати</UnloadWashing.gerund>
+  
+  <RefillTub.label>наповнити баддю</RefillTub.label>
+  <RefillTub.verb>наповнити</RefillTub.verb>
+  <RefillTub.gerund>наповнювати</RefillTub.gerund>
+  
+  <TipSewage.label>перекинути нечистоти</TipSewage.label>
+  <TipSewage.verb>перекинути</TipSewage.verb>
+  <TipSewage.gerund>перекидати</TipSewage.gerund>
+
+
+</LanguageData>

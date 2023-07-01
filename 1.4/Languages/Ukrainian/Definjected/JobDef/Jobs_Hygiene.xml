@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+<LoadComposter.reportString>наповнює TargetA</LoadComposter.reportString>
+  <UnloadComposter.reportString>порожнює TargetA</UnloadComposter.reportString>
+  <RemoveSewage.reportString>прибирає нечистоти</RemoveSewage.reportString>
+  <UseHotTub.reportString>розслаблюється</UseHotTub.reportString>
+  <UseToilet.reportString>використовує TargetA</UseToilet.reportString>
+  <emptyLatrine.reportString>порожнює TargetA</emptyLatrine.reportString>
+  <emptySeptictank.reportString>порожнює TargetA</emptySeptictank.reportString>
+  <WatchWashingMachine.reportString>спостерігає за циклом віджиму</WatchWashingMachine.reportString>
+  <DBHDrinkFromGround.reportString>п'є дощову воду</DBHDrinkFromGround.reportString>
+  <DBHDrinkFromBasin.reportString>п'є воду з TargetA</DBHDrinkFromBasin.reportString>
+  <DBHAdministerFluids.reportString>поіт TargetA</DBHAdministerFluids.reportString>
+  <haveWildPoo.reportString>справляє потребу на свіжому повітрі</haveWildPoo.reportString>
+  <useWashBucket.reportString>миється за допомогою TargetA</useWashBucket.reportString>
+  <takeShower.reportString>приймає душ за допомогою TargetA</takeShower.reportString>
+  <takeBath.reportString>приймає ванну</takeBath.reportString>
+  <washHands.reportString>миє руки</washHands.reportString>
+  <washPatient.reportString>миє TargetA</washPatient.reportString>
+  <cleanBedpan.reportString>виносить качку</cleanBedpan.reportString>
+  <clearBlockage.reportString>прочищає TargetA</clearBlockage.reportString>
+  <TipOverSewage.reportString>перекидає TargetA</TipOverSewage.reportString>
+  <RefillTub.reportString>наповнює баддю</RefillTub.reportString>
+  <LoadWashing.reportString>завантажує TargetA</LoadWashing.reportString>
+  <UnloadWashing.reportString>розсуває TargetA</UnloadWashing.reportString>
+  <washAtCell.reportString>миється</washAtCell.reportString>
+  <LoadFridge.reportString>завантажує TargetA</LoadFridge.reportString>
+  <TriggerFireSprinkler.reportString>активує TargetA</TriggerFireSprinkler.reportString>
+
+
+</LanguageData>

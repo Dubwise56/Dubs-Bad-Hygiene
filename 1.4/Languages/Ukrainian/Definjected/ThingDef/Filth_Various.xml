@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <FilthUrine.label>Сеча</FilthUrine.label>
+  <FilthUrine.description>Сеча на землі.</FilthUrine.description>
+
+  <FilthFaeces.label>Фекалії</FilthFaeces.label>
+  <FilthFaeces.description>Фекалії на землі.</FilthFaeces.description>
+  <RawSewage.label>Нечистоти</RawSewage.label>
+
+
+</LanguageData>
