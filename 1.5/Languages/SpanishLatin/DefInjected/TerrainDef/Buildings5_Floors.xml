@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!--   <DBHMosaicTile.label>mosaic tile</DBHMosaicTile.label>
+  <DBHMosaicTile.description>Steel tiles in a mosaic pattern, stylish in bathrooms or kitchens.</DBHMosaicTile.description>
+
+  <DBHMosaicSandstone.label>sandstone flagstone</DBHMosaicSandstone.label>
+  <DBHMosaicSandstone.description>Carefully-cut and fit stone tiles in a mosaic pattern, stylish in bathrooms or kitchens.</DBHMosaicSandstone.description>
+
+  <DBHMosaicGranite.label>granite flagstone</DBHMosaicGranite.label>
+  <DBHMosaicGranite.description>Carefully-cut and fit stone tiles in a mosaic pattern, stylish in bathrooms or kitchens.</DBHMosaicGranite.description>
+
+  <DBHMosaicLimestone.label>limestone flagstone</DBHMosaicLimestone.label>
+  <DBHMosaicLimestone.description>Carefully-cut and fit stone tiles in a mosaic pattern, stylish in bathrooms or kitchens.</DBHMosaicLimestone.description>
+
+  <DBHMosaicSlate.label>slate flagstone</DBHMosaicSlate.label>
+  <DBHMosaicSlate.description>Carefully-cut and fit stone tiles in a mosaic pattern, stylish in bathrooms or kitchens.</DBHMosaicSlate.description>
+
+  <DBHMosaicMarble.label>marble flagstone</DBHMosaicMarble.label>
+  <DBHMosaicMarble.description>Carefully-cut and fit stone tiles in a mosaic pattern, stylish in bathrooms or kitchens.</DBHMosaicMarble.description>
+ -->
+
+  <DBHMosaicTile.label>azulejo mosaico de acero</DBHMosaicTile.label>
+  <DBHMosaicTile.description>Azulejos de acero en forma de mosaico, elegantes en baños o cocinas.</DBHMosaicTile.description>
+
+  <DBHMosaicSandstone.label>losa mosaico de arenisca</DBHMosaicSandstone.label>
+  <DBHMosaicSandstone.description>Losas de piedra cuidadosamente cortadas y colocadas en forma de mosaico, elegantes en baños o cocinas.</DBHMosaicSandstone.description>
+
+  <DBHMosaicGranite.label>losa mosaico de granito</DBHMosaicGranite.label>
+  <DBHMosaicGranite.description>Losas de piedra cuidadosamente cortadas y colocadas en forma de mosaico, elegantes en baños o cocinas.</DBHMosaicGranite.description>
+
+  <DBHMosaicLimestone.label>losa mosaico de caliza</DBHMosaicLimestone.label>
+  <DBHMosaicLimestone.description>Losas de piedra cuidadosamente cortadas y colocadas en forma de mosaico, elegantes en baños o cocinas.</DBHMosaicLimestone.description>
+
+  <DBHMosaicSlate.label>losa mosaico de pizarra</DBHMosaicSlate.label>
+  <DBHMosaicSlate.description>Losas de piedra cuidadosamente cortadas y colocadas en forma de mosaico, elegantes en baños o cocinas.</DBHMosaicSlate.description>
+
+  <DBHMosaicMarble.label>losa mosaico de mármol</DBHMosaicMarble.label>
+  <DBHMosaicMarble.description>Losas de piedra cuidadosamente cortadas y colocadas en forma de mosaico, elegantes en baños o cocinas.</DBHMosaicMarble.description>
+
+
+</LanguageData>

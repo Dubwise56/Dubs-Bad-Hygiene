@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- EN: sewage sludge composting -->
+  <SewageSludgeComposting.label>Abwasser kompostieren</SewageSludgeComposting.label>
+  <!-- EN: When properly treated and processed, sewage sludge becomes biosolids that offer a small boost to terrain fertility. Useful for harsh environments with limited space to grow. Biosolids also produce a large boost to the fertility of sand which can make it fertile when combined with irrigation. -->
+  <SewageSludgeComposting.description>Wenn Abwasser ordnungsgemäß geklärt und verarbeitet wird, wird daraus Klärdünger, der die Fruchtbarkeit von Böden geringfügig erhöht. Nützlich für unwirtliche Gegenden mit begrenztem Platz zum Anbauen. Klärdünger erhöht zudem die Fruchtbarkeit von Sand, der in Kombination mit Bewässerung fruchtbar gemacht werden kann.</SewageSludgeComposting.description>
+
+  <!-- EN: multi-split air conditioning -->
+  <MultiSplitAirCon.label>Multisplit-Klimatechnik</MultiSplitAirCon.label>
+  <!-- EN: Build multi-split air conditioning systems with outdoor units piped to indoor units and freezers. -->
+  <MultiSplitAirCon.description>Baue Klimasysteme mit Außengeräten, die über Rohrleitungen mit Innen- und Tiefkühlgeräten verbunden sind.</MultiSplitAirCon.description>
+
+  <!-- EN: plumbing -->
+  <Plumbing.label>Sanitärtechnik</Plumbing.label>
+  <!-- EN: Use pipes, plumbing fixtures, storage tanks, wind pumps and other apparatuses to deliver and drain water and sewage. -->
+  <Plumbing.description>Benutze Rohre, Sanitäranlagen, Wasserspeicher, Windpumpen und andere Apparaturen, um Wasser und Abwasser zu fördern und abzuleiten.</Plumbing.description>
+
+  <!-- EN: heating -->
+  <LogBoilers.label>Heiztechnik</LogBoilers.label>
+  <!-- EN: Build log boilers which can be used to heat rooms and can be placed adjacent to baths to heat bathwater. -->
+  <LogBoilers.description>Baue holzbetriebene Thermen, mit denen Räume und Badewasser beheizt werden können.</LogBoilers.description>
+
+  <!-- EN: central heating -->
+  <CentralHeating.label>Zentralheizung</CentralHeating.label>
+  <!-- EN: Build central heating systems with radiators, hot water tanks, boilers and thermostats. -->
+  <CentralHeating.description>Baue Zentralheizungssysteme mit Heizkörpern, Warmwasserspeichern, Thermen und Thermostaten.</CentralHeating.description>
+
+  <!-- EN: Geothermal Heating -->
+  <GeothermalHeating.label>geothermisches Heizen</GeothermalHeating.label>
+  <!-- EN: Build geothermal heaters which can be built over geysers to generate heat for central heating and hot water tanks. -->
+  <GeothermalHeating.description>Baue geothermische Thermen auf Geysiren, um Wärme für Zentralheizungssysteme und Warmwasserspeicher zu erzeugen.</GeothermalHeating.description>
+
+  <!-- EN: saunas -->
+  <Saunas.label>Saunen</Saunas.label>
+  <!-- EN: Build a dedicated room with a sauna heater where colonists can relax and clean, frequent use can reduce the chance of heart attacks. -->
+  <Saunas.description>Baue einen gesonderten Raum mit einem Saunaofen, wo sich deine Kolonisten entspannen und waschen können. Häufiger Gebrauch kann das Risiko eines Herzinfarkts verringern.</Saunas.description>
+
+  <!-- EN: modern bathroom fixtures -->
+  <ModernFixtures.label>moderne Sanitäranlagen</ModernFixtures.label>
+  <!-- EN: Build modern-style bathroom fixtures like toilets and showers. -->
+  <ModernFixtures.description>Baue moderne Sanitäranlagen wie Toiletten und Duschen.</ModernFixtures.description>
+
+  <!-- EN: electric pumps -->
+  <ElectricPumps.label>elektrische Pumpen</ElectricPumps.label>
+  <!-- EN: Powered water pumps for pressurized continuous water pumping. -->
+  <ElectricPumps.description>Baue strombetriebene Wasserpumpen, um Wasser unter Druck kontinuierlich zu pumpen.</ElectricPumps.description>
+
+  <!-- EN: power showers -->
+  <AdvancedShowers.label>Power-Duschen</AdvancedShowers.label>
+  <!-- EN: Build power showers which halve the time spent showering and improve comfort. -->
+  <AdvancedShowers.description>Baue Power-Duschen, die den Zeitaufwand beim Duschen halbieren und den Komfort verbessern.</AdvancedShowers.description>
+
+  <!-- EN: smart toilets -->
+  <AdvancedToilets.label>smarte Toiletten</AdvancedToilets.label>
+  <!-- EN: Build comfortable, self cleaning, super efficient smart toilets. -->
+  <AdvancedToilets.description>Baue Toiletten, die komfortabel, selbstreinigend und supereffizient sind.</AdvancedToilets.description>
+
+  <!-- EN: hot tubs -->
+  <HotTubs.label>Whirlpools</HotTubs.label>
+  <!-- EN: Build hot tubs which can be used for hydrotherapy, relaxation, and pleasure. -->
+  <HotTubs.description>Baue Whirlpools, die für Hydrotherapie, Entspannung und Vergnügen genutzt werden können.</HotTubs.description>
+
+  <!-- EN: industrial-scale pumps -->
+  <LargeWaterPumps.label>industrielle Pumpen</LargeWaterPumps.label>
+  <!-- EN: Build industrial-scale water pumps and storage tanks. -->
+  <LargeWaterPumps.description>Baue Wasserpumpen und Wasserspeicher im industriellen Maßstab.</LargeWaterPumps.description>
+
+  <!-- EN: deep wells -->
+  <DeepWells.label>tiefe Brunnen</DeepWells.label>
+  <!-- EN: Drill deeper wells to access a much larger area of ground water. -->
+  <DeepWells.description>Bohre tiefere Brunnen, um ein viel größeres Grundwasservorkommen zu erschließen.</DeepWells.description>
+
+  <!-- EN: washing machines -->
+  <WashingMachines.label>Waschmaschinen</WashingMachines.label>
+  <!-- EN: Build washing machines that can wash clothes so well that you couldn't even tell someone died wearing it! -->
+  <WashingMachines.description>Baue Waschmaschinen, um verunreinigte Kleidungsstücke von Verstorbenen zu waschen, damit diese ohne Malus getragen werden können.</WashingMachines.description>
+
+  <!-- EN: water filtration -->
+  <WaterFiltration.label>Wasserfiltration</WaterFiltration.label>
+  <!-- EN: Build water filtration systems which treat the water supply, eliminating the risk of disease. -->
+  <WaterFiltration.description>Baue Wasserfiltersysteme, um die Wasserqualität zu verbessern und das Risiko von Krankheiten zu beseitigen.</WaterFiltration.description>
+
+  <!-- EN: Hygiene Bionics -->
+  <HygieneBionics.label>Hygiene-Bionik</HygieneBionics.label>
+  <!-- EN: Craft bionics that help to process bodily waste and manage personal hygiene. -->
+  <HygieneBionics.description>Stelle bionische Körperteile her, die Ausscheidungsprozesse und Körperpflege unterstützen.</HygieneBionics.description>
+
+  <!-- EN: septic tanks -->
+  <SepticTanks.label>Klärgruben</SepticTanks.label>
+  <!-- EN: Build septic tanks which accumulate sewage and provide moderate treatment of sewage. -->
+  <SepticTanks.description>Baue Klärgruben, die das Abwasser sammeln und mit moderater Geschwindigkeit reinigen.</SepticTanks.description>
+
+  <!-- EN: sewage treatment -->
+  <SewageTreatment.label>Kläranlagen</SewageTreatment.label>
+  <!-- EN: Build large sewage treatment systems which accumulate large amounts of sewage and provide fast treatment of sewage. -->
+  <SewageTreatment.description>Baue Kläranlagen, die große Mengen an Abwasser sammeln und eine schnelle Abwasserreinigung ermöglichen.</SewageTreatment.description>
+
+  <!-- EN: swimming pools -->
+  <SwimmingPools.label>Schwimmbecken</SwimmingPools.label>
+  <!-- EN: Build swimming pools. -->
+  <SwimmingPools.description>Baue Schwimmbecken.</SwimmingPools.description>
+
+  <!-- EN: irrigation -->
+  <Irrigation.label>Bewässerung</Irrigation.label>
+  <!-- EN: Build sprinklers that can irrigate soil to improve fertility. -->
+  <Irrigation.description>Baue Sprinkler, mit denen Böden bewässert werden können, um die Fruchtbarkeit zu erhöhen.</Irrigation.description>
+
+  <!-- EN: fire suppression -->
+  <FireSuppression.label>Brandschutz</FireSuppression.label>
+  <!-- EN: Build sprinklers that suppress fires with a spray of water. -->
+  <FireSuppression.description>Baue Löschsprinkler, die Brände mit Sprühwasser löschen.</FireSuppression.description>
+
+</LanguageData>

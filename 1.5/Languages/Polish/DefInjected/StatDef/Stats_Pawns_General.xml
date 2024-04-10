@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ThirstRateMultiplier.label>współczynnik wzrostu pragnienia</ThirstRateMultiplier.label>
+  <ThirstRateMultiplier.description>Mnożnik określający, jak szybko stworzenie staje się spragnione.</ThirstRateMultiplier.description>
+
+  <HygieneRateMultiplier.label>współczynnik spadku higieny</HygieneRateMultiplier.label>
+  <HygieneRateMultiplier.description>Mnożnik określający jak szybko spada poziom higieny stworzenia.</HygieneRateMultiplier.description>
+
+  <BladderRateMultiplier.label>współczynnik potrzeby</BladderRateMultiplier.label>
+  <BladderRateMultiplier.description>Mnożnik określający jak szybko spada poziom pęcherza stworzenia.</BladderRateMultiplier.description>
+
+
+</LanguageData>

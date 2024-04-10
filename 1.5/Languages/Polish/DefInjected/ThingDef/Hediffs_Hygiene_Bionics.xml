@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <BionicBladder.label>bioniczny pęcherz moczowy</BionicBladder.label>
+  <BionicBladder.description>Zaawansowany sztuczny pęcherz moczowy. System recyklingu chemicznego rozbija produkty odpadowe z organizmu na cząsteczki, które są poddawane recyklingowi, a reszta jest uwalniana jako gaz, minusem tego rozwiązania jest to, że użytkownik otrzymuje gaz.</BionicBladder.description>
+
+  <HygieneEnhancer.label>wzmacniacz higieny</HygieneEnhancer.label>
+  <HygieneEnhancer.description>Uwalnia mechanity, które rozkładają martwe komórki naskórka i inne zanieczyszczenia na skórze i włosach, uwalniając je nieszkodliwie do powietrza.</HygieneEnhancer.description>
+
+
+</LanguageData>

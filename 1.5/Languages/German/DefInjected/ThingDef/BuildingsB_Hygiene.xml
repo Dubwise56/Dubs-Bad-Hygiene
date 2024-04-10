@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- EN: stall door -->
+  <ToiletStallDoor.label>Kabinentür</ToiletStallDoor.label>
+  <!-- EN: Thin door which only blocks line of sight to people using bathroom fixtures. Does not create new rooms or prevent heat loss. -->
+  <ToiletStallDoor.description>Dünne Tür, die als Sichtschutz für Benutzer von Sanitäranlagen dient. Die Tür schafft weder neue Räume noch verhindert sie Wärmeverlust.</ToiletStallDoor.description>
+
+  <!-- EN: latrine -->
+  <PitLatrine.label>Latrine</PitLatrine.label>
+  <!-- EN: A pit latrine that collects faeces in a hole in the ground. Must be emptied manually, or can be plumbed.\n14L per use -->
+  <PitLatrine.description>Eine Vorrichtung, die Fäkalien in einem Loch im Boden sammelt. Muss manuell entleert werden oder kann mit einer Rohrleitung verbunden werden.\n14 Liter pro Nutzung</PitLatrine.description>
+
+  <!-- EN: primitive well -->
+  <PrimitiveWell.label>Ziehbrunnen</PrimitiveWell.label>
+  <!-- EN: Accesses ground water. Water must be hauled to a water tub before it can be used for washing or drinking. -->
+  <PrimitiveWell.description>Gewährt Zugang zu Grundwasser. Das Wasser muss in einen Waschzuber gefüllt werden, bevor es zum Waschen oder Trinken verwendet werden kann.</PrimitiveWell.description>
+
+  <!-- EN: water tub -->
+  <WashBucket.label>Waschzuber</WashBucket.label>
+  <!-- EN: Tub of water used for personal hygiene. Must be regularly refilled with fresh water, also fills with rain water. Can also be used for drinking if thirst is enabled. -->
+  <WashBucket.description>Ein Wasserbehälter für die Körperpflege. Muss regelmäßig mit frischem Wasser aufgefüllt werden oder füllt sich automatisch, wenn es regnet. Kann auch zum Trinken verwendet werden, wenn Durst aktiviert ist.</WashBucket.description>
+
+  <!-- EN: Water Trough -->
+  <WaterTrough.label>Wassertrog</WaterTrough.label>
+  <!-- EN: Trough of water used by animals, a service box with a ballcock valve automatically refills the water when the level is low, also refills in rain. -->
+  <WaterTrough.description>Ein Wasserbehälter, der von Tieren genutzt wird. Ein Füllventil sorgt dafür, dass der Trog automatisch wieder mit Wasser aufgefüllt wird, wenn der Pegelstand niedrig ist. Füllt sich auch bei Regen auf.</WaterTrough.description>
+
+  <!-- EN: Water Bowl -->
+  <PetWaterBowl.label>Wassernapf</PetWaterBowl.label>
+  <!-- EN: Bowl of water used by animals. -->
+  <PetWaterBowl.description>Ein Wasserbehälter, der von Tieren genutzt wird.</PetWaterBowl.description>
+
+  <!-- EN: litter box -->
+  <LitterBox.label>Tierklo</LitterBox.label>
+  <!-- EN: An indoor faeces and urine collection box for small animals. -->
+  <LitterBox.description>Ein Behältnis für Kleintiere, in dem sie nach Wahl ihren Urin und Kot ablegen und vergraben können.</LitterBox.description>
+
+  <!-- EN: burn pit -->
+  <BurnPit.label>Verbrennungsgrube</BurnPit.label>
+  <!-- EN: Eliminates fecal sludge by burning it as fuel. Can also be used for disposing of corpses or other detritus. Colonists may become sick if they spend too long near burning waste. -->
+  <BurnPit.description>Dient zur Beseitigung von Abwasser. Das Abwasser wird als Brennstoff dazugegeben und anschließend verbrannt. Kann auch für die Beseitigung von Leichen oder anderem Unrat verwendet werden. Kolonisten können krank werden, wenn sie sich zu lange in der Nähe von brennenden Abfällen aufhalten.</BurnPit.description>
+
+  <!-- EN: basin -->
+  <BasinStuff.label>Waschbecken</BasinStuff.label>
+  <!-- EN: Clean and simple bathroom basin for keeping your hands clean after using the toilet. -->
+  <BasinStuff.description>Einfaches Waschbecken, um die Hände nach dem Toilettengang sauber zu machen.</BasinStuff.description>
+
+  <!-- EN: fountain -->
+  <Fountain.label>Wasserspender</Fountain.label>
+  <!-- EN: A water fountain used for drinking and washing. -->
+  <Fountain.description>Ein Wasserspender, der zum Trinken und Waschen genutzt wird.</Fountain.description>
+
+  <!-- EN: kitchen sink -->
+  <KitchenSink.label>Spülbecken</KitchenSink.label>
+  <!-- EN: Everything but a kitchen sink. Increases room cleanliness. -->
+  <KitchenSink.description>Ein Becken, den man üblicherweise in einer Küche vorfindet. Erhöht die Sauberkeit eines Raums.</KitchenSink.description>
+
+  <!-- EN: toilet -->
+  <ToiletStuff.label>Toilette</ToiletStuff.label>
+  <!-- EN: Sanitation fixture used for the disposal of human urine and faeces.\n14L per use -->
+  <ToiletStuff.description>Sanitäranlage zur Entsorgung von menschlichem Urin und Fäkalien.\n14 Liter pro Nutzung</ToiletStuff.description>
+
+  <!-- EN: smart toilet -->
+  <ToiletAdvStuff.label>smarte Toilette</ToiletAdvStuff.label>
+  <!-- EN: Comfortable, self cleaning, unblockable, super efficient smart toilet. Provides the optimum multi-functional experience with automatic cleansing and deodorization.\n7L per use -->
+  <ToiletAdvStuff.description>Bequeme, selbstreinigende und hocheffiziente Sanitäranlage zur Entsorgung von menschlichem Urin und Fäkalien. Bietet ein optimales, multifunktionales Erlebnis mit automatischer Reinigung und Geruchsbeseitigung.\n7 Liter pro Nutzung</ToiletAdvStuff.description>
+
+  <!-- EN: Bath Mat -->
+  <BathMat.label>Badematte</BathMat.label>
+  <!-- EN: A small mat used next to a bathtub to absorb water. -->
+  <BathMat.description>Eine kleine Matte, die in der Regel neben einer Badewanne liegt, um Wasser aufzusaugen.</BathMat.description>
+
+  <!-- EN: bathtub -->
+  <BathtubStuff.label>Badewanne</BathtubStuff.label>
+  <!-- EN: Slow to use, but very comfortable. Can be heated by placing an adjacent campfire or log boiler, or via plumbed hot water tanks. Does not require a sewage outlet.\n190L per wash -->
+  <BathtubStuff.description>Langsam im Gebrauch, aber sehr gemütlich. Beheizbar mittels Lagerfeuer oder Holz-Therme in direkter Nähe oder mittels angeschlossenem Warmwasserspeicher. Benötigt keinen Abwasserabfluss.\n190 Liter pro Nutzung</BathtubStuff.description>
+
+  <!-- EN: shower -->
+  <ShowerStuff.label>Dusche</ShowerStuff.label>
+  <!-- EN: Simple shower. Requires water from water towers. Can be heated via plumbed hot water tanks. Does not require a sewage outlet.\n65L per wash -->
+  <ShowerStuff.description>Einfache Dusche. Benötigt Wasser aus Wassertürmen. Beheizbar mittels angeschlossenem Warmwasserspeicher. Benötigt keinen Abwasserabfluss.\n65 Liter pro Nutzung</ShowerStuff.description>
+
+  <!-- EN: simple shower -->
+  <ShowerSimple.label>einfache Dusche</ShowerSimple.label>
+  <!-- EN: Simple shower. Requires water from water towers. Can be heated via plumbed hot water tanks. Does not require a sewage outlet.\n65L per wash -->
+  <ShowerSimple.description>Einfache Dusche. Benötigt Wasser aus Wassertürmen. Beheizbar mittels angeschlossenem Warmwasserspeicher. Benötigt keinen Abwasserabfluss.\n65 Liter pro Nutzung</ShowerSimple.description>
+
+  <!-- EN: power shower -->
+  <ShowerAdvStuff.label>Power-Dusche</ShowerAdvStuff.label>
+  <!-- EN: Heats water on demand and does not need a hot water tank, cleans twice as fast\n90L per wash -->
+  <ShowerAdvStuff.description>Erwärmt das Wasser bei Bedarf. Benötigt keinen Warmwasserspeicher. Reinigt doppelt so schnell.\n90 Liter pro Nutzung</ShowerAdvStuff.description>
+
+</LanguageData>

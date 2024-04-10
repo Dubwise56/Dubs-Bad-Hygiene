@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <DoBillsBurnPit.label>do burn pit bills</DoBillsBurnPit.label>
+  <DoBillsBurnPit.verb>burn</DoBillsBurnPit.verb>
+  <DoBillsBurnPit.gerund>burning at</DoBillsBurnPit.gerund>
+
+  <RemoveSewage.label>shovel sewage into barrels</RemoveSewage.label>
+  <RemoveSewage.verb>remove sewage</RemoveSewage.verb>
+  <RemoveSewage.gerund>removing sewage</RemoveSewage.gerund>
+
+  <UnloadWashing.label>unload washing</UnloadWashing.label>
+  <UnloadWashing.verb>unload washing</UnloadWashing.verb>
+  <UnloadWashing.gerund>unloading washing</UnloadWashing.gerund>
+
+  <LoadWashing.label>load washing</LoadWashing.label>
+  <LoadWashing.verb>load washing</LoadWashing.verb>
+  <LoadWashing.gerund>loading washing</LoadWashing.gerund>
+
+  <UnloadComposter.label>take compost out of composter</UnloadComposter.label>
+  <UnloadComposter.verb>take compost</UnloadComposter.verb>
+  <UnloadComposter.gerund>taking compost from</UnloadComposter.gerund>
+
+  <FillComposter.label>fill composter</FillComposter.label>
+  <FillComposter.verb>fill</FillComposter.verb>
+  <FillComposter.gerund>filling</FillComposter.gerund>
+
+  <emptySepticTank.label>empty septic tank</emptySepticTank.label>
+  <emptySepticTank.verb>empty</emptySepticTank.verb>
+  <emptySepticTank.gerund>emptying</emptySepticTank.gerund>
+
+  <RefillWater.label>refill water</RefillWater.label>
+  <RefillWater.verb>refill</RefillWater.verb>
+  <RefillWater.gerund>refilling</RefillWater.gerund>
+
+  <CleanFilthIndoors.label>clean filth indoors</CleanFilthIndoors.label>
+  <CleanFilthIndoors.verb>clean</CleanFilthIndoors.verb>
+  <CleanFilthIndoors.gerund>cleaning</CleanFilthIndoors.gerund>
+
+
+</LanguageData>

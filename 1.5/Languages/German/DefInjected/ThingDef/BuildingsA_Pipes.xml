@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- EN: plumbing -->
+  <sewagePipeStuff.label>Rohrleitung</sewagePipeStuff.label>
+  <!-- EN: Plumbing for connecting plumbed things. -->
+  <sewagePipeStuff.description>Rohrleitung zum Verbinden von Sanitäranlagen.</sewagePipeStuff.description>
+
+  <!-- EN: plumbing valve -->
+  <plumbingValve.label>Ventil</plumbingValve.label>
+  <!-- EN: Opens or closes connections between pipes. -->
+  <plumbingValve.description>Öffnet oder schließt den Durchfluss in Rohrleitungen.</plumbingValve.description>
+
+  <!-- EN: air-con pipe -->
+  <airPipe.label>Klima-Rohrleitung</airPipe.label>
+  <!-- EN: Pipe for connecting air-conditioning units. -->
+  <airPipe.description>Rohrleitung zum Verbinden von Geräten einer Multisplit-Klimaanlage.</airPipe.description>
+
+</LanguageData>

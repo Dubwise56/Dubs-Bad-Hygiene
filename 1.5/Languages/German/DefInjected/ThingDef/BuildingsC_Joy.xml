@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- EN: swimming pool -->
+  <DBHSwimmingPool.label>Schwimmbecken</DBHSwimmingPool.label>
+  <!-- EN: Swimming pool used for hydrotherapy, relaxation, or pleasure. Must be filled with water from water towers first. -->
+  <DBHSwimmingPool.description>Schwimmbecken für Hydrotherapie, Entspannung oder Vergnügen. Muss zuerst mit Wasser aus Wassertürmen gefüllt werden.</DBHSwimmingPool.description>
+
+  <!-- EN: hot tub -->
+  <HotTub.label>Whirlpool</HotTub.label>
+  <!-- EN: Hot tub used for hydrotherapy, relaxation, or pleasure. Filled with water from water towers on first use. Self-heated and does not require a sewage outlet. -->
+  <HotTub.description>Selbstbeheizter Whirlpool für Hydrotherapie, Entspannung oder Vergnügen. Muss bei erstmaliger Benutzung mit Wasser aus Wassertürmen befüllt werden. Benötigt keinen Abwasserabfluss.</HotTub.description>
+
+  <!-- EN: washing machine -->
+  <WashingMachine.label>Waschmaschine</WashingMachine.label>
+  <!-- EN: Washes clothes so well that you can't even tell someone died wearing it! -->
+  <WashingMachine.description>Wäscht verunreinigte Kleidungsstücke von Verstorbenen, damit diese ohne Malus getragen werden können.</WashingMachine.description>
+
+  <!-- EN: Fueled Sauna Heater -->
+  <DBHSaunaHeaterLog.label>Saunaofen</DBHSaunaHeaterLog.label>
+  <!-- EN: A heater designed specifically for creating a sauna room, using a sauna regularly reduces the risk of heart attacks, heats a room to 60c. -->
+  <DBHSaunaHeaterLog.description>Ein spezieller Ofen, der für die Realisierung eines Saunaraums notwendig ist. Regelmäßige Saunabesuche verringern das Risiko von Herzinfarkten. Heizt den Raum auf 60 Grad auf.</DBHSaunaHeaterLog.description>
+
+  <!-- EN: Electric Sauna Heater -->
+  <DBHSaunaHeaterElec.label>elektr. Saunaofen</DBHSaunaHeaterElec.label>
+  <!-- EN: A heater designed specifically for creating a sauna room, using a sauna regularly reduces the risk of heart attacks, heats a room to 60c. -->
+  <DBHSaunaHeaterElec.description>Ein spezieller Ofen, der für die Realisierung eines Saunaraums notwendig ist. Regelmäßige Saunabesuche verringern das Risiko von Herzinfarkten. Heizt den Raum auf 60 Grad auf.</DBHSaunaHeaterElec.description>
+
+  <!-- EN: Sauna seating -->
+  <DBHSaunaSeating.label>Saunasitz</DBHSaunaSeating.label>
+  <!-- EN: Slatted seating for sauna rooms -->
+  <DBHSaunaSeating.description>Eine aus Latten bestehende Sitzfläche für Saunaräume.</DBHSaunaSeating.description>
+
+</LanguageData>

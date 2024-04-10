@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!--   <InstallBionicBladder.label>install bionic bladder</InstallBionicBladder.label>
+  <InstallBionicBladder.description>Install a bionic bladder.</InstallBionicBladder.description>
+  <InstallBionicBladder.jobString>Installing bionic bladder.</InstallBionicBladder.jobString> -->
+
+  <InstallBionicBladder.label>Implantar: Vejiga biónica</InstallBionicBladder.label>
+  <InstallBionicBladder.description>Implanta una vejiga biónica en el usuario objetivo.</InstallBionicBladder.description>
+  <InstallBionicBladder.jobString>Implantando: Vejiga biónica.</InstallBionicBladder.jobString>
+
+  <!--   <InstallHygieneEnhancer.label>install hygiene enhancer</InstallHygieneEnhancer.label>
+  <InstallHygieneEnhancer.description>Install a hygiene enhancer.</InstallHygieneEnhancer.description>
+  <InstallHygieneEnhancer.jobString>Installing hygiene enhancer.</InstallHygieneEnhancer.jobString> -->
+
+  <InstallHygieneEnhancer.label>Implantar: Amplificador higiénico</InstallHygieneEnhancer.label>
+  <InstallHygieneEnhancer.description>Implanta un amplificador higiénico en el usuario objetivo.</InstallHygieneEnhancer.description>
+  <InstallHygieneEnhancer.jobString>Implantando: Amplificador higiénico.</InstallHygieneEnhancer.jobString>
+
+
+</LanguageData>

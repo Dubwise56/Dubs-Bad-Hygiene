@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!--   <Make_ChemfuelFromFecalSludge.label>make chemfuel from fecal sludge</Make_ChemfuelFromFecalSludge.label>
+  <Make_ChemfuelFromFecalSludge.description>Make a batch of chemfuel from fecal sludge.</Make_ChemfuelFromFecalSludge.description>
+  <Make_ChemfuelFromFecalSludge.jobString>Refining chemfuel from fecal sludge</Make_ChemfuelFromFecalSludge.jobString> -->
+
+  <Make_ChemfuelFromFecalSludge.label>Destilar: Biocombustible de residuos fecales</Make_ChemfuelFromFecalSludge.label>
+  <Make_ChemfuelFromFecalSludge.description>Produce un lote de biocombustible a partir de residuos fecales.</Make_ChemfuelFromFecalSludge.description>
+  <Make_ChemfuelFromFecalSludge.jobString>Destilando: Biocombustible de residuos fecales.</Make_ChemfuelFromFecalSludge.jobString>
+
+</LanguageData>

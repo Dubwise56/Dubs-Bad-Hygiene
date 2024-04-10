@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<DBHSaunaHeaterLog.label>Palivová saunová kamna</DBHSaunaHeaterLog.label>
+
+	<DBHSaunaHeaterLog.description>Kamna vyrobená speciálně pro saunu, jejíž pravidelné používání snižuje riziko srdečního infarktu. Vytopí místnost na 60 °C.</DBHSaunaHeaterLog.description>
+
+	<HotTub.description>Vířivka se používá pro hydroterapii či relaxaci. Při prvním použití musí být naplněna vodou z vodojemu. Vodu může ohřívat sama a nevyžaduje odtok odpadní vody.</HotTub.description>
+
+	<HotTub.label>Vířivka</HotTub.label>
+
+	<WashingMachine.label>Pračka</WashingMachine.label>
+
+	<WashingMachine.description>Vyčistí oblečení tak skvěle, že ani nepoznáte, že v něm někdo zemřel.</WashingMachine.description>
+
+	<DBHSaunaHeaterElec.label>Elektrická saunová kamna</DBHSaunaHeaterElec.label>
+
+	<DBHSaunaHeaterElec.description>Kamna vyrobená speciálně pro saunu, jejíž pravidelné používání snižuje riziko srdečního infarktu. Vytopí místnost na 60 °C.</DBHSaunaHeaterElec.description>
+
+	<DBHSaunaSeating.label>Saunové lavičky</DBHSaunaSeating.label>
+
+	<DBHSaunaSeating.description>Lavičky používané v saunách</DBHSaunaSeating.description>
+
+	<DBHSwimmingPool.description>Bazén se používá pro hydroterapii či relaxaci. Nejdříve však musí být naplněn vodou z vodojemů.</DBHSwimmingPool.description>
+
+	<DBHSwimmingPool.label>Bazén</DBHSwimmingPool.label>
+
+</LanguageData>

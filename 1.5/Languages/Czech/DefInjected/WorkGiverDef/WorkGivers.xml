@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<PlaceFertilizer.label>Pohnojit</PlaceFertilizer.label>
+
+	<PlaceFertilizer.verb>Pohnojit</PlaceFertilizer.verb>
+
+	<PlaceFertilizer.gerund>Hnojí</PlaceFertilizer.gerund>
+
+	<TipSewage.label>Převrhnout splašky</TipSewage.label>
+
+	<TipSewage.verb>Převrhnout flašky</TipSewage.verb>
+
+	<TipSewage.gerund>Převrhává</TipSewage.gerund>
+
+	<DrainWaterTank.label>Vypustit vodu</DrainWaterTank.label>
+
+	<DrainWaterTank.verb>Vypustit</DrainWaterTank.verb>
+
+	<DrainWaterTank.gerund>Vypouští</DrainWaterTank.gerund>
+
+	<DBHAdministerFluids.label>Dodat tekutiny</DBHAdministerFluids.label>
+
+	<DBHAdministerFluids.verb>Dát napít</DBHAdministerFluids.verb>
+
+	<DBHAdministerFluids.gerund>Dává napít</DBHAdministerFluids.gerund>
+
+	<DBHAdministerFluidsWarden.label>Dodat tekutiny</DBHAdministerFluidsWarden.label>
+
+	<DBHAdministerFluidsWarden.verb>Dát napít</DBHAdministerFluidsWarden.verb>
+
+	<DBHAdministerFluidsWarden.gerund>Dává napít</DBHAdministerFluidsWarden.gerund>
+
+	<ClearBlockage.label>Uvolnit odtok</ClearBlockage.label>
+
+	<ClearBlockage.verb>Uvolnit odtok</ClearBlockage.verb>
+
+	<ClearBlockage.gerund>Uvolňuje odtok</ClearBlockage.gerund>
+
+	<washPatient.label>Umýt pacienta</washPatient.label>
+
+	<washPatient.verb>Umýt</washPatient.verb>
+
+	<washPatient.gerund>Myje</washPatient.gerund>
+
+	<washChild.label>Umýt dítě</washChild.label>
+
+	<washChild.verb>Umýt</washChild.verb>
+
+	<washChild.gerund>Umývá</washChild.gerund>
+
+	<DocCleanBedpan.label>Umýt podložní mísu</DocCleanBedpan.label>
+
+	<DocCleanBedpan.verb>Umýt</DocCleanBedpan.verb>
+
+	<DocCleanBedpan.gerund>Umývá</DocCleanBedpan.gerund>
+
+	<cleanBedpan.label>Umýt podložní mísu</cleanBedpan.label>
+
+	<cleanBedpan.verb>Umýt</cleanBedpan.verb>
+
+	<cleanBedpan.gerund>Umývá</cleanBedpan.gerund>
+
+</LanguageData>

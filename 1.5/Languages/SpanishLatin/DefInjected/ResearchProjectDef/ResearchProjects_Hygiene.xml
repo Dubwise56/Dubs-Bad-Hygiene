@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!--   <SewageSludgeComposting.label>sewage sludge composting</SewageSludgeComposting.label>
+  <SewageSludgeComposting.description>When properly treated and processed, sewage sludge becomes biosolids that offer a small boost to terrain fertility. Useful for harsh environments with limited space to grow. Biosolids also produce a large boost to the fertility of sand which can make it fertile when combined with irrigation.</SewageSludgeComposting.description> -->
+
+  <SewageSludgeComposting.label>Compostaje de Residuos</SewageSludgeComposting.label>
+  <SewageSludgeComposting.description>Al tratar y procesar adecuadamente las aguas residuales o los residuos fecales, estos se convierten en biosólidos capaces de propocionar un ligero aumento a la fertilidad del terreno.\nEs útil en entornos con poco espacio disponible para el cultivo.\nLos biosólidos también producen un importante aumento a la fertilidad en terrenos arenosos cuando se combinan con el riego.</SewageSludgeComposting.description>
+
+  <!--   <MultiSplitAirCon.label>multi-split air conditioning</MultiSplitAirCon.label>
+  <MultiSplitAirCon.description>Build multi-split air conditioning systems with outdoor units piped to indoor units and freezers.</MultiSplitAirCon.description> -->
+
+  <MultiSplitAirCon.label>Aire Acondicionado Multisplit</MultiSplitAirCon.label>
+  <MultiSplitAirCon.description>Construir sistemas de aire acondicionado multisplit con módulos exteriores conectados a módulos interiores y de congelación.</MultiSplitAirCon.description>
+
+  <!--   <Plumbing.label>plumbing</Plumbing.label>
+  <Plumbing.description>Use pipes, plumbing fixtures, storage tanks, wind pumps and other apparatuses to deliver and drain water and sewage.</Plumbing.description> -->
+
+  <Plumbing.label>Fontanería</Plumbing.label>
+  <Plumbing.description>Utilizar tuberías, instalaciones de fontanería, tanques de almacenamiento, bombeo eólico, aparatos para suministrar y depurar el agua.</Plumbing.description>
+
+  <!--   <LogBoilers.label>heating</LogBoilers.label>
+  <LogBoilers.description>Build log boilers which can be used to heat rooms and can be placed adjacent to baths to heat bathwater.</LogBoilers.description> -->
+
+  <LogBoilers.label>Calefacción</LogBoilers.label>
+  <LogBoilers.description>Construye calderas de leña que pueden utilizarse para calentar habitaciones e incluso pueden colocarse junto a los baños para calentar el agua de la bañera.</LogBoilers.description>
+
+  <!--   <CentralHeating.label>central heating</CentralHeating.label>
+  <CentralHeating.description>Build central heating systems with radiators, hot water tanks, boilers and thermostats.</CentralHeating.description> -->
+
+  <CentralHeating.label>Calefacción Central</CentralHeating.label>
+  <CentralHeating.description>Construye sistemas de calefacción central con radiadores, depósitos de agua caliente, calderas y termostatos.</CentralHeating.description>
+
+  <!--   <GeothermalHeating.label>Geothermal Heating</GeothermalHeating.label>
+  <GeothermalHeating.description>Build geothermal heaters which can be built over geysers to generate heat for central heating and hot water tanks.</GeothermalHeating.description> -->
+
+  <GeothermalHeating.label>Calefacción Geotérmica</GeothermalHeating.label>
+  <GeothermalHeating.description>Construye calentadores geotérmicos sobre los géiseres para suministrar el calor a la calefacción central y a los depósitos de agua caliente.</GeothermalHeating.description>
+
+  <!--   <Saunas.label>saunas</Saunas.label>
+  <Saunas.description>Build a dedicated room with a sauna heater where colonists can relax and clean, frequent use can reduce the chance of heart attacks.</Saunas.description> -->
+
+  <Saunas.label>Saunas</Saunas.label>
+  <Saunas.description>Construye una habitación dedicada con una sauna donde los colonos puedan relajarse y limpiarse.\nSu uso frecuente puede reducir la probabilidad de padecer ataques al corazón.</Saunas.description>
+
+  <!--   <ModernFixtures.label>modern bathroom fixtures</ModernFixtures.label>
+  <ModernFixtures.description>Build modern-style bathroom fixtures like toilets and showers.</ModernFixtures.description> -->
+
+  <ModernFixtures.label>Baños Modernos</ModernFixtures.label>
+  <ModernFixtures.description>Construye equipamiento de baño de estilo moderno, como inodoros y duchas.</ModernFixtures.description>
+
+  <!--   <ElectricPumps.label>electric pumps</ElectricPumps.label>
+  <ElectricPumps.description>Powered water pumps for pressurized continuous water pumping.</ElectricPumps.description> -->
+
+  <ElectricPumps.label>Bomba de Agua Eléctrica</ElectricPumps.label>
+  <ElectricPumps.description>Bombas de agua motorizadas para el bombeo continuo de agua a presión.</ElectricPumps.description>
+
+  <!--   <AdvancedShowers.label>power showers</AdvancedShowers.label>
+  <AdvancedShowers.description>Build power showers which halve the time spent showering and improve comfort.</AdvancedShowers.description> -->
+
+  <AdvancedShowers.label>Duchas Avanzadas</AdvancedShowers.label>
+  <AdvancedShowers.description>Construye duchas de alta presión que reducen a la mitad el tiempo de ducha y mejoran el confort.</AdvancedShowers.description>
+
+  <!--   <AdvancedToilets.label>smart toilets</AdvancedToilets.label>
+  <AdvancedToilets.description>Build comfortable, self cleaning, super efficient smart toilets.</AdvancedToilets.description> -->
+
+  <AdvancedToilets.label>Inodoros Avanzados</AdvancedToilets.label>
+  <AdvancedToilets.description>Construye inodoros inteligentes cómodos, autolimpiables y súper eficientes.</AdvancedToilets.description>
+
+  <!--   <HotTubs.label>hot tubs</HotTubs.label>
+  <HotTubs.description>Build hot tubs which can be used for hydrotherapy, relaxation, and pleasure.</HotTubs.description> -->
+
+  <HotTubs.label>Jacuzzis</HotTubs.label>
+  <HotTubs.description>Construye bañeras de hidromasaje que pueden utilizarse para tratamientos de hidroterapia, relajación y placer.</HotTubs.description>
+
+  <!--   <LargeWaterPumps.label>industrial-scale pumps</LargeWaterPumps.label>
+  <LargeWaterPumps.description>Build industrial-scale water pumps and storage tanks.</LargeWaterPumps.description> -->
+
+  <LargeWaterPumps.label>Nivel Industrial</LargeWaterPumps.label>
+  <LargeWaterPumps.description>Construye bombas de agua y depósitos de almacenamiento a escala industrial.</LargeWaterPumps.description>
+
+  <!--   <DeepWells.label>deep wells</DeepWells.label>
+  <DeepWells.description>Drill deeper wells to access a much larger area of ground water.</DeepWells.description> -->
+
+  <DeepWells.label>Pozos Profundos</DeepWells.label>
+  <DeepWells.description>Permite cavar pozos más profundos para acceder a zonas más extensas de aguas subterráneas.</DeepWells.description>
+
+  <!--   <WashingMachines.label>washing machines</WashingMachines.label>
+  <WashingMachines.description>Build washing machines that can wash clothes so well that you couldn't even tell someone died wearing it!</WashingMachines.description> -->
+
+  <WashingMachines.label>Lavadoras</WashingMachines.label>
+  <WashingMachines.description>Fabrica lavadoras que puedan lavar la ropa tan bien, que no puedas distinguir si se trata de la ropa de un muerto.</WashingMachines.description>
+
+  <!--   <WaterFiltration.label>water filtration</WaterFiltration.label>
+  <WaterFiltration.description>Build water filtration systems which treat the water supply, eliminating the risk of disease.</WaterFiltration.description> -->
+
+  <WaterFiltration.label>Sistema de Filtración</WaterFiltration.label>
+  <WaterFiltration.description>Construye sistemas de filtración de agua que traten el suministro de agua, eliminando el riesgo de enfermedades.</WaterFiltration.description>
+
+  <!--   <HygieneBionics.label>Hygiene Bionics</HygieneBionics.label>
+  <HygieneBionics.description>Craft bionics that help to process bodily waste and manage personal hygiene.</HygieneBionics.description> -->
+
+  <HygieneBionics.label>Higiene Biónica</HygieneBionics.label>
+  <HygieneBionics.description>Fabrica componentes biónicos que ayuden a procesar los residuos corporales y a gestionar la higiene personal.</HygieneBionics.description>
+
+  <!--   <SepticTanks.label>septic tanks</SepticTanks.label>
+  <SepticTanks.description>Build septic tanks which accumulate sewage and provide moderate treatment of sewage.</SepticTanks.description> -->
+
+  <SepticTanks.label>Fosas Sépticas</SepticTanks.label>
+  <SepticTanks.description>Construye fosas sépticas que almacenen las aguas residuales y proporcionen un tratamiento adecuado de las mismas.</SepticTanks.description>
+
+  <!--   <SewageTreatment.label>sewage treatment</SewageTreatment.label>
+  <SewageTreatment.description>Build large sewage treatment systems which accumulate large amounts of sewage and provide fast treatment of sewage.</SewageTreatment.description> -->
+
+  <SewageTreatment.label>Depuración de Aguas residuales</SewageTreatment.label>
+  <SewageTreatment.description>Permite construir un gran sistema de depuración que proporciona gran capacidad de almacenamiento de las aguas residuales y un tratamiento rápido de las mismas.</SewageTreatment.description>
+
+  <!--   <SwimmingPools.label>swimming pools</SwimmingPools.label>
+  <SwimmingPools.description>Build swimming pools.</SwimmingPools.description> -->
+
+  <SwimmingPools.label>Piscinas</SwimmingPools.label>
+  <SwimmingPools.description>Permite la construcción de piscinas.</SwimmingPools.description>
+
+  <!--   <Irrigation.label>irrigation</Irrigation.label>
+  <Irrigation.description>Build sprinklers that can irrigate soil to improve fertility.</Irrigation.description> -->
+
+  <Irrigation.label>Sistema de Riego</Irrigation.label>
+  <Irrigation.description>Permite la fabricación de aspersores de riego que favorecen la fertilidad del terreno.</Irrigation.description>
+
+  <!--   <FireSuppression.label>fire suppression</FireSuppression.label>
+  <FireSuppression.description>Build sprinklers that suppress fires with a spray of water.</FireSuppression.description> -->
+
+  <FireSuppression.label>Extinción de Incendios</FireSuppression.label>
+  <FireSuppression.description>Permite la fabricación de rociadores capaces de apagar el fuego mediante chorros de agua.</FireSuppression.description>
+
+</LanguageData>

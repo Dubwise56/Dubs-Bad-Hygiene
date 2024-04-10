@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Heating -->
+
+  <Thermostat.label>Termostato</Thermostat.label>
+  <Thermostat.description>Se utiliza para controlar las calderas eléctricas y de gas. Puede colocarse más de una y se conecta a través de la fontanería.</Thermostat.description>
+  <Blueprint_Thermostat.label>Termostato (anteproyecto)</Blueprint_Thermostat.label>
+  <Blueprint_Install_Thermostat.label>Termostato (anteproyecto)</Blueprint_Install_Thermostat.label>
+  <Frame_Thermostat.label>Termostato (construcción)</Frame_Thermostat.label>
+  <Frame_Thermostat.description>Se utiliza para controlar las calderas eléctricas y de gas. Puede colocarse más de una y se conecta a través de la fontanería.</Frame_Thermostat.description>
+
+  <LogBoiler.label>Caldera de leña</LogBoiler.label>
+  <LogBoiler.description>Proporciona calor a los radiadores y a los depósitos de agua caliente.\nPermite calentar las habitaciones y los baños adyacentes.\nRequiere el uso de madera como combustible.</LogBoiler.description>
+  <Blueprint_LogBoiler.label>Caldera de leña (anteproyecto)</Blueprint_LogBoiler.label>
+  <Blueprint_Install_LogBoiler.label>Caldera de leña (anteproyecto)</Blueprint_Install_LogBoiler.label>
+  <Frame_LogBoiler.label>Caldera de leña (construcción)</Frame_LogBoiler.label>
+  <Frame_LogBoiler.description>Proporciona calor a los radiadores y a los depósitos de agua caliente.\nPermite calentar las habitaciones y los baños adyacentes.\nRequiere el uso de madera como combustible.</Frame_LogBoiler.description>
+  <LogBoiler.comps.CompBoiler.GizmoLabel>Modo Potencia</LogBoiler.comps.CompBoiler.GizmoLabel>
+
+  <GasBoiler.label>Caldera de gas</GasBoiler.label>
+  <GasBoiler.description>Proporciona calor a los radiadores y a los depósitos de agua caliente.\nRequiere de biocombustible para funcionar.\nPuede controlarse utilizando un termostato.</GasBoiler.description>
+  <Blueprint_GasBoiler.label>Caldera de gas (anteproyecto)</Blueprint_GasBoiler.label>
+  <Blueprint_Install_GasBoiler.label>Caldera de gas (anteproyecto)</Blueprint_Install_GasBoiler.label>
+  <Frame_GasBoiler.label>Caldera de gas (construcción)</Frame_GasBoiler.label>
+  <Frame_GasBoiler.description>Proporciona calor a los radiadores y a los depósitos de agua caliente.\nRequiere de biocombustible para funcionar.\nPuede controlarse utilizando un termostato.</Frame_GasBoiler.description>
+  <GasBoiler.comps.CompBoiler.GizmoLabel>Modo Potencia</GasBoiler.comps.CompBoiler.GizmoLabel>
+
+  <ElectricBoiler.label>Caldera eléctrica</ElectricBoiler.label>
+  <ElectricBoiler.description>Proporciona una cantidad variable de calor para radiadores y depósitos de agua caliente. Ajuste de potencia controlado manualmente.\nPuede ser controlado con termostatos.</ElectricBoiler.description>
+  <Blueprint_ElectricBoiler.label>Caldera eléctrica (anteproyecto)</Blueprint_ElectricBoiler.label>
+  <Blueprint_Install_ElectricBoiler.label>Caldera eléctrica (anteproyecto)</Blueprint_Install_ElectricBoiler.label>
+  <Frame_ElectricBoiler.label>Caldera eléctrica (construcción)</Frame_ElectricBoiler.label>
+  <Frame_ElectricBoiler.description>Proporciona una cantidad variable de calor para radiadores y depósitos de agua caliente. Ajuste de potencia controlado manualmente.\nPuede ser controlado con termostatos.</Frame_ElectricBoiler.description>
+  <ElectricBoiler.comps.CompBoiler.GizmoLabel>Modo Potencia</ElectricBoiler.comps.CompBoiler.GizmoLabel>
+
+  <SolarHeater.label>Calentador solar</SolarHeater.label>
+  <SolarHeater.description>Utiliza la luz solar para calentar los depósitos de agua caliente y los radiadores. 0-2000 unidades de potencia calorífica en función del nivel de luz y la temperatura ambiente.</SolarHeater.description>
+  <Blueprint_SolarHeater.label>Calentador solar (anteproyecto)</Blueprint_SolarHeater.label>
+  <Frame_SolarHeater.label>Calentador solar (construcción)</Frame_SolarHeater.label>
+  <Frame_SolarHeater.description>Utiliza la luz solar para calentar los depósitos de agua caliente y los radiadores. 0-2000 unidades de potencia calorífica en función del nivel de luz y la temperatura ambiente.</Frame_SolarHeater.description>
+  <SolarHeater.comps.CompBoilerSolar.GizmoLabel>Modo Potencia</SolarHeater.comps.CompBoilerSolar.GizmoLabel>
+
+  <GeothermHeater.label>Calentador geotérmico</GeothermHeater.label>
+  <GeothermHeater.description>Utiliza el calor geotérmico para calentar los depósitos de agua caliente y los radiadores.</GeothermHeater.description>
+  <Blueprint_GeothermHeater.label>Calentador geotérmico (anteproyecto)</Blueprint_GeothermHeater.label>
+  <Frame_GeothermHeater.label>Calentador geotérmico (construcción)</Frame_GeothermHeater.label>
+  <Frame_GeothermHeater.description>Utiliza el calor geotérmico para calentar los depósitos de agua caliente y los radiadores.</Frame_GeothermHeater.description>
+  <GeothermHeater.comps.CompGeoBoiler.GizmoLabel>Modo Potencia</GeothermHeater.comps.CompGeoBoiler.GizmoLabel>
+
+  <HotWaterTank.label>Depósito de agua caliente</HotWaterTank.label>
+  <HotWaterTank.description>Almacena agua caliente para duchas y baños. Se conecta a cualquier caldera o calentador que lo permita.</HotWaterTank.description>
+  <Blueprint_HotWaterTank.label>Depósito de agua caliente (anteproyecto)</Blueprint_HotWaterTank.label>
+  <Blueprint_Install_HotWaterTank.label>Depósito de agua caliente (anteproyecto)</Blueprint_Install_HotWaterTank.label>
+  <Frame_HotWaterTank.label>Depósito de agua caliente (construcción)</Frame_HotWaterTank.label>
+  <Frame_HotWaterTank.description>Almacena agua caliente para duchas y baños. Se conecta a cualquier caldera o calentador que lo permita.</Frame_HotWaterTank.description>
+
+  <RadiatorStuffed.label>Radiador</RadiatorStuffed.label>
+  <RadiatorStuffed.description>Calienta las habitaciones utilizando el agua caliente de las calderas. Requiere 100 unidades de calor.</RadiatorStuffed.description>
+  <Blueprint_RadiatorStuffed.label>Radiador (anteproyecto)</Blueprint_RadiatorStuffed.label>
+  <Blueprint_Install_RadiatorStuffed.label>Radiador (anteproyecto)</Blueprint_Install_RadiatorStuffed.label>
+  <Frame_RadiatorStuffed.label>Radiador (construcción)</Frame_RadiatorStuffed.label>
+  <Frame_RadiatorStuffed.description>Calienta las habitaciones utilizando el agua caliente de las calderas. Requiere 100 unidades de calor.</Frame_RadiatorStuffed.description>
+
+  <RadiatorLarge.label>Radiador grande</RadiatorLarge.label>
+  <RadiatorLarge.description>Triplica la potencia de un radiador estándar, útil para habitaciones más grandes. Requiere 300 unidades de calor.</RadiatorLarge.description>
+  <Blueprint_RadiatorLarge.label>Radiador grande (anteproyecto)</Blueprint_RadiatorLarge.label>
+  <Blueprint_Install_RadiatorLarge.label>Radiador grande (anteproyecto)</Blueprint_Install_RadiatorLarge.label>
+  <Frame_RadiatorLarge.label>Radiador grande (construcción)</Frame_RadiatorLarge.label>
+  <Frame_RadiatorLarge.description>Triplica la potencia de un radiador estándar, útil para habitaciones más grandes. Requiere 300 unidades de calor.</Frame_RadiatorLarge.description>
+
+  <RadiatorTowelRail.label>Toallero</RadiatorTowelRail.label>
+  <RadiatorTowelRail.description>Impresionante toallero de baño.</RadiatorTowelRail.description>
+  <Blueprint_RadiatorTowelRail.label>Toallero (anteproyecto)</Blueprint_RadiatorTowelRail.label>
+  <Blueprint_Install_RadiatorTowelRail.label>Toallero (anteproyecto)</Blueprint_Install_RadiatorTowelRail.label>
+  <Frame_RadiatorTowelRail.label>Toallero (construcción)</Frame_RadiatorTowelRail.label>
+  <Frame_RadiatorTowelRail.description>Impresionante toallero de baño.</Frame_RadiatorTowelRail.description>
+
+
+  <!-- COOLING -->
+
+  <CeilingFan.label>Ventilador de techo 2x2</CeilingFan.label>
+  <CeilingFan.description>Enfría una habitación haciendo circular el aire. Lleva una lámpara incorporada.</CeilingFan.description>
+  <Blueprint_CeilingFan.label>Ventilador de techo 2x2 (anteproyecto)</Blueprint_CeilingFan.label>
+  <Blueprint_Install_CeilingFan.label>Ventilador de techo 2x2 (anteproyecto)</Blueprint_Install_CeilingFan.label>
+  <Frame_CeilingFan.label>Ventilador de techo 2x2 (construcción)</Frame_CeilingFan.label>
+  <Frame_CeilingFan.description>Enfría una habitación haciendo circular el aire. Lleva una lámpara incorporada.</Frame_CeilingFan.description>
+
+  <CeilingFanS.label>Ventilador de techo 1x1</CeilingFanS.label>
+  <CeilingFanS.description>Enfría una habitación haciendo circular el aire. Lleva una lámpara incorporada.</CeilingFanS.description>
+  <Blueprint_CeilingFanS.label>Ventilador de techo 1x1 (anteproyecto)</Blueprint_CeilingFanS.label>
+  <Blueprint_Install_CeilingFanS.label>Ventilador de techo 1x1 (anteproyecto)</Blueprint_Install_CeilingFanS.label>
+  <Frame_CeilingFanS.label>Ventilador de techo 1x1 (construcción)</Frame_CeilingFanS.label>
+  <Frame_CeilingFanS.description>Enfría una habitación haciendo circular el aire. Lleva una lámpara incorporada.</Frame_CeilingFanS.description>
+
+  <CeilingFanDarklight.label>Ventilador de techo 2x2 (luz oscura)</CeilingFanDarklight.label>
+  <CeilingFanDarklight.description>Enfría una habitación haciendo circular el aire. Lleva una lámpara incorporada.</CeilingFanDarklight.description>
+  <Blueprint_CeilingFanDarklight.label>Ventilador de techo 2x2 (luz oscura) (anteproyecto)</Blueprint_CeilingFanDarklight.label>
+  <Blueprint_Install_CeilingFanDarklight.label>Ventilador de techo 2x2 (luz oscura) (anteproyecto)</Blueprint_Install_CeilingFanDarklight.label>
+  <Frame_CeilingFanDarklight.label>Ventilador de techo 2x2 (luz oscura) (construcción)</Frame_CeilingFanDarklight.label>
+  <Frame_CeilingFanDarklight.description>Enfría una habitación haciendo circular el aire. Lleva una lámpara incorporada.</Frame_CeilingFanDarklight.description>
+
+  <CeilingFanSDarklight.label>Ventilador de techo 1x1 (luz oscura)</CeilingFanSDarklight.label>
+  <CeilingFanSDarklight.description>Enfría una habitación haciendo circular el aire. Lleva una lámpara incorporada.</CeilingFanSDarklight.description>
+  <Blueprint_CeilingFanSDarklight.label>Ventilador de techo 1x1 (luz oscura) (anteproyecto)</Blueprint_CeilingFanSDarklight.label>
+  <Blueprint_Install_CeilingFanSDarklight.label>Ventilador de techo 1x1 (luz oscura) (anteproyecto)</Blueprint_Install_CeilingFanSDarklight.label>
+  <Frame_CeilingFanSDarklight.label>Ventilador de techo 1x1 (luz oscura) (construcción)</Frame_CeilingFanSDarklight.label>
+  <Frame_CeilingFanSDarklight.description>Enfría una habitación haciendo circular el aire. Lleva una lámpara incorporada.</Frame_CeilingFanSDarklight.description>
+
+  <AirConOutdoorUnit.label>Aire Acondicionado - Módulo Exterior</AirConOutdoorUnit.label>
+  <AirConOutdoorUnit.description>Módulo exterior de aire acondicionado multisplit. Se coloca en el exterior y se conecta a los módulos interiores o a los módulos de congelación. Permite seleccionar el modo de potencia con una capacidad de 100-1000 unidades de refrigeración.</AirConOutdoorUnit.description>
+  <Blueprint_AirConOutdoorUnit.label>Aire Acondicionado - Módulo Exterior (anteproyecto)</Blueprint_AirConOutdoorUnit.label>
+  <Blueprint_Install_AirConOutdoorUnit.label>Aire Acondicionado - Módulo Exterior (anteproyecto)</Blueprint_Install_AirConOutdoorUnit.label>
+  <Frame_AirConOutdoorUnit.label>Aire Acondicionado - Módulo Exterior (construcción)</Frame_AirConOutdoorUnit.label>
+  <Frame_AirConOutdoorUnit.description>Módulo exterior de aire acondicionado multisplit. Se coloca en el exterior y se conecta a los módulos interiores o a los módulos de congelación. Permite seleccionar el modo de potencia con una capacidad de 100-1000 unidades de refrigeración.</Frame_AirConOutdoorUnit.description>
+
+  <AirconIndoorUnit.label>Aire Acondicionado - Módulo Interior</AirconIndoorUnit.label>
+  <AirconIndoorUnit.description>Módulo interior de aire acondicionado interior para habitaciones. Se conecta a los módulos de aire acondicionado exteriores. Requiere 100 unidades de refrigeración.</AirconIndoorUnit.description>
+  <Blueprint_AirconIndoorUnit.label>Aire Acondicionado - Módulo Interior (anteproyecto)</Blueprint_AirconIndoorUnit.label>
+  <Blueprint_Install_AirconIndoorUnit.label>Aire Acondicionado - Módulo Interior (anteproyecto)</Blueprint_Install_AirconIndoorUnit.label>
+  <Frame_AirconIndoorUnit.label>Aire Acondicionado - Módulo Interior (construcción)</Frame_AirconIndoorUnit.label>
+  <Frame_AirconIndoorUnit.description>Módulo interior de aire acondicionado interior para habitaciones. Se conecta a los módulos de aire acondicionado exteriores. Requiere 100 unidades de refrigeración.</Frame_AirconIndoorUnit.description>
+
+  <FreezerUnit.label>Módulo de Congelación</FreezerUnit.label>
+  <FreezerUnit.description>Módulo de congelación conectado a los módulos exteriores de aire acondicionado. Requiere 300 unidades de refrigeración.</FreezerUnit.description>
+  <Blueprint_FreezerUnit.label>Módulo de Congelación (anteproyecto)</Blueprint_FreezerUnit.label>
+  <Blueprint_Install_FreezerUnit.label>Módulo de Congelación (anteproyecto)</Blueprint_Install_FreezerUnit.label>
+  <Frame_FreezerUnit.label>Módulo de Congelación (construcción)</Frame_FreezerUnit.label>
+  <Frame_FreezerUnit.description>Módulo de congelación conectado a los módulos exteriores de aire acondicionado. Requiere 300 unidades de refrigeración.</Frame_FreezerUnit.description>
+
+</LanguageData>

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!--   <BedPan.label>bed pan</BedPan.label>
+  <BedPan.description>A receptacle used by a bedridden patient for urine and faeces.</BedPan.description> -->
+
+  <BedPan.label>Orinal</BedPan.label>
+  <BedPan.description>Recipiente utilizado por un paciente encamado para depositar la orina y las heces.</BedPan.description>
+
+  <!--   <Biosolids.label>biosolids</Biosolids.label>
+  <Biosolids.description>When properly treated and processed, sewage sludge becomes biosolids that offer a small boost to terrain fertility. Useful for harsh environments with limited space to grow. Biosolids also produce a large boost to the fertility of sand which can make it fertile when combined with irrigation.</Biosolids.description> -->
+
+  <Biosolids.label>Biosólidos</Biosolids.label>
+  <Biosolids.description>Al tratar y procesar adecuadamente las aguas residuales o los residuos fecales, estos se convierten en biosólidos capaces de propocionar un ligero aumento a la fertilidad del terreno.\nEs útil en entornos con poco espacio disponible para el cultivo.\nLos biosólidos también producen un importante aumento a la fertilidad en terrenos arenosos cuando se combinan con el riego</Biosolids.description>
+
+  <!--   <FecalSludge.label>fecal sludge</FecalSludge.label>
+  <FecalSludge.description>A barrel filled with fecal sludge. Can be dumped, burned, or composted into biosolids.</FecalSludge.description> -->
+
+  <FecalSludge.label>Residuos fecales</FecalSludge.label>
+  <FecalSludge.description>Los residuos fecales pueden ser trasladados, volcados, quemados o procesados como biosólidos o combustible.</FecalSludge.description>
+
+  <!-- Example of a drink for the thirst need, modExtension makes anything ingestible work as a drink, this is patched out when thirst is disabled -->
+
+  <!-- <DBH_WaterBottle.label>water</DBH_WaterBottle.label>
+  <DBH_WaterBottle.description>A bottle of water.</DBH_WaterBottle.description>
+  <DBH_WaterBottle.ingestible.ingestCommandString>Drink {0}</DBH_WaterBottle.ingestible.ingestCommandString>
+  <DBH_WaterBottle.ingestible.ingestReportString>Drinking {0}.</DBH_WaterBottle.ingestible.ingestReportString> -->
+
+  <DBH_WaterBottle.label>Agua</DBH_WaterBottle.label>
+  <DBH_WaterBottle.description>Una botella de agua.</DBH_WaterBottle.description>
+  <DBH_WaterBottle.ingestible.ingestCommandString>Beber {0}</DBH_WaterBottle.ingestible.ingestCommandString>
+  <DBH_WaterBottle.ingestible.ingestReportString>Bebiendo {0}.</DBH_WaterBottle.ingestible.ingestReportString>
+
+</LanguageData>
