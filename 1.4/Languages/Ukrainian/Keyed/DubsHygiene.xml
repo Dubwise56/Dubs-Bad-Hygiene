@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!--Construction-->
+  <DesignatorRemovePlumbing>Розібрати труби</DesignatorRemovePlumbing>
+  <DesignatorRemovePlumbingDesc>Призначити розбирання секцій труб</DesignatorRemovePlumbingDesc>
+  <RemoveSewage>Прибрати нечистоти</RemoveSewage>
+  <RemoveSewageDesc>Прибрати нечистоти з землі і помістити їх у бочки
+</RemoveSewageDesc>
+  <RemovePlumbing>Розібрати трубопровід</RemovePlumbing>
+  <RemoveAirCon>Розібрати системи кондиціювання</RemoveAirCon>
+  <DesignatorPaintFixtures>Пофарбувати сантехніку</DesignatorPaintFixtures>
+  <DesignatorPaintFixturesDesc>Пофарбувати сантехніку та радіатори</DesignatorPaintFixturesDesc>
+  <PaintFixtures>Пофарбувати</PaintFixtures>
+  <StripPaint>Зняти фарбу</StripPaint>
+
+  
+  
+  <!--Warnings-->
+  <NotOwned>Доступ обмежений</NotOwned>
+  <GenderRestricted>Тільки {0}</GenderRestricted>
+  <PrisonersOnly>Тільки ув'язнені</PrisonersOnly>
+  <BlockedSewage>Забився злив</BlockedSewage>
+  <BlockedSewageDesc>Нечистоти скупчилися в зливному отворі і забили злив.\n\nПобудуйте більше зливів або додайте септик для створення буфера та зменшення навантаження на злив.</BlockedSewageDesc>
+  <LowWaterTemp>Низька температура води</LowWaterTemp>
+  <LowWaterTempDesc>Температура води у цій ємності надто низька. Колоністи, які розраховують на гарячу воду, можуть засмутитися.\n\nВвімкніть бойлери, збільшіть нагрівання або додайте ще один бак із гарячою водою.</LowWaterTempDesc>
+  <WellNeedsWater>Спорудження має бути розміщене на клітці з ґрунтовими водами</WellNeedsWater>
+  <AssigningRequiresRoom>Сантехніка має знаходитися в приміщенні для встановлення обмежень</AssigningRequiresRoom>
+  
+  <AssigningRequiresBladderNeed>Для призначення необхідна мала потреба, у {0} її нема</AssigningRequiresBladderNeed>
+
+  <NoCompostingMaterial>Немає компосту</NoCompostingMaterial>
+  <Nowater>Немає води</Nowater>
+  <Nosewage>Немає відведення нечистот</Nosewage>
+  <RequiresPlumbing>Потрібен водопровід</RequiresPlumbing>
+  <AccessRestricted>Доступ обмежений</AccessRestricted>
+
+  <TooHot>Занадто гаряче: x{0}</TooHot>
+  <InRain>Під дощем: x{0}</InRain>
+  <PhysicalActivity>Фізична активність: x{0}</PhysicalActivity>
+  <FilthyRoom>Кімната: x{0}</FilthyRoom>
+  <TotalHygieneStat>Загальне: x{0}</TotalHygieneStat>
+  <DirtyHands>Брудні руки - Ризик захворювання</DirtyHands>
+  <Contaminated>Забруднення - Ризик захворювання</Contaminated>
+
+  <LetterLabelBlockedDrain>Забився злив</LetterLabelBlockedDrain>
+  <LetterBlockedDrain>Забився злив, прибиральнику необхідно усунути засмічення.</LetterBlockedDrain>
+
+  <ContaminationAlert>Забруднена вода</ContaminationAlert>
+  <ContaminationAlertDesc>Джерело води сильно забруднене. Існує ризик забруднення водосховищ.\n\nДжерело забруднення:\n{0} \n\nПозбавтеся джерел забруднення або спорудіть водоочисну систему, що також очищає забруднені водосховища</ContaminationAlertDesc>
+  <ContaminatiedTowerAlert>Забруднене водосховище</ContaminatiedTowerAlert>
+  <ContaminatiedTowerAlertDesc>Водосховище забруднене, що спричиняє серйозні ризики для здоров'я ваших колоністів! Перемістіть водосховища та спустошіть їх, чи збудуйте водоочисну систему
+</ContaminatiedTowerAlertDesc>
+
+  <MessageHygieneDisease>У поселенця на ім'я {0} {1} через брудну воду та недотримання особистої гігієни</MessageHygieneDisease>
+  <MessageWaterDisease>У поселенця на ім'я {0} {1} через брудну воду або немитих рук</MessageWaterDisease>
+  
+  <!--Restrictions-->
+  <ChangeGenderRestriction>Змінити гендерні обмеження</ChangeGenderRestriction>
+  <CommandFixtureSetAsMedicalLabel>Медичні</CommandFixtureSetAsMedicalLabel>
+  <CommandFixtureSetAsMedicalDesc>Обмежити цю сантехніку лише для пацієнтів</CommandFixtureSetAsMedicalDesc>
+  <PatientsOnly>Тільки для пацієнтів</PatientsOnly>
+  <AttackHelicopter>Атака гелікоптерів</AttackHelicopter>
+  <Unisex>Унісекс</Unisex>
+  <ConnectFixturesToBed>Прив'язати до ліжка</ConnectFixturesToBed>
+  <ConnectFixturesToBedDesc>Прив'язати сантехніку до найближчого ліжка для встановлення власника</ConnectFixturesToBedDesc>
+  <CancelConnectFixturesToBed>Прибрати прив'язку</CancelConnectFixturesToBed>
+  <CancelConnectFixturesToBedDesc>Прибрати прив'язку до ліжок</CancelConnectFixturesToBedDesc>
+
+
+  <!--Heating-->
+  <WaterTemp>Температура води: {0}</WaterTemp>
+  <ConnectedHeatingCapacity>Нагрів, що надається: {0} U ({1})</ConnectedHeatingCapacity>
+  <ConnectedCoolingCapacity>Охолодження, що надається: {0} U ({1})</ConnectedCoolingCapacity>
+  <HeatingUnits>Використання нагріву: {0} U</HeatingUnits>
+  <CoolingUnits>Використання охолодження: {0} U</CoolingUnits>
+  <HeatingMode>Кількість нагріву/Потужність: {0} U / {1} Вт</HeatingMode>
+  <CoolingMode>Кількість охолодження/Потужність: {0} U / {1} Вт</CoolingMode>
+  <CoolingEfficiencyGood>Ефективність: {0}</CoolingEfficiencyGood>
+  <CoolingEfficiencyBad>Ефективність: {0} Перегрів</CoolingEfficiencyBad>
+  <TargetTemp>Мінімальна температура: {0}</TargetTemp>
+  <LowerPower>Зменшити потужність</LowerPower>
+  <LowerPowerDesc>Зменшення нагріву</LowerPowerDesc>
+  <RaisePower>Збільшити потужність</RaisePower>
+  <RaisePowerDesc>Збільшити нагрівання</RaisePowerDesc>
+  <HotwaterCapacity>Об'єм гарячої води: {0}</HotwaterCapacity>
+  <OverrideThermostat>Ігнорування термостату</OverrideThermostat>
+  <OverrideThermostatDesc>Тримати бойлер безперервно працюючим в незалежності від термостата</OverrideThermostatDesc>
+  <MustPlaceFreezerWithFreeSpaces>Витяжні клапани не повинні бути перегороджені!</MustPlaceFreezerWithFreeSpaces>
+  <SolarEfficiencyBad>Ефективність: {0} Надто холодно</SolarEfficiencyBad>
+  <SolarEfficiencyGood>Ефективність: {0}</SolarEfficiencyGood>
+  <RadCurrentCap>Температура радіатора: {0}</RadCurrentCap>
+
+  <HotWaterTankUseThermostat>Керування за допомогою термостату</HotWaterTankUseThermostat>
+  <HotWaterTankUseThermostatDesc>Дозволити цій ємності з гарячою водою задавати налаштування термостата підключеним бойлерам</HotWaterTankUseThermostatDesc>
+
+  <!--Hygiene-->
+  <WashHands>Вимити руки</WashHands>
+  <Wash>Митися</Wash>
+  <UseToilet>Використати</UseToilet>
+  <SewageUsage>Використання = {0}</SewageUsage>
+  <MustBePlumbing>Має бути водопровід</MustBePlumbing>
+  <BlockedDrain>Забитий злив</BlockedDrain>
+  <PlumbOrEmpty>Приєднайте або випорожніть сортир</PlumbOrEmpty>
+  <WashingMachineSpinning>Запущено...</WashingMachineSpinning>
+  <WashingMachineUnload>Необхідно розвантажити</WashingMachineUnload>
+  <WashingMachineLoad>Навантаження: {0}/{1}</WashingMachineLoad>
+  <NoDirtyClothes>Немає брудного одягу</NoDirtyClothes>
+  <WashingNoSpace>Немає місця</WashingNoSpace>
+
+  <!--Water-->
+  <dbhDrink>Пити</dbhDrink>
+  <CommandDesignateOpenCloseValveLabel>Переключити вентиль</CommandDesignateOpenCloseValveLabel>
+  <CommandDesignateOpenCloseValveDesc>Перекрити або відкрити вентиль</CommandDesignateOpenCloseValveDesc>
+  <ValveClosed>Вентиль перекрито</ValveClosed>
+
+  <PumpCapacity>Подача насосу: {0} Л/день</PumpCapacity>
+  <GroundCapacity>Об'єм ґрунтових вод: {0} Л/день</GroundCapacity>
+  <PipedPumpCapacity>Подача насоса/Об'єм вод: {0}/{1} Л/день ({2})</PipedPumpCapacity>
+
+  <WaterStorage>Запаси води: {0} Л</WaterStorage>
+  <TotalWaterStorage>Запаси водопровідної води: {0} Л</TotalWaterStorage>
+
+  <PollutionLevel>Рівень забруднення: {0}</PollutionLevel>
+
+  <CommandSprinkleDown>Зменшити радіус</CommandSprinkleDown>
+  <CommandSprinkleUp>Збільшити радіус</CommandSprinkleUp>
+  <UntreatedWater>Якість: Неочищена - Низький шанс захворювання</UntreatedWater>
+  <ContaminatedWater>Якість: Забруднено – Високий шанс захворювання</ContaminatedWater>
+  <TreatedWater>Якість: Очищено - Безпечно</TreatedWater>
+
+  <DrainTank>Спустошити ємність</DrainTank>
+  <DrainTankDesc>Спустошити ємність і позбутися забруднення</DrainTankDesc>
+
+  <WaterValueOffset>Значення води {0} за {1}Л</WaterValueOffset>
+  <HyWater>Вода</HyWater>
+  <!--Sewage-->
+
+  <DrainSepticTank>Спустошення</DrainSepticTank>
+  <DrainSepticTankDesc>Встановіть рівень, при якому фекалії повинні бути злиті в бочки, які можуть бути переміщені та перекинуті, спалені або перетворені на біовідходи</DrainSepticTankDesc>
+  <SewageProcessing>Очищення: {0} Л/день Містить: {1} Л ({2})</SewageProcessing>
+  <DoNotDrainTank>Не спустошувати</DoNotDrainTank>
+  <DrainSepticTankAt>Спустошувати ємність при {0}</DrainSepticTankAt>
+
+  <PitCapacity>Яма: {0}</PitCapacity>
+  <PitFull>Яма заповнена, спустошіть її!</PitFull>
+  <KickOver>Перекинути</KickOver>
+  <KickOverDesc>Розплескати цю бочку з фекаліями на землю</KickOverDesc>
+
+  <!--Composting-->
+  <ContainsCompost>Містить компост {0}/{1}</ContainsCompost>
+  <ContainsFecalSludge>Містить фекалій {0}/{1}</ContainsFecalSludge>
+  <Composted>Удобрений</Composted>
+  <CompostingProgress>Прогрес компостування {0} ({1})</CompostingProgress>
+  <ComposterOutOfIdealTemperature>Неідеальна температура</ComposterOutOfIdealTemperature>
+  <IdealCompostingTemperature>Ідеальна температура для компостування
+</IdealCompostingTemperature>
+
+
+  <!--Mod Options-->
+
+  <QuitToMenuToChange>Перейдіть до головного меню для зміни</QuitToMenuToChange>
+  <RimefellerLink>Rimefeller підключений</RimefellerLink>
+  <RimefellerLinkTip>Дозволити використання води для розщеплювачів та нафтопереробників у Rimefeller</RimefellerLinkTip>
+  <RimatomicsLink>Rimatomics підключений</RimatomicsLink>
+  <RimatomicsLinkTip>Дозволити використання води в охолоджувальних установках Rimatomics</RimatomicsLinkTip>
+  <OverrideNeedSettingsTip>Вимкнути вручну потреби в залежності від типу тіла, раси та стану здоров'я</OverrideNeedSettingsTip>
+  <OverrideNeedsSettings>Фільтри потреб</OverrideNeedsSettings>
+  <Disablebladderneed>Вимкнути малу потребу</Disablebladderneed>
+  <Disablehygieneneed>Вимкнути потребу в гігієні</Disablehygieneneed>
+  <DisableNeedsLabel>Потреби</DisableNeedsLabel>
+  <NeedCheckboxTip>Позначте, щоб увімкнути</NeedCheckboxTip>
+  <PrisonersGetNeeds>В'язні</PrisonersGetNeeds>
+  <PrisonersGetNeedsTip>Чи будуть в'язні мати потреби</PrisonersGetNeedsTip>
+  <HospitalityGuestsGetNeeds>Гості</HospitalityGuestsGetNeeds>
+  <HospitalityGuestsGetNeedsTip>Чи будуть гості мати потреби</HospitalityGuestsGetNeedsTip>
+  <PrivacyChecks>Приватність</PrivacyChecks>
+  <PrivacyChecksTip>Колоністи турбуються про приватність під час водних процедур та використання туалетів</PrivacyChecksTip>
+  <CoolingEfficiency>Ефективність охолодження</CoolingEfficiency>
+  <CoolingEfficiencyTip>Чи повинні високі температури впливати на ефективність охолодження, як у випадку зі стандартними кондиціонерами</CoolingEfficiencyTip>
+
+  <DisableNeeds>Переключити потреби</DisableNeeds>
+  <DisableNeedsTip>Повністю відключити потреби. Перезаписує всі інші налаштування</DisableNeedsTip>
+  
+  <Experimentalfeatures>Експериментальні функції</Experimentalfeatures>
+  <PetsGetBladder>Мала потреба домашніх тварин</PetsGetBladder>
+  <PetsGetBladderTip>Чи будуть домашні тварини справляти малу потребу</PetsGetBladderTip>
+  <WildAnimalsGetBladder>Мала потреба диких тварин</WildAnimalsGetBladder>
+  <WildAnimalsGetBladderTip>Чи всі дикі тварини справлятимуть малу потребу</WildAnimalsGetBladderTip>
+  <ThirstNeed>Спрага</ThirstNeed>
+  <ThirstNeedTip>Ввімкнути спрагу для всіх поселенців з малою потребою</ThirstNeedTip>
+  <FertilizerVisible>Добрива видимі</FertilizerVisible>
+  <FertilizerVisibleTip>Чи повинна клітина з добривом бути видимою</FertilizerVisibleTip>
+  <AllowNonHuman>Нелюдські колоністи</AllowNonHuman>
+  <AllowNonHumanTip>Включити потреби нелюдських колоністів. Ви можете вимкнути окремих істот у вкладці "Фільтри потреб"</AllowNonHumanTip>
+  <StripWhileWashing>Оголюватися під час миття</StripWhileWashing>
+  <StripWhileWashingTip>Зняття одягу під час миття. Вимкніть для виправлення конфліктів модів</StripWhileWashingTip>
+  
+  <GetPaintShop>Додати Dub's Paint Shop</GetPaintShop>
+  
+
+</LanguageData>

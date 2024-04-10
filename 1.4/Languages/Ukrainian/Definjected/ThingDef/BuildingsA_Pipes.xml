@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Pipes -->
+
+  <sewagePipe.label>Труба</sewagePipe.label>
+  <sewagePipe.description>Труба для створення водопроводу
+.</sewagePipe.description>
+
+  <sewagePipeStuff.label>Труба</sewagePipeStuff.label>
+  <sewagePipeStuff.description>Труба для створення водопроводу.</sewagePipeStuff.description>
+  <sewagePipeStuff_Blueprint.label>труба (проєкт)</sewagePipeStuff_Blueprint.label>
+  <sewagePipeStuff_Frame.label>труба (у процесі збирання)</sewagePipeStuff_Frame.label>
+  <sewagePipeStuff_Frame.description>Труби для створення водопроводу.</sewagePipeStuff_Frame.description>
+
+  <airPipe.label>Кондиціонерна труба</airPipe.label>
+  <airPipe.description>Труба для з'єднання елементів системи кондиціювання.</airPipe.description>
+  <airPipe_Blueprint.label>Кондиціонерна труба (проєкт)
+</airPipe_Blueprint.label>
+  <airPipe_Frame.label>Кондиціонерна труба (у процесі збирання)
+</airPipe_Frame.label>
+  <airPipe_Frame.description>Труба для з'єднання елементів системи кондиціювання.</airPipe_Frame.description>
+
+</LanguageData>

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Washing.label>миється</Washing.label>
+  <Washing.labelNoun>миється</Washing.labelNoun>
+
+  <BadHygiene.label>Недотримання гігієни</BadHygiene.label>
+  <BadHygiene.stages.0.label>середнє</BadHygiene.stages.0.label>
+  <BadHygiene.stages.1.label>серйозне</BadHygiene.stages.1.label>
+  <BadHygiene.stages.2.label>жахливе</BadHygiene.stages.2.label>
+  
+  <Diarrhea.label>Діарея</Diarrhea.label>
+  <Diarrhea.stages.0.label>одужання</Diarrhea.stages.0.label>
+  <Diarrhea.stages.1.label>початкова</Diarrhea.stages.1.label>
+  <Diarrhea.stages.2.label>сильна</Diarrhea.stages.2.label>
+
+  <Dysentery.label>Дизентерія</Dysentery.label>
+  <Dysentery.stages.0.label>Середня</Dysentery.stages.0.label>
+
+  <Cholera.label>Холера</Cholera.label>
+  <Cholera.stages.0.label>середня</Cholera.stages.0.label>
+
+<DBHDehydration.label>Зневоднення</DBHDehydration.label>
+  <DBHDehydration.stages.0.label>незначне</DBHDehydration.stages.0.label>
+  <DBHDehydration.stages.1.label>легке</DBHDehydration.stages.1.label>
+  <DBHDehydration.stages.2.label>середне</DBHDehydration.stages.2.label>
+  <DBHDehydration.stages.3.label>серйозне</DBHDehydration.stages.3.label>
+  <DBHDehydration.stages.4.label>гостре</DBHDehydration.stages.4.label>
+
+</LanguageData>
