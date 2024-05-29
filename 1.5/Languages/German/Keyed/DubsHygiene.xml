@@ -7,6 +7,8 @@
   <dbh.Terrain>Boden:</dbh.Terrain>
   <!-- EN: Environment: -->
   <dbh.Environment>Umfeld:</dbh.Environment>
+  <!-- EN: Pollution -->
+  <dbh.Pollution>Verseuchung</dbh.Pollution>
   <!-- EN: Sewage contamination -->
   <dbh.Sewagecontamination>Abwasser-Kontamination</dbh.Sewagecontamination>
 
