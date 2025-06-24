@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- EN: bladder -->
+  <Bladder.label>Stuhl-/Harndrang</Bladder.label>
+  <!-- EN: To prevent the risk of disease it is important to maintain a good level of sanitation by removing or treating waste, and preventing sewage from contaminating your water supply. -->
+  <Bladder.description>Um Krankheitsrisiken zu vermeiden, ist es wichtig, für ein gutes Maß an Hygiene zu sorgen, indem Ausscheidungen entfernt oder geklärt werden und verhindert wird, dass Abwasser die Wasserversorgung verunreinigt.</Bladder.description>
+
+  <!-- EN: hygiene -->
+  <Hygiene.label>Hygiene</Hygiene.label>
+  <!-- EN: Good personal hygiene is important for reducing the risk of disease and keeping colonists happy and healthy. -->
+  <Hygiene.description>Eine gute Körperpflege ist wichtig, um das Krankheitsrisiko zu reduzieren und die Kolonisten glücklich und gesund zu halten.</Hygiene.description>
+
+  <!-- EN: thirst -->
+  <DBHThirst.label>Durst</DBHThirst.label>
+  <!-- EN: Water is required for many of life’s physiological processes. If this reaches zero then the creature will slowly die of dehydration. -->
+  <DBHThirst.description>Wasser ist für viele physiologische Prozesse lebensnotwendig. Wenn dieser Wert Null erreicht, stirbt die Kreatur langsam an Dehydratation.</DBHThirst.description>
+
+</LanguageData>

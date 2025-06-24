@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Pipes -->
+
+  <sewagePipeStuff.label>hydraulika</sewagePipeStuff.label>
+  <sewagePipeStuff.description>Instalacja wodno-kanalizacyjna do podłączania urządzeń hydraulicznych.</sewagePipeStuff.description>
+  <sewagePipeStuff_Blueprint.label>hydraulika (blueprint)</sewagePipeStuff_Blueprint.label>
+  <sewagePipeStuff_Frame.label>hydraulika (budowa)</sewagePipeStuff_Frame.label>
+  <sewagePipeStuff_Frame.description>Instalacja wodno-kanalizacyjna do podłączania urządzeń hydraulicznych.</sewagePipeStuff_Frame.description>
+
+  <plumbingValve.label>zawór hydrauliczny</plumbingValve.label>
+  <plumbingValve.description>Otwiera lub zamyka połączenia między rurami.</plumbingValve.description>
+  <plumbingValve_Blueprint.label>zawór hydrauliczny (blueprint)</plumbingValve_Blueprint.label>
+  <plumbingValve_Blueprint_Install.label>zawór hydrauliczny (blueprint)</plumbingValve_Blueprint_Install.label>
+  <plumbingValve_Frame.label>zawór hydrauliczny (budowa)</plumbingValve_Frame.label>
+  <plumbingValve_Frame.description>Otwiera lub zamyka połączenia między rurami.</plumbingValve_Frame.description>
+
+  <airPipe.label>przewód klimatyzacji</airPipe.label>
+  <airPipe.description>Rura do podłączenia jednostek klimatyzacyjnych.</airPipe.description>
+  <airPipe_Blueprint.label>przewód klimatyzacji (blueprint)</airPipe_Blueprint.label>
+  <airPipe_Frame.label>przewód klimatyzacji (budowa)</airPipe_Frame.label>
+  <airPipe_Frame.description>Rura do podłączenia jednostek klimatyzacyjnych.</airPipe_Frame.description>
+
+
+</LanguageData>

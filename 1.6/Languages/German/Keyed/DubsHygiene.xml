@@ -1,0 +1,472 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- EN: Remove pipes -->
+  <DesignatorRemovePlumbing>Rohrleitung entfernen</DesignatorRemovePlumbing>
+  <!-- EN: Designate sections of a pipe type for deconstruction. -->
+  <DesignatorRemovePlumbingDesc>Markiere Rohrleitungen, die entfernt werden sollen.</DesignatorRemovePlumbingDesc>
+  <!-- EN: Remove sewage -->
+  <RemoveSewage>Abwasser entfernen</RemoveSewage>
+  <!-- EN: Remove sewage from the ground and place it into barrels. -->
+  <RemoveSewageDesc>Markiere Abwasser, das vom Boden entfernt und in Fässer gefüllt werden soll.</RemoveSewageDesc>
+  <!-- EN: Remove plumbing -->
+  <RemovePlumbing>Rohrleitung entfernen</RemovePlumbing>
+  <!-- EN: Remove air-con -->
+  <RemoveAirCon>Klima-Rohrleitung entfernen</RemoveAirCon>
+
+  <!-- EN: Room is too large to heat!\nMaximum of 50 cells per heater\nAdd more sauna heaters or shrink the room -->
+  <DBH.requiresSaunaRoom>Raum ist zu groß zum Heizen!\nMaximal 50 Zellen pro Ofen\nFüge weitere Saunaöfen hinzu oder verkleinere den Raum</DBH.requiresSaunaRoom>
+  <!-- EN: Pool is heated -->
+  <DBH.HeatedPool>Pool ist beheizt</DBH.HeatedPool>
+  <!-- EN: Cannot use pool now: -->
+  <DBH.CantUsePool>Pool aktuell nicht nutzbar:</DBH.CantUsePool>
+  <!-- EN: Raining -->
+  <DBH.PoolRaining>Es regnet</DBH.PoolRaining>
+  <!-- EN: Too cold {0} -->
+  <DBH.PoolTooCold>Zu kalt {0}</DBH.PoolTooCold>
+  <!-- EN: Prison needs water source -->
+  <DBHPrisonWater>Haftraum benötigt Wasserquelle</DBHPrisonWater>
+  <!-- EN: A prison cell has no access to drinking water, build at least 1 drinking water source like a water tub or basin so that prisoners have free access to drinking water -->
+  <DBHPrisonWaterEx>Ein Haftraum hat keinen Zugang zu Trinkwasser; baue mind. 1 Trinkwasserquelle wie z. B. Waschzuber oder -becken, damit die Gefangenen freien Zugang zu Trinkwasser haben.</DBHPrisonWaterEx>
+  <!-- EN: Missing water tower -->
+  <Alert_MissingTower>Wasserspeicher benötigt</Alert_MissingTower>
+  <!-- EN: A water tower or water butt is required to store water pumped from wells. -->
+  <Alert_MissingTowerDesc>Wasser, das aus Brunnen gepumpt wird, muss in einem Wasserturm oder einer Wassertonne gespeichert werden.</Alert_MissingTowerDesc>
+  <!-- EN: Missing well -->
+  <Alert_MissingWell>Brunnen benötigt</Alert_MissingWell>
+  <!-- EN: Pumps require a piped well to access ground water. -->
+  <Alert_MissingWellDesc>Pumpen benötigen einen Brunnen, der via Rohrleitungen angeschlossen ist, um an das Grundwasser zu gelangen.</Alert_MissingWellDesc>
+  <!-- EN: Missing water pump -->
+  <Alert_MissingPump>Wasserpumpe benötigt</Alert_MissingPump>
+  <!-- EN: A water pump is required to pump the water from a well to a water tower. -->
+  <Alert_MissingPumpDesc>Es wird eine Wasserpumpe benötigt, um Brunnenwasser zu einem Wasserturm zu pumpen.</Alert_MissingPumpDesc>
+  <!-- EN: Fallout water contamination -->
+  <DBHFalloutWarning>Kontamination durch giftigen Niederschlag</DBHFalloutWarning>
+  <!-- EN: After 2 days of toxic fallout the buildup will contaminate any water storage tanks connected to water wells.\n\nPrepare by creating a reserve of water and then using a valve to disconnect the wells to protect the water from contamination before it is too late.\n\nYou can also use a deep well to access uncontaminated water, or install a water treatment system which will eliminate all contamination from water reserves. -->
+  <DBHFalloutWarningEx>In 2 Tagen wird der giftige Niederschlag alle Wasserspeicher, die mit Brunnen verbunden sind, kontaminieren.\n\nLege einen Wasservorrat an und trenne die Brunnen anschließend vom Versorgungsnetz (z. B. mittels Ventil), um das Wasser vor Kontamination zu schützen, bevor es zu spät ist.\n\nAlternativ kannst du einen tiefen Brunnen benutzen, um unverseuchtes Wasser zu beziehen, oder eine Wasserfilteranlage errichten, die sämtliche Verunreinigungen in den Wasservorräten beseitigt.</DBHFalloutWarningEx>
+
+  <!-- EN: Low cooling capacity. You can increase the power of outdoor units. -->
+  <LowCoolingCap>Geringe Kühlleistung. Du kannst die Leistung der Außengeräte erhöhen.</LowCoolingCap>
+  <!-- EN: Access restricted -->
+  <NotOwned>Zugang beschränkt</NotOwned>
+  <!-- EN: {0} only -->
+  <GenderRestricted>Nur für {replace: {0}; "Male"-"Männer"; "Female"-"Frauen"}</GenderRestricted>
+  <!-- EN: Prisoners only -->
+  <PrisonersOnly>Nur für Gefangene</PrisonersOnly>
+  <!-- EN: A sewage outlet has become blocked. -->
+  <BlockedSewage>Ein Abwasserauslass ist blockiert.</BlockedSewage>
+  <!-- EN: Sewage has built up around the drain hole and is blocking the outlet.\n\nBuild more outlets or add a septic tank to create a buffer and reduce pressure on the outlets. -->
+  <BlockedSewageDesc>Es hat sich Abwasser um die Abflussöffnung angesammelt und blockiert den Auslass.\n\nBaue mehr Auslässe oder schließe eine Klärgrube an, um einen Puffer zu schaffen und den Druck auf die Auslässe zu verringern.</BlockedSewageDesc>
+  <!-- EN: Low water temp -->
+  <LowWaterTemp>Niedrige Wassertemperatur</LowWaterTemp>
+  <!-- EN: The water temperature in this tank is too low; colonists expecting to use hot water may get annoyed.\n\nTurn on boilers, increase the heating capacity, or add another hot water tank. -->
+  <LowWaterTempDesc>Die Wassertemperatur in diesem Speicher ist zu niedrig; Kolonisten, die warmes Wasser erwarten, könnten sich daran stören.\n\nSchalte deine Thermen ein, erhöhe die Heizkapazität oder schließe einen weiteren Warmwasserspeicher an.</LowWaterTempDesc>
+  <!-- EN: Must be placed over a cell with ground water. -->
+  <WellNeedsWater>Muss über einer Zelle mit Grundwasser platziert werden.</WellNeedsWater>
+  <!-- EN: The fixture must be inside a room to restrict it. -->
+  <AssigningRequiresRoom>Die Sanitäranlage muss zum Beschränken in einem Raum sein.</AssigningRequiresRoom>
+  <!-- EN: Requires water storage tower -->
+  <NoWaterTowers>Benötigt einen Wasserturm</NoWaterTowers>
+  <!-- EN: Assigning requires bladder need, but {0} doesn't have bladder need. -->
+  <AssigningRequiresBladderNeed>Zuweisung benötigt Stuhl-/Harndrang-Bedürfnis, aber {0} hat keins.</AssigningRequiresBladderNeed>
+
+  <!-- EN: No composting material -->
+  <NoCompostingMaterial>Kein kompostierbares Material</NoCompostingMaterial>
+  <!-- EN: No water capacity -->
+  <Nowater>Keine Wasserzufuhr</Nowater>
+  <!-- EN: No sewage capacity -->
+  <Nosewage>Kein Abwasserabfluss</Nosewage>
+  <!-- EN: Requires plumbing -->
+  <RequiresPlumbing>Benötigt Rohrleitung</RequiresPlumbing>
+  <!-- EN: Access restricted -->
+  <AccessRestricted>Zugang beschränkt</AccessRestricted>
+
+  <!-- EN: Too hot: x{0} -->
+  <TooHot>Zu heiß: x{0}</TooHot>
+  <!-- EN: In rain: x{0} -->
+  <InRain>Im Regen: x{0}</InRain>
+  <!-- EN: Exertion: x{0} -->
+  <PhysicalActivity>Anstrengung: x{0}</PhysicalActivity>
+  <!-- EN: Room: x{0} -->
+  <FilthyRoom>Raum: x{0}</FilthyRoom>
+  <!-- EN: Total: x{0} -->
+  <TotalHygieneStat>Gesamt: x{0}</TotalHygieneStat>
+  <!-- EN: Dirty hands - Disease risk -->
+  <DirtyHands>Schmutzige Hände - Krankheitsrisiko</DirtyHands>
+
+  <!-- EN: A drain has become blocked. -->
+  <LetterLabelBlockedDrain>Ein Abfluss ist verstopft.</LetterLabelBlockedDrain>
+  <!-- EN: A drain has become blocked. A cleaner must clean the blockage. -->
+  <LetterBlockedDrain>Ein Abfluss ist verstopft. Ein Reiniger muss die Verstopfung lösen.</LetterBlockedDrain>
+
+  <!-- EN: Contaminated water -->
+  <ContaminationAlert>Kontaminiertes Wasser</ContaminationAlert>
+  <!-- EN: A well has become polluted.\n\nSources of contamination:\n{0}\n\nEither move the well, remove the sources of contamination, or if you are using piped wells add a water treatment system, which will also clean contaminated water towers over time. -->
+  <ContaminationAlertDesc>Ein Brunnen ist verseucht.\n\nUrsache der Kontamination:\n{0}\n\nVersetze den Brunnen oder beseitige die Ursache der Kontamination. Alternativ kannst du eine Wasserfilteranlage anschließen, die gespeichertes Brunnenwasser, sofern vorhanden, mit der Zeit reinigen kann.</ContaminationAlertDesc>
+  <!-- EN: Contaminated water tower -->
+  <ContaminatiedTowerAlert>Kontaminierter Wasserturm</ContaminatiedTowerAlert>
+  <!-- EN: A water tower has become polluted, posing a serious health risk to your colonists. Solve the cause of the pollution and then drain the tank, or build a water treatment system. -->
+  <ContaminatiedTowerAlertDesc>Ein Wasserturm ist verseucht und stellt ein ernsthaftes Gesundheitsrisiko für deine Kolonisten dar. Beseitige die Ursache für die Verschmutzung und lass das Wasser ab, oder schließe eine Wasserfilteranlage an.</ContaminatiedTowerAlertDesc>
+
+  <!-- EN: {0} has contracted {1} because of bad personal hygiene -->
+  <MessageHygieneDisease>{0} hat sich {1} aufgrund schlechter Körperpflege zugezogen</MessageHygieneDisease>
+  <!-- EN: {0} has contracted {1} from drinking untreated water -->
+  <MessageWaterDisease>{0} hat sich {1} durch das Trinken von ungeklärtem Wasser zugezogen</MessageWaterDisease>
+  <!-- EN: {0} has contracted {1} from drinking contaminated water -->
+  <MessageWaterDiseaseContaminated>{0} hat sich {1} durch das Trinken von kontaminiertem Wasser zugezogen</MessageWaterDiseaseContaminated>
+
+  <!-- EN: Change gender restriction -->
+  <ChangeGenderRestriction>Geschlechtsbeschränkung ändern</ChangeGenderRestriction>
+  <!-- EN: Medical -->
+  <CommandFixtureSetAsMedicalLabel>Medizinisch</CommandFixtureSetAsMedicalLabel>
+  <!-- EN: Limit this fixture to patients only. -->
+  <CommandFixtureSetAsMedicalDesc>Beschränke diese Sanitäranlage nur auf Patienten.</CommandFixtureSetAsMedicalDesc>
+  <!-- EN: Patients only -->
+  <PatientsOnly>Nur für Patienten</PatientsOnly>
+  <!-- EN: Attack helicopter -->
+  <AttackHelicopter>Kampfhubschrauber</AttackHelicopter>
+  <!-- EN: Unisex -->
+  <Unisex>Unisex</Unisex>
+  <!-- EN: Link bed -->
+  <ConnectFixturesToBed>Bett verknüpfen</ConnectFixturesToBed>
+  <!-- EN: Connect the fixtures to a nearby bed so they inherit the ownership. Hold shift to assign multiple beds -->
+  <ConnectFixturesToBedDesc>Verknüpfe die Sanitäranlagen mit einem nahegelegenen Bett, damit sie den Besitzer erben. Halte die Umschalttaste gedrückt, um mehrere Betten zuzuweisen.</ConnectFixturesToBedDesc>
+  <!-- EN: Clear bed link -->
+  <CancelConnectFixturesToBed>Verknüpfung mit Bett lösen</CancelConnectFixturesToBed>
+  <!-- EN: Clear the link to beds -->
+  <CancelConnectFixturesToBedDesc>Löse die Verknüpfung mit dem Bett.</CancelConnectFixturesToBedDesc>
+  <!-- EN: Animals only -->
+  <dbh.Animalsonly>Nur für Tiere</dbh.Animalsonly>
+  <!-- EN: Occupancy Check -->
+  <ChangeOccupancyRestriction>Belegung prüfen</ChangeOccupancyRestriction>
+  <!-- EN: Should pawns check if anything in the room is reserved before trying to use the fixture, prevents pawns from walking in on each other to use basins and toilets at the same time -->
+  <ChangeOccupancyRestrictionDesc>Sollen deine Kolonisten prüfen, ob etwas im Raum belegt ist, bevor sie versuchen, die Sanitäranlage zu benutzen? Dies würde verhindern, dass sich deine Kolonisten über den Weg laufen, wenn sie Waschbecken und Toilette gleichzeitig benutzen wollen.</ChangeOccupancyRestrictionDesc>
+  <!-- EN: Colonists -->
+  <dbh.AllowColonists>Kolonisten</dbh.AllowColonists>
+  <!-- EN: Slaves -->
+  <dbh.AllowSlaves>Sklaven</dbh.AllowSlaves>
+  <!-- EN: Guests -->
+  <dbh.AllowGuests>Gäste</dbh.AllowGuests>
+  <!-- EN: Colonists restricted -->
+  <dbh.NoColonists>Kolonisten gesperrt</dbh.NoColonists>
+  <!-- EN: Slaves restricted -->
+  <dbh.NoSlaves>Sklaven gesperrt</dbh.NoSlaves>
+  <!-- EN: Guests restricted -->
+  <dbh.NoGuests>Gäste gesperrt</dbh.NoGuests>
+
+  <!-- EN: Water temp: {0} -->
+  <WaterTemp>Wassertemperatur: {0}</WaterTemp>
+  <!-- EN: Connected demand/capacity: {0} / {1} U ({2}) -->
+  <ConnectedHeatingCapacity>Gesamtbedarf/-kapazität: {0} / {1} U ({2})</ConnectedHeatingCapacity>
+  <!-- EN: Connected demand/capacity: {0} / {1} U ({2}) -->
+  <ConnectedCoolingCapacity>Gesamtbedarf/-kapazität: {0} / {1} U ({2})</ConnectedCoolingCapacity>
+  <!-- EN: Heating usage: {0} U -->
+  <HeatingUnits>Heizverbrauch: {0} U</HeatingUnits>
+  <!-- EN: Cooling usage: {0} U -->
+  <CoolingUnits>Kühlverbrauch: {0} U</CoolingUnits>
+  <!-- EN: Heating units/power: {0} U / {1} W -->
+  <HeatingMode>Heizeinheiten/-leistung: {0} U / {1} W</HeatingMode>
+  <!-- EN: Cooling units/power: {0} U / {1} W -->
+  <CoolingMode>Kühleinheiten/-leistung: {0} U / {1} W</CoolingMode>
+  <!-- EN: Efficiency: {0} -->
+  <CoolingEfficiencyGood>Effizienz: {0}</CoolingEfficiencyGood>
+  <!-- EN: Efficiency: {0} overheating -->
+  <CoolingEfficiencyBad>Effizienz: {0} Überhitzung</CoolingEfficiencyBad>
+  <!-- EN: Minimum temp: {0} -->
+  <TargetTemp>Mindesttemperatur: {0}</TargetTemp>
+  <!-- EN: Reduce power -->
+  <LowerPower>Leistung verringern</LowerPower>
+  <!-- EN: Reduce the heating capacity. -->
+  <LowerPowerDesc>Verringere die Heizkapazität.</LowerPowerDesc>
+  <!-- EN: Increase power -->
+  <RaisePower>Leistung erhöhen</RaisePower>
+  <!-- EN: Increase the heating capacity. -->
+  <RaisePowerDesc>Erhöhe die Heizkapazität.</RaisePowerDesc>
+  <!-- EN: Hot water capacity: {0} -->
+  <HotwaterCapacity>Warmwasserkapazität: {0}</HotwaterCapacity>
+  <!-- EN: Override thermostat -->
+  <OverrideThermostat>Thermostat ignorieren</OverrideThermostat>
+  <!-- EN: Force the boiler to run continuously. -->
+  <OverrideThermostatDesc>Zwinge die Therme zum Dauerbetrieb.</OverrideThermostatDesc>
+  <!-- EN: Exhaust vents must be kept clear! -->
+  <MustPlaceFreezerWithFreeSpaces>Abluftöffnungen müssen freigehalten werden!</MustPlaceFreezerWithFreeSpaces>
+  <!-- EN: Too cold -->
+  <SolarEfficiencyCold>Zu kalt</SolarEfficiencyCold>
+  <!-- EN: Roofed -->
+  <SolarEfficiencyRoof>Überdacht</SolarEfficiencyRoof>
+  <!-- EN: Heating units (efficiency): {0} U ({1}) -->
+  <SolarEfficiencyGood>Heizeinheiten (Effizienz): {0} U ({1})</SolarEfficiencyGood>
+  <!-- EN: Radiator temp: {0} -->
+  <RadCurrentCap>Heizkörpertemperatur: {0}</RadCurrentCap>
+  <!-- EN: Thermostat overridden by hot water tanks. Set all connected hot water tanks to thermostat mode. -->
+  <ThermostatSetupWarning>Thermostat wird von Warmwasserspeichern ignoriert. Aktiviere bei allen angeschlossenen Warmwasserspeichern die Thermostatsteuerung.</ThermostatSetupWarning>
+  <!-- EN: Thermostat control -->
+  <HotWaterTankUseThermostat>Thermostatsteuerung</HotWaterTankUseThermostat>
+  <!-- EN: Turn on boilers for 1 hour when the tank temperature is low. If this is disabled then boilers will run continuously and ignore room thermostats. -->
+  <HotWaterTankUseThermostatDesc>Schaltet Thermen für 1 Stunde ein, wenn die Speichertemperatur zu niedrig ist. Bei Deaktivierung laufen die Thermen im Dauerbetrieb und ignorieren alle Thermostate im Raum.</HotWaterTankUseThermostatDesc>
+
+  <!-- EN: Wash hands -->
+  <WashHands>Wasche deine Hände</WashHands>
+  <!-- EN: Wash -->
+  <Wash>Waschen</Wash>
+  <!-- EN: Use -->
+  <UseToilet>Benutzen</UseToilet>
+  <!-- EN: Usage = {0} -->
+  <SewageUsage>Füllstand = {0}</SewageUsage>
+  <!-- EN: Must be plumbing -->
+  <MustBePlumbing>Muss an Rohrleitungsnetz angeschlossen werden</MustBePlumbing>
+  <!-- EN: Blocked drain -->
+  <BlockedDrain>Verstopfter Abfluss</BlockedDrain>
+  <!-- EN: Plumb or empty the latrine -->
+  <PlumbOrEmpty>Leere oder schließe Latrine an Rohrleitungsnetz an</PlumbOrEmpty>
+  <!-- EN: Running... -->
+  <WashingMachineSpinning>In Betrieb...</WashingMachineSpinning>
+  <!-- EN: Unload now -->
+  <WashingMachineUnload>Kann entladen werden</WashingMachineUnload>
+  <!-- EN: Load: {0}/{1} -->
+  <WashingMachineLoad>Geladen: {0}/{1}</WashingMachineLoad>
+  <!-- EN: No dirty clothes -->
+  <NoDirtyClothes>Keine schmutzige Wäsche</NoDirtyClothes>
+  <!-- EN: No space -->
+  <WashingNoSpace>Voll</WashingNoSpace>
+  <!-- EN: No unreserved water sources of the highest available quality. -->
+  <NoUnreservedSource>Keine Wasserquellen der höchstmöglichen Qualität frei oder verfügbar.</NoUnreservedSource>
+  <!-- EN: Flow +50L -->
+  <RaiseFillRate>Durchfluss +50 L</RaiseFillRate>
+  <!-- EN: Flow -50L -->
+  <LowerFillRate>Durchfluss -50 L</LowerFillRate>
+  <!-- EN: Fill Rate: {0}L/h -->
+  <WaterFillRate>Füllrate: {0} L/h</WaterFillRate>
+  <!-- EN: Drink -->
+  <dbhDrink>Trinken</dbhDrink>
+  <!-- EN: Toggle valve -->
+  <CommandDesignateOpenCloseValveLabel>Ventil öffnen/schließen</CommandDesignateOpenCloseValveLabel>
+  <!-- EN: Toggle the valve between open and closed. -->
+  <CommandDesignateOpenCloseValveDesc>Öffne oder schließe das Ventil.</CommandDesignateOpenCloseValveDesc>
+  <!-- EN: Valve closed -->
+  <ValveClosed>Ventil geschlossen</ValveClosed>
+
+  <!-- EN: Pump capacity: {0} L/day -->
+  <PumpCapacity>Pumpleistung: {0} L/Tag</PumpCapacity>
+  <!-- EN: Ground capacity: {0} L/day -->
+  <GroundCapacity>Grundwasserkapazität: {0} L/Tag</GroundCapacity>
+  <!-- EN: Piped pump/Ground capacity: {0}/{1} L/day ({2}) -->
+  <PipedPumpCapacity>Gesamt-Pump/Grundwasser-Kapazität {0}/{1} L/Tag ({2})</PipedPumpCapacity>
+
+  <!-- EN: Water stored: {0} L -->
+  <WaterStorage>Wasservorrat: {0} L</WaterStorage>
+  <!-- EN: Piped water stored: {0} L -->
+  <TotalWaterStorage>Gesamt-Wasservorrat: {0} L</TotalWaterStorage>
+
+  <!-- EN: Pollution level: {0} -->
+  <PollutionLevel>Verschmutzungsgrad: {0}</PollutionLevel>
+
+  <!-- EN: Decrease radius -->
+  <CommandSprinkleDown>Radius verkleinern</CommandSprinkleDown>
+  <!-- EN: Increase radius -->
+  <CommandSprinkleUp>Radius vergrößern</CommandSprinkleUp>
+  <!-- EN: Quality: Untreated - Small disease risk -->
+  <UntreatedWater>Qualität: Ungeklärt - Geringes Krankheitsrisiko</UntreatedWater>
+  <!-- EN: Quality: Contaminated - High disease risk! -->
+  <ContaminatedWater>Qualität: Kontaminiert - Hohes Krankheitsrisiko!</ContaminatedWater>
+  <!-- EN: Quality: Treated - Safe -->
+  <TreatedWater>Qualität: Geklärt - Sicher</TreatedWater>
+
+  <!-- EN: Drain tank -->
+  <DrainTank>Wasser ablassen</DrainTank>
+  <!-- EN: Drain the tank and remove contamination. -->
+  <DrainTankDesc>Lass Wasser ab und beseitige dadurch Kontamination.</DrainTankDesc>
+
+  <!-- EN: Water value: {0} for {1} L -->
+  <WaterValueOffset>Wasserwert: {0} pro {1} L</WaterValueOffset>
+  <!-- EN: Water -->
+  <HyWater>Wasser</HyWater>
+
+  <!-- EN: Overlaps with {0} wells -->
+  <OverlapsWells>Überschneidet sich mit {0} Brunnen</OverlapsWells>
+
+  <!-- EN: Sewage {0} -->
+  <dbh.SewageReadout>Abwasser {0}</dbh.SewageReadout>
+  <!-- EN: Drain -->
+  <DrainSepticTank>Leeren</DrainSepticTank>
+  <!-- EN: Set the level at which fecal sludge should be emptied into barrels. Fecal sludge can be moved and knocked over, burned, or turned into biosolids or fuel. -->
+  <DrainSepticTankDesc>Legen Sie die Menge fest, ab der Abwasser in Fässer gefüllt werden soll. Abwasser kann man andernorts wegkippen, verbrennen oder zu Klärdünger oder Sprit verarbeiten.</DrainSepticTankDesc>
+  <!-- EN: Treating: {0} L/d. Holding: {1} L ({2}) -->
+  <SewageProcessing>Klärt: {0} L/Tag. Enthält: {1} L ({2})</SewageProcessing>
+  <!-- EN: Do not drain -->
+  <DoNotDrainTank>Nie leeren</DoNotDrainTank>
+  <!-- EN: Drain tank at {0} -->
+  <DrainSepticTankAt>Leeren ab {0}</DrainSepticTankAt>
+
+  <!-- EN: Pit: {0} -->
+  <PitCapacity>Grube: {0}</PitCapacity>
+  <!-- EN: Pit is full, empty now! -->
+  <PitFull>Grube ist voll, jetzt leeren!</PitFull>
+  <!-- EN: Kick over -->
+  <KickOver>Ausschütten</KickOver>
+  <!-- EN: Spill this barrel of sewage on the ground. -->
+  <KickOverDesc>Schütte das Abwasser auf den Boden.</KickOverDesc>
+
+  <!-- EN: Contains compost: {0}/{1} L -->
+  <ContainsCompost>Enthält Kompost: {0}/{1} L</ContainsCompost>
+  <!-- EN: Contains fecal sludge: {0}/{1} L -->
+  <ContainsFecalSludge>Enthält Abwasser: {0}/{1} L</ContainsFecalSludge>
+  <!-- EN: Composted -->
+  <Composted>Kompostiert</Composted>
+  <!-- EN: Composting progress: {0} ({1}) -->
+  <CompostingProgress>Kompostierungsfortschritt: {0} ({1})</CompostingProgress>
+  <!-- EN: Composter has non-ideal temperature -->
+  <ComposterOutOfIdealTemperature>Komposter hat ungünstige Temperatur</ComposterOutOfIdealTemperature>
+  <!-- EN: Ideal composting temperature -->
+  <IdealCompostingTemperature>Ideale Kompostierungstemperatur</IdealCompostingTemperature>
+  <!-- EN: Growing zone sowing disabled -->
+  <GrowingZoneNotAllowed>Anbauen bei Anbauzone deaktiviert</GrowingZoneNotAllowed>
+  <!-- EN: No fertilizer found -->
+  <NoFertilizerFound>Kein Dünger gefunden</NoFertilizerFound>
+  <!-- EN: Fertilizer area -->
+  <AreaPlaceFertilizer>Düngerzone</AreaPlaceFertilizer>
+  <!-- EN: Designate areas to fertilize with biosolids. -->
+  <AreaPlaceFertilizerDesc>Markiere Gebiete, die mit Klärdünger fruchtbarer gemacht werden sollen.</AreaPlaceFertilizerDesc>
+  <!-- EN: Add area -->
+  <AddFertilizerArea>Gebiet hinzufügen</AddFertilizerArea>
+  <!-- EN: Remove area -->
+  <RemoveFertilizerArea>Gebiet entfernen</RemoveFertilizerArea>
+
+  <!-- EN: Drink packing search range: {0} -->
+  <dbh.DrinkPackSearchRange>Getränke-Einpacken-Suchradius: {0}</dbh.DrinkPackSearchRange>
+  <!-- EN: Drink packing: search at {0}, pack {1} -->
+  <dbh.DrinksToPack>Getränke einpacken: Suche ab {0}, max. {1}</dbh.DrinksToPack>
+  <!-- EN: Restart -->
+  <dbh.restartconfirm>Neu starten</dbh.restartconfirm>
+  <!-- EN: Prioritize indoor cleaning -->
+  <dbh.PriorityIndoorCleaning>Vorrangig in Räumen saubermachen</dbh.PriorityIndoorCleaning>
+  <!-- EN: Enables a higher priority cleaning job to clean indoors first -->
+  <dbh.PriorityIndoorCleaningTip>Bewirkt, dass ein Reinigungsauftrag mit höherer Priorität zuerst in Räumen erfolgt.</dbh.PriorityIndoorCleaningTip>
+  <!-- EN: Mod removal assist -->
+  <dbh.ModRemove>Mod-Entfernen-Hilfe</dbh.ModRemove>
+  <!-- EN: Steps:\n\n1: Save your game immediately after pressing confirm\n2: Quit to the main menu and disable the mod and restart the game\n3: Load your save game, ignore any exceptions and save it again\nLoad the save game once more and there shouldn't be any exceptions related to missing bad hygiene defs or classes! -->
+  <dbh.ModRemoveDesc>Schritte:\n\n1: Speichere sofort das Spiel, nachdem du auf Bestätigen gedrückt hast.\n2: Gehe ins Hauptmenü, deaktiviere die Mod und starte das Spiel neu.\n3: Lade deinen Spielstand, ignoriere alle Fehlermeldungen und speichere ihn erneut.\nLade nochmals deinen Spielstand; nun sollten keine Fehlermeldungen mehr auftreten, die sich auf fehlende Hygiene-Defs oder Klassen beziehen!</dbh.ModRemoveDesc>
+  <!-- EN: Pet thirst -->
+  <PetsGetThirst>Durst bei Haustieren</PetsGetThirst>
+  <!-- EN: Pets get the thirst need -->
+  <PetsGetThirstTip>Haustiere bekommen das Durstbedürfnis.</PetsGetThirstTip>
+  <!-- EN: A restart is required to add quality and art comps back in.\n\n restart now? -->
+  <fixtureQualityRequiresRestart>Es ist ein Neustart erforderlich, um Quality- und Art-Comps wieder hinzuzufügen.\n\nJetzt neu starten?</fixtureQualityRequiresRestart>
+  <!-- EN: Fixture quality and art -->
+  <fixtureQuality>Sanitäranlagen-Quality und -Art</fixtureQuality>
+  <!-- EN: Enable quality and art comps for fixtures like toilets -->
+  <fixtureQualityTip>Aktiviert Quality- und Art-Comps für Sanitäranlagen wie Toiletten.</fixtureQualityTip>
+  <!-- EN: Quit to main menu to change. -->
+  <QuitToMenuToChange>Zum Ändern ins Hauptmenü zurück.</QuitToMenuToChange>
+  <!-- EN: Rimefeller link -->
+  <RimefellerLink>Rimefeller-Verknüpfung</RimefellerLink>
+  <!-- EN: Enable water usage on crackers and refiners in Rimefeller. -->
+  <RimefellerLinkTip>Ermöglicht die Wassernutzung bei Crackern und Raffinerien in Rimefeller.</RimefellerLinkTip>
+  <!-- EN: Rimatomics link -->
+  <RimatomicsLink>Rimatomics-Verknüpfung</RimatomicsLink>
+  <!-- EN: Enable water usage on cooling towers in Rimatomics. -->
+  <RimatomicsLinkTip>Ermöglicht die Wassernutzung bei Kühltürmen in Rimatomics.</RimatomicsLinkTip>
+  <!-- EN: Manually disable needs by body type, race, or active hediff. -->
+  <OverrideNeedSettingsTip>Deaktiviere manuell Bedürfnisse nach Körpertyp, Spezies oder aktivem Gesundheitszustand.</OverrideNeedSettingsTip>
+  <!-- EN: Needs filter -->
+  <OverrideNeedsSettings>Bedürfnisfilter</OverrideNeedsSettings>
+  <!-- EN: Disable bladder need -->
+  <Disablebladderneed>Stuhl-/Harndrang-Bedürfnis deaktivieren</Disablebladderneed>
+  <!-- EN: Disable hygiene need -->
+  <Disablehygieneneed>Hygiene-Bedürfnis deaktivieren</Disablehygieneneed>
+  <!-- EN: Needs -->
+  <DisableNeedsLabel>Bedürfnisse</DisableNeedsLabel>
+  <!-- EN: Tick to enable -->
+  <NeedCheckboxTip>Setze Häkchen zum Aktivieren</NeedCheckboxTip>
+  <!-- EN: Prisoners -->
+  <PrisonersGetNeeds>Gefangene</PrisonersGetNeeds>
+  <!-- EN: Set if prisoners should have needs -->
+  <PrisonersGetNeedsTip>Bestimme, ob Gefangene Bedürfnisse haben sollen.</PrisonersGetNeedsTip>
+  <!-- EN: Guests -->
+  <HospitalityGuestsGetNeeds>Gäste</HospitalityGuestsGetNeeds>
+  <!-- EN: Set if guests have needs -->
+  <HospitalityGuestsGetNeedsTip>Bestimme, ob Gäste Bedürfnisse haben sollen.</HospitalityGuestsGetNeedsTip>
+  <!-- EN: Privacy -->
+  <PrivacyChecks>Privatsphäre</PrivacyChecks>
+  <!-- EN: Colonists care about privacy when bathing or using toilets. -->
+  <PrivacyChecksTip>Bestimme, ob Kolonisten beim Baden oder Toilettengang auf ihre Privatsphäre achten.</PrivacyChecksTip>
+  <!-- EN: Cooling efficiency -->
+  <CoolingEfficiency>Kühlleistung</CoolingEfficiency>
+  <!-- EN: Set if high temperature should affect cooling efficiency like standard AC -->
+  <CoolingEfficiencyTip>Bestimme, ob hohe Temperaturen die Kühlleistung von herkömmlichen Geräten wie die Kühlung beeinflussen sollen.</CoolingEfficiencyTip>
+  <!-- EN: Rain irrigation -->
+  <RainIrrigation>Regenbewässerung</RainIrrigation>
+  <!-- EN: Rain will give the same boost as sprinklers. Might reduce game performance. -->
+  <RainIrrigationTip>Regen gibt den gleichen Boost wie Sprinkler. Könnte die Spielleistung beeinträchtigen.</RainIrrigationTip>
+  <!-- EN: Toggle needs -->
+  <DisableNeeds>Bedürfnisse ein-/ausschalten</DisableNeeds>
+  <!-- EN: Disable needs entirely. Overrides all other settings. -->
+  <DisableNeedsTip>Deaktiviert alle Bedürfnisse. Überschreibt alle anderen Einstellungen.</DisableNeedsTip>
+  <!-- EN: Allow modded drinks -->
+  <AllowModdedDrinks>Gemoddete Getränke erlauben</AllowModdedDrinks>
+  <!-- EN: Pawns will also be allowed to drink and pack any modded drinks. VGP and RimCuisine drinks can be used default, others will require modding an extension to the def. -->
+  <AllowModdedDrinksTip>Spielfiguren dürfen alle gemoddeten Getränke trinken und einpacken. VGP- und RimCuisine-Getränke können standardmäßig verwendet werden, andere müssen dafür extra gemoddet werden.</AllowModdedDrinksTip>
+  <!-- EN: Pack water bottles -->
+  <AllowDrinkPacking>Wasserflaschen einpacken</AllowDrinkPacking>
+  <!-- EN: Pawns will automatically pack water bottles into their inventory when they can.\n\nMay not work with some mods, for CE you will need to manually manage your loadout to include water bottles else they will keep dropping them. -->
+  <AllowDrinkPackingTip>Spielfiguren werden automatisch Wasserflaschen in ihr Inventar packen, sofern möglich.\n\nFunktioniert eventuell nicht mit einigen Mods; für CE musst du dein Loadout manuell verwalten, um die Wasserflaschen einzubeziehen, sonst lassen sie sie immer wieder fallen.</AllowDrinkPackingTip>
+  <!-- EN: Needs filter -->
+  <NeedsFilter>Bedürfnisfilter</NeedsFilter>
+  <!-- EN: Main features -->
+  <MainFeatures>Haupt-Features</MainFeatures>
+  <!-- EN: Experimental features -->
+  <ExperimentalFeatures>Experimentelle Features</ExperimentalFeatures>
+  <!-- EN: Pet bladders -->
+  <PetsGetBladder>Stuhl-/Harndrang bei Haustieren</PetsGetBladder>
+  <!-- EN: Enable bladder need on pets. Also adds litter boxes for pets. -->
+  <PetsGetBladderTip>Aktiviert Stuhl-/Harndrang-Bedürfnis bei Haustieren. Fügt auch Klos für Haustiere hinzu.</PetsGetBladderTip>
+  <!-- EN: Wild animal bladders -->
+  <WildAnimalsGetBladder>Stuhl-/Harndrang bei Wildtieren</WildAnimalsGetBladder>
+  <!-- EN: Enable bladder need on all wild animals. This could get messy. -->
+  <WildAnimalsGetBladderTip>Aktiviert Stuhl-/Harndrang-Bedürfnis bei Wildtieren. Das könnte chaotisch werden.</WildAnimalsGetBladderTip>
+  <!-- EN: Thirst need -->
+  <ThirstNeed>Durst-Bedürfnis</ThirstNeed>
+  <!-- EN: Enable thirst need on all colonists with bladder need. Adds drinking fountains and water bottles. Requires a restart. -->
+  <ThirstNeedTip>Aktiviert Durst-Bedürfnis bei allen Kolonisten mit Stuhl-/Harndrang-Bedürfnis. Fügt Wasserspender und Wasserflaschen hinzu. Erfordert einen Neustart.</ThirstNeedTip>
+  <!-- EN: Fertilizer visible -->
+  <FertilizerVisible>Dünger ist sichtbar</FertilizerVisible>
+  <!-- EN: Set if the fertilizer grid should be visible -->
+  <FertilizerVisibleTip>Bestimme, ob die Düngerzone sichtbar sein soll.</FertilizerVisibleTip>
+  <!-- EN: Non-human colonists -->
+  <AllowNonHuman>Nicht-menschliche Kolonisten</AllowNonHuman>
+  <!-- EN: Enables needs on non-human colonists. You can disable specific beings with the needs filter. -->
+  <AllowNonHumanTip>Aktiviert Bedürfnisse für nicht-menschliche Kolonisten. Du kannst bestimmte Kreaturen mit dem Bedürfnisfilter deaktivieren.</AllowNonHumanTip>
+  <!-- EN: Extra features -->
+  <dbh.ExtraFeatures>Extra-Features</dbh.ExtraFeatures>
+  <!-- EN: Lite Mode (Simplifies the mod) -->
+  <DBHLiteMode>Lite-Modus (vereinfacht die Mod)</DBHLiteMode>
+  <!-- EN: Switch the mod into a simplified mode which removes pipes, water and sewage management, and any buildings and jobs not directly related to hygiene and thirst.\n\nThis will prevent many defs from loading and requires a restart.\n\nIf you are trying to load a save with existing hygiene buildings you may need to save and reload it after activating -->
+  <DBHLiteModeTip>Schalte die Mod in einen vereinfachten Modus, der Rohre, die Verwaltung von Wasser/Abwasser und alle Bauwerke und Tätigkeiten, die nichts direkt mit Hygiene und Durst zu tun haben, ausschaltet.\n\nDies verhindert das Laden vieler Defs und erfordert einen Neustart.\n\nWenn du versuchst, einen Spielstand mit vorhandenen Sanitäranlagen zu laden, musst du diesen nach Aktivierung des Lite-Modus möglicherweise speichern und neu laden.</DBHLiteModeTip>
+  <!-- EN: You must restart the game to enable Lite mode\n\nIf you are trying to load a save with existing hygiene buildings you may need to save and reload it after activating to clear errors -->
+  <LiteRequiresRestart>Du musst das Spiel neu starten, um den Lite-Modus zu aktivieren.\n\nWenn du versuchst, einen Spielstand mit vorhandenen Sanitäranlagen zu laden, musst du diesen nach Aktivierung des Lite-Modus möglicherweise speichern und neu laden, um Fehlermeldungen zu beseitigen.</LiteRequiresRestart>
+  <!-- EN: Passive coolers use water -->
+  <PassiveWaterCoolersLink>Passive Kühler nutzen Wasser</PassiveWaterCoolersLink>
+  <!-- EN: Passive coolers have their wood fueling removed and are instead filled with water, similar to water tubs. -->
+  <PassiveWaterCoolersLinkTip>Passive Kühler werden nicht mehr mit Holz, sondern mit Wasser gefüllt, so wie es bei Waschzubern der Fall ist.</PassiveWaterCoolersLinkTip>
+  <!-- EN: SoS2 integration -->
+  <sos2int>SoS2-Integration</sos2int>
+  <!-- EN: Adds water and sewage processing to life support, and adds pipes to ship structures. -->
+  <sos2intTip>Erweitert die Lebenserhaltung um die Aufbereitung von Wasser/Abwasser und fügt Rohre zu den Schiffsstrukturen hinzu.</sos2intTip>
+  <!-- EN: Stockpile water x{0} -->
+  <StockpileWater>Fülle Wasserflasche ab x{0}</StockpileWater>
+  <!-- EN: Bad Hygiene Wiki -->
+  <HygieneWiki>Bad Hygiene Wiki</HygieneWiki>
+  <!-- EN: Go to the Bad Hygiene Wiki -->
+  <HygieneWikiDesc>Besuche das Bad Hygiene Wiki.</HygieneWikiDesc>
+  <!-- EN: Survival mode -->
+  <SurvivalMode>Überlebensmodus</SurvivalMode>
+  <!-- EN: Limits the default shallow water grid generation to very small patches. Terrain features no longer generate water, and the radius around surface water is reduced.\n\nA new game is not required; works with existing saves. -->
+  <SurvivalModeTip>Begrenzt die Generierung des Flachwassergitters auf sehr kleine Bereiche. Geländeformen erzeugen kein Wasser mehr, und der Radius um Oberflächenwasser wird reduziert.\n\nEin neues Spiel ist nicht erforderlich; es funktioniert mit bestehenden Spielständen.</SurvivalModeTip>
+  <!-- EN: Hydroponics -->
+  <HydroponicsLink>Hydrokulturen</HydroponicsLink>
+  <!-- EN: Powered growing buildings like hydroponics have water tanks that require filling from pipes. Plants die from lack of water instead of power, but water tanks only fill when the building is powered. -->
+  <HydroponicsLinkTip>Elektrisch betriebene Bauwerke zum Kultivieren von Pflanzen, wie z. B. Hydrokulturen, haben Wasserspeicher, die über Rohrleitungen gefüllt werden müssen. Die Pflanzen sterben mangels Wasser, nicht mangels Strom. Allerdings füllen sich die Wasserspeicher nur, wenn das Bauwerk mit Strom versorgt wird.</HydroponicsLinkTip>
+  <!-- EN: A restart is required to add and remove thirst-related items.\n\nRestart now? -->
+  <ThirstRequiresRestart>Es ist ein Neustart erforderlich, um durstbezogene Elemente hinzuzufügen oder zu entfernen.\n\nJetzt neu starten?</ThirstRequiresRestart>
+
+</LanguageData>

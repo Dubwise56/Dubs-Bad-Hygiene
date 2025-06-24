@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- EN: irrigation sprinkler -->
+  <IrrigationSprinkler.label>Sprinkler</IrrigationSprinkler.label>
+  <!-- EN: Waters the surrounding area once every morning to improve the fertility of the soil through the day. Uses 1000L each morning at max radius. -->
+  <IrrigationSprinkler.description>Bewässert die umliegende Fläche jeden Tag am Morgen, um die Fruchtbarkeit des Bodens über den Tag hinweg zu erhöhen. Verbraucht jedes Mal 1000 Liter bei Maximalradius.</IrrigationSprinkler.description>
+
+  <!-- EN: fire sprinkler -->
+  <FireSprinkler.label>Löschsprinkler</FireSprinkler.label>
+  <!-- EN: Triggered by fire or high temperature. Douses flames with a spray of water. -->
+  <FireSprinkler.description>Wird durch Feuer oder hohe Temperaturen ausgelöst. Löscht Flammen mit Sprühwasser.</FireSprinkler.description>
+  <!-- EN: Trigger fire sprinkler -->
+  <FireSprinkler.comps.2.useLabel>Aktiviere Löschsprinkler</FireSprinkler.comps.2.useLabel>
+
+  <!-- EN: biosolids composter -->
+  <BiosolidsComposter.label>Klärdünger-Komposter</BiosolidsComposter.label>
+  <!-- EN: A composter for turning sewage into fertilizer for increasing the fertility of diggable terrain. -->
+  <BiosolidsComposter.description>Ein Komposter zur Umwandlung von Abwasser in Dünger, der zum Steigern der Fruchtbarkeit von Böden genutzt werden kann.</BiosolidsComposter.description>
+
+</LanguageData>

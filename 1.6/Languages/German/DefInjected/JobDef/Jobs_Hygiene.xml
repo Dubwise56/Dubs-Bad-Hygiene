@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- EN: activating TargetA -->
+  <TriggerFireSprinkler.reportString>aktiviert TargetA.</TriggerFireSprinkler.reportString>
+  <!-- EN: emptying TargetA -->
+  <emptySeptictank.reportString>leert TargetA.</emptySeptictank.reportString>
+  <!-- EN: emptying TargetA -->
+  <emptyLatrine.reportString>leert TargetA.</emptyLatrine.reportString>
+  <!-- EN: loading TargetA -->
+  <LoadWashing.reportString>belädt TargetA.</LoadWashing.reportString>
+  <!-- EN: unloading TargetA -->
+  <UnloadWashing.reportString>entlädt TargetA.</UnloadWashing.reportString>
+  <!-- EN: filling TargetA -->
+  <LoadComposter.reportString>füllt TargetA.</LoadComposter.reportString>
+  <!-- EN: taking compost out of TargetA -->
+  <UnloadComposter.reportString>entnimmt Klärdünger aus TargetA.</UnloadComposter.reportString>
+  <!-- EN: removing sewage -->
+  <RemoveSewage.reportString>entfernt Abwasser.</RemoveSewage.reportString>
+  <!-- EN: watching the spin cycle -->
+  <WatchWashingMachine.reportString>beobachtet den Schleudergang.</WatchWashingMachine.reportString>
+  <!-- EN: tipping TargetA -->
+  <TipOverSewage.reportString>schüttet TargetA aus.</TipOverSewage.reportString>
+  <!-- EN: draining TargetA -->
+  <DrainWaterTankJob.reportString>leert TargetA.</DrainWaterTankJob.reportString>
+  <!-- EN: fertilizing soil -->
+  <PlaceFertilizer.reportString>düngt Boden.</PlaceFertilizer.reportString>
+  <!-- EN: drinking water -->
+  <DBHDrinkFromGround.reportString>trinkt Wasser.</DBHDrinkFromGround.reportString>
+  <!-- EN: drinking water from TargetA -->
+  <DBHDrinkFromBasin.reportString>trinkt Wasser aus TargetA.</DBHDrinkFromBasin.reportString>
+  <!-- EN: filling water bottle from TargetA -->
+  <DBHPackWaterBottle.reportString>befüllt Flasche mit Wasser an TargetA.</DBHPackWaterBottle.reportString>
+  <!-- EN: stockpiling water from TargetA -->
+  <DBHStockpileWaterBottles.reportString>befüllt mehrere Flaschen mit Wasser an TargetA.</DBHStockpileWaterBottles.reportString>
+  <!-- EN: bringing water to TargetB -->
+  <DBHAdministerFluids.reportString>bringt Wasser zu TargetB.</DBHAdministerFluids.reportString>
+  <!-- EN: using the TargetA -->
+  <UseToilet.reportString>benutzt TargetA.</UseToilet.reportString>
+  <!-- EN: defecating in the open -->
+  <haveWildPoo.reportString>verrichtet Notdurft im Freien.</haveWildPoo.reportString>
+  <!-- EN: washing with TargetA -->
+  <useWashBucket.reportString>wäscht sich an TargetA.</useWashBucket.reportString>
+  <!-- EN: washing -->
+  <washAtCell.reportString>wäscht sich.</washAtCell.reportString>
+  <!-- EN: washing hands -->
+  <washHands.reportString>wäscht Hände.</washHands.reportString>
+  <!-- EN: washing TargetA -->
+  <washPatient.reportString>wäscht TargetA.</washPatient.reportString>
+  <!-- EN: refilling wash tub -->
+  <RefillTub.reportString>füllt Waschzuber.</RefillTub.reportString>
+  <!-- EN: refilling water -->
+  <RefillWater.reportString>füllt Wasser auf.</RefillWater.reportString>
+  <!-- EN: cleaning up bed pan -->
+  <cleanBedpan.reportString>reinigt Bettpfanne.</cleanBedpan.reportString>
+  <!-- EN: unclogging the blocked TargetA -->
+  <clearBlockage.reportString>beseitigt die Verstopfung in TargetA.</clearBlockage.reportString>
+
+</LanguageData>

@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!--   <PlaceFertilizer.label>fertilize</PlaceFertilizer.label>
+  <PlaceFertilizer.verb>fertilize</PlaceFertilizer.verb>
+  <PlaceFertilizer.gerund>fertilizing</PlaceFertilizer.gerund> -->
+
+  <PlaceFertilizer.label>fertilizar</PlaceFertilizer.label>
+  <PlaceFertilizer.verb>fertilizar</PlaceFertilizer.verb>
+  <PlaceFertilizer.gerund>fertilizando</PlaceFertilizer.gerund>
+
+  <!--   <TipSewage.label>tip sewage</TipSewage.label>
+  <TipSewage.verb>tip Sewage</TipSewage.verb>
+  <TipSewage.gerund>tipping over</TipSewage.gerund> -->
+
+  <TipSewage.label>volcar residuos</TipSewage.label>
+  <TipSewage.verb>volcar residuos</TipSewage.verb>
+  <TipSewage.gerund>volcando residuos</TipSewage.gerund>
+
+  <!--   <DrainWaterTank.label>drain water</DrainWaterTank.label>
+  <DrainWaterTank.verb>drain</DrainWaterTank.verb>
+  <DrainWaterTank.gerund>draining</DrainWaterTank.gerund> -->
+
+  <DrainWaterTank.label>drenar depósito</DrainWaterTank.label>
+  <DrainWaterTank.verb>drenar depósito</DrainWaterTank.verb>
+  <DrainWaterTank.gerund>drenando depósito</DrainWaterTank.gerund>
+
+  <!--   <DBHAdministerFluids.label>administer fluids</DBHAdministerFluids.label>
+  <DBHAdministerFluids.verb>give drink</DBHAdministerFluids.verb>
+  <DBHAdministerFluids.gerund>serving drink</DBHAdministerFluids.gerund> -->
+
+  <DBHAdministerFluids.label>servir bebida</DBHAdministerFluids.label>
+  <DBHAdministerFluids.verb>servir bebida</DBHAdministerFluids.verb>
+  <DBHAdministerFluids.gerund>sirviendo bebida</DBHAdministerFluids.gerund>
+
+  <!--   <DBHAdministerFluidsWarden.label>administer fluids</DBHAdministerFluidsWarden.label>
+  <DBHAdministerFluidsWarden.verb>give drink</DBHAdministerFluidsWarden.verb>
+  <DBHAdministerFluidsWarden.gerund>serving drink</DBHAdministerFluidsWarden.gerund> -->
+
+  <DBHAdministerFluidsWarden.label>servir bebida</DBHAdministerFluidsWarden.label>
+  <DBHAdministerFluidsWarden.verb>servir bebida</DBHAdministerFluidsWarden.verb>
+  <DBHAdministerFluidsWarden.gerund>sirviendo bebida</DBHAdministerFluidsWarden.gerund>
+
+  <!--   <ClearBlockage.label>clear blockage</ClearBlockage.label>
+  <ClearBlockage.verb>clear blockage</ClearBlockage.verb>
+  <ClearBlockage.gerund>clearing blockage</ClearBlockage.gerund> -->
+
+  <ClearBlockage.label>limpiar obstrucción</ClearBlockage.label>
+  <ClearBlockage.verb>limpiar obstrucción</ClearBlockage.verb>
+  <ClearBlockage.gerund>limpiando obstrucción</ClearBlockage.gerund>
+
+  <!--   <washPatient.label>wash patient</washPatient.label>
+  <washPatient.verb>wash</washPatient.verb>
+  <washPatient.gerund>washing</washPatient.gerund> -->
+
+  <washPatient.label>lavar al paciente</washPatient.label>
+  <washPatient.verb>lavar al paciente</washPatient.verb>
+  <washPatient.gerund>lavando al paciente</washPatient.gerund>
+
+  <!--   <DocCleanBedpan.label>clean bed pan</DocCleanBedpan.label>
+  <DocCleanBedpan.verb>clean</DocCleanBedpan.verb>
+  <DocCleanBedpan.gerund>cleaning</DocCleanBedpan.gerund> -->
+
+  <DocCleanBedpan.label>limpiar orinal</DocCleanBedpan.label>
+  <DocCleanBedpan.verb>limpiar orinal</DocCleanBedpan.verb>
+  <DocCleanBedpan.gerund>limpiando orinal</DocCleanBedpan.gerund>
+
+  <!--   <cleanBedpan.label>clean bed pan</cleanBedpan.label>
+  <cleanBedpan.verb>clean</cleanBedpan.verb>
+  <cleanBedpan.gerund>cleaning</cleanBedpan.gerund> -->
+
+  <cleanBedpan.label>limpiar orinal</cleanBedpan.label>
+  <cleanBedpan.verb>limpiar</cleanBedpan.verb>
+  <cleanBedpan.gerund>limpiando</cleanBedpan.gerund>
+
+</LanguageData>

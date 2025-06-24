@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Heating -->
+
+  <Thermostat.label>termostat</Thermostat.label>
+  <Thermostat.description>Służy do sterowania kotłami elektrycznymi i gazowymi. Można umieścić więcej niż jeden. Podłączenie poprzez standardową instalację wodno-kanalizacyjną.</Thermostat.description>
+  <Thermostat_Blueprint.label>termostat (blueprint)</Thermostat_Blueprint.label>
+  <Thermostat_Blueprint_Install.label>termostat (blueprint)</Thermostat_Blueprint_Install.label>
+  <Thermostat_Frame.label>termostat (building)</Thermostat_Frame.label>
+  <Thermostat_Frame.description>Służy do sterowania kotłami elektrycznymi i gazowymi. Można umieścić więcej niż jeden. Podłączenie poprzez standardową instalację wodno-kanalizacyjną.</Thermostat_Frame.description>
+
+  <LogBoiler.label>kocioł na drewno</LogBoiler.label>
+  <LogBoiler.description>Wytwarza 2000 jednostek grzewczych do grzejników rurowych i zbiorników ciepłej wody. Ogrzewa pomieszczenie i przyległe łazienki. Wymaga drewnianych polan jako paliwa.</LogBoiler.description>
+  <LogBoiler_Blueprint.label>kocioł na drewno (blueprint)</LogBoiler_Blueprint.label>
+  <LogBoiler_Blueprint_Install.label>kocioł na drewno (blueprint)</LogBoiler_Blueprint_Install.label>
+  <LogBoiler_Frame.label>kocioł na drewno (building)</LogBoiler_Frame.label>
+  <LogBoiler_Frame.description>Wytwarza 2000 jednostek grzewczych do grzejników rurowych i zbiorników ciepłej wody. Ogrzewa pomieszczenie i przyległe łazienki. Wymaga drewnianych polan jako paliwa.</LogBoiler_Frame.description>
+
+  <GasBoiler.label>kocioł gazowy</GasBoiler.label>
+  <GasBoiler.description>Produkuje 2000 jednostek grzewczych do grzejników i zbiorników ciepłej wody. Wymaga paliwa chemicznego jako paliwa. Może być kontrolowany przez termostaty.</GasBoiler.description>
+  <GasBoiler_Blueprint.label>kocioł gazowy (blueprint)</GasBoiler_Blueprint.label>
+  <GasBoiler_Blueprint_Install.label>kocioł gazowy (blueprint)</GasBoiler_Blueprint_Install.label>
+  <GasBoiler_Frame.label>kocioł gazowy (building)</GasBoiler_Frame.label>
+  <GasBoiler_Frame.description>Produkuje 2000 jednostek grzewczych do grzejników i zbiorników ciepłej wody. Wymaga paliwa chemicznego jako paliwa. Może być kontrolowany przez termostaty.</GasBoiler_Frame.description>
+
+  <ElectricBoiler.label>kocioł elektryczny</ElectricBoiler.label>
+  <ElectricBoiler.description>Wytwarza zmienną ilość jednostek grzewczych dla grzejników i zbiorników ciepłej wody. Ręcznie sterowane ustawienie mocy. Może być sterowany przez termostaty.</ElectricBoiler.description>
+  <ElectricBoiler_Blueprint.label>kocioł elektryczny (blueprint)</ElectricBoiler_Blueprint.label>
+  <ElectricBoiler_Blueprint_Install.label>kocioł elektryczny (blueprint)</ElectricBoiler_Blueprint_Install.label>
+  <ElectricBoiler_Frame.label>kocioł elektryczny (building)</ElectricBoiler_Frame.label>
+  <ElectricBoiler_Frame.description>Wytwarza zmienną ilość jednostek grzewczych dla grzejników i zbiorników ciepłej wody. Ręcznie sterowane ustawienie mocy. Może być sterowany przez termostaty.</ElectricBoiler_Frame.description>
+
+  <SolarHeater.label>podgrzewacz solarny</SolarHeater.label>
+  <SolarHeater.description>Wykorzystuje światło słoneczne do ogrzewania zbiorników z gorącą wodą i grzejników. 0-2000 jednostek mocy grzewczej w zależności od poziomu oświetlenia i temperatury otoczenia.</SolarHeater.description>
+  <SolarHeater_Blueprint.label>podgrzewacz solarny (blueprint)</SolarHeater_Blueprint.label>
+  <SolarHeater_Frame.label>podgrzewacz solarny (building)</SolarHeater_Frame.label>
+  <SolarHeater_Frame.description>Wykorzystuje światło słoneczne do ogrzewania zbiorników z gorącą wodą i grzejników. 0-2000 jednostek mocy grzewczej w zależności od poziomu oświetlenia i temperatury otoczenia.</SolarHeater_Frame.description>
+
+  <HotWaterTank.label>zbiornik ciepłej wody</HotWaterTank.label>
+  <HotWaterTank.description>Przechowuje gorącą bieżącą wodę do prysznica i kąpieli. Podłączyć do dowolnego kotła grzewczego, aby ogrzewać.</HotWaterTank.description>
+  <HotWaterTank_Blueprint.label>zbiornik ciepłej wody (blueprint)</HotWaterTank_Blueprint.label>
+  <HotWaterTank_Blueprint_Install.label>zbiornik ciepłej wody (blueprint)</HotWaterTank_Blueprint_Install.label>
+  <HotWaterTank_Frame.label>zbiornik ciepłej wody (building)</HotWaterTank_Frame.label>
+  <HotWaterTank_Frame.description>Przechowuje gorącą bieżącą wodę do prysznica i kąpieli. Podłączyć do dowolnego kotła grzewczego, aby ogrzewać.</HotWaterTank_Frame.description>
+
+  <RadiatorStuffed.label>grzejnik</RadiatorStuffed.label>
+  <RadiatorStuffed.description>Ogrzewa pomieszczenia za pomocą gorącej wody. Wymaga 100 jednostek grzewczych.</RadiatorStuffed.description>
+  <RadiatorStuffed_Blueprint.label>grzejnik (blueprint)</RadiatorStuffed_Blueprint.label>
+  <RadiatorStuffed_Blueprint_Install.label>grzejnik (blueprint)</RadiatorStuffed_Blueprint_Install.label>
+  <RadiatorStuffed_Frame.label>grzejnik (building)</RadiatorStuffed_Frame.label>
+  <RadiatorStuffed_Frame.description>Ogrzewa pomieszczenia za pomocą gorącej wody. Wymaga 100 jednostek grzewczych.</RadiatorStuffed_Frame.description>
+
+  <RadiatorLarge.label>duży grzejnik</RadiatorLarge.label>
+  <RadiatorLarge.description>Trzykrotnie większa wydajność niż w przypadku standardowego grzejnika. Przydatny do większych pomieszczeń. Wymaga 300 jednostek grzewczych.</RadiatorLarge.description>
+  <RadiatorLarge_Blueprint.label>duży grzejnik (blueprint)</RadiatorLarge_Blueprint.label>
+  <RadiatorLarge_Blueprint_Install.label>duży grzejnik (blueprint)</RadiatorLarge_Blueprint_Install.label>
+  <RadiatorLarge_Frame.label>duży grzejnik (building)</RadiatorLarge_Frame.label>
+  <RadiatorLarge_Frame.description>Trzykrotnie większa wydajność niż w przypadku standardowego grzejnika. Przydatny do większych pomieszczeń. Wymaga 300 jednostek grzewczych.</RadiatorLarge_Frame.description>
+
+
+  <!-- COOLING -->
+
+  <CeilingFan.label>wentylator sufitowy 2x2</CeilingFan.label>
+  <CeilingFan.description>Chłodzi pomieszczenie poprzez cyrkulację powietrza. Zawiera wbudowaną lampę.</CeilingFan.description>
+  <CeilingFan_Blueprint.label>wentylator sufitowy 2x2 (blueprint)</CeilingFan_Blueprint.label>
+  <CeilingFan_Blueprint_Install.label>wentylator sufitowy 2x2 (blueprint)</CeilingFan_Blueprint_Install.label>
+  <CeilingFan_Frame.label>wentylator sufitowy 2x2 (building)</CeilingFan_Frame.label>
+  <CeilingFan_Frame.description>Chłodzi pomieszczenie poprzez cyrkulację powietrza. Zawiera wbudowaną lampę.</CeilingFan_Frame.description>
+
+  <CeilingFanS.label>wentylator sufitowy 1x1</CeilingFanS.label>
+  <CeilingFanS.description>Chłodzi pomieszczenie poprzez cyrkulację powietrza. Zawiera wbudowaną lampę.</CeilingFanS.description>
+  <CeilingFanS_Blueprint.label>wentylator sufitowy 1x1 (blueprint)</CeilingFanS_Blueprint.label>
+  <CeilingFanS_Blueprint_Install.label>wentylator sufitowy 1x1 (blueprint)</CeilingFanS_Blueprint_Install.label>
+  <CeilingFanS_Frame.label>wentylator sufitowy 1x1 (building)</CeilingFanS_Frame.label>
+  <CeilingFanS_Frame.description>Chłodzi pomieszczenie poprzez cyrkulację powietrza. Zawiera wbudowaną lampę.</CeilingFanS_Frame.description>
+
+  <AirConOutdoorUnit.label>jednostka zewnętrzna air-con</AirConOutdoorUnit.label>
+  <AirConOutdoorUnit.description>Jednostka klimatyzacyjna typu multi-split. Umieścić na zewnątrz i rury do jednostek wewnętrznych lub jednostek zamrażarki. Wybór trybu mocy z wydajnością 100-1000 jednostek chłodzących.</AirConOutdoorUnit.description>
+  <AirConOutdoorUnit_Blueprint.label>jednostka zewnętrzna air-con (blueprint)</AirConOutdoorUnit_Blueprint.label>
+  <AirConOutdoorUnit_Blueprint_Install.label>jednostka zewnętrzna air-con (blueprint)</AirConOutdoorUnit_Blueprint_Install.label>
+  <AirConOutdoorUnit_Frame.label>jednostka zewnętrzna air-con (building)</AirConOutdoorUnit_Frame.label>
+  <AirConOutdoorUnit_Frame.description>Jednostka klimatyzacyjna typu multi-split. Umieścić na zewnątrz i rury do jednostek wewnętrznych lub jednostek zamrażarki. Wybór trybu mocy z wydajnością 100-1000 jednostek chłodzących.</AirConOutdoorUnit_Frame.description>
+
+  <AirconIndoorUnit.label>jednostka wewnętrzna air-con</AirconIndoorUnit.label>
+  <AirconIndoorUnit.description>Wewnętrzna jednostka klimatyzacyjna do pomieszczeń. Podłączenie do zewnętrznych jednostek klimatyzacyjnych. Wymaga 100 jednostek chłodzących.</AirconIndoorUnit.description>
+  <AirconIndoorUnit_Blueprint.label>jednostka wewnętrzna air-con (blueprint)</AirconIndoorUnit_Blueprint.label>
+  <AirconIndoorUnit_Blueprint_Install.label>jednostka wewnętrzna air-con (blueprint)</AirconIndoorUnit_Blueprint_Install.label>
+  <AirconIndoorUnit_Frame.label>jednostka wewnętrzna air-con (building)</AirconIndoorUnit_Frame.label>
+  <AirconIndoorUnit_Frame.description>Wewnętrzna jednostka klimatyzacyjna do pomieszczeń. Podłączenie do zewnętrznych jednostek klimatyzacyjnych. Wymaga 100 jednostek chłodzących.</AirconIndoorUnit_Frame.description>
+
+  <FreezerUnit.label>zamrażarka typu walk-in</FreezerUnit.label>
+  <FreezerUnit.description>Zamrażarka do stworzenia chłodni typu walk-in. Podłączenie do zewnętrznych jednostek klimatyzacyjnych. Wymaga 300 jednostek chłodzących.</FreezerUnit.description>
+  <FreezerUnit_Blueprint.label>zamrażarka typu walk-in (blueprint)</FreezerUnit_Blueprint.label>
+  <FreezerUnit_Blueprint_Install.label>zamrażarka typu walk-in (blueprint)</FreezerUnit_Blueprint_Install.label>
+  <FreezerUnit_Frame.label>zamrażarka typu walk-in (building)</FreezerUnit_Frame.label>
+  <FreezerUnit_Frame.description>Zamrażarka do stworzenia chłodni typu walk-in. Podłączenie do zewnętrznych jednostek klimatyzacyjnych. Wymaga 300 jednostek chłodzących.</FreezerUnit_Frame.description>
+
+
+</LanguageData>

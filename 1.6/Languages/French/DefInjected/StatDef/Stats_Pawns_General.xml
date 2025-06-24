@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<ThirstRateMultiplier.label>Multiplicateur de taux de soif</ThirstRateMultiplier.label>
+<ThirstRateMultiplier.description>Vitesse à laquelle le besoin de soif augmente.</ThirstRateMultiplier.description>
+<HygieneRateMultiplier.label>Multiplicateur de taux d'hygiène</HygieneRateMultiplier.label>
+<HygieneRateMultiplier.description>Vitesse à laquelle le besoin d'hygiène augmente.</HygieneRateMultiplier.description>
+<BladderRateMultiplier.label>Multiplicateur de taux de remplissage de vessie</BladderRateMultiplier.label>
+<BladderRateMultiplier.description>Vitesse à laquelle le taux de remplissage de vessie augmente.</BladderRateMultiplier.description>
+</LanguageData>

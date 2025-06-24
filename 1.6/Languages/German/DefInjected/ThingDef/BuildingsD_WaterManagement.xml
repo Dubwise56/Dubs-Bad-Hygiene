@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- EN: water well -->
+  <WaterWellInlet.label>Brunnen</WaterWellInlet.label>
+  <!-- EN: Accesses ground water which can be pumped by water pumps. The presence of sewage or other pollution will reduce water quality and can cause contamination. -->
+  <WaterWellInlet.description>Gewährt Zugang zu Grundwasser, das mit Pumpen gefördert werden kann. Abwasser oder ähnliches in der Nähe beeinträchtigt die Wasserqualität und kann zu einer Kontamination führen.</WaterWellInlet.description>
+
+  <!-- EN: deep water well -->
+  <DeepWaterWellInlet.label>Tiefer Brunnen</DeepWaterWellInlet.label>
+  <!-- EN: Accesses a large area of ground water which can be pumped by water pumps. Deep wells are unaffected by pollution. -->
+  <DeepWaterWellInlet.description>Gewährt Zugang zu einem großen Vorkommen an Grundwasser, das mit Pumpen gefördert werden kann. Tiefe Brunnen können keiner Kontamination ausgesetzt werden.</DeepWaterWellInlet.description>
+
+  <!-- EN: water butt -->
+  <WaterButt.label>Wassertonne</WaterButt.label>
+  <!-- EN: Stores water for use by plumbed fixtures. If the contained water becomes contaminated, the tank must be drained. -->
+  <WaterButt.description>Speichert Wasser, das von Sanitäranlagen genutzt werden kann. Wenn das enthaltene Wasser zu stark verunreinigt ist, muss es abgelassen werden.</WaterButt.description>
+
+  <!-- EN: water tower -->
+  <WaterTowerS.label>Wasserturm</WaterTowerS.label>
+  <!-- EN: Stores water for use by plumbed fixtures. If the contained water becomes contaminated, the tank must be drained. -->
+  <WaterTowerS.description>Speichert Wasser, das von Sanitäranlagen genutzt werden kann. Wenn das enthaltene Wasser zu stark verunreinigt ist, muss es abgelassen werden.</WaterTowerS.description>
+
+  <!-- EN: huge water tower -->
+  <WaterTowerL.label>großer Wasserturm</WaterTowerL.label>
+  <!-- EN: Stores water for use by plumbed fixtures. If the contained water becomes contaminated, the tank must be drained. -->
+  <WaterTowerL.description>Speichert Wasser, das von Sanitäranlagen genutzt werden kann. Wenn das enthaltene Wasser zu stark verunreinigt ist, muss es abgelassen werden.</WaterTowerL.description>
+
+  <!-- EN: wind pump -->
+  <WindPump.label>Windpumpe</WindPump.label>
+  <!-- EN: Pumps water from wells to water towers. Pumping capacity: 3000 L/day. -->
+  <WindPump.description>Pumpt Wasser von Brunnen zu Wassertürmen. Pumpleistung: 3000 L/Tag.</WindPump.description>
+
+  <!-- EN: electric pump -->
+  <ElectricPump.label>elektr. Pumpe</ElectricPump.label>
+  <!-- EN: Pumps water from wells to water towers. Pumping capacity: 1500 L/day. -->
+  <ElectricPump.description>Pumpt Wasser von Brunnen zu Wassertürmen. Pumpleistung: 1500 L/Tag.</ElectricPump.description>
+
+  <!-- EN: pumping station -->
+  <PumpingStation.label>Pumpstation</PumpingStation.label>
+  <!-- EN: Pumps water from wells to water towers. Pumping capacity: 10000 L/day. -->
+  <PumpingStation.description>Pumpt Wasser von Brunnen zu Wassertürmen. Pumpleistung: 10000 L/Tag.</PumpingStation.description>
+
+  <!-- EN: sewage outlet -->
+  <SewageOutlet.label>Abwasserauslass</SewageOutlet.label>
+  <!-- EN: Can be placed anywhere. Sewage will pool and spread on land or disperse in water. Sewage cleans up over time; the presence of trees, water, or rain will speed this up. -->
+  <SewageOutlet.description>Kann überall platziert werden. Das Abwasser sammelt sich und verteilt sich an Land oder im Wasser. Abwasser reinigt sich mit der Zeit; Nahe Bäume, Wasser oder Regen beschleunigen diesen Prozess.</SewageOutlet.description>
+
+  <!-- EN: septic tank -->
+  <SewageSepticTank.label>Klärgrube</SewageSepticTank.label>
+  <!-- EN: Slowly cleans sewage over time. Sewage is directed to septic tanks first. If it reaches full capacity, excess sewage is sent to sewage outlets. -->
+  <SewageSepticTank.description>Ermöglicht eine langsame, aber kontinuierliche Reinigung von Abwasser. Das Abwasser wird zunächst in Klärgruben geleitet. Wenn die Kapazität erreicht ist, wird das überschüssige Abwasser zu Abwasserauslässen geleitet.</SewageSepticTank.description>
+
+  <!-- EN: sewage treatment -->
+  <SewageTreatment.label>Kläranlage</SewageTreatment.label>
+  <!-- EN: Slowly cleans sewage over time. If it reaches full capacity then excess sewage is sent directly to sewage outlets without treatment. -->
+  <SewageTreatment.description>Ermöglicht eine langsame, aber kontinuierliche Reinigung von Abwasser. Wenn die Kapazität erreicht ist, wird das überschüssige Abwasser zu Abwasserauslässen geleitet.</SewageTreatment.description>
+
+  <!-- EN: water treatment -->
+  <WaterTreatment.label>Wasserfilteranlage</WaterTreatment.label>
+  <!-- EN: Cleans 99.99% of germs! Filters existing water in storage towers, and any water used by fixtures, eliminating the risk of disease. -->
+  <WaterTreatment.description>Macht das Wasser zu 99,99 Prozent keimfrei! Filtert vorhandenes Wasser in Wassertürmen und jegliches von Sanitäranlagen genutztes Wasser und beseitigt so das Risiko von Krankheiten.</WaterTreatment.description>
+
+</LanguageData>

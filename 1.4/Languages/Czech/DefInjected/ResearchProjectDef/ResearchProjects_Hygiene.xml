@@ -9,7 +9,7 @@
 
 	<MultiSplitAirCon.description>Umožní postavit multisplitové klimatizační systémy s vnějšími jednotkami napojenými na vnitřní jednotky a mrazáky.</MultiSplitAirCon.description>
 
-<Plumbing.label>Instalatérství</Plumbing.label>
+	<Plumbing.label>Instalatérství</Plumbing.label>
 
 	<Plumbing.description>Umožní využití potrubí, vodovodních instalací, nádrží na vodu, vodních pump a dalších zařízení k přivádění či odvádění vody a odvádění odpadní vody.</Plumbing.description>
 
@@ -21,19 +21,11 @@
 
 	<CentralHeating.description>Umožní postavit centrální vytápění s radiátory, nádržemi na teplou vodu, bojlery a termostaty.</CentralHeating.description>
 
-	<GeothermalHeating.label>Geotermální vytápění</GeothermalHeating.label>
-
-	<GeothermalHeating.description>Umožní postavit geotermální bojlery nad gejzíry pro centrální vytápění a nádrže na pitnou vodu.</GeothermalHeating.description>
-
-	<Saunas.label>Sauny</Saunas.label>
-
-	<Saunas.description>Umožní postavit vyhrazenou místnost se saunovým topným tělesem, kde budou kolonisté moci relaxovat a umýt se. Časté saunování také snižuje riziko srdečního infakrktu.</Saunas.description>
-
 	<ModernFixtures.label>Moderní výbava koupelen</ModernFixtures.label>
 
 	<ModernFixtures.description>Umožní ti vybavit koupelny moderním vybavením, jako například toaletami nebo sprchami.</ModernFixtures.description>
 
-<ElectricPumps.label>Elektrická čerpadla</ElectricPumps.label>
+	<ElectricPumps.label>Elektrická čerpadla</ElectricPumps.label>
 
 	<ElectricPumps.description>Elektřinou poháněná vodní čerpadla pro nepřetržité, tlakové čerpání vody.</ElectricPumps.description>
 
@@ -41,11 +33,11 @@
 
 	<AdvancedShowers.description>Výkonné sprchy zkracují čas strávený mytím na polovinu a zvyšují komfort.</AdvancedShowers.description>
 
-<AdvancedToilets.label>Chytré toalety</AdvancedToilets.label>
+	<AdvancedToilets.label>Chytré toalety</AdvancedToilets.label>
 
 	<AdvancedToilets.description>Umožní postavit chytré toalety, které mají dvakrát nižší spotřebu vody, než ty standardní, a také poskytují větší komfort.</AdvancedToilets.description>
 
-<HotTubs.label>Vířivky</HotTubs.label>
+	<HotTubs.label>Vířivky</HotTubs.label>
 
 	<HotTubs.description>Umožní postavit vířivky, které lze použít pro hydroterapii, relaxaci a potěchu ducha.</HotTubs.description>
 
@@ -83,7 +75,7 @@
 
 	<Irrigation.label>Zavlažování</Irrigation.label>
 
-	<Irrigation.description>Umožní postavit rozstříkovače, které zavlažováním půdy zlepšují úrodnost.</Irrigation.description>
+	<Irrigation.description>Build sprinklers that can irrigate soil to improve fertility.</Irrigation.description>
 
 	<FireSuppression.label>Protipožární systémy</FireSuppression.label>
 

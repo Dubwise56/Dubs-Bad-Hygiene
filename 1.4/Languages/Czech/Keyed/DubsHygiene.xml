@@ -1,13 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-
-	<dbh.Things>Věci:</dbh.Things>
-	<dbh.Terrain>Terén:</dbh.Terrain>
-	<dbh.Environment>Prostředí:</dbh.Environment>
-	<dbh.Pollution>Znečištění</dbh.Pollution>
-	<dbh.Sewagecontamination>Kontaminace odpadními vodami</dbh.Sewagecontamination>
-
   <!--Construction-->
   <DesignatorRemovePlumbing>Odstranit potrubí</DesignatorRemovePlumbing>
   <DesignatorRemovePlumbingDesc>Označí sekce potrubního systému k rozebrání.</DesignatorRemovePlumbingDesc>
@@ -16,14 +9,7 @@
   <RemovePlumbing>Odstranit potrubí</RemovePlumbing>
   <RemoveAirCon>Odstranit klimatizaci</RemoveAirCon>
 
-  <!--Warnings--> 
-  <DBH.requiresSaunaRoom>Místnost je pro vytápění moc veliká!\nMaximum na jedno topné těleso je 50 políček\nPřidej další saunová topná tělesa nebo místnost zmenši.</DBH.requiresSaunaRoom>
-	<DBH.HeatedPool>Bazén je vyhřívaný</DBH.HeatedPool>
-	<DBH.CantUsePool>Teď nelze bazén použít:</DBH.CantUsePool>
-	<DBH.PoolRaining>Prší</DBH.PoolRaining>
-	<DBH.PoolTooCold>Příliš velká zima {0}</DBH.PoolTooCold>
-	<DBHPrisonWater>Vězení potřebuje zdroj vody</DBHPrisonWater>
-    <DBHPrisonWaterEx>Vězeňská cela nemá přístup k pitné vodě, postav aspoň jeden zdroj pitné vody, jako jsou třeba necky s vodou nebo umyvadlo, aby měli vězni přístup k pitné vodě.</DBHPrisonWaterEx>
+  <!--Warnings-->
   <Alert_MissingTower>Chybí vodojem</Alert_MissingTower>
   <Alert_MissingTowerDesc>K uskladnění vody načerpané ze studní je potřeba vodojem nebo sud na vodu.</Alert_MissingTowerDesc>
   <Alert_MissingWell>Chybí studna</Alert_MissingWell>
@@ -85,13 +71,6 @@
   <dbh.Animalsonly>Pouze pro zvířata</dbh.Animalsonly>
   <ChangeOccupancyRestriction>Kontrola obsazenosti</ChangeOccupancyRestriction>
   <ChangeOccupancyRestrictionDesc>Určuje, zda postavy zkontrolují, zda je v místnosti něco zarezervované, než půjdou používat vybavení, což jim zabrání, aby se navzájem obtěžovaly při používání umyvadel či toalet</ChangeOccupancyRestrictionDesc>
-  	<dbh.AllowColonists>Kolonisté</dbh.AllowColonists>
-	<dbh.AllowSlaves>Otroci</dbh.AllowSlaves>
-	<dbh.AllowGuests>Hosté</dbh.AllowGuests>
-	<dbh.NoColonists>Ne pro kolonisty</dbh.NoColonists>
-	<dbh.NoSlaves>Ne pro otroky</dbh.NoSlaves>
-	<dbh.NoGuests>Ne pro hosty</dbh.NoGuests>
-
 
   <!--Heating-->
   <WaterTemp>Teplota vody: {0}</WaterTemp>
@@ -194,9 +173,6 @@
   <RemoveFertilizerArea>Odstranit oblast</RemoveFertilizerArea>
 
   <!--Mod Options-->
-  	<dbh.DrinkPackSearchRange>Rozsah pro hledání pití k zabalení: {0}</dbh.DrinkPackSearchRange>
-	<dbh.DrinksToPack>Balení nápojů: hledat: {0}, balit: {1}</dbh.DrinksToPack>
-	<dbh.restartconfirm>Restart</dbh.restartconfirm>
   <dbh.PriorityIndoorCleaning>Prioritizovat úklid vnitřních prostor</dbh.PriorityIndoorCleaning>
   <dbh.PriorityIndoorCleaningTip>Zvýší prioritu úklidu nečistot ve vnitřních prostorách</dbh.PriorityIndoorCleaningTip>
   <dbh.ModRemove>Asistence s odstraňováním modů</dbh.ModRemove>

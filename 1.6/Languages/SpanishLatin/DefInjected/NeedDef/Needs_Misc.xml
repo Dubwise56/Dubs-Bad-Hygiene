@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!--   <Bladder.label>bladder</Bladder.label>
+  <Bladder.description>To prevent the risk of disease it is important to maintain a good level of sanitation by removing or treating waste, and preventing sewage from contaminating your water supply.</Bladder.description> -->
+
+  <Bladder.label>Vejiga</Bladder.label>
+  <Bladder.description>Para prevenir el riesgo de enfermedades es importante mantener un buen nivel de saneamiento, eliminando o tratando los residuos y evitando que las aguas residuales contaminen el suministro de agua.</Bladder.description>
+
+  <!-- DONT CHANGE NAMES WILL BREAK RIMHUD -->
+
+  <!--   <Hygiene.label>hygiene</Hygiene.label>
+  <Hygiene.description>Good personal hygiene is important for reducing the risk of disease and keeping colonists happy and healthy.</Hygiene.description> -->
+
+  <Hygiene.label>Higiene</Hygiene.label>
+  <Hygiene.description>Una buena higiene personal es importante para reducir el riesgo de contraer enfermedades y mantener a los colonos felices y sanos.</Hygiene.description>
+
+  <!-- COMMON SENSE WILL FORCE THEM TO DRINK WHEN THIRST FALLS TO ONLY 80% -->
+
+  <!--   <DBHThirst.label>thirst</DBHThirst.label>
+  <DBHThirst.description>Water is required for many of life’s physiological processes. If this reaches zero then the creature will slowly die of dehydration.</DBHThirst.description> -->
+
+  <DBHThirst.label>Sed</DBHThirst.label>
+  <DBHThirst.description>El agua es necesaria para muchos de los procesos fisiológicos de la vida. Si ésta llega a cero, la criatura morirá lentamente por deshidratación.</DBHThirst.description>
+
+
+</LanguageData>

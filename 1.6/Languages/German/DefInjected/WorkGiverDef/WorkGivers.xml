@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- EN: fertilize -->
+  <PlaceFertilizer.label>düngen</PlaceFertilizer.label>
+  <!-- EN: fertilize -->
+  <PlaceFertilizer.verb>düngen</PlaceFertilizer.verb>
+  <!-- EN: fertilizing -->
+  <PlaceFertilizer.gerund>Düngen im</PlaceFertilizer.gerund>
+
+  <!-- EN: tip sewage -->
+  <TipSewage.label>Abwasser ausschütten</TipSewage.label>
+  <!-- EN: tip Sewage -->
+  <TipSewage.verb>Abwasser ausschütten</TipSewage.verb>
+  <!-- EN: tipping over -->
+  <TipSewage.gerund>Ausschütten von</TipSewage.gerund>
+
+  <!-- EN: drain water -->
+  <DrainWaterTank.label>Wasser ablassen</DrainWaterTank.label>
+  <!-- EN: drain -->
+  <DrainWaterTank.verb>entleeren</DrainWaterTank.verb>
+  <!-- EN: draining -->
+  <DrainWaterTank.gerund>Entleeren von</DrainWaterTank.gerund>
+
+  <!-- EN: administer fluids -->
+  <DBHAdministerFluids.label>Trinkbares verabreichen</DBHAdministerFluids.label>
+  <!-- EN: give drink -->
+  <DBHAdministerFluids.verb>mit Trinkbarem versorgen</DBHAdministerFluids.verb>
+  <!-- EN: serving drink -->
+  <DBHAdministerFluids.gerund>Bringen von Trinkbarem zu</DBHAdministerFluids.gerund>
+
+  <!-- EN: administer fluids -->
+  <DBHAdministerFluidsWarden.label>Trinkbares verabreichen</DBHAdministerFluidsWarden.label>
+  <!-- EN: give drink -->
+  <DBHAdministerFluidsWarden.verb>mit Trinkbarem versorgen</DBHAdministerFluidsWarden.verb>
+  <!-- EN: serving drink -->
+  <DBHAdministerFluidsWarden.gerund>Bringen von Trinkbarem zu</DBHAdministerFluidsWarden.gerund>
+
+  <!-- EN: clear blockage -->
+  <ClearBlockage.label>Verstopfung lösen</ClearBlockage.label>
+  <!-- EN: clear blockage -->
+  <ClearBlockage.verb>von der Verstopfung befreien</ClearBlockage.verb>
+  <!-- EN: clearing blockage -->
+  <ClearBlockage.gerund>Lösen der Verstopfung in</ClearBlockage.gerund>
+
+  <!-- EN: wash patient -->
+  <washPatient.label>Patient waschen</washPatient.label>
+  <!-- EN: wash -->
+  <washPatient.verb>waschen</washPatient.verb>
+  <!-- EN: washing -->
+  <washPatient.gerund>Waschen von</washPatient.gerund>
+
+  <!-- EN: clean bed pan -->
+  <DocCleanBedpan.label>Bettpfanne reinigen</DocCleanBedpan.label>
+  <!-- EN: clean -->
+  <DocCleanBedpan.verb>reinigen</DocCleanBedpan.verb>
+  <!-- EN: cleaning -->
+  <DocCleanBedpan.gerund>Reinigen von</DocCleanBedpan.gerund>
+
+  <!-- EN: clean bed pan -->
+  <cleanBedpan.label>Bettpfanne reinigen</cleanBedpan.label>
+  <!-- EN: clean -->
+  <cleanBedpan.verb>reinigen</cleanBedpan.verb>
+  <!-- EN: cleaning -->
+  <cleanBedpan.gerund>Reinigen von</cleanBedpan.gerund>
+
+</LanguageData>

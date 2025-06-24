@@ -1,17 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-	<DoBillsBurnPit.label>Spálit fekálie</DoBillsBurnPit.label>
+	<DoBillsBurnPit.label>Spal to v jámě</DoBillsBurnPit.label>
 
 	<DoBillsBurnPit.verb>Spálit</DoBillsBurnPit.verb>
 
-	<DoBillsBurnPit.gerund>Spaluje u:</DoBillsBurnPit.gerund>
+	<DoBillsBurnPit.gerund>Pálí u</DoBillsBurnPit.gerund>
 
-	<RemoveSewage.label>Naházet splašky do sudu</RemoveSewage.label>
+	<RemoveSewage.label>Naházet odpadní vodu do barelů</RemoveSewage.label>
 
-	<RemoveSewage.verb>Odstranit splašky</RemoveSewage.verb>
+	<RemoveSewage.verb>Odstranit odpadní vodu</RemoveSewage.verb>
 
-	<RemoveSewage.gerund>Odstraňuje splašky</RemoveSewage.gerund>
+	<RemoveSewage.gerund>Odstraňuje odpadní vodu</RemoveSewage.gerund>
 
 	<UnloadWashing.label>Vyprázdnit pračku</UnloadWashing.label>
 
@@ -23,9 +23,9 @@
 
 	<LoadWashing.verb>Naplnit pračku</LoadWashing.verb>
 
-	<LoadWashing.gerund>Plní pračku</LoadWashing.gerund>
+	<LoadWashing.gerund>Naplňuje pračku</LoadWashing.gerund>
 
-	<UnloadComposter.label>Vybrat kompost z kompostéru</UnloadComposter.label>
+	<UnloadComposter.label>Vytáhnout kompost z kompostéru</UnloadComposter.label>
 
 	<UnloadComposter.verb>Vybrat kompost</UnloadComposter.verb>
 
@@ -43,28 +43,16 @@
 
 	<emptySepticTank.gerund>Vyprazdňuje</emptySepticTank.gerund>
 
-	<WardenEmptySepticTank.label>Vyprázdnit septik</WardenEmptySepticTank.label>
-
-	<WardenEmptySepticTank.verb>Vyprázdnit</WardenEmptySepticTank.verb>
-
-	<WardenEmptySepticTank.gerund>Vyprazdňuje</WardenEmptySepticTank.gerund>
-
 	<RefillWater.label>Doplnit vodu</RefillWater.label>
 
 	<RefillWater.verb>Doplnit</RefillWater.verb>
 
 	<RefillWater.gerund>Doplňuje</RefillWater.gerund>
 
-	<WardenRefillWater.label>Doplnit vodu</WardenRefillWater.label>
+	<CleanFilthIndoors.label>Uklidit špinavé vnitřní prostory</CleanFilthIndoors.label>
 
-	<WardenRefillWater.verb>Doplnit</WardenRefillWater.verb>
+	<CleanFilthIndoors.verb>Uklidit</CleanFilthIndoors.verb>
 
-	<WardenRefillWater.gerund>Doplňuje</WardenRefillWater.gerund>
-
-	<CleanFilthIndoors.label>Vyčistit špínu uvnitř</CleanFilthIndoors.label>
-
-	<CleanFilthIndoors.verb>Vyčistit</CleanFilthIndoors.verb>
-
-	<CleanFilthIndoors.gerund>Čistí</CleanFilthIndoors.gerund>
+	<CleanFilthIndoors.gerund>Uklízí</CleanFilthIndoors.gerund>
 
 </LanguageData>
