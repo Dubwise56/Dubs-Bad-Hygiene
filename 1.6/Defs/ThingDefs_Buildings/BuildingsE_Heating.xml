@@ -765,6 +765,7 @@
         </comps>
         <placeWorkers>
             <li>DubsBadHygiene.PlaceWorker_Aircon</li>
+            <li>Placeworker_AttachedToWall</li>
         </placeWorkers>
         <graphicData>
             <texPath>DBH/Things/Building/Heating/centralAirVent</texPath>
