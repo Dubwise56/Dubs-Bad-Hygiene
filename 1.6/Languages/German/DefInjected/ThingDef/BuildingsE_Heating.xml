@@ -61,16 +61,6 @@
   <!-- EN: Cools a room by circulating air. Includes a built-in lamp. -->
   <CeilingFanS.description>Kühlt einen Raum durch Luftzirkulation. Enthält eine eingebaute Lampe.</CeilingFanS.description>
 
-  <!-- EN: ceiling fan 2x2 (dark) -->
-  <CeilingFanDarklight.label>dunkler 2x2-Deckenventilator</CeilingFanDarklight.label>
-  <!-- EN: Cools a room by circulating air. Includes a built-in Darklight lamp. -->
-  <CeilingFanDarklight.description>Kühlt einen Raum durch Luftzirkulation. Enthält eine eingebaute Dunkellichtlampe.</CeilingFanDarklight.description>
-
-  <!-- EN: ceiling fan 1x1 (dark) -->
-  <CeilingFanSDarklight.label>dunkler 1x1-Deckenventilator</CeilingFanSDarklight.label>
-  <!-- EN: Cools a room by circulating air. Includes a built-in Darklight lamp. -->
-  <CeilingFanSDarklight.description>Kühlt einen Raum durch Luftzirkulation. Enthält eine eingebaute Dunkellichtlampe.</CeilingFanSDarklight.description>
-
   <!-- EN: air-con outdoor unit -->
   <AirConOutdoorUnit.label>Außenklimagerät</AirConOutdoorUnit.label>
   <!-- EN: Multi-split air conditioner unit. Place outdoors and pipe to indoor units or freezer units. Power mode selection with 100-1000 cooling units capacity. -->
