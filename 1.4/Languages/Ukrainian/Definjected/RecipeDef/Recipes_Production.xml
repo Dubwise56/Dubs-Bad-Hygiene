@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<LanguageData>
+
+<Make_ChemfuelFromFecalSludge.label>Отримати хімпаливо з фекалій</Make_ChemfuelFromFecalSludge.label>
+<Make_ChemfuelFromFecalSludge.description>Отримати партію хімічного палива шляхом переробки фекалій</Make_ChemfuelFromFecalSludge.description>
+<Make_ChemfuelFromFecalSludge.jobString>Отримує хімпаливо з фекалій</Make_ChemfuelFromFecalSludge.jobString>
+
+</LanguageData>
