@@ -135,6 +135,7 @@
 			<MaxHitPoints>60</MaxHitPoints>
 			<Flammability>0.2</Flammability>
 			<Mass>0.5</Mass>
+			<DeteriorationRate>12</DeteriorationRate>
 		</statBases>
 		<thingCategories>
 			<li>Foods</li>
