@@ -180,7 +180,7 @@
 			<li MayRequire="dbhlitemode">ElectricPumps</li>
 		</prerequisites>
 		<researchViewX>5</researchViewX>
-		<researchViewY>1</researchViewY>
+		<researchViewY>0</researchViewY>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef>
@@ -307,10 +307,6 @@
 
 
 
-
-
-
-
 	<ResearchProjectDef DBHLite="true">
 		<defName>SwimmingPools</defName>
 		<label>swimming pools</label>
@@ -359,5 +355,34 @@
 
 
 
+
+	<ResearchProjectDef DBHLite="true">
+		<defName>SpacerHygieneRecycling</defName>
+		<label>spacer hygiene recycling</label>
+		<tab>DubsBadHygiene</tab>
+		<description>Compact high-efficiency recycling nodes that recover and reuse water from showers and sinks.</description>
+		<baseCost>1000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<prerequisites>
+			<li>WaterFiltration</li>
+			<li>SewageTreatment</li>
+		</prerequisites>
+		<researchViewX>6</researchViewX>
+		<researchViewY>1</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef DBHLite="true">
+		<defName>AsteroidCryoMining</defName>
+		<label>asteroid cryo mining</label>
+		<tab>DubsBadHygiene</tab>
+		<description>Extract and sublimate volatile ices trapped beneath asteroid regolith.</description>
+		<baseCost>1500</baseCost>
+		<techLevel>Spacer</techLevel>
+		<prerequisites>
+			<li>WaterFiltration</li>
+		</prerequisites>
+		<researchViewX>6</researchViewX>
+		<researchViewY>4</researchViewY>
+	</ResearchProjectDef>
 
 </Defs>

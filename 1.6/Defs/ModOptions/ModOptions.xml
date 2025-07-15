@@ -6,26 +6,6 @@
   </DubsBadHygiene.DefExtensions>
   
   <DubsBadHygiene.DubsModOptions>
-	  <AddonPack>Plumbing</AddonPack>
-	  <defName>PipeVisibility</defName>
-    <label>Pipe visibility</label>
-    <AutoList>false</AutoList>
-    <defaultSetting>1</defaultSetting>
-    <tip>How pipes should be rendered</tip>
-    <options>
-      <li>
-        <label>Hidden</label>
-      </li>
-      <li>
-        <label>Hidden under floors</label>
-      </li>
-      <li>
-        <label>Always visible</label>
-      </li>
-    </options> 
-  </DubsBadHygiene.DubsModOptions>
-  
-  <DubsBadHygiene.DubsModOptions>
 	  <AddonPack>Lite</AddonPack>
 	  <defName>HygieneRateD</defName>
     <label>Hygiene need rate</label>

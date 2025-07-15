@@ -181,6 +181,7 @@
 		<placeWorkers>
 			<li>DubsBadHygiene.PlaceWorker_WaterGrid</li>
 			<li>DubsBadHygiene.PlaceWorker_SewageGrid</li>
+			<li>PlaceWorker_InvalidOverSubstructure</li>
 		</placeWorkers>
 		<comps>
 			<li Class="DubsBadHygiene.CompProperties_WaterInlet">
@@ -426,6 +427,7 @@
 		<resourcesFractionWhenDeconstructed>0</resourcesFractionWhenDeconstructed>
 		<placeWorkers>
 			<li>PlaceWorker_Heater</li>
+			<li>PlaceWorker_InvalidOverSubstructure</li>
 		</placeWorkers>
 		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
 		<comps>
@@ -592,7 +594,6 @@
 	<!-- Toilets -->
 	<ThingDef ParentName="BasedFixture" Name="DubsDirtyTerletBase" Abstract="True">
 		<description>Sanitation fixture used for the disposal of human urine and faeces.\n14L per use</description>
-		<thingClass>DubsBadHygiene.Building_toilet</thingClass>
 		<graphicData>
 			<texPath>DBH/Things/Building/Toilets/toilet</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
@@ -626,6 +627,7 @@
 
 	<ThingDef ParentName="DubsDirtyTerletBase">
 		<defName>ToiletStuff</defName>
+		<thingClass>DubsBadHygiene.Building_toilet</thingClass>
 		<label>toilet</label>
 		<stuffCategories>
 			<li>Metallic</li>
@@ -678,7 +680,40 @@
 		<costStuffCount>35</costStuffCount>
 	</ThingDef>
 
-
+	<!-- Spacer Toilet (base) -->
+	<ThingDef ParentName="DubsDirtyTerletBase">
+		<defName>ToiletSpacer</defName>
+		<thingClass>DubsBadHygiene.Building_SpacerToilet</thingClass>
+		<description>Vacuum toilet that doesn't require water and jettisons all waste into space via sewage dump ports.</description>
+		<label>vacuum toilet</label>
+		<costList>
+			<Plasteel>30</Plasteel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+		<graphicData>
+			<texPath>DBH/Things/Building/Spacer/toilet</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+		</graphicData>
+		<statBases>
+			<WorkToBuild>2500</WorkToBuild>
+			<Beauty>4</Beauty>
+			<Comfort>0.65</Comfort>
+			<Mass>35</Mass>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Flammability>0.2</Flammability>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>120</basePowerConsumption>
+			</li>
+			<li Class="CompProperties_Flickable"/>
+		</comps>
+		<researchPrerequisites>
+			<li MayRequire="Ludeon.RimWorld.Odyssey">OrbitalTech</li>
+		</researchPrerequisites>
+	</ThingDef>
+	
 	<!-- Baths -->
 
 	<ThingDef ParentName="BasedHygieneMom">

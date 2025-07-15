@@ -217,6 +217,9 @@
 		</researchPrerequisites>
 		<tickerType>Normal</tickerType>
 		<constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+		<placeWorkers>
+			<li>PlaceWorker_InvalidOverSubstructure</li>
+		</placeWorkers>
 	</ThingDef>
 
 	<!--<ThingDef ParentName="DubsSwimmingPoolBase">

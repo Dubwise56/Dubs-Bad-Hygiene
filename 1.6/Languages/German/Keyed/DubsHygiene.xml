@@ -1,17 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <!-- EN: Things: -->
-  <dbh.Things>Dinge:</dbh.Things>
-  <!-- EN: Terrain: -->
-  <dbh.Terrain>Boden:</dbh.Terrain>
-  <!-- EN: Environment: -->
-  <dbh.Environment>Umfeld:</dbh.Environment>
-  <!-- EN: Pollution -->
-  <dbh.Pollution>Verseuchung</dbh.Pollution>
-  <!-- EN: Sewage contamination -->
-  <dbh.Sewagecontamination>Abwasser-Kontamination</dbh.Sewagecontamination>
-
   <!-- EN: Remove pipes -->
   <DesignatorRemovePlumbing>Rohrleitung entfernen</DesignatorRemovePlumbing>
   <!-- EN: Designate sections of a pipe type for deconstruction. -->
@@ -52,9 +41,9 @@
   <!-- EN: A water pump is required to pump the water from a well to a water tower. -->
   <Alert_MissingPumpDesc>Es wird eine Wasserpumpe benötigt, um Brunnenwasser zu einem Wasserturm zu pumpen.</Alert_MissingPumpDesc>
   <!-- EN: Fallout water contamination -->
-  <DBHFalloutWarning>Kontamination durch giftigen Fallout</DBHFalloutWarning>
+  <DBHFalloutWarning>Kontamination durch giftigen Niederschlag</DBHFalloutWarning>
   <!-- EN: After 2 days of toxic fallout the buildup will contaminate any water storage tanks connected to water wells.\n\nPrepare by creating a reserve of water and then using a valve to disconnect the wells to protect the water from contamination before it is too late.\n\nYou can also use a deep well to access uncontaminated water, or install a water treatment system which will eliminate all contamination from water reserves. -->
-  <DBHFalloutWarningEx>In 2 Tagen wird der giftige Fallout alle Wasserspeicher, die mit Brunnen verbunden sind, kontaminieren.\n\nLege einen Wasservorrat an und trenne die Brunnen anschließend vom Versorgungsnetz (z. B. mittels Ventil), um das Wasser vor Kontamination zu schützen, bevor es zu spät ist.\n\nAlternativ kannst du einen tiefen Brunnen benutzen, um unverseuchtes Wasser zu beziehen, oder eine Wasserfilteranlage errichten, die sämtliche Verunreinigungen in den Wasservorräten beseitigt.</DBHFalloutWarningEx>
+  <DBHFalloutWarningEx>In 2 Tagen wird der giftige Niederschlag alle Wasserspeicher, die mit Brunnen verbunden sind, kontaminieren.\n\nLege einen Wasservorrat an und trenne die Brunnen anschließend vom Versorgungsnetz (z. B. mittels Ventil), um das Wasser vor Kontamination zu schützen, bevor es zu spät ist.\n\nAlternativ kannst du einen tiefen Brunnen benutzen, um unverseuchtes Wasser zu beziehen, oder eine Wasserfilteranlage errichten, die sämtliche Verunreinigungen in den Wasservorräten beseitigt.</DBHFalloutWarningEx>
 
   <!-- EN: Low cooling capacity. You can increase the power of outdoor units. -->
   <LowCoolingCap>Geringe Kühlleistung. Du kannst die Leistung der Außengeräte erhöhen.</LowCoolingCap>

@@ -81,6 +81,16 @@
 	</ThingDef>-->
 
 
+	<FleckDef ParentName="FleckBase_Thrown">
+		<defName>Mote_Urine</defName>
+		<graphicData>
+			<texPath>DBH/Things/Mote/Urine</texPath>
+		</graphicData>
+		<altitudeLayer>MoteOverhead</altitudeLayer>
+		<fadeInTime>0.40</fadeInTime>
+		<solidTime>2</solidTime>
+		<fadeOutTime>2</fadeOutTime>
+	</FleckDef>
 
 	<FleckDef ParentName="FleckBase_Thrown">
 		<defName>Mote_Sewage</defName>
