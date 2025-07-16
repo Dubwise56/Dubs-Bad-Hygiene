@@ -4,7 +4,7 @@
 	<name>Dubs Bad Hygiene</name>
 	<author>Dubwise</author>
 	<modIconPath IgnoreIfNoMatchingField="True">DBH/UI/Logo</modIconPath>
-	<modVersion>3.0.2783</modVersion>
+	<modVersion>3.1.2783</modVersion>
 	<url>https://github.com/Dubwise56/Dubs-Bad-Hygiene/wiki</url>
 	<supportedVersions>
 		<li>1.0</li>
