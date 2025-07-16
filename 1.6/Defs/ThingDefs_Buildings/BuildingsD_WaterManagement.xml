@@ -821,4 +821,54 @@
             <li MayRequire="Ludeon.RimWorld.Odyssey">OrbitalTech</li>
         </researchPrerequisites>
     </ThingDef>
+
+<!--    <ThingDef ParentName="BasedHygieneMom" Name="SpacerSewageRecycler">-->
+<!--        <defName>OxygenGenerationSystem</defName>-->
+<!--        <label>oxygen generation system</label>-->
+<!--        <description>A compact high-efficiency oxygen generation node that converts stored water into breathable air.</description>-->
+<!--        <graphicData>-->
+<!--            <texPath>DBH/Things/Building/Spacer/OGS</texPath>-->
+<!--            <graphicClass>Graphic_Multi</graphicClass>-->
+<!--            <shaderType>CutoutComplex</shaderType>-->
+<!--            <drawSize>(3,3)</drawSize>-->
+<!--        </graphicData>-->
+<!--        <size>(2,2)</size>-->
+<!--        <statBases>-->
+<!--            <WorkToBuild>2500</WorkToBuild>-->
+<!--        </statBases>-->
+<!--        <costList>-->
+<!--            <Steel>80</Steel>-->
+<!--            <Plasteel>40</Plasteel>-->
+<!--            <ComponentSpacer>1</ComponentSpacer>-->
+<!--        </costList>-->
+<!--        <comps>-->
+<!--            <li Class="DubsBadHygiene.CompProperties_Pipe">-->
+<!--                <mode>Sewage</mode>-->
+<!--            </li>-->
+<!--            <li Class="DubsBadHygiene.CompProperties_Pipe">-->
+<!--                <mode>Air</mode>-->
+<!--            </li>-->
+<!--            <li Class="CompProperties_Breakdownable"/>-->
+<!--            <li Class="CompProperties_Flickable"/>-->
+<!--            <li Class="CompProperties_Power">-->
+<!--                <compClass>CompPowerTrader</compClass>-->
+<!--                <basePowerConsumption>500</basePowerConsumption>-->
+<!--            </li>-->
+<!--            <li Class="DubsBadHygiene.CompProperties_OxygenGenerationSystem"/>-->
+<!--        </comps>-->
+<!--        <placeWorkers>-->
+<!--            <li>DubsBadHygiene.PlaceWorker_AirGrid</li>-->
+<!--        </placeWorkers>-->
+<!--        <thingClass>Building</thingClass>-->
+<!--        <building>-->
+<!--            <isEdifice>false</isEdifice>-->
+<!--        </building>-->
+<!--        <useHitPoints>true</useHitPoints>-->
+<!--        <altitudeLayer>Building</altitudeLayer>-->
+<!--        <drawerType>MapMeshAndRealTime</drawerType>-->
+<!--        <researchPrerequisites>-->
+<!--            <li MayRequire="dbhlitemode">SpacerHygieneRecycling</li>-->
+<!--            <li MayRequire="Ludeon.RimWorld.Odyssey">OrbitalTech</li>-->
+<!--        </researchPrerequisites>-->
+<!--    </ThingDef>-->
 </Defs>
