@@ -1,198 +1,202 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-  <!-- Pipes  -->
-  <ThingDef ParentName="BasedHygieneMom" Name="DubsDirtyPipeBase" Abstract="True">
-    <label>pipe</label>
-    <thingClass>DubsBadHygiene.Building_Pipe</thingClass>
-    <graphicData>
-      <texPath>DBH/Things/Building/SewagePipe_Atlas</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <linkType>Basic</linkType>
-      <linkFlags>
-        <li>Custom5</li>
-      </linkFlags>
-      <damageData>
-        <rect>(0,0.35,1,0.3)</rect>
-      </damageData>
-    </graphicData>
-    <building>
-      <ai_chillDestination>false</ai_chillDestination>
-      <blueprintGraphicData>
-        <texPath>DBH/Things/Building/SewagePipe_Atlas_Blueprint</texPath>
-      </blueprintGraphicData>
-      <isInert>true</isInert>
-      <isEdifice>false</isEdifice>
-    </building>
-    <altitudeLayer>Conduits</altitudeLayer>
-    <passability>Standable</passability>
-    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
-    <statBases>
-      <MaxHitPoints>80</MaxHitPoints>
-      <WorkToBuild>45</WorkToBuild>
-      <Flammability>0.5</Flammability>
-      <Beauty>-2</Beauty>
-    </statBases>
-    <drawStyleCategory>Default1D</drawStyleCategory>
-    <rotatable>false</rotatable>
-    <neverMultiSelect>true</neverMultiSelect>
-    <clearBuildingArea>false</clearBuildingArea>
-    <placeWorkers>
-      <li>DubsBadHygiene.PlaceWorker_Pipe</li>
-    </placeWorkers>
-    <tickerType>Never</tickerType>
-    <drawerType>MapMeshOnly</drawerType>
-    <modExtensions>
-      <li Class="DubsBadHygiene.BuildWaterExt" />
-    </modExtensions>
-  </ThingDef>
+    <!-- Pipes  -->
+    <ThingDef ParentName="BasedHygieneMom" Name="DubsDirtyPipeBase" Abstract="True">
+        <label>pipe</label>
+        <thingClass>DubsBadHygiene.Building_Pipe</thingClass>
+        <noRightClickDraftAttack>true</noRightClickDraftAttack>
+        <graphicData>
+            <texPath>DBH/Things/Building/SewagePipe_Atlas</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <linkType>Basic</linkType>
+            <linkFlags>
+                <li>Custom5</li>
+            </linkFlags>
+            <damageData>
+                <rect>(0,0.35,1,0.3)</rect>
+            </damageData>
+        </graphicData>
+        <building>
+            <ai_chillDestination>false</ai_chillDestination>
+            <isInert>true</isInert>
+            <isEdifice>false</isEdifice>
+            <canLandGravshipOn>true</canLandGravshipOn>
+            <blueprintGraphicData>
+                <texPath>DBH/Things/Building/SewagePipe_Atlas_Blueprint</texPath>
+            </blueprintGraphicData>
+            <canConstructInCorner>true</canConstructInCorner>
+        </building>
+        <drawerType>MapMeshOnly</drawerType>
+        <altitudeLayer>Conduits</altitudeLayer>
+        <passability>Standable</passability>
+        <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+        <statBases>
+            <MaxHitPoints>80</MaxHitPoints>
+            <WorkToBuild>45</WorkToBuild>
+            <Flammability>0.5</Flammability>
+            <Beauty>-2</Beauty>
+        </statBases>
+        <drawStyleCategory>Default1D</drawStyleCategory>
+        <placeWorkers>
+            <li>DubsBadHygiene.PlaceWorker_Pipe</li>
+        </placeWorkers>
+        <rotatable>false</rotatable>
+        <selectable>true</selectable>
+        <neverMultiSelect>true</neverMultiSelect>
+        <clearBuildingArea>false</clearBuildingArea>
+        <tickerType>Never</tickerType>
+        <modExtensions>
+            <li Class="DubsBadHygiene.BuildWaterExt"/>
+        </modExtensions>
+    </ThingDef>
 
 
-  <ThingDef ParentName="DubsDirtyPipeBase" Name="SewagePipeStuff" DBHLite="true">
-    <defName>sewagePipeStuff</defName>
-    <label>plumbing</label>
-    <description>Plumbing for connecting plumbed things.</description>
-    <uiIconPath>DBH/UI/Plumbing</uiIconPath>
-    <stuffCategories>
-      <li>Metallic</li>
-      <li>Woody</li>
-      <li>Stony</li>
-    </stuffCategories>
-    <costStuffCount>1</costStuffCount>
-    <comps>
-      <li Class="DubsBadHygiene.CompProperties_Pipe">
-        <mode>Sewage</mode>
-        <stuffed>true</stuffed>
-      </li>
-    </comps>
-    <researchPrerequisites>
-		<li MayRequire="dbhlitemode">Plumbing</li>
-    </researchPrerequisites>
-  </ThingDef>
+    <ThingDef ParentName="DubsDirtyPipeBase" Name="SewagePipeStuff" DBHLite="true">
+        <defName>sewagePipeStuff</defName>
+        <label>plumbing</label>
+        <description>Plumbing for connecting plumbed things.</description>
+        <uiIconPath>DBH/UI/Plumbing</uiIconPath>
+        <stuffCategories>
+            <li>Metallic</li>
+            <li>Woody</li>
+            <li>Stony</li>
+        </stuffCategories>
+        <costStuffCount>1</costStuffCount>
+        <comps>
+            <li Class="DubsBadHygiene.CompProperties_Pipe">
+                <mode>Sewage</mode>
+                <stuffed>true</stuffed>
+            </li>
+        </comps>
+        <researchPrerequisites>
+            <li MayRequire="dbhlitemode">Plumbing</li>
+        </researchPrerequisites>
+    </ThingDef>
 
-  <ThingDef ParentName="SewagePipeStuff" DBHLite="true">
-    <defName>sewagePipeHidden</defName>
-    <label>plumbing (hidden)</label>
-    <description>Plumbing for connecting plumbed things (hidden).</description>
-    <uiIconPath>DBH/UI/PlumbingHidden</uiIconPath>
-    <graphicData>
-      <color>(0,0,0,0)</color>
-      <shaderType>Transparent</shaderType>
-    </graphicData>
-    <statBases>
-      <MaxHitPoints>100</MaxHitPoints>
-      <WorkToBuild>290</WorkToBuild>
-      <Flammability>0</Flammability>
-      <Beauty>0</Beauty>
-    </statBases>
-    <building>
-      <ai_neverTrashThis>true</ai_neverTrashThis>
-      <isTargetable>false</isTargetable>
-      <expandHomeArea>false</expandHomeArea>
-      <canBeDamagedByAttacks>false</canBeDamagedByAttacks>
-    </building>
-  </ThingDef>
+    <ThingDef ParentName="SewagePipeStuff" DBHLite="true">
+        <defName>sewagePipeHidden</defName>
+        <label>plumbing (hidden)</label>
+        <description>Plumbing for connecting plumbed things (hidden).</description>
+        <uiIconPath>DBH/UI/PlumbingHidden</uiIconPath>
+        <graphicData>
+            <color>(0,0,0,0)</color>
+            <shaderType>Transparent</shaderType>
+        </graphicData>
+        <statBases>
+            <MaxHitPoints>100</MaxHitPoints>
+            <WorkToBuild>290</WorkToBuild>
+            <Flammability>0</Flammability>
+            <Beauty>0</Beauty>
+        </statBases>
+        <building>
+            <ai_neverTrashThis>true</ai_neverTrashThis>
+            <isTargetable>false</isTargetable>
+            <expandHomeArea>false</expandHomeArea>
+            <canBeDamagedByAttacks>false</canBeDamagedByAttacks>
+        </building>
+    </ThingDef>
 
-  <ThingDef ParentName="BasedHygieneMom" DBHLite="true">
-    <thingClass>DubsBadHygiene.Building_Valve</thingClass>
-    <altitudeLayer>Building</altitudeLayer>
-    <passability>Standable</passability>
-    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
-    <minifiedDef>MinifiedThing</minifiedDef>
-    <thingCategories>
-      <li>BuildingsHygiene</li>
-    </thingCategories>
-    <building>
-      <ai_chillDestination>false</ai_chillDestination>
-      <isInert>true</isInert>
-      <isEdifice>false</isEdifice>
-    </building>
-    <statBases>
-      <MaxHitPoints>80</MaxHitPoints>
-      <WorkToBuild>350</WorkToBuild>
-      <Flammability>1.0</Flammability>
-      <Beauty>-2</Beauty>
-      <Mass>2</Mass>
-    </statBases>
-    <costList>
-      <Steel>15</Steel>
-    </costList>
-    <rotatable>false</rotatable>
-    <selectable>true</selectable>
-    <constructEffect>ConstructMetal</constructEffect>
-    <defName>plumbingValve</defName>
-    <label>plumbing valve</label>
-    <pathCost>75</pathCost>
-    <description>Opens or closes connections between pipes.</description>
-    <graphicData>
-      <texPath>DBH/Things/Building/Valve</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>(1,1)</drawSize>
-    </graphicData>
-    <comps>
-      <li Class="DubsBadHygiene.CompProperties_Pipe">
-        <mode>Sewage</mode>
-      </li>
-      <li Class="CompProperties_Flickable">
-        <commandTexture>DBH/Things/Building/Valve</commandTexture>
-        <commandLabelKey>CommandDesignateOpenCloseValveLabel</commandLabelKey>
-        <commandDescKey>CommandDesignateOpenCloseValveDesc</commandDescKey>
-      </li>
-    </comps>
-    <designationCategory>Hygiene</designationCategory>
-    <researchPrerequisites>
-		<li MayRequire="dbhlitemode">Plumbing</li>
-    </researchPrerequisites>
-  </ThingDef>
+    <ThingDef ParentName="BasedHygieneMom" DBHLite="true">
+        <thingClass>DubsBadHygiene.Building_Valve</thingClass>
+        <altitudeLayer>Building</altitudeLayer>
+        <passability>Standable</passability>
+        <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+        <minifiedDef>MinifiedThing</minifiedDef>
+        <thingCategories>
+            <li>BuildingsHygiene</li>
+        </thingCategories>
+        <building>
+            <ai_chillDestination>false</ai_chillDestination>
+            <isInert>true</isInert>
+            <isEdifice>false</isEdifice>
+        </building>
+        <statBases>
+            <MaxHitPoints>80</MaxHitPoints>
+            <WorkToBuild>350</WorkToBuild>
+            <Flammability>1.0</Flammability>
+            <Beauty>-2</Beauty>
+            <Mass>2</Mass>
+        </statBases>
+        <costList>
+            <Steel>15</Steel>
+        </costList>
+        <rotatable>false</rotatable>
+        <selectable>true</selectable>
+        <constructEffect>ConstructMetal</constructEffect>
+        <defName>plumbingValve</defName>
+        <label>plumbing valve</label>
+        <pathCost>75</pathCost>
+        <description>Opens or closes connections between pipes.</description>
+        <graphicData>
+            <texPath>DBH/Things/Building/Valve</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(1,1)</drawSize>
+        </graphicData>
+        <comps>
+            <li Class="DubsBadHygiene.CompProperties_Pipe">
+                <mode>Sewage</mode>
+            </li>
+            <li Class="CompProperties_Flickable">
+                <commandTexture>DBH/Things/Building/Valve</commandTexture>
+                <commandLabelKey>CommandDesignateOpenCloseValveLabel</commandLabelKey>
+                <commandDescKey>CommandDesignateOpenCloseValveDesc</commandDescKey>
+            </li>
+        </comps>
+        <designationCategory>Hygiene</designationCategory>
+        <researchPrerequisites>
+            <li MayRequire="dbhlitemode">Plumbing</li>
+        </researchPrerequisites>
+    </ThingDef>
 
-  <ThingDef ParentName="DubsDirtyPipeBase" Name="airPipe" DBHLite="true">
-	  <designationCategory>Temperature</designationCategory>
-	  <defName>airPipe</defName>
-    <label>air-con pipe</label>
-    <description>Pipe for connecting air-conditioning units.</description>
-    <graphicData>
-      <texPath>DBH/Things/Building/ducting_atlas</texPath>
-    </graphicData>
-    <building>
-      <blueprintGraphicData>
-        <texPath>DBH/Things/Building/ducting_atlas_Blueprint</texPath>
-      </blueprintGraphicData>
-      </building>
-    <uiIconPath>DBH/UI/coolingPipe</uiIconPath>
-    <costList>
-      <Steel>1</Steel>
-    </costList>
-    <comps>
-      <li Class="DubsBadHygiene.CompProperties_Pipe">
-        <mode>Air</mode>
-      </li>
-    </comps>
-    <researchPrerequisites>
-		<li MayRequire="dbhlitemode">MultiSplitAirCon</li>
-    </researchPrerequisites>
-  </ThingDef>
+    <ThingDef ParentName="DubsDirtyPipeBase" Name="airPipe" DBHLite="true">
+        <designationCategory>Temperature</designationCategory>
+        <defName>airPipe</defName>
+        <label>air-con pipe</label>
+        <description>Pipe for connecting air-conditioning units.</description>
+        <graphicData>
+            <texPath>DBH/Things/Building/ducting_atlas</texPath>
+        </graphicData>
+        <building>
+            <blueprintGraphicData>
+                <texPath>DBH/Things/Building/ducting_atlas_Blueprint</texPath>
+            </blueprintGraphicData>
+        </building>
+        <uiIconPath>DBH/UI/coolingPipe</uiIconPath>
+        <costList>
+            <Steel>1</Steel>
+        </costList>
+        <comps>
+            <li Class="DubsBadHygiene.CompProperties_Pipe">
+                <mode>Air</mode>
+            </li>
+        </comps>
+        <researchPrerequisites>
+            <li MayRequire="dbhlitemode">MultiSplitAirCon</li>
+        </researchPrerequisites>
+    </ThingDef>
 
-  <ThingDef ParentName="airPipe" DBHLite="true">
-    <defName>airPipeHidden</defName>
-    <label>air-con pipe (hidden)</label>
-    <description>Pipe for connecting air-conditioning units. (hidden)</description>
-    <uiIconPath>DBH/UI/coolingPipeHidden</uiIconPath>
-    <graphicData>
-      <color>(0,0,0,0)</color>
-      <shaderType>Transparent</shaderType>
-    </graphicData>
-    <statBases>
-      <MaxHitPoints>100</MaxHitPoints>
-      <WorkToBuild>290</WorkToBuild>
-      <Flammability>0</Flammability>
-      <Beauty>0</Beauty>
-    </statBases>
-    <building>
-      <ai_neverTrashThis>true</ai_neverTrashThis>
-      <isTargetable>false</isTargetable>
-      <expandHomeArea>false</expandHomeArea>
-      <canBeDamagedByAttacks>false</canBeDamagedByAttacks>
-    </building>
-  </ThingDef>
-  
+    <ThingDef ParentName="airPipe" DBHLite="true">
+        <defName>airPipeHidden</defName>
+        <label>air-con pipe (hidden)</label>
+        <description>Pipe for connecting air-conditioning units. (hidden)</description>
+        <uiIconPath>DBH/UI/coolingPipeHidden</uiIconPath>
+        <graphicData>
+            <color>(0,0,0,0)</color>
+            <shaderType>Transparent</shaderType>
+        </graphicData>
+        <statBases>
+            <MaxHitPoints>100</MaxHitPoints>
+            <WorkToBuild>290</WorkToBuild>
+            <Flammability>0</Flammability>
+            <Beauty>0</Beauty>
+        </statBases>
+        <building>
+            <ai_neverTrashThis>true</ai_neverTrashThis>
+            <isTargetable>false</isTargetable>
+            <expandHomeArea>false</expandHomeArea>
+            <canBeDamagedByAttacks>false</canBeDamagedByAttacks>
+        </building>
+    </ThingDef>
+
 </Defs>
