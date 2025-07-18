@@ -149,7 +149,7 @@
 		<drawGUIOverlay>true</drawGUIOverlay>
 		<tradeability>None</tradeability>
 		<ingestible>
-			<baseIngestTicks>240</baseIngestTicks>
+			<baseIngestTicks>90</baseIngestTicks>
 			<preferability>NeverForNutrition</preferability>
 			<foodType>Fluid</foodType>
 			<nurseable>false</nurseable>
@@ -162,6 +162,7 @@
 			<ingestCommandString>Drink {0}</ingestCommandString>
 			<ingestReportString>Drinking {0}.</ingestReportString>
 			<chairSearchRadius>5</chairSearchRadius>
+			<tableDesired>false</tableDesired>
 		</ingestible>
 	</ThingDef>
 

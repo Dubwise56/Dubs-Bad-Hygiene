@@ -741,7 +741,7 @@
         </researchPrerequisites>
     </ThingDef>
 
-    <ThingDef ParentName="BasedHygieneMom" Name="SpacerSewageRecycler">
+    <ThingDef ParentName="BasedHygieneMom" Name="SpacerSewageRecycler" DBHLite="true">
         <defName>SpacerWaterRecoverySystem</defName>
         <label>water recovery system</label>
         <description>A compact high-efficiency recycling node that recovers and reuses water from showers and sinks.</description>
