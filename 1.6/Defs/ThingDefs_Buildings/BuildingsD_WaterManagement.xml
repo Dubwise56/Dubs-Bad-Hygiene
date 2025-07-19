@@ -682,7 +682,7 @@
     <ThingDef ParentName="BasedWaterWell" DBHLite="true">
         <defName>CryogenicExtractionNode</defName>
         <label>cryogenic extraction node</label>
-        <description>Extracts and sublimates volatile ices trapped beneath asteroid regolith. Fully sealed and self-powered, it produces usable water and generates substantial heat—handle with care when operating in enclosed environments.</description>
+        <description>Extracts and sublimates volatile ices trapped beneath asteroid regolith. It produces usable water and generates substantial heat—handle with care when operating in enclosed environments.</description>
         <graphicData>
             <texPath>DBH/Things/Building/Spacer/CryogenicExtractionNode</texPath>
             <graphicClass>Graphic_Single</graphicClass>
