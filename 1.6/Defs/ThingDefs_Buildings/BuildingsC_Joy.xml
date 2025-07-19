@@ -108,7 +108,7 @@
 		<extraDeteriorationFactor>0</extraDeteriorationFactor>
 		<edgeType>Hard</edgeType>
 		<traversedThought></traversedThought>
-		<extraNonDraftedPerceivedPathCost>0</extraNonDraftedPerceivedPathCost>
+		<extraNonDraftedPerceivedPathCost>18</extraNonDraftedPerceivedPathCost>
 		<extraDraftedPerceivedPathCost>18</extraDraftedPerceivedPathCost>
 		<pathCost>0</pathCost>
 		<layerable>true</layerable>
