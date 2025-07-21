@@ -166,6 +166,9 @@
 
     <OverlapsWells>Overlaps with {0} wells</OverlapsWells>
 
+    <TransferStorageTank>Transfer Tank</TransferStorageTank>
+    <TransferStorageTankDesc>Transfer the contents of this tank to other available tanks</TransferStorageTankDesc>
+
     <!--Sewage-->
     <dbh.SewageReadout>Sewage {0}</dbh.SewageReadout>
     <DrainSepticTank>Drain</DrainSepticTank>

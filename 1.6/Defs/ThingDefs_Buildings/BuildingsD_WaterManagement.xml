@@ -97,7 +97,6 @@
     </ThingDef>
 
     <ThingDef Name="BasedWaterTower" ParentName="BasedHygieneMom" Abstract="True">
-        <description>Stores water for use by plumbed fixtures. If the contained water becomes contaminated, the tank must be drained.</description>
         <tickerType>Normal</tickerType>
         <blockWind>true</blockWind>
         <castEdgeShadows>false</castEdgeShadows>
@@ -119,6 +118,7 @@
 
     <ThingDef ParentName="BasedWaterTower" DBHLite="true">
         <defName>WaterButt</defName>
+        <description>Stores water for use by plumbed fixtures. Slowly fills when raining. The water must be drained if it becomes contaminated. Capacity: 100.</description>
         <label>water butt</label>
         <thingClass>DubsBadHygiene.Building_Butt</thingClass>
         <graphicData>
@@ -147,6 +147,8 @@
                 <compClass>CompColorable</compClass>
             </li>
             <li Class="DubsBadHygiene.CompProperties_WaterStorage">
+                <AutoOnRain>true</AutoOnRain>
+                <AutoGenRate>1</AutoGenRate>
                 <WaterStorageCap>100</WaterStorageCap>
             </li>
         </comps>
@@ -166,6 +168,7 @@
     <ThingDef ParentName="BasedWaterTower" DBHLite="true">
         <defName>WaterTowerS</defName>
         <label>water tower</label>
+        <description>Stores water for use by plumbed fixtures. The water must be drained if it becomes contaminated. Capacity: 8000.</description>
         <graphicData>
             <texPath>DBH/Things/Building/Water/WaterTowerSmall</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -203,6 +206,7 @@
     <ThingDef ParentName="BasedWaterTower" DBHLite="true">
         <defName>WaterTowerL</defName>
         <label>huge water tower</label>
+        <description>Stores water for use by plumbed fixtures. The water must be drained if it becomes contaminated. Capacity: 50,000.</description>
         <graphicData>
             <texPath>DBH/Things/Building/Water/WaterTower</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -793,6 +797,7 @@
     <ThingDef ParentName="BasedWaterTower" DBHLite="true">
         <defName>WaterTankSmall</defName>
         <label>water tank</label>
+        <description>Stores water for use by plumbed fixtures. The water must be drained if it becomes contaminated. Capacity: 2000.</description>
         <graphicData>
             <texPath>DBH/Things/Building/Spacer/Tank</texPath>
             <graphicClass>Graphic_Single</graphicClass>
