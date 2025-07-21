@@ -827,6 +827,52 @@
         </researchPrerequisites>
     </ThingDef>
 
+    <ThingDef ParentName="BasedHygieneMom" DBHLite="true">
+		<defName>SewageSepticTankEnclosed</defName>
+		<label>septic tank (enclosed)</label>
+		<description>Collects sewage over time but does not treat it, Sewage is directed to septic tanks first. If it reaches full capacity, excess sewage is sent to sewage outlets. Enclosed design with a compact footprint.</description>
+		<graphicData>
+			<texPath>DBH/Things/Building/Spacer/septic_tank_enclosed</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
+            <drawSize>(2,2)</drawSize>
+		</graphicData>
+		<category>Building</category>
+		<tickerType>Normal</tickerType>
+		<canOverlapZones>false</canOverlapZones>
+		<altitudeLayer>Building</altitudeLayer>
+		<blockWind>false</blockWind>
+		<castEdgeShadows>false</castEdgeShadows>
+		<size>(1,1)</size>
+		<costList>
+			<Steel>80</Steel>
+		</costList>
+		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToBuild>2000</WorkToBuild>
+			<Flammability>0.0</Flammability>
+		</statBases>
+		<comps>
+			<li Class="DubsBadHygiene.CompProperties_Pipe">
+				<mode>Sewage</mode>
+			</li>
+			<li Class="DubsBadHygiene.CompProperties_SepticTank">
+				<TreatedPerDay>0</TreatedPerDay>
+				<capacity>2000</capacity>
+				<priority>1</priority>
+			</li>
+		</comps>
+		<building>
+			<ai_chillDestination>false</ai_chillDestination>
+		</building>
+		<researchPrerequisites>
+            <li MayRequire="dbhlitemode">Plumbing</li>
+			<li MayRequire="dbhlitemode">SepticTanks</li>
+            <li MayRequire="Ludeon.RimWorld.Odyssey">OrbitalTech</li>
+		</researchPrerequisites>
+	</ThingDef>
+
 <!--    <ThingDef ParentName="BasedHygieneMom" Name="SpacerSewageRecycler">-->
 <!--        <defName>OxygenGenerationSystem</defName>-->
 <!--        <label>oxygen generation system</label>-->
