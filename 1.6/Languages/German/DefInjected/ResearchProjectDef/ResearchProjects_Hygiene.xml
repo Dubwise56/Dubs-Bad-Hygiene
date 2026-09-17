@@ -27,9 +27,9 @@
   <CentralHeating.description>Baue Zentralheizungssysteme mit Heizkörpern, Warmwasserspeichern, Thermen und Thermostaten.</CentralHeating.description>
 
   <!-- EN: Geothermal Heating -->
-  <GeothermalHeating.label>geothermisches Heizen</GeothermalHeating.label>
+  <GeothermalHeating.label>geothermales Heizen</GeothermalHeating.label>
   <!-- EN: Build geothermal heaters which can be built over geysers to generate heat for central heating and hot water tanks. -->
-  <GeothermalHeating.description>Baue geothermische Thermen auf Geysiren, um Wärme für Zentralheizungssysteme und Warmwasserspeicher zu erzeugen.</GeothermalHeating.description>
+  <GeothermalHeating.description>Baue Geothermen auf Geysiren, um Wärme für Zentralheizungssysteme und Warmwasserspeicher zu erzeugen.</GeothermalHeating.description>
 
   <!-- EN: saunas -->
   <Saunas.label>Saunen</Saunas.label>
@@ -42,14 +42,14 @@
   <ModernFixtures.description>Baue moderne Sanitäranlagen wie Toiletten und Duschen.</ModernFixtures.description>
 
   <!-- EN: electric pumps -->
-  <ElectricPumps.label>elektrische Pumpen</ElectricPumps.label>
+  <ElectricPumps.label>Elektropumpen</ElectricPumps.label>
   <!-- EN: Powered water pumps for pressurized continuous water pumping. -->
   <ElectricPumps.description>Baue strombetriebene Wasserpumpen, um Wasser unter Druck kontinuierlich zu pumpen.</ElectricPumps.description>
 
   <!-- EN: power showers -->
-  <AdvancedShowers.label>Power-Duschen</AdvancedShowers.label>
+  <AdvancedShowers.label>Powerduschen</AdvancedShowers.label>
   <!-- EN: Build power showers which halve the time spent showering and improve comfort. -->
-  <AdvancedShowers.description>Baue Power-Duschen, die den Zeitaufwand beim Duschen halbieren und den Komfort verbessern.</AdvancedShowers.description>
+  <AdvancedShowers.description>Baue Powerduschen, die den Zeitaufwand beim Duschen halbieren und den Komfort verbessern.</AdvancedShowers.description>
 
   <!-- EN: smart toilets -->
   <AdvancedToilets.label>smarte Toiletten</AdvancedToilets.label>
@@ -82,7 +82,7 @@
   <WaterFiltration.description>Baue Wasserfiltersysteme, um die Wasserqualität zu verbessern und das Risiko von Krankheiten zu beseitigen.</WaterFiltration.description>
 
   <!-- EN: Hygiene Bionics -->
-  <HygieneBionics.label>Hygiene-Bionik</HygieneBionics.label>
+  <HygieneBionics.label>Bionik für Hygiene</HygieneBionics.label>
   <!-- EN: Craft bionics that help to process bodily waste and manage personal hygiene. -->
   <HygieneBionics.description>Stelle bionische Körperteile her, die Ausscheidungsprozesse und Körperpflege unterstützen.</HygieneBionics.description>
 
@@ -110,5 +110,15 @@
   <FireSuppression.label>Brandschutz</FireSuppression.label>
   <!-- EN: Build sprinklers that suppress fires with a spray of water. -->
   <FireSuppression.description>Baue Löschsprinkler, die Brände mit Sprühwasser löschen.</FireSuppression.description>
+
+  <!-- EN: spacer hygiene recycling -->
+  <SpacerHygieneRecycling.label>Raumfahrthygiene und Recycling</SpacerHygieneRecycling.label>
+  <!-- EN: Compact high-efficiency recycling nodes that recover and reuse water from showers and sinks. -->
+  <SpacerHygieneRecycling.description>Kompakte, hocheffiziente Recyclingmodule zur Rückgewinnung und Wiederverwendung von Wasser aus Duschen und Waschbecken.</SpacerHygieneRecycling.description>
+
+  <!-- EN: asteroid cryo mining -->
+  <AsteroidCryoMining.label>kryogener Asteroidenbergbau</AsteroidCryoMining.label>
+  <!-- EN: Extract and sublimate volatile ices trapped beneath asteroid regolith. -->
+  <AsteroidCryoMining.description>Extrahiere und sublimiere flüchtiges Eis, das unter der Oberfläche eines Asteroiden eingeschlossen ist.</AsteroidCryoMining.description>
 
 </LanguageData>

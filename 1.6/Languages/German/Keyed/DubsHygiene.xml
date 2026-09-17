@@ -1,6 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
+
+  <!-- EN: Things: -->
+  <dbh.Things>Dinge:</dbh.Things>
+  <!-- EN: Terrain: -->
+  <dbh.Terrain>Boden:</dbh.Terrain>
+  <!-- EN: Environment: -->
+  <dbh.Environment>Umfeld:</dbh.Environment>
+  <!-- EN: Pollution -->
+  <dbh.Pollution>Verseuchung</dbh.Pollution>
+  <!-- EN: Sewage contamination -->
+  <dbh.Sewagecontamination>Abwasser-Kontamination</dbh.Sewagecontamination>
+
   <!-- EN: Remove pipes -->
   <DesignatorRemovePlumbing>Rohrleitung entfernen</DesignatorRemovePlumbing>
   <!-- EN: Designate sections of a pipe type for deconstruction. -->
@@ -12,7 +24,7 @@
   <!-- EN: Remove plumbing -->
   <RemovePlumbing>Rohrleitung entfernen</RemovePlumbing>
   <!-- EN: Remove air-con -->
-  <RemoveAirCon>Klima-Rohrleitung entfernen</RemoveAirCon>
+  <RemoveAirCon>Klimaleitung entfernen</RemoveAirCon>
 
   <!-- EN: Room is too large to heat!\nMaximum of 50 cells per heater\nAdd more sauna heaters or shrink the room -->
   <DBH.requiresSaunaRoom>Raum ist zu groß zum Heizen!\nMaximal 50 Zellen pro Ofen\nFüge weitere Saunaöfen hinzu oder verkleinere den Raum</DBH.requiresSaunaRoom>
@@ -27,7 +39,7 @@
   <!-- EN: Prison needs water source -->
   <DBHPrisonWater>Haftraum benötigt Wasserquelle</DBHPrisonWater>
   <!-- EN: A prison cell has no access to drinking water, build at least 1 drinking water source like a water tub or basin so that prisoners have free access to drinking water -->
-  <DBHPrisonWaterEx>Ein Haftraum hat keinen Zugang zu Trinkwasser; baue mind. 1 Trinkwasserquelle wie z. B. Waschzuber oder -becken, damit die Gefangenen freien Zugang zu Trinkwasser haben.</DBHPrisonWaterEx>
+  <DBHPrisonWaterEx>Ein Haftraum hat keinen Zugang zu Trinkwasser; baue mind. 1 Trinkwasserquelle wie z.B. Waschzuber oder -becken, damit die Gefangenen freien Zugang zu Trinkwasser haben.</DBHPrisonWaterEx>
   <!-- EN: Missing water tower -->
   <Alert_MissingTower>Wasserspeicher benötigt</Alert_MissingTower>
   <!-- EN: A water tower or water butt is required to store water pumped from wells. -->
@@ -43,8 +55,9 @@
   <!-- EN: Fallout water contamination -->
   <DBHFalloutWarning>Kontamination durch giftigen Fallout</DBHFalloutWarning>
   <!-- EN: After 2 days of toxic fallout the buildup will contaminate any water storage tanks connected to water wells.\n\nPrepare by creating a reserve of water and then using a valve to disconnect the wells to protect the water from contamination before it is too late.\n\nYou can also use a deep well to access uncontaminated water, or install a water treatment system which will eliminate all contamination from water reserves. -->
-  <DBHFalloutWarningEx>In 2 Tagen wird der giftige Fallout alle Wasserspeicher, die mit Brunnen verbunden sind, kontaminieren.\n\nLege einen Wasservorrat an und trenne die Brunnen anschließend vom Versorgungsnetz (z. B. mittels Ventil), um das Wasser vor Kontamination zu schützen, bevor es zu spät ist.\n\nAlternativ kannst du einen tiefen Brunnen benutzen, um unverseuchtes Wasser zu beziehen, oder eine Wasserfilteranlage errichten, die sämtliche Verunreinigungen in den Wasservorräten beseitigt.</DBHFalloutWarningEx>
-
+  <DBHFalloutWarningEx>In 2 Tagen wird der giftige Fallout alle Wasserspeicher, die mit Brunnen verbunden sind, kontaminieren.\n\nLege einen Wasservorrat an und trenne die Brunnen anschließend vom Versorgungsnetz (z.B. mittels Ventil), um das Wasser vor Kontamination zu schützen, bevor es zu spät ist.\n\nAlternativ kannst du einen tiefen Brunnen benutzen, um unverseuchtes Wasser zu beziehen, oder eine Wasserfilteranlage errichten, die sämtliche Verunreinigungen in den Wasservorräten beseitigt.</DBHFalloutWarningEx>
+  <!-- EN: In a vacuum -->
+  <DBHVacuum>Im Vakuum</DBHVacuum>
   <!-- EN: Low cooling capacity. You can increase the power of outdoor units. -->
   <LowCoolingCap>Geringe Kühlleistung. Du kannst die Leistung der Außengeräte erhöhen.</LowCoolingCap>
   <!-- EN: Access restricted -->
@@ -62,14 +75,17 @@
   <!-- EN: The water temperature in this tank is too low; colonists expecting to use hot water may get annoyed.\n\nTurn on boilers, increase the heating capacity, or add another hot water tank. -->
   <LowWaterTempDesc>Die Wassertemperatur in diesem Speicher ist zu niedrig; Kolonisten, die warmes Wasser erwarten, könnten sich daran stören.\n\nSchalte deine Thermen ein, erhöhe die Heizkapazität oder schließe einen weiteren Warmwasserspeicher an.</LowWaterTempDesc>
   <!-- EN: Must be placed over a cell with ground water. -->
-  <WellNeedsWater>Muss über einer Zelle mit Grundwasser platziert werden.</WellNeedsWater>
+  <WellNeedsWater>Muss auf eine Zelle mit Grundwasser platziert werden.</WellNeedsWater>
+  <!-- EN: Must be placed over a cell with subsurface ice deposits -->
+  <WellNeedsIce>Muss auf eine Zelle mit unterirdischem Eis platziert werden.</WellNeedsIce>
   <!-- EN: The fixture must be inside a room to restrict it. -->
   <AssigningRequiresRoom>Die Sanitäranlage muss zum Beschränken in einem Raum sein.</AssigningRequiresRoom>
   <!-- EN: Requires water storage tower -->
   <NoWaterTowers>Benötigt einen Wasserturm</NoWaterTowers>
   <!-- EN: Assigning requires bladder need, but {0} doesn't have bladder need. -->
   <AssigningRequiresBladderNeed>Zuweisung benötigt Stuhl-/Harndrang-Bedürfnis, aber {0} hat keins.</AssigningRequiresBladderNeed>
-
+  <!-- EN: Equipment frozen: {0} -->
+  <DBHExtractorFrozen>Equipment vereist: {0}</DBHExtractorFrozen>
   <!-- EN: No composting material -->
   <NoCompostingMaterial>Kein kompostierbares Material</NoCompostingMaterial>
   <!-- EN: No water capacity -->
@@ -203,7 +219,7 @@
   <!-- EN: Thermostat control -->
   <HotWaterTankUseThermostat>Thermostatsteuerung</HotWaterTankUseThermostat>
   <!-- EN: Turn on boilers for 1 hour when the tank temperature is low. If this is disabled then boilers will run continuously and ignore room thermostats. -->
-  <HotWaterTankUseThermostatDesc>Schaltet Thermen für 1 Stunde ein, wenn die Speichertemperatur zu niedrig ist. Bei Deaktivierung laufen die Thermen im Dauerbetrieb und ignorieren alle Thermostate im Raum.</HotWaterTankUseThermostatDesc>
+  <HotWaterTankUseThermostatDesc>Schaltet Thermen für 1 Stunde ein, wenn die Speichertemperatur zu niedrig ist. Wenn deaktiviert, laufen die Thermen im Dauerbetrieb und ignorieren alle Thermostate im Raum.</HotWaterTankUseThermostatDesc>
 
   <!-- EN: Wash hands -->
   <WashHands>Wasche deine Hände</WashHands>
@@ -240,7 +256,7 @@
   <!-- EN: Drink -->
   <dbhDrink>Trinken</dbhDrink>
   <!-- EN: Toggle valve -->
-  <CommandDesignateOpenCloseValveLabel>Ventil öffnen/schließen</CommandDesignateOpenCloseValveLabel>
+  <CommandDesignateOpenCloseValveLabel>Ventil umschalten</CommandDesignateOpenCloseValveLabel>
   <!-- EN: Toggle the valve between open and closed. -->
   <CommandDesignateOpenCloseValveDesc>Öffne oder schließe das Ventil.</CommandDesignateOpenCloseValveDesc>
   <!-- EN: Valve closed -->
@@ -275,7 +291,7 @@
   <!-- EN: Drain tank -->
   <DrainTank>Wasser ablassen</DrainTank>
   <!-- EN: Drain the tank and remove contamination. -->
-  <DrainTankDesc>Lass Wasser ab und beseitige dadurch Kontamination.</DrainTankDesc>
+  <DrainTankDesc>Lass das Wasser ab und beseitige dadurch Kontamination.</DrainTankDesc>
 
   <!-- EN: Water value: {0} for {1} L -->
   <WaterValueOffset>Wasserwert: {0} pro {1} L</WaterValueOffset>
@@ -284,6 +300,11 @@
 
   <!-- EN: Overlaps with {0} wells -->
   <OverlapsWells>Überschneidet sich mit {0} Brunnen</OverlapsWells>
+
+  <!-- EN: Transfer Tank -->
+  <TransferStorageTank>Wasser umleiten</TransferStorageTank>
+  <!-- EN: Transfer the contents of this tank to other available tanks -->
+  <TransferStorageTankDesc>Leite das Wasser dieses Speichers in andere verfügbare Wasserspeicher um.</TransferStorageTankDesc>
 
   <!-- EN: Sewage {0} -->
   <dbh.SewageReadout>Abwasser {0}</dbh.SewageReadout>
@@ -338,6 +359,8 @@
   <dbh.DrinksToPack>Getränke einpacken: Suche ab {0}, max. {1}</dbh.DrinksToPack>
   <!-- EN: Restart -->
   <dbh.restartconfirm>Neu starten</dbh.restartconfirm>
+  <!-- EN: Later -->
+  <dbh.restartlater>Später</dbh.restartlater>
   <!-- EN: Prioritize indoor cleaning -->
   <dbh.PriorityIndoorCleaning>Vorrangig in Räumen saubermachen</dbh.PriorityIndoorCleaning>
   <!-- EN: Enables a higher priority cleaning job to clean indoors first -->
@@ -425,9 +448,9 @@
   <!-- EN: Enable bladder need on all wild animals. This could get messy. -->
   <WildAnimalsGetBladderTip>Aktiviert Stuhl-/Harndrang-Bedürfnis bei Wildtieren. Das könnte chaotisch werden.</WildAnimalsGetBladderTip>
   <!-- EN: Thirst need -->
-  <ThirstNeed>Durst-Bedürfnis</ThirstNeed>
+  <ThirstNeed>Durstbedürfnis</ThirstNeed>
   <!-- EN: Enable thirst need on all colonists with bladder need. Adds drinking fountains and water bottles. Requires a restart. -->
-  <ThirstNeedTip>Aktiviert Durst-Bedürfnis bei allen Kolonisten mit Stuhl-/Harndrang-Bedürfnis. Fügt Wasserspender und Wasserflaschen hinzu. Erfordert einen Neustart.</ThirstNeedTip>
+  <ThirstNeedTip>Aktiviert Durstbedürfnis bei allen Kolonisten mit Stuhl-/Harndrang-Bedürfnis. Fügt Wasserspender und Wasserflaschen hinzu. Erfordert einen Neustart.</ThirstNeedTip>
   <!-- EN: Fertilizer visible -->
   <FertilizerVisible>Dünger ist sichtbar</FertilizerVisible>
   <!-- EN: Set if the fertilizer grid should be visible -->
@@ -445,9 +468,9 @@
   <!-- EN: You must restart the game to enable Lite mode\n\nIf you are trying to load a save with existing hygiene buildings you may need to save and reload it after activating to clear errors -->
   <LiteRequiresRestart>Du musst das Spiel neu starten, um den Lite-Modus zu aktivieren.\n\nWenn du versuchst, einen Spielstand mit vorhandenen Sanitäranlagen zu laden, musst du diesen nach Aktivierung des Lite-Modus möglicherweise speichern und neu laden, um Fehlermeldungen zu beseitigen.</LiteRequiresRestart>
   <!-- EN: Passive coolers use water -->
-  <PassiveWaterCoolersLink>Passive Kühler nutzen Wasser</PassiveWaterCoolersLink>
+  <PassiveWaterCoolersLink>Passivkühlungen nutzen Wasser</PassiveWaterCoolersLink>
   <!-- EN: Passive coolers have their wood fueling removed and are instead filled with water, similar to water tubs. -->
-  <PassiveWaterCoolersLinkTip>Passive Kühler werden nicht mehr mit Holz, sondern mit Wasser gefüllt, so wie es bei Waschzubern der Fall ist.</PassiveWaterCoolersLinkTip>
+  <PassiveWaterCoolersLinkTip>Passive Kühlungen werden nicht mehr mit Holz, sondern mit Wasser gefüllt, ähnlich wie bei Waschzubern.</PassiveWaterCoolersLinkTip>
   <!-- EN: SoS2 integration -->
   <sos2int>SoS2-Integration</sos2int>
   <!-- EN: Adds water and sewage processing to life support, and adds pipes to ship structures. -->
@@ -463,9 +486,9 @@
   <!-- EN: Limits the default shallow water grid generation to very small patches. Terrain features no longer generate water, and the radius around surface water is reduced.\n\nA new game is not required; works with existing saves. -->
   <SurvivalModeTip>Begrenzt die Generierung des Flachwassergitters auf sehr kleine Bereiche. Geländeformen erzeugen kein Wasser mehr, und der Radius um Oberflächenwasser wird reduziert.\n\nEin neues Spiel ist nicht erforderlich; es funktioniert mit bestehenden Spielständen.</SurvivalModeTip>
   <!-- EN: Hydroponics -->
-  <HydroponicsLink>Hydrokulturen</HydroponicsLink>
+  <HydroponicsLink>Hydrokultur</HydroponicsLink>
   <!-- EN: Powered growing buildings like hydroponics have water tanks that require filling from pipes. Plants die from lack of water instead of power, but water tanks only fill when the building is powered. -->
-  <HydroponicsLinkTip>Elektrisch betriebene Bauwerke zum Kultivieren von Pflanzen, wie z. B. Hydrokulturen, haben Wasserspeicher, die über Rohrleitungen gefüllt werden müssen. Die Pflanzen sterben mangels Wasser, nicht mangels Strom. Allerdings füllen sich die Wasserspeicher nur, wenn das Bauwerk mit Strom versorgt wird.</HydroponicsLinkTip>
+  <HydroponicsLinkTip>Strombetriebene Bauwerke zum Kultivieren von Pflanzen, wie z.B. Hydrokulturbecken, haben Wasserspeicher, die über Rohrleitungen gefüllt werden müssen. Die Pflanzen sterben mangels Wasser, nicht mangels Strom. Allerdings füllen sich die Wasserspeicher nur, wenn das Bauwerk mit Strom versorgt wird.</HydroponicsLinkTip>
   <!-- EN: A restart is required to add and remove thirst-related items.\n\nRestart now? -->
   <ThirstRequiresRestart>Es ist ein Neustart erforderlich, um durstbezogene Elemente hinzuzufügen oder zu entfernen.\n\nJetzt neu starten?</ThirstRequiresRestart>
 

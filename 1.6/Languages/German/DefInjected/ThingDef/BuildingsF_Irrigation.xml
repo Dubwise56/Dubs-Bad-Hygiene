@@ -4,7 +4,7 @@
   <!-- EN: irrigation sprinkler -->
   <IrrigationSprinkler.label>Sprinkler</IrrigationSprinkler.label>
   <!-- EN: Waters the surrounding area once every morning to improve the fertility of the soil through the day. Uses 1000L each morning at max radius. -->
-  <IrrigationSprinkler.description>Bewässert die umliegende Fläche jeden Tag am Morgen, um die Fruchtbarkeit des Bodens über den Tag hinweg zu erhöhen. Verbraucht jedes Mal 1000 Liter bei Maximalradius.</IrrigationSprinkler.description>
+  <IrrigationSprinkler.description>Bewässert die umliegende Fläche jeden Tag am Morgen, um die Fruchtbarkeit des Bodens über den Tag hinweg zu erhöhen. Verbraucht jedes Mal 1.000 Liter bei Maximalradius.</IrrigationSprinkler.description>
 
   <!-- EN: fire sprinkler -->
   <FireSprinkler.label>Löschsprinkler</FireSprinkler.label>

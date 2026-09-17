@@ -13,18 +13,18 @@
 
   <!-- EN: water butt -->
   <WaterButt.label>Wassertonne</WaterButt.label>
-  <!-- EN: Stores water for use by plumbed fixtures. If the contained water becomes contaminated, the tank must be drained. -->
-  <WaterButt.description>Speichert Wasser, das von Sanitäranlagen genutzt werden kann. Wenn das enthaltene Wasser zu stark verunreinigt ist, muss es abgelassen werden.</WaterButt.description>
+  <!-- EN: Stores water for use by plumbed fixtures. Slowly fills when raining. The water must be drained if it becomes contaminated. Capacity: 100. -->
+  <WaterButt.description>Speichert Wasser, das von Sanitäranlagen genutzt werden kann. Füllt sich langsam bei Regen. Bei Kontamination muss das Wasser abgelassen werden.\n\nKapazität: 100 Liter</WaterButt.description>
 
   <!-- EN: water tower -->
   <WaterTowerS.label>Wasserturm</WaterTowerS.label>
-  <!-- EN: Stores water for use by plumbed fixtures. If the contained water becomes contaminated, the tank must be drained. -->
-  <WaterTowerS.description>Speichert Wasser, das von Sanitäranlagen genutzt werden kann. Wenn das enthaltene Wasser zu stark verunreinigt ist, muss es abgelassen werden.</WaterTowerS.description>
+  <!-- EN: Stores water for use by plumbed fixtures. The water must be drained if it becomes contaminated. Capacity: 8000. -->
+  <WaterTowerS.description>Speichert Wasser, das von Sanitäranlagen genutzt werden kann. Bei Kontamination muss das Wasser abgelassen werden.\n\nKapazität: 8.000 Liter</WaterTowerS.description>
 
   <!-- EN: huge water tower -->
   <WaterTowerL.label>großer Wasserturm</WaterTowerL.label>
-  <!-- EN: Stores water for use by plumbed fixtures. If the contained water becomes contaminated, the tank must be drained. -->
-  <WaterTowerL.description>Speichert Wasser, das von Sanitäranlagen genutzt werden kann. Wenn das enthaltene Wasser zu stark verunreinigt ist, muss es abgelassen werden.</WaterTowerL.description>
+  <!-- EN: Stores water for use by plumbed fixtures. The water must be drained if it becomes contaminated. Capacity: 50,000. -->
+  <WaterTowerL.description>Speichert Wasser, das von Sanitäranlagen genutzt werden kann. Bei Kontamination muss das Wasser abgelassen werden.\n\nKapazität: 50.000 Liter</WaterTowerL.description>
 
   <!-- EN: wind pump -->
   <WindPump.label>Windpumpe</WindPump.label>
@@ -32,7 +32,7 @@
   <WindPump.description>Pumpt Wasser von Brunnen zu Wassertürmen. Pumpleistung: 3000 L/Tag.</WindPump.description>
 
   <!-- EN: electric pump -->
-  <ElectricPump.label>elektr. Pumpe</ElectricPump.label>
+  <ElectricPump.label>Elektropumpe</ElectricPump.label>
   <!-- EN: Pumps water from wells to water towers. Pumping capacity: 1500 L/day. -->
   <ElectricPump.description>Pumpt Wasser von Brunnen zu Wassertürmen. Pumpleistung: 1500 L/Tag.</ElectricPump.description>
 
@@ -60,5 +60,25 @@
   <WaterTreatment.label>Wasserfilteranlage</WaterTreatment.label>
   <!-- EN: Cleans 99.99% of germs! Filters existing water in storage towers, and any water used by fixtures, eliminating the risk of disease. -->
   <WaterTreatment.description>Macht das Wasser zu 99,99 Prozent keimfrei! Filtert vorhandenes Wasser in Wassertürmen und jegliches von Sanitäranlagen genutztes Wasser und beseitigt so das Risiko von Krankheiten.</WaterTreatment.description>
+
+  <!-- EN: sewage dump port -->
+  <SewageDumpPort.label>Abwasserexpulsor</SewageDumpPort.label>
+  <!-- EN: A vacuum-sealed sewage expulsion port for use in spacecraft. When connected to a vacuum toilet, it safely ejects waste into the void of space.\nMust be mounted on an exterior wall of a ship. -->
+  <SewageDumpPort.description>Eine vakuumdichte Vorrichtung für Raumschiffe, die in Verbindung mit einer Vakuumtoilette menschliche Exkremente sicher ins All befördern kann.\n\nMuss an einer Außenwand des Schiffes angebracht werden.</SewageDumpPort.description>
+
+  <!-- EN: cryogenic extraction node -->
+  <CryogenicExtractionNode.label>Kryoextraktor</CryogenicExtractionNode.label>
+  <!-- EN: Extracts and sublimates volatile ices trapped beneath asteroid regolith. It produces usable water and generates substantial heat—handle with care when operating in enclosed environments. -->
+  <CryogenicExtractionNode.description>Extrahiert und sublimiert flüchtiges Eis, das unter der Oberfläche eines Asteroiden eingeschlossen ist. Produziert nutzbares Wasser und erzeugt erhebliche Abwärme – Vorsicht beim Betrieb in geschlossenen Räumen.</CryogenicExtractionNode.description>
+
+  <!-- EN: water recovery system -->
+  <SpacerWaterRecoverySystem.label>Hydrorecycler</SpacerWaterRecoverySystem.label>
+  <!-- EN: A compact high-efficiency recycling node that recovers and reuses water from showers and sinks. -->
+  <SpacerWaterRecoverySystem.description>Ein kompaktes, hocheffizientes Recyclingmodul zur Rückgewinnung und Wiederverwendung von Wasser aus Duschen und Waschbecken.</SpacerWaterRecoverySystem.description>
+
+  <!-- EN: water tank -->
+  <WaterTankSmall.label>Wassertank</WaterTankSmall.label>
+  <!-- EN: Stores water for use by plumbed fixtures. The water must be drained if it becomes contaminated. Capacity: 2000. -->
+  <WaterTankSmall.description>Speichert Wasser, das von Sanitäranlagen genutzt werden kann. Bei Kontamination muss das Wasser abgelassen werden.\n\nKapazität: 2.000 Liter</WaterTankSmall.description>
 
 </LanguageData>
