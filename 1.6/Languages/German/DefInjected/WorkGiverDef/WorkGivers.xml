@@ -50,6 +50,13 @@
   <!-- EN: washing -->
   <washPatient.gerund>Waschen von</washPatient.gerund>
 
+  <!-- EN: wash child -->
+  <washChild.label>Baby waschen</washChild.label>
+  <!-- EN: wash -->
+  <washChild.verb>waschen</washChild.verb>
+  <!-- EN: washing -->
+  <washChild.gerund>Waschen von</washChild.gerund>
+
   <!-- EN: clean bed pan -->
   <DocCleanBedpan.label>Bettpfanne reinigen</DocCleanBedpan.label>
   <!-- EN: clean -->

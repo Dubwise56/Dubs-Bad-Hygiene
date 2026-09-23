@@ -1,17 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <!-- EN: Pipe visibility -->
-  <PipeVisibility.label>Sichtbarkeit von Rohrleitungen</PipeVisibility.label>
-  <!-- EN: How pipes should be rendered -->
-  <PipeVisibility.tip>Wie Rohrleitungen dargestellt werden sollen.</PipeVisibility.tip>
-  <!-- EN: Hidden -->
-  <PipeVisibility.options.0.label>Versteckt</PipeVisibility.options.0.label>
-  <!-- EN: Hidden under floors -->
-  <PipeVisibility.options.1.label>Versteckt unter Böden</PipeVisibility.options.1.label>
-  <!-- EN: Always visible -->
-  <PipeVisibility.options.2.label>Immer sichtbar</PipeVisibility.options.2.label>
-
   <!-- EN: Hygiene need rate -->
   <HygieneRateD.label>Hygiene-Zunahmerate</HygieneRateD.label>
   <!-- EN: How fast hygiene need decreases -->

@@ -9,7 +9,7 @@
   <!-- EN: latrine -->
   <PitLatrine.label>Latrine</PitLatrine.label>
   <!-- EN: A pit latrine that collects faeces in a hole in the ground. Must be emptied manually, or can be plumbed.\n14L per use -->
-  <PitLatrine.description>Eine Vorrichtung, die Fäkalien in einem Loch im Boden sammelt. Muss manuell entleert werden oder kann mit einer Rohrleitung verbunden werden.\n14 Liter pro Nutzung</PitLatrine.description>
+  <PitLatrine.description>Eine Vorrichtung, die Fäkalien in einem Loch im Boden sammelt. Muss manuell entleert werden oder kann mit einer Rohrleitung verbunden werden.\n\n14 Liter pro Nutzung</PitLatrine.description>
 
   <!-- EN: primitive well -->
   <PrimitiveWell.label>Ziehbrunnen</PrimitiveWell.label>
@@ -37,7 +37,7 @@
   <LitterBox.description>Ein Behältnis für Kleintiere, in dem sie nach Wahl ihren Urin und Kot ablegen und vergraben können.</LitterBox.description>
 
   <!-- EN: burn pit -->
-  <BurnPit.label>Verbrennungsgrube</BurnPit.label>
+  <BurnPit.label>Brenngrube</BurnPit.label>
   <!-- EN: Eliminates fecal sludge by burning it as fuel. Can also be used for disposing of corpses or other detritus. Colonists may become sick if they spend too long near burning waste. -->
   <BurnPit.description>Dient zur Beseitigung von Abwasser. Das Abwasser wird als Brennstoff dazugegeben und anschließend verbrannt. Kann auch für die Beseitigung von Leichen oder anderem Unrat verwendet werden. Kolonisten können krank werden, wenn sie sich zu lange in der Nähe von brennenden Abfällen aufhalten.</BurnPit.description>
 
@@ -59,12 +59,17 @@
   <!-- EN: toilet -->
   <ToiletStuff.label>Toilette</ToiletStuff.label>
   <!-- EN: Sanitation fixture used for the disposal of human urine and faeces.\n14L per use -->
-  <ToiletStuff.description>Sanitäranlage zur Entsorgung von menschlichem Urin und Fäkalien.\n14 Liter pro Nutzung</ToiletStuff.description>
+  <ToiletStuff.description>Sanitäranlage zur Entsorgung von menschlichem Urin und Fäkalien.\n\n14 Liter pro Nutzung</ToiletStuff.description>
 
   <!-- EN: smart toilet -->
   <ToiletAdvStuff.label>smarte Toilette</ToiletAdvStuff.label>
   <!-- EN: Comfortable, self cleaning, unblockable, super efficient smart toilet. Provides the optimum multi-functional experience with automatic cleansing and deodorization.\n7L per use -->
-  <ToiletAdvStuff.description>Bequeme, selbstreinigende und hocheffiziente Sanitäranlage zur Entsorgung von menschlichem Urin und Fäkalien. Bietet ein optimales, multifunktionales Erlebnis mit automatischer Reinigung und Geruchsbeseitigung.\n7 Liter pro Nutzung</ToiletAdvStuff.description>
+  <ToiletAdvStuff.description>Bequeme, selbstreinigende und hocheffiziente Sanitäranlage zur Entsorgung von menschlichen Exkrementen. Bietet ein optimales, multifunktionales Erlebnis mit automatischer Reinigung und Geruchsbeseitigung.\n\n7 Liter pro Nutzung</ToiletAdvStuff.description>
+
+  <!-- EN: vacuum toilet -->
+  <ToiletSpacer.label>Vakuumtoilette</ToiletSpacer.label>
+  <!-- EN: Vacuum toilet that doesn't require water and jettisons all waste into space via sewage dump ports. -->
+  <ToiletSpacer.description>Eine Toilette, die ohne Wasser auskommt und menschliche Exkremente über Abwasserexpulsoren ins All schleudert.</ToiletSpacer.description>
 
   <!-- EN: Bath Mat -->
   <BathMat.label>Badematte</BathMat.label>
@@ -74,21 +79,21 @@
   <!-- EN: bathtub -->
   <BathtubStuff.label>Badewanne</BathtubStuff.label>
   <!-- EN: Slow to use, but very comfortable. Can be heated by placing an adjacent campfire or log boiler, or via plumbed hot water tanks. Does not require a sewage outlet.\n190L per wash -->
-  <BathtubStuff.description>Langsam im Gebrauch, aber sehr gemütlich. Beheizbar mittels Lagerfeuer oder Holz-Therme in direkter Nähe oder mittels angeschlossenem Warmwasserspeicher. Benötigt keinen Abwasserabfluss.\n190 Liter pro Nutzung</BathtubStuff.description>
+  <BathtubStuff.description>Langsam im Gebrauch, aber sehr gemütlich. Beheizbar mittels Lagerfeuer oder Holztherme in direkter Nähe oder mittels angeschlossenem Warmwasserspeicher. Benötigt keinen Abwasserabfluss.\n\n190 Liter pro Nutzung</BathtubStuff.description>
 
   <!-- EN: shower -->
   <ShowerStuff.label>Dusche</ShowerStuff.label>
   <!-- EN: Simple shower. Requires water from water towers. Can be heated via plumbed hot water tanks. Does not require a sewage outlet.\n65L per wash -->
-  <ShowerStuff.description>Einfache Dusche. Benötigt Wasser aus Wassertürmen. Beheizbar mittels angeschlossenem Warmwasserspeicher. Benötigt keinen Abwasserabfluss.\n65 Liter pro Nutzung</ShowerStuff.description>
+  <ShowerStuff.description>Einfache Dusche. Benötigt Wasser aus Wassertürmen. Beheizbar mittels angeschlossenem Warmwasserspeicher. Benötigt keinen Abwasserabfluss.\n\n65 Liter pro Nutzung</ShowerStuff.description>
 
   <!-- EN: simple shower -->
   <ShowerSimple.label>einfache Dusche</ShowerSimple.label>
   <!-- EN: Simple shower. Requires water from water towers. Can be heated via plumbed hot water tanks. Does not require a sewage outlet.\n65L per wash -->
-  <ShowerSimple.description>Einfache Dusche. Benötigt Wasser aus Wassertürmen. Beheizbar mittels angeschlossenem Warmwasserspeicher. Benötigt keinen Abwasserabfluss.\n65 Liter pro Nutzung</ShowerSimple.description>
+  <ShowerSimple.description>Einfache Dusche. Benötigt Wasser aus Wassertürmen. Beheizbar mittels angeschlossenem Warmwasserspeicher. Benötigt keinen Abwasserabfluss.\n\n65 Liter pro Nutzung</ShowerSimple.description>
 
   <!-- EN: power shower -->
-  <ShowerAdvStuff.label>Power-Dusche</ShowerAdvStuff.label>
+  <ShowerAdvStuff.label>Powerdusche</ShowerAdvStuff.label>
   <!-- EN: Heats water on demand and does not need a hot water tank, cleans twice as fast\n90L per wash -->
-  <ShowerAdvStuff.description>Erwärmt das Wasser bei Bedarf. Benötigt keinen Warmwasserspeicher. Reinigt doppelt so schnell.\n90 Liter pro Nutzung</ShowerAdvStuff.description>
+  <ShowerAdvStuff.description>Erwärmt das Wasser bei Bedarf. Benötigt keinen Warmwasserspeicher. Reinigt doppelt so schnell.\n\n90 Liter pro Nutzung</ShowerAdvStuff.description>
 
 </LanguageData>

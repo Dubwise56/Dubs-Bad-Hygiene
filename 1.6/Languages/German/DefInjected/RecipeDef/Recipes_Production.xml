@@ -6,6 +6,6 @@
   <!-- EN: Make a batch of chemfuel from fecal sludge. -->
   <Make_ChemfuelFromFecalSludge.description>Stelle Sprit her. Bei diesem Verfahren wird Biosprit aus Abwasser gewonnen.</Make_ChemfuelFromFecalSludge.description>
   <!-- EN: Refining chemfuel from fecal sludge -->
-  <Make_ChemfuelFromFecalSludge.jobString>Raffiniert Sprit aus Abwasser.</Make_ChemfuelFromFecalSludge.jobString>
+  <Make_ChemfuelFromFecalSludge.jobString>Raffiniert Abwasser zu Sprit.</Make_ChemfuelFromFecalSludge.jobString>
 
 </LanguageData>

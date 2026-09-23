@@ -1,0 +1,33 @@
+﻿1x1-deckenventilator
+2x2-deckenventilator
+abwasserauslass
+abwasserexpulsor
+brunnen
+durchfall
+elektr. saunaofen
+großer heizkörper
+großer wasserturm
+handtuchhalter
+heizkörper
+hydrorecycler
+hygieneverstärker
+klärdünger
+klärdünger-komposter
+kryoextraktor
+löschsprinkler
+saunaofen
+saunasitz
+sprinkler
+thermostat
+tiefer brunnen
+tierklo
+urin
+warmwasserspeicher
+waschzuber
+wassernapf
+wasserspender
+wassertank
+wassertrog
+wasserturm
+whirlpool
+ziehbrunnen

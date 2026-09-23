@@ -4,32 +4,32 @@
   <!-- EN: thermostat -->
   <Thermostat.label>Thermostat</Thermostat.label>
   <!-- EN: Used to control electric and gas boilers. More than one can be placed. Connects via standard plumbing. -->
-  <Thermostat.description>Dient zur Steuerung von elektrischen oder spritbetriebenen Thermen. Es können mehrere platziert werden. Der Anschluss erfolgt über normale Rohrleitungen.</Thermostat.description>
+  <Thermostat.description>Dient zur Steuerung von Elektro- oder Spritthermen. Es können mehrere platziert werden. Der Anschluss erfolgt über normale Rohrleitungen.</Thermostat.description>
 
   <!-- EN: log boiler -->
-  <LogBoiler.label>Holz-Therme</LogBoiler.label>
+  <LogBoiler.label>Holztherme</LogBoiler.label>
   <!-- EN: Produces 2000 heating units for piped radiators and hot water tanks. Heats the room and adjacent baths. Requires wood logs for fuel. -->
-  <LogBoiler.description>Erzeugt 2000 Heizeinheiten für angeschlossene Heizkörper und Warmwasserspeicher. Beheizt den Raum und angrenzende Baderäume. Benötigt Holz als Brennstoff.</LogBoiler.description>
+  <LogBoiler.description>Erzeugt 2.000 Heizeinheiten für angeschlossene Heizkörper und Warmwasserspeicher. Beheizt den Raum und angrenzende Baderäume. Benötigt Holz als Brennstoff.</LogBoiler.description>
 
   <!-- EN: gas boiler -->
-  <GasBoiler.label>Sprit-Therme</GasBoiler.label>
+  <GasBoiler.label>Sprittherme</GasBoiler.label>
   <!-- EN: Produces 2000 heating units for radiators and hot water tanks. Requires chemfuel for fuel. Can be controlled by thermostats. -->
-  <GasBoiler.description>Erzeugt 2000 Heizeinheiten für angeschlossene Heizkörper und Warmwasserspeicher. Benötigt Sprit als Brennstoff. Kann über Thermostate gesteuert werden.</GasBoiler.description>
+  <GasBoiler.description>Erzeugt 2.000 Heizeinheiten für angeschlossene Heizkörper und Warmwasserspeicher. Benötigt Sprit als Brennstoff. Kann über Thermostate gesteuert werden.</GasBoiler.description>
 
   <!-- EN: electric boiler -->
-  <ElectricBoiler.label>elektr. Therme</ElectricBoiler.label>
+  <ElectricBoiler.label>Elektrotherme</ElectricBoiler.label>
   <!-- EN: Produces a variable amount of heating units for radiators and hot water tanks. Manually controlled power setting. Can be controlled by thermostats. -->
   <ElectricBoiler.description>Erzeugt eine variable Menge an Heizeinheiten für angeschlossene Heizkörper und Warmwasserspeicher. Manuell gesteuerte Leistungsregelung. Kann über Thermostate gesteuert werden.</ElectricBoiler.description>
 
   <!-- EN: solar heater -->
-  <SolarHeater.label>Solar-Therme</SolarHeater.label>
+  <SolarHeater.label>Solartherme</SolarHeater.label>
   <!-- EN: Uses sunlight to heat hot water tanks and radiators. 0-2000 units of heating power depending on light level and ambient temperature. -->
-  <SolarHeater.description>Nutzt das Sonnenlicht zur Erwärmung von Warmwasserspeichern und Heizkörpern. Erzeugt 0-2000 Heizeinheiten je nach Lichtstärke und Umgebungstemperatur.</SolarHeater.description>
+  <SolarHeater.description>Nutzt das Sonnenlicht zur Erwärmung von Warmwasserspeichern und Heizkörpern. Erzeugt 0-2.000 Heizeinheiten je nach Lichtstärke und Umgebungstemperatur.</SolarHeater.description>
 
   <!-- EN: Geothermal heater -->
-  <GeothermHeater.label>geotherm. Therme</GeothermHeater.label>
+  <GeothermHeater.label>Geotherme</GeothermHeater.label>
   <!-- EN: Uses geothermal heat to heat hot water tanks and radiators. 3700 units of heating. -->
-  <GeothermHeater.description>Nutzt die Erdwärme zur Erhitzung von Warmwasserspeichern und Heizkörpern. Erzeugt 3700 Heizeinheiten.</GeothermHeater.description>
+  <GeothermHeater.description>Nutzt die Erdwärme zur Erhitzung von Warmwasserspeichern und Heizkörpern. Erzeugt 3.700 Heizeinheiten.</GeothermHeater.description>
 
   <!-- EN: hot water tank -->
   <HotWaterTank.label>Warmwasserspeicher</HotWaterTank.label>

@@ -6,14 +6,24 @@
   <!-- EN: Plumbing for connecting plumbed things. -->
   <sewagePipeStuff.description>Rohrleitung zum Verbinden von Sanitäranlagen.</sewagePipeStuff.description>
 
+  <!-- EN: plumbing (hidden) -->
+  <sewagePipeHidden.label>versteckte Rohrleitung</sewagePipeHidden.label>
+  <!-- EN: Plumbing for connecting plumbed things (hidden). -->
+  <sewagePipeHidden.description>Versteckte Rohrleitung zum Verbinden von Sanitäranlagen.</sewagePipeHidden.description>
+
   <!-- EN: plumbing valve -->
   <plumbingValve.label>Ventil</plumbingValve.label>
   <!-- EN: Opens or closes connections between pipes. -->
   <plumbingValve.description>Öffnet oder schließt den Durchfluss in Rohrleitungen.</plumbingValve.description>
 
   <!-- EN: air-con pipe -->
-  <airPipe.label>Klima-Rohrleitung</airPipe.label>
+  <airPipe.label>Klimaleitung</airPipe.label>
   <!-- EN: Pipe for connecting air-conditioning units. -->
   <airPipe.description>Rohrleitung zum Verbinden von Geräten einer Multisplit-Klimaanlage.</airPipe.description>
+
+  <!-- EN: air-con pipe (hidden) -->
+  <airPipeHidden.label>versteckte Klimaleitung</airPipeHidden.label>
+  <!-- EN: Pipe for connecting air-conditioning units. (hidden) -->
+  <airPipeHidden.description>Versteckte Rohrleitung zum Verbinden von Geräten einer Multisplit-Klimaanlage.</airPipeHidden.description>
 
 </LanguageData>
