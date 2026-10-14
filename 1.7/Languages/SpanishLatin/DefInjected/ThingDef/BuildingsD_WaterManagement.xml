@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- WATER PUMPING -->
+
+  <WaterWellInlet.label>Pozo de agua</WaterWellInlet.label>
+  <WaterWellInlet.description>Permite el acceso a las aguas subterráneas de las que se puede extraer el agua mediante la utilización de bombas de agua. La presencia de aguas residuales u otro tipo de impurezas reducirá la calidad del agua e incluso podría contaminarla.</WaterWellInlet.description>
+  <Blueprint_WaterWellInlet.label>Pozo de agua (anteproyecto)</Blueprint_WaterWellInlet.label>
+  <Frame_WaterWellInlet.label>Pozo de agua (construcción)</Frame_WaterWellInlet.label>
+  <Frame_WaterWellInlet.description>Permite el acceso a las aguas subterráneas de las que se puede extraer el agua mediante la utilización de bombas de agua. La presencia de aguas residuales u otro tipo de impurezas reducirá la calidad del agua e incluso podría contaminarla.</Frame_WaterWellInlet.description>
+
+  <DeepWaterWellInlet.label>Pozo de agua profundo</DeepWaterWellInlet.label>
+  <DeepWaterWellInlet.description>Permite el acceso a una gran superficie de agua subterránea de la que se puede extraer agua mediante el sistema de bombeo. Los pozos profundos no se ven afectados por la contaminación.</DeepWaterWellInlet.description>
+  <Blueprint_DeepWaterWellInlet.label>Pozo de agua profundo (anteproyecto)</Blueprint_DeepWaterWellInlet.label>
+  <Frame_DeepWaterWellInlet.label>Pozo de agua profundo (construcción)</Frame_DeepWaterWellInlet.label>
+  <Frame_DeepWaterWellInlet.description>Permite el acceso a una gran superficie de agua subterránea de la que se puede extraer agua mediante el sistema de bombeo. Los pozos profundos no se ven afectados por la contaminación.</Frame_DeepWaterWellInlet.description>
+
+  <WaterButt.label>Depósito de agua</WaterButt.label>
+  <WaterButt.description>Almacena el agua para ser utilizada por las instalaciones de fontanería. Si el agua contenida se contamina, el depósito debe ser vaciado.</WaterButt.description>
+  <Blueprint_WaterButt.label>Depósito de agua (anteproyecto)</Blueprint_WaterButt.label>
+  <Blueprint_Install_WaterButt.label>Depósito de agua (anteproyecto)</Blueprint_Install_WaterButt.label>
+  <Frame_WaterButt.label>Depósito de agua (construcción)</Frame_WaterButt.label>
+  <Frame_WaterButt.description>Almacena el agua para ser utilizada por las instalaciones de fontanería. Si el agua contenida se contamina, el depósito debe ser vaciado.</Frame_WaterButt.description>
+
+  <WaterTowerS.label>Torre de agua</WaterTowerS.label>
+  <WaterTowerS.description>Almacena el agua para ser utilizada por las instalaciones de fontanería. Si el agua contenida se contamina, la torre de agua debe ser vaciada.</WaterTowerS.description>
+  <Blueprint_WaterTowerS.label>Torre de agua (anteproyecto)</Blueprint_WaterTowerS.label>
+  <Frame_WaterTowerS.label>Torre de agua (construcción)</Frame_WaterTowerS.label>
+  <Frame_WaterTowerS.description>Almacena el agua para ser utilizada por las instalaciones de fontanería. Si el agua contenida se contamina, la torre de agua debe ser vaciada.</Frame_WaterTowerS.description>
+
+  <WaterTowerL.label>Torre de agua grande</WaterTowerL.label>
+  <WaterTowerL.description>Almacena el agua para ser utilizada por las instalaciones de fontanería. Si el agua contenida se contamina, la torre de agua debe ser vaciada.</WaterTowerL.description>
+  <Blueprint_WaterTowerL.label>Torre de agua grande (anteproyecto)</Blueprint_WaterTowerL.label>
+  <Frame_WaterTowerL.label>Torre de agua grande (construcción)</Frame_WaterTowerL.label>
+  <Frame_WaterTowerL.description>Almacena el agua para ser utilizada por las instalaciones de fontanería. Si el agua contenida se contamina, la torre de agua debe ser vaciada.</Frame_WaterTowerL.description>
+
+  <WindPump.label>Bomba de agua eólica</WindPump.label>
+  <WindPump.description>Bombea agua de los pozos a las torres de agua. Capacidad de bombeo: 3000 L/día.</WindPump.description>
+  <Blueprint_WindPump.label>Bomba de agua eólica (anteproyecto)</Blueprint_WindPump.label>
+  <Frame_WindPump.label>Bomba de agua eólica (construcción)</Frame_WindPump.label>
+  <Frame_WindPump.description>Bombea agua de los pozos a las torres de agua. Capacidad de bombeo: 3000 L/día.</Frame_WindPump.description>
+
+  <ElectricPump.label>Bomba de agua eléctrica</ElectricPump.label>
+  <ElectricPump.description>Bombea agua de los pozos a las torres de agua. Capacidad de bombeo: 1500 L/día.</ElectricPump.description>
+  <Blueprint_ElectricPump.label>Bomba de agua eléctrica (anteproyecto)</Blueprint_ElectricPump.label>
+  <Blueprint_Install_ElectricPump.label>Bomba de agua eléctrica (anteproyecto)</Blueprint_Install_ElectricPump.label>
+  <Frame_ElectricPump.label>Bomba de agua eléctrica (construcción)</Frame_ElectricPump.label>
+  <Frame_ElectricPump.description>Bombea agua de los pozos a las torres de agua. Capacidad de bombeo: 1500 L/día.</Frame_ElectricPump.description>
+
+  <PumpingStation.label>Estación de bombeo</PumpingStation.label>
+  <PumpingStation.description>Bombea agua de los pozos a las torres de agua. Capacidad de bombeo: 10000 L/día.</PumpingStation.description>
+  <Blueprint_PumpingStation.label>Estación de bombeo (anteproyecto)</Blueprint_PumpingStation.label>
+  <Frame_PumpingStation.label>Estación de bombeo (construcción)</Frame_PumpingStation.label>
+  <Frame_PumpingStation.description>Bombea agua de los pozos a las torres de agua. Capacidad de bombeo: 10000 L/día.</Frame_PumpingStation.description>
+
+  <SewageOutlet.label>Salida de aguas residuales</SewageOutlet.label>
+  <SewageOutlet.description>Puede colocarse en cualquier lugar. Las aguas residuales pueden acumularse y esparcirse por el terreno o por el agua.\nLas aguas residuales se limpian a lo largo del tiempo y la presencia de árboles, agua o lluvia pueden acelerar este proceso.</SewageOutlet.description>
+  <Blueprint_SewageOutlet.label>Salida de aguas residuales (anteproyecto)</Blueprint_SewageOutlet.label>
+  <Frame_SewageOutlet.label>Salida de aguas residuales (construcción)</Frame_SewageOutlet.label>
+  <Frame_SewageOutlet.description>Puede colocarse en cualquier lugar. Las aguas residuales pueden acumularse y esparcirse por el terreno o por el agua.\nLas aguas residuales se limpian a lo largo del tiempo y la presencia de árboles, agua o lluvia pueden acelerar este proceso.</Frame_SewageOutlet.description>
+
+  <SewageSepticTank.label>Fosa séptica</SewageSepticTank.label>
+  <SewageSepticTank.description>Limpia lentamente las aguas residuales conforme pasa el tiempo. Las aguas residuales se dirigen primero a las fosas sépticas. Si alcanza su capacidad máxima, el exceso de aguas residuales se expulsa por los desagües.</SewageSepticTank.description>
+  <Blueprint_SewageSepticTank.label>Fosa séptica (anteproyecto)</Blueprint_SewageSepticTank.label>
+  <Frame_SewageSepticTank.label>Fosa séptica (construcción)</Frame_SewageSepticTank.label>
+  <Frame_SewageSepticTank.description>Limpia lentamente las aguas residuales conforme pasa el tiempo. Las aguas residuales se dirigen primero a las fosas sépticas. Si alcanza su capacidad máxima, el exceso de aguas residuales se expulsa por los desagües.</Frame_SewageSepticTank.description>
+
+  <SewageTreatment.label>Depuración de aguas residuales</SewageTreatment.label>
+  <SewageTreatment.description>Limpia lentamente las aguas residuales conforme pasa el tiempo. Si alcanza su capacidad máxima, el exceso de aguas residuales se envía directamente a los desagües sin tratamiento.</SewageTreatment.description>
+  <Blueprint_SewageTreatment.label>Depuración de aguas residuales (anteproyecto)</Blueprint_SewageTreatment.label>
+  <Frame_SewageTreatment.label>Depuración de aguas residuales (construcción)</Frame_SewageTreatment.label>
+  <Frame_SewageTreatment.description>Limpia lentamente las aguas residuales conforme pasa el tiempo. Si alcanza su capacidad máxima, el exceso de aguas residuales se envía directamente a los desagües sin tratamiento.</Frame_SewageTreatment.description>
+
+  <WaterTreatment.label>Tratamiento del agua</WaterTreatment.label>
+  <WaterTreatment.description>¡Elimina el 99.99% de los gérmenes! Filtra el agua existente en los depósitos de almacenamiento y en las instalaciones, eliminando el riesgo de enfermedades.</WaterTreatment.description>
+  <Blueprint_WaterTreatment.label>Tratamiento del agua (anteproyecto)</Blueprint_WaterTreatment.label>
+  <Frame_WaterTreatment.label>Tratamiento del agua (construcción)</Frame_WaterTreatment.label>
+  <Frame_WaterTreatment.description>¡Elimina el 99.99% de los gérmenes! Filtra el agua existente en los depósitos de almacenamiento y en las instalaciones, eliminando el riesgo de enfermedades.</Frame_WaterTreatment.description>
+
+</LanguageData>

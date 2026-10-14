@@ -4,7 +4,7 @@
 	<name>Dubs Bad Hygiene</name>
 	<author>Dubwise</author>
 	<modIconPath IgnoreIfNoMatchingField="True">DBH/UI/Logo</modIconPath>
-	<modVersion>3.1.2800</modVersion>
+	<modVersion>3.1.3249</modVersion>
 	<url>https://github.com/Dubwise56/Dubs-Bad-Hygiene/wiki</url>
 	<supportedVersions>
 		<li>1.0</li>
@@ -14,6 +14,7 @@
 		<li>1.4</li>
 		<li>1.5</li>
 		<li>1.6</li>
+		<li>1.7</li>
 	</supportedVersions>
 	<packageId>Dubwise.DubsBadHygiene</packageId>
 	<description>Adds toilets, bathing, sewage, hygiene-related needs and mood effects, central heating, water management and thirst, irrigation, fertilizer, air conditioning, hot tubs, kitchen sinks, and more! Also includes a Lite mode for a simplified experience</description>

@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!--   <DBHSwimmingPool.label>swimming pool</DBHSwimmingPool.label>
+  <DBHSwimmingPool.description>Swimming pool used for hydrotherapy, relaxation, or pleasure. Must be filled with water from water towers first.</DBHSwimmingPool.description>
+  <DBHSwimmingPool_Blueprint.label>swimming pool (blueprint)</DBHSwimmingPool_Blueprint.label>
+  <DBHSwimmingPool_Frame.label>swimming pool (building)</DBHSwimmingPool_Frame.label>
+  <DBHSwimmingPool_Frame.description>Swimming pool used for hydrotherapy, relaxation, or pleasure. Must be filled with water from water towers first.</DBHSwimmingPool_Frame.description> -->
+
+  <DBHSwimmingPool.label>Piscina</DBHSwimmingPool.label>
+  <DBHSwimmingPool.description>Piscina utilizada para tratamientos de hidroterapia, relajación o placer. Debe llenarse primero con agua procedente de las torres de agua.</DBHSwimmingPool.description>
+  <Blueprint_DBHSwimmingPool.label>Piscina (anteproyecto)</Blueprint_DBHSwimmingPool.label>
+  <Frame_DBHSwimmingPool.label>Piscina (construcción)</Frame_DBHSwimmingPool.label>
+  <Frame_DBHSwimmingPool.description>Piscina utilizada para tratamientos de hidroterapia, relajación o placer. Debe llenarse primero con agua procedente de las torres de agua.</Frame_DBHSwimmingPool.description>
+
+  <!--   <HotTub.label>hot tub</HotTub.label>
+  <HotTub.description>Hot tub used for hydrotherapy, relaxation, or pleasure. Filled with water from water towers on first use. Self-heated and does not require a sewage outlet.</HotTub.description>
+  <HotTub_Blueprint.label>hot tub (blueprint)</HotTub_Blueprint.label>
+  <HotTub_Blueprint_Install.label>hot tub (blueprint)</HotTub_Blueprint_Install.label>
+  <HotTub_Frame.label>hot tub (building)</HotTub_Frame.label>
+  <HotTub_Frame.description>Hot tub used for hydrotherapy, relaxation, or pleasure. Filled with water from water towers on first use. Self-heated and does not require a sewage outlet.</HotTub_Frame.description> -->
+
+  <HotTub.label>Jacuzzi</HotTub.label>
+  <HotTub.description>Bañera de hidromasaje utilizada para tratamientos de hidroterapia, relajación o placer. Se llena con agua procedente de las torres de agua en su primer uso. Se autocalienta y no requiere una salida de aguas residuales.</HotTub.description>
+  <Blueprint_HotTub.label>Jacuzzi(plano)</Blueprint_HotTub.label>
+  <Blueprint_Install_HotTub.label>Tina caliente(plano)</Blueprint_Install_HotTub.label>
+  <Frame_HotTub.label>Jacuzzi(construcción)</Frame_HotTub.label>
+  <Frame_HotTub.description>Bañera de hidromasaje utilizada para tratamientos de hidroterapia, relajación o placer. Se llena con agua procedente de las torres de agua en su primer uso. Se autocalienta y no requiere una salida de aguas residuales.</Frame_HotTub.description>
+
+  <!--   <WashingMachine.label>washing machine</WashingMachine.label>
+  <WashingMachine.description>Washes clothes so well that you can't even tell someone died wearing it!</WashingMachine.description>
+  <WashingMachine_Blueprint.label>washing machine (blueprint)</WashingMachine_Blueprint.label>
+  <WashingMachine_Blueprint_Install.label>washing machine (blueprint)</WashingMachine_Blueprint_Install.label>
+  <WashingMachine_Frame.label>washing machine (building)</WashingMachine_Frame.label>
+  <WashingMachine_Frame.description>Washes clothes so well that you can't even tell someone died wearing it!</WashingMachine_Frame.description> -->
+
+  <WashingMachine.label>Lavadora</WashingMachine.label>
+  <WashingMachine.description>Lava la ropa tan bien que ni siquiera puedes decir que alguien murió usándola</WashingMachine.description>
+  <Blueprint_WashingMachine.label>Lavadora (anteproyecto)</Blueprint_WashingMachine.label>
+  <Blueprint_Install_WashingMachine.label>Lavadora (anteproyecto)</Blueprint_Install_WashingMachine.label>
+  <Frame_WashingMachine.label>Lavadora (construcción)</Frame_WashingMachine.label>
+  <Frame_WashingMachine.description>Lava la ropa tan bien que ni siquiera puedes decir que alguien murió usándola</Frame_WashingMachine.description>
+
+  <!--   <DBHSaunaHeaterLog.label>Fueled Sauna Heater</DBHSaunaHeaterLog.label>
+  <DBHSaunaHeaterLog.description>A heater designed specifically for creating a sauna room, using a sauna regularly reduces the risk of heart attacks, heats a room to 60c.</DBHSaunaHeaterLog.description>
+  <DBHSaunaHeaterLog_Blueprint.label>Fueled Sauna Heater (blueprint)</DBHSaunaHeaterLog_Blueprint.label>
+  <DBHSaunaHeaterLog_Blueprint_Install.label>Fueled Sauna Heater (blueprint)</DBHSaunaHeaterLog_Blueprint_Install.label>
+  <DBHSaunaHeaterLog_Frame.label>Fueled Sauna Heater (building)</DBHSaunaHeaterLog_Frame.label>
+  <DBHSaunaHeaterLog_Frame.description>A heater designed specifically for creating a sauna room, using a sauna regularly reduces the risk of heart attacks, heats a room to 60c.</DBHSaunaHeaterLog_Frame.description> -->
+
+  <DBHSaunaHeaterLog.label>Sauna</DBHSaunaHeaterLog.label>
+  <DBHSaunaHeaterLog.description>Un calentador diseñado específicamente para crear una sala de sauna. El uso regular de la sauna, reduce el riesgo de ataques al corazón.\nCalienta una habitación a 60ºC.</DBHSaunaHeaterLog.description>
+  <Blueprint_DBHSaunaHeaterLog.label>Sauna (anteproyecto)</Blueprint_DBHSaunaHeaterLog.label>
+  <Blueprint_Install_DBHSaunaHeaterLog.label>Sauna (anteproyecto)</Blueprint_Install_DBHSaunaHeaterLog.label>
+  <Frame_DBHSaunaHeaterLog.label>Sauna (construcción)</Frame_DBHSaunaHeaterLog.label>
+  <Frame_DBHSaunaHeaterLog.description>Un calentador diseñado específicamente para crear una sala de sauna. El uso regular de la sauna, reduce el riesgo de ataques al corazón.\nCalienta una habitación a 60ºC.</Frame_DBHSaunaHeaterLog.description>
+
+  <!--   <DBHSaunaHeaterElec.label>Electric Sauna Heater</DBHSaunaHeaterElec.label>
+  <DBHSaunaHeaterElec.description>A heater designed specifically for creating a sauna room, using a sauna regularly reduces the risk of heart attacks, heats a room to 60c.</DBHSaunaHeaterElec.description>
+  <DBHSaunaHeaterElec_Blueprint.label>Electric Sauna Heater (blueprint)</DBHSaunaHeaterElec_Blueprint.label>
+  <DBHSaunaHeaterElec_Blueprint_Install.label>Electric Sauna Heater (blueprint)</DBHSaunaHeaterElec_Blueprint_Install.label>
+  <DBHSaunaHeaterElec_Frame.label>Electric Sauna Heater (building)</DBHSaunaHeaterElec_Frame.label>
+  <DBHSaunaHeaterElec_Frame.description>A heater designed specifically for creating a sauna room, using a sauna regularly reduces the risk of heart attacks, heats a room to 60c.</DBHSaunaHeaterElec_Frame.description>
+
+  <DBHSaunaSeating.label>Sauna seating</DBHSaunaSeating.label>
+  <DBHSaunaSeating.description>Slatted seating for sauna rooms</DBHSaunaSeating.description> -->
+
+  <DBHSaunaHeaterElec.label>Sauna eléctrica</DBHSaunaHeaterElec.label>
+  <DBHSaunaHeaterElec.description>Un calentador diseñado específicamente para crear una sala de sauna. El uso regular de la sauna, reduce el riesgo de ataques al corazón.\nCalienta una habitación a 60ºC.</DBHSaunaHeaterElec.description>
+  <Blueprint_DBHSaunaHeaterElec.label>Sauna eléctrica (anteproyecto)</Blueprint_DBHSaunaHeaterElec.label>
+  <Blueprint_Install_DBHSaunaHeaterElec.label>Sauna eléctrica (anteproyecto)</Blueprint_Install_DBHSaunaHeaterElec.label>
+  <Frame_DBHSaunaHeaterElec.label>Sauna eléctrica (construcción)</Frame_DBHSaunaHeaterElec.label>
+  <Frame_DBHSaunaHeaterElec.description>Un calentador diseñado específicamente para crear una sala de sauna. El uso regular de la sauna, reduce el riesgo de ataques al corazón.\nCalienta una habitación a 60ºC.</Frame_DBHSaunaHeaterElec.description>
+
+  <DBHSaunaSeating.label>Asientos para la sauna</DBHSaunaSeating.label>
+  <DBHSaunaSeating.description>Asientos de rejilla para salas de sauna.</DBHSaunaSeating.description>
+
+
+</LanguageData>

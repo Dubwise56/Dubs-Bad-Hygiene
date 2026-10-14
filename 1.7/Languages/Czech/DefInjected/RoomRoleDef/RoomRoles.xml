@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<PublicBathroom.label>Veřejná koupelna</PublicBathroom.label>
+
+	<PrivateBathroom.label>Soukromá koupelna</PrivateBathroom.label>
+
+	<SaunaRoom.label>Sauna</SaunaRoom.label>
+
+</LanguageData>

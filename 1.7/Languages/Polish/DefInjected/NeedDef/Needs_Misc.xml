@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Bladder.label>pęcherz</Bladder.label>
+  <Bladder.description>Aby zapobiec ryzyku zachorowania, ważne jest utrzymanie dobrego poziomu sanitarnego poprzez usuwanie lub oczyszczanie odpadów oraz zapobieganie zanieczyszczeniu wody ściekami.</Bladder.description>
+
+
+  <!-- DONT CHANGE NAMES WILL BREAK RIMHUD -->
+
+  <Hygiene.label>higiena</Hygiene.label>
+  <Hygiene.description>Dobra higiena osobista jest ważna dla zmniejszenia ryzyka chorób i utrzymania kolonistów w szczęściu i zdrowiu.</Hygiene.description>
+
+
+  <!-- COMMON SENSE WILL FORCE THEM TO DRINK WHEN THIRST FALLS TO ONLY 80% -->
+
+  <DBHThirst.label>pragnienie</DBHThirst.label>
+  <DBHThirst.description>Woda jest niezbędna do wielu procesów fizjologicznych życia. Jeśli jej ilość osiągnie zero, stworzenie będzie powoli umierać z odwodnienia..</DBHThirst.description>
+
+
+</LanguageData>

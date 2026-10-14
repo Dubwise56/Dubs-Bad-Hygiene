@@ -1,0 +1,252 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!--   <ToiletStallDoor.label>stall door</ToiletStallDoor.label>
+  <ToiletStallDoor.description>Thin door which only blocks line of sight to people using bathroom fixtures. Does not create new rooms or prevent heat loss.</ToiletStallDoor.description>
+  <ToiletStallDoor_Blueprint.label>stall door (blueprint)</ToiletStallDoor_Blueprint.label>
+  <ToiletStallDoor_Frame.label>stall door (building)</ToiletStallDoor_Frame.label>
+  <ToiletStallDoor_Frame.description>Thin door which only blocks line of sight to people using bathroom fixtures. Does not create new rooms or prevent heat loss.</ToiletStallDoor_Frame.description> -->
+
+  <ToiletStallDoor.label>Separador de inodoro</ToiletStallDoor.label>
+  <ToiletStallDoor.description>Panel delgado que bloquea la línea de visión entre las personas que utilizan los baños otorgando mayor privacidad. No crea nuevas habitaciones ni evita la pérdida de calor.</ToiletStallDoor.description>
+  <Blueprint_ToiletStallDoor.label>Separador de inodoro (anteproyecto)</Blueprint_ToiletStallDoor.label>
+  <Frame_ToiletStallDoor.label>Separador de inodoro (construcción)</Frame_ToiletStallDoor.label>
+  <Frame_ToiletStallDoor.description>Panel delgado que bloquea la línea de visión entre las personas que utilizan los baños otorgando mayor privacidad. No crea nuevas habitaciones ni evita la pérdida de calor.</Frame_ToiletStallDoor.description>
+
+
+  <!-- Low Tech Stuff -->
+
+  <!--   <PitLatrine.label>latrine</PitLatrine.label>
+  <PitLatrine.description>A pit latrine that collects faeces in a hole in the ground. Must be emptied manually, or can be plumbed.\n14L per use</PitLatrine.description>
+  <PitLatrine_Blueprint.label>latrine (blueprint)</PitLatrine_Blueprint.label>
+  <PitLatrine_Blueprint_Install.label>latrine (blueprint)</PitLatrine_Blueprint_Install.label>
+  <PitLatrine_Frame.label>latrine (building)</PitLatrine_Frame.label>
+  <PitLatrine_Frame.description>A pit latrine that collects faeces in a hole in the ground. Must be emptied manually, or can be plumbed.\n14L per use</PitLatrine_Frame.description> -->
+
+  <PitLatrine.label>Letrina</PitLatrine.label>
+  <PitLatrine.description>Una letrina de hoyo es un tipo de letrina que acumula el excremento humano en un hoyo en el suelo. Debe vaciarse manualmente o puede conectarse a la red de tuberías.\nGasta 14L por cada uso.</PitLatrine.description>
+  <Blueprint_PitLatrine.label>Letrina (anteproyecto)</Blueprint_PitLatrine.label>
+  <Blueprint_Install_PitLatrine.label>Letrina (anteproyecto)</Blueprint_Install_PitLatrine.label>
+  <Frame_PitLatrine.label>Letrina (construcción)</Frame_PitLatrine.label>
+  <Frame_PitLatrine.description>Una letrina de hoyo es un tipo de letrina que acumula el excremento humano en un hoyo en el suelo. Debe vaciarse manualmente o puede conectarse a la red de tuberías.\nGasta 14L por cada uso.</Frame_PitLatrine.description>
+
+  <!--   <PrimitiveWell.label>primitive well</PrimitiveWell.label>
+  <PrimitiveWell.description>Accesses ground water. Water must be hauled to a water tub before it can be used for washing or drinking.</PrimitiveWell.description>
+  <PrimitiveWell_Blueprint.label>primitive well (blueprint)</PrimitiveWell_Blueprint.label>
+  <PrimitiveWell_Frame.label>primitive well (building)</PrimitiveWell_Frame.label>
+  <PrimitiveWell_Frame.description>Accesses ground water. Water must be hauled to a water tub before it can be used for washing or drinking.</PrimitiveWell_Frame.description> -->
+
+  <PrimitiveWell.label>Pozo primitivo</PrimitiveWell.label>
+  <PrimitiveWell.description>Permite el acceso a las aguas subterráneas. El agua debe ser transportada a un recipiente antes de ser utilizada para lavar o beber.</PrimitiveWell.description>
+  <Blueprint_PrimitiveWell.label>Pozo primitivo (anteproyecto)</Blueprint_PrimitiveWell.label>
+  <Frame_PrimitiveWell.label>Pozo primitivo (construcción)</Frame_PrimitiveWell.label>
+  <Frame_PrimitiveWell.description>Permite el acceso a las aguas subterráneas. El agua debe ser transportada a un recipiente antes de ser utilizada para lavar o beber.</Frame_PrimitiveWell.description>
+
+  <!--   <WashBucket.label>water tub</WashBucket.label>
+  <WashBucket.description>Tub of water used for personal hygiene. Must be regularly refilled with fresh water, also fills with rain water. Can also be used for drinking if thirst is enabled.</WashBucket.description>
+  <WashBucket_Blueprint.label>water tub (blueprint)</WashBucket_Blueprint.label>
+  <WashBucket_Blueprint_Install.label>water tub (blueprint)</WashBucket_Blueprint_Install.label>
+  <WashBucket_Frame.label>water tub (building)</WashBucket_Frame.label>
+  <WashBucket_Frame.description>Tub of water used for personal hygiene. Must be regularly refilled with fresh water, also fills with rain water. Can also be used for drinking if thirst is enabled.</WashBucket_Frame.description> -->
+
+  <WashBucket.label>Barreño</WashBucket.label>
+  <WashBucket.description>Barreño de agua que se utiliza para la higiene personal. Debe rellenarse regularmente con agua limpia y se puede llenar con agua de lluvia.\nTambién se puede utilizar para beber si se habilita la sed.</WashBucket.description>
+  <Blueprint_WashBucket.label>Barreño (anteproyecto)</Blueprint_WashBucket.label>
+  <Blueprint_Install_WashBucket.label>Barreño (anteproyecto)</Blueprint_Install_WashBucket.label>
+  <Frame_WashBucket.label>Barreño (construcción)</Frame_WashBucket.label>
+  <Frame_WashBucket.description>Barreño de agua que se utiliza para la higiene personal. Debe rellenarse regularmente con agua limpia y se puede llenar con agua de lluvia.\nTambién se puede utilizar para beber si se habilita la sed.</Frame_WashBucket.description>
+
+  <!--   <WaterTrough.label>Water Trough</WaterTrough.label>
+  <WaterTrough.description>Trough of water used by animals, a service box with a ballcock valve automatically refills the water when the level is low, also refills in rain.</WaterTrough.description>
+  <WaterTrough_Blueprint.label>Water Trough (blueprint)</WaterTrough_Blueprint.label>
+  <WaterTrough_Blueprint_Install.label>Water Trough (blueprint)</WaterTrough_Blueprint_Install.label>
+  <WaterTrough_Frame.label>Water Trough (building)</WaterTrough_Frame.label>
+  <WaterTrough_Frame.description>Trough of water used by animals, a service box with a ballcock valve automatically refills the water when the level is low, also refills in rain.</WaterTrough_Frame.description> -->
+
+  <WaterTrough.label>Bebedero</WaterTrough.label>
+  <WaterTrough.description>Bebedero de agua utilizado por los animales, se rellena automáticamente cuando el nivel del agua es bajo mediante una válvula de bola.\nLa lluvia también puede rellenar de agua el bebedero.</WaterTrough.description>
+  <Blueprint_WaterTrough.label>Bebedero (anteproyecto)</Blueprint_WaterTrough.label>
+  <Blueprint_Install_WaterTrough.label>Bebedero (anteproyecto)</Blueprint_Install_WaterTrough.label>
+  <Frame_WaterTrough.label>Bebedero (construcción)</Frame_WaterTrough.label>
+  <Frame_WaterTrough.description>Bebedero de agua utilizado por los animales, se rellena automáticamente cuando el nivel del agua es bajo mediante una válvula de bola.\nLa lluvia también puede rellenar de agua el bebedero.</Frame_WaterTrough.description>
+
+    <!--   <PetWaterBowl.label>Water Bowl</PetWaterBowl.label>
+  <PetWaterBowl.description>Bowl of water used by animals.</PetWaterBowl.description>
+  <PetWaterBowl_Blueprint.label>Water Bowl (blueprint)</PetWaterBowl_Blueprint.label>
+  <PetWaterBowl_Blueprint_Install.label>Water Bowl (blueprint)</PetWaterBowl_Blueprint_Install.label>
+  <PetWaterBowl_Frame.label>Water Bowl (building)</PetWaterBowl_Frame.label>
+  <PetWaterBowl_Frame.description>Bowl of water used by animals.</PetWaterBowl_Frame.description> -->
+
+  <PetWaterBowl.label>Cuenco de agua</PetWaterBowl.label>
+  <PetWaterBowl.description>Cuenco de agua utilizado por los animales domésticos.</PetWaterBowl.description>
+  <Blueprint_PetWaterBowl.label>Cuenco de agua (anteproyecto)</Blueprint_PetWaterBowl.label>
+  <Blueprint_Install_PetWaterBowl.label>Cuenco de agua (anteproyecto)</Blueprint_Install_PetWaterBowl.label>
+  <Frame_PetWaterBowl.label>Cuenco de agua (construcción)</Frame_PetWaterBowl.label>
+  <Frame_PetWaterBowl.description>Cuenco de agua utilizado por los animales domésticos.</Frame_PetWaterBowl.description>
+
+  <!--   <LitterBox.label>litter box</LitterBox.label>
+  <LitterBox.description>An indoor faeces and urine collection box for small animals.</LitterBox.description>
+  <LitterBox_Blueprint.label>litter box (blueprint)</LitterBox_Blueprint.label>
+  <LitterBox_Blueprint_Install.label>litter box (blueprint)</LitterBox_Blueprint_Install.label>
+  <LitterBox_Frame.label>litter box (building)</LitterBox_Frame.label>
+  <LitterBox_Frame.description>An indoor faeces and urine collection box for small animals.</LitterBox_Frame.description>
+ -->
+
+  <LitterBox.label>Caja de arena</LitterBox.label>
+  <LitterBox.description>Una caja de arena para interiores, donde los animales pequeños depositan sus heces y orina.</LitterBox.description>
+  <Blueprint_LitterBox.label>Caja de arena (anteproyecto)</Blueprint_LitterBox.label>
+  <Blueprint_Install_LitterBox.label>Caja de arena (anteproyecto)</Blueprint_Install_LitterBox.label>
+  <Frame_LitterBox.label>Caja de arena (construcción)</Frame_LitterBox.label>
+  <Frame_LitterBox.description>Una caja de arena para interiores, donde los animales pequeños depositan sus heces y orina.</Frame_LitterBox.description>
+
+  <!--   <BurnPit.label>burn pit</BurnPit.label>
+  <BurnPit.description>Eliminates fecal sludge by burning it as fuel. Can also be used for disposing of corpses or other detritus. Colonists may become sick if they spend too long near burning waste.</BurnPit.description>
+  <BurnPit_Blueprint.label>burn pit (blueprint)</BurnPit_Blueprint.label>
+  <BurnPit_Frame.label>burn pit (building)</BurnPit_Frame.label>
+  <BurnPit_Frame.description>Eliminates fecal sludge by burning it as fuel. Can also be used for disposing of corpses or other detritus. Colonists may become sick if they spend too long near burning waste.</BurnPit_Frame.description> -->
+
+  <BurnPit.label>Foso de incineración</BurnPit.label>
+  <BurnPit.description>Elimina los residuos fecales quemándolos como combustible. También puede utilizarse para eliminar cadáveres u otros desechos.\nEstar demasiado tiempo cerca de los residuos quemados puede ser perjudicial para la salud.</BurnPit.description>
+  <Blueprint_BurnPit.label>Fosa de incineración (anteproyecto)</Blueprint_BurnPit.label>
+  <Frame_BurnPit.label>Fosa de incineración (construcción)</Frame_BurnPit.label>
+  <Frame_BurnPit.description>Elimina los residuos fecales quemándolos como combustible. También puede utilizarse para eliminar cadáveres u otros desechos.\nEstar demasiado tiempo cerca de los residuos quemados puede ser perjudicial para la salud.</Frame_BurnPit.description>
+
+
+  <!-- Basins -->
+
+  <!--   <BasinStuff.label>basin</BasinStuff.label>
+  <BasinStuff.description>Clean and simple bathroom basin for keeping your hands clean after using the toilet.</BasinStuff.description>
+  <BasinStuff_Blueprint.label>basin (blueprint)</BasinStuff_Blueprint.label>
+  <BasinStuff_Blueprint_Install.label>basin (blueprint)</BasinStuff_Blueprint_Install.label>
+  <BasinStuff_Frame.label>basin (building)</BasinStuff_Frame.label>
+  <BasinStuff_Frame.description>Clean and simple bathroom basin for keeping your hands clean after using the toilet.</BasinStuff_Frame.description> -->
+
+  <BasinStuff.label>Lavabo</BasinStuff.label>
+  <BasinStuff.description>Lavabo limpio y sencillo para asearse y mantener las manos limpias después de ir al baño.</BasinStuff.description>
+  <Blueprint_BasinStuff.label>Lavabo (anteproyecto)</Blueprint_BasinStuff.label>
+  <Blueprint_Install_BasinStuff.label>Lavabo (anteproyecto)</Blueprint_Install_BasinStuff.label>
+  <Frame_BasinStuff.label>Lavabo (construcción)</Frame_BasinStuff.label>
+  <Frame_BasinStuff.description>Lavabo limpio y sencillo para asearse y mantener las manos limpias después de ir al baño.</Frame_BasinStuff.description>
+
+  <!-- <Fountain.label>fountain</Fountain.label>
+  <Fountain.description>A water fountain used for drinking and washing.</Fountain.description>
+  <Fountain_Blueprint.label>fountain (blueprint)</Fountain_Blueprint.label>
+  <Fountain_Blueprint_Install.label>fountain (blueprint)</Fountain_Blueprint_Install.label>
+  <Fountain_Frame.label>fountain (building)</Fountain_Frame.label>
+  <Fountain_Frame.description>A water fountain used for drinking and washing.</Fountain_Frame.description> -->
+
+  <Fountain.label>Fuente</Fountain.label>
+  <Fountain.description>Una fuente de agua utilizada para beber y lavarse.</Fountain.description>
+  <Blueprint_Fountain.label>Fuente (anteproyecto)</Blueprint_Fountain.label>
+  <Blueprint_Install_Fountain.label>Fuente (anteproyecto)</Blueprint_Install_Fountain.label>
+  <Frame_Fountain.label>Fuente (construcción)</Frame_Fountain.label>
+  <Frame_Fountain.description>Una fuente de agua utilizada para beber y lavarse.</Frame_Fountain.description>
+
+  <!--   <KitchenSink.label>kitchen sink</KitchenSink.label>
+  <KitchenSink.description>Everything but a kitchen sink. Increases room cleanliness.</KitchenSink.description>
+  <KitchenSink_Blueprint.label>kitchen sink (blueprint)</KitchenSink_Blueprint.label>
+  <KitchenSink_Blueprint_Install.label>kitchen sink (blueprint)</KitchenSink_Blueprint_Install.label>
+  <KitchenSink_Frame.label>kitchen sink (building)</KitchenSink_Frame.label>
+  <KitchenSink_Frame.description>Everything but a kitchen sink. Increases room cleanliness.</KitchenSink_Frame.description> -->
+
+  <KitchenSink.label>Fregadero de cocina</KitchenSink.label>
+  <KitchenSink.description>Fregadero de cocina. Aumenta la limpieza de la habitación.</KitchenSink.description>
+  <Blueprint_KitchenSink.label>Fregadero de cocina (anteproyecto)</Blueprint_KitchenSink.label>
+  <Blueprint_Install_KitchenSink.label>Fregadero de cocina (anteproyecto)</Blueprint_Install_KitchenSink.label>
+  <Frame_KitchenSink.label>Fregadero de cocina (construcción)</Frame_KitchenSink.label>
+  <Frame_KitchenSink.description>Fregadero de cocina. Aumenta la limpieza de la habitación.</Frame_KitchenSink.description>
+
+
+  <!-- Toilets -->
+
+  <!--   <ToiletStuff.label>toilet</ToiletStuff.label>
+  <ToiletStuff.description>Sanitation fixture used for the disposal of human urine and faeces.\n14L per use</ToiletStuff.description>
+  <ToiletStuff_Blueprint.label>toilet (blueprint)</ToiletStuff_Blueprint.label>
+  <ToiletStuff_Blueprint_Install.label>toilet (blueprint)</ToiletStuff_Blueprint_Install.label>
+  <ToiletStuff_Frame.label>toilet (building)</ToiletStuff_Frame.label>
+  <ToiletStuff_Frame.description>Sanitation fixture used for the disposal of human urine and faeces.\n14L per use</ToiletStuff_Frame.description> -->
+
+  <ToiletStuff.label>Inodoro</ToiletStuff.label>
+  <ToiletStuff.description>Aparato sanitario utilizado para recoger y evacuar los excrementos sólidos y líquidos de las personas hacia una instalación de saneamiento que impide, mediante un sistema de sifón de agua limpia, la salida de los olores desagradables de la cloaca o alcantarillado hacia los espacios habitados.\n14L por cada uso.</ToiletStuff.description>
+  <Blueprint_ToiletStuff.label>Inodoro (anteproyecto)</Blueprint_ToiletStuff.label>
+  <Blueprint_Install_ToiletStuff.label>Inodoro (anteproyecto)</Blueprint_Install_ToiletStuff.label>
+  <Frame_ToiletStuff.label>Inodoro (construcción)</Frame_ToiletStuff.label>
+  <Frame_ToiletStuff.description>Aparato sanitario utilizado para recoger y evacuar los excrementos sólidos y líquidos de las personas hacia una instalación de saneamiento que impide, mediante un sistema de sifón de agua limpia, la salida de los olores desagradables de la cloaca o alcantarillado hacia los espacios habitados.\n14L por cada uso.</Frame_ToiletStuff.description>
+
+  <ToiletAdvStuff.label>Inodoro inteligente</ToiletAdvStuff.label>
+  <ToiletAdvStuff.description>Inodoro inteligente cómodo, autolimpiable, desatascable y súper eficiente. Proporciona una experiencia multifuncional óptima con limpieza y desodorización automática.\n7L por cada uso.</ToiletAdvStuff.description>
+  <Blueprint_ToiletAdvStuff.label>Inodoro inteligent (anteproyecto)</Blueprint_ToiletAdvStuff.label>
+  <Blueprint_Install_ToiletAdvStuff.label>Inodoro inteligent (anteproyecto)</Blueprint_Install_ToiletAdvStuff.label>
+  <Frame_ToiletAdvStuff.label>Inodoro inteligent (construcción)</Frame_ToiletAdvStuff.label>
+  <Frame_ToiletAdvStuff.description>Inodoro inteligente cómodo, autolimpiable, desatascable y súper eficiente. Proporciona una experiencia multifuncional óptima con limpieza y desodorización automática.\n7L por cada uso.</Frame_ToiletAdvStuff.description>
+
+
+  <!-- Baths -->
+
+  <!--   <BathMat.label>Bath Mat</BathMat.label>
+  <BathMat.description>A small mat used next to a bathtub to absorb water.</BathMat.description>
+  <BathMat_Blueprint.label>Bath Mat (blueprint)</BathMat_Blueprint.label>
+  <BathMat_Blueprint_Install.label>Bath Mat (blueprint)</BathMat_Blueprint_Install.label>
+  <BathMat_Frame.label>Bath Mat (building)</BathMat_Frame.label>
+  <BathMat_Frame.description>A small mat used next to a bathtub to absorb water.</BathMat_Frame.description> -->
+
+  <BathMat.label>Alfombra de baño</BathMat.label>
+  <BathMat.description>Una pequeña alfombra que se utiliza junto a la bañera para absorber el agua.</BathMat.description>
+  <Blueprint_BathMat.label>Alfombra de baño (anteproyecto)</Blueprint_BathMat.label>
+  <Blueprint_Install_BathMat.label>Alfombra de baño (anteproyecto)</Blueprint_Install_BathMat.label>
+  <Frame_BathMat.label>Alfombra de baño (construcción)</Frame_BathMat.label>
+  <Frame_BathMat.description>Una pequeña alfombra que se utiliza junto a la bañera para absorber el agua.</Frame_BathMat.description>
+
+  <BathtubStuff.label>Bañera</BathtubStuff.label>
+  <BathtubStuff.description>Lento de usar, pero muy cómodo. Se puede calentar colocando una hoguera o una caldera de leña adyacente, o mediante depósitos de agua caliente conectados. No requiere una salida de aguas residuales.\n190L por cada lavado.</BathtubStuff.description>
+  <Blueprint_BathtubStuff.label>Bañera (anteproyecto)</Blueprint_BathtubStuff.label>
+  <Blueprint_Install_BathtubStuff.label>Bañera (anteproyecto)</Blueprint_Install_BathtubStuff.label>
+  <Frame_BathtubStuff.label>Bañera (construcción)</Frame_BathtubStuff.label>
+  <Frame_BathtubStuff.description>Lento de usar, pero muy cómodo. Se puede calentar colocando una hoguera o una caldera de leña adyacente, o mediante depósitos de agua caliente conectados. No requiere una salida de aguas residuales.\n190L por cada lavado.</Frame_BathtubStuff.description>
+
+
+  <!-- Showers -->
+
+  <!--   <ShowerStuff.label>shower</ShowerStuff.label>
+  <ShowerStuff.description>Simple shower. Requires water from water towers. Can be heated via plumbed hot water tanks. Does not require a sewage outlet.\n65L per wash</ShowerStuff.description>
+  <ShowerStuff_Blueprint.label>shower (blueprint)</ShowerStuff_Blueprint.label>
+  <ShowerStuff_Blueprint_Install.label>shower (blueprint)</ShowerStuff_Blueprint_Install.label>
+  <ShowerStuff_Frame.label>shower (building)</ShowerStuff_Frame.label>
+  <ShowerStuff_Frame.description>Simple shower. Requires water from water towers. Can be heated via plumbed hot water tanks. Does not require a sewage outlet.\n65L per wash</ShowerStuff_Frame.description> -->
+
+  <ShowerStuff.label>Ducha</ShowerStuff.label>
+  <ShowerStuff.description>Ducha simple. Requiere agua de las torres de agua. Se puede calentar mediante depósitos de agua caliente conectados. No requiere una salida de aguas residuales.\n65L por cada lavado.</ShowerStuff.description>
+  <Blueprint_ShowerStuff.label>Ducha (anteproyecto)</Blueprint_ShowerStuff.label>
+  <Blueprint_Install_ShowerStuff.label>Ducha (anteproyecto)</Blueprint_Install_ShowerStuff.label>
+  <Frame_ShowerStuff.label>Ducha (construcción)</Frame_ShowerStuff.label>
+  <Frame_ShowerStuff.description>Ducha simple. Requiere agua de las torres de agua. Se puede calentar mediante depósitos de agua caliente conectados. No requiere una salida de aguas residuales.\n65L por cada lavado.</Frame_ShowerStuff.description>
+
+  <!--  <ShowerSimple.label>simple shower</ShowerSimple.label>
+  <ShowerSimple.description>Simple shower. Requires water from water towers. Can be heated via plumbed hot water tanks. Does not require a sewage outlet.\n65L per wash</ShowerSimple.description>
+  <ShowerSimple_Blueprint.label>simple shower (blueprint)</ShowerSimple_Blueprint.label>
+  <ShowerSimple_Blueprint_Install.label>simple shower (blueprint)</ShowerSimple_Blueprint_Install.label>
+  <ShowerSimple_Frame.label>simple shower (building)</ShowerSimple_Frame.label>
+  <ShowerSimple_Frame.description>Simple shower. Requires water from water towers. Can be heated via plumbed hot water tanks. Does not require a sewage outlet.\n65L per wash</ShowerSimple_Frame.description> -->
+
+  <ShowerSimple.label>Ducha simple</ShowerSimple.label>
+  <ShowerSimple.description>Ducha simple. Requiere agua de las torres de agua. Se puede calentar mediante depósitos de agua caliente conectados. No requiere una salida de aguas residuales.\n65L por cada lavado.</ShowerSimple.description>
+  <Blueprint_ShowerSimple.label>Ducha simple (anteproyecto)</Blueprint_ShowerSimple.label>
+  <Blueprint_Install_ShowerSimple.label>Ducha simple (anteproyecto)</Blueprint_Install_ShowerSimple.label>
+  <Frame_ShowerSimple.label>Ducha simple (construcción)</Frame_ShowerSimple.label>
+  <Frame_ShowerSimple.description>Ducha simple. Requiere agua de las torres de agua. Se puede calentar mediante depósitos de agua caliente conectados. No requiere una salida de aguas residuales.\n65L por cada lavado.</Frame_ShowerSimple.description>
+
+  <!--   <ShowerAdvStuff.label>power shower</ShowerAdvStuff.label>
+  <ShowerAdvStuff.description>Heats water on demand and does not need a hot water tank, cleans twice as fast\n90L per wash</ShowerAdvStuff.description>
+  <ShowerAdvStuff_Blueprint.label>power shower (blueprint)</ShowerAdvStuff_Blueprint.label>
+  <ShowerAdvStuff_Blueprint_Install.label>power shower (blueprint)</ShowerAdvStuff_Blueprint_Install.label>
+  <ShowerAdvStuff_Frame.label>power shower (building)</ShowerAdvStuff_Frame.label>
+  <ShowerAdvStuff_Frame.description>Heats water on demand and does not need a hot water tank, cleans twice as fast\n90L per wash</ShowerAdvStuff_Frame.description> -->
+
+  <ShowerAdvStuff.label>Ducha eléctrica</ShowerAdvStuff.label>
+  <ShowerAdvStuff.description>Calienta el agua según la demanda y no necesita un depósito de agua caliente y consigue limpiar el doble de rápido.\n90 litros por cada lavado.</ShowerAdvStuff.description>
+  <Blueprint_ShowerAdvStuff.label>Ducha eléctrica (anteproyecto)</Blueprint_ShowerAdvStuff.label>
+  <Blueprint_Install_ShowerAdvStuff.label>Ducha eléctrica (anteproyecto)</Blueprint_Install_ShowerAdvStuff.label>
+  <Frame_ShowerAdvStuff.label>Ducha eléctrica (construcción)</Frame_ShowerAdvStuff.label>
+  <Frame_ShowerAdvStuff.description>Calienta el agua según la demanda y no necesita un depósito de agua caliente y consigue limpiar el doble de rápido.\n90 litros por cada lavado.</Frame_ShowerAdvStuff.description>
+
+</LanguageData>

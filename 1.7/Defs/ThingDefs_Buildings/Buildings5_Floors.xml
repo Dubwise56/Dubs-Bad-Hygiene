@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<DesignatorDropdownGroupDef>
+		<defName>DBH_Floor_Tile_Mosaic</defName>
+		<label>mosaic tile</label>
+	</DesignatorDropdownGroupDef>
+
+	<TerrainDef ParentName="TileMetalBase">
+		<defName>DBHMosaicTile</defName>
+		<label>mosaic tile</label>
+		<texturePath>DBH/Terrain/Mosaic</texturePath>
+		<designatorDropdown>DBH_Floor_Tile_Mosaic</designatorDropdown>
+		<constructEffect>ConstructMetal</constructEffect>
+		<researchPrerequisites>
+			<li>Smithing</li>
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>3</constructionSkillPrerequisite>
+		<renderPrecedence>240</renderPrecedence>
+		<description>Steel tiles in a mosaic pattern, stylish in bathrooms or kitchens.</description>
+		<color>(195,195,195)</color>
+		<statBases>
+			<WorkToBuild>800</WorkToBuild>
+			<Beauty>1</Beauty>
+		</statBases>
+		<costList>
+			<Steel>4</Steel>
+		</costList>
+	</TerrainDef>
+
+	<TerrainDef Abstract="True" ParentName="FloorBase" Name="DBHMosaicBase">
+		<renderPrecedence>220</renderPrecedence>
+		<description>Carefully-cut and fit stone tiles in a mosaic pattern, stylish in bathrooms or kitchens.</description>
+		<texturePath>DBH/Terrain/Mosaic</texturePath>
+		<statBases>
+			<WorkToBuild>800</WorkToBuild>
+			<Beauty>1</Beauty>
+		</statBases>
+		<designatorDropdown>DBH_Floor_Tile_Mosaic</designatorDropdown>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>3</constructionSkillPrerequisite>
+	</TerrainDef>
+
+	<TerrainDef ParentName="DBHMosaicBase">
+		<defName>DBHMosaicSandstone</defName>
+		<label>sandstone mosaic tile</label>
+		<color>(126,104,94)</color>
+		<costList>
+			<BlocksSandstone>4</BlocksSandstone>
+		</costList>
+	</TerrainDef>
+
+	<TerrainDef ParentName="DBHMosaicBase">
+		<defName>DBHMosaicGranite</defName>
+		<label>granite mosaic tile</label>
+		<color>(105,95,97)</color>
+		<costList>
+			<BlocksGranite>4</BlocksGranite>
+		</costList>
+	</TerrainDef>
+
+	<TerrainDef ParentName="DBHMosaicBase">
+		<defName>DBHMosaicLimestone</defName>
+		<label>limestone mosaic tile</label>
+		<color>(158,153,135)</color>
+		<costList>
+			<BlocksLimestone>4</BlocksLimestone>
+		</costList>
+	</TerrainDef>
+
+	<TerrainDef ParentName="DBHMosaicBase">
+		<defName>DBHMosaicSlate</defName>
+		<label>slate mosaic tile</label>
+		<color>(105,105,105)</color>
+		<costList>
+			<BlocksSlate>4</BlocksSlate>
+		</costList>
+	</TerrainDef>
+
+	<TerrainDef ParentName="DBHMosaicBase">
+		<defName>DBHMosaicMarble</defName>
+		<label>marble mosaic tile</label>
+		<color>(132,135,132)</color>
+		<costList>
+			<BlocksMarble>4</BlocksMarble>
+		</costList>
+	</TerrainDef>
+
+
+
+</Defs>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Irrigation -->
+
+  <IrrigationSprinkler.label>zraszacz nawadniający</IrrigationSprinkler.label>
+  <IrrigationSprinkler.description>Nawadnia okoliczny teren raz na dobę rano, aby poprawić żyzność gleby w ciągu dnia. Zużywa 1000L każdego ranka przy maksymalnym promieniu.</IrrigationSprinkler.description>
+  <IrrigationSprinkler_Blueprint.label>zraszacz nawadniający (blueprint)</IrrigationSprinkler_Blueprint.label>
+  <IrrigationSprinkler_Blueprint_Install.label>zraszacz nawadniający (blueprint)</IrrigationSprinkler_Blueprint_Install.label>
+  <IrrigationSprinkler_Frame.label>zraszacz nawadniający (building)</IrrigationSprinkler_Frame.label>
+  <IrrigationSprinkler_Frame.description>Nawadnia okoliczny teren raz na dobę rano, aby poprawić żyzność gleby w ciągu dnia. Zużywa 1000L każdego ranka przy maksymalnym promieniu.</IrrigationSprinkler_Frame.description>
+
+  <FireSprinkler.label>tryskacz przeciwpożarowy</FireSprinkler.label>
+  <FireSprinkler.description>Wyzwalany przez ogień lub wysoką temperaturę. Gasi płomienie strumieniem wody.</FireSprinkler.description>
+  <FireSprinkler.comps.2.useLabel>Trigger tryskacz przeciwpożarowy</FireSprinkler.comps.2.useLabel>
+  <FireSprinkler_Blueprint.label>tryskacz przeciwpożarowy (blueprint)</FireSprinkler_Blueprint.label>
+  <FireSprinkler_Blueprint_Install.label>tryskacz przeciwpożarowy (blueprint)</FireSprinkler_Blueprint_Install.label>
+  <FireSprinkler_Frame.label>tryskacz przeciwpożarowy (building)</FireSprinkler_Frame.label>
+  <FireSprinkler_Frame.description>Wyzwalany przez ogień lub wysoką temperaturę. Gasi płomienie strumieniem wody.</FireSprinkler_Frame.description>
+
+  <BiosolidsComposter.label>kompostownik biosolidarny</BiosolidsComposter.label>
+  <BiosolidsComposter.description>Kompostownik do przekształcania ścieków w nawóz zwiększający żyzność przekopywanego terenu.</BiosolidsComposter.description>
+  <BiosolidsComposter_Blueprint.label>kompostownik biosolidarny (blueprint)</BiosolidsComposter_Blueprint.label>
+  <BiosolidsComposter_Blueprint_Install.label>kompostownik biosolidarny (blueprint)</BiosolidsComposter_Blueprint_Install.label>
+  <BiosolidsComposter_Frame.label>kompostownik biosolidarny (building)</BiosolidsComposter_Frame.label>
+  <BiosolidsComposter_Frame.description>Kompostownik do przekształcania ścieków w nawóz zwiększający żyzność przekopywanego terenu.</BiosolidsComposter_Frame.description>
+
+
+</LanguageData>

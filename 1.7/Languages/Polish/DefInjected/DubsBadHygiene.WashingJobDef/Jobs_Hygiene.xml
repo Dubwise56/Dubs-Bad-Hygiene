@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- <JobDef>
+    <defName>LoadFridge</defName>
+    <driverClass>DubsBadHygiene.JobDriver_LoadFridge</driverClass>
+    <reportString>loading TargetA</reportString>
+    <suspendable>false</suspendable>
+  </JobDef> -->
+
+  <takeShower.reportString>kąpiel z TargetA</takeShower.reportString>
+  <takeBath.reportString>kąpiel</takeBath.reportString>
+
+
+</LanguageData>

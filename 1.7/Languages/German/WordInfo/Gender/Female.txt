@@ -1,0 +1,40 @@
+﻿badematte
+badewanne
+bettpfanne
+bionische blase
+brenngrube
+cholera
+dehydratation
+dusche
+dysenterie
+einfache dusche
+elektropumpe
+elektrotherme
+geotherme
+holztherme
+kabinentür
+kläranlage
+klärgrube
+klimaleitung
+latrine
+mosaikfliese
+mosaikfliese aus granit
+mosaikfliese aus kalkstein
+mosaikfliese aus marmor
+mosaikfliese aus sandstein
+mosaikfliese aus schiefer
+powerdusche
+pumpstation
+rohrleitung
+schlechte hygiene
+smarte toilette
+solartherme
+sprittherme
+toilette
+vakuumtoilette
+versteckte klimaleitung
+versteckte rohrleitung
+waschmaschine
+wasserfilteranlage
+wassertonne
+windpumpe

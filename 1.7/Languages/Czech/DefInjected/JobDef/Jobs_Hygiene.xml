@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<TriggerFireSprinkler.reportstring>Aktivuje: TargetA</TriggerFireSprinkler.reportstring>
+
+	<emptySeptictank.reportstring>Vyprazdňuje: TargetA</emptySeptictank.reportstring>
+
+	<emptyLatrine.reportstring>Vyprazdňuje: TargetA</emptyLatrine.reportstring>
+
+	<LoadWashing.reportstring>Plní: TargetA</LoadWashing.reportstring>
+
+	<UnloadWashing.reportstring>Vyprazdňuje: TargetA</UnloadWashing.reportstring>
+
+	<LoadComposter.reportstring>Plní: TargetA</LoadComposter.reportstring>
+
+	<UnloadComposter.reportstring>Vynáší kompost z: TargetA</UnloadComposter.reportstring>
+
+	<RemoveSewage.reportstring>Odstraňuje odpadní vodu</RemoveSewage.reportstring>
+
+	<WatchWashingMachine.reportstring>Pozoruje ždímání prádla</WatchWashingMachine.reportstring>
+
+	<TipOverSewage.reportstring>Převrhává: TargetA</TipOverSewage.reportstring>
+
+	<DrainWaterTankJob.reportstring>Vypouští: TargetA</DrainWaterTankJob.reportstring>
+
+	<PlaceFertilizer.reportstring>Hnojí půdu</PlaceFertilizer.reportstring>
+
+	<DBHDrinkFromGround.reportstring>Pije vodu</DBHDrinkFromGround.reportstring>
+
+	<DBHDrinkFromBasin.reportstring>Pije vodu z: TargetA</DBHDrinkFromBasin.reportstring>
+
+	<DBHPackWaterBottle.reportstring>Plní lahev s vodou z: TargetA</DBHPackWaterBottle.reportstring>
+
+	<DBHStockpileWaterBottles.reportstring>Naskladňuje vodu z: TargetA</DBHStockpileWaterBottles.reportstring>
+
+	<DBHAdministerFluids.reportstring>Přináší vodu do: TargetB</DBHAdministerFluids.reportstring>
+
+	<UseToilet.reportstring>Používá: TargetA</UseToilet.reportstring>
+
+	<haveWildPoo.reportstring>Vyprazdňuje se venku open</haveWildPoo.reportstring>
+
+	<useWashBucket.reportstring>Myje se u: TargetA</useWashBucket.reportstring>
+
+	<washAtCell.reportstring>Myje se</washAtCell.reportstring>
+
+	<washHands.reportstring>Myje si ruce</washHands.reportstring>
+
+	<washPatient.reportstring>Myje: TargetA</washPatient.reportstring>
+
+	<RefillTub.reportstring>Doplňuje necky</RefillTub.reportstring>
+
+	<RefillWater.reportstring>Doplňuje vodur</RefillWater.reportstring>
+
+	<cleanBedpan.reportstring>Čistí podložní mísu</cleanBedpan.reportstring>
+
+	<clearBlockage.reportstring>Uvolňuje ucpaný objekt: TargetA</clearBlockage.reportstring>
+
+</LanguageData>

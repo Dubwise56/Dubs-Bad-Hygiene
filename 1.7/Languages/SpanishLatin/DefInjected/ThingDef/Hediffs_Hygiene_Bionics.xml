@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!--   <BionicBladder.label>bionic bladder</BionicBladder.label>
+  <BionicBladder.description>An advanced artificial bladder. A chemical recycling system breaks down waste products from the body into molecules which are recycled with the remainder released as gas, the downside of this being that it gives the user gas.</BionicBladder.description> -->
+
+  <BionicBladder.label>vejiga biónica</BionicBladder.label>
+  <BionicBladder.description>Una vejiga artificial avanzada. Un sistema de reciclaje químico descompone las sustancias de desecho del cuerpo en moléculas para ser recicladas dejando el resto en estado gaseoso, con el inconveniente de provocar gases al usuario.</BionicBladder.description>
+
+  <!--   <HygieneEnhancer.label>hygiene enhancer</HygieneEnhancer.label>
+  <HygieneEnhancer.description>Releases mechanites that break down dead skin cells and other detritus on the skin and hair releasing it harmlessly into the air.</HygieneEnhancer.description> -->
+
+  <HygieneEnhancer.label>amplificador higiénico</HygieneEnhancer.label>
+  <HygieneEnhancer.description>Libera mecanitas que descomponen las células muertas de la piel y cabello liberándolos inofensivamente en el aire.</HygieneEnhancer.description>
+
+
+</LanguageData>

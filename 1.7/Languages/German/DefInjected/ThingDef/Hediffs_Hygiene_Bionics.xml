@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- EN: bionic bladder -->
+  <BionicBladder.label>bionische Blase</BionicBladder.label>
+  <!-- EN: An advanced artificial bladder. A chemical recycling system breaks down waste products from the body into molecules which are recycled with the remainder released as gas, the downside of this being that it gives the user gas. -->
+  <BionicBladder.description>Eine fortschrittliche künstliche Blase. Ein chemisches Recyclingsystem zerlegt die Abfallprodukte des Körpers in Moleküle, während der Rest als Gas freigesetzt wird. Der Nachteil ist, dass der Benutzer dabei Blähungen bekommt.</BionicBladder.description>
+
+  <!-- EN: hygiene enhancer -->
+  <HygieneEnhancer.label>Hygieneverstärker</HygieneEnhancer.label>
+  <!-- EN: Releases mechanites that break down dead skin cells and other detritus on the skin and hair releasing it harmlessly into the air. -->
+  <HygieneEnhancer.description>Setzt Mechaniten frei, die abgestorbene Hautzellen und andere Rückstände auf Haut und Haaren unschädlich machen.</HygieneEnhancer.description>
+
+</LanguageData>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!--   <BionicBladder.label>bionic bladder</BionicBladder.label>
+  <BionicBladder.description>An installed bionic bladder.</BionicBladder.description>
+  <BionicBladder.labelNoun>a bionic bladder</BionicBladder.labelNoun>
+
+  <HygieneEnhancer.label>hygiene enhancer</HygieneEnhancer.label>
+  <HygieneEnhancer.description>An installed hygiene enhancer.</HygieneEnhancer.description>
+  <HygieneEnhancer.labelNoun>a hygiene enhancer</HygieneEnhancer.labelNoun> -->
+
+  <BionicBladder.label>vejiga biónica</BionicBladder.label>
+  <BionicBladder.description>Se implantó una vejiga biónica.</BionicBladder.description>
+  <BionicBladder.labelNoun>una vejiga biónica</BionicBladder.labelNoun>
+
+  <HygieneEnhancer.label>amplificador higiénico</HygieneEnhancer.label>
+  <HygieneEnhancer.description>Se implantó un amplificador higiénico.</HygieneEnhancer.description>
+  <HygieneEnhancer.labelNoun>un amplificador higiénico</HygieneEnhancer.labelNoun>
+
+
+</LanguageData>

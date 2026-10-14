@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- EN: swimming -->
+  <DBHGoSwimming.reportString>schwimmt.</DBHGoSwimming.reportString>
+  <!-- EN: relaxing -->
+  <UseHotTub.reportString>entspannt sich.</UseHotTub.reportString>
+  <!-- EN: using sauna -->
+  <DBHUseSauna.reportString>benutzt Sauna.</DBHUseSauna.reportString>
+
+</LanguageData>

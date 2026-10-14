@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<DBHMosaicSandstone.description>Opatrně opracované kamenné dlaždice tvořící mozaikový vzor. Stylová podlaha pro koupelny a kuchyně.</DBHMosaicSandstone.description>
+
+	<DBHMosaicSandstone.label>Pískovcové mozaikové dlaždice</DBHMosaicSandstone.label>
+
+	<DBHMosaicLimestone.description>Opatrně opracované kamenné dlaždice tvořící mozaikový vzor. Stylová podlaha pro koupelny a kuchyně.</DBHMosaicLimestone.description>
+
+	<DBHMosaicLimestone.label>Vápencové mozaikové dlaždice</DBHMosaicLimestone.label>
+
+	<DBHMosaicSlate.description>Opatrně opracované kamenné dlaždice tvořící mozaikový vzor. Stylová podlaha pro koupelny a kuchyně.</DBHMosaicSlate.description>
+
+	<DBHMosaicSlate.label>Břidlicové mozaikové dlaždice</DBHMosaicSlate.label>
+
+	<DBHMosaicGranite.description>Opatrně opracované kamenné dlaždice tvořící mozaikový vzor. Stylová podlaha pro koupelny a kuchyně.</DBHMosaicGranite.description>
+
+	<DBHMosaicGranite.label>Žulové mozaikové dlaždice</DBHMosaicGranite.label>
+
+	<DBHMosaicMarble.description>Opatrně opracované kamenné dlaždice tvořící mozaikový vzor. Stylová podlaha pro koupelny a kuchyně.</DBHMosaicMarble.description>
+
+	<DBHMosaicMarble.label>Mramorové mozaikové dlaždice</DBHMosaicMarble.label>
+
+	<DBHMosaicTile.label>Ocelové mozaikové dlaždice</DBHMosaicTile.label>
+
+	<DBHMosaicTile.description>Ocelové dlaždice tvořící mozaikový vzor. Stylová podlaha pro koupelný a kuchyně.</DBHMosaicTile.description>
+
+</LanguageData>

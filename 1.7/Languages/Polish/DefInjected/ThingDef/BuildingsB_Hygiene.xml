@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ToiletStallDoor.label>drzwi łazienkowe</ToiletStallDoor.label>
+  <ToiletStallDoor.description>Cienkie drzwi, które blokują jedynie pole widzenia osobom korzystającym z armatury łazienkowej. Nie tworzą nowych pomieszczeń ani nie zapobiegają utracie ciepła.</ToiletStallDoor.description>
+  <ToiletStallDoor_Blueprint.label>drzwi łazienkowe (blueprint)</ToiletStallDoor_Blueprint.label>
+  <ToiletStallDoor_Frame.label>drzwi łazienkowe (building)</ToiletStallDoor_Frame.label>
+  <ToiletStallDoor_Frame.description>Cienkie drzwi, które blokują jedynie pole widzenia osobom korzystającym z armatury łazienkowej. Nie tworzą nowych pomieszczeń ani nie zapobiegają utracie ciepła.</ToiletStallDoor_Frame.description>
+
+
+  <!-- Low Tech Stuff -->
+
+  <PitLatrine.label>latryna</PitLatrine.label>
+  <PitLatrine.description>Latryna, która gromadzi odchody w otworze w ziemi. Musi być opróżniana ręcznie lub może być podłączona do kanalizacji. \n14L na użycie</PitLatrine.description>
+  <PitLatrine_Blueprint.label>latryna (blueprint)</PitLatrine_Blueprint.label>
+  <PitLatrine_Blueprint_Install.label>latryna (blueprint)</PitLatrine_Blueprint_Install.label>
+  <PitLatrine_Frame.label>latryna (building)</PitLatrine_Frame.label>
+  <PitLatrine_Frame.description>Latryna, która gromadzi odchody w otworze w ziemi. Musi być opróżniana ręcznie lub może być podłączona do kanalizacji. \n14L na użycie</PitLatrine_Frame.description>
+
+  <PrimitiveWell.label>prymitywna studnia</PrimitiveWell.label>
+  <PrimitiveWell.description>Dostęp do wody gruntowej. Woda musi być doprowadzona do zbiornika wodnego, zanim będzie mogła być użyta do mycia lub picia.</PrimitiveWell.description>
+  <PrimitiveWell_Blueprint.label>prymitywna studnia (blueprint)</PrimitiveWell_Blueprint.label>
+  <PrimitiveWell_Frame.label>prymitywna studnia (building)</PrimitiveWell_Frame.label>
+  <PrimitiveWell_Frame.description>Dostęp do wody gruntowej. Woda musi być doprowadzona do zbiornika wodnego, zanim będzie mogła być użyta do mycia lub picia.</PrimitiveWell_Frame.description>
+
+  <WashBucket.label>wanna z wodą</WashBucket.label>
+  <WashBucket.description>Wanna z wodą używana do higieny osobistej. Musi być regularnie uzupełniana świeżą wodą, napełnia się ją również wodą deszczową. Może być również używana do picia, jeśli włączone jest pragnienie.</WashBucket.description>
+  <WashBucket_Blueprint.label>wanna z wodą (blueprint)</WashBucket_Blueprint.label>
+  <WashBucket_Blueprint_Install.label>wanna z wodą (blueprint)</WashBucket_Blueprint_Install.label>
+  <WashBucket_Frame.label>wanna z wodą (building)</WashBucket_Frame.label>
+  <WashBucket_Frame.description>Wanna z wodą używana do higieny osobistej. Musi być regularnie uzupełniana świeżą wodą, napełnia się ją również wodą deszczową. Może być również używana do picia, jeśli włączone jest pragnienie.</WashBucket_Frame.description>
+
+  <WaterTrough.label>Koryto wodne</WaterTrough.label>
+  <WaterTrough.description>Koryto z wodą używaną przez zwierzęta, skrzynka serwisowa z zaworem kulowym automatycznie uzupełnia wodę, gdy jej poziom jest niski, uzupełnia również podczas deszczu.</WaterTrough.description>
+  <WaterTrough_Blueprint.label>Koryto wodne (blueprint)</WaterTrough_Blueprint.label>
+  <WaterTrough_Blueprint_Install.label>Koryto wodne (blueprint)</WaterTrough_Blueprint_Install.label>
+  <WaterTrough_Frame.label>Koryto wodne (building)</WaterTrough_Frame.label>
+  <WaterTrough_Frame.description>Koryto z wodą używaną przez zwierzęta, skrzynka serwisowa z zaworem kulowym automatycznie uzupełnia wodę, gdy jej poziom jest niski, uzupełnia również podczas deszczu.</WaterTrough_Frame.description>
+
+  <LitterBox.label>kuweta</LitterBox.label>
+  <LitterBox.description>Kryta skrzynka do zbierania kału i moczu dla małych zwierząt.</LitterBox.description>
+  <LitterBox_Blueprint.label>kuweta (blueprint)</LitterBox_Blueprint.label>
+  <LitterBox_Blueprint_Install.label>kuweta (blueprint)</LitterBox_Blueprint_Install.label>
+  <LitterBox_Frame.label>kuweta (building)</LitterBox_Frame.label>
+  <LitterBox_Frame.description>Kryta skrzynka do zbierania kału i moczu dla małych zwierząt.</LitterBox_Frame.description>
+
+  <BurnPit.label>dół fermentacyjny</BurnPit.label>
+  <BurnPit.description>Usuwanie osadów kałowych poprzez spalanie ich jako paliwa. Może być również używany do pozbywania się zwłok lub innych detrytusów. Koloniści mogą zachorować, jeśli zbyt długo przebywają w pobliżu palących się odpadów.</BurnPit.description>
+  <BurnPit_Blueprint.label>dół fermentacyjny (blueprint)</BurnPit_Blueprint.label>
+  <BurnPit_Frame.label>dół fermentacyjny (building)</BurnPit_Frame.label>
+  <BurnPit_Frame.description>Usuwanie osadów kałowych poprzez spalanie ich jako paliwa. Może być również używany do pozbywania się zwłok lub innych detrytusów. Koloniści mogą zachorować, jeśli zbyt długo przebywają w pobliżu palących się odpadów.</BurnPit_Frame.description>
+
+
+  <!-- Basins -->
+
+  <Fountain.label>fontanna</Fountain.label>
+  <Fountain.description>Fontanna z wodą używana do picia i mycia.</Fountain.description>
+  <Fountain_Blueprint.label>fontanna (blueprint)</Fountain_Blueprint.label>
+  <Fountain_Blueprint_Install.label>fontanna (blueprint)</Fountain_Blueprint_Install.label>
+  <Fountain_Frame.label>fontanna (building)</Fountain_Frame.label>
+  <Fountain_Frame.description>Fontanna z wodą używana do picia i mycia..</Fountain_Frame.description>
+
+  <BasinStuff.label>umywalka</BasinStuff.label>
+  <BasinStuff.description>Czysta i prosta umywalka łazienkowa do utrzymania rąk w czystości po skorzystaniu z toalety.</BasinStuff.description>
+  <BasinStuff_Blueprint.label>umywalka (blueprint)</BasinStuff_Blueprint.label>
+  <BasinStuff_Blueprint_Install.label>umywalka (blueprint)</BasinStuff_Blueprint_Install.label>
+  <BasinStuff_Frame.label>umywalka (building)</BasinStuff_Frame.label>
+  <BasinStuff_Frame.description>Czysta i prosta umywalka łazienkowa do utrzymania rąk w czystości po skorzystaniu z toalety.</BasinStuff_Frame.description>
+
+  <KitchenSink.label>zlew kuchenny</KitchenSink.label>
+  <KitchenSink.description>Wszystko oprócz zlewu kuchennego. Zwiększa czystość pomieszczenia.</KitchenSink.description>
+  <KitchenSink_Blueprint.label>zlew kuchenny (blueprint)</KitchenSink_Blueprint.label>
+  <KitchenSink_Blueprint_Install.label>zlew kuchenny (blueprint)</KitchenSink_Blueprint_Install.label>
+  <KitchenSink_Frame.label>kitchen sink (building)</KitchenSink_Frame.label>
+  <KitchenSink_Frame.description>>Wszystko oprócz zlewu kuchennego. Zwiększa czystość pomieszczenia.</KitchenSink_Frame.description>
+
+
+  <!-- Toilets -->
+
+  <ToiletStuff.label>toaleta</ToiletStuff.label>
+  <ToiletStuff.description>Przyrząd sanitarny służący do usuwania ludzkiego moczu i kału.\n14L na jedno użycie</ToiletStuff.description>
+  <ToiletStuff_Blueprint.label>toaleta (blueprint)</ToiletStuff_Blueprint.label>
+  <ToiletStuff_Blueprint_Install.label>toaleta (blueprint)</ToiletStuff_Blueprint_Install.label>
+  <ToiletStuff_Frame.label>toaleta (building)</ToiletStuff_Frame.label>
+  <ToiletStuff_Frame.description>Przyrząd sanitarny służący do usuwania ludzkiego moczu i kału.\n14L na jedno użycie</ToiletStuff_Frame.description>
+
+  <ToiletAdv.description>Dwukrotnie bardziej oszczędny w zużyciu wody niż standardowa toaleta. Zapewnia optymalne, wielofunkcyjne doświadczenie dzięki automatycznemu oczyszczaniu i dezodoryzacji.\n7L na jedno użycie</ToiletAdv.description>
+  <ToiletAdv_Blueprint.label>Zaawansowana toaleta (blueprint)</ToiletAdv_Blueprint.label>
+  <ToiletAdv_Blueprint_Install.label>Zaawansowana toaleta (blueprint)</ToiletAdv_Blueprint_Install.label>
+  <ToiletAdv_Frame.label>Zaawansowana toaleta (building)</ToiletAdv_Frame.label>
+  <ToiletAdv_Frame.description>Dwukrotnie bardziej oszczędny w zużyciu wody niż standardowa toaleta. Zapewnia optymalne, wielofunkcyjne doświadczenie dzięki automatycznemu oczyszczaniu i dezodoryzacji.\n7L na jedno użycie</ToiletAdv_Frame.description>
+
+  <ToiletAdvStuff.label>inteligentna toaleta</ToiletAdvStuff.label>
+  <ToiletAdvStuff.description>Dwukrotnie większa oszczędność wody niż w przypadku standardowej toalety. Zapewnia optymalne, wielofunkcyjne doświadczenie dzięki automatycznemu oczyszczaniu i dezodoryzacji.\n7L na jedno użycie</ToiletAdvStuff.description>
+  <ToiletAdvStuff_Blueprint.label>inteligentna toaleta (blueprint)</ToiletAdvStuff_Blueprint.label>
+  <ToiletAdvStuff_Blueprint_Install.label>inteligentna toaleta (blueprint)</ToiletAdvStuff_Blueprint_Install.label>
+  <ToiletAdvStuff_Frame.label>inteligentna toaleta (building)</ToiletAdvStuff_Frame.label>
+  <ToiletAdvStuff_Frame.description>Dwukrotnie większa oszczędność wody niż w przypadku standardowej toalety. Zapewnia optymalne, wielofunkcyjne doświadczenie dzięki automatycznemu oczyszczaniu i dezodoryzacji.\n7L na jedno użycie</ToiletAdvStuff_Frame.description>
+
+
+  <!-- Baths -->
+
+  <BathtubStuff.label>wanna</BathtubStuff.label>
+  <BathtubStuff.description>Powolny w użyciu, ale bardzo wygodny. Może być ogrzewana poprzez umieszczenie w pobliżu ogniska lub kotła na polana, lub poprzez podłączone zbiorniki na gorącą wodę. Nie wymaga odpływu ścieków.\n190L na pranie</BathtubStuff.description>
+  <BathtubStuff_Blueprint.label>wanna (blueprint)</BathtubStuff_Blueprint.label>
+  <BathtubStuff_Blueprint_Install.label>wanna (blueprint)</BathtubStuff_Blueprint_Install.label>
+  <BathtubStuff_Frame.label>wanna (building)</BathtubStuff_Frame.label>
+  <BathtubStuff_Frame.description>Powolny w użyciu, ale bardzo wygodny. Może być ogrzewana poprzez umieszczenie w pobliżu ogniska lub kotła na polana, lub poprzez podłączone zbiorniki na gorącą wodę. Nie wymaga odpływu ścieków.\n190L na pranie</BathtubStuff_Frame.description>
+
+
+  <!-- Showers -->
+
+  <ShowerStuff.label>prysznic</ShowerStuff.label>
+  <ShowerStuff.description>Prosty prysznic. Wymaga wody z wież wodnych. Może być podgrzewany przez zbiorniki ciepłej wody. Nie wymaga odpływu kanalizacyjnego.\n65L na jedno mycie</ShowerStuff.description>
+  <ShowerStuff_Blueprint.label>prysznic (blueprint)</ShowerStuff_Blueprint.label>
+  <ShowerStuff_Blueprint_Install.label>prysznic (blueprint)</ShowerStuff_Blueprint_Install.label>
+  <ShowerStuff_Frame.label>prysznic (building)</ShowerStuff_Frame.label>
+  <ShowerStuff_Frame.description>Prosty prysznic. Wymaga wody z wież wodnych. Może być podgrzewany przez zbiorniki ciepłej wody. Nie wymaga odpływu kanalizacyjnego.\n65L na jedno mycie</ShowerStuff_Frame.description>
+
+  <ShowerSimple.label>zwykły prysznic</ShowerSimple.label>
+  <ShowerSimple.description>Prosty prysznic. Wymaga wody z wież wodnych. Może być podgrzewany przez zbiorniki ciepłej wody. Nie wymaga odpływu kanalizacyjnego.65L na jedno mycie</ShowerSimple.description>
+  <ShowerSimple_Blueprint.label>zwykły prysznic (blueprint)</ShowerSimple_Blueprint.label>
+  <ShowerSimple_Blueprint_Install.label>zwykły prysznic (blueprint)</ShowerSimple_Blueprint_Install.label>
+  <ShowerSimple_Frame.label>zwykły prysznic (building)</ShowerSimple_Frame.label>
+  <ShowerSimple_Frame.description>Prosty prysznic. Wymaga wody z wież wodnych. Może być podgrzewany przez zbiorniki ciepłej wody. Nie wymaga odpływu kanalizacyjnego.65L na jedno mycie</ShowerSimple_Frame.description>
+
+  <ShowerAdvStuff.label>prysznic elektryczny</ShowerAdvStuff.label>
+  <ShowerAdvStuff.description>Podgrzewa wodę na żądanie i nie wymaga zbiornika na gorącą wodę, czyści dwa razy szybciej.\n90 l na pranie</ShowerAdvStuff.description>
+  <ShowerAdvStuff_Blueprint.label>prysznic elektryczny (blueprint)</ShowerAdvStuff_Blueprint.label>
+  <ShowerAdvStuff_Blueprint_Install.label>prysznic elektryczny (blueprint)</ShowerAdvStuff_Blueprint_Install.label>
+  <ShowerAdvStuff_Frame.label>prysznic elektryczny (building)</ShowerAdvStuff_Frame.label>
+  <ShowerAdvStuff_Frame.description>Podgrzewa wodę na żądanie i nie wymaga zbiornika na gorącą wodę, czyści dwa razy szybciej.\n90 l na pranie</ShowerAdvStuff_Frame.description>
+
+
+</LanguageData>

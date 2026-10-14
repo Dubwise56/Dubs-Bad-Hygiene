@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <InstallBionicBladder.label>zainstaluj bioniczny pęcherz</InstallBionicBladder.label>
+  <InstallBionicBladder.description>Zainstaluj bioniczny pęcherz.</InstallBionicBladder.description>
+  <InstallBionicBladder.jobString>Instaluje bioniczny pęcherz.</InstallBionicBladder.jobString>
+
+  <InstallHygieneEnhancer.label>zainstaluj wzmacniacz higieny</InstallHygieneEnhancer.label>
+  <InstallHygieneEnhancer.description>Zainstaluj wzmacniacz higieny.</InstallHygieneEnhancer.description>
+  <InstallHygieneEnhancer.jobString>Instaluje wzmacniacz higieny.</InstallHygieneEnhancer.jobString>
+
+
+</LanguageData>

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- EN: filthy -->
+  <HygieneLevel.stages.0.label>sehr schmutzig</HygieneLevel.stages.0.label>
+  <!-- EN: I smell like I have been swimming in sewage. -->
+  <HygieneLevel.stages.0.description>Ich rieche, als hätte ich in Abwasser gebadet.</HygieneLevel.stages.0.description>
+  <!-- EN: grimy -->
+  <HygieneLevel.stages.1.label>schmutzig</HygieneLevel.stages.1.label>
+  <!-- EN: I feel a little grimy. -->
+  <HygieneLevel.stages.1.description>Ich fühle mich ein bisschen schmutzig.</HygieneLevel.stages.1.description>
+  <!-- EN: clean -->
+  <HygieneLevel.stages.2.label>sauber</HygieneLevel.stages.2.label>
+  <!-- EN: I feel fresh and clean. -->
+  <HygieneLevel.stages.2.description>Ich fühle mich frisch und sauber.</HygieneLevel.stages.2.description>
+  <!-- EN: squeaky clean -->
+  <HygieneLevel.stages.3.label>blitzsauber</HygieneLevel.stages.3.label>
+  <!-- EN: I'm squeaky clean! -->
+  <HygieneLevel.stages.3.description>Ich bin blitzsauber!</HygieneLevel.stages.3.description>
+
+  <!-- EN: bursting -->
+  <BowelLevel.stages.0.label>platze gleich</BowelLevel.stages.0.label>
+  <!-- EN: I need to go so bad I'm about to burst! -->
+  <BowelLevel.stages.0.description>Ich muss dringend meine Notdurft verrichten, sonst platze ich gleich!</BowelLevel.stages.0.description>
+  <!-- EN: need the bathroom -->
+  <BowelLevel.stages.1.label>muss auf die Toilette</BowelLevel.stages.1.label>
+  <!-- EN: I need to go to the bathroom. -->
+  <BowelLevel.stages.1.description>Ich muss auf die Toilette.</BowelLevel.stages.1.description>
+
+</LanguageData>

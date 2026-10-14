@@ -1,0 +1,12 @@
+﻿abwasser
+außenklimagerät
+beckenwasser
+innenklimagerät
+rohabwasser
+schwimmbecken
+spülbecken
+tiefkühlgerät
+ventil
+waschbecken
+waschen
+wasser

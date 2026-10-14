@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Washing.label>mycie</Washing.label>
+  <Washing.description>mycie</Washing.description>
+  <Washing.labelNoun>mycie</Washing.labelNoun>
+
+  <BadHygiene.label>niewłaściwa higiena</BadHygiene.label>
+  <BadHygiene.description>Niewłaściwa higiena zwiększa ryzyko zachorowań i wpływa na interakcje społeczne.</BadHygiene.description>
+  <BadHygiene.stages.0.label>umiarkowana</BadHygiene.stages.0.label>
+  <BadHygiene.stages.1.label>poważna</BadHygiene.stages.1.label>
+  <BadHygiene.stages.2.label>ekstremalna</BadHygiene.stages.2.label>
+
+  <Diarrhea.label>biegunka</Diarrhea.label>
+  <Diarrhea.description>Biegunka to luźne, wodniste stolce. Znana również jako przeczyszczenie.</Diarrhea.description>
+  <Diarrhea.stages.0.label>lekka</Diarrhea.stages.0.label>
+  <Diarrhea.stages.1.label>zaawansowana</Diarrhea.stages.1.label>
+  <Diarrhea.stages.2.label>poważna</Diarrhea.stages.2.label>
+
+  <Dysentery.label>czerwonka</Dysentery.label>
+  <Dysentery.description>Czerwonka jest rodzajem zapalenia żołądka i jelit, które powoduje biegunkę z krwią.</Dysentery.description>
+  <Dysentery.stages.0.label>drobna</Dysentery.stages.0.label>
+  <Dysentery.stages.1.label>zaawansowana</Dysentery.stages.1.label>
+  <Dysentery.stages.2.label>ekstremalna</Dysentery.stages.2.label>
+
+  <Cholera.label>cholera</Cholera.label>
+  <Cholera.description>Cholera jest chorobą zakaźną, która powoduje ciężką wodnistą biegunkę, która może prowadzić do odwodnienia, a nawet śmierci, jeśli jest nie leczona.</Cholera.description>
+  <Cholera.stages.0.label>drobna</Cholera.stages.0.label>
+  <Cholera.stages.1.label>zaawansowana</Cholera.stages.1.label>
+  <Cholera.stages.2.label>poważna</Cholera.stages.2.label>
+  <Cholera.stages.3.label>ekstremalna</Cholera.stages.3.label>
+
+  <DBHDehydration.label>odwodnienie</DBHDehydration.label>
+  <DBHDehydration.description>Odwodnienie jest stanem, który może wystąpić, gdy utrata płynów ustrojowych, głównie wody, przekracza ilość, która jest przyjmowana.</DBHDehydration.description>
+  <DBHDehydration.stages.0.label>trywialne</DBHDehydration.stages.0.label>
+  <DBHDehydration.stages.1.label>drobne</DBHDehydration.stages.1.label>
+  <DBHDehydration.stages.2.label>umiarkowane</DBHDehydration.stages.2.label>
+  <DBHDehydration.stages.3.label>poważne</DBHDehydration.stages.3.label>
+  <DBHDehydration.stages.4.label>ekstremalne</DBHDehydration.stages.4.label>
+
+
+</LanguageData>

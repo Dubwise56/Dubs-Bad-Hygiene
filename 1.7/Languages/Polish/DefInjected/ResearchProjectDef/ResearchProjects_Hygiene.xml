@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <SewageSludgeComposting.label>kompostowanie osadów ściekowych</SewageSludgeComposting.label>
+  <SewageSludgeComposting.description>Po odpowiednim oczyszczeniu i przetworzeniu osady ściekowe stają się biosolidami, które w niewielkim stopniu zwiększają żyzność terenu. Przydatne w trudnych warunkach, gdzie przestrzeń do uprawy jest ograniczona. Biosolidy dają również duży wzrost żyzności gleby, który w połączeniu z irygacją może uczynić ją żyzną.</SewageSludgeComposting.description>
+
+  <MultiSplitAirCon.label>klimatyzacja typu multi-split</MultiSplitAirCon.label>
+  <MultiSplitAirCon.description>Budowa systemów klimatyzacji typu multi-split z jednostkami zewnętrznymi połączonymi rurami z jednostkami wewnętrznymi i zamrażarkami.</MultiSplitAirCon.description>
+
+  <Plumbing.label>hydraulika</Plumbing.label>
+  <Plumbing.description>Używanie rur, instalacji hydraulicznych, zbiorników magazynowych, pomp wiatrowych i innych urządzeń do dostarczania i odprowadzania wody i ścieków.</Plumbing.description>
+
+  <LogBoilers.label>ogrzewanie</LogBoilers.label>
+  <LogBoilers.description>Budować kotły na drewno, które mogą być używane do ogrzewania pomieszczeń i mogą być umieszczone obok łaźni w celu podgrzewania wody do kąpieli.</LogBoilers.description>
+
+  <CentralHeating.label>centralne ogrzewanie</CentralHeating.label>
+  <CentralHeating.description>Budowa systemów centralnego ogrzewania z grzejnikami, zbiornikami ciepłej wody, kotłami i termostatami.</CentralHeating.description>
+
+  <ModernFixtures.label>nowoczesna armatura łazienkowa</ModernFixtures.label>
+  <ModernFixtures.description>Zbuduj armaturę łazienkową w nowoczesnym stylu, taką jak toalety i prysznice.</ModernFixtures.description>
+
+  <ElectricPumps.label>elektryczna pompa</ElectricPumps.label>
+  <ElectricPumps.description>Napędzane pompy wodne do ciągłego pompowania wody pod ciśnieniem.</ElectricPumps.description>
+
+  <AdvancedShowers.label>natryski elektryczne</AdvancedShowers.label>
+  <AdvancedShowers.description>Zbuduj prysznice o dużej mocy, które skracają czas kąpieli o połowę i poprawiają komfort..</AdvancedShowers.description>
+
+  <AdvancedToilets.label>inteligentne toalety</AdvancedToilets.label>
+  <AdvancedToilets.description>Zbuduj inteligentne toalety, które są dwa razy bardziej oszczędne w zużyciu wody niż standardowe i zapewniają większy komfort.</AdvancedToilets.description>
+
+  <HotTubs.label>gorące kąpieliska</HotTubs.label>
+  <HotTubs.description>Budować jacuzzi, które mogą być wykorzystywane do hydroterapii, relaksu i przyjemności.</HotTubs.description>
+
+  <LargeWaterPumps.label>pompy na skalę przemysłową</LargeWaterPumps.label>
+  <LargeWaterPumps.description>Budowa pomp wodnych i zbiorników magazynowych na skalę przemysłową.</LargeWaterPumps.description>
+
+  <DeepWells.label>studnie głębinowe</DeepWells.label>
+  <DeepWells.description>Wiercenie głębokich studni w celu uzyskania dostępu do znacznie większego obszaru wód gruntowych.</DeepWells.description>
+
+  <WashingMachines.label>pralki</WashingMachines.label>
+  <WashingMachines.description>Zbuduj pralki, które mogą prać ubrania tak dobrze, że nie można nawet powiedzieć, że ktoś umarł nosząc je!</WashingMachines.description>
+
+  <WaterFiltration.label>filtracja wody</WaterFiltration.label>
+  <WaterFiltration.description>Buduj systemy filtracji wody, które uzdatniają dostarczaną wodę, eliminując ryzyko chorób.</WaterFiltration.description>
+
+  <HygieneBionics.label>Higiena Bioniki</HygieneBionics.label>
+  <HygieneBionics.description>Zaprojektuj bioniki, które pomagają w przetwarzaniu odpadów cielesnych i utrzymaniu higieny osobistej.</HygieneBionics.description>
+
+  <SepticTanks.label>szambo</SepticTanks.label>
+  <SepticTanks.description>Wybudować szamba, które gromadzą ścieki i zapewniają ich umiarkowane oczyszczanie.</SepticTanks.description>
+
+  <SewageTreatment.label>oczyszczanie ścieków</SewageTreatment.label>
+  <SewageTreatment.description>Budować duże systemy oczyszczania ścieków, które gromadzą duże ilości ścieków i zapewniają szybkie ich oczyszczanie.</SewageTreatment.description>
+
+  <SwimmingPools.label>baseny</SwimmingPools.label>
+  <SwimmingPools.description>Budowa basenów.</SwimmingPools.description>
+
+  <Irrigation.label>irygacja</Irrigation.label>
+  <Irrigation.description>Zbuduj zraszacze, które mogą nawadniać glebę w celu poprawy jej żyzności.</Irrigation.description>
+
+  <FireSuppression.label>gaszenie pożarów</FireSuppression.label>
+  <FireSuppression.description>Zbudować tryskacze, które tłumią pożary strumieniem wody.</FireSuppression.description>
+
+
+</LanguageData>

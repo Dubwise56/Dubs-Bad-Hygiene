@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Irrigation -->
+
+  <IrrigationSprinkler.label>Обприскувач</IrrigationSprinkler.label>
+  <IrrigationSprinkler.description>Поливає навколишню зону щоранку збільшуючи родючість ґрунт протягом дня. Вимагає великих обсягів води для зрошення.</IrrigationSprinkler.description>
+  <IrrigationSprinkler_Blueprint.label>Обприскувач</IrrigationSprinkler_Blueprint.label>
+  <IrrigationSprinkler_Blueprint_Install.label>Обприскувач (проект)</IrrigationSprinkler_Blueprint_Install.label>
+  <IrrigationSprinkler_Frame.label>Обприскувач (у процесі збирання)</IrrigationSprinkler_Frame.label>
+  <IrrigationSprinkler_Frame.description>Поливає навколишню зону щоранку збільшуючи родючість ґрунт протягом дня. Вимагає великих об'ємів води для зрошення.</IrrigationSprinkler_Frame.description>
+
+<FireSprinkler.label>Пожежний обприскувач</FireSprinkler.label>
+  <FireSprinkler.description>Активується при загорянні або високій температурі та пригнічує полум'я струменями води.</FireSprinkler.description>
+  <FireSprinkler_Blueprint.label>Пожежний обприскувач (проект)</FireSprinkler_Blueprint.label>
+  <FireSprinkler_Blueprint_Install.label>Пожежний обприскувач (проект)</FireSprinkler_Blueprint_Install.label>
+  <FireSprinkler_Frame.label>Пожежний обприскувач (у процесі збирання)</FireSprinkler_Frame.label>
+  <FireSprinkler_Frame.description>Активується при загорянні або високій температурі та пригнічує полум'я струменями води.</FireSprinkler_Frame.description>
+
+<plumbingValve.label>Вентиль</plumbingValve.label>
+  <plumbingValve.description>Відкриває або перекриває водні потоки в трубах.</plumbingValve.description>
+  <plumbingValve_Blueprint.label>Вентиль (проект)</plumbingValve_Blueprint.label>
+  <plumbingValve_Frame.label>Вентиль (у процесі збирання)</plumbingValve_Frame.label>
+  <plumbingValve_Frame.description>Відкриває або перекриває водні потоки в трубах.</plumbingValve_Frame.description>
+
+<BiosolidsComposter.label>Компостер</BiosolidsComposter.label>
+  <BiosolidsComposter.description>Компостер, що переробляє нечистоти в добрива, що збільшує родючість ґрунту.</BiosolidsComposter.description>
+  <BiosolidsComposter_Blueprint.label>Компостер (проект)</BiosolidsComposter_Blueprint.label>
+  <BiosolidsComposter_Blueprint_Install.label>Компост (проект)</BiosolidsComposter_Blueprint_Install.label>
+  <BiosolidsComposter_Frame.label>Компостер (у процесі збирання)</BiosolidsComposter_Frame.label>
+  <BiosolidsComposter_Frame.description>Компостер, що переробляє нечистоти у добрива, що збільшує родючість ґрунту.</BiosolidsComposter_Frame.description>
+
+<BiosolidFertilizer.label>Добриво</BiosolidFertilizer.label>
+  <BiosolidFertilizer.description>Добриво з твердих біологічних відходів, що використовується для збільшення родючості ґрунту на строк до року.</BiosolidFertilizer.description>
+  <BiosolidFertilizer_Blueprint.label>Добрива (проект)</BiosolidFertilizer_Blueprint.label>
+  <BiosolidFertilizer_Frame.label>Добрива (у процесі збирання)</BiosolidFertilizer_Frame.label>
+  <BiosolidFertilizer_Frame.description>Добриво з твердих біологічних відходів, що використовується для збільшення родючості ґрунту на строк до року.</BiosolidFertilizer_Frame.description>
+  
+<FertilizedSoil.label>Удобрений ґрунт</FertilizedSoil.label>
+
+</LanguageData>

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- EN: bed pan -->
+  <BedPan.label>Bettpfanne</BedPan.label>
+  <!-- EN: A receptacle used by a bedridden patient for urine and faeces. -->
+  <BedPan.description>Ein Behältnis, das von einem bettlägerigen Patienten für Urin und Fäkalien verwendet wird.</BedPan.description>
+
+  <!-- EN: biosolids -->
+  <Biosolids.label>Klärdünger</Biosolids.label>
+  <!-- EN: When properly treated and processed, sewage sludge becomes biosolids that offer a small boost to terrain fertility. Useful for harsh environments with limited space to grow. Biosolids also produce a large boost to the fertility of sand which can make it fertile when combined with irrigation. -->
+  <Biosolids.description>Wenn Abwasser ordnungsgemäß geklärt und verarbeitet wird, wird daraus Klärdünger, der die Fruchtbarkeit von Böden geringfügig erhöht. Nützlich für unwirtliche Gegenden mit begrenztem Platz zum Anbauen. Klärdünger erhöht zudem die Fruchtbarkeit von Sand, der in Kombination mit Bewässerung fruchtbar gemacht werden kann.</Biosolids.description>
+
+  <!-- EN: fecal sludge -->
+  <FecalSludge.label>Abwasser</FecalSludge.label>
+  <!-- EN: A barrel filled with fecal sludge. Can be dumped, burned, or composted into biosolids. -->
+  <FecalSludge.description>Ein mit Abwasser gefülltes Fass. Kann entsorgt, verbrannt oder zu Klärdünger kompostiert werden.</FecalSludge.description>
+
+  <!-- EN: water -->
+  <DBH_WaterBottle.label>Wasser</DBH_WaterBottle.label>
+  <!-- EN: A bottle of water. -->
+  <DBH_WaterBottle.description>Eine Flasche mit Wasser.</DBH_WaterBottle.description>
+  <!-- EN: Drink {0} -->
+  <DBH_WaterBottle.ingestible.ingestCommandString>Trinke {0}</DBH_WaterBottle.ingestible.ingestCommandString>
+  <!-- EN: Drinking {0}. -->
+  <DBH_WaterBottle.ingestible.ingestReportString>Trinkt {0}.</DBH_WaterBottle.ingestible.ingestReportString>
+
+</LanguageData>

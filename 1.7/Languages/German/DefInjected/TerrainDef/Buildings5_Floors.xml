@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- EN: mosaic tile -->
+  <DBHMosaicTile.label>Mosaikfliese</DBHMosaicTile.label>
+  <!-- EN: Steel tiles in a mosaic pattern, stylish in bathrooms or kitchens. -->
+  <DBHMosaicTile.description>Stahlfliesen im Mosaikmuster. Für Bäder und Küchen geeignet.</DBHMosaicTile.description>
+
+  <!-- EN: sandstone mosaic tile -->
+  <DBHMosaicSandstone.label>Mosaikfliese aus Sandstein</DBHMosaicSandstone.label>
+  <!-- EN: Carefully-cut and fit stone tiles in a mosaic pattern, stylish in bathrooms or kitchens. -->
+  <DBHMosaicSandstone.description>Sorgfältig behauene, passgenaue Steinfliesen im Mosaikmuster. Für Bäder und Küchen geeignet.</DBHMosaicSandstone.description>
+
+  <!-- EN: granite mosaic tile -->
+  <DBHMosaicGranite.label>Mosaikfliese aus Granit</DBHMosaicGranite.label>
+  <!-- EN: Carefully-cut and fit stone tiles in a mosaic pattern, stylish in bathrooms or kitchens. -->
+  <DBHMosaicGranite.description>Sorgfältig behauene, passgenaue Steinfliesen im Mosaikmuster. Für Bäder und Küchen geeignet.</DBHMosaicGranite.description>
+
+  <!-- EN: limestone mosaic tile -->
+  <DBHMosaicLimestone.label>Mosaikfliese aus Kalkstein</DBHMosaicLimestone.label>
+  <!-- EN: Carefully-cut and fit stone tiles in a mosaic pattern, stylish in bathrooms or kitchens. -->
+  <DBHMosaicLimestone.description>Sorgfältig behauene, passgenaue Steinfliesen im Mosaikmuster. Für Bäder und Küchen geeignet.</DBHMosaicLimestone.description>
+
+  <!-- EN: slate mosaic tile -->
+  <DBHMosaicSlate.label>Mosaikfliese aus Schiefer</DBHMosaicSlate.label>
+  <!-- EN: Carefully-cut and fit stone tiles in a mosaic pattern, stylish in bathrooms or kitchens. -->
+  <DBHMosaicSlate.description>Sorgfältig behauene, passgenaue Steinfliesen im Mosaikmuster. Für Bäder und Küchen geeignet.</DBHMosaicSlate.description>
+
+  <!-- EN: marble mosaic tile -->
+  <DBHMosaicMarble.label>Mosaikfliese aus Marmor</DBHMosaicMarble.label>
+  <!-- EN: Carefully-cut and fit stone tiles in a mosaic pattern, stylish in bathrooms or kitchens. -->
+  <DBHMosaicMarble.description>Sorgfältig behauene, passgenaue Steinfliesen im Mosaikmuster. Für Bäder und Küchen geeignet.</DBHMosaicMarble.description>
+
+</LanguageData>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+<Hygiene.label>Гігієна</Hygiene.label>
+  <Hygiene.description>Речі для гігієни колоністів.</Hygiene.description>
+  
+    <HygieneMisc.label>Гігієна/Дод.</HygieneMisc.label>
+  <HygieneMisc.description>Додаткові речі для гігієни.</HygieneMisc.description>
+
+
+</LanguageData>

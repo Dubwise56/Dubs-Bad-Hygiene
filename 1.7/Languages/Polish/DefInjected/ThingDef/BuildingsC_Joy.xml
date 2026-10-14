@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- <ThingDef ParentName="BasedHygieneMom">
+	  <description>Water fountain used for joy and beauty, must be filled with water.</description>
+	  <thingClass>DubsBadHygiene.Building_WaterFeature</thingClass>
+	  <defName>DBHWaterFeature</defName>
+	  <label>Water feature</label>
+	  <stuffCategories>
+		  <li>Stony</li>
+	  </stuffCategories>
+	  <costStuffCount>450</costStuffCount>
+	  <altitudeLayer>FloorEmplacement</altitudeLayer>
+	  <uiIconPath>DBH/UI/water_feature</uiIconPath>
+	  <graphicData>
+		  <drawSize>(5,5)</drawSize>
+		  <texPath>DBH/Things/Building/water_feature</texPath>
+		  <graphicClass>Graphic_Single</graphicClass>
+		  <shaderType>CutoutComplex</shaderType>
+	  </graphicData>
+	  <statBases>
+		  <MaxHitPoints>1500</MaxHitPoints>
+		  <WorkToBuild>10000</WorkToBuild>
+		  <Flammability>0</Flammability>
+		  <Beauty>200</Beauty>
+		  <Comfort>0.6</Comfort>
+		  <JoyGainFactor>1</JoyGainFactor>
+		  <Mass>100</Mass>
+	  </statBases>
+	  <building>
+		  <ai_chillDestination>true</ai_chillDestination>
+	  </building>
+	  <comps>
+		  <li Class="DubsBadHygiene.CompProperties_Pipe">
+			  <mode>Sewage</mode>
+		  </li>
+		  <li>
+			  <compClass>CompColorable</compClass>
+		  </li>
+	  </comps>
+	  <fillPercent>0.15</fillPercent>
+	  <size>(3, 3)</size>
+	  <passability>PassThroughOnly</passability>
+	  <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+	  <pathCost>0</pathCost>
+	  <rotatable>true</rotatable>
+	  <researchPrerequisites>
+		  <li MayRequire="dbhlitemode">SwimmingPools</li>
+	  </researchPrerequisites>
+	  <tickerType>Normal</tickerType>
+	  <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+  </ThingDef> -->
+
+  <DBHSwimmingPool.label>basen</DBHSwimmingPool.label>
+  <DBHSwimmingPool.description>Basen używany do hydroterapii, relaksu lub dla przyjemności. Musi być najpierw napełniony wodą z wieży ciśnień.</DBHSwimmingPool.description>
+  <DBHSwimmingPool_Blueprint.label>basen(blueprint)</DBHSwimmingPool_Blueprint.label>
+  <DBHSwimmingPool_Frame.label>basen(building)</DBHSwimmingPool_Frame.label>
+  <DBHSwimmingPool_Frame.description>Basen używany do hydroterapii, relaksu lub dla przyjemności. Musi być najpierw napełniony wodą z wieży ciśnień.</DBHSwimmingPool_Frame.description>
+
+  <HotTub.label>jacuzzi</HotTub.label>
+  <HotTub.description>Gorąca wanna używana do hydroterapii, relaksu lub przyjemności. Przy pierwszym użyciu napełnia się wodą z wieży ciśnień. Samoczynnie się nagrzewa i nie wymaga odpływu ścieków.</HotTub.description>
+  <HotTub_Blueprint.label>jacuzzi (blueprint)</HotTub_Blueprint.label>
+  <HotTub_Blueprint_Install.label>jacuzzi (blueprint)</HotTub_Blueprint_Install.label>
+  <HotTub_Frame.label>jacuzzi (building)</HotTub_Frame.label>
+  <HotTub_Frame.description>Gorąca wanna używana do hydroterapii, relaksu lub przyjemności. Przy pierwszym użyciu napełnia się wodą z wieży ciśnień. Samoczynnie się nagrzewa i nie wymaga odpływu ścieków..</HotTub_Frame.description>
+
+  <WashingMachine.label>pralka</WashingMachine.label>
+  <WashingMachine.description>Pierze ubrania tak dobrze, że nie można nawet powiedzieć, że ktoś umarł mając je na sobie!</WashingMachine.description>
+  <WashingMachine_Blueprint.label>pralka (blueprint)</WashingMachine_Blueprint.label>
+  <WashingMachine_Blueprint_Install.label>pralka (blueprint)</WashingMachine_Blueprint_Install.label>
+  <WashingMachine_Frame.label>pralka (building)</WashingMachine_Frame.label>
+  <WashingMachine_Frame.description>Pierze ubrania tak dobrze, że nie można nawet powiedzieć, że ktoś umarł mając je na sobie!</WashingMachine_Frame.description>
+
+
+</LanguageData>

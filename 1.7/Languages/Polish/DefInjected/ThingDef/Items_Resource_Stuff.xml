@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <BedPan.label>bed pan</BedPan.label>
+  <BedPan.description>A receptacle used by a bedridden patient for urine and faeces.</BedPan.description>
+
+  <Biosolids.label>biosolidy</Biosolids.label>
+  <Biosolids.description>Po odpowiednim oczyszczeniu i przetworzeniu osady ściekowe stają się biosolidami, które w niewielkim stopniu zwiększają żyzność terenu. Przydatne w trudnych warunkach, gdzie przestrzeń do uprawy jest ograniczona. Biosolidy również w dużym stopniu zwiększają żyzność piasku, co w połączeniu z nawadnianiem może uczynić go żyznym.</Biosolids.description>
+
+  <FecalSludge.label>osad kałowy</FecalSludge.label>
+  <FecalSludge.description>Beczka wypełniona osadami kałowymi. Mogą być wyrzucane, spalane lub kompostowane do postaci biosolidów.</FecalSludge.description>
+
+
+  <!-- Example of a drink for the thirst need, modExtension makes anything ingestible work as a drink, this is patched out when thirst is disabled -->
+
+  <DBH_WaterBottle.label>woda</DBH_WaterBottle.label>
+  <DBH_WaterBottle.description>Butelka wody.</DBH_WaterBottle.description>
+  <DBH_WaterBottle.ingestible.ingestCommandString>pij {0}</DBH_WaterBottle.ingestible.ingestCommandString>
+  <DBH_WaterBottle.ingestible.ingestReportString>Picie {0}.</DBH_WaterBottle.ingestible.ingestReportString>
+
+
+</LanguageData>

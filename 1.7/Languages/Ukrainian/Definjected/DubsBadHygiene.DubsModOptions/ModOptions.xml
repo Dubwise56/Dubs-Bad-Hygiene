@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+<PipeVisibility.label>Видимість труб</PipeVisibility.label>
+  <PipeVisibility.tip>Як мають відображатися труби</PipeVisibility.tip>
+  <PipeVisibility.options.0.label>Приховані</PipeVisibility.options.0.label>
+  <PipeVisibility.options.1.label>Приховані під підлогою</PipeVisibility.options.1.label>
+  <PipeVisibility.options.2.label>Завжди видимі</PipeVisibility.options.2.label>
+
+  <WaterPumpCapacity.label>Подача насосів</WaterPumpCapacity.label>
+  <WaterPumpCapacity.options.0.label>Чит</WaterPumpCapacity.options.0.label>
+  <WaterPumpCapacity.tip>Множина подачі води насосами</WaterPumpCapacity.tip>
+
+
+<HygieneRate.label>Гігієна</HygieneRate.label>
+  <HygieneRate.options.0.label>Чит</HygieneRate.options.0.label>
+  <HygieneRate.tip>Швидкість падіння шкали гігієни</HygieneRate.tip>
+  
+  
+  <FlushSize.label>Змив</FlushSize.label>
+  <FlushSize.options.0.label>Чит</FlushSize.options.0.label>
+  <FlushSize.tip>Кількість нечистот, що утворюються при кожному змиві</FlushSize.tip>
+  
+  <ThirstRate.label>Спрага</ThirstRate.label>
+  <ThirstRate.options.0.label>Чит</ThirstRate.options.0.label>
+  <ThirstRate.tip>Швидкість падіння шкали спраги</ThirstRate.tip>
+  
+
+  <BladderRateB.label>Мала потреба</BladderRateB.label>
+  <BladderRateB.options.0.label>Чит</BladderRateB.options.0.label>
+  <BladderRateB.tip>Швидкість падіння шкали малої потреби</BladderRateB.tip>
+
+
+<ContaminationChance.label>Шанс забруднення</ContaminationChance.label>
+  <ContaminationChance.options.0.label>Чит</ContaminationChance.options.0.label>
+  <ContaminationChance.tip>Шанс для колоніста заразитися через неочищену воду</ContaminationChance.tip>
+ 
+
+  <WaterHeatingRate.label>Витрата гарячої води</WaterHeatingRate.label>
+  <WaterHeatingRate.options.0.label>Чит</WaterHeatingRate.options.0.label>
+  <WaterHeatingRate.tip>Витрата гарячої води під час водних процедур</WaterHeatingRate.tip>
+
+
+<SewageGridCapacity.label>Нечистоти на клітину</SewageGridCapacity.label>
+  <SewageGridCapacity.options.0.label>Чит</SewageGridCapacity.options.0.label>
+  <SewageGridCapacity.tip>Ліміт нечистот, що містяться на одну клітину поверхні</SewageGridCapacity.tip>
+  
+  
+  <SewageCleanupRateB.label>Зникнення нечистот</SewageCleanupRateB.label>
+  <SewageCleanupRateB.options.0.label>Чит</SewageCleanupRateB.options.0.label>
+  <SewageCleanupRateB.tip>Швидкість зникнення нечистот з поверхні з часом</SewageCleanupRateB.tip>
+
+<SewageProcRate.label>Очищення нечистот</SewageProcRate.label>
+  <SewageProcRate.options.0.label>Чит</SewageProcRate.options.0.label>
+  <SewageProcRate.tip>Швидкість очищення нечистот у септиках та водоочисних установках</SewageProcRate.tip>
+
+
+  <IrrigationGridStrength.label>Зрошення</IrrigationGridStrength.label>
+  <IrrigationGridStrength.options.0.label>Чит</IrrigationGridStrength.options.0.label>
+  <IrrigationGridStrength.tip>Вплив зрошення на родючість ґрунту</IrrigationGridStrength.tip>
+
+
+  <FertilizerGridStrength.label>Добриво</FertilizerGridStrength.label>
+  <FertilizerGridStrength.options.0.label>Чит</FertilizerGridStrength.options.0.label>
+  <FertilizerGridStrength.tip>Вплив добрива на родючість ґрунту</FertilizerGridStrength.tip>
+
+
+<TerrainFertilityFactor.label>Родючість</TerrainFertilityFactor.label>
+  <TerrainFertilityFactor.options.0.label>Чит</TerrainFertilityFactor.options.0.label>
+  <TerrainFertilityFactor.tip>Базове значення родючості ґрунту</TerrainFertilityFactor.tip>
+
+</LanguageData>

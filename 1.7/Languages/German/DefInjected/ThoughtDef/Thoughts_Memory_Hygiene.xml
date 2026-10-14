@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- EN: refreshed -->
+  <DrankCleanWater.stages.0.label>trank sauberes Wasser</DrankCleanWater.stages.0.label>
+  <!-- EN: Drank refreshing clean water. -->
+  <DrankCleanWater.stages.0.description>Ich habe erfrischendes, sauberes Wasser getrunken.</DrankCleanWater.stages.0.description>
+
+  <!-- EN: drank filthy water -->
+  <DrankDirtyWater.stages.0.label>trank schmutziges Wasser</DrankDirtyWater.stages.0.label>
+  <!-- EN: Drank a bottle of contaminated water. -->
+  <DrankDirtyWater.stages.0.description>Ich habe kontaminiertes Wasser getrunken.</DrankDirtyWater.stages.0.description>
+
+  <!-- EN: drank urine -->
+  <DrankUrine.stages.0.label>trank Urin</DrankUrine.stages.0.label>
+  <!-- EN: I drank my own urine. -->
+  <DrankUrine.stages.0.description>Ich habe meinen eigenen Urin getrunken.</DrankUrine.stages.0.description>
+
+  <!-- EN: embarrassed -->
+  <WashPrivacy.stages.0.label>in Verlegenheit gebracht</WashPrivacy.stages.0.label>
+  <!-- EN: Someone saw me bathing and it made me uncomfortable. -->
+  <WashPrivacy.stages.0.description>Jemand hat mich beim Baden gesehen. Das war mir unangenehm.</WashPrivacy.stages.0.description>
+
+  <!-- EN: embarrassed -->
+  <ToiletPrivacy.stages.0.label>in Verlegenheit gebracht</ToiletPrivacy.stages.0.label>
+  <!-- EN: Someone walked in on me while I was using the toilet. -->
+  <ToiletPrivacy.stages.0.description>Jemand hat mich überrascht, als ich auf der Toilette war.</ToiletPrivacy.stages.0.description>
+
+  <!-- EN: soiled myself -->
+  <SoiledSelf.stages.0.label>eingenässt</SoiledSelf.stages.0.label>
+  <!-- EN: I couldn't hold it in any longer and soiled myself. -->
+  <SoiledSelf.stages.0.description>Ich konnte es nicht länger zurückhalten!</SoiledSelf.stages.0.description>
+
+  <!-- EN: hot shower -->
+  <HotShower.stages.0.label>heiß geduscht</HotShower.stages.0.label>
+  <!-- EN: I had a nice hot shower. -->
+  <HotShower.stages.0.description>Ich hatte eine schöne heiße Dusche.</HotShower.stages.0.description>
+
+  <!-- EN: heated pool -->
+  <HeatedPool.stages.0.label>beheizter Pool</HeatedPool.stages.0.label>
+  <!-- EN: The heated pool was very relaxing. -->
+  <HeatedPool.stages.0.description>Der beheizte Pool war sehr entspannend.</HeatedPool.stages.0.description>
+
+  <!-- EN: hot bath -->
+  <HotBath.stages.0.label>heiß gebadet</HotBath.stages.0.label>
+  <!-- EN: I had a nice hot bath. -->
+  <HotBath.stages.0.description>Ich hatte ein schönes heißes Bad.</HotBath.stages.0.description>
+
+  <!-- EN: cold bath -->
+  <ColdBath.stages.0.label>kalt gebadet</ColdBath.stages.0.label>
+  <!-- EN: I had a nice refreshing cold bath. -->
+  <ColdBath.stages.0.description>Ich hatte ein erfrischendes kaltes Bad.</ColdBath.stages.0.description>
+
+  <!-- EN: cold shower -->
+  <ColdShower.stages.0.label>kalt geduscht</ColdShower.stages.0.label>
+  <!-- EN: I had a nice refreshing cold shower. -->
+  <ColdShower.stages.0.description>Ich hatte eine erfrischende kalte Dusche.</ColdShower.stages.0.description>
+
+  <!-- EN: cold water -->
+  <ColdWater.stages.0.label>kaltes Wasser</ColdWater.stages.0.label>
+  <!-- EN: There was no hot water! -->
+  <ColdWater.stages.0.description>Es gab kein warmes Wasser!</ColdWater.stages.0.description>
+
+  <!-- EN: relieved myself -->
+  <tookDump.stages.0.label>Notdurft verrichtet</tookDump.stages.0.label>
+  <!-- EN: Aaaah much better. -->
+  <tookDump.stages.0.description>Aaaah viel besser!</tookDump.stages.0.description>
+
+  <!-- EN: open defecation -->
+  <openDefecation.stages.0.label>Notdurft im Freien</openDefecation.stages.0.label>
+  <!-- EN: I had to relieve myself outside in the open. -->
+  <openDefecation.stages.0.description>Ich musste mich draußen im Freien erleichtern.</openDefecation.stages.0.description>
+
+  <!-- EN: awful bathroom -->
+  <UsedPrivateBathroom.stages.0.label>abscheulicher Baderaum</UsedPrivateBathroom.stages.0.label>
+  <!-- EN: My bathroom is an awful place. -->
+  <UsedPrivateBathroom.stages.0.description>Mein Baderaum ist ein abscheulicher Ort.</UsedPrivateBathroom.stages.0.description>
+  <!-- EN: decent bathroom -->
+  <UsedPrivateBathroom.stages.2.label>guter Baderaum</UsedPrivateBathroom.stages.2.label>
+  <!-- EN: My bathroom is very interesting. I like it. -->
+  <UsedPrivateBathroom.stages.2.description>Mein Baderaum ist ziemlich interessant. Das gefällt mir.</UsedPrivateBathroom.stages.2.description>
+  <!-- EN: slightly impressive bathroom -->
+  <UsedPrivateBathroom.stages.3.label>halbwegs imposanter Baderaum</UsedPrivateBathroom.stages.3.label>
+  <!-- EN: My bathroom is actually slightly impressive. I like it. -->
+  <UsedPrivateBathroom.stages.3.description>Mein Baderaum ist halbwegs imposant. Das gefällt mir.</UsedPrivateBathroom.stages.3.description>
+  <!-- EN: impressive bathroom -->
+  <UsedPrivateBathroom.stages.4.label>imposanter Baderaum</UsedPrivateBathroom.stages.4.label>
+  <!-- EN: My bathroom is impressive. I love it! -->
+  <UsedPrivateBathroom.stages.4.description>Mein Baderaum ist imposant. Ich liebe es!</UsedPrivateBathroom.stages.4.description>
+  <!-- EN: very impressive bathroom -->
+  <UsedPrivateBathroom.stages.5.label>sehr imposanter Baderaum</UsedPrivateBathroom.stages.5.label>
+  <!-- EN: My bathroom is very impressive. This is the best place ever! -->
+  <UsedPrivateBathroom.stages.5.description>Mein Baderaum ist sehr imposant. Das ist der beste Ort überhaupt!</UsedPrivateBathroom.stages.5.description>
+  <!-- EN: extremely impressive bathroom -->
+  <UsedPrivateBathroom.stages.6.label>extrem imposanter Baderaum</UsedPrivateBathroom.stages.6.label>
+  <!-- EN: My bathroom is extremely impressive. This is the best place ever! -->
+  <UsedPrivateBathroom.stages.6.description>Mein Baderaum ist extrem imposant. Das ist der beste Ort überhaupt!</UsedPrivateBathroom.stages.6.description>
+  <!-- EN: unbelievably impressive bathroom -->
+  <UsedPrivateBathroom.stages.7.label>unglaublich imposanter Baderaum</UsedPrivateBathroom.stages.7.label>
+  <!-- EN: My bathroom is unbelievably impressive. This is the best place ever! -->
+  <UsedPrivateBathroom.stages.7.description>Mein Baderaum ist unglaublich imposant. Das ist der beste Ort überhaupt!</UsedPrivateBathroom.stages.7.description>
+  <!-- EN: wondrously impressive bathroom -->
+  <UsedPrivateBathroom.stages.8.label>sagenhaft imposanter Baderaum</UsedPrivateBathroom.stages.8.label>
+  <!-- EN: My bathroom is the best place one can ever imagine. It's wonderful. -->
+  <UsedPrivateBathroom.stages.8.description>Mein Baderaum ist der beste Ort, den man sich vorstellen kann. Hier könnte ich für immer bleiben.</UsedPrivateBathroom.stages.8.description>
+
+</LanguageData>

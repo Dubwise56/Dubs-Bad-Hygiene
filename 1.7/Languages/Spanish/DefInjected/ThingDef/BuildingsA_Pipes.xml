@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Pipes -->
+
+  <!--   <sewagePipeStuff.label>plumbing</sewagePipeStuff.label>
+  <sewagePipeStuff.description>Plumbing for connecting plumbed things.</sewagePipeStuff.description>
+  <sewagePipeStuff_Blueprint.label>plumbing (blueprint)</sewagePipeStuff_Blueprint.label>
+  <sewagePipeStuff_Frame.label>plumbing (building)</sewagePipeStuff_Frame.label>
+  <sewagePipeStuff_Frame.description>Plumbing for connecting plumbed things.</sewagePipeStuff_Frame.description> -->
+
+  <sewagePipeStuff.label>Tubería</sewagePipeStuff.label>
+  <sewagePipeStuff.description>Tuberías para conectar los componentes del suministro de agua.</sewagePipeStuff.description>
+  <Blueprint_sewagePipeStuff.label>Tubería (anteproyecto)</Blueprint_sewagePipeStuff.label>
+  <Frame_sewagePipeStuff.label>Tubería (construcción)</Frame_sewagePipeStuff.label>
+  <Frame_sewagePipeStuff.description>Tuberías para conectar los componentes del suministro de agua.</Frame_sewagePipeStuff.description>
+
+  <!--   <plumbingValve.label>plumbing valve</plumbingValve.label>
+  <plumbingValve.description>Opens or closes connections between pipes.</plumbingValve.description>
+  <plumbingValve_Blueprint.label>plumbing valve (blueprint)</plumbingValve_Blueprint.label>
+  <plumbingValve_Blueprint_Install.label>plumbing valve (blueprint)</plumbingValve_Blueprint_Install.label>
+  <plumbingValve_Frame.label>plumbing valve (building)</plumbingValve_Frame.label>
+  <plumbingValve_Frame.description>Opens or closes connections between pipes.</plumbingValve_Frame.description> -->
+
+  <plumbingValve.label>Válvula de fontanería</plumbingValve.label>
+  <plumbingValve.description>Abre o cierra conexiones entre tuberías.</plumbingValve.description>
+  <Blueprint_plumbingValve.label>Válvula de fontanería (anteproyecto)</Blueprint_plumbingValve.label>
+  <Blueprint_Install_plumbingValve.label>Válvula de fontanería (anteproyecto)</Blueprint_Install_plumbingValve.label>
+  <Frame_plumbingValve.label>Válvula de fontanería (construcción)</Frame_plumbingValve.label>
+  <Frame_plumbingValve.description>Abre o cierra conexiones entre tuberías.</Frame_plumbingValve.description>
+
+  <!--   <airPipe.label>air-con pipe</airPipe.label>
+  <airPipe.description>Pipe for connecting air-conditioning units.</airPipe.description>
+  <airPipe_Blueprint.label>air-con pipe (blueprint)</airPipe_Blueprint.label>
+  <airPipe_Frame.label>air-con pipe (building)</airPipe_Frame.label>
+  <airPipe_Frame.description>Pipe for connecting air-conditioning units.</airPipe_Frame.description>
+ -->
+
+  <airPipe.label>Tubo de aire acondicionado</airPipe.label>
+  <airPipe.description>Tubo para conectar los módulos de aire acondicionado.</airPipe.description>
+  <Blueprint_airPipe.label>Tubo de aire acondicionado (anteproyecto)</Blueprint_airPipe.label>
+  <Frame_airPipe.label>Tubo de aire acondicionado (construcción)</Frame_airPipe.label>
+  <Frame_airPipe.description>Tubo para conectar los módulos de aire acondicionado.</Frame_airPipe.description>
+
+
+</LanguageData>

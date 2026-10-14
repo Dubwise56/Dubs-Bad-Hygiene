@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!--   <ThirstRateMultiplier.label>thirst rate factor</ThirstRateMultiplier.label>
+  <ThirstRateMultiplier.description>A multiplier on how quickly a creature becomes thirsty.</ThirstRateMultiplier.description> -->
+
+  <ThirstRateMultiplier.label>factor de tasa de sed</ThirstRateMultiplier.label>
+  <ThirstRateMultiplier.description>Un multiplicador que determina la rapidez de tener sed.</ThirstRateMultiplier.description>
+
+  <!--   <HygieneRateMultiplier.label>hygiene rate factor</HygieneRateMultiplier.label>
+  <HygieneRateMultiplier.description>A multiplier on how quickly a creatures hygiene level falls.</HygieneRateMultiplier.description> -->
+
+  <HygieneRateMultiplier.label>factor de tasa de higiene</HygieneRateMultiplier.label>
+  <HygieneRateMultiplier.description>Un multiplicador que determina la rapidez con la que desciende el nivel de higiene.</HygieneRateMultiplier.description>
+
+  <!--   <BladderRateMultiplier.label>bladder rate factor</BladderRateMultiplier.label>
+  <BladderRateMultiplier.description>A multiplier on how quickly a creatures bladder level falls.</BladderRateMultiplier.description> -->
+
+  <BladderRateMultiplier.label>factor de tasa de vejiga</BladderRateMultiplier.label>
+  <BladderRateMultiplier.description>Un multiplicador que determina la rapidez con la que desciende el nivel de vejiga.</BladderRateMultiplier.description>
+
+
+</LanguageData>
