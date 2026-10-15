@@ -175,6 +175,8 @@
       <li Class="DubsBadHygiene.CompProperties_Composter">
         <Material>FecalSludge</Material>
         <Product>Biosolids</Product>
+        <capacity>10</capacity>
+        <productPerMaterial>25</productPerMaterial>
       </li>
       <li Class="CompProperties_TemperatureRuinable">
         <minSafeTemperature>-20</minSafeTemperature>

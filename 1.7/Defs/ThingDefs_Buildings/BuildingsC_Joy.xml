@@ -197,6 +197,7 @@
 			<bed_healPerDay>9</bed_healPerDay>
 			<ai_chillDestination>true</ai_chillDestination>
 			<joyKind>Hydrotherapy</joyKind>
+			<ai_neverTrashThis>true</ai_neverTrashThis>
 		</building>
 		<comps>
 			<li Class="DubsBadHygiene.CompProperties_Pipe">
@@ -216,6 +217,63 @@
 			<li MayRequire="dbhlitemode">SwimmingPools</li>
 		</researchPrerequisites>
 		<tickerType>Normal</tickerType>
+		<constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+		<placeWorkers>
+			<li>PlaceWorker_InvalidOverSubstructure</li>
+		</placeWorkers>
+	</ThingDef>
+
+	<ThingDef ParentName="BasedHygieneMom">
+		<defName>DBHPoolTile</defName>
+		<label>pool tile</label>
+		<description>A section of swimming pool. Build any size and shape; touching sections join into one pool with a tiled rim. Pipe water into any section and the whole pool fills.</description>
+		<thingClass>DubsBadHygiene.Building_PoolTile</thingClass>
+		<designationCategory>Joy</designationCategory>
+		<uiIconPath>DBH/Things/Building/PoolTile/PoolTile</uiIconPath>
+		<graphicData>
+			<texPath>DBH/Things/Building/PoolTile/PoolTile</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>Cutout</shaderType>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<stuffCategories>
+			<li>Metallic</li>
+			<li>Woody</li>
+			<li>Stony</li>
+		</stuffCategories>
+		<costStuffCount>10</costStuffCount>
+		<altitudeLayer>FloorEmplacement</altitudeLayer>
+		<drawerType>MapMeshOnly</drawerType>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>450</WorkToBuild>
+			<Flammability>0</Flammability>
+			<Beauty>4</Beauty>
+			<Comfort>0.6</Comfort>
+			<JoyGainFactor>1</JoyGainFactor>
+		</statBases>
+		<building>
+			<bed_healPerDay>9</bed_healPerDay>
+			<ai_chillDestination>false</ai_chillDestination>
+			<joyKind>Hydrotherapy</joyKind>
+			<ai_neverTrashThis>true</ai_neverTrashThis>
+		</building>
+		<comps>
+			<li Class="DubsBadHygiene.CompProperties_Pipe">
+				<mode>Sewage</mode>
+			</li>
+		</comps>
+		<fillPercent>0</fillPercent>
+		<size>(1, 1)</size>
+		<passability>PassThroughOnly</passability>
+		<pathCost>40</pathCost>
+		<rotatable>false</rotatable>
+		<drawStyleCategory>Floors</drawStyleCategory>
+		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+		<researchPrerequisites>
+			<li MayRequire="dbhlitemode">SwimmingPools</li>
+		</researchPrerequisites>
+		<tickerType>Never</tickerType>
 		<constructionSkillPrerequisite>5</constructionSkillPrerequisite>
 		<placeWorkers>
 			<li>PlaceWorker_InvalidOverSubstructure</li>

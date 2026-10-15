@@ -17,6 +17,16 @@
 	</DubsBadHygiene.WashingJobDef>
 
 	<DubsBadHygiene.WashingJobDef>
+		<defName>DBHSwimPoolTiles</defName>
+		<driverClass>DubsBadHygiene.JobDriver_SwimPoolTiles</driverClass>
+		<reportString>swimming</reportString>
+		<joyDuration>4000</joyDuration>
+		<joyMaxParticipants>1</joyMaxParticipants>
+		<joyKind>Hydrotherapy</joyKind>
+		<allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+	</DubsBadHygiene.WashingJobDef>
+
+	<DubsBadHygiene.WashingJobDef>
 		<defName>UseHotTub</defName>
 		<driverClass>DubsBadHygiene.JobDriver_UseHotTub</driverClass>
 		<reportString>relaxing</reportString>
@@ -60,6 +70,17 @@
 			<li>DBHSwimmingPool</li>
 		</thingDefs>
 		<jobDef>DBHGoSwimming</jobDef>
+		<joyKind>Hydrotherapy</joyKind>
+	</JoyGiverDef>
+
+	<JoyGiverDef>
+		<defName>UseDBHPoolTiles</defName>
+		<giverClass>DubsBadHygiene.JoyGiver_SwimPoolTiles</giverClass>
+		<baseChance>4</baseChance>
+		<thingDefs>
+			<li>DBHPoolTile</li>
+		</thingDefs>
+		<jobDef>DBHSwimPoolTiles</jobDef>
 		<joyKind>Hydrotherapy</joyKind>
 	</JoyGiverDef>
 

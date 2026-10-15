@@ -503,7 +503,7 @@
                 <mode>Sewage</mode>
             </li>
             <li Class="DubsBadHygiene.CompProperties_SepticTank">
-                <TreatedPerDay>50</TreatedPerDay>
+                <TreatedPerDay>150</TreatedPerDay>
                 <capacity>500</capacity>
                 <priority>1</priority>
             </li>

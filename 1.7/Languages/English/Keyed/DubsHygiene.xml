@@ -185,7 +185,7 @@
 
     <!--Composting-->
     <ContainsCompost>Contains compost: {0}/{1} L</ContainsCompost>
-    <ContainsFecalSludge>Contains fecal sludge: {0}/{1} L</ContainsFecalSludge>
+    <ContainsFecalSludge>Contains fecal sludge: {0}/{1} drums</ContainsFecalSludge>
     <Composted>Composted</Composted>
     <CompostingProgress>Composting progress: {0} ({1})</CompostingProgress>
     <ComposterOutOfIdealTemperature>Composter has non-ideal temperature</ComposterOutOfIdealTemperature>
