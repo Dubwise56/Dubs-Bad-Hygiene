@@ -294,7 +294,6 @@
 				<compClass>CompPowerTrader</compClass>
 				<basePowerConsumption>500</basePowerConsumption>
 			</li>
-			<li Class="CompProperties_Forbiddable"/>
 			<li Class="CompProperties_Flickable"/>
 		</comps>
 		<fillPercent>0.15</fillPercent>
