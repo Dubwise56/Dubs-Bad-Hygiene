@@ -617,9 +617,6 @@
 		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
 		<pathCost>8</pathCost>
 		<rotatable>true</rotatable>
-		<building>
-			<isSittable>true</isSittable>
-		</building>
 		<researchPrerequisites>
 			<li MayRequire="dbhlitemode">ModernFixtures</li>
 		</researchPrerequisites>

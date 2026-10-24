@@ -643,6 +643,7 @@
             </damageData>
         </graphicData>
         <altitudeLayer>BuildingOnTop</altitudeLayer>
+        <passability>Standable</passability>
         <terrainAffordanceNeeded IsNull="True"/>
         <building>
             <isEdifice>false</isEdifice>
