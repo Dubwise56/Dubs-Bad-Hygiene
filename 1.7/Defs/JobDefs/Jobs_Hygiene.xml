@@ -144,6 +144,12 @@
 	</JobDef>
 
 	<JobDef>
+		<defName>DBHRelieveInVacSuit</defName>
+		<driverClass>DubsBadHygiene.JobDriver_RelieveInVacSuit</driverClass>
+		<reportString>relieving in vac suit</reportString>
+	</JobDef>
+
+	<JobDef>
 		<defName>useWashBucket</defName>
 		<driverClass>DubsBadHygiene.JobDriver_useWashBucket</driverClass>
 		<reportString>washing with TargetA</reportString>

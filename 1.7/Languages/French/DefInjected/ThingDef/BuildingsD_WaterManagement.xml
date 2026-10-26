@@ -42,4 +42,7 @@
   <DeepWaterWellInlet.label>puits profond</DeepWaterWellInlet.label>
   <DeepWaterWellInlet.description>Un puits est une structure d'extraction d'eau d'une nape phréatique. La présence d'eaux usées ou d'autres contaminants réduit la qualité de l'eau et peut entraîner une contamination.\n\nAtteinds une plus profonde et grande réserve.</DeepWaterWellInlet.description>
 
+  <SurfaceWaterInlet.label>prise d'eau de surface</SurfaceWaterInlet.label>
+  <SurfaceWaterInlet.description>Un tuyau posé dans une eau douce à découvert, tourné vers l'eau, que les pompes peuvent pomper comme un puits. Les rivières fournissent le plus d'eau, puis les lacs ; l'eau de marais en fournit le moins et, stagnante, contamine l'eau dans laquelle elle est pompée. L'eau de mer est inutilisable. Elle peut voyager avec un vaisseau gravitationnel et recommence à puiser de l'eau là où elle se pose près de l'eau.</SurfaceWaterInlet.description>
+
 </LanguageData>

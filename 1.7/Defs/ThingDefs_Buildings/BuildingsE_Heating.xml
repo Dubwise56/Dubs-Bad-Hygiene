@@ -298,7 +298,7 @@
         <designationCategory>Temperature</designationCategory>
         <defName>GeothermHeater</defName>
         <label>Geothermal heater</label>
-        <description>Uses geothermal heat to heat hot water tanks and radiators. 3700 units of heating.</description>
+        <description>Uses geothermal heat to heat hot water tanks and radiators. 7000 units of heating.</description>
         <graphicData>
             <texPath>DBH/Things/Building/Heating/geoheater</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -329,7 +329,7 @@
             </li>
             <li Class="DubsBadHygiene.CompProperties_CompBoiler">
                 <compClass>DubsBadHygiene.CompGeoBoiler</compClass>
-                <BaseCapacity>3700</BaseCapacity>
+                <BaseCapacity>7000</BaseCapacity>
                 <ThermostatControl>false</ThermostatControl>
             </li>
             <li Class="CompProperties_Breakdownable"/>

@@ -163,7 +163,7 @@
   <RimefellerLinkTip>Rimefeller의 crackers 와 refiners 에 물을 사용하는 것을 활성화합니다.</RimefellerLinkTip>
   <RimatomicsLink>Rimatomics 연동</RimatomicsLink>
   <RimatomicsLinkTip>Rimatomics에서, 냉각탑에 물을 사용하는 것을 활성화합니다.</RimatomicsLinkTip>
-  <OverrideNeedSettingsTip>신체 유형이나 종족, 활성화된 특성에 따라 수동으로 욕구를 비활성화 합니다.</OverrideNeedSettingsTip>
+  <OverrideNeedSettingsTip>신체 유형, 종족, 활성화된 건강 상태, 유전자 또는 특성에 따라 수동으로 욕구를 비활성화 합니다.</OverrideNeedSettingsTip>
   <OverrideNeedsSettings>욕구 필터 상세 설정</OverrideNeedsSettings>
   <Disablebladderneed>배변 욕구 비활성화</Disablebladderneed>
   <Disablehygieneneed>위생 욕구 비활성화</Disablehygieneneed>
@@ -197,5 +197,18 @@
 
   <GetPaintShop>Dub의 페인트샵</GetPaintShop>
 
+
+  <ChildrenGetNeeds>아이</ChildrenGetNeeds>
+  <ChildrenGetNeedsTip>아이에게 욕구가 있을지 설정합니다. 아기는 방광 욕구가 없습니다.</ChildrenGetNeedsTip>
+  <ChildrenGetThirst>아이 갈증</ChildrenGetThirst>
+  <ChildrenGetThirstTip>아이에게 갈증 욕구가 생깁니다. 아기에게는 없습니다.</ChildrenGetThirstTip>
+  <DBH.FertilizeZone>비료 주기 (Bad Hygiene)</DBH.FertilizeZone>
+  <DBH.FertilizeZoneDesc>Bad Hygiene: 재배자가 비료 구역처럼 이 재배 구역 전체에 비료를 뿌립니다. 구역의 일부에만 비료를 주려면 대신 비료 구역을 사용하세요.</DBH.FertilizeZoneDesc>
+  <DBH.NeedsSurfaceWater>지표 담수를 향해야 합니다: 강, 호수 또는 늪.</DBH.NeedsSurfaceWater>
+  <DBH.SurfaceWaterCells>지표수 칸: 강 {0}, 호수 {1}, 늪 {2}</DBH.SurfaceWaterCells>
+  <DBH.SurfaceWaterStagnant>고인 늪 물: 정수하지 않으면 급수를 오염시킵니다.</DBH.SurfaceWaterStagnant>
+  <DBHVacuum>진공 상태</DBHVacuum>
+  <dbh.restartlater>나중에</dbh.restartlater>
+  <ThirstRequiresRestart>갈증 관련 아이템을 추가하거나 제거하려면 재시작이 필요합니다.\n\n지금 재시작할까요?</ThirstRequiresRestart>
 
 </LanguageData>

@@ -78,4 +78,7 @@
   <WaterTreatment_Frame.description>Oczyszcza 99,99% zarazków! Filtruje istniejącą wodę w wieżach magazynowych oraz każdą wodę używaną przez armaturę, eliminując ryzyko zachorowań.</WaterTreatment_Frame.description>
 
 
+  <SurfaceWaterInlet.label>ujęcie wody powierzchniowej</SurfaceWaterInlet.label>
+  <SurfaceWaterInlet.description>Rura ułożona w otwartej słodkiej wodzie, skierowana ku wodzie, z której pompy mogą pompować wodę jak ze studni. Rzeki dają najwięcej wody, potem jeziora; woda bagienna daje najmniej i jest stojąca, więc zanieczyszcza wodę, do której jest pompowana. Nie można używać wody morskiej. Może podróżować ze statkiem grawitacyjnym i po lądowaniu przy wodzie znów zaczyna pobierać wodę.</SurfaceWaterInlet.description>
+
 </LanguageData>

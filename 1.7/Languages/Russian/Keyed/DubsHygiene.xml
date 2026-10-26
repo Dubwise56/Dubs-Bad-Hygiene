@@ -163,7 +163,7 @@
   <RimefellerLinkTip>Разрешить использование воды для расщепителей и нефтепереработчиков в Rimefeller</RimefellerLinkTip>
   <RimatomicsLink>Rimatomics подключен</RimatomicsLink>
   <RimatomicsLinkTip>Разрешить использование воды в охладительных установках в Rimatomics</RimatomicsLinkTip>
-  <OverrideNeedSettingsTip>Отключить вручную нужды в завимости от типа тела, расы и состояния здоровья</OverrideNeedSettingsTip>
+  <OverrideNeedSettingsTip>Отключить вручную нужды в зависимости от типа тела, расы, состояния здоровья, гена или черты</OverrideNeedSettingsTip>
   <OverrideNeedsSettings>Фильтры нужд</OverrideNeedsSettings>
   <Disablebladderneed>Отключить малую нужду</Disablebladderneed>
   <Disablehygieneneed>Отключить нужду в гигиене</Disablehygieneneed>
@@ -197,5 +197,18 @@
   
   <GetPaintShop>Добавить Dub's Paint Shop</GetPaintShop>
   
+
+  <ChildrenGetNeeds>Дети</ChildrenGetNeeds>
+  <ChildrenGetNeedsTip>Должны ли у детей быть нужды. У младенцев никогда нет нужды в мочевом пузыре.</ChildrenGetNeedsTip>
+  <ChildrenGetThirst>Жажда у детей</ChildrenGetThirst>
+  <ChildrenGetThirstTip>У детей есть нужда в жажде. У младенцев её никогда нет.</ChildrenGetThirstTip>
+  <DBH.FertilizeZone>Удобрять (Bad Hygiene)</DBH.FertilizeZone>
+  <DBH.FertilizeZoneDesc>Bad Hygiene: растениеводы рассыпают удобрение по всей зоне выращивания, как в зоне удобрения. Чтобы удобрять только часть зоны, используйте зону удобрения.</DBH.FertilizeZoneDesc>
+  <DBH.NeedsSurfaceWater>Должен быть обращён к пресной поверхностной воде: реке, озеру или болоту.</DBH.NeedsSurfaceWater>
+  <DBH.SurfaceWaterCells>Клетки поверхностной воды: река {0}, озеро {1}, болото {2}</DBH.SurfaceWaterCells>
+  <DBH.SurfaceWaterStagnant>Стоячая болотная вода: загрязняет водоснабжение, если её не фильтровать.</DBH.SurfaceWaterStagnant>
+  <DBHVacuum>В вакууме</DBHVacuum>
+  <dbh.restartlater>Позже</dbh.restartlater>
+  <ThirstRequiresRestart>Чтобы добавить или убрать предметы, связанные с жаждой, нужен перезапуск.\n\nПерезапустить сейчас?</ThirstRequiresRestart>
 
 </LanguageData>

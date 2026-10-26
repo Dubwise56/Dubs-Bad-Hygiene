@@ -88,4 +88,6 @@
   <!-- EN: watching the spin cycle -->
   <WatchWashingMachine.reportString>觀看洗衣機運作。</WatchWashingMachine.reportString>
   
+  <DBHRelieveInVacSuit.reportString>在真空服裡解手</DBHRelieveInVacSuit.reportString>
+
 </LanguageData>

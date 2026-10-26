@@ -391,7 +391,7 @@
   <!-- EN: Enable water usage on cooling towers in Rimatomics. -->
   <RimatomicsLinkTip>Ermöglicht die Wassernutzung bei Kühltürmen in Rimatomics.</RimatomicsLinkTip>
   <!-- EN: Manually disable needs by body type, race, or active hediff. -->
-  <OverrideNeedSettingsTip>Deaktiviere manuell Bedürfnisse nach Körpertyp, Spezies oder aktivem Gesundheitszustand.</OverrideNeedSettingsTip>
+  <OverrideNeedSettingsTip>Deaktiviere manuell Bedürfnisse nach Körpertyp, Spezies, aktivem Gesundheitszustand, Gen oder Merkmal.</OverrideNeedSettingsTip>
   <!-- EN: Needs filter -->
   <OverrideNeedsSettings>Bedürfnisfilter</OverrideNeedsSettings>
   <!-- EN: Disable bladder need -->
@@ -492,5 +492,15 @@
   <HydroponicsLinkTip>Strombetriebene Bauwerke zum Kultivieren von Pflanzen, wie z.B. Hydrokulturbecken, haben Wasserspeicher, die über Rohrleitungen gefüllt werden müssen. Die Pflanzen sterben mangels Wasser, nicht mangels Strom. Allerdings füllen sich die Wasserspeicher nur, wenn das Bauwerk mit Strom versorgt wird.</HydroponicsLinkTip>
   <!-- EN: A restart is required to add and remove thirst-related items.\n\nRestart now? -->
   <ThirstRequiresRestart>Es ist ein Neustart erforderlich, um durstbezogene Elemente hinzuzufügen oder zu entfernen.\n\nJetzt neu starten?</ThirstRequiresRestart>
+
+  <ChildrenGetNeeds>Kinder</ChildrenGetNeeds>
+  <ChildrenGetNeedsTip>Lege fest, ob Kinder Bedürfnisse haben sollen. Babys haben nie ein Blasenbedürfnis.</ChildrenGetNeedsTip>
+  <ChildrenGetThirst>Durst bei Kindern</ChildrenGetThirst>
+  <ChildrenGetThirstTip>Kinder haben das Durstbedürfnis. Babys nie.</ChildrenGetThirstTip>
+  <DBH.FertilizeZone>Düngen (Bad Hygiene)</DBH.FertilizeZone>
+  <DBH.FertilizeZoneDesc>Bad Hygiene: Gärtner verteilen Klärdünger über die gesamte Anbauzone, wie in der Düngerzone. Um nur einen Teil einer Zone zu düngen, verwende stattdessen die Düngerzone.</DBH.FertilizeZoneDesc>
+  <DBH.NeedsSurfaceWater>Muss zu Oberflächen-Süßwasser zeigen: Fluss, See oder Sumpf.</DBH.NeedsSurfaceWater>
+  <DBH.SurfaceWaterCells>Oberflächenwasser-Felder: Fluss {0}, See {1}, Sumpf {2}</DBH.SurfaceWaterCells>
+  <DBH.SurfaceWaterStagnant>Stehendes Sumpfwasser: verunreinigt die Wasserversorgung, wenn es nicht gefiltert wird.</DBH.SurfaceWaterStagnant>
 
 </LanguageData>

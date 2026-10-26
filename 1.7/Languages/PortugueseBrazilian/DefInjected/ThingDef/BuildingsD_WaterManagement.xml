@@ -78,4 +78,7 @@
   <WaterTreatment_Frame.description>Cleans 99.99% of germs! Filters existing water in storage towers, and any water used by fixtures, eliminating the risk of disease.</WaterTreatment_Frame.description>
 
 
+  <SurfaceWaterInlet.label>captação de água de superfície</SurfaceWaterInlet.label>
+  <SurfaceWaterInlet.description>Um cano colocado em água doce aberta, virado para a água, do qual as bombas podem bombear como de um poço. Rios fornecem mais água, depois lagos; a água de pântano fornece menos e é parada, contaminando a água para onde é bombeada. Não é possível usar água do mar. Pode viajar com uma nave gravitacional e volta a captar água onde pousar junto à água.</SurfaceWaterInlet.description>
+
 </LanguageData>

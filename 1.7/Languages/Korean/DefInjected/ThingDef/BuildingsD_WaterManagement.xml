@@ -78,4 +78,7 @@
   <WaterTreatment_Frame.description>99.99%의 살균력을 자랑하는 장치입니다. 급수탑에 저장된 물을 여과하여 질병을 일으킬 수 있는 세균을 지속적으로 제거합니다.</WaterTreatment_Frame.description>
 
 
+  <SurfaceWaterInlet.label>지표수 취수구</SurfaceWaterInlet.label>
+  <SurfaceWaterInlet.description>물을 향하도록 열린 담수에 놓는 관으로, 우물처럼 펌프로 물을 끌어올 수 있습니다. 강이 가장 많은 물을 주고, 그다음은 호수입니다. 늪 물은 가장 적고 고여 있어서, 끌어올린 물을 오염시킵니다. 바닷물은 사용할 수 없습니다. 중력선과 함께 이동할 수 있으며, 물가에 착륙하면 다시 물을 끌어오기 시작합니다.</SurfaceWaterInlet.description>
+
 </LanguageData>

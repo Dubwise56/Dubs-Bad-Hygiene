@@ -28,8 +28,8 @@
 
   <!-- EN: Geothermal heater -->
   <GeothermHeater.label>Geotherme</GeothermHeater.label>
-  <!-- EN: Uses geothermal heat to heat hot water tanks and radiators. 3700 units of heating. -->
-  <GeothermHeater.description>Nutzt die Erdwärme zur Erhitzung von Warmwasserspeichern und Heizkörpern. Erzeugt 3.700 Heizeinheiten.</GeothermHeater.description>
+  <!-- EN: Uses geothermal heat to heat hot water tanks and radiators. 7000 units of heating. -->
+  <GeothermHeater.description>Nutzt die Erdwärme zur Erhitzung von Warmwasserspeichern und Heizkörpern. Erzeugt 7.000 Heizeinheiten.</GeothermHeater.description>
 
   <!-- EN: hot water tank -->
   <HotWaterTank.label>Warmwasserspeicher</HotWaterTank.label>

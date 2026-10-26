@@ -345,7 +345,7 @@
 	<!-- EN: Enable water usage on cooling towers in Rimatomics. -->
   <RimatomicsLinkTip>啟用將為邊緣核能mod中的冷卻塔增加水需求</RimatomicsLinkTip>
 	<!-- EN: Manually disable needs by body type, race, or active hediff. -->
-  <OverrideNeedSettingsTip>禁用特定體型、種族或特定hediff處於活躍狀態的相關需求</OverrideNeedSettingsTip>
+  <OverrideNeedSettingsTip>禁用特定體型、種族、特定hediff處於活躍狀態、基因或特性的相關需求</OverrideNeedSettingsTip>
 	<!-- EN: Needs filter -->
   <OverrideNeedsSettings>需求過濾器</OverrideNeedsSettings>
 	<!-- EN: Disable bladder need -->
@@ -446,5 +446,17 @@
   <HydroponicsLinkTip>水栽培植物盆需要管道連接水箱以獲得水，水箱只有在通電狀態下才能供水，水栽培的植物只會因缺水而不會因為斷電而死亡。</HydroponicsLinkTip>
 	<!-- EN: A restart is required to add and remove thirst-related items.\n\nRestart now? -->
   <ThirstRequiresRestart>只有重啟遊戲才能添加或刪除與飲水相關的內容\n\n立即重啟？</ThirstRequiresRestart>
+
+  <ChildrenGetNeeds>兒童</ChildrenGetNeeds>
+  <ChildrenGetNeedsTip>設定兒童是否擁有需求。嬰兒永遠沒有膀胱需求。</ChildrenGetNeedsTip>
+  <ChildrenGetThirst>兒童口渴</ChildrenGetThirst>
+  <ChildrenGetThirstTip>兒童擁有口渴需求。嬰兒永遠沒有。</ChildrenGetThirstTip>
+  <DBH.FertilizeZone>施肥（Bad Hygiene）</DBH.FertilizeZone>
+  <DBH.FertilizeZoneDesc>Bad Hygiene：種植者會在整個種植區撒布生物有機肥料，就像在肥料區域一樣。如只想給種植區的一部分施肥，請改用肥料區域。</DBH.FertilizeZoneDesc>
+  <DBH.NeedsSurfaceWater>必須面向淡水水面：河流、湖泊或沼澤。</DBH.NeedsSurfaceWater>
+  <DBH.SurfaceWaterCells>地表水格數：河流 {0}，湖泊 {1}，沼澤 {2}</DBH.SurfaceWaterCells>
+  <DBH.SurfaceWaterStagnant>沼澤死水：除非經過過濾，否則會污染供水。</DBH.SurfaceWaterStagnant>
+  <DBHVacuum>處於真空中</DBHVacuum>
+  <dbh.restartlater>稍後</dbh.restartlater>
 
 </LanguageData>

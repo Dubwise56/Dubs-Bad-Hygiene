@@ -46,4 +46,6 @@
     <suspendable>false</suspendable>
   </JobDef> -->
 
+  <DBHRelieveInVacSuit.reportString>fazendo as necessidades no traje de vácuo</DBHRelieveInVacSuit.reportString>
+
 </LanguageData>

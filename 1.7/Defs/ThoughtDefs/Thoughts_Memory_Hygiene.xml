@@ -196,6 +196,20 @@
     <showBubble>true</showBubble>
 	</ThoughtDef>
 
+	<ThoughtDef>
+		<defName>DBHRelievedInVacSuit</defName>
+		<durationDays>0.25</durationDays>
+		<stackLimit>1</stackLimit>
+		<stages>
+			<li>
+				<label>relieved in vac suit</label>
+				<description>There was nowhere to go, so I went in my vac suit.</description>
+				<baseMoodEffect>-1</baseMoodEffect>
+			</li>
+		</stages>
+    <showBubble>true</showBubble>
+	</ThoughtDef>
+
 
   <ThoughtDef>
     <defName>UsedPrivateBathroom</defName>

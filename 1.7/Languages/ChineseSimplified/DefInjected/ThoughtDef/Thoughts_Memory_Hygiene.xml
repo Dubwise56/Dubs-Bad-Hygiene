@@ -104,4 +104,7 @@
   <!-- EN: Someone saw me bathing and it made me uncomfortable. -->
   <WashPrivacy.stages.embarrassed.description>有人在看我洗澡，这让我觉得很不舒服。</WashPrivacy.stages.embarrassed.description>
   
+  <DBHRelievedInVacSuit.stages.0.label>在真空服里解手</DBHRelievedInVacSuit.stages.0.label>
+  <DBHRelievedInVacSuit.stages.0.description>没有地方可去，只好在真空服里解决了。</DBHRelievedInVacSuit.stages.0.description>
+
 </LanguageData>

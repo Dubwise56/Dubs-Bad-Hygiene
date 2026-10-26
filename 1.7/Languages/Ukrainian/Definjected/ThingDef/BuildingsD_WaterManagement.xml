@@ -84,4 +84,7 @@
   <DeepWaterWellInlet_Frame.label>глибина свердловина (у процесі збирання)</DeepWaterWellInlet_Frame.label>
   <DeepWaterWellInlet_Frame.description>Надає доступ до ґрунтових вод для перекачування насосами. Вода з глибинних свердловин не забруднена.</DeepWaterWellInlet_Frame.description>
 
+  <SurfaceWaterInlet.label>водозабір поверхневої води</SurfaceWaterInlet.label>
+  <SurfaceWaterInlet.description>Труба, покладена у відкриту прісну воду й звернена до неї, з якої насоси можуть качати воду, як зі свердловини. Річки дають найбільше води, потім озера; болотна вода дає найменше, вона стояча й забруднює воду, у яку її закачують. Морську воду використовувати не можна. Може подорожувати на гравікораблі й після посадки біля води знову починає забирати воду.</SurfaceWaterInlet.description>
+
 </LanguageData>

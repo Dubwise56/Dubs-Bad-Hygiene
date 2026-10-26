@@ -55,7 +55,7 @@
 
 	<GeothermHeater.label>Geotermální ohřívač</GeothermHeater.label>
 
-	<GeothermHeater.description>Ohřívá vodu do nádrží a radiátorů pomocí geotermální energie z gejzírů. Výkon: 3700 jednotek ohřevu.</GeothermHeater.description>
+	<GeothermHeater.description>Ohřívá vodu do nádrží a radiátorů pomocí geotermální energie z gejzírů. Výkon: 7000 jednotek ohřevu.</GeothermHeater.description>
 
 	<CeilingFan.description>Pomocí cirkulace vzduchu ochlazuje místnost. Též má zabudovanou žárovku.</CeilingFan.description>
 

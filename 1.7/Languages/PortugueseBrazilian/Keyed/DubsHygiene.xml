@@ -204,7 +204,7 @@
   <RimefellerLinkTip>Habilite o uso de água no Rimefeller.</RimefellerLinkTip>
   <RimatomicsLink>Mod - rimatomics</RimatomicsLink>
   <RimatomicsLinkTip>Habilite o uso de água no Rimatomics.</RimatomicsLinkTip>
-  <OverrideNeedSettingsTip>Desative manualmente as necessidades por tipo de corpo, raça ou hediff ativo.</OverrideNeedSettingsTip>
+  <OverrideNeedSettingsTip>Desative manualmente as necessidades por tipo de corpo, raça, hediff ativo, gene ou traço.</OverrideNeedSettingsTip>
   <OverrideNeedsSettings>Necessidades</OverrideNeedsSettings>
   <Disablebladderneed>Desativar bexiga</Disablebladderneed>
   <Disablehygieneneed>Desabilitar higiene</Disablehygieneneed>
@@ -260,5 +260,17 @@
   <!--General-->
   <!--<PowerMode>Modo de energia: {0}Volts</PowerMode>-->
   <!--<HeatingCapacity>Reservatório de calor: {0}</HeatingCapacity>-->
+
+  <ChildrenGetNeeds>Crianças</ChildrenGetNeeds>
+  <ChildrenGetNeedsTip>Define se as crianças devem ter necessidades. Bebês nunca têm necessidade de bexiga.</ChildrenGetNeedsTip>
+  <ChildrenGetThirst>Sede de crianças</ChildrenGetThirst>
+  <ChildrenGetThirstTip>Crianças têm a necessidade de sede. Bebês nunca têm.</ChildrenGetThirstTip>
+  <DBH.FertilizeZone>Fertilizar (Bad Hygiene)</DBH.FertilizeZone>
+  <DBH.FertilizeZoneDesc>Bad Hygiene: cultivadores espalham fertilizante por toda esta zona de cultivo, como fazem na área de fertilizante. Para fertilizar só parte de uma zona, use a área de fertilizante.</DBH.FertilizeZoneDesc>
+  <DBH.NeedsSurfaceWater>Precisa estar virado para água doce de superfície: rio, lago ou pântano.</DBH.NeedsSurfaceWater>
+  <DBH.SurfaceWaterCells>Células de água de superfície: rio {0}, lago {1}, pântano {2}</DBH.SurfaceWaterCells>
+  <DBH.SurfaceWaterStagnant>Água parada de pântano: contamina o abastecimento de água se não for filtrada.</DBH.SurfaceWaterStagnant>
+  <DBHVacuum>No vácuo</DBHVacuum>
+  <dbh.restartlater>Depois</dbh.restartlater>
 
 </LanguageData>

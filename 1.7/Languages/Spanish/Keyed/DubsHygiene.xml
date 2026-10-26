@@ -206,7 +206,7 @@
   <RimefellerLinkTip>Permitir el uso de agua en las refinerías en Rimefeller</RimefellerLinkTip>
   <RimatomicsLink>Soporte para Rimatomics</RimatomicsLink>
   <RimatomicsLinkTip>Permitir el uso de agua en las torres de refrigeración en Rimatomics</RimatomicsLinkTip>
-  <OverrideNeedSettingsTip>Desactivar manualmente las necesidades por tipo de cuerpo, raza o hediff (efectos, enfermedades, etc) activo.</OverrideNeedSettingsTip>
+  <OverrideNeedSettingsTip>Desactivar manualmente las necesidades por tipo de cuerpo, raza, hediff (efectos, enfermedades, etc) activo, gen o rasgo.</OverrideNeedSettingsTip>
   <OverrideNeedsSettings>Filtro de necesidades</OverrideNeedsSettings>
   <Disablebladderneed>Desactivar la necesidades de la vejiga</Disablebladderneed>
   <Disablehygieneneed>Desactivar la necesidad de higiene</Disablehygieneneed>
@@ -257,5 +257,17 @@
   <HydroponicsLink>Hidroponía</HydroponicsLink>
   <HydroponicsLinkTip>Los edificios de cultivo con energía, como los hidropónicos, tienen tanques de agua que requieren ser llenados por medio de tuberías. Las plantas mueren por falta de agua en lugar de energía, los tanques de agua sólo se llenan cuando el edificio recibe energía.</HydroponicsLinkTip>
   <ThirstRequiresRestart>Es necesario reiniciar para añadir y eliminar elementos relacionados con la sed.\n\n¿Reiniciar ahora?</ThirstRequiresRestart>
+
+  <ChildrenGetNeeds>Niños</ChildrenGetNeeds>
+  <ChildrenGetNeedsTip>Establece si los niños deben tener necesidades. Los bebés nunca tienen necesidad de vejiga.</ChildrenGetNeedsTip>
+  <ChildrenGetThirst>Sed en niños</ChildrenGetThirst>
+  <ChildrenGetThirstTip>Los niños tienen la necesidad de sed. Los bebés nunca.</ChildrenGetThirstTip>
+  <DBH.FertilizeZone>Fertilizar (Bad Hygiene)</DBH.FertilizeZone>
+  <DBH.FertilizeZoneDesc>Bad Hygiene: los cultivadores esparcen biosólidos por toda esta zona de cultivo, como en la superficie de fertilización. Para fertilizar solo parte de una zona, usa la superficie de fertilización.</DBH.FertilizeZoneDesc>
+  <DBH.NeedsSurfaceWater>Debe mirar hacia agua dulce de superficie: río, lago o pantano.</DBH.NeedsSurfaceWater>
+  <DBH.SurfaceWaterCells>Casillas de agua de superficie: río {0}, lago {1}, pantano {2}</DBH.SurfaceWaterCells>
+  <DBH.SurfaceWaterStagnant>Agua estancada de pantano: contamina el suministro de agua si no se filtra.</DBH.SurfaceWaterStagnant>
+  <DBHVacuum>En el vacío</DBHVacuum>
+  <dbh.restartlater>Más tarde</dbh.restartlater>
 
 </LanguageData>

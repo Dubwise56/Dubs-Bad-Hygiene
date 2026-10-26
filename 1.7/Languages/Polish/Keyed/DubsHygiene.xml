@@ -193,7 +193,7 @@
 	<RimefellerLinkTip>Zezwolenie na użycie wody do rozłupywarki i rafinerii w Rimefeller</RimefellerLinkTip>
 	<RimatomicsLink>Rimatomia jest połączona</RimatomicsLink>
 	<RimatomicsLinkTip>Zezwolenie na stosowanie wody w urządzeniach chłodniczych w rimatomii</RimatomicsLinkTip>
-	<OverrideNeedSettingsTip>Wyłącz ręcznie potrzeby w oparciu o typ ciała, rasę i stan zdrowia</OverrideNeedSettingsTip>
+	<OverrideNeedSettingsTip>Wyłącz ręcznie potrzeby w oparciu o typ ciała, rasę, stan zdrowia, gen lub cechę</OverrideNeedSettingsTip>
 	<OverrideNeedsSettings>Potrzebuje filtrów</OverrideNeedsSettings>
 	<Disablebladderneed>Wyłącz małą potrzebę</Disablebladderneed>
 	<Disablehygieneneed>Wyłącz potrzebę higieny</Disablehygieneneed>
@@ -244,5 +244,17 @@
 	<HydroponicsLink>Hydroponics</HydroponicsLink>
 	<HydroponicsLinkTip>Powered growing buildings like hydroponics have water tanks that require filling from pipes. Plants die from lack of water instead of power, but water tanks only fill when the building is powered.</HydroponicsLinkTip>
 	<ThirstRequiresRestart>A restart is required to add and remove thirst-related items.\n\nRestart now?</ThirstRequiresRestart>
+
+	<ChildrenGetNeeds>Dzieci</ChildrenGetNeeds>
+	<ChildrenGetNeedsTip>Określ, czy dzieci mają mieć potrzeby. Niemowlęta nigdy nie mają potrzeby pęcherza.</ChildrenGetNeedsTip>
+	<ChildrenGetThirst>Pragnienie dzieci</ChildrenGetThirst>
+	<ChildrenGetThirstTip>Dzieci mają potrzebę pragnienia. Niemowlęta nigdy.</ChildrenGetThirstTip>
+	<DBH.FertilizeZone>Nawożenie (Bad Hygiene)</DBH.FertilizeZone>
+	<DBH.FertilizeZoneDesc>Bad Hygiene: uprawiający rozprowadzają biosolidy po całej strefie uprawy, tak jak na obszarze nawozowym. Aby nawozić tylko część strefy, użyj zamiast tego obszaru nawozowego.</DBH.FertilizeZoneDesc>
+	<DBH.NeedsSurfaceWater>Musi być skierowane do słodkiej wody powierzchniowej: rzeki, jeziora lub bagna.</DBH.NeedsSurfaceWater>
+	<DBH.SurfaceWaterCells>Pola wody powierzchniowej: rzeka {0}, jezioro {1}, bagno {2}</DBH.SurfaceWaterCells>
+	<DBH.SurfaceWaterStagnant>Stojąca woda bagienna: zanieczyszcza dostawy wody, jeśli nie jest filtrowana.</DBH.SurfaceWaterStagnant>
+	<DBHVacuum>W próżni</DBHVacuum>
+	<dbh.restartlater>Później</dbh.restartlater>
 
 </LanguageData>

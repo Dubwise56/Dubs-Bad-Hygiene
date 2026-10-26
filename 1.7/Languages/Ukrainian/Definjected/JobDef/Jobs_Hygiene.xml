@@ -29,4 +29,6 @@
   <TriggerFireSprinkler.reportString>активує TargetA</TriggerFireSprinkler.reportString>
 
 
+  <DBHRelieveInVacSuit.reportString>справляє потребу у вакуумному костюмі</DBHRelieveInVacSuit.reportString>
+
 </LanguageData>

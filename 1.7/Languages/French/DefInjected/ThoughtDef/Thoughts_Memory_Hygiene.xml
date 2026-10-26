@@ -64,4 +64,7 @@
   <UsedPrivateBathroom.stages.decent_bathroom.label>Salle de bain décente</UsedPrivateBathroom.stages.decent_bathroom.label>
   <UsedPrivateBathroom.stages.decent_bathroom.description>Ma salle de bain est vraiment interessante. J'aime ça.</UsedPrivateBathroom.stages.decent_bathroom.description>
 
+  <DBHRelievedInVacSuit.stages.0.label>soulagé dans ma combinaison spatiale</DBHRelievedInVacSuit.stages.0.label>
+  <DBHRelievedInVacSuit.stages.0.description>Il n'y avait nulle part où aller, alors je l'ai fait dans ma combinaison spatiale.</DBHRelievedInVacSuit.stages.0.description>
+
 </LanguageData>

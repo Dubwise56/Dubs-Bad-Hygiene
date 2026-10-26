@@ -104,4 +104,7 @@
   <!-- EN: My bathroom is the best place one can ever imagine. It's wonderful. -->
   <UsedPrivateBathroom.stages.8.description>Mein Baderaum ist der beste Ort, den man sich vorstellen kann. Hier könnte ich für immer bleiben.</UsedPrivateBathroom.stages.8.description>
 
+  <DBHRelievedInVacSuit.stages.0.label>im Vakuumanzug erleichtert</DBHRelievedInVacSuit.stages.0.label>
+  <DBHRelievedInVacSuit.stages.0.description>Es gab nirgendwo eine Möglichkeit, also habe ich es im Vakuumanzug gemacht.</DBHRelievedInVacSuit.stages.0.description>
+
 </LanguageData>

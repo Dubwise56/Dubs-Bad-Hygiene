@@ -96,6 +96,44 @@
         </placeWorkers>
     </ThingDef>
 
+    <ThingDef ParentName="BasedWaterWell" DBHLite="true">
+        <defName>SurfaceWaterInlet</defName>
+        <label>surface water intake</label>
+        <description>A pipe laid into open fresh water, facing the water, which can be pumped by water pumps like a well. Rivers provide the most water, then lakes; marsh water provides the least and is stagnant, contaminating the water it is pumped into. Sea water can't be used. It can travel with a gravship and starts drawing water again wherever it lands next to water.</description>
+        <graphicData>
+            <texPath>DBH/Things/Building/Sewage/sewagePipe</texPath>
+            <graphicClass>Graphic_Multi</graphicClass>
+            <drawSize>(3,3)</drawSize>
+            <drawRotated>true</drawRotated>
+            <damageData>
+                <rect>(0.05,0.05,0.95,0.95)</rect>
+            </damageData>
+        </graphicData>
+        <uiIconPath>DBH/UI/outlet</uiIconPath>
+        <statBases>
+            <WorkToBuild>3000</WorkToBuild>
+        </statBases>
+        <costList>
+            <Steel>25</Steel>
+        </costList>
+        <researchPrerequisites>
+            <li MayRequire="dbhlitemode">Plumbing</li>
+        </researchPrerequisites>
+        <comps>
+            <li Class="DubsBadHygiene.CompProperties_Pipe">
+                <mode>Sewage</mode>
+            </li>
+            <li Class="DubsBadHygiene.CompProperties_WaterInlet">
+                <compClass>DubsBadHygiene.CompSurfaceWaterInlet</compClass>
+                <Radius>15</Radius>
+            </li>
+        </comps>
+        <placeWorkers>
+            <li>DubsBadHygiene.PlaceWorker_SurfaceWater</li>
+            <li>DubsBadHygiene.PlaceWorker_SewageGrid</li>
+        </placeWorkers>
+    </ThingDef>
+
     <ThingDef Name="BasedWaterTower" ParentName="BasedHygieneMom" Abstract="True">
         <tickerType>Normal</tickerType>
         <blockWind>true</blockWind>

@@ -2,7 +2,7 @@
 <LanguageData>
 
   <PipeVisibility.label>Widoczność rurociągu</PipeVisibility.label>
-  <PipeVisibility.options.0.label>Ukryty</PipeVisibility.options.0.label></PipeVisibility.options.0.label>
+  <PipeVisibility.options.0.label>Ukryty</PipeVisibility.options.0.label>
   <PipeVisibility.options.1.label>Ukryty pod podłogą</PipeVisibility.options.1.label>
   <PipeVisibility.options.2.label>Zawsze widoczny</PipeVisibility.options.2.label>
 

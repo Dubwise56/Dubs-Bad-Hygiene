@@ -171,7 +171,7 @@
   <RimefellerLinkTip>Permettre l'utilisation d'eau sur les craquelins et les raffineurs de Rimefeller</RimefellerLinkTip>
   <RimatomicsLink>Liens avec Rimatomics</RimatomicsLink>
   <RimatomicsLinkTip>Activer l'utilisation de l'eau sur les tours de refroidissement dans Rimatomics</RimatomicsLinkTip>
-  <OverrideNeedSettingsTip>Override the need settings and mod patches to manually disable needs for specific pawn types, or when a hediff is active.\nIf you disable by hediff then the hediff must call "AddOrRemoveNeedsAsAppropriate" when applied</OverrideNeedSettingsTip>
+  <OverrideNeedSettingsTip>Désactiver manuellement les besoins selon le type de corps, la race, une hediff active, un gène ou un trait.</OverrideNeedSettingsTip>
   <OverrideNeedsSettings>Remplacer les paramètres de besoin</OverrideNeedsSettings>
   <Disablebladderneed>Désactiver les besoins en vessie</Disablebladderneed>
   <Disablehygieneneed>Désactiver le besoin d'hygiène</Disablehygieneneed>
@@ -205,5 +205,18 @@
   
   <GetPaintShop>Obtenez le magasin de peinture de Dub</GetPaintShop>
 
+
+  <ChildrenGetNeeds>Enfants</ChildrenGetNeeds>
+  <ChildrenGetNeedsTip>Définit si les enfants ont des besoins. Les bébés n'ont jamais de besoin de vessie.</ChildrenGetNeedsTip>
+  <ChildrenGetThirst>Soif des enfants</ChildrenGetThirst>
+  <ChildrenGetThirstTip>Les enfants ont le besoin de soif. Les bébés jamais.</ChildrenGetThirstTip>
+  <DBH.FertilizeZone>Fertiliser (Bad Hygiene)</DBH.FertilizeZone>
+  <DBH.FertilizeZoneDesc>Bad Hygiene : les cultivateurs épandent des biosolides sur toute cette zone de culture, comme sur la zone de fertilisation. Pour ne fertiliser qu'une partie d'une zone, utilisez plutôt la zone de fertilisation.</DBH.FertilizeZoneDesc>
+  <DBH.NeedsSurfaceWater>Doit faire face à une eau douce de surface : rivière, lac ou marais.</DBH.NeedsSurfaceWater>
+  <DBH.SurfaceWaterCells>Cases d'eau de surface : rivière {0}, lac {1}, marais {2}</DBH.SurfaceWaterCells>
+  <DBH.SurfaceWaterStagnant>Eau de marais stagnante : contamine l'approvisionnement en eau sauf si elle est filtrée.</DBH.SurfaceWaterStagnant>
+  <DBHVacuum>Dans le vide</DBHVacuum>
+  <dbh.restartlater>Plus tard</dbh.restartlater>
+  <ThirstRequiresRestart>Un redémarrage est nécessaire pour ajouter et retirer les objets liés à la soif.\n\nRedémarrer maintenant ?</ThirstRequiresRestart>
 
 </LanguageData>

@@ -81,4 +81,7 @@
   <!-- EN: Stores water for use by plumbed fixtures. The water must be drained if it becomes contaminated. Capacity: 2000. -->
   <WaterTankSmall.description>Speichert Wasser, das von Sanitäranlagen genutzt werden kann. Bei Kontamination muss das Wasser abgelassen werden.\n\nKapazität: 2.000 Liter</WaterTankSmall.description>
 
+  <SurfaceWaterInlet.label>Oberflächenwasser-Einlass</SurfaceWaterInlet.label>
+  <SurfaceWaterInlet.description>Ein Rohr, das in offenes Süßwasser gelegt wird und zum Wasser zeigt, aus dem Pumpen wie aus einem Brunnen pumpen können. Flüsse liefern am meisten Wasser, dann Seen; Sumpfwasser liefert am wenigsten und ist abgestanden, es verunreinigt das Wasser, in das es gepumpt wird. Meerwasser ist nicht nutzbar. Er kann mit einem Gravschiff reisen und beginnt nach der Landung am Wasser wieder Wasser zu ziehen.</SurfaceWaterInlet.description>
+
 </LanguageData>

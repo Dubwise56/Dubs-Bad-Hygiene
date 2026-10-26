@@ -212,7 +212,7 @@
   <RimefellerLinkTip>Umožní využití vody pro krakování a rafinaci v módu Rimefeller</RimefellerLinkTip>
   <RimatomicsLink>Spojení s módem Rimatomics</RimatomicsLink>
   <RimatomicsLinkTip>Umožní využití vody v chladících věžích v módu Rimatomics.</RimatomicsLinkTip>
-  <OverrideNeedSettingsTip>Manuální nastavení potřeb pro různé druhy, rasy či aktivní stavy.</OverrideNeedSettingsTip>
+  <OverrideNeedSettingsTip>Manuální nastavení potřeb pro různé druhy, rasy, aktivní stavy, geny či rysy.</OverrideNeedSettingsTip>
   <OverrideNeedsSettings>Filtr potřeb</OverrideNeedsSettings>
   <Disablebladderneed>Vypnout potřebu vyměšování</Disablebladderneed>
   <Disablehygieneneed>Vypnout potřebu hygieny</Disablehygieneneed>
@@ -263,5 +263,17 @@
   <HydroponicsLink>Hydroponie</HydroponicsLink>
   <HydroponicsLinkTip>Elektricky napájená zařízení pro růst rostlin, jako například hydroponie, budou mít integrované vodní nádrže, které bude nutné plnit z potrubí. Rostliny zahynou při nedostatku vody namísto nedostatku elektřiny, ale bez elektřiny se zase nebudou plnit nádrže.</HydroponicsLinkTip>
   <ThirstRequiresRestart>Pro přidání či odstranění předmětů souvisejících s pitím je nutný restart.\n\nRestartovat nyní?</ThirstRequiresRestart>
+
+	<ChildrenGetNeeds>Děti</ChildrenGetNeeds>
+	<ChildrenGetNeedsTip>Nastavte, zda mají mít děti potřeby. Nemluvňata nikdy nemají potřebu močového měchýře.</ChildrenGetNeedsTip>
+	<ChildrenGetThirst>Žízeň dětí</ChildrenGetThirst>
+	<ChildrenGetThirstTip>Děti mají potřebu žízně. Nemluvňata nikdy.</ChildrenGetThirstTip>
+	<DBH.FertilizeZone>Hnojit (Bad Hygiene)</DBH.FertilizeZone>
+	<DBH.FertilizeZoneDesc>Bad Hygiene: pěstitelé rozprostřou biosolidy po celé pěstební zóně, stejně jako v hnojené oblasti. Chcete-li hnojit jen část zóny, použijte místo toho hnojenou oblast.</DBH.FertilizeZoneDesc>
+	<DBH.NeedsSurfaceWater>Musí směřovat k povrchové sladké vodě: řece, jezeru nebo bažině.</DBH.NeedsSurfaceWater>
+	<DBH.SurfaceWaterCells>Políčka povrchové vody: řeka {0}, jezero {1}, bažina {2}</DBH.SurfaceWaterCells>
+	<DBH.SurfaceWaterStagnant>Stojatá bažinná voda: bez filtrace kontaminuje zásobování vodou.</DBH.SurfaceWaterStagnant>
+	<DBHVacuum>Ve vakuu</DBHVacuum>
+	<dbh.restartlater>Později</dbh.restartlater>
 
 </LanguageData>

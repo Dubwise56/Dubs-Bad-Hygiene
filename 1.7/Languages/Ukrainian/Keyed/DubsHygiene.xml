@@ -166,7 +166,7 @@
   <RimefellerLinkTip>Дозволити використання води для розщеплювачів та нафтопереробників у Rimefeller</RimefellerLinkTip>
   <RimatomicsLink>Rimatomics підключений</RimatomicsLink>
   <RimatomicsLinkTip>Дозволити використання води в охолоджувальних установках Rimatomics</RimatomicsLinkTip>
-  <OverrideNeedSettingsTip>Вимкнути вручну потреби в залежності від типу тіла, раси та стану здоров'я</OverrideNeedSettingsTip>
+  <OverrideNeedSettingsTip>Вимкнути вручну потреби в залежності від типу тіла, раси, стану здоров'я, гена чи риси</OverrideNeedSettingsTip>
   <OverrideNeedsSettings>Фільтри потреб</OverrideNeedsSettings>
   <Disablebladderneed>Вимкнути малу потребу</Disablebladderneed>
   <Disablehygieneneed>Вимкнути потребу в гігієні</Disablehygieneneed>
@@ -200,5 +200,18 @@
   
   <GetPaintShop>Додати Dub's Paint Shop</GetPaintShop>
   
+
+  <ChildrenGetNeeds>Діти</ChildrenGetNeeds>
+  <ChildrenGetNeedsTip>Чи мають діти мати потреби. Немовлята ніколи не мають потреби сечового міхура.</ChildrenGetNeedsTip>
+  <ChildrenGetThirst>Спрага у дітей</ChildrenGetThirst>
+  <ChildrenGetThirstTip>Діти мають потребу в спразі. Немовлята — ніколи.</ChildrenGetThirstTip>
+  <DBH.FertilizeZone>Удобрювати (Bad Hygiene)</DBH.FertilizeZone>
+  <DBH.FertilizeZoneDesc>Bad Hygiene: рослинники розкидають добриво по всій зоні вирощування, як у зоні удобрення. Щоб удобрювати лише частину зони, використовуйте зону удобрення.</DBH.FertilizeZoneDesc>
+  <DBH.NeedsSurfaceWater>Має бути звернений до прісної поверхневої води: річки, озера чи болота.</DBH.NeedsSurfaceWater>
+  <DBH.SurfaceWaterCells>Клітинки поверхневої води: річка {0}, озеро {1}, болото {2}</DBH.SurfaceWaterCells>
+  <DBH.SurfaceWaterStagnant>Стояча болотна вода: забруднює водопостачання, якщо її не фільтрувати.</DBH.SurfaceWaterStagnant>
+  <DBHVacuum>У вакуумі</DBHVacuum>
+  <dbh.restartlater>Пізніше</dbh.restartlater>
+  <ThirstRequiresRestart>Щоб додати чи прибрати предмети, пов'язані зі спрагою, потрібен перезапуск.\n\nПерезапустити зараз?</ThirstRequiresRestart>
 
 </LanguageData>

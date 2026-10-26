@@ -194,6 +194,8 @@
     <NoFertilizerFound>No fertilizer found</NoFertilizerFound>
     <AreaPlaceFertilizer>Fertilizer area</AreaPlaceFertilizer>
     <AreaPlaceFertilizerDesc>Designate areas to fertilize with biosolids.</AreaPlaceFertilizerDesc>
+    <DBH.FertilizeZone>Fertilize (Bad Hygiene)</DBH.FertilizeZone>
+    <DBH.FertilizeZoneDesc>Bad Hygiene: growers spread biosolids over this whole growing zone, as they do on the fertilizer area. To fertilize only part of a zone, use the fertilizer area instead.</DBH.FertilizeZoneDesc>
     <AddFertilizerArea>Add area</AddFertilizerArea>
     <RemoveFertilizerArea>Remove area</RemoveFertilizerArea>
 
@@ -208,6 +210,8 @@
     <dbh.ModRemoveDesc>Steps:\n\n1: Save your game immediately after pressing confirm\n2: Quit to the main menu and disable the mod and restart the game\n3: Load your save game, ignore any exceptions and save it again\nLoad the save game once more and there shouldn't be any exceptions related to missing bad hygiene defs or classes!</dbh.ModRemoveDesc>
     <PetsGetThirst>Pet thirst</PetsGetThirst>
     <PetsGetThirstTip>Pets get the thirst need</PetsGetThirstTip>
+    <ChildrenGetThirst>Child thirst</ChildrenGetThirst>
+    <ChildrenGetThirstTip>Children get the thirst need. Babies never do.</ChildrenGetThirstTip>
     <fixtureQualityRequiresRestart>A restart is required to add quality and art comps back in.\n\n restart now?</fixtureQualityRequiresRestart>
     <fixtureQuality>Fixture quality and art</fixtureQuality>
     <fixtureQualityTip>Enable quality and art comps for fixtures like toilets</fixtureQualityTip>
@@ -216,7 +220,7 @@
     <RimefellerLinkTip>Enable water usage on crackers and refiners in Rimefeller.</RimefellerLinkTip>
     <RimatomicsLink>Rimatomics link</RimatomicsLink>
     <RimatomicsLinkTip>Enable water usage on cooling towers in Rimatomics.</RimatomicsLinkTip>
-    <OverrideNeedSettingsTip>Manually disable needs by body type, race, or active hediff.</OverrideNeedSettingsTip>
+    <OverrideNeedSettingsTip>Manually disable needs by body type, race, active hediff, gene or trait.</OverrideNeedSettingsTip>
     <OverrideNeedsSettings>Needs filter</OverrideNeedsSettings>
     <Disablebladderneed>Disable bladder need</Disablebladderneed>
     <Disablehygieneneed>Disable hygiene need</Disablehygieneneed>
@@ -224,6 +228,8 @@
     <NeedCheckboxTip>Tick to enable</NeedCheckboxTip>
     <PrisonersGetNeeds>Prisoners</PrisonersGetNeeds>
     <PrisonersGetNeedsTip>Set if prisoners should have needs</PrisonersGetNeedsTip>
+    <ChildrenGetNeeds>Children</ChildrenGetNeeds>
+    <ChildrenGetNeedsTip>Set if children should have needs. Babies never have a bladder need.</ChildrenGetNeedsTip>
     <HospitalityGuestsGetNeeds>Guests</HospitalityGuestsGetNeeds>
     <HospitalityGuestsGetNeedsTip>Set if guests have needs</HospitalityGuestsGetNeedsTip>
     <PrivacyChecks>Privacy</PrivacyChecks>
@@ -268,4 +274,7 @@
     <HydroponicsLinkTip>Powered growing buildings like hydroponics have water tanks that require filling from pipes. Plants die from lack of water instead of power, but water tanks only fill when the building is powered.</HydroponicsLinkTip>
     <ThirstRequiresRestart>A restart is required to add and remove thirst-related items.\n\nRestart now?</ThirstRequiresRestart>
 
+    <DBH.NeedsSurfaceWater>Must face fresh surface water: a river, lake or marsh.</DBH.NeedsSurfaceWater>
+    <DBH.SurfaceWaterCells>Surface water cells: river {0}, lake {1}, marsh {2}</DBH.SurfaceWaterCells>
+    <DBH.SurfaceWaterStagnant>Stagnant marsh water: contaminates the water supply unless filtered.</DBH.SurfaceWaterStagnant>
 </LanguageData>

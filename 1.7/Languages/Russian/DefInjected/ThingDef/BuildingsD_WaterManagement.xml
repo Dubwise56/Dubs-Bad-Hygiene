@@ -84,4 +84,7 @@
   <DeepWaterWellInlet_Frame.label>глубинная скважина (в процессе сборки)</DeepWaterWellInlet_Frame.label>
   <DeepWaterWellInlet_Frame.description>Предоставляет доступ к грунтовым водам для перекачки насосами. Вода из глубинных скважин не подвержена загрязнению.</DeepWaterWellInlet_Frame.description>
 
+  <SurfaceWaterInlet.label>водозабор поверхностной воды</SurfaceWaterInlet.label>
+  <SurfaceWaterInlet.description>Труба, уложенная в открытую пресную воду и обращённая к ней, из которой насосы могут качать воду, как из скважины. Реки дают больше всего воды, затем озёра; болотная вода даёт меньше всего, она стоячая и загрязняет воду, в которую её закачивают. Морскую воду использовать нельзя. Может путешествовать на гравикорабле и после посадки у воды снова начинает забирать воду.</SurfaceWaterInlet.description>
+
 </LanguageData>

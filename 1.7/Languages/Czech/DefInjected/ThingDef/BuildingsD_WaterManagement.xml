@@ -45,4 +45,7 @@
 
 	<DeepWaterWellInlet.description>Zpřístupňuje podzemní vodu ve velké oblasti, kterou lze následně čerpat pomocí vodních čerpadel. Voda z hlubokých studní není ovlivňována znečištěním.</DeepWaterWellInlet.description>
 
+	<SurfaceWaterInlet.label>Odběr povrchové vody</SurfaceWaterInlet.label>
+	<SurfaceWaterInlet.description>Potrubí položené do otevřené sladké vody, natočené k vodě, ze kterého mohou čerpadla čerpat jako ze studny. Řeky dávají nejvíce vody, pak jezera; bažinná voda dává nejméně a je stojatá, takže kontaminuje vodu, do které je čerpána. Mořskou vodu použít nelze. Může cestovat s gravitační lodí a po přistání u vody znovu začne odebírat vodu.</SurfaceWaterInlet.description>
+
 </LanguageData>

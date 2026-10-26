@@ -56,4 +56,6 @@
   <!-- EN: unclogging the blocked TargetA -->
   <clearBlockage.reportString>beseitigt die Verstopfung in TargetA.</clearBlockage.reportString>
 
+  <DBHRelieveInVacSuit.reportString>erleichtert sich im Vakuumanzug</DBHRelieveInVacSuit.reportString>
+
 </LanguageData>

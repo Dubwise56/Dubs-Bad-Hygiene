@@ -61,4 +61,7 @@
   <!-- EN: Pumps water from wells to water towers. Pumping capacity: 3000 L/day. -->
   <WindPump.description>將井裡的水抽到水塔。抽水能力: 3000 L/天</WindPump.description>
   
+  <SurfaceWaterInlet.label>地表取水口</SurfaceWaterInlet.label>
+  <SurfaceWaterInlet.description>鋪設在開闊淡水中、面向水面的取水管，可像水井一樣由水泵抽水。河流提供的水最多，其次是湖泊；沼澤水最少且是死水，會污染被泵入的水。無法使用海水。它可以隨重力飛船一起移動，降落後只要面向水面就會重新開始取水。</SurfaceWaterInlet.description>
+
 </LanguageData>

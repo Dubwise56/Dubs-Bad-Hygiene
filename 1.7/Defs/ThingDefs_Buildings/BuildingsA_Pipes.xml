@@ -63,6 +63,9 @@
             <li>Stony</li>
         </stuffCategories>
         <costStuffCount>1</costStuffCount>
+        <replaceTags>
+            <li>DBHPlumbing</li>
+        </replaceTags>
         <comps>
             <li Class="DubsBadHygiene.CompProperties_Pipe">
                 <mode>Sewage</mode>
@@ -166,6 +169,9 @@
         <costList>
             <Steel>1</Steel>
         </costList>
+        <replaceTags>
+            <li>DBHAirPipe</li>
+        </replaceTags>
         <comps>
             <li Class="DubsBadHygiene.CompProperties_Pipe">
                 <mode>Air</mode>

@@ -55,4 +55,6 @@
 
 	<clearBlockage.reportstring>Uvolňuje ucpaný objekt: TargetA</clearBlockage.reportstring>
 
+	<DBHRelieveInVacSuit.reportString>ulevuje si ve vakuovém obleku</DBHRelieveInVacSuit.reportString>
+
 </LanguageData>
